@@ -16,6 +16,11 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
+          "#cobblemon:is_river"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_arid",
           "#cobblemon:is_temperate"
         ]

@@ -16,6 +16,12 @@
       "weight": 0.05,
       "condition": {
         "biomes": [
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_jungle"
         ]
       },

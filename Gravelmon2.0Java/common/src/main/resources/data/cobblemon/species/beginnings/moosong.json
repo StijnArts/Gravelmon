@@ -7,7 +7,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 4.800000000000001,
+  "baseScale": 0.21333333333333335,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -96,8 +96,8 @@
   "nationalPokedexNumber": 9245,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.8125,
+    "height": 2.8125,
     "fixed": false
   },
   "features": [],

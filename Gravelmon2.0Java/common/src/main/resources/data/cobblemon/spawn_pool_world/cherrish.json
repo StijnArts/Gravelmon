@@ -16,11 +16,16 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:has_season/winter",
-          "#cobblemon:has_season/summer"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

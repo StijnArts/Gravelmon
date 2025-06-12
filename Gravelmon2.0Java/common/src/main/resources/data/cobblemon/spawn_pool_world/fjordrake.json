@@ -16,11 +16,16 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_beach",
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_coast"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_beach",
+          "#cobblemon:has_season/summer"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

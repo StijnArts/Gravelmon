@@ -16,6 +16,11 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
+          "#cobblemon:is_floral"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_grassland"
         ]
       },

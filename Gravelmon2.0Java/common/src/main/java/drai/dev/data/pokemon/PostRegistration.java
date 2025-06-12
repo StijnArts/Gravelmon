@@ -270,7 +270,7 @@ public class PostRegistration {
             }
         }
 
-        fixSpawnsForAllPokemon();
+//        fixSpawnsForAllPokemon();
 //
 //        POKEMON_REGISTRY.values().forEach(SpawnDefinitionConverter::updateSpawnDefinitionInFile);
     }

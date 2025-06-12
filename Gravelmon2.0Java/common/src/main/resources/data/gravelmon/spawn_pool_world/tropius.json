@@ -44,11 +44,16 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle",
-          "#cobblemon:is_desert"
+          "#cobblemon:has_season/summer"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_desert"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

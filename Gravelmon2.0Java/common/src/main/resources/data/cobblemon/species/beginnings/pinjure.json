@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 4.800000000000001,
+  "baseScale": 0.24615384615384617,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -102,8 +102,8 @@
   "nationalPokedexNumber": 9247,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.4375,
+    "height": 2.4375,
     "fixed": false
   },
   "features": [],

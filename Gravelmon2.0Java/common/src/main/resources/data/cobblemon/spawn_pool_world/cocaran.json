@@ -16,13 +16,18 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean",
-          "#cobblemon:is_cold",
-          "#cobblemon:is_coast"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean",
+          "#cobblemon:is_cold",
+          "#cobblemon:is_coast"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

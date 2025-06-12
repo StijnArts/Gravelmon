@@ -7,7 +7,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "zombark",
   "baseScale": 0.44571428571428573,
   "cannotDynamax": false,
   "abilities": [
@@ -131,9 +130,7 @@
   ],
   "labels": [
     "mystis",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.decaynine.desc"

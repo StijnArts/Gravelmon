@@ -16,10 +16,15 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freshwater"
+          "#cobblemon:is_lukewarm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -16,10 +16,15 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains"
+          "#cobblemon:is_floral"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

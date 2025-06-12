@@ -16,6 +16,11 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#minecraft:is_deep_ocean"
         ]
       },
@@ -37,6 +42,11 @@
       "level": "4-24",
       "weight": 0.9,
       "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      },
+      "anticondition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
         ]

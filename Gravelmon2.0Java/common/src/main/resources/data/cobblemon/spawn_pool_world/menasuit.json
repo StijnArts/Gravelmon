@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "26-37",
-      "weight": 0.65,
+      "level": "26-46",
+      "weight": 0.5,
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"

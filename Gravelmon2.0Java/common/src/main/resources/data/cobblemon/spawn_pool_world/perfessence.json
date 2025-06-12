@@ -16,11 +16,16 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle",
-          "#cobblemon:is_spooky"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_spooky"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

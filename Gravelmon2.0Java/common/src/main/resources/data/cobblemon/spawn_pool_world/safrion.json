@@ -16,9 +16,15 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains"
+          "#cobblemon:is_floral",
+          "#cobblemon:is_jungle"
         ],
         "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_plains"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

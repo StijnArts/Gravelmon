@@ -125,11 +125,16 @@
       "weight": 0.12,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_plains"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

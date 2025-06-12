@@ -16,11 +16,17 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate",
-          "#cobblemon:is_arid"
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate",
+          "#cobblemon:is_arid"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -40,6 +46,12 @@
       "level": "40-60",
       "weight": 0.9,
       "condition": {
+        "biomes": [
+          "#cobblemon:is_river",
+          "#cobblemon:is_cold_ocean"
+        ]
+      },
+      "anticondition": {
         "biomes": [
           "#cobblemon:is_temperate",
           "#cobblemon:is_arid"

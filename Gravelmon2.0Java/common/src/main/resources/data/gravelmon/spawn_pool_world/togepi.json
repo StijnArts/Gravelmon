@@ -41,7 +41,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "4-24",
-      "weight": 11.700000000000001,
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_mountain"

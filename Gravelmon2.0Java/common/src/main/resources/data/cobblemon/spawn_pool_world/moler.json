@@ -16,11 +16,16 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
+          "#cobblemon:is_cave"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:has_season/spring"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

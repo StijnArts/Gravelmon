@@ -8,7 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 4.800000000000001,
+  "baseScale": 0.16000000000000003,
   "cannotDynamax": false,
   "abilities": [
     "triage",
@@ -122,8 +122,8 @@
   "nationalPokedexNumber": 9248,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.75,
+    "height": 3.75,
     "fixed": false
   },
   "features": [],

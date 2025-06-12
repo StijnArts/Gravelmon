@@ -16,11 +16,17 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:has_season/spring",
-          "#cobblemon:has_season/summer"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_coast"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/spring",
+          "#cobblemon:has_season/summer"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -16,10 +16,16 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_ocean"
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/autumn"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

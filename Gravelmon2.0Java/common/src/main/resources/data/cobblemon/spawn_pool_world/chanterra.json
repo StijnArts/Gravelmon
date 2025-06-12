@@ -16,9 +16,15 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_mushroom",
+          "#gravelmon:is_deciduous_forest"
         ],
         "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

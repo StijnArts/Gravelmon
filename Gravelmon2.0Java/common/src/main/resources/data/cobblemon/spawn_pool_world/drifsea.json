@@ -17,6 +17,11 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_cold_ocean"
         ]
       },

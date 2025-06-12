@@ -16,10 +16,16 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_freshwater"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_frozen"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_freshwater"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

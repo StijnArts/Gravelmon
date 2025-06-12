@@ -16,10 +16,15 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_temperate"
+          "#minecraft:is_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_temperate"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -39,6 +44,11 @@
       "level": "5-25",
       "weight": 9.0,
       "condition": {
+        "biomes": [
+          "#minecraft:is_ocean"
+        ]
+      },
+      "anticondition": {
         "biomes": [
           "#cobblemon:is_temperate"
         ]

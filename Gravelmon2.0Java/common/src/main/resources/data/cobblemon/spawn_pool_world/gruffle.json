@@ -16,6 +16,12 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
+          "#gravelmon:is_deciduous_forest",
+          "#cobblemon:is_mushroom"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_jungle"
         ]
       },

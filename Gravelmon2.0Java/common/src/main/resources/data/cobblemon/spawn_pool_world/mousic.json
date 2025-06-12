@@ -16,11 +16,16 @@
       "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,
         "timeRange": "day"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

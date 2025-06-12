@@ -16,9 +16,14 @@
       "weight": 0.12,
       "condition": {
         "biomes": [
-          "#cobblemon:is_highlands"
+          "#cobblemon:is_overworld"
         ],
         "isThundering": true
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_highlands"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pupail",
-  "baseScale": 18.0,
+  "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -98,8 +98,8 @@
   "nationalPokedexNumber": 9256,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.875,
+    "height": 4.875,
     "fixed": false
   },
   "features": [],

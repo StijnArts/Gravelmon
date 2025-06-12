@@ -16,12 +16,17 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_jungle",
-          "#cobblemon:is_plains",
-          "#cobblemon:is_plateau"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_plains",
+          "#cobblemon:is_plateau"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

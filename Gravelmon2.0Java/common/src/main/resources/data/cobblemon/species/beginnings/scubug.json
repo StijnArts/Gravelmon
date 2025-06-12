@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bouwee",
-  "baseScale": 4.800000000000001,
+  "baseScale": 0.12972972972972974,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,8 +103,8 @@
   "nationalPokedexNumber": 9261,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.625,
+    "height": 4.625,
     "fixed": false
   },
   "features": [],

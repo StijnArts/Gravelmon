@@ -16,10 +16,15 @@
       "weight": 0.4,
       "condition": {
         "biomes": [
-          "#cobblemon:is_warm_ocean"
+          "#minecraft:is_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

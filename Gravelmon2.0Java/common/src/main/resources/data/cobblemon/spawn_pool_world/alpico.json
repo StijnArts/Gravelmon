@@ -16,11 +16,17 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_arid",
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_hills"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_arid",
+          "#cobblemon:is_temperate"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

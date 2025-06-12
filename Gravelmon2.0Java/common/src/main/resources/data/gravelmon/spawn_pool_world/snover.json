@@ -43,10 +43,15 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_taiga"
+          "#cobblemon:is_beach"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -70,10 +75,15 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_snowy"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -20,8 +20,8 @@
           "#cobblemon:has_season/spring",
           "#cobblemon:has_season/autumn"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

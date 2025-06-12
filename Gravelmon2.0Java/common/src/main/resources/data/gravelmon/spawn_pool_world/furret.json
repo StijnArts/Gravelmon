@@ -16,10 +16,16 @@
       "weight": 1.2,
       "condition": {
         "biomes": [
-          "#cobblemon:is_taiga"
+          "#gravelmon:is_deciduous_forest",
+          "#cobblemon:is_lush"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_taiga"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

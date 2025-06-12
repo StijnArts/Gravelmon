@@ -16,6 +16,11 @@
       "weight": 0.09,
       "condition": {
         "biomes": [
+          "#cobblemon:is_swamp"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_cold"
         ]
       },

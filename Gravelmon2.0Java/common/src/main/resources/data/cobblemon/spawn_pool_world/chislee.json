@@ -16,10 +16,16 @@
       "weight": 0.12,
       "condition": {
         "biomes": [
+          "#cobblemon:is_sky",
           "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

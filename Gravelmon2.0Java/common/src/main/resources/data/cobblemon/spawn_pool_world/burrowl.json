@@ -16,10 +16,15 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_desert"
+          "#cobblemon:is_arid"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_desert"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

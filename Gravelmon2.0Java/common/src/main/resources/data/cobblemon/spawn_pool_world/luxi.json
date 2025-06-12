@@ -16,6 +16,11 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
+          "#cobblemon:is_spooky"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_hills"
         ]
       },

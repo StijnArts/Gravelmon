@@ -16,9 +16,14 @@
       "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold"
+          "#cobblemon:is_spooky"
         ],
         "timeRange": "night"
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

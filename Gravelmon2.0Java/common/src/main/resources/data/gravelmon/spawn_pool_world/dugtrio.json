@@ -41,6 +41,11 @@
       "weight": 0.09,
       "condition": {
         "biomes": [
+          "#cobblemon:is_cold"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#gravelmon:is_deciduous_forest"
         ]
       },
@@ -172,10 +177,15 @@
       "weight": 1.2,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_snowy"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#gravelmon:is_deciduous_forest"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

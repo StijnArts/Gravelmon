@@ -7,14 +7,14 @@
       "id": "varitasian_eelektrik-01",
       "pokemon": "eelektrik varitasian",
       "presets": [
-        "natural",
-        "near_water"
+        "near_water",
+        "water"
       ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "uncommon",
-      "level": "39-50",
-      "weight": 1.3,
+      "level": "39-59",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -73,8 +73,8 @@
         "biomes": [
           "#cobblemon:is_arid"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -12,8 +12,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "38-44",
-      "weight": 1.1700000000000002,
+      "level": "38-58",
+      "weight": 1.2,
       "condition": {
         "biomes": [
           "#cobblemon:is_badlands"
@@ -45,8 +45,8 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

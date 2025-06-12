@@ -47,8 +47,8 @@
         "biomes": [
           "minecraft:the_void"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -98,11 +98,16 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold",
-          "#cobblemon:is_temperate"
+          "#cobblemon:is_arid"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_cold",
+          "#cobblemon:is_temperate"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

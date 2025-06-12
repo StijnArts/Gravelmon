@@ -18,8 +18,8 @@
         "biomes": [
           "#cobblemon:is_freshwater"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -96,11 +96,16 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_deep_dark"
+          "#cobblemon:is_arid"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15,
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
         "maxY": 20
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

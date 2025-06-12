@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "civilarva",
-  "baseScale": 13.200000000000001,
+  "baseScale": 0.5866666666666667,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -105,8 +105,8 @@
   "nationalPokedexNumber": 9255,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.8125,
+    "height": 2.8125,
     "fixed": false
   },
   "features": [],

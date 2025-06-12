@@ -40,8 +40,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
-      "level": "24-39",
-      "weight": 11.700000000000001,
+      "level": "24-44",
+      "weight": 12.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky",
@@ -126,11 +126,16 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:has_season/winter",
-          "#cobblemon:has_season/summer"
+          "#gravelmon:is_deciduous_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:has_season/winter",
+          "#cobblemon:has_season/summer"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

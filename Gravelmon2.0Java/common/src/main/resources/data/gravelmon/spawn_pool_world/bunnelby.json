@@ -43,6 +43,11 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
+          "#cobblemon:is_snowy"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_plains"
         ]

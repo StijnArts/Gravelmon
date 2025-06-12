@@ -16,11 +16,16 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_plains",
-          "#cobblemon:has_season/autumn"
+          "#cobblemon:is_floral"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:has_season/autumn"
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -40,8 +45,8 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "6-31",
-      "weight": 2.3400000000000003,
+      "level": "6-26",
+      "weight": 0.9,
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"

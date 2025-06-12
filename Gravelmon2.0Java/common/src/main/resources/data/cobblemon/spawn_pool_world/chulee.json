@@ -16,6 +16,12 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
+          "#cobblemon:is_sky",
+          "#gravelmon:is_deciduous_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
           "#cobblemon:is_jungle"
         ]
       },
