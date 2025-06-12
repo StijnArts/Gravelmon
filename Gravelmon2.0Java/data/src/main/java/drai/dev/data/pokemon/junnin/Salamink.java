@@ -85,15 +85,12 @@ public class Salamink extends drai.dev.data.pokemon.Pokemon {
                 ),
         List.of(Label.JUNNIN),
                 0, List.of(
-        ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_CAVE)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+        ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 37, 1, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
+        ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

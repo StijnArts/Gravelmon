@@ -114,14 +114,13 @@ public class Volchik extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_HIGHLANDS, Biome.IS_BADLANDS)
-    .canSeeSky()
-    .isThundering()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 12, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
     }
 }

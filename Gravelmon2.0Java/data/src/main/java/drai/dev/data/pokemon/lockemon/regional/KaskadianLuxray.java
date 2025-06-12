@@ -88,16 +88,13 @@ public class KaskadianLuxray extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 52, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.2, 0.3,
+                List.of());
         this.setLangFileName("Luxray");
     }
 }

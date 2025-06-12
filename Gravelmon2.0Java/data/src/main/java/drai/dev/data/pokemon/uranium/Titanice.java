@@ -101,7 +101,7 @@ public class Titanice extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_WATER),
-
+                0.29, 0.3,
                 List.of());
 
     }

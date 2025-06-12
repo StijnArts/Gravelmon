@@ -42,16 +42,13 @@ public class Curbludgeon extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_COLD_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 41, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

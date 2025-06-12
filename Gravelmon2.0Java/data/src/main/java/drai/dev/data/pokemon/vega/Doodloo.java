@@ -34,17 +34,14 @@ public class Doodloo extends Pokemon {
                         new MoveLearnSetEntry(Move.SKETCH,91)
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(16)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
-    .build(), List.of());
-	
+                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 5.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
+                ), List.of(),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                0.4, 0.3,
+                List.of());
 
         
         this.setBaseScale(0.9);

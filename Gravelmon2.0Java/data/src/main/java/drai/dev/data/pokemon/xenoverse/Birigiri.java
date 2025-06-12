@@ -74,16 +74,13 @@ public class Birigiri extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(8)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_RIVER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 8, 31, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.3, 0.3,
+                List.of());
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

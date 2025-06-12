@@ -46,16 +46,13 @@ public class Calypstar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOMBSHELL,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(9)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BEACH)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 34, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

@@ -108,17 +108,13 @@ public class Chlorofin extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_RIVER)
-    .setAntiBiomes(Biome.IS_ARID, Biome.IS_COLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 49, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_COLD))),
+                List.of(SpawnPreset.FOLIAGE),
+                0.4, 0.3,
+                List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);

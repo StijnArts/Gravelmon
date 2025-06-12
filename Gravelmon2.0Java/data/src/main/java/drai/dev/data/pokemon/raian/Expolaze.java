@@ -28,17 +28,14 @@ public class Expolaze extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(21)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .atNight()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 44, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
            setLangFileName("Expolaze");
 

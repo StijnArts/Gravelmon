@@ -115,16 +115,14 @@ public class Victorelic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_TRICK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"false"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Victorelic");
 
     }

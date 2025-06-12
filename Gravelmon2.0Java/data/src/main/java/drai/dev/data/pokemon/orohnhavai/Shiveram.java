@@ -42,17 +42,13 @@ public class Shiveram extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_CHARGE,44)                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FREEZING, Biome.IS_SNOWY)
-    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 47, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Shiveram");
 
     }

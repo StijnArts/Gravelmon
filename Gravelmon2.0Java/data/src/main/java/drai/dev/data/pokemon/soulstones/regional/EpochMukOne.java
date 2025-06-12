@@ -120,15 +120,12 @@ public class EpochMukOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(39)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER)
-    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 39, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), List.of(),
+                List.of(SpawnPreset.LAVA_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
            setLangFileName("Muk");
 

@@ -147,16 +147,13 @@ public class EpochShellosNine extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 31, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
            setLangFileName("Shellos");
 

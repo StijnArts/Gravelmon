@@ -36,16 +36,13 @@ public class NorheimanElectrode extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Electrode");
 
     }

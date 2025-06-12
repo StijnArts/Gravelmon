@@ -43,16 +43,12 @@ public class Chulee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKY_ATTACK,62)     ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SKY, Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_JUNGLE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_DECIDUOUS_FOREST))
+            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

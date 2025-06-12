@@ -41,17 +41,13 @@ public class VesitanFlorges extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,27)                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COLD)
-    .setAntiBiomes(Biome.IS_SNOWY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 46, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Florges");
 
     }

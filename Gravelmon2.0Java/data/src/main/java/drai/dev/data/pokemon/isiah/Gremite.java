@@ -45,16 +45,13 @@ public class Gremite extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 31, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Gremite");
 
     }

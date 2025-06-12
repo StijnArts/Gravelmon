@@ -108,16 +108,13 @@ public class Gauzerpent extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WRIGGLE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(13)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.DESERT_PYRAMID),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Gauzerpent");
 
     }

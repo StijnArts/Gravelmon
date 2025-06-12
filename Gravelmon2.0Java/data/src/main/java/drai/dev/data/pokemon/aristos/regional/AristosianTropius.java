@@ -93,16 +93,13 @@ public class AristosianTropius extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_HAMMER,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TROPICAL_ISLAND, Biome.IS_ISLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_ISLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Tropius");
 
     }

@@ -48,17 +48,13 @@ public class Cloflower extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(1)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_TAIGA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cloflower");
 
     }

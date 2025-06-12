@@ -90,15 +90,12 @@ public class Hatarakuma extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(26)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 46, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
     }
 }

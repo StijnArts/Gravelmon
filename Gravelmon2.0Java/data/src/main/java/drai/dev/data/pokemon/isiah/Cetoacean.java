@@ -41,17 +41,14 @@ public class Cetoacean extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

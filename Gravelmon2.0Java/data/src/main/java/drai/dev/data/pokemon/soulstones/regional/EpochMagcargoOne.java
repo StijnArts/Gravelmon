@@ -130,15 +130,12 @@ public class EpochMagcargoOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 33, 52, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Magcargo");

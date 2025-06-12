@@ -29,16 +29,13 @@ public class Frosling extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(13)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 36, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Frosling");
 
     }

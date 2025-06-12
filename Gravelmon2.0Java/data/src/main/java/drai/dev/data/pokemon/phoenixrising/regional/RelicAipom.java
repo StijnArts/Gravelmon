@@ -92,17 +92,13 @@ public class RelicAipom extends Pokemon {
                         ),
                 List.of(Label.PHOENIX_RISING, Label.GEN2),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_JUNGLE, Biome.IS_PLAINS, Biome.IS_PLATEAU)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 36, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_PLAINS, Biome.IS_PLATEAU))),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Aipom");
 
     }

@@ -122,15 +122,12 @@ public class EpochLanturn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(27)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 27, 43, .4, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

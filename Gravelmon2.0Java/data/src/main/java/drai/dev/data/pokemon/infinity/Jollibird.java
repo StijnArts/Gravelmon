@@ -114,17 +114,14 @@ public class Jollibird extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.ULTRA_RARE)
-    .setMinLevel(44)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY, Biome.IS_MOUNTAIN)
-    .atNight()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY,Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.29, 0.3,
+                List.of());
 
             this.setPreEvolution("delibird");
         addAdditionalEvolution("delibird", new EvolutionEntry("jollibird", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.DAZZLING_GLEAM, "")),

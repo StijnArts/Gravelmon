@@ -128,16 +128,13 @@ public class Comenoid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COSMIC_POWER,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 28, 54, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

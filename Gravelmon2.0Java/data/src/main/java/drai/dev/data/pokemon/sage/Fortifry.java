@@ -70,17 +70,13 @@ public class Fortifry extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(4)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_RIVER)
-    .setAntiBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 4, 12, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE,Biome.IS_ARID))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.4, 0.5,
+                List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);

@@ -98,16 +98,13 @@ public class Sundangler extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_SWAMP)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 33, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

@@ -90,17 +90,13 @@ public class EpochDoubladeOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_TAIGA, Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 46, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Doublade");
 
     }

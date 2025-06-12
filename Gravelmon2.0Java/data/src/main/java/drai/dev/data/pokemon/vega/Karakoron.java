@@ -61,16 +61,13 @@ public class Karakoron extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(45)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL, Biome.IS_MOUNTAIN, Biome.IS_SPOOKY)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 62, 0.06, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_MOUNTAIN, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
         setCanFly(true);
         addAdditionalEvolution("chimecho", new EvolutionEntry("karakoron", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.HYPER_VOICE.getName()))));

@@ -22,17 +22,14 @@ public class Balan extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(43)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN)
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 67, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
             addAdditionalEvolution("absol", new EvolutionEntry("Balan", EvolutionType.LEVEL_UP, List.of(),
                     List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.NIGHT_SLASH.getName()),
                             new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.PLAY_ROUGH.getName()))));

@@ -137,16 +137,13 @@ public class Vipentide extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_COLD_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 37, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setAvoidsLand(true);
 

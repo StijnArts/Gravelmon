@@ -22,14 +22,13 @@ public class Cloueon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .eeveelution()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SKY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
            setLangFileName("Cloueon");
             addAdditionalEvolution("eevee", new EvolutionEntry("cloueon", EvolutionType.ITEM_INTERACT, false, List.of(),

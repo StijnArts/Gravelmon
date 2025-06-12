@@ -37,16 +37,14 @@ public class Pelasquall extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,42)            ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COAST)
-    .setAntiBiomes(Biome.IS_BEACH)
-    .canSeeSky()
-    .isRaining()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

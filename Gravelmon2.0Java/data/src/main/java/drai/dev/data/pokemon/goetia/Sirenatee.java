@@ -22,17 +22,13 @@ public class Sirenatee extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .setAntiBiomes(Biome.IS_COLD_OCEAN, Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 51, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

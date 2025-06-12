@@ -87,16 +87,13 @@ public class Leaflow extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_BLADE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(9)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_SWAMP, Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 9, 31, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

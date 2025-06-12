@@ -41,14 +41,13 @@ public class Balas extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EPILOGUE,60)   ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BAMBOO)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0004, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

@@ -42,16 +42,13 @@ public class Sipsap extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,37)            ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.HONEY_TREE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.HONEY_TREE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Sipsap");
 
     }

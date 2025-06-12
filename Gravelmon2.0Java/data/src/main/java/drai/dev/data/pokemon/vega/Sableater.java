@@ -121,16 +121,13 @@ public class Sableater extends Pokemon {
                         new MoveLearnSetEntry(Move.TRICK,"egg")
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(36)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.GEMSTONES, SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                0, List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 52, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.GEMSTONES, SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
         this.setPreEvolution("sableye");
         addAdditionalEvolution("sableye", new EvolutionEntry("sableater", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));

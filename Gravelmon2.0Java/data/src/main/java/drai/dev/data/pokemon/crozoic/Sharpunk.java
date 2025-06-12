@@ -38,13 +38,12 @@ public class Sharpunk extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .fossil()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT, Biome.IS_LUSH)
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_LUSH))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
            setLangFileName("Sharpunk");
 

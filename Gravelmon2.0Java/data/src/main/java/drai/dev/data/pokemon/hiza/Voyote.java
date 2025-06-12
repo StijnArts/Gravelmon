@@ -35,17 +35,14 @@ public class Voyote extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,1)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(36)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .canSeeSky()
-    .isRaining()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Voyote");
 
     }

@@ -28,16 +28,13 @@ public class Roccoon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CAVE, Biome.IS_HIGHLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 31, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Roccoon");
 
     }

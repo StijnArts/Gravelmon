@@ -111,15 +111,12 @@ public class Chainite extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(43)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 67, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
     }
 }

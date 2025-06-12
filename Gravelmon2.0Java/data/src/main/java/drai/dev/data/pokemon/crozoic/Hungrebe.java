@@ -33,13 +33,12 @@ public class Hungrebe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRILL_PECK,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .fossil()
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_FREEZING, Biome.IS_LUSH)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 23, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_LUSH))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
 

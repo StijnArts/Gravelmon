@@ -50,16 +50,13 @@ public class Guruchi extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(19)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 44, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
     }
 }

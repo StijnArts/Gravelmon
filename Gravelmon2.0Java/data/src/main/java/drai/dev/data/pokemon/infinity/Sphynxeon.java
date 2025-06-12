@@ -102,15 +102,14 @@ public class Sphynxeon extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .eeveelution()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.24, 0.3,
+                List.of());
 
         
         this.setBaseScale(0.8);

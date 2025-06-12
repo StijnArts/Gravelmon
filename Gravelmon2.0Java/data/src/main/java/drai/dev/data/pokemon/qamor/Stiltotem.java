@@ -46,16 +46,13 @@ public class Stiltotem extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_BLADE,1)),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(29)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Stiltotem");
 
     }

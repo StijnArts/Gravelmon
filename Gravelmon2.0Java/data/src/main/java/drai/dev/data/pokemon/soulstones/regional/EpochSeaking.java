@@ -99,17 +99,14 @@ public class EpochSeaking extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_SWAMP)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 56, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

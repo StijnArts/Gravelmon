@@ -80,16 +80,13 @@ public class Tankton extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 25, 39, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

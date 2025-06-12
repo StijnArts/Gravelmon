@@ -143,16 +143,13 @@ public class DeltaGolem extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 57, 0.07, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Golem");
     }
 }

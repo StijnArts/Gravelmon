@@ -47,16 +47,13 @@ public class Psyzul extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TAIGA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 35, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
            setLangFileName("Psyzul");
 

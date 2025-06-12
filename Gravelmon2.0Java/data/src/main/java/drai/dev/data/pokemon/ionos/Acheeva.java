@@ -27,16 +27,13 @@ public class Acheeva extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 42, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Acheeva");
 
     }

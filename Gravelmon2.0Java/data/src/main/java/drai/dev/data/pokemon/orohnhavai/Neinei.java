@@ -48,16 +48,13 @@ public class Neinei extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_RIVER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 23, 47, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setCanFly(true);

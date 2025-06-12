@@ -40,16 +40,13 @@ public class Crocoxic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,68)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 37, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

@@ -122,15 +122,12 @@ public class Oozma extends Pokemon {
                 List.of(Label.INFINITY),
                 4, List.of(
                         new ItemDrop("minecraft:basalt",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(44)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_TOXIC)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 56, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_TOXIC))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
 
     }
 }

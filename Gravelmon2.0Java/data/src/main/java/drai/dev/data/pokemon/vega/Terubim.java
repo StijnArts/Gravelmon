@@ -118,6 +118,7 @@ public class Terubim extends Pokemon {
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
                 List.of(new PokemonForm("sunny", true,
                         Type.FIRE,
                         new Stats(100	,
@@ -146,7 +147,8 @@ public class Terubim extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("rainy", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("rainy", true,
                         Type.WATER,
                         new Stats(100	,
                                 80,
@@ -174,7 +176,8 @@ public class Terubim extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL)),
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),
                         new PokemonForm("snowy", true,
                                 Type.ICE,
                                 new Stats(100	,
@@ -203,6 +206,7 @@ public class Terubim extends Pokemon {
                                 new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                                 new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                         ), List.of(),
-                                List.of(SpawnPreset.NATURAL))));
+                                List.of(SpawnPreset.NATURAL),
+                                1.4, 0.3)));
     }
 }

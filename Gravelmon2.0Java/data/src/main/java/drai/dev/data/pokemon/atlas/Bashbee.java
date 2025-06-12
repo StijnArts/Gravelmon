@@ -81,14 +81,11 @@ public class Bashbee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BEAT_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setSpawnPreset(SpawnPreset.HONEY_TREE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 33, 5, List.of(
+                ), List.of(),
+                List.of(SpawnPreset.HONEY_TREE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Bashbee");
         setCanFly(true);
 

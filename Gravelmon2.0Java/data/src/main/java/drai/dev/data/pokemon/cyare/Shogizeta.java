@@ -22,18 +22,14 @@ public class Shogizeta extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(42)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_JUNGLE, Biome.IS_TAIGA)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 56, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Shogizeta");
 
     }

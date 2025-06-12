@@ -98,17 +98,13 @@ public class Burrmudail extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:feather",50, 1,2),
                         new ItemDrop("minecraft:ice",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_SNOWY)
-    .setAntiBiomes(Biome.IS_PLAINS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 28, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
+                List.of(SpawnPreset.NATURAL),
+                0.5, 0.5,
+                List.of());
 
         
         this.setCanFly(true);

@@ -42,16 +42,13 @@ public class Phonowar extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_FROZEN_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 44, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

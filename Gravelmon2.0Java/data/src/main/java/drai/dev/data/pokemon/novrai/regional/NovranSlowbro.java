@@ -102,15 +102,12 @@ public class NovranSlowbro extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 49, .54, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+        ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Slowbro");
 
     }

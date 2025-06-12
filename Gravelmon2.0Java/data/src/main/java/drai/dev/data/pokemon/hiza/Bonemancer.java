@@ -40,16 +40,13 @@ public class Bonemancer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONEMERANG,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(54)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.MANSION)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 54, 65, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.MANSION),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Bonemancer");
 
     }

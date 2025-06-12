@@ -56,14 +56,13 @@ public class Dracoon extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 47, 0.54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.3, 0.5,
+                List.of());
 
     }
 }

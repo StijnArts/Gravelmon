@@ -101,17 +101,14 @@ public class EghoAltaria extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 50, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         this.setCanFly(true);
         this.setLangFileName("Altaria");
 

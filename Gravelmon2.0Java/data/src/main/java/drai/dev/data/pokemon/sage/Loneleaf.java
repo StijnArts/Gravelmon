@@ -106,17 +106,14 @@ public class Loneleaf extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:dead_bush",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.3, 0.3,
+                List.of());
 
     }
 }

@@ -116,14 +116,13 @@ public class DeltaRuinMetang extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 45, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Metang");
         this.setCanFly(true);
         

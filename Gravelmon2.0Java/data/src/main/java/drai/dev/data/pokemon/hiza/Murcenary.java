@@ -42,16 +42,13 @@ public class Murcenary extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,50)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TROPICAL_ISLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 52, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Murcenary");
 
     }

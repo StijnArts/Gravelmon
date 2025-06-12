@@ -27,14 +27,13 @@ public class Dragorai extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BEACH)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 70, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

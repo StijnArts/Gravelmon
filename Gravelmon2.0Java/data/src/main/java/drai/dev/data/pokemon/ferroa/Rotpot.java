@@ -111,15 +111,12 @@ public class Rotpot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACEPLANT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setSpawnPreset(SpawnPreset.MANSION)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 42, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(),
+                List.of(SpawnPreset.MANSION),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Rotpot");
 
     }

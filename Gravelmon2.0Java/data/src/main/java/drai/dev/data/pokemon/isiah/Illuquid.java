@@ -41,16 +41,13 @@ public class Illuquid extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(17)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF, SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 17, 35, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
         setCanSwim(true);

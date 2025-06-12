@@ -114,17 +114,13 @@ public class Desmodon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_RIVER)
-    .setAntiBiomes(Biome.IS_COLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 54, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.FRESHWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

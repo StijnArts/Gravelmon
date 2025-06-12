@@ -72,16 +72,13 @@ public class Tombeat extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 54, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
         setCanFly(true);
     }
 }

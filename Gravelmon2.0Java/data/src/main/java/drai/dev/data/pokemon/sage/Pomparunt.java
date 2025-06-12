@@ -89,16 +89,13 @@ public class Pomparunt extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",90, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.3, 0.3,
+                List.of());
         
     }
 }

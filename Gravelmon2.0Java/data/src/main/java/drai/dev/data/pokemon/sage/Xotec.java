@@ -89,14 +89,13 @@ public class Xotec extends Pokemon {
                 List.of(Label.SAGE),
                 3, List.of(
                         new ItemDrop("minecraft:sand",90, 3,10)
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                0.18, 0.5,
+                List.of());
 
     }
 }

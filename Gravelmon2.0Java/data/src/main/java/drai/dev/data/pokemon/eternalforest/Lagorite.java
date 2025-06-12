@@ -197,16 +197,13 @@ public class Lagorite extends Pokemon {
                 ),
                 List.of(Label.ETERNAL_FOREST),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(55)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 55, 69, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
     }
 }

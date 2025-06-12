@@ -39,17 +39,13 @@ public class Bearver extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Bearver");
 
     }

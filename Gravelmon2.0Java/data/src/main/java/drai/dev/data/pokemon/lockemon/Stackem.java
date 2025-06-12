@@ -52,6 +52,7 @@ public class Stackem extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);

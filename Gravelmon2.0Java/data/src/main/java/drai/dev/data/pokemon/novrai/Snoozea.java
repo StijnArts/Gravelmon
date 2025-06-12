@@ -88,18 +88,14 @@ public class Snoozea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_OCEAN)
-    .setAntiBiomes(Biome.IS_COLD_OCEAN, Biome.IS_FREEZING)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 5.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN,Biome.IS_FREEZING))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

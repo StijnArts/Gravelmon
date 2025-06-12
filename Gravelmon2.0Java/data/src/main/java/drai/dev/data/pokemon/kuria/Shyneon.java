@@ -112,14 +112,13 @@ public class Shyneon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.YAWN,"egg")                    ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .eeveelution()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CAVE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Shyneon");
            addAdditionalEvolution("eevee", new EvolutionEntry("shyneon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:shiny_stone"));

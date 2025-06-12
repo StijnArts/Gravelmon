@@ -129,15 +129,14 @@ public class Juroxic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 52, 70, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Juroxic");
 
     }

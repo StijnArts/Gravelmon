@@ -40,16 +40,13 @@ public class Rewaxation extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OVERHEAT,54)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.MANSION)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.MANSION),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Rewaxation");
 
     }

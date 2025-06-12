@@ -80,17 +80,14 @@ public class Sunduke extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("cobblemon:sun_stone",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.34, 0.3,
+                List.of());
 
     }
 }

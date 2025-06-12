@@ -48,16 +48,13 @@ public class CefiranDelibird extends Pokemon {
                 ),
                 List.of(Label.GEN2,Label.OPAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(16)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 45, 4.18, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Delibird");
     }
 }

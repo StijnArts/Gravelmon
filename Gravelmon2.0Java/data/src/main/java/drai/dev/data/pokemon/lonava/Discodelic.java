@@ -113,15 +113,12 @@ public class Discodelic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY, Biome.IS_MUSHROOM)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MUSHROOM))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Discodelic");
 
     }

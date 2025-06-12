@@ -102,14 +102,13 @@ public class Pyroat  extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:flint",20, 1,2),
                         new ItemDrop("minecraft:leather",80, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 39, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.9, 0.7,
+                List.of());
         this.setBaseScale(0.9);
         this.setHitbox(1,1);
         this.setHitbox(1,1.4);

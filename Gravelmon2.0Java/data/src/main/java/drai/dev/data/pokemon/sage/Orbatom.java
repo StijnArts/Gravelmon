@@ -94,15 +94,12 @@ public class Orbatom extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:spider_eye",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.2, 0.3,
+                List.of());
 
     }
 }

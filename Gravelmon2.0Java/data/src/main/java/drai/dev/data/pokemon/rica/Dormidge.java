@@ -35,15 +35,12 @@ public class Dormidge extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(10)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND)
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 10, 21, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND))
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

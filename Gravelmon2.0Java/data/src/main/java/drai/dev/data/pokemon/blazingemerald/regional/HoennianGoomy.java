@@ -71,17 +71,14 @@ public class HoennianGoomy extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN6),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.RARE, 5, 30, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Goomy");
 
     }

@@ -103,16 +103,12 @@ public class Magowl extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(26)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setAntiBiomes(Biome.IS_COLD)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 56, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NATURAL),
+                0.5, 0.5,
+                List.of());
 
     }
 }

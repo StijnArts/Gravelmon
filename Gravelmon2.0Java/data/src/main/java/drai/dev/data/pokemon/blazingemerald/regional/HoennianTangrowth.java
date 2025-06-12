@@ -63,17 +63,13 @@ public class HoennianTangrowth extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN4),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS)
-    .setAntiBiomes(Biome.IS_COLD, Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 57, 0.18, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
+                List.of(SpawnPreset.VILLAGE),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Tangrowth");
 
     }

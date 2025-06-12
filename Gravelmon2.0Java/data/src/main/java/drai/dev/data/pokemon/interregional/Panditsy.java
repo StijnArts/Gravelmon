@@ -45,16 +45,13 @@ public class Panditsy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPOTLIGHT,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BAMBOO, Biome.IS_HILLS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 36, 1.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_HILLS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Panditsy");
         addAdditionalEvolution("spinda", new EvolutionEntry("panditsy", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:moon_stone"));

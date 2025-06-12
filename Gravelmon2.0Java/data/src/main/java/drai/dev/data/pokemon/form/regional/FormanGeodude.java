@@ -28,16 +28,13 @@ public class FormanGeodude extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(7)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CAVE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.GEMSTONES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 29, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.GEMSTONES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Geodude");
 
     }

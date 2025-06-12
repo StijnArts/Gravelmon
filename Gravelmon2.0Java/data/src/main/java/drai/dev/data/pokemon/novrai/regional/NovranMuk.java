@@ -120,17 +120,14 @@ public class NovranMuk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SWAMP)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 50, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Muk");
 
     }

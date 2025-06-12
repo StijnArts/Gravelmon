@@ -43,16 +43,13 @@ public class Burnslinger extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(52)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_MAGMA)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 52, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_MAGMA),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Burnslinger");

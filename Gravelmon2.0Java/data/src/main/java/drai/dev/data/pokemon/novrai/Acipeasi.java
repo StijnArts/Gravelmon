@@ -103,16 +103,13 @@ public class Acipeasi extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SUMMER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_CROPS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Acipeasi");
 
     }

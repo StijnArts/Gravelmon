@@ -46,16 +46,13 @@ public class Lamplume extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WITHDRAW,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 61, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.DESERT_PYRAMID),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Lamplume");
 
     }

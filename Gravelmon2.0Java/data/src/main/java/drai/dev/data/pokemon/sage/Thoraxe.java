@@ -98,6 +98,8 @@ public class Thoraxe extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.8, 0.3,
                 List.of());
+
     }
 }

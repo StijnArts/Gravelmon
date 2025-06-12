@@ -153,15 +153,12 @@ public class DeltaBuneary extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(8)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 35, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.2, 0.3,
+                List.of());
         this.setLangFileName("Buneary");
         
         this.setHitbox(1.5, 1.5);

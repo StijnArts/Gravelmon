@@ -43,16 +43,13 @@ public class CefiranKlefki extends Pokemon {
                 ),
                 List.of(Label.OPAL, Label.GEN6),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.RARE, 20, 40, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Klefki");
     }
 }

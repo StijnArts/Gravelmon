@@ -76,15 +76,12 @@ public class Coraga extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(22)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SANDY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 42, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
     }
 }

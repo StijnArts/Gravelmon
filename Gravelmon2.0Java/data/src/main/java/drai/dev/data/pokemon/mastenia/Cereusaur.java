@@ -140,14 +140,13 @@ public class Cereusaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         addAdditionalEvolution("ivysaur", new EvolutionEntry("cereusaur", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,Biome.IS_DESERT.getId() + ":" + Biome.IS_DESERT.getName()),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"))));

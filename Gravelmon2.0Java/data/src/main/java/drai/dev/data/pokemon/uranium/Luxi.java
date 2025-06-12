@@ -108,15 +108,11 @@ public class Luxi extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setAntiBiomes(Biome.IS_HILLS)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 12, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
     }
 }

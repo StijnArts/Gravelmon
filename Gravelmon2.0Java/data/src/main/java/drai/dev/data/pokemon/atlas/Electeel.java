@@ -81,14 +81,13 @@ public class Electeel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VORTEXDRAIN,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .starter()
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Electeel");
         setCanBreathUnderwater(true);
         setCanSwim(true);

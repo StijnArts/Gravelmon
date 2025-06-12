@@ -84,17 +84,13 @@ public class Draggar extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:spruce_log",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)
-    .setAntiBiomes(Biome.IS_FRESHWATER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 3, 28, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER))),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.27, 0.5,
+                List.of());
 
     }
 }

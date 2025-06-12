@@ -121,16 +121,13 @@ public class Draggop extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGONFANG,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(19)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.TREE_TOP)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 33, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.TREE_TOP),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Draggop");
 
     }

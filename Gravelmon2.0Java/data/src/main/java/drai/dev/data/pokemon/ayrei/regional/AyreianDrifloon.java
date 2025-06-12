@@ -106,18 +106,15 @@ public class AyreianDrifloon extends Pokemon {
                 ),
                 List.of(Label.GEN4,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CHERRY_GROVE)
-    .canSeeSky()
-    .atNight()
-    .isNotRaining()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Drifloon");
         this.setCanFly(true);
     }

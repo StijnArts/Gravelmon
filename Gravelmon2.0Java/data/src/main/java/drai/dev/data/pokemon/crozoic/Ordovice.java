@@ -33,13 +33,12 @@ public class Ordovice extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOWFALL,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

@@ -82,16 +82,13 @@ public class Delibo extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(8)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 29, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

@@ -22,16 +22,13 @@ public class Azagger extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(41)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 65, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                0.28, 0.3,
+                List.of());
         addAdditionalEvolution("claydol", new EvolutionEntry("Azagger", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:blaze_rod"));
            setLangFileName("Azagger");

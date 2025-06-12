@@ -118,15 +118,12 @@ public class DeltaScolipede extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_WASTELAND)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 59, 0.05, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Scolipede");
     }
 }

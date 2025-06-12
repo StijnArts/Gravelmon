@@ -115,13 +115,12 @@ public class AyreianCharizard extends Pokemon {
                 ),
                 List.of(Label.GEN1,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Charizard");
     }
 }

@@ -38,16 +38,13 @@ public class Vomelet extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_WRECKER,66)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(29)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.TREE_TOP)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.TREE_TOP),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Vomelet");
 
     }

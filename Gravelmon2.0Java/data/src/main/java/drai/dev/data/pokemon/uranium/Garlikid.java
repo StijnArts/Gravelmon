@@ -110,12 +110,11 @@ public class Garlikid extends Pokemon {
                 ),
                 List.of(Label.URANIUM, Label.LEGENDARY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.00006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.21, 0.3,
+                List.of());
     }
 }

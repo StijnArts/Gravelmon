@@ -113,15 +113,12 @@ public class DeltaLombre extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL, Biome.IS_SPOOKY)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 39, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SPOOKY))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Lombre");
         setBaseScale(0.75);
         setHitbox(1,1);

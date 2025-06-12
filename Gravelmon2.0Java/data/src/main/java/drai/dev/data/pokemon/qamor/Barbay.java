@@ -54,14 +54,13 @@ public class Barbay extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

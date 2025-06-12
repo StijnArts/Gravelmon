@@ -105,15 +105,12 @@ public class EpochArrokuda extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FALSE_SURRENDER,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

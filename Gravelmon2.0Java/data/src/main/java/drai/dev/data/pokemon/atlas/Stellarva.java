@@ -34,16 +34,13 @@ public class Stellarva extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL, Biome.IS_DECIDUOUS_FOREST)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 10, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Stellarva");
 
     }

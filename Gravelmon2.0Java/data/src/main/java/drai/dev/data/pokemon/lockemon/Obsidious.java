@@ -48,6 +48,7 @@ public class Obsidious extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 39, 9, List.of(
                 ), List.of(),
                 List.of(SpawnPreset.NEAR_LAVA, SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of());
     }
 }

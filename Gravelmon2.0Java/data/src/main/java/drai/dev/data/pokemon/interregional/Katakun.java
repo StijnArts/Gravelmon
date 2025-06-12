@@ -42,16 +42,13 @@ public class Katakun extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENSNARE,1)                ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CHERRY_GROVE, Biome.IS_BAMBOO)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE, Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Katakun");
 
     }

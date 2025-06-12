@@ -42,16 +42,13 @@ public class Cropiki extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.DHIOME),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_CROPS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cropiki");
 
     }

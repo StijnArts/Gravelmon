@@ -113,13 +113,12 @@ public class Aguade extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:prismarine",50, 1,2),
                         new ItemDrop("minecraft:leather",50, 1,1)
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COAST)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.9, 0.7,
+                List.of());
         this.setCanSwim(true);
         this.setBaseScale(0.9);
         this.setHitbox(1,1);

@@ -110,18 +110,15 @@ public class AyreianDrifblim extends Pokemon {
                 ),
                 List.of(Label.GEN4,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CHERRY_GROVE)
-    .canSeeSky()
-    .atNight()
-    .isNotRaining()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 50, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Drifblim");
         this.setCanFly(true);
     }

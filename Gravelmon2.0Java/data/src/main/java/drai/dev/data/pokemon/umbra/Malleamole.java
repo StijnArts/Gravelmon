@@ -82,15 +82,12 @@ public class Malleamole extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .canSeeSky()
-    .belowY(20)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 41, 4.0, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
+                        new SpawnCondition(SpawnConditionType.MAXY, "20")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
     }
 }

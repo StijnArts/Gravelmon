@@ -44,17 +44,13 @@ public class Foaloch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,64)),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_SWAMP)
-    .setAntiBiomes(Biome.IS_WINTER, Biome.IS_SUMMER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 6, 27, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER,Biome.IS_SUMMER))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

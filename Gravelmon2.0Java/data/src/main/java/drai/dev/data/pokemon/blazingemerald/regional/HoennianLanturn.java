@@ -64,16 +64,13 @@ public class HoennianLanturn extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .belowY(40)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 56, 0.54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY, "40")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Lanturn");
 
         this.setCanSwim(true);

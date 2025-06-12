@@ -27,16 +27,13 @@ public class LagoonanTinkaton extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BEACH, Biome.IS_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH, Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.SHIP_WRECK),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Tinkaton");
 
     }

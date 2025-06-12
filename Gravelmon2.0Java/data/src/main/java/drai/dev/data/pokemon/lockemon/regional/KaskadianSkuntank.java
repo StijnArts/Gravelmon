@@ -83,17 +83,13 @@ public class KaskadianSkuntank extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY_FOREST)
-    .setAntiBiomes(Biome.IS_TAIGA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 48, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
+                List.of(SpawnPreset.NATURAL),
+                0.2, 0.3,
+                List.of());
         this.setLangFileName("Skuntank");
         addAdditionalEvolution("Skuntank", new EvolutionEntry("skuntank kaskadian", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"),

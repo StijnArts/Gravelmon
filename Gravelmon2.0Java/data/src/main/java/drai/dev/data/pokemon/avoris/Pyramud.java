@@ -40,16 +40,13 @@ public class Pyramud extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGIC_ROOM,52)              ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(8)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.DESERT_PYRAMID),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Pyramud");
 
     }

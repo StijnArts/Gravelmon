@@ -89,17 +89,14 @@ public class Honchen extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_BAMBOO)
-    .isNotRaining()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 31, 55, 2.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING, "false"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.3, 0.3,
+                List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setCanFly(true);

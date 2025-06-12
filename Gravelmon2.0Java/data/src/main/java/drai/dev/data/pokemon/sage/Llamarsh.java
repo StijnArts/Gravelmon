@@ -86,17 +86,13 @@ public class Llamarsh extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:berries",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TAIGA, Biome.IS_SNOWY)
-    .setAntiBiomes(Biome.IS_HILLS, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 38, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_MOUNTAIN))),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.5,
+                List.of());
         this.setHasGenderDifferences(true);
         
     }

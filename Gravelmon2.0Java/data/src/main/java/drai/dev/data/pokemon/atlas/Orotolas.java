@@ -41,14 +41,13 @@ public class Orotolas extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GILDEDSPEAR,85)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .legend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_HILLS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 65, .00002, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Orotolas");
 
     }

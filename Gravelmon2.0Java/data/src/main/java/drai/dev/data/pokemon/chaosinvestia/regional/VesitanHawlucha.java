@@ -51,16 +51,13 @@ public class VesitanHawlucha extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_GUARD,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SKY, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 43, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Hawlucha");
 
     }

@@ -22,16 +22,13 @@ public class Voltient extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SKY, Biome.IS_MAGICAL)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 51, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
            setLangFileName("Voltient");
 

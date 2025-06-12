@@ -45,16 +45,13 @@ public class Zapillar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARABOLIC_CHARGE,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.TREE_TOP)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.TREE_TOP),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Zapillar");
 
     }

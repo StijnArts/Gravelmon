@@ -88,17 +88,13 @@ public class Parapy extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(4)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_LUKEWARM_OCEAN)
-    .setAntiBiomes(Biome.IS_FRESHWATER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 4, 15, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.3, 0.3,
+                List.of());
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);

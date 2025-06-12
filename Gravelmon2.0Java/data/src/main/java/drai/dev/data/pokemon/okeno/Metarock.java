@@ -47,15 +47,12 @@ public class Metarock extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLOCK,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_VOLCANIC, Biome.IS_CAVE, Biome.IS_BADLANDS)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_CAVE, Biome.IS_BADLANDS))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Metarock");
 
     }

@@ -65,15 +65,12 @@ public class HaunterX extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE, Label.GEN1),
                 1, List.of(
-                        new ItemDrop("gravelmon:xenolith",10, 1,1)), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                        new ItemDrop("gravelmon:xenolith",10, 1,1)), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 38, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Haunter");
 
         

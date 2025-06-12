@@ -22,13 +22,12 @@ public class Liviscous extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_COLD_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Liviscous");

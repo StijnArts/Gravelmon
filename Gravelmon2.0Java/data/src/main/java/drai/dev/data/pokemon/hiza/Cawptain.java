@@ -71,17 +71,13 @@ public class Cawptain extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BEACH)
-    .setAntiBiomes(Biome.IS_TAIGA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TAIGA))),
+                List.of(SpawnPreset.SHIP_WRECK),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cawptain");
 
     }

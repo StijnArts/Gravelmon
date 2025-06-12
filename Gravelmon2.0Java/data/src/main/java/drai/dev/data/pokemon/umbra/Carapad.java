@@ -79,16 +79,13 @@ public class Carapad extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(7)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 7, 31, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.22, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
     }

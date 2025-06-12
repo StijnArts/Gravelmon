@@ -47,16 +47,13 @@ public class Vendrom extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(29)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 29, 58, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
     }
 }

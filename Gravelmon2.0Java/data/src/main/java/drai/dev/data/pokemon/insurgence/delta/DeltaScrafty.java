@@ -123,17 +123,13 @@ public class DeltaScrafty extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_LUSH)
-    .setAntiBiomes(Biome.IS_COLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 58, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NATURAL),
+                0.3, 0.3,
+                List.of());
         this.setLangFileName("Scrafty");
     }
 }

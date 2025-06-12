@@ -37,15 +37,12 @@ public class Mosquilite extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUNGE,46)              ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 32, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Mosquilite");
         setCanFly(true);
 

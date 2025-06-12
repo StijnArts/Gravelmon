@@ -96,16 +96,13 @@ public class Dvaarak extends Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"egg")
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(16)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
 
         
         this.setBaseScale(0.7);

@@ -97,15 +97,12 @@ public class Strawick extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.MANSION)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 20, 46, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.MANSION),
+                0.4, 0.3,
+                List.of());
     }
 }

@@ -84,16 +84,12 @@ public class Sponaree extends Pokemon {
                 ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_COLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.21, 0.3,
+                List.of());
     }
 }

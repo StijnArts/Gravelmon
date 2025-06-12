@@ -112,15 +112,12 @@ public class Sandridger extends Pokemon {
                         ),
                 List.of(Label.DAYBREAK),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID, Biome.IS_DESERT)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 54, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_DESERT))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         setPreEvolution("Sandslash");
         addAdditionalEvolution("sandslash", new EvolutionEntry("sandridger", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))));

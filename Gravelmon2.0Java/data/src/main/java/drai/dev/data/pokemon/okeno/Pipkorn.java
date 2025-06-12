@@ -40,16 +40,13 @@ public class Pipkorn extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORRY_SEED,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(21)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 44, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_CROPS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Pipkorn");
 
     }

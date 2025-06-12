@@ -72,6 +72,7 @@ public class Charitot extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
+                0.28, 0.3,
                 List.of());
            setLangFileName("Charitot");
 

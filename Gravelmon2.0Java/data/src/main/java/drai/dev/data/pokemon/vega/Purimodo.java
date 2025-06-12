@@ -65,15 +65,12 @@ public class Purimodo extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 7.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.4, 0.3,
+                List.of());
     }
 }

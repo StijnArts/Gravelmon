@@ -51,14 +51,13 @@ public class Temunk extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPRING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.33, 0.5,
+                List.of());
         setCanFly(true);
     }
 }

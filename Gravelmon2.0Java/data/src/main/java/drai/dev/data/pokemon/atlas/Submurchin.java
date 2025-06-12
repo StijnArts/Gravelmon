@@ -95,16 +95,13 @@ public class Submurchin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
                 List.of(Label.DHIOME),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(41)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 41, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

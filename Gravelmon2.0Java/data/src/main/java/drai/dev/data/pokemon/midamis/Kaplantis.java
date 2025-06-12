@@ -42,13 +42,12 @@ public class Kaplantis extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,54)),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.OCEAN_MONUMENT)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.OCEAN_MONUMENT),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Kaplantis");
         setCanBreathUnderwater(true);
         setCanSwim(true);

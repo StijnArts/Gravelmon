@@ -108,17 +108,13 @@ public class Dreamdery extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:wool",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(9)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS)
-    .setAntiBiomes(Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
+                List.of(SpawnPreset.NATURAL),
+                0.5, 0.3,
+                List.of());
 
     }
 }

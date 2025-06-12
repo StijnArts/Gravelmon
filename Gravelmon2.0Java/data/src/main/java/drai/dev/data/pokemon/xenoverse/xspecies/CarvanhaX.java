@@ -67,15 +67,12 @@ public class CarvanhaX extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE, Label.GEN3),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_END, Biome.IS_DEEP_OCEAN)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 15, 34, 3.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_DEEP_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.27, 0.3,
+                List.of());
         this.setLangFileName("Carvanha");
 
         this.setCanBreathUnderwater(true);

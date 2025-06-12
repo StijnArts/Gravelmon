@@ -40,16 +40,13 @@ public class Tasticky extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELLY_DRUM,60)),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(1)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Tasticky");
 
     }

@@ -41,16 +41,13 @@ public class Fulgnash extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID, Biome.IS_TEMPERATE)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.TRAIL_RUINS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(),
+                List.of(SpawnPreset.TRAIL_RUINS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Fulgnash");
 
     }

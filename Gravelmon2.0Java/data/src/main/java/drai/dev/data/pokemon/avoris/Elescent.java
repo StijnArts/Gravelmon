@@ -45,17 +45,13 @@ public class Elescent extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FLORAL)
-    .setAntiBiomes(Biome.IS_PLAINS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Elescent");
 
     }

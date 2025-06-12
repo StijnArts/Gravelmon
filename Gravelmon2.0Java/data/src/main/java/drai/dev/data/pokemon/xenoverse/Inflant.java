@@ -65,15 +65,14 @@ public class Inflant extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.18, 0.3,
+                List.of());
     }
 }

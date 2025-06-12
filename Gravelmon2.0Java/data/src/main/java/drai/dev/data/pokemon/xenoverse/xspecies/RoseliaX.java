@@ -67,15 +67,12 @@ public class RoseliaX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN3),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",20, 1,1)),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(21)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 36, 0.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Roselia");
 
     }

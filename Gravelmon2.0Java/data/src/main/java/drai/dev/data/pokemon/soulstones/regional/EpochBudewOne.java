@@ -123,16 +123,13 @@ public class EpochBudewOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NURTURINGCHANT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(2)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TROPICAL_ISLAND, Biome.IS_JUNGLE)
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 23, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Budew");
 
     }

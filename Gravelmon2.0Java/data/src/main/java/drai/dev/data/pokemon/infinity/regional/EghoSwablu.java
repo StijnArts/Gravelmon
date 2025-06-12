@@ -95,17 +95,14 @@ public class EghoSwablu extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.25, 0.3,
+                List.of());
         this.setLangFileName("Swablu");
         this.setCanFly(true);
         

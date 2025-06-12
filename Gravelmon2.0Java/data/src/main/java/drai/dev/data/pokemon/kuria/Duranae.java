@@ -47,15 +47,12 @@ public class Duranae extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,60)              ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CAVE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Duranae");
 
     }

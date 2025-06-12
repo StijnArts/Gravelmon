@@ -39,17 +39,14 @@ public class Caconie extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,51)               ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .atNight()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.DESERT_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.DESERT_PYRAMID),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Caconie");
 
     }

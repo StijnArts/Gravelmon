@@ -81,16 +81,13 @@ public class Puripad extends Pokemon {
                         ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 28, 47, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.FRESHWATER),
+                0.22, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
     }

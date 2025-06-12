@@ -95,14 +95,13 @@ public class DeltaSnivy extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FRESHWATER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Snivy");
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

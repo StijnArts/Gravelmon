@@ -78,15 +78,12 @@ public class SpiritombX extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN4),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",20, 1,1)),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(22)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 44, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.39, 0.3,
+                List.of());
         this.setLangFileName("Spiritomb");
 
         this.setBaseScale(1.3);

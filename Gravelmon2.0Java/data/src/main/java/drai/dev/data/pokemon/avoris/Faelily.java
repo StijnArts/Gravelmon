@@ -40,16 +40,13 @@ public class Faelily extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,52)                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(21)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_JUNGLE, Biome.IS_SWAMP)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 21, 39, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

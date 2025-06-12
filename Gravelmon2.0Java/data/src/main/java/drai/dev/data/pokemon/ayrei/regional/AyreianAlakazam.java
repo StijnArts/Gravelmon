@@ -127,18 +127,14 @@ public class AyreianAlakazam extends Pokemon {
                 ),
                 List.of(Label.GEN1,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(45)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BAMBOO)
-    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 61, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Alakazam");
     }
 }

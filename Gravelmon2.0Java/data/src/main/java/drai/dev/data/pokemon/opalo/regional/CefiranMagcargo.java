@@ -52,16 +52,13 @@ public class CefiranMagcargo extends Pokemon {
                 ),
                 List.of(Label.GEN2,Label.OPAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DEEP_DARK)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 56, 0.18, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Magcargo");
     }
 }

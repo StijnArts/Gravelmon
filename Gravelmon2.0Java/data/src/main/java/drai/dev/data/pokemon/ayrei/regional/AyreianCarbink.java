@@ -95,14 +95,11 @@ public class AyreianCarbink extends Pokemon {
                 ),
                 List.of(Label.GEN6,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(21)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 55, 7.0, List.of(
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Carbink");
     }
 }

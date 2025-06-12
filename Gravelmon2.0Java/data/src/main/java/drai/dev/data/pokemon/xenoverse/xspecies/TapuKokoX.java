@@ -72,13 +72,12 @@ public class TapuKokoX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN7),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 60, 65, 0.005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.27, 0.3,
+                List.of());
         this.setLangFileName("Tapu Koko");
 
     }

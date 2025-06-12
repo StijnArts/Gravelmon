@@ -29,17 +29,13 @@ public class Edgehog extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.ALDAO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COLD)
-    .setAntiBiomes(Biome.IS_DEEP_DARK)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 35, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Edgehog");
 
     }

@@ -43,16 +43,13 @@ public class VesitanHeliolisk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE,1)                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 48, 0.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Heliolisk");
 
     }

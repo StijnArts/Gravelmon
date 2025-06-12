@@ -80,14 +80,13 @@ public class Eronze extends Pokemon {
                 List.of(Label.SAGE),
                 3, List.of(
                         new ItemDrop("minecraft:copper_block",90, 3,10)
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                1.4, 0.5,
+                List.of());
 
     }
 }

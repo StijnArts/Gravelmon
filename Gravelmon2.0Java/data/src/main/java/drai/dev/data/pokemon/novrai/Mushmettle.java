@@ -98,15 +98,12 @@ public class Mushmettle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_FOREST)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Mushmettle");
 
     }

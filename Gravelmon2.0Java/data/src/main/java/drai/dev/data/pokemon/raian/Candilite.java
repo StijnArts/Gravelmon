@@ -28,17 +28,14 @@ public class Candilite extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_DESERT)
-    .atNight()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 18, 41, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
         setCanWalkOnWater(true);
            setLangFileName("Candilite");

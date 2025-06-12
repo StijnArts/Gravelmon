@@ -53,14 +53,13 @@ public class Alpheon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .eeveelution()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Alpheon");
         addAdditionalEvolution("eevee", new EvolutionEntry("alpheon", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),

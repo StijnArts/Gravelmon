@@ -46,16 +46,13 @@ public class VesitanClauncher extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_COLD_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 44, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Clauncher");

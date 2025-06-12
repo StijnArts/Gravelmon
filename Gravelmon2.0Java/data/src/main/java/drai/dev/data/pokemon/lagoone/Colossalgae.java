@@ -47,16 +47,13 @@ public class Colossalgae extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,57)         ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.ULTRA_RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 23, 47, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.FOLIAGE, SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Colossalgae");
 
     }

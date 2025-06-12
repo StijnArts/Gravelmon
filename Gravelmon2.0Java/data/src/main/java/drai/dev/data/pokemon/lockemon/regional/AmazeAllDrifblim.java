@@ -85,15 +85,12 @@ public class AmazeAllDrifblim extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON, Label.GEN4),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 48, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Drifblim");
 
         setCanFly(true);

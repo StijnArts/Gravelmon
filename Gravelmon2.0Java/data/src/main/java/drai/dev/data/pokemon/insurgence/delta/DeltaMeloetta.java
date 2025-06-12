@@ -141,6 +141,7 @@ public class DeltaMeloetta extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.MANSION),
+                0.22, 0.3,
                 List.of(new PokemonForm(
                         "Magician", true,
                         Type.DARK, Type.PSYCHIC,
@@ -160,7 +161,8 @@ public class DeltaMeloetta extends Pokemon {
                         0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 45, 0, List.of(
                 ), List.of(),
-                        List.of()
+                        List.of(),
+                        0.48, 0.3
                 )));
         this.setLangFileName("Meloetta");
         

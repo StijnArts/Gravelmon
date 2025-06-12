@@ -117,17 +117,13 @@ public class Puugamu extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .setAntiBiomes(Biome.IS_ARID)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                List.of(), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 47, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
     }
 }

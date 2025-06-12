@@ -108,15 +108,12 @@ public class EghoMuk extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN1),
                 4, List.of(
                         new ItemDrop("minecraft:basalt",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_TOXIC)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 44, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_TOXIC))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.32, 0.3,
+                List.of());
         this.setLangFileName("Muk");
 
     }

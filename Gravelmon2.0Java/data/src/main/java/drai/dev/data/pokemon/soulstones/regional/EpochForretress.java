@@ -124,14 +124,11 @@ public class EpochForretress extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1, List.of(
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Forretress");
 
     }

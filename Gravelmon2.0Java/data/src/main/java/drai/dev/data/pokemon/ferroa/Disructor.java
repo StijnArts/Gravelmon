@@ -109,15 +109,12 @@ public class Disructor extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLARCHARGER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.END_CITY)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.END_CITY),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Disructor");
 
     }

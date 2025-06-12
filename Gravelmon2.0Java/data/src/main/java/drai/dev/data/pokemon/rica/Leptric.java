@@ -91,15 +91,12 @@ public class Leptric extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 34, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

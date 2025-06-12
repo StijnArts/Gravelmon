@@ -82,14 +82,13 @@ public class Travelphin extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0,
-                List.of(), new PokemonSpawnDataBuilder(2)
-    .fossil()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .belowY(30)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 34, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.4, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

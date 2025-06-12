@@ -34,14 +34,13 @@ public class Hydrosaur extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .fossil()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Hydrosaur");

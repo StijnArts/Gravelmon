@@ -111,15 +111,12 @@ public class Intellibee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .setSpawnPreset(SpawnPreset.NEAR_BOOKSHELVES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

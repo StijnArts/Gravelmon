@@ -31,15 +31,12 @@ public class Inscribble extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,5)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(1)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .setSpawnPreset(SpawnPreset.NEAR_BOOKSHELVES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Inscribble");
 
     }

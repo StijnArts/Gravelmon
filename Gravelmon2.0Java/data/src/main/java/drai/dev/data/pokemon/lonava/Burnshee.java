@@ -45,16 +45,13 @@ public class Burnshee extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(13)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Burnshee");
 
     }

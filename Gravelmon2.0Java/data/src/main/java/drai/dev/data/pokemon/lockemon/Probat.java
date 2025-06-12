@@ -55,19 +55,15 @@ public class Probat extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(45)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_HILLS, Biome.IS_JUNGLE, Biome.IS_SKY, Biome.IS_SWAMP)
-    .setAntiBiomes(Biome.IS_SPOOKY, Biome.IS_FREEZING)
-    .canSeeSky()
-    .isNotRaining()
-    .atNight()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 53, 0.02, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND, Biome.IS_HILLS, Biome.IS_JUNGLE, Biome.IS_SKY, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_FREEZING))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
         addAdditionalEvolution("golbat", new EvolutionEntry("probat", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.PSYCHIC, "")),
                 List.of(),List.of(),"gravelmon:amaze_drive"));

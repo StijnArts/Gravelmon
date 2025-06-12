@@ -107,14 +107,13 @@ public class Saureon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HOWL,"tm")                        ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .eeveelution()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_HIGHLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         addAdditionalEvolution("eevee", new EvolutionEntry("saureon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:mystic_stone"));
            setLangFileName("Saureon");

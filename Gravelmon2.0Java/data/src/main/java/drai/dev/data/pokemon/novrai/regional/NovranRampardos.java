@@ -123,16 +123,13 @@ public class NovranRampardos extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACCELEROCK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.ULTRA_RARE)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_VOLCANIC)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED,  SpawnPool.ULTRA_RARE, 40, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Rampardos");
 
     }

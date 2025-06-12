@@ -37,15 +37,12 @@ public class Pebbuin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,64)              ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(8)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_VOLCANIC)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Pebbuin");
 
     }

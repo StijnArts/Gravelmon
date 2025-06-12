@@ -27,16 +27,13 @@ public class Cardpawd extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.KUULKID),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 56, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cardpawd");
 
     }

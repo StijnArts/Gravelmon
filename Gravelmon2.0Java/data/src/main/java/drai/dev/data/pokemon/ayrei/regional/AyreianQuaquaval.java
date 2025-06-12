@@ -71,14 +71,13 @@ public class AyreianQuaquaval extends Pokemon {
                 ),
                 List.of(Label.GEN9,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 47, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.29, 0.3,
+                List.of());
         this.setLangFileName("Quaquaval");
         this.setCanSwim(true);
     }

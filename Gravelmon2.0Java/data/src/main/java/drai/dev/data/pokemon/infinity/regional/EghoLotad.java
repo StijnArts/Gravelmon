@@ -90,15 +90,12 @@ public class EghoLotad extends Pokemon {
                         ),
                 List.of(Label.INFINITY, Label.GEN3),
                 4, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER_FOREST)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Lotad");
 
     }

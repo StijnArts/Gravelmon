@@ -97,16 +97,13 @@ public class Warquila extends Pokemon {
                         new ItemDrop("cobblemon:sharp_beak",40, 1,1),
                         new ItemDrop("minecraft:feather",40, 1,2),
                         new ItemDrop("minecraft:egg",40, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 51, 0.04, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.5, 0.5,
+                List.of());
         this.setCanFly(true);
         
         

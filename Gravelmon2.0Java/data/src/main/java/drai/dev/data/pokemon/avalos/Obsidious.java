@@ -45,13 +45,12 @@ public class Obsidious extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ERUPTION,55)                        ),
                 List.of(Label.AVALOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER, Biome.IS_VOLCANIC)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER, Biome.IS_VOLCANIC))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Obsidious");
 
     }

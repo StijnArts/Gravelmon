@@ -134,16 +134,13 @@ public class Kerratic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORRY_SEED,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(39)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_CROPS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Kerratic");
 
     }

@@ -114,17 +114,14 @@ public class Nidorook extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(36)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA)
-    .duringDaytime()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 2.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.32, 0.3,
+                List.of());
         this.setPreEvolution("nidorino");
         addAdditionalEvolution("nidorina", new EvolutionEntry("nidorook", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:astral_stone"));

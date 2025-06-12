@@ -197,15 +197,12 @@ public class Pomara extends Pokemon {
                 ),
                 List.of(Label.ETERNAL_FOREST),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(5)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FRESHWATER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.22, 0.3,
+                List.of());
     }
 }

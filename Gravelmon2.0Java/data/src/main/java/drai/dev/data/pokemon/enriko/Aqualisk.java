@@ -44,14 +44,13 @@ public class Aqualisk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,90)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_BEACH)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
 

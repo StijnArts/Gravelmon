@@ -85,16 +85,13 @@ public class SeviianCarnivine extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN4),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 18, 55, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Carnivine");
         
         setBaseScale(0.8);

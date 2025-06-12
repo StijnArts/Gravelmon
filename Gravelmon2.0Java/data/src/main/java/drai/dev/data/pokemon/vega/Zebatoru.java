@@ -82,16 +82,13 @@ public class Zebatoru extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_RIVER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 35, 52, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.4, 0.3,
+                List.of());
         this.setCanSwim(true);
         this.setAvoidsLand(true);
         this.setCanBreathUnderwater(true);

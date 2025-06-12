@@ -100,14 +100,13 @@ public class ArmiranGarchomp extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.DAYBREAK),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 51, 67, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         this.setLangFileName("Garchomp");
         setPreEvolution("Gabite");
         addAdditionalEvolution("gabite", new EvolutionEntry("garchomp armiran", EvolutionType.LEVEL_UP, List.of(),

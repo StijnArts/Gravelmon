@@ -118,14 +118,13 @@ public class DeltaIvysaur extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MAGICAL, Biome.IS_FLORAL)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 29, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FLORAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.33, 0.3,
+                List.of());
         this.setLangFileName("Ivysaur");
         this.setHasGenderDifferences(true);
         

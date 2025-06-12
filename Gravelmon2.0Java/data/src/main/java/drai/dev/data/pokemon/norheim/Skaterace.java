@@ -44,16 +44,13 @@ public class Skaterace extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FROZEN_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 51, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Skaterace");
 
     }

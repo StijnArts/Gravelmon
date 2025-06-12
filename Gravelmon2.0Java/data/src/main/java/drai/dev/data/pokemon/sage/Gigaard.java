@@ -105,16 +105,13 @@ public class Gigaard extends Pokemon {
                 4, List.of(
                         new ItemDrop("cobblemon:hard_stone",10, 1,2),
                         new ItemDrop("minecraft:emerald_ore",90, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(24)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
 
     }
 }

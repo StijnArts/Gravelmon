@@ -44,6 +44,7 @@ public class Istobat extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of());
         setCanFly(true);
            setLangFileName("Istobat");

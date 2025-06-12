@@ -119,16 +119,13 @@ public class EpochLapras extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOIL,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 46, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.LAVA_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanWalkOnWater(true);
            setLangFileName("Lapras");

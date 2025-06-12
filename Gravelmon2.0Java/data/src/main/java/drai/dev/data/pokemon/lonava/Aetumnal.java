@@ -39,14 +39,13 @@ public class Aetumnal extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,56)),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .mythical()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_WINTER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WINTER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Aetumnal");
 
     }

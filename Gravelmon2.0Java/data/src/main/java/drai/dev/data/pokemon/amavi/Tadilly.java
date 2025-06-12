@@ -38,16 +38,13 @@ public class Tadilly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,42)       ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_SWAMP)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.WATER_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.WATER_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setAvoidsLand(true);
 

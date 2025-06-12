@@ -60,17 +60,13 @@ public class HoennianTangela extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN1),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(19)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .setAntiBiomes(Biome.IS_COLD, Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 44, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
+                List.of(SpawnPreset.VILLAGE),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Tangela");
 
     }

@@ -22,15 +22,12 @@ public class Narpoon extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 11, 35, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
            setLangFileName("Narpoon");

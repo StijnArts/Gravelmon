@@ -73,16 +73,13 @@ public class Thermonster extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEMPERFLARE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER, Biome.IS_VOLCANIC, Biome.IS_THERMAL)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER,Biome.IS_VOLCANIC,Biome.IS_THERMAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Thermonster");
 
     }

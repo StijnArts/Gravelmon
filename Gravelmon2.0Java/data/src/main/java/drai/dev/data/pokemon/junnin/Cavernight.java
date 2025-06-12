@@ -109,16 +109,13 @@ public class Cavernight extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAIL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(42)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DRIPSTONE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cavernight");
 
     }

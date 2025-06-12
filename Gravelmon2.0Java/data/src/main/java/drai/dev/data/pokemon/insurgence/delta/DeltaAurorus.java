@@ -115,16 +115,13 @@ public class DeltaAurorus extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(39)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 39, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.30, 0.3,
+                List.of());
         this.setLangFileName("Aurorus");
         setCanSwim(true);
         setCanBreathUnderwater(true);

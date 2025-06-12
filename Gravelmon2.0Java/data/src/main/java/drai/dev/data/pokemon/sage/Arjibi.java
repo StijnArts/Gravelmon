@@ -99,16 +99,13 @@ public class Arjibi extends Pokemon {
                 List.of(Label.SAGE),
                 1, List.of(
                         new ItemDrop("gravelmon:kaleidoscope",10, 1,1)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(4)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 4, 25, 7.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.07, 0.3,
+                List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);

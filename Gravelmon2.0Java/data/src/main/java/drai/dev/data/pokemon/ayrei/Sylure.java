@@ -103,16 +103,13 @@ public class Sylure extends Pokemon {
                 ),
                 List.of(Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(4)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 36, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setAvoidsLand(true);

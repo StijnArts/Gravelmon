@@ -92,17 +92,13 @@ public class SignetanBlakjak extends Pokemon {
                 ),
                 List.of(Label.DENEB),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(18)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setAntiBiomes(Biome.IS_COAST)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 43, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COAST))),
+                List.of(SpawnPreset.NATURAL),
+                0.43, 0.3,
+                List.of());
         setCanFly(true);
         setLangFileName("Blakjak");
     }

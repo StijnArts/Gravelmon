@@ -25,15 +25,12 @@ public class Collectrap extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER)
-    .setSpawnPreset(SpawnPreset.NETHER_FORTRESS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 45, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), List.of(),
+                List.of(SpawnPreset.NETHER_FORTRESS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Collectrap");
 
     }

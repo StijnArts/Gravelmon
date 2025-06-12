@@ -41,16 +41,13 @@ public class NorheimanGlimmora extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Glimmora");
         addAdditionalEvolution("glimmet", new EvolutionEntry("glimmora norheiman", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),

@@ -85,15 +85,12 @@ public class KaskadianRaticate extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON, Label.GEN1),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FREEZING, Biome.IS_SNOWY)
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 41, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_SNOWY))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Raticate");
 
         addAdditionalEvolution("rattata", new EvolutionEntry("raticate kaskadian", EvolutionType.ITEM_INTERACT, false, List.of(),

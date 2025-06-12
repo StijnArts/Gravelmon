@@ -43,16 +43,13 @@ public class QamoranWeezing extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(9)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_SKY, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 9, 34, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Weezing");
         setCanFly(true);
         setCanBreathUnderwater(true);

@@ -29,13 +29,12 @@ public class Gnetic extends drai.dev.data.pokemon.Pokemon {
                 ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .mythical()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DEEP_DARK)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 35, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("G-netic");
 
     }

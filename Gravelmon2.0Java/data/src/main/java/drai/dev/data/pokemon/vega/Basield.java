@@ -83,13 +83,11 @@ public class Basield extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0,List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_FLORAL)
-    .setAntiBiomes(Biome.IS_SNOWY)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 40, 3.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_FLORAL))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
     }
 }

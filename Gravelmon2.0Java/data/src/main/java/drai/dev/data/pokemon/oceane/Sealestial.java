@@ -30,15 +30,12 @@ public class Sealestial extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 20, 43, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

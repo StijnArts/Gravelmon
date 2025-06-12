@@ -32,15 +32,12 @@ public class NorheimanUnown extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,61)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .setSpawnPreset(SpawnPreset.RUINED_PORTAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
+                ), List.of(),
+                List.of(SpawnPreset.RUINED_PORTAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Unown");
     }
 

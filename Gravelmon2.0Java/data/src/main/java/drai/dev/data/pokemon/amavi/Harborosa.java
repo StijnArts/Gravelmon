@@ -41,16 +41,13 @@ public class Harborosa extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,67)                  ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.SHIP_WRECK)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.SHIP_WRECK),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
 
     }

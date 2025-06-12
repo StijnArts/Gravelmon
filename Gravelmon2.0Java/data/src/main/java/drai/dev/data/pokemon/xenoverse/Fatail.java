@@ -73,16 +73,13 @@ public class Fatail extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY, Biome.IS_SWAMP)
-    .atNight()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 56, 0.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.3, 0.3,
+                List.of());
         
     }
 }

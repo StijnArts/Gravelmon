@@ -25,15 +25,12 @@ public class UnownXenoverse extends Pokemon {
                 ),
                 List.of(Label.XENOVERSE, Label.GEN2),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.END_CITY)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 20, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.END_CITY),
+                0.29, 0.3,
+                List.of());
         this.setLangFileName("Unown");
         
     }

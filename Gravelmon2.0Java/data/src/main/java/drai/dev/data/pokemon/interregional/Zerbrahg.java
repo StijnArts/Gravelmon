@@ -38,15 +38,12 @@ public class Zerbrahg extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,57)                 ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END, Biome.IS_BADLANDS)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 53, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END, Biome.IS_BADLANDS))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Zerbrahg");
 
     }

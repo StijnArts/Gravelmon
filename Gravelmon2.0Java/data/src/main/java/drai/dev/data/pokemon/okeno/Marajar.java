@@ -42,15 +42,12 @@ public class Marajar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,1)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DESERT)
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.DESERT_PYRAMID)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.DESERT_PYRAMID),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Marajar");
 
     }

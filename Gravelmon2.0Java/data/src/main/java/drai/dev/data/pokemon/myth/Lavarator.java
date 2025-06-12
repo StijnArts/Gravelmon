@@ -44,14 +44,11 @@ public class Lavarator extends Pokemon {
                 ),
                 List.of(Label.MYTH),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(43)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER)
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 43, 67, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.21, 0.3,
+                List.of());
     }
 }

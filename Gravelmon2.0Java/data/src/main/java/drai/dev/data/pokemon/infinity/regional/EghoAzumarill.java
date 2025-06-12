@@ -97,16 +97,13 @@ public class EghoAzumarill extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN2),
                 4, List.of(
                         new ItemDrop("minecraft:sand",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 37, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.31, 0.3,
+                List.of());
         this.setLangFileName("Azumarill");
 
     }

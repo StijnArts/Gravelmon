@@ -71,17 +71,14 @@ public class HoennianEelektross extends Pokemon {
                 ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(52)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID)
-    .belowY(40)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 52, 68, 0.07, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.MAXY, "40"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Eelektross");
 
     }

@@ -73,15 +73,12 @@ public class GalvantulaX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN5),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(36)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 52, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
         this.setLangFileName("Galvantula");
 
 

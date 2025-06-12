@@ -40,13 +40,12 @@ public class Camozoic extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,54)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .fossil()
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 33, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

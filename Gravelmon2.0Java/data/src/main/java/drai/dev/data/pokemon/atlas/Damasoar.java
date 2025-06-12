@@ -94,14 +94,13 @@ public class Damasoar extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_FROZEN_OCEAN, Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 36, 53, 0.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Damasoar");
         setCanBreathUnderwater(true);
         setCanSwim(true);

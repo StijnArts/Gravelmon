@@ -54,15 +54,12 @@ public class AfricanusanComfey extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,"egg")                        ),
                 List.of(Label.AFRICANUS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TROPICAL, Biome.IS_JUNGLE, Biome.IS_DENSE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL, Biome.IS_JUNGLE, Biome.IS_DENSE))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Comfey");
 
     }

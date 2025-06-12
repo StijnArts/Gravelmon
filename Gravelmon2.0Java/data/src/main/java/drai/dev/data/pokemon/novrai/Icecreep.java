@@ -99,16 +99,13 @@ public class Icecreep extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(37)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 37, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Icecreep");
 
     }

@@ -47,6 +47,7 @@ public class CefiranVenomoth extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
                 List.of());
         this.setLangFileName("Venomoth");
         setCanFly(true);

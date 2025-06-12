@@ -67,14 +67,13 @@ public class ArmiranFroakie extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.DAYBREAK),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .canSeeSky()
-    .belowY(10)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"10")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Froakie");
     }
 }

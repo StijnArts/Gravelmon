@@ -92,17 +92,13 @@ public class Buckston extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:berries",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(36)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TAIGA, Biome.IS_SNOWY)
-    .setAntiBiomes(Biome.IS_HILLS, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 55, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_MOUNTAIN))),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.5,
+                List.of());
         this.setHasGenderDifferences(true);
 
     }

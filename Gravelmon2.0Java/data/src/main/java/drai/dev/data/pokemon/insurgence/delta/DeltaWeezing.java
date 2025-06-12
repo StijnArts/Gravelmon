@@ -122,16 +122,13 @@ public class DeltaWeezing extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .canSeeSky()
-    .isThundering()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 57, 2.0, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.33, 0.3,
+                List.of());
         this.setLangFileName("Weezing");
         this.setCanFly(true);
         

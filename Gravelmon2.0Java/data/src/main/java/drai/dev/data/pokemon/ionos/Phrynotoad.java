@@ -22,15 +22,12 @@ public class Phrynotoad extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SUMMER, Biome.IS_VOLCANIC, Biome.IS_NETHER)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 59, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_VOLCANIC, Biome.IS_NETHER))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Phrynotoad");

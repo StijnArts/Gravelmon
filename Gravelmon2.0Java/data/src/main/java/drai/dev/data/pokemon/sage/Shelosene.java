@@ -99,16 +99,13 @@ public class Shelosene extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:obsidian",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .belowY(-40)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 45, 2.5, List.of(
+                        new SpawnCondition(SpawnConditionType.MAXY,"-40"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.3, 0.3,
+                List.of());
 
     }
 }

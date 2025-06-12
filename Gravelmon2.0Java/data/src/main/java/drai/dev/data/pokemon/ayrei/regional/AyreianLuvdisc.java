@@ -87,17 +87,14 @@ public class AyreianLuvdisc extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .canSeeSky()
-    .belowY(30)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 20, 48, 10, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.29, 0.3,
+                List.of());
         this.setLangFileName("Luvdisc");
         setCanBreathUnderwater(true);
         setCanSwim(true);

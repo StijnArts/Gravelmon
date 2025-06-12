@@ -98,16 +98,13 @@ public class Kablowfish extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(44)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_LUKEWARM_OCEAN, Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 44, 56, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
+                0.34, 0.3,
+                List.of());
 
         this.setPreEvolution("qwilfish");
         addAdditionalEvolution("qwilfish", new EvolutionEntry("kablowfish", EvolutionType.LEVEL_UP, List.of(),

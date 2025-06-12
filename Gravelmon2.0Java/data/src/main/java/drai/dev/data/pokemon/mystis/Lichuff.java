@@ -24,7 +24,9 @@ public class Lichuff extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(new EvolutionEntry("decaynine", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))),
+                        new EvolutionEntry("serenine", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:dawn_stone")),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(

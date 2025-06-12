@@ -102,16 +102,13 @@ public class Blockstack extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(27)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Blockstack");
 
     }

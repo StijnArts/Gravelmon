@@ -91,14 +91,13 @@ public class Foliat extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:melon_seeds",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 5, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.9, 1,
+                List.of());
         this.setHasGenderDifferences(true);
         this.setShoulderMountable(true);
         this.setWillSleepOnBed(true);

@@ -67,18 +67,14 @@ public class HoennianReuniclus extends Pokemon {
                 ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(50)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .setAntiBiomes(Biome.IS_COLD, Biome.IS_TEMPERATE)
-    .canSeeSky()
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.RARE, 50, 65, 0.09, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Reuniclus");
 
     }

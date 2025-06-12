@@ -85,18 +85,14 @@ public class Granvesp extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .setAntiBiomes(Biome.IS_SPOOKY)
-    .duringDaytime()
-    .isNotRaining()
-    .setSpawnPreset(SpawnPreset.HONEY_TREE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))),
+                List.of(SpawnPreset.HONEY_TREE),
+                0.4, 0.3,
+                List.of());
         addAdditionalEvolution("combee", new EvolutionEntry("granvesp", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"cobblemon:dawn_stone"));
     }

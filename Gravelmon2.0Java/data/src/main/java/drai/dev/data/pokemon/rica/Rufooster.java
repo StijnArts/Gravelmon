@@ -97,16 +97,13 @@ public class Rufooster extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Rufooster");
 
     }

@@ -82,6 +82,7 @@ public class Rascat extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of());
            setLangFileName("Rascat");
 

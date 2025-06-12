@@ -22,15 +22,12 @@ public class Spectouch extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.GOETIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.SHIP_WRECK),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);

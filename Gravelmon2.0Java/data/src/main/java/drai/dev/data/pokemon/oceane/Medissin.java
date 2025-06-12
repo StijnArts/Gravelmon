@@ -44,15 +44,12 @@ public class Medissin extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SWAMP)
-    .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
+                ), List.of(),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Medissin");
 
     }

@@ -140,14 +140,11 @@ public class AyreianAggron extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(42)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 67, 2, List.of(
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.29, 0.3,
+                List.of());
         this.setLangFileName("Aggron");
     }
 }

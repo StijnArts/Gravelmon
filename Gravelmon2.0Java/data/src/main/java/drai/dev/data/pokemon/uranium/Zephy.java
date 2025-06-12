@@ -42,13 +42,12 @@ public class Zephy extends Pokemon {
                         ),
                 List.of(Label.URANIUM, Label.LEGENDARY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .legend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COLD)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
         setCanFly(true);
     }
 }

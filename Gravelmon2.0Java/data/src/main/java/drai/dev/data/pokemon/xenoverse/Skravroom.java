@@ -88,16 +88,13 @@ public class Skravroom extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 1, List.of(new ItemDrop("gravelmon:spare_parts",50, 1,1)),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_PLAINS, Biome.IS_BADLANDS, Biome.IS_DESERT)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 57, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_BADLANDS, Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.VILLAGE),
+                0.3, 0.3,
+                List.of());
 
     }
 }

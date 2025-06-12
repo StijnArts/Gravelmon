@@ -47,16 +47,13 @@ public class Beatroot extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(32)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_CROPS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .6, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+        ), List.of(),
+                List.of(SpawnPreset.NEAR_CROPS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Beatroot");
 
     }

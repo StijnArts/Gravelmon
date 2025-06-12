@@ -107,14 +107,13 @@ public class Treiarch extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .legend()
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_PEAK, Biome.IS_MOUNTAIN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PEAK, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Treiarch");
 
     }

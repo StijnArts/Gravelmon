@@ -82,15 +82,12 @@ public class RelicWeezing extends Pokemon {
                         ),
                 List.of(Label.PHOENIX_RISING, Label.GEN1),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND)
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 49, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_VOLCANIC, Biome.IS_NETHER_WASTELAND))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Weezing");
 
         setCanFly(true);

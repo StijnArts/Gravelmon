@@ -50,15 +50,12 @@ public class VesitanBinacle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_SPORT,"egg")                        ),
                 List.of(Label.CHAOSINVESTIA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DRIPSTONE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Binacle");
 
     }

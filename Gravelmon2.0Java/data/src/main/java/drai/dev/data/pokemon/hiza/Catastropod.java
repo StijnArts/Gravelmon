@@ -44,14 +44,13 @@ public class Catastropod extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,90)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .legend()
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERLAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 65, 75, .0002, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERLAVA),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Catastropod");
 
     }

@@ -133,15 +133,12 @@ public class DeltaSableye extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(15)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_DESERT)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 48, 3.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_DESERT))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.35, 0.3,
+                List.of());
         this.setLangFileName("Sableye");
 
         this.setBaseScale(0.65);

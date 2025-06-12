@@ -78,14 +78,13 @@ public class Erace extends Pokemon {
                 List.of(Label.SAGE),
                 3, List.of(
                         new ItemDrop("minecraft:redstone_block",90, 3,10)
-                ), new PokemonSpawnDataBuilder(1)
-    .subLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .canSeeSky()
-    .aboveY(251)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MINY,"251")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                1.4, 0.5,
+                List.of());
 
     }
 }

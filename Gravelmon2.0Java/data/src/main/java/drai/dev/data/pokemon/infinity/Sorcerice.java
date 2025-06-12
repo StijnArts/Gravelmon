@@ -126,16 +126,13 @@ public class Sorcerice extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(41)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SNOWY, Biome.IS_TUNDRA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 51, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_TUNDRA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.39, 0.3,
+                List.of());
 
         this.setPreEvolution("jynx");
         addAdditionalEvolution("jynx", new EvolutionEntry("sorcerice", EvolutionType.ITEM_INTERACT, false, List.of(),

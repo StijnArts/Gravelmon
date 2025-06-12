@@ -100,16 +100,13 @@ public class AyreianRelicanth extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.VANGUARD),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .canSeeSky()
-    .belowY(0)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 20, 48, 10, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"0")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.29, 0.3,
+                List.of());
         this.setLangFileName("Relicanth");
         setCanBreathUnderwater(true);
         setCanSwim(true);

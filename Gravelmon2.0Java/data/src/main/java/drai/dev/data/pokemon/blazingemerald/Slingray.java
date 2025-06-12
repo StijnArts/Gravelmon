@@ -76,15 +76,12 @@ public class Slingray extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 34, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
 
         this.setPreEvolution("remoraid");
         addAdditionalEvolution("remoraid", new EvolutionEntry("slingray", EvolutionType.LEVEL_UP, List.of(),

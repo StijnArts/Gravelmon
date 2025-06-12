@@ -101,17 +101,14 @@ public class EghoFearow extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:egg",50, 1,2),
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(25)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_HILLS, Biome.IS_TEMPERATE)
-    .atNight()
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 38, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.32, 0.3,
+                List.of());
         this.setLangFileName("Fearow");
 
         

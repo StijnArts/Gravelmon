@@ -44,15 +44,12 @@ public class CefiranGothitelle extends Pokemon {
                 ),
                 List.of(Label.GEN5,Label.OPAL),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(38)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_SOUL_FIRE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 56, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_FIRE))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.22, 0.3,
+                List.of());
         this.setLangFileName("Gothitelle");
         addAdditionalEvolution("gothorita", new EvolutionEntry("gothitelle cefiran", EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"),

@@ -66,18 +66,14 @@ public class RelicTentacruel extends Pokemon {
                         ),
                 List.of(Label.PHOENIX_RISING, Label.GEN1),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .setAntiBiomes(Biome.IS_WARM_OCEAN)
-    .canSeeSky()
-    .belowY(30)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 47, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MAXY, "30")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Tentacruel");
 
         this.setCanSwim(true);

@@ -88,16 +88,12 @@ public class SeviianMilotic extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN3),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_SWAMP)
-    .setAntiBiomes(Biome.IS_COLD)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 55, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Milotic");
     }
 }

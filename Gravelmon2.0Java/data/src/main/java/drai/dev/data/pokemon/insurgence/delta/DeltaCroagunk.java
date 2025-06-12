@@ -107,15 +107,12 @@ public class DeltaCroagunk extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_CRIMSON)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_CRIMSON))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.2, 0.3,
+                List.of());
         this.setLangFileName("Croagunk");
     }
 }

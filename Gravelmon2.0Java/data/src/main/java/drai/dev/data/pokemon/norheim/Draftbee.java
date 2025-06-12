@@ -39,16 +39,13 @@ public class Draftbee extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,50)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.HONEY_TREE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                ), List.of(),
+                List.of(SpawnPreset.HONEY_TREE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Draftbee");
 setCanFly(true);
         addAdditionalEvolution("combee", new EvolutionEntry("draftbee", EvolutionType.LEVEL_UP, List.of(),

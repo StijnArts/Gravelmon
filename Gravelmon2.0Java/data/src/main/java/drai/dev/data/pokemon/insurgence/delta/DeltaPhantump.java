@@ -107,17 +107,13 @@ public class DeltaPhantump extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FLORAL)
-    .setAntiBiomes(Biome.IS_PLAINS, Biome.IS_AUTUMN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_AUTUMN))),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
         this.setLangFileName("Phantump");
     }
 }

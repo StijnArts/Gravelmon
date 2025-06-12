@@ -37,17 +37,13 @@ public class Fleuroma extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLOWER_SHIELD,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_GRASSLAND)
-    .setAntiBiomes(Biome.IS_SAVANNA)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
+                List.of(SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Fleuroma");
 
     }

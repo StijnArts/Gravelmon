@@ -12,7 +12,7 @@ public class DeltaTrevenant extends Pokemon {
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(85, 110,76,65,82,56),
                 List.of(Ability.SNOW_WARNING, Ability.OVERCOAT), Ability.SNOW_CLOAK,
-                15, 70,
+                4, 70,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -120,17 +120,13 @@ public class DeltaTrevenant extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(30)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CHERRY_GROVE)
-    .setAntiBiomes(Biome.IS_PLAINS, Biome.IS_AUTUMN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 52, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_AUTUMN))),
+                List.of(SpawnPreset.NATURAL),
+                0.34, 0.3,
+                List.of());
         this.setLangFileName("Trevenant");
     }
 }

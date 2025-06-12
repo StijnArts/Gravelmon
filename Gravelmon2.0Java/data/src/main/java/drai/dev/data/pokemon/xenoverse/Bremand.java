@@ -75,6 +75,7 @@ public class Bremand extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.3, 0.3,
                 List.of(new PokemonForm(
                         "Guitarist", false,
                         Type.ELECTRIC, Type.SOUND,
@@ -142,7 +143,8 @@ public class Bremand extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL)
+                        List.of(SpawnPreset.NATURAL),
+                        0.3, 0.3
                 ),new PokemonForm(
                                 "Drummer", false,
                                 Type.FIGHTING, Type.SOUND,
@@ -210,7 +212,8 @@ public class Bremand extends Pokemon {
                                 new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                                 new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                         ), List.of(),
-                                List.of(SpawnPreset.NATURAL)
+                                List.of(SpawnPreset.NATURAL),
+                                0.3, 0.3
                         ),new PokemonForm(
                         "Bassist", false,
                         Type.DARK, Type.SOUND,
@@ -278,7 +281,8 @@ public class Bremand extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL)
+                        List.of(SpawnPreset.NATURAL),
+                        0.3, 0.3
                 )));
 
     }

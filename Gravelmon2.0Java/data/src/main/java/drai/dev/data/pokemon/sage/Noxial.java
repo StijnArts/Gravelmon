@@ -109,6 +109,7 @@ public class Noxial extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
+                0.4, 0.5,
                 List.of(new PokemonForm(
                         "Exothermic", false,
                         Type.POISON, Type.GHOST,
@@ -212,7 +213,8 @@ public class Noxial extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.VILLAGE)
+                        List.of(SpawnPreset.VILLAGE),
+                        0.4, 0.5
                 )));
 
     }

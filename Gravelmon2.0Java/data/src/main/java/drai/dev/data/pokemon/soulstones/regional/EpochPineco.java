@@ -135,14 +135,11 @@ public class EpochPineco extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(13)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 33, 9, List.of(
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Pineco");
 
     }

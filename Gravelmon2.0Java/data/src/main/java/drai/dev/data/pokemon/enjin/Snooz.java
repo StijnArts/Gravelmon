@@ -71,16 +71,13 @@ public class Snooz extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(1)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SAVANNA, Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.VILLAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Snooz");
 
     }

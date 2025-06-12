@@ -104,19 +104,15 @@ public class Ledybulk extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(39)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_TEMPERATE)
-    .setAntiBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .atNight()
-    .isNotRaining()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 39, 51, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
         setCanFly(true);
         setPreEvolution("ledian");
         addAdditionalEvolution("ledian", new EvolutionEntry("ledybulk", EvolutionType.LEVEL_UP, List.of(),

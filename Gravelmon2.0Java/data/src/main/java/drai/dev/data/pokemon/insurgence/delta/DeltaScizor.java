@@ -120,16 +120,13 @@ public class DeltaScizor extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(39)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 58, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.37, 0.3,
+                List.of());
         this.setLangFileName("Scizor");
 
         this.setBaseScale(0.85);

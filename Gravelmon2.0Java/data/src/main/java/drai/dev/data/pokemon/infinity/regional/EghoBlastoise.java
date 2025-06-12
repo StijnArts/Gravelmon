@@ -115,15 +115,13 @@ public class EghoBlastoise extends Pokemon {
                 List.of(Label.GEN1,Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:feather",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)
-    .setAntiBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 49, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
+                List.of(SpawnPreset.NATURAL),
+                0.41, 0.3,
+                List.of());
         this.setLangFileName("Blastoise");
         
         this.setBaseScale(1.3);

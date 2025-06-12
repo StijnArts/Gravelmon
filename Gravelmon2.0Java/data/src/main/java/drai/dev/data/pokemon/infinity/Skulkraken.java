@@ -116,17 +116,13 @@ public class Skulkraken extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:iron_ingot",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(20)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_OCEAN, Biome.IS_DEEP_OCEAN)
-    .setAntiBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 20, 34, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.43, 0.2,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
     }

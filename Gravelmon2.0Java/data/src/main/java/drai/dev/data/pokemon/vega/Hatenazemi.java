@@ -85,6 +85,7 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
                 List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
                 List.of(new PokemonForm("1", true,
                         Type.BUG,
                         new Stats(65	,
@@ -113,7 +114,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("2", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("2", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -141,7 +143,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("3", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("3", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -169,7 +172,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("4", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("4", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -197,7 +201,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("5", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("5", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -225,7 +230,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("6", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("6", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -253,7 +259,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("7", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("7", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -281,7 +288,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("8", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("8", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -309,7 +317,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("9", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("9", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -337,7 +346,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("10", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("10", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -365,7 +375,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("11", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("11", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -393,7 +404,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("12", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("12", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -421,7 +433,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("13", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("13", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -449,7 +462,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("14", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("14", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -477,7 +491,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("15", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("15", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -505,7 +520,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("16", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("16", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -533,7 +549,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("17", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("17", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -561,7 +578,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("18", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("18", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -589,7 +607,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("19", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("19", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -617,7 +636,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("20", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("20", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -645,7 +665,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("21", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("21", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -673,7 +694,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("22", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("22", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -701,7 +723,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("23", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("23", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -729,7 +752,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("24", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("24", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -757,7 +781,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("25", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("25", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -785,7 +810,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("26", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("26", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -813,7 +839,8 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL)),new PokemonForm("27", true,
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),new PokemonForm("27", true,
                         Type.BUG,
                         new Stats(65	,
                                 50,
@@ -841,6 +868,7 @@ public class Hatenazemi extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))),
-                        List.of(SpawnPreset.NATURAL))));
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
     }
 }

@@ -43,15 +43,12 @@ public class Minryde extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COIL,64)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_LUSH)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Minryde");
 
     }

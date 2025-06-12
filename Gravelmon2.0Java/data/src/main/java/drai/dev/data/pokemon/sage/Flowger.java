@@ -102,6 +102,7 @@ public class Flowger extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.WATER_SURFACE),
+                0.4, 0.5,
                 List.of(new PokemonForm(
                         "Blue", false,
                         Type.GRASS, Type.WATER,
@@ -197,7 +198,8 @@ public class Flowger extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP,Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                         ), List.of(),
-                        List.of(SpawnPreset.WATER_SURFACE)
+                        List.of(SpawnPreset.WATER_SURFACE),
+                        0.4, 0.5
                 )));
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

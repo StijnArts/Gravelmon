@@ -121,15 +121,12 @@ public class EpochVanilliteOne extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_SURGE,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(11)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT)
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Vanillite");
 
     }

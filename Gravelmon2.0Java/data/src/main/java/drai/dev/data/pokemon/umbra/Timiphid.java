@@ -62,15 +62,11 @@ public class Timiphid extends Pokemon {
                 ),
                 List.of(Label.UMBRA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(2)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND)
-    .setAntiBiomes(Biome.IS_OCEAN)
-    .setSpawnPreset(SpawnPreset.FRESHWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 2, 15, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST, Biome.IS_GRASSLAND))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
+                List.of(SpawnPreset.FRESHWATER),
+                0.22, 0.3,
+                List.of());
     }
 }

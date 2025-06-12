@@ -75,17 +75,13 @@ public class Madieval extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS, Biome.IS_MAGICAL)
-    .setAntiBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .duringDaytime()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST))),
+                List.of(SpawnPreset.NATURAL),
+                0.3, 0.3,
+                List.of());
 
     }
 }

@@ -97,16 +97,13 @@ public class DeltaNoctowl extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(28)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FREEZING)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.17, 0.3,
+                List.of());
         this.setLangFileName("Noctowl");
         this.setCanFly(true);
     }

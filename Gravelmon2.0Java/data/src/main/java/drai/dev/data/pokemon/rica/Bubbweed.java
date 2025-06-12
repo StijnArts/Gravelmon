@@ -93,16 +93,12 @@ public class Bubbweed extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(7)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_OCEAN)
-    .setAntiBiomes(Biome.IS_COLD_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 26, 4.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
         setCanSwim(true);
         setAvoidsLand(true);

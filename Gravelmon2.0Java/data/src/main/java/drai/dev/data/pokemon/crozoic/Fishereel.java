@@ -32,13 +32,12 @@ public class Fishereel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .fossil()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COAST, Biome.IS_LUSH)
-    .setSpawnPreset(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST, Biome.IS_LUSH))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         setCanSwim(true);
         setCanBreathUnderwater(true);
            setLangFileName("Fishereel");

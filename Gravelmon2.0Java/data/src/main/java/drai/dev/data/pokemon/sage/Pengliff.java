@@ -109,16 +109,13 @@ public class Pengliff extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:dirt",50, 1,2),
                         new ItemDrop("minecraft:ice",50, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FROZEN_OCEAN)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.4, 0.3,
+                List.of());
 
     }
 }

@@ -44,15 +44,12 @@ public class Stalacpace extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DRIPSTONE)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 48, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Stalacpace");
 
     }

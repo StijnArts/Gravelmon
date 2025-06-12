@@ -27,15 +27,12 @@ public class FormanCorsola extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.FORM),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.REEF)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 23, 43, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.REEF),
+                0.28, 0.3,
+                List.of());
         setCanBreathUnderwater(true);
            setLangFileName("Corsola");
 

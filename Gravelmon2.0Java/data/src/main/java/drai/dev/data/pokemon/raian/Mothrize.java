@@ -22,13 +22,12 @@ public class Mothrize extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RAIAN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .legend()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DEEP_DARK)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0003, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Mothrize");
 
     }

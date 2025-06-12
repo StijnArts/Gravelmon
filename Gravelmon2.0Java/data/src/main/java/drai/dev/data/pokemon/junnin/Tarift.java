@@ -90,16 +90,13 @@ public class Tarift extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_LAVA)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_LAVA),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Tarift");
 
     }

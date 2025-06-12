@@ -70,15 +70,12 @@ public class Cuncoldron extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNINGSNEEZE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(31)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SWAMP)
-    .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
+                ), List.of(),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Cuncoldron");
 
     }

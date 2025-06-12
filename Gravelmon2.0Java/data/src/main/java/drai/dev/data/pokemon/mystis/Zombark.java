@@ -16,22 +16,21 @@ public class Zombark extends drai.dev.data.pokemon.Pokemon {
                         95,
                         25),
                 List.of(Ability.POISON_POINT), Ability.RUN_AWAY,
-                6, 0,
-                new Stats(0,0,0,0,0,0), 180,
+                0, 0,
+                new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("decaynine", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
+                List.of(),
                 List.of(),
                 List.of(Label.MYSTIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_SPOOKY).atNight()
+                        .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Zombark");

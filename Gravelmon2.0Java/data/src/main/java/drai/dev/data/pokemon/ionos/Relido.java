@@ -22,15 +22,12 @@ public class Relido extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.ULTRA_RARE)
-    .setMinLevel(53)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 53, 67, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
         addAdditionalEvolution("relicanth", new EvolutionEntry("relido", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"gravelmon:astral_stone"));
            setLangFileName("Relido");

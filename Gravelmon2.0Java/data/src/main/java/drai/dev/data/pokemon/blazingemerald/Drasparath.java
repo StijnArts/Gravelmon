@@ -69,18 +69,14 @@ public class Drasparath extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID)
-    .setAntiBiomes(Biome.IS_DEEP_DARK)
-    .canSeeSky()
-    .belowY(0)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.RARE, 40, 60, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
+                        new SpawnCondition(SpawnConditionType.MAXY, "0")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
 
         this.setCanFly(true);
     }

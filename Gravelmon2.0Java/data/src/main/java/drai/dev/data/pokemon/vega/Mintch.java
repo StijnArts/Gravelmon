@@ -94,17 +94,13 @@ public class Mintch extends Pokemon {
                         ),
                 List.of(Label.DENEB),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_COLD)
-    .setAntiBiomes(Biome.IS_COAST)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 21, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COAST))),
+                List.of(SpawnPreset.NATURAL),
+                0.43, 0.3,
+                List.of());
 
         this.setBaseScale(0.8);
         this.setHitbox(0.6,0.7);

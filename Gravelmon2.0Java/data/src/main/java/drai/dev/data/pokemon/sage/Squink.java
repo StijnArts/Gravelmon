@@ -98,16 +98,12 @@ public class Squink extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(4)
-    .setWeight(SpawnWeight.RARE)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_WARM_OCEAN)
-    .setAntiBiomes(Biome.IS_DEEP_OCEAN)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
+                0.4, 0.3,
+                List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
 

@@ -108,15 +108,12 @@ public class DeltaGlalie extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(34)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_MOUNTAIN)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 58, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_MOUNTAIN))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.31, 0.3,
+                List.of());
         this.setLangFileName("Glalie");
         this.setCanFly(true);
     }

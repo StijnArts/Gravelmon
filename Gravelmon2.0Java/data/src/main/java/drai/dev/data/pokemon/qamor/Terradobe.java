@@ -39,15 +39,12 @@ public class Terradobe extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,50)     ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(6)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SANDY)
-    .setSpawnPreset(SpawnPreset.TRAIL_RUINS)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY))
+                ), List.of(),
+                List.of(SpawnPreset.TRAIL_RUINS),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Terradobe");
 
     }

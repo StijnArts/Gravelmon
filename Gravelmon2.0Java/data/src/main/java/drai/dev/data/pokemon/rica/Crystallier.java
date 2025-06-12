@@ -95,16 +95,13 @@ public class Crystallier extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(35)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DRIPSTONE, Biome.IS_CAVE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 52, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE, Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Crystallier");
 
     }

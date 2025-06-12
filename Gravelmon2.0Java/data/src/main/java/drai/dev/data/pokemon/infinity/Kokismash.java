@@ -118,14 +118,13 @@ public class Kokismash extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), new PokemonSpawnDataBuilder(3)
-    .starter()
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_JUNGLE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 51, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.32, 0.3,
+                List.of());
         
         this.setBaseScale(1.1);
         getSpeciesFileData().addBasicVariation("Drai");

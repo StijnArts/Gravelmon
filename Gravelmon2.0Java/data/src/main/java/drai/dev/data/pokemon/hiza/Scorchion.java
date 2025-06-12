@@ -38,15 +38,12 @@ public class Scorchion extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUILLOTINE,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.RARE)
-    .setMinLevel(23)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_FOREST)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 48, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Scorchion");
 
     }

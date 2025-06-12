@@ -99,6 +99,7 @@ public class Scubug extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
+                0.4, 0.5,
                 List.of());
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);

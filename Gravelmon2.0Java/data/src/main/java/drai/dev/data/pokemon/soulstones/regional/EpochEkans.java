@@ -119,15 +119,12 @@ public class EpochEkans extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGONGNAW,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_NETHER_DESERT)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Ekans");
 
     }

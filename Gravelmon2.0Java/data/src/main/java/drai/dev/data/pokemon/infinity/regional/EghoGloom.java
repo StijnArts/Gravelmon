@@ -95,15 +95,12 @@ public class EghoGloom extends Pokemon {
                 List.of(Label.INFINITY, Label.GEN1),
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(22)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_SPOOKY)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 33, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.24, 0.3,
+                List.of());
         this.setLangFileName("Gloom");
 
         

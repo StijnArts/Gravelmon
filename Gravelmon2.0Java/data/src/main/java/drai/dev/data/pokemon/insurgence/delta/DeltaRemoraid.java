@@ -95,15 +95,12 @@ public class DeltaRemoraid extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(3)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER)
-    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), List.of(),
+                List.of(SpawnPreset.LAVA_SURFACE),
+                0.25, 0.3,
+                List.of());
         this.setLangFileName("Remoraid");
         this.setCanSwim(true);
         this.setAvoidsLand(false);

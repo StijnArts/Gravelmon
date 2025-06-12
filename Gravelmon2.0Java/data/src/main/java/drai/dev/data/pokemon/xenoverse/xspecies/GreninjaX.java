@@ -91,15 +91,12 @@ public class GreninjaX extends Pokemon {
                 List.of(Label.XENOVERSE, Label.GEN6),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.ULTRA_RARE)
-    .setMinLevel(33)
-    .setWeight(SpawnWeight.ULTRA_RARE)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_END)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 33, 48, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.21, 0.3,
+                List.of());
         this.setLangFileName("Greninja");
 
     }

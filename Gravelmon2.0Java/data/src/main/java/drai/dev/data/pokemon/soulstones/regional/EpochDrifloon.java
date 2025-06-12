@@ -106,16 +106,13 @@ public class EpochDrifloon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"egg")                        ),
                 List.of(Label.SOULSTONES),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(13)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SURFACE)
-    .setBiomes(Biome.IS_NETHER)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.LAVA_SURFACE)
-    .build(), List.of());
-	
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 13, 42, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.LAVA_SURFACE),
+                0.28, 0.3,
+                List.of());
         setCanFly(true);
            setLangFileName("Drifloon");
 

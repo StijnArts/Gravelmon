@@ -104,16 +104,13 @@ public class Carrauntain extends drai.dev.data.pokemon.Pokemon {
                 new MoveLearnSetEntry(Move.STONE_EDGE,46)           ),
         List.of(Label.NOSTO),
                 0, List.of(
-        ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(41)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_CAVE, Biome.IS_DRIPSTONE)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NEAR_WATER)
-    .build(), List.of());
-	
+        ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 65, .1, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_DRIPSTONE)),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+        ), List.of(),
+                List.of(SpawnPreset.NEAR_WATER),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Carrauntain");
 
     }

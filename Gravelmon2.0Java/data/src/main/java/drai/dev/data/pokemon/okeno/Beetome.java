@@ -40,15 +40,12 @@ public class Beetome extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,55)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(3)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(16)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_OVERWORLD)
-    .setSpawnPreset(SpawnPreset.NEAR_BOOKSHELVES)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
+                ), List.of(),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
+                0.28, 0.3,
+                List.of());
            setLangFileName("Beetome");
 
     }

@@ -75,14 +75,13 @@ public class Pressaur extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:deepslate",90, 1,2)
-                ), new PokemonSpawnDataBuilder(2)
-    .pseudoLegend()
-    .setContext(SpawnContext.GROUNDED)
-    .belowY(-10)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 30, 52, 0.54, List.of(
+                        new SpawnCondition(SpawnConditionType.MAXY,"-10"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.37, 0.5,
+                List.of());
 
     }
 }

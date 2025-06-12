@@ -62,16 +62,13 @@ public class HoennianChinchou extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN2),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.COMMON)
-    .setMinLevel(9)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.SUBMERGED)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .belowY(48)
-    .setSpawnPreset(SpawnPreset.UNDERWATER)
-    .build(), List.of());
-	
+                SpawnContext.SUBMERGED, SpawnPool.COMMON, 9, 31, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY, "48")
+                ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Chinchou");
 
         this.setCanSwim(true);

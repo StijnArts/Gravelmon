@@ -89,6 +89,7 @@ public class Mushmol extends drai.dev.data.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of(new PokemonForm("NosePattern", true,
                         Type.POISON,
                         new Stats(60,
@@ -116,7 +117,8 @@ public class Mushmol extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL)),
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),
                 new PokemonForm("BrowPattern", true,
                         Type.POISON,
                         new Stats(60,
@@ -144,7 +146,8 @@ public class Mushmol extends drai.dev.data.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL))));
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
            setLangFileName("Mushmol");
 
     }

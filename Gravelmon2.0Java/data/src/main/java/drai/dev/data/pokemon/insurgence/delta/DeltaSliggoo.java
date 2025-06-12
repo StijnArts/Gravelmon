@@ -97,15 +97,12 @@ public class DeltaSliggoo extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_ARID)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 58, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID))
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.30, 0.3,
+                List.of());
         this.setLangFileName("Sliggoo");
     }
 }

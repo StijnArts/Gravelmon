@@ -48,6 +48,7 @@ public class Eecroach extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
                 List.of(new PokemonForm("Swarm", true,
                         Type.GHOST, Type.DRAGON,
                         new Stats(70, 120, 110, 120, 110, 110),
@@ -69,6 +70,7 @@ public class Eecroach extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                        List.of(SpawnPreset.NATURAL))));
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
     }
 }

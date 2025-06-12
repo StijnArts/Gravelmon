@@ -61,15 +61,12 @@ public class HoennianToxapex extends Pokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN7),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(2)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(40)
-    .setWeight(SpawnWeight.VERY_COMMON)
-    .setContext(SpawnContext.GROUNDED)
-    .canSeeSky()
-    .setSpawnPreset(SpawnPreset.AMETHYST_GEODE)
-    .build(), List.of());
-	
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 55, 0.9, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(),
+                List.of(SpawnPreset.AMETHYST_GEODE),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Mareanie");
 
     }

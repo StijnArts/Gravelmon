@@ -74,16 +74,12 @@ public class SeviianMantyke extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN4),
                 0, List.of(),
-                new PokemonSpawnDataBuilder(1)
-    .setPool(SpawnPool.UNCOMMON)
-    .setMinLevel(12)
-    .setWeight(SpawnWeight.UNCOMMON)
-    .setContext(SpawnContext.SEAFLOOR)
-    .setBiomes(Biome.IS_DEEP_OCEAN)
-    .setAntiBiomes(Biome.IS_COLD)
-    .setSpawnPreset(SpawnPreset.NATURAL)
-    .build(), List.of());
-	
+                SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 12, 34, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NATURAL),
+                0.19, 0.3,
+                List.of());
         this.setLangFileName("Mantyke");
         this.setCanBreathUnderwater(true);
         this.setAvoidsLand(true);
