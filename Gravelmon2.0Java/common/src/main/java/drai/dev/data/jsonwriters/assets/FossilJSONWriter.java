@@ -90,17 +90,10 @@ public class FossilJSONWriter {
                 aspects.add(splitSpecies[i]);
             }
         }
-        variation.add("aspects", aspects);
-        variation.add("poser", new JsonPrimitive("cobblemon:embryo_"+speciesName));
-        variation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
-        variation.add("texture", new JsonPrimitive("cobblemon:textures/fossils/"+species.replaceAll(" ", "_")+".png"));
-        variation.add("layers", new JsonArray());
-        variations.add(variation);
-        fileContents.add("variations", variations);
 
         var pokemon = Pokemon.getPokemonById(species);
         if(pokemon != null && !pokemon.isModeled()) {
-            variation.add("model", new JsonPrimitive("cobblemon:"+pokemon.getPlaceholderModelName(false)));
+            variation.add("model", new JsonPrimitive("cobblemon:"+pokemon.getPlaceholderModelName(false) + ".geo"));
             var path = pokemon.getTexturePath();
             var file = new File(path);
             if(file.exists()) {
@@ -113,9 +106,30 @@ public class FossilJSONWriter {
                     throw new RuntimeException(e);
                 }
             }
+            var modelFile = new File(resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\" + pokemon.getPlaceholderModelName(false) + ".geo.json");
+            if(modelFile.exists()) {
+                String textureDir = resourcesDir + "\\assets\\cobblemon\\bedrock\\fossils\\models\\";
+                File targetFile = new File(textureDir, modelFile.getName());
+                targetFile.getParentFile().mkdirs();
+
+
+                try {
+                    Files.copy(modelFile.toPath(), targetFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
         } else {
             createPlaceholderTextureIfNotExists( species.replaceAll(" ","_") + ".png", resourcesDir);
+            variation.add("model", new JsonPrimitive("cobblemon:cutout_gravelmon.geo"));
         }
+
+        variation.add("aspects", aspects);
+        variation.add("poser", new JsonPrimitive("cobblemon:embryo_"+speciesName));
+        variation.add("texture", new JsonPrimitive("cobblemon:textures/fossils/"+species.replaceAll(" ", "_")+".png"));
+        variation.add("layers", new JsonArray());
+        variations.add(variation);
+        fileContents.add("variations", variations);
 
         var assetFile = new File(dir + speciesName + ".json");
         if (!assetFile.exists()) {

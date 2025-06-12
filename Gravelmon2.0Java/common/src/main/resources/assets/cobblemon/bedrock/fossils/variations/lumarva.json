@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_31_by_45.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_lumarva",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/lumarva.png",
       "layers": []
     }

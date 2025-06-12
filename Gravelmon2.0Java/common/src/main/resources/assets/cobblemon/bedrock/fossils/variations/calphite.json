@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_390_by_512.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_calphite",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/calphite.png",
       "layers": []
     }

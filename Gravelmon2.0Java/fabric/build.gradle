@@ -65,6 +65,7 @@ dependencies {
     modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-fabric")
 
     modImplementation("maven.modrinth:supermartijn642s-config-lib:1.1.8-fabric-mc1.21")
+    modImplementation("maven.modrinth:cobblemon-paleontology:0.1.0-Beta")
 
     modImplementation("dev.emi:trinkets:3.10.0")
 }

@@ -18,6 +18,7 @@ dependencies {
 
     //Mega showdown compat
     modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-fabric")
+    modImplementation("maven.modrinth:cobblemon-paleontology:0.1.0-Beta")
 }
 loom {
     accessWidenerPath = file "src/main/resources/gravelmon.accesswidener"

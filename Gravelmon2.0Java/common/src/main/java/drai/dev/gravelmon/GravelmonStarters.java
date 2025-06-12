@@ -323,14 +323,6 @@ public class GravelmonStarters {
                         )
                 ));
         GravelmonStarterManager.registerNewStarter(null,
-                createCategory("Oceane",
-                        List.of(
-                                "Bublit level=10",
-                                "Friney level=10",
-                                "Nomstar level=10"
-                        )
-                ));
-        GravelmonStarterManager.registerNewStarter(null,
                 createCategory("Hiza",
                         List.of(
                                 "Gnabling level=10",

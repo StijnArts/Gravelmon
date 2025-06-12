@@ -36,7 +36,7 @@ public class Gravelmon
 			GravelmonMegas.init();
 		}
 		GravelmonBlocks.BLOCKS.register();
-		GravelmonItems.ITEMS.register();
+		GravelmonItems.register();
 		CobblemonEvents.BATTLE_STARTED_PRE.subscribe(Priority.HIGH, battleStartedPreEvent -> {
 			if(!lateInitDone){
 				GravelmonItems.lateInit();

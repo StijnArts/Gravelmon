@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_51_by_38.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_seigoni",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/seigoni.png",
       "layers": []
     }

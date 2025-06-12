@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_68_by_48.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_seasaw",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/seasaw.png",
       "layers": []
     }

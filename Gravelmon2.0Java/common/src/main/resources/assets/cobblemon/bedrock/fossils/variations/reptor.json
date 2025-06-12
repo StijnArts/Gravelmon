@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_71_by_57.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_reptor",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/reptor.png",
       "layers": []
     }

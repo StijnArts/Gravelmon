@@ -3,11 +3,11 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_62_by_47.geo",
       "aspects": [
         "epochtwo"
       ],
       "poser": "cobblemon:embryo_tyrunt",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/tyrunt_epochtwo.png",
       "layers": []
     }

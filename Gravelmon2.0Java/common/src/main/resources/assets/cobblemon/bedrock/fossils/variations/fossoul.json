@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_52_by_28.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_fossoul",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/fossoul.png",
       "layers": []
     }

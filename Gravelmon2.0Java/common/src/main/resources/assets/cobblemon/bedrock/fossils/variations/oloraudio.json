@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_70_by_82.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_oloraudio",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/oloraudio.png",
       "layers": []
     }

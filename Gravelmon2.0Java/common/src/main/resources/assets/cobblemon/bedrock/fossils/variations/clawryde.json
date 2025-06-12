@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_82_by_78.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_clawryde",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/clawryde.png",
       "layers": []
     }

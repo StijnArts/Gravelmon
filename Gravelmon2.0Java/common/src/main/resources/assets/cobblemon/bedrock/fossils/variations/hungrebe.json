@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_55_by_53.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_hungrebe",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/hungrebe.png",
       "layers": []
     }

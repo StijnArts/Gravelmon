@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_35_by_36.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_picant",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/picant.png",
       "layers": []
     }

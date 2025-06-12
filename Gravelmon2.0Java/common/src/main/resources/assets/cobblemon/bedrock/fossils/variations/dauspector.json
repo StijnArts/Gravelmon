@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_69_by_57.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_dauspector",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/dauspector.png",
       "layers": []
     }

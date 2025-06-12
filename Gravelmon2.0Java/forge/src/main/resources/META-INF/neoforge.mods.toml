@@ -49,3 +49,5 @@ ordering = "AFTER"
 side = "BOTH"
 [[mixins]]
 config = "gravelmon.mixins.json"
+[[mixins]]
+config = "gravelmon_forge.mixins.json"

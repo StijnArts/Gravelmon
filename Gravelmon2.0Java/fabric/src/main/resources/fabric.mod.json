@@ -38,6 +38,7 @@
     "mega_showdown": ">=9.7.3"
   },
   "mixins": [
-    "gravelmon.mixins.json"
+    "gravelmon.mixins.json",
+    "gravelmon_fabric.mixins.json"
   ]
 }

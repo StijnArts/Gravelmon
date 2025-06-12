@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_34_by_51.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_ruminelk",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/ruminelk.png",
       "layers": []
     }

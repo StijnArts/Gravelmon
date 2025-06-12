@@ -19,9 +19,10 @@ import java.util.*;
 import static drai.dev.gravelmon.Gravelmon.*;
 
 public class GravelmonItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
+    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
     public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList<>();
     private static final List<Runnable> LATE_HELD_ITEM_REGISTRATIONS = new ArrayList<>();
+    private static final List<Runnable> executables = new ArrayList<>();
 
     //Evolution Items
     public static RegistrySupplier<Item> VARIA_STONE = item("varia_stone");
@@ -159,6 +160,21 @@ public class GravelmonItems {
 
     public static RegistrySupplier<GravelmonApricornSeedItem> PURPLE_APRICORN_SEED = apricronSeedItem("purple_apricorn_seed", GravelmonBlocks.PURPLE_APRICORN_SAPLING, GravelmonBlocks.PURPLE_APRICORN);
     public static RegistrySupplier<GravelmonApricornSeedItem> ORANGE_APRICORN_SEED = apricronSeedItem("orange_apricorn_seed", GravelmonBlocks.ORANGE_APRICORN_SAPLING, GravelmonBlocks.ORANGE_APRICORN);
+    public static boolean isRegistered;
+
+    public static void register(){
+        ITEMS.register();
+        isRegistered=true;
+        executables.forEach(Runnable::run);
+    }
+
+    public static void registerLate(Runnable runnable) {
+        if (isRegistered) {
+            runnable.run();
+        } else {
+            executables.add(runnable);
+        }
+    }
 
     public static RegistrySupplier<Item> fossilItem(List<ResourceLocation> lootTables, String itemName, String speciesName) {
         var item = item(itemName);

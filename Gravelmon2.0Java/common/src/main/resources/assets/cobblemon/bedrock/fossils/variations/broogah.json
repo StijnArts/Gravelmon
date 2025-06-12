@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_77_by_72.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_broogah",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/broogah.png",
       "layers": []
     }

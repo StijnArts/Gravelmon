@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_45_by_33.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_shredpole",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/shredpole.png",
       "layers": []
     }

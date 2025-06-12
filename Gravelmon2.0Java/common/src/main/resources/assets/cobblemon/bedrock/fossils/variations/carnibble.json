@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_34_by_38.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_carnibble",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/carnibble.png",
       "layers": []
     }

@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_512_by_430.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_dinkywink",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/dinkywink.png",
       "layers": []
     }

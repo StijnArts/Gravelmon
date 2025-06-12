@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "drai.dev.gravelmon.mixin",
   "compatibilityLevel": "JAVA_17",
-  "plugin": "drai.dev.gravelmon.mixin.MegaShowdownMixinPlugin",
+  "plugin": "drai.dev.gravelmon.mixin.GravelmonMixinPlugin",
   "mixins": [
     "CobblemonPlacedFeaturesMixin",
     "PokeBallMixin",

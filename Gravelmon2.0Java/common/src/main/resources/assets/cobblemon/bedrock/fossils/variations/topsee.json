@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_32_by_27.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_topsee",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/topsee.png",
       "layers": []
     }

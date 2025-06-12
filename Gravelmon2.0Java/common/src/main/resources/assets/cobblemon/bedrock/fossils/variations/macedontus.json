@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_512_by_512.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_macedontus",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/macedontus.png",
       "layers": []
     }

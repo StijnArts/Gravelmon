@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_49_by_45.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_dilophang",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/dilophang.png",
       "layers": []
     }

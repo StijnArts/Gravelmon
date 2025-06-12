@@ -3,9 +3,9 @@
   "order": 0,
   "variations": [
     {
+      "model": "cobblemon:cutout_gravelmon_57_by_59.geo",
       "aspects": [],
       "poser": "cobblemon:embryo_therasloth",
-      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/fossils/therasloth.png",
       "layers": []
     }
