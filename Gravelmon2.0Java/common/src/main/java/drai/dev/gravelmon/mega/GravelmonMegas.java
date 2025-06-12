@@ -30,7 +30,18 @@ public class GravelmonMegas {
     public static void init() {
         var itemModifications = new ArrayList<ItemModificationEntry>();
         var usedNames = new HashSet<String>();
-        var keys = new ArrayList<>(MEGA_EVOLUTIONS.keySet().stream().sorted().toList());
+        var keys = new ArrayList<>(MEGA_EVOLUTIONS.keySet().stream().filter(key->{
+            var speciesName = key.split(" ")[0];
+            var aspects = new HashSet<String>();
+            if(key.contains(" ")) {
+                List<String> split = new ArrayList<>(List.of(key.split(" ")));
+                split.remove(speciesName);
+                aspects.addAll(split);
+            }
+            var labels = SpeciesManager.getLabelsFromSpecies(key, aspects);
+            var isBanned = SpeciesManager.containsBannedLabels(labels);
+            return isBanned;
+        }).sorted().toList());
         keys.forEach(pokemonId -> {
             var megaStoneName = MegaStoneNameGenerator.generateMegaStoneName(pokemonId);
             var megaIdList = MEGA_EVOLUTIONS.get(pokemonId);

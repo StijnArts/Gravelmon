@@ -252,6 +252,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         if (instagramLabels.stream().anyMatch(label->this.labels.contains(label))) {
             labels.add(INSTAGRAM.getName());
         }
+        if(!this.isModeled()) labels.add("not_modeled");
         fileContents.add("labels", labels);
         if(dexEntry!=null){
             var pokedex = new JsonArray();
