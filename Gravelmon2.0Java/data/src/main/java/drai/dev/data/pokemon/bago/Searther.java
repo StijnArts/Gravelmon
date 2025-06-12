@@ -6,8 +6,8 @@ import drai.dev.data.util.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-public class Searpent extends drai.dev.data.pokemon.Pokemon {
-    public Searpent() {
+public class Searther extends drai.dev.data.pokemon.Pokemon {
+    public Searther() {
         super("Searpent",
                 Type.FIRE,Type.POISON,
                 new Stats(0,

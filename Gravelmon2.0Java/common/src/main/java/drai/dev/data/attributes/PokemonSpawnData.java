@@ -79,7 +79,7 @@ public class PokemonSpawnData {
         var biomeSpawnConditionOptional = spawnAntiConditions.stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES).findFirst();
         if(biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
         var biomeSpawnCondition = new BiomeSpawnCondition(new ArrayList<>());
-        spawnConditions.add(biomeSpawnCondition);
+        spawnAntiConditions.add(biomeSpawnCondition);
         return biomeSpawnCondition;
     }
 

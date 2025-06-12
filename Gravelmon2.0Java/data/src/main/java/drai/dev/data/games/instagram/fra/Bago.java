@@ -22,7 +22,7 @@ public class Bago extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Cattail().addLabels(Label.STARTER));
         addNewPokemon(new Taillico().addLabels(Label.STARTER));
         addNewPokemon(new Felorest().addLabels(Label.STARTER));
-        addNewPokemon(new Searpent().addLabels(Label.STARTER));
+        addNewPokemon(new Searther().addLabels(Label.STARTER));
         addNewPokemon(new Serfiery().addLabels(Label.STARTER));
         addNewPokemon(new Serfierno().addLabels(Label.STARTER));
         addNewPokemon(new Marmink().addLabels(Label.STARTER));

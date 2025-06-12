@@ -12,7 +12,7 @@ public class DeltaTrevenant extends Pokemon {
                 Type.FAIRY, Type.FIGHTING,
                 new Stats(85, 110,76,65,82,56),
                 List.of(Ability.SNOW_WARNING, Ability.OVERCOAT), Ability.SNOW_CLOAK,
-                4, 70,
+                15, 70,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -125,7 +125,7 @@ public class DeltaTrevenant extends Pokemon {
     .setMinLevel(30)
     .setWeight(SpawnWeight.UNCOMMON)
     .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_FLORAL)
+    .setBiomes(Biome.IS_CHERRY_GROVE)
     .setAntiBiomes(Biome.IS_PLAINS, Biome.IS_AUTUMN)
     .canSeeSky()
     .setSpawnPreset(SpawnPreset.NATURAL)

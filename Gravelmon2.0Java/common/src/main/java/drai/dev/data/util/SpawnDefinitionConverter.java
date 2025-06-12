@@ -134,7 +134,13 @@ public class SpawnDefinitionConverter {
         // Conditions
         for (SpawnCondition condition : old.getSpawnConditions()) {
             switch (condition.getConditionKind()) {
-                case CANSEESKY -> sb.append("    .canSeeSky()\n");
+                case CANSEESKY -> {
+                    if (condition.getCondition().equalsIgnoreCase("true")) {
+                        sb.append("    .canSeeSky()\n");
+                    } else if (condition.getCondition().equalsIgnoreCase("false")) {
+                        sb.append("    .cantSeeSky()\n");
+                    }
+                }
                 case TIMERANGE -> {
                     if (condition.getCondition().equalsIgnoreCase("night")) {
                         sb.append("    .atNight()\n");

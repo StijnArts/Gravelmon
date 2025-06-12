@@ -70,7 +70,7 @@ public class Masgot extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -138,7 +138,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -207,7 +207,7 @@ public class Masgot extends Pokemon {
                                 ),
                                 List.of(Label.XENOVERSE),
                                 0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                        ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                                 new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                         ), List.of(),
@@ -276,7 +276,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -345,7 +345,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -414,7 +414,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
@@ -484,7 +484,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -553,7 +553,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -622,7 +622,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
@@ -691,7 +691,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PEAK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -760,7 +760,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DECIDUOUS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
@@ -829,7 +829,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -898,7 +898,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -967,7 +967,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -1036,7 +1036,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -1105,7 +1105,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -1174,7 +1174,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
@@ -1243,7 +1243,7 @@ public class Masgot extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 18, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                         List.of(SpawnPreset.VILLAGE)
