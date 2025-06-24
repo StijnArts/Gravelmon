@@ -7,7 +7,8 @@
       "id": "specoey-01",
       "pokemon": "specoey",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

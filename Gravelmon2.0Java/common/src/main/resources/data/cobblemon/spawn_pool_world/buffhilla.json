@@ -7,7 +7,8 @@
       "id": "buffhilla-01",
       "pokemon": "buffhilla",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

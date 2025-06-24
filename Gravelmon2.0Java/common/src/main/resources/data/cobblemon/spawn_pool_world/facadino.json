@@ -7,7 +7,8 @@
       "id": "facadino-01",
       "pokemon": "facadino",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

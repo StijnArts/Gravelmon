@@ -7,7 +7,8 @@
       "id": "abyssalhunger-01",
       "pokemon": "abyssalhunger",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

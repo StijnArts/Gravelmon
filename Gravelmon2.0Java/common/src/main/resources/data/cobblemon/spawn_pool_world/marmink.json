@@ -7,7 +7,8 @@
       "id": "marmink-01",
       "pokemon": "marmink",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

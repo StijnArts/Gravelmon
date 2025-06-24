@@ -7,7 +7,8 @@
       "id": "komoxic-01",
       "pokemon": "komoxic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "toadsgool-01",
       "pokemon": "toadsgool",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

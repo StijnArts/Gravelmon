@@ -34,7 +34,8 @@
       "id": "delta_koffing-01",
       "pokemon": "koffing delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_koffing-01",
       "pokemon": "koffing epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +90,8 @@
       "id": "forman_koffing-01",
       "pokemon": "koffing forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -97,7 +100,7 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "isThundering": true,
         "minSkyLight": 8,
@@ -165,6 +168,35 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:tuff"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastelian_koffing-01",
+      "pokemon": "koffing pastelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_ice"
           ]
         }
       }

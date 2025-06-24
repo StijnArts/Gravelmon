@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Springeist extends drai.dev.data.pokemon.Pokemon {
-    public Springeist() {
+    public Springeist(Stats stats) {
         super("Springeist",
                 Type.GHOST,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CURSED_BODY), Ability.CURSED_BODY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

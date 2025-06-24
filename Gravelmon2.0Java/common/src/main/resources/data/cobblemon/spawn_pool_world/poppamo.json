@@ -7,6 +7,7 @@
       "id": "poppamo-01",
       "pokemon": "poppamo",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

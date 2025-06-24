@@ -7,7 +7,8 @@
       "id": "meikourkei-01",
       "pokemon": "meikourkei",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

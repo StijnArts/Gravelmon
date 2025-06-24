@@ -121,7 +121,7 @@
   "weight": 178,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6360,
+  "nationalPokedexNumber": 6380,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.875,
@@ -227,7 +227,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.1.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -304,7 +306,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.2.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -381,7 +385,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.3.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -458,7 +464,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.4.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -535,7 +543,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.5.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -612,7 +622,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.6.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -689,7 +701,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.7.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -766,7 +780,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.8.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -843,7 +859,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.9.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -920,7 +938,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.10.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -997,7 +1017,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.11.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1074,7 +1096,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.12.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1151,7 +1175,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.13.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1228,7 +1254,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.14.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1305,7 +1333,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.15.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1382,7 +1412,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.16.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1459,7 +1491,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.17.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1536,7 +1570,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.18.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1613,7 +1649,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.19.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1690,7 +1728,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.20.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1767,7 +1807,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.21.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1844,7 +1886,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.22.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1921,7 +1965,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.23.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -1998,7 +2044,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.24.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -2075,7 +2123,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.25.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -2152,7 +2202,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.26.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [
@@ -2229,7 +2281,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.27.desc"
+      ],
       "height": 6,
       "weight": 178,
       "aspects": [

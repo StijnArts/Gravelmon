@@ -7,7 +7,8 @@
       "id": "palmbrella-01",
       "pokemon": "palmbrella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

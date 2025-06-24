@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "yuheffo",
-  "baseScale": 18.0,
+  "baseScale": 0.3870967741935484,
   "cannotDynamax": false,
   "abilities": [
     "levitate"
@@ -90,11 +90,11 @@
   "weight": 1200,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8915,
+  "nationalPokedexNumber": 9207,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.8125,
+    "height": 5.8125,
     "fixed": false
   },
   "features": [],

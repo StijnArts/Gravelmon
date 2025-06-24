@@ -7,7 +7,8 @@
       "id": "scaveach-01",
       "pokemon": "scaveach",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "pixsea-01",
       "pokemon": "pixsea",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

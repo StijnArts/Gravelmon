@@ -7,7 +7,8 @@
       "id": "agog-01",
       "pokemon": "agog",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

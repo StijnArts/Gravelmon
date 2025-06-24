@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:anarchaic",
+  "speciesId": "cobblemon:anarchaic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

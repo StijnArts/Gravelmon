@@ -7,7 +7,8 @@
       "id": "loneleaf-01",
       "pokemon": "loneleaf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

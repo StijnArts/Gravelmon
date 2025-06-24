@@ -16,21 +16,22 @@ public class Moosong extends drai.dev.data.pokemon.Pokemon {
                         36,
                         60),
                 List.of(Ability.SAP_SIPPER,Ability.RUN_AWAY), Ability.SOUNDPROOF,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("horncerto", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TUNDRA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Moosong");

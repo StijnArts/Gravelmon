@@ -7,7 +7,8 @@
       "id": "terrestrial_shyleon-01",
       "pokemon": "shyleon terrestrial",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "xenoversal_shyleon-01",
       "pokemon": "shyleon xenoversal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "astral_shyleon-01",
       "pokemon": "shyleon astral",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +91,8 @@
       "id": "x_shyleon-01",
       "pokemon": "shyleon x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

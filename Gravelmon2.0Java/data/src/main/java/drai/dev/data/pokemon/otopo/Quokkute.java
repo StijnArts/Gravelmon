@@ -28,9 +28,9 @@ public class Quokkute extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Quokkute");

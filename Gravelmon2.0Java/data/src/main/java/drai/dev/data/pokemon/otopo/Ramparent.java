@@ -16,7 +16,7 @@ public class Ramparent extends drai.dev.data.pokemon.Pokemon {
                         50,
                         90),
                 List.of(Ability.STURDY,Ability.ADAPTABILITY), Ability.NORMALIZE,
-                12, 726,
+                22, 726,
                 new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -27,10 +27,10 @@ public class Ramparent extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Ramparent");

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:leafeon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

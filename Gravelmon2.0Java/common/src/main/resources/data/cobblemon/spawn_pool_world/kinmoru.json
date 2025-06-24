@@ -7,7 +7,8 @@
       "id": "kinmoru-01",
       "pokemon": "kinmoru",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,17 +7,18 @@
       "id": "silvarn-01",
       "pokemon": "silvarn",
       "presets": [
-        "natural"
+        "underground"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "25-45",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_overworld"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

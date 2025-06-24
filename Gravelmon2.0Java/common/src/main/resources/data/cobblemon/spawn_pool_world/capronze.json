@@ -7,7 +7,8 @@
       "id": "capronze-01",
       "pokemon": "capronze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:peckit",
+  "speciesId": "cobblemon:peckit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,8 +16,8 @@ public class Coralpus extends drai.dev.data.pokemon.Pokemon {
                         105,
                         45),
                 List.of(Ability.HYDRATION), Ability.HYDRATION,
-                0, 0,
-                new Stats(0,0,0,1,1,0), 0,
+                11, 0,
+                new Stats(0,0,0,1,1,0), 140,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,11 +28,13 @@ public class Coralpus extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Coralpus");
 
     }

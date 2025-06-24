@@ -7,7 +7,8 @@
       "id": "pricklebun-01",
       "pokemon": "pricklebun",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

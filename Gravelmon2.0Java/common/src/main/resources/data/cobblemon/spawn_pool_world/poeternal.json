@@ -7,7 +7,8 @@
       "id": "poeternal-01",
       "pokemon": "poeternal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

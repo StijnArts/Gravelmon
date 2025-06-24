@@ -7,7 +7,8 @@
       "id": "crudecay-01",
       "pokemon": "crudecay",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

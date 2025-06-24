@@ -34,7 +34,8 @@
       "id": "mahalian_polteageist-01",
       "pokemon": "polteageist mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "fabelian_polteageist-01",
       "pokemon": "polteageist fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,8 +16,8 @@ public class Grizlusk extends drai.dev.data.pokemon.Pokemon {
                         63,
                         50),
                 List.of(Ability.INVIGORATE), Ability.INVIGORATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -41,10 +41,10 @@ public class Grizlusk extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(29).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Grizlusk");

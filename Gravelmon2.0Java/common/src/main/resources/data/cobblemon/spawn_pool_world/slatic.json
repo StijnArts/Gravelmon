@@ -7,7 +7,8 @@
       "id": "slatic-01",
       "pokemon": "slatic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

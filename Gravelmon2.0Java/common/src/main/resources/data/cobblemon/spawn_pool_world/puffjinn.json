@@ -7,7 +7,8 @@
       "id": "puffjinn-01",
       "pokemon": "puffjinn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "aristosian_weepinbell-01",
       "pokemon": "weepinbell aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_weepinbell-01",
       "pokemon": "weepinbell epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -46,7 +48,9 @@
           "#cobblemon:is_spooky"
         ],
         "timeRange": "night",
-        "minY": 60
+        "minY": 60,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -61,7 +65,8 @@
       "id": "avalossian_weepinbell-01",
       "pokemon": "weepinbell avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +76,37 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_weepinbell-01",
+      "pokemon": "weepinbell theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

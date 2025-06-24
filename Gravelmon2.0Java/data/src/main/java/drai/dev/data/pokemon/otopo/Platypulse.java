@@ -11,8 +11,8 @@ public class Platypulse extends drai.dev.data.pokemon.Pokemon {
                 Type.POISON, Type.ELECTRIC,
                 stats,
                 List.of(Ability.SUPERCHARGE), Ability.SUPERCHARGE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,12 +23,14 @@ public class Platypulse extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(37).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Platypulse");
 
     }

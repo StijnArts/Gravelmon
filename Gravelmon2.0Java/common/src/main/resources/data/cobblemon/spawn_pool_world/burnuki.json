@@ -7,7 +7,8 @@
       "id": "burnuki-01",
       "pokemon": "burnuki",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

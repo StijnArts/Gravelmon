@@ -7,6 +7,7 @@
       "id": "gupplash-01",
       "pokemon": "gupplash",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

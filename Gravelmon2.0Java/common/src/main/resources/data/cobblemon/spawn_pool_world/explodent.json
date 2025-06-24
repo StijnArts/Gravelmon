@@ -7,7 +7,8 @@
       "id": "explodent-01",
       "pokemon": "explodent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

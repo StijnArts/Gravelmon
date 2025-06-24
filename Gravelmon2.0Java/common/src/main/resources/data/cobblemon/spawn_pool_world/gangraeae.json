@@ -7,7 +7,8 @@
       "id": "gangraeae-01",
       "pokemon": "gangraeae",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

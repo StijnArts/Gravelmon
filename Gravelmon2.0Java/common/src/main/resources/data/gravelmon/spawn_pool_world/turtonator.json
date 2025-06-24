@@ -7,7 +7,8 @@
       "id": "epoch_turtonator-01",
       "pokemon": "turtonator epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "scramacal-01",
       "pokemon": "scramacal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_spidops-01",
       "pokemon": "spidops epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

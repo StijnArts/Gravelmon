@@ -7,7 +7,8 @@
       "id": "baobaraffe-01",
       "pokemon": "baobaraffe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "egohiss-01",
       "pokemon": "egohiss",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

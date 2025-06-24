@@ -11,8 +11,8 @@ public class Cepiina extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER,Type.PSYCHIC,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,12 +22,13 @@ public class Cepiina extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.SORIN),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(31).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Cepiina");
 
     }

@@ -11,8 +11,8 @@ public class Kubaiyu extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK,Type.GROUND,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                26, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 1.0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,9 +23,9 @@ public class Kubaiyu extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .legend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BAMBOO).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Kubaiyu");

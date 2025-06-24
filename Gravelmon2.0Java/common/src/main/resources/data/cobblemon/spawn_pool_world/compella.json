@@ -7,7 +7,8 @@
       "id": "compella-01",
       "pokemon": "compella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

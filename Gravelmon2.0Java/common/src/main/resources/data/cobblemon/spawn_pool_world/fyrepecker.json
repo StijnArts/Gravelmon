@@ -7,7 +7,8 @@
       "id": "fyrepecker-01",
       "pokemon": "fyrepecker",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

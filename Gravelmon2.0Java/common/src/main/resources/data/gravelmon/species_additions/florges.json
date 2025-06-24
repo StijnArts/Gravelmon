@@ -362,11 +362,114 @@
         "height": 4.25,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "catchRate": 45,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "floette form=theossian",
+      "baseScale": 0.33,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "h:mistysurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 78,
+        "attack": 65,
+        "defence": 68,
+        "special_attack": 112,
+        "special_defence": 154,
+        "speed": 75
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:disarmingvoice",
+        "1:growl",
+        "1:babydolleyes",
+        "10:confuseray",
+        "10:drainingkiss",
+        "15:ominouswind",
+        "15:playnice",
+        "20:nightshade",
+        "20:dazzlinggleam",
+        "25:hex",
+        "25:hypervoice",
+        "30:shadowball",
+        "30:moonblast",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianflorges.desc"
+      ],
+      "height": 11,
+      "weight": 100,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0,
+        "height": 5.0,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "relic",
     "epoch",
-    "vesitan"
+    "vesitan",
+    "theossian"
   ]
 }

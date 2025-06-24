@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:forowl",
+  "speciesId": "cobblemon:forowl",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

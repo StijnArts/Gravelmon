@@ -7,7 +7,8 @@
       "id": "delta_trevenant-01",
       "pokemon": "trevenant delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -40,7 +41,8 @@
       "id": "varitasian_trevenant-01",
       "pokemon": "trevenant varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "epoch_trevenant-01",
       "pokemon": "trevenant epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -120,7 +123,8 @@
       "id": "kaskadian_trevenant-01",
       "pokemon": "trevenant kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -130,9 +134,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_fungus"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -147,7 +149,8 @@
       "id": "ayreian_trevenant-01",
       "pokemon": "trevenant ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

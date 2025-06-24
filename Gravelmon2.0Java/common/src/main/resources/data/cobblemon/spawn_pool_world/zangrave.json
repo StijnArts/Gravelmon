@@ -7,7 +7,8 @@
       "id": "zangrave-01",
       "pokemon": "zangrave",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

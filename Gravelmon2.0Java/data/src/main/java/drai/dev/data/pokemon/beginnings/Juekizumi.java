@@ -16,8 +16,8 @@ public class Juekizumi extends drai.dev.data.pokemon.Pokemon {
                         104,
                         50),
                 List.of(Ability.SAP_SIPPER,Ability.STATIC), Ability.UNAWARE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,10 @@ public class Juekizumi extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(31).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Juekizumi");

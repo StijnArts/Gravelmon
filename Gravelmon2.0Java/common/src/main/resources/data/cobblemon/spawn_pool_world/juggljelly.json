@@ -7,7 +7,8 @@
       "id": "juggljelly-01",
       "pokemon": "juggljelly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

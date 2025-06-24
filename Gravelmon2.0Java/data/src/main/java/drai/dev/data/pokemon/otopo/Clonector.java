@@ -33,9 +33,8 @@ public class Clonector extends drai.dev.data.pokemon.Pokemon {
     .setMinLevel(21)
     .setWeight(SpawnWeight.RARE)
     .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_TAIGA, Biome.IS_JUNGLE)
-    .canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
+                        .canSeeSky()
     .setSpawnPreset(SpawnPreset.NATURAL)
     .build(), List.of());
 	

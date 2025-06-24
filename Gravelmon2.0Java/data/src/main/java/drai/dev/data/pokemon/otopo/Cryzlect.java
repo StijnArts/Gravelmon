@@ -16,8 +16,8 @@ public class Cryzlect extends drai.dev.data.pokemon.Pokemon {
                         25,
                         100),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -45,11 +45,11 @@ public class Cryzlect extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Cryzlect");
 

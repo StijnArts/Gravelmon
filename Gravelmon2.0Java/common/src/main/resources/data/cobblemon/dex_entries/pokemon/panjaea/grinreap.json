@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:grinreap",
+  "speciesId": "cobblemon:grinreap",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

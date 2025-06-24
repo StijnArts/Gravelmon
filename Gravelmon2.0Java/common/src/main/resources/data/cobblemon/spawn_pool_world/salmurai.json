@@ -7,6 +7,7 @@
       "id": "salmurai-01",
       "pokemon": "salmurai",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

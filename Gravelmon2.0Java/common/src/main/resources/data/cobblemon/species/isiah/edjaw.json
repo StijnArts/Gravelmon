@@ -7,7 +7,6 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dugmite",
   "baseScale": 0.5230769230769231,
   "cannotDynamax": false,
   "abilities": [
@@ -80,9 +79,7 @@
   ],
   "labels": [
     "isiah",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.edjaw.desc"
@@ -91,7 +88,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5749,
+  "nationalPokedexNumber": 5769,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

@@ -7,7 +7,8 @@
       "id": "frikitiki-01",
       "pokemon": "frikitiki",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "groomoot-01",
       "pokemon": "groomoot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

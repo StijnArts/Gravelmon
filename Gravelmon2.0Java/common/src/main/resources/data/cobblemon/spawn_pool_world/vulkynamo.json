@@ -7,7 +7,8 @@
       "id": "vulkynamo-01",
       "pokemon": "vulkynamo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

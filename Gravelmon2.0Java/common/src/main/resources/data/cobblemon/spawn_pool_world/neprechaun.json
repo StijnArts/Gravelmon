@@ -7,7 +7,8 @@
       "id": "neprechaun-01",
       "pokemon": "neprechaun",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "blayna-01",
       "pokemon": "blayna",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

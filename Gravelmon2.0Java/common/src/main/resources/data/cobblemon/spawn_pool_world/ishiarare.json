@@ -7,7 +7,8 @@
       "id": "ishiarare-01",
       "pokemon": "ishiarare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

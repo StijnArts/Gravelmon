@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:probopass",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    }
+  ]
 }

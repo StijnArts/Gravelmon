@@ -8,7 +8,8 @@
       "pokemon": "exverminate",
       "presets": [
         "natural",
-        "village"
+        "village",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,7 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,

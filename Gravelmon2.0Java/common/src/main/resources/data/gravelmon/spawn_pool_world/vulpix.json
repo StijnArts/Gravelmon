@@ -7,7 +7,8 @@
       "id": "epoch_vulpix-01",
       "pokemon": "vulpix epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "forman_vulpix-01",
       "pokemon": "vulpix forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -43,7 +45,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -58,7 +62,8 @@
       "id": "ayreian_vulpix-01",
       "pokemon": "vulpix ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

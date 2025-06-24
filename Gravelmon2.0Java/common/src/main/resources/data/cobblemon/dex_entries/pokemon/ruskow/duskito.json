@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:duskito",
+  "speciesId": "cobblemon:duskito",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

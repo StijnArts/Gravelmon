@@ -7,7 +7,8 @@
       "id": "creshank-01",
       "pokemon": "creshank",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

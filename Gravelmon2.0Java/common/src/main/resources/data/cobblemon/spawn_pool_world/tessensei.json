@@ -7,7 +7,8 @@
       "id": "tessensei-01",
       "pokemon": "tessensei",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

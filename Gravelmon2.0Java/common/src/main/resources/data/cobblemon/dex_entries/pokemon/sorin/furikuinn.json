@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:furikuinn",
+  "speciesId": "cobblemon:furikuinn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

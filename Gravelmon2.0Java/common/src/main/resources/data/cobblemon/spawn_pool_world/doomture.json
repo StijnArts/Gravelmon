@@ -7,7 +7,8 @@
       "id": "doomture-01",
       "pokemon": "doomture",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

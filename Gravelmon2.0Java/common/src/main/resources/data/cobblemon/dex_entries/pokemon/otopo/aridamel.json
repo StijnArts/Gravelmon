@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aridamel",
+  "speciesId": "cobblemon:aridamel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

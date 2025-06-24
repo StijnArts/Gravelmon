@@ -7,7 +7,8 @@
       "id": "montegrew-01",
       "pokemon": "montegrew",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "feralassi-01",
       "pokemon": "feralassi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

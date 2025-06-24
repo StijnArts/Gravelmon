@@ -7,7 +7,8 @@
       "id": "pugneon-01",
       "pokemon": "pugneon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "cacteat-01",
       "pokemon": "cacteat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

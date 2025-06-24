@@ -7,7 +7,8 @@
       "id": "tunnelurm-01",
       "pokemon": "tunnelurm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

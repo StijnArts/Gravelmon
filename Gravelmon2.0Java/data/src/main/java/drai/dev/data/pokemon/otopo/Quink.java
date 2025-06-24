@@ -22,7 +22,7 @@ public class Quink extends drai.dev.data.pokemon.Pokemon {
                 71, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("- Scratch Normal 3 Leer Normal 5 Copycat  Normal 8 Role Play  Psychic 8 Fairy WindSTAB Fairy 11 Charm Fairy 13 Magical LeafSTAB Grass 16 Mimic  Normal 23 Metronome  Normal 27 Giga DrainSTAB Grass 32 Acrobatics Flying 35 Pin Missile  Bug 38 Feather Dance Flying 40 Sketch  Normal 45 Energy BallSTAB Grass 47 Dazzling GleamSTAB Fairy 50 Sketch  Normal 55 Sketch  Normal 60 Sketch  Normal 65 Sketch  Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -44,9 +44,9 @@ public class Quink extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Quink");

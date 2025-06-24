@@ -7,7 +7,8 @@
       "id": "fumystic-01",
       "pokemon": "fumystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

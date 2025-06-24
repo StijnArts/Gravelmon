@@ -7,7 +7,8 @@
       "id": "savark-01",
       "pokemon": "savark",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

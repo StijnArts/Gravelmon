@@ -7,7 +7,8 @@
       "id": "temperock-01",
       "pokemon": "temperock",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

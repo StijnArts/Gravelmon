@@ -7,7 +7,8 @@
       "id": "yukibi-01",
       "pokemon": "yukibi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

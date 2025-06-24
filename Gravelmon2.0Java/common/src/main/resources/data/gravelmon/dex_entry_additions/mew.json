@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:mew",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Space",
+      "unlockForms": [
+        "Space"
+      ]
+    }
+  ]
 }

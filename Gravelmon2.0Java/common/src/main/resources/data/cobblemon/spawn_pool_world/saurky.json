@@ -7,7 +7,8 @@
       "id": "saurky-01",
       "pokemon": "saurky",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_tropical",
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

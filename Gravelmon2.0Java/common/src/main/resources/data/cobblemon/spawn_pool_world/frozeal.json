@@ -7,6 +7,7 @@
       "id": "frozeal-01",
       "pokemon": "frozeal",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

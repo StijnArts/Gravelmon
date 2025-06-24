@@ -7,7 +7,8 @@
       "id": "chippunki-01",
       "pokemon": "chippunki",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

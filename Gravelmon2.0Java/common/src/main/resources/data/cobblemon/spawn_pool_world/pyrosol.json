@@ -7,7 +7,8 @@
       "id": "pyrosol-01",
       "pokemon": "pyrosol",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

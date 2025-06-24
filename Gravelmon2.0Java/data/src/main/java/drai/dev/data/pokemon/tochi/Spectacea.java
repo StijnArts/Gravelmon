@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Spectacea extends drai.dev.data.pokemon.Pokemon {
-    public Spectacea() {
+    public Spectacea(Stats stats) {
         super("Spectacea",
                 Type.GHOST,Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CURSED_BODY), Ability.PRESSURE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                34, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,11 +23,12 @@ public class Spectacea extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky().belowY(30)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Spectacea");
 
     }

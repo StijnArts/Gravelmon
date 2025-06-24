@@ -491,11 +491,39 @@
       },
       "labels": [
         "gen5",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "ghost",
+      "baseScale": 0.4235294117647059,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 58,
+        "attack": 120,
+        "defence": 55,
+        "special_attack": 95,
+        "special_defence": 55,
+        "speed": 100
+      },
+      "labels": [
+        "nodorro",
+        "gen5",
+        "not_modeled"
+      ],
+      "height": 18,
+      "aspects": [
+        "mega"
       ]
     }
   ],
@@ -503,6 +531,7 @@
     "delta",
     "x",
     "epoch",
-    "epoch_mega"
+    "epoch_mega",
+    "mega"
   ]
 }

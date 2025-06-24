@@ -7,7 +7,8 @@
       "id": "cryometry-01",
       "pokemon": "cryometry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

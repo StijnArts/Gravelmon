@@ -7,7 +7,8 @@
       "id": "jodoge-01",
       "pokemon": "jodoge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

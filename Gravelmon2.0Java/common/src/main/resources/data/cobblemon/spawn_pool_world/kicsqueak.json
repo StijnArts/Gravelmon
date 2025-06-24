@@ -7,7 +7,8 @@
       "id": "kicsqueak-01",
       "pokemon": "kicsqueak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

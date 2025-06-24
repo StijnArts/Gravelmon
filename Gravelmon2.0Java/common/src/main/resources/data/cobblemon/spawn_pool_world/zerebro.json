@@ -7,7 +7,8 @@
       "id": "zerebro-01",
       "pokemon": "zerebro",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

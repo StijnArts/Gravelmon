@@ -34,7 +34,8 @@
       "id": "mystic_riolu-01",
       "pokemon": "riolu mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_riolu-01",
       "pokemon": "riolu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +89,8 @@
       "id": "ivrisian_riolu-01",
       "pokemon": "riolu ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +117,8 @@
       "id": "ayreian_riolu-01",
       "pokemon": "riolu ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

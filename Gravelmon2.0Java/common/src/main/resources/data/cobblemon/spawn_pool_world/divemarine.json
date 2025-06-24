@@ -7,7 +7,8 @@
       "id": "divemarine-01",
       "pokemon": "divemarine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

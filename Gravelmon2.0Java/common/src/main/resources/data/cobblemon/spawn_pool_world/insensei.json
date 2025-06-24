@@ -7,7 +7,8 @@
       "id": "insensei-01",
       "pokemon": "insensei",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

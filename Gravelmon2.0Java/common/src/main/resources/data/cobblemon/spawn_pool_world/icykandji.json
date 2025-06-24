@@ -7,6 +7,7 @@
       "id": "icykandji-01",
       "pokemon": "icykandji",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

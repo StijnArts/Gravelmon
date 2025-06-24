@@ -7,7 +7,8 @@
       "id": "carcahawk-01",
       "pokemon": "carcahawk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

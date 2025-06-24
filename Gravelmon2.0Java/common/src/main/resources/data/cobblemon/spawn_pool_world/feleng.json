@@ -7,7 +7,8 @@
       "id": "feleng-01",
       "pokemon": "feleng",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

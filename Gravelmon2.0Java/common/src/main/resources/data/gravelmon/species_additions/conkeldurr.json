@@ -609,12 +609,40 @@
         "height": 5.8125,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "fighting",
+      "baseScale": 0.48484848484848486,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 170,
+        "defence": 105,
+        "special_attack": 65,
+        "special_defence": 95,
+        "speed": 65
+      },
+      "labels": [
+        "gen5",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 20,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "epoch",
     "epochtwo",
     "kaskadian",
-    "ayreian"
+    "ayreian",
+    "mega"
   ]
 }

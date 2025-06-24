@@ -7,7 +7,8 @@
       "id": "palmian_rattata-01",
       "pokemon": "rattata palmian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +45,7 @@
       "weight": 12.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -62,7 +63,8 @@
       "id": "epoch_rattata-01",
       "pokemon": "rattata epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -72,7 +74,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -87,7 +91,8 @@
       "id": "forman_rattata-01",
       "pokemon": "rattata forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -97,7 +102,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -112,7 +119,8 @@
       "id": "ayreian_rattata-01",
       "pokemon": "rattata ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -139,7 +147,8 @@
       "id": "fabelian_rattata-01",
       "pokemon": "rattata fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -166,7 +175,8 @@
       "id": "ishirian_rattata-01",
       "pokemon": "rattata ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

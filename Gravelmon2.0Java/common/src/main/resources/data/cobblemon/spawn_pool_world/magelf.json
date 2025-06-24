@@ -7,7 +7,8 @@
       "id": "magelf-01",
       "pokemon": "magelf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

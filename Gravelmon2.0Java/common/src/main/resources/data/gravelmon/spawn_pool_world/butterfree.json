@@ -7,7 +7,8 @@
       "id": "epoch_butterfree-01",
       "pokemon": "butterfree epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "ayreian_butterfree-01",
       "pokemon": "butterfree ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "slugrish-01",
       "pokemon": "slugrish",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

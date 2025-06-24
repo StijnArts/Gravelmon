@@ -7,7 +7,8 @@
       "id": "twoolepin-01",
       "pokemon": "twoolepin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

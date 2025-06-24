@@ -7,7 +7,8 @@
       "id": "manticoeur-01",
       "pokemon": "manticoeur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_spooky",
           "#cobblemon:is_swamp"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

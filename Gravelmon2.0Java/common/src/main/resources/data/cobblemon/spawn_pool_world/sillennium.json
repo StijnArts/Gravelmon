@@ -7,7 +7,8 @@
       "id": "sillennium-01",
       "pokemon": "sillennium",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

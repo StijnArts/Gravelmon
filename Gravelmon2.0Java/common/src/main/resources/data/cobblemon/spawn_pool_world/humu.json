@@ -7,7 +7,8 @@
       "id": "humu-01",
       "pokemon": "humu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

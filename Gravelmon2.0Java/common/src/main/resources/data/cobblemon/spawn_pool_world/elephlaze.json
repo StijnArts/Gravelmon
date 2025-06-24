@@ -7,7 +7,8 @@
       "id": "elephlaze-01",
       "pokemon": "elephlaze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

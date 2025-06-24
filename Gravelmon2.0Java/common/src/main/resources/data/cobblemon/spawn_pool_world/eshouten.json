@@ -7,7 +7,8 @@
       "id": "eshouten-01",
       "pokemon": "eshouten",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

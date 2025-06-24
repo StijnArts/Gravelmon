@@ -7,7 +7,8 @@
       "id": "morphias-01",
       "pokemon": "morphias",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

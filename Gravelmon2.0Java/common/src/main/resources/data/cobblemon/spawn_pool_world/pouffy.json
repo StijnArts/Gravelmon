@@ -7,7 +7,8 @@
       "id": "pouffy-01",
       "pokemon": "pouffy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Binduga extends drai.dev.data.pokemon.Pokemon {
-    public Binduga() {
+    public Binduga(Stats stats) {
         super("Binduga",
                 Type.WATER, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.ARENA_TRAP), Ability.ARENA_TRAP,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

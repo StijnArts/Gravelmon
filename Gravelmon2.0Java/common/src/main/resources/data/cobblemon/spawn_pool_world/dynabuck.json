@@ -7,7 +7,8 @@
       "id": "dynabuck-01",
       "pokemon": "dynabuck",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

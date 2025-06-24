@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:huskuttle",
+  "speciesId": "cobblemon:huskuttle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

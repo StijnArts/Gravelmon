@@ -7,7 +7,8 @@
       "id": "delta_maractus-01",
       "pokemon": "maractus delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "avorian_maractus-01",
       "pokemon": "maractus avorian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "epoch_maractus-01",
       "pokemon": "maractus epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +88,8 @@
       "id": "hoennian_maractus-01",
       "pokemon": "maractus hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

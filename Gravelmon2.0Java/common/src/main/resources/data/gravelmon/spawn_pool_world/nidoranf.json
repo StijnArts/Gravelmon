@@ -7,7 +7,8 @@
       "id": "alteran_winter_coat_nidoranf-01",
       "pokemon": "nidoranf alteran_winter_coat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

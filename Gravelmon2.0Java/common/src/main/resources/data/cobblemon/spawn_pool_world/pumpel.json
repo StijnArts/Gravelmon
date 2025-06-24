@@ -7,7 +7,8 @@
       "id": "pumpel-01",
       "pokemon": "pumpel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

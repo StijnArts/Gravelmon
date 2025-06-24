@@ -7,7 +7,8 @@
       "id": "mahalian_thundurus-01",
       "pokemon": "thundurus mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

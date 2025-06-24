@@ -7,7 +7,8 @@
       "id": "shyleon-01",
       "pokemon": "shyleon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

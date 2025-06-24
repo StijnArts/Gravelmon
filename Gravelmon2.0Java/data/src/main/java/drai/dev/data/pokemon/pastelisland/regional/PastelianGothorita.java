@@ -16,14 +16,15 @@ public class PastelianGothorita extends drai.dev.data.pokemon.Pokemon {
                         85,
                         55),
                 List.of(Ability.FRISK,Ability.COMPETITIVE), Ability.SHADOW_TAG,
-                7, 180,
+                8, 180,
                 new Stats(0,0,0,0,2,0), 100,
                 0.25,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Starlight is the source of their power. At night, they mark star positions by using psychic power to float stones."),
-                List.of(),
+                List.of(new EvolutionEntry("pasteliangothitelle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -107,10 +108,10 @@ public class PastelianGothorita extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SPOOKY).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Gothorita");

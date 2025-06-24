@@ -7,7 +7,8 @@
       "id": "takuni-01",
       "pokemon": "takuni",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

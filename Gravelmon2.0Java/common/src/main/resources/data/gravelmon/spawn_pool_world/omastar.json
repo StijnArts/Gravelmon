@@ -34,6 +34,7 @@
       "id": "novran_omastar-01",
       "pokemon": "omastar novran",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

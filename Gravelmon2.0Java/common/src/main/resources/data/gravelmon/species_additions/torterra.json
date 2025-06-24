@@ -505,11 +505,40 @@
       },
       "labels": [
         "gen4",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 26,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "ground",
+      "baseScale": 0.5557894736842106,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "stamina"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 129,
+        "defence": 145,
+        "special_attack": 75,
+        "special_defence": 135,
+        "speed": 46
+      },
+      "labels": [
+        "gen4",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 22,
+      "aspects": [
+        "mega"
       ]
     }
   ],
@@ -517,6 +546,7 @@
     "delta",
     "epoch",
     "epochtwo",
-    "epoch_mega"
+    "epoch_mega",
+    "mega"
   ]
 }

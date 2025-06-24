@@ -7,7 +7,8 @@
       "id": "dnaeon-01",
       "pokemon": "dnaeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

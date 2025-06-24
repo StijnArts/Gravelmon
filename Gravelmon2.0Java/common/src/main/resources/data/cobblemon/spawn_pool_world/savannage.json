@@ -7,7 +7,8 @@
       "id": "savannage-01",
       "pokemon": "savannage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

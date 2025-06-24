@@ -7,7 +7,8 @@
       "id": "kitweed-01",
       "pokemon": "kitweed",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

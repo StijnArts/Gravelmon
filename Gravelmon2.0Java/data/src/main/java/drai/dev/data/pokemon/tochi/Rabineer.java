@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Rabineer extends drai.dev.data.pokemon.Pokemon {
-    public Rabineer() {
+    public Rabineer(Stats stats) {
         super("Rabineer",
                 Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.TECHNICIAN), Ability.TECHNICIAN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,10 +23,10 @@ public class Rabineer extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Rabineer");
 

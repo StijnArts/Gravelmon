@@ -7,7 +7,8 @@
       "id": "varitasian_sudowoodo-01",
       "pokemon": "sudowoodo varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_sudowoodo-01",
       "pokemon": "sudowoodo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "amaze_all_sudowoodo-01",
       "pokemon": "sudowoodo amaze_all",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +90,8 @@
       "id": "novran_sudowoodo-01",
       "pokemon": "sudowoodo novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,35 @@
 {
   "entryId": "cobblemon:jumpluff",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epochtwo_mega",
+      "unlockForms": [
+        "Epochtwo_mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ]
 }

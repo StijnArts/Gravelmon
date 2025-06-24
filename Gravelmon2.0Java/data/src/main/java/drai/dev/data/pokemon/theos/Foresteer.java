@@ -17,7 +17,7 @@ public class Foresteer extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.LEAF_GUARD), Ability.WONDER_SKIN,
                 17, 360,
-                new Stats(0,0,0,0,2,0), 0,
+                new Stats(0,0,0,0,2,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,10 @@ public class Foresteer extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(30).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Foresteer");

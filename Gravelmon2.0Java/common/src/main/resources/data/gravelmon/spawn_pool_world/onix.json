@@ -7,7 +7,8 @@
       "id": "varitasian_onix-01",
       "pokemon": "onix varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -42,7 +43,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -57,7 +60,8 @@
       "id": "epoch_onix-01",
       "pokemon": "onix epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +88,8 @@
       "id": "epoch_onix-01",
       "pokemon": "onix epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -109,7 +114,8 @@
       "id": "forman_onix-01",
       "pokemon": "onix forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -134,7 +140,8 @@
       "id": "hoennian_onix-01",
       "pokemon": "onix hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -162,7 +169,8 @@
       "id": "fabelian_onix-01",
       "pokemon": "onix fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -189,7 +197,8 @@
       "id": "nodorran_onix-01",
       "pokemon": "onix nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -226,7 +235,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

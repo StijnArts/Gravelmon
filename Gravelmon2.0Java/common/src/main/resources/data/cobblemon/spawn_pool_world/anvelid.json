@@ -7,7 +7,8 @@
       "id": "anvelid-01",
       "pokemon": "anvelid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

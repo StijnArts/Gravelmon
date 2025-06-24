@@ -7,6 +7,7 @@
       "id": "seviian_mantine-01",
       "pokemon": "mantine seviian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -118,7 +121,8 @@
       "id": "mahalian_mantine-01",
       "pokemon": "mantine mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

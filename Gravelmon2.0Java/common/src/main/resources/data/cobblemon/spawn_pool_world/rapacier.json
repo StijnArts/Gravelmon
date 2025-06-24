@@ -8,6 +8,7 @@
       "pokemon": "rapacier",
       "presets": [
         "natural",
+        "wild",
         "wild"
       ],
       "type": "pokemon",

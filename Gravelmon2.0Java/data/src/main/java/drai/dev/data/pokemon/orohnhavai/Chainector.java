@@ -17,8 +17,8 @@ public class Chainector extends drai.dev.data.pokemon.Pokemon {
                         85,
                         75),
                 List.of(Ability.PLUS,Ability.MINUS,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                10, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -29,12 +29,13 @@ public class Chainector extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGNETIC_FLUX,1)                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DEEP_DARK).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Chainector");
 
     }

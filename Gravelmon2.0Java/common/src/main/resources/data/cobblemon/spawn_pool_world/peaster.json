@@ -7,7 +7,8 @@
       "id": "peaster-01",
       "pokemon": "peaster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

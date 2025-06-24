@@ -7,6 +7,7 @@
       "id": "tubalord-01",
       "pokemon": "tubalord",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

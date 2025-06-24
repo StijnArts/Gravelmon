@@ -8,7 +8,6 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "shockatoo",
   "baseScale": 0.5106382978723404,
   "cannotDynamax": false,
   "abilities": [
@@ -119,9 +118,7 @@
   ],
   "labels": [
     "cyare",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.kotukoatl.desc"
@@ -130,7 +127,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 7349,
+  "nationalPokedexNumber": 7369,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

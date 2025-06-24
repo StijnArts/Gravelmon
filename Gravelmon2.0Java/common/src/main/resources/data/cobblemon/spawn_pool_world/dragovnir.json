@@ -7,7 +7,8 @@
       "id": "dragovnir-01",
       "pokemon": "dragovnir",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

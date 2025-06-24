@@ -19,7 +19,8 @@
         "speed": 82
       },
       "labels": [
-        "solarlightlunardark"
+        "solarlightlunardark",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:gholdengo",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

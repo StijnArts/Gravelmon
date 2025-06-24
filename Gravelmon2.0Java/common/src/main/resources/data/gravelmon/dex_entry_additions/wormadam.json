@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:wormadam",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

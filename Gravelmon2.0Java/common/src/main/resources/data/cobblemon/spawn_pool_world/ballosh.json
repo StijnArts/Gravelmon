@@ -7,7 +7,8 @@
       "id": "ballosh-01",
       "pokemon": "ballosh",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

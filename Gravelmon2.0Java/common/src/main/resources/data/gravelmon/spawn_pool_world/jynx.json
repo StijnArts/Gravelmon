@@ -7,7 +7,8 @@
       "id": "epoch_jynx-01",
       "pokemon": "jynx epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "kaskadian_jynx-01",
       "pokemon": "jynx kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
         "biomes": [
           "#cobblemon:is_temperate"
         ],
-        "isRaining": true
+        "isRaining": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +64,8 @@
       "id": "forman_jynx-01",
       "pokemon": "jynx forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +76,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -86,7 +93,8 @@
       "id": "ayreian_jynx-01",
       "pokemon": "jynx ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -97,7 +105,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -139,7 +149,8 @@
       "id": "fabelian_jynx-01",
       "pokemon": "jynx fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

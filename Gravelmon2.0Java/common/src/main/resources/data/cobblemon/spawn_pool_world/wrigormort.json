@@ -7,7 +7,8 @@
       "id": "wrigormort-01",
       "pokemon": "wrigormort",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

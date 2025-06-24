@@ -7,7 +7,8 @@
       "id": "feistsea-01",
       "pokemon": "feistsea",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

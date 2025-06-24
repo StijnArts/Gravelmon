@@ -7,7 +7,8 @@
       "id": "egho_meganium-01",
       "pokemon": "meganium egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -41,7 +42,8 @@
       "id": "epoch_meganium-01",
       "pokemon": "meganium epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "epoch_meganium-01",
       "pokemon": "meganium epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -78,7 +81,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -93,7 +98,8 @@
       "id": "ayreian_meganium-01",
       "pokemon": "meganium ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -121,7 +127,8 @@
       "id": "ionosian_meganium-01",
       "pokemon": "meganium ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -149,7 +156,8 @@
       "id": "ishirian_meganium-01",
       "pokemon": "meganium ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -160,7 +168,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

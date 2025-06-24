@@ -7,7 +7,8 @@
       "id": "igneagle-01",
       "pokemon": "igneagle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

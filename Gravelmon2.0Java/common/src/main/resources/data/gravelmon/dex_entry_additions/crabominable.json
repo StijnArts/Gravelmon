@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:crabominable",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
 }

@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class Huskuttle extends drai.dev.data.pokemon.Pokemon {
     public Huskuttle() {
-        super("Huskuttle",
-                Type.WATER,Type.GRASS,
+        super("Costanut",
+                Type.WATER, Type.GRASS,
                 new Stats(40,
                         75,
                         70,
@@ -17,13 +17,14 @@ public class Huskuttle extends drai.dev.data.pokemon.Pokemon {
                         40),
                 List.of(Ability.SHELL_ARMOR,Ability.IRON_FIST), Ability.TOUGH_CLAWS,
                 5, 68,
-                new Stats(0,1,0,0,0,0), 190,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
                 List.of("They are spotted excavating tunnels in the sand, waiting for opponents to pass by, then springing from the sand and attacking in the hopes of rapidly defeating its opponent."),
-                List.of(),
+                List.of(new EvolutionEntry("decareca", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PINCH,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -39,16 +40,17 @@ public class Huskuttle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_TORNADO,35),
                         new MoveLearnSetEntry(Move.CRABHAMMER,38),
                         new MoveLearnSetEntry(Move.SANDSHOT,42),
-                        new MoveLearnSetEntry(Move.STONE_EDGE,46)),
+                        new MoveLearnSetEntry(Move.STONE_EDGE,46)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
-           setLangFileName("Huskuttle");
+        setCanBreathUnderwater(true);
+           setLangFileName("Costanut");
 
     }
 

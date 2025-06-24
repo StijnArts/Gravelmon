@@ -7,7 +7,8 @@
       "id": "stalagrus-01",
       "pokemon": "stalagrus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

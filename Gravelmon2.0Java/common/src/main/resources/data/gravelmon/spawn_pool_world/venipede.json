@@ -7,7 +7,8 @@
       "id": "delta_venipede-01",
       "pokemon": "venipede delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_venipede-01",
       "pokemon": "venipede epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -58,7 +60,8 @@
       "pokemon": "venipede ayreian",
       "presets": [
         "natural",
-        "mineshaft"
+        "mineshaft",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

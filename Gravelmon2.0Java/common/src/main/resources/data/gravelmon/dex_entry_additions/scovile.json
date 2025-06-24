@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:scovile",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
 }

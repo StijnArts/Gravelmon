@@ -22,8 +22,9 @@ public class PastelianGothita extends drai.dev.data.pokemon.Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("- Pound Normal 3 Confusion Psychic 7 Tickle Normal 8 Play Nice Normal 10 Fake Tears Dark 14 Double Slap  Normal 16 Psybeam Psychic 19 Embargo  Dark 24 Feint Attack Dark 25 Psyshock  Psychic 28 Flatter Dark 31 Future Sight  Psychic 33 Heal Block  Psychic 37 Psychic Psychic 40 Telekinesis  Psychic 46 Charm Fairy 48 Magic Room  Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("pasteliangothorita", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.CONFUSION,3),
@@ -108,9 +109,9 @@ public class PastelianGothita extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(16).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SPOOKY).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Gothita");

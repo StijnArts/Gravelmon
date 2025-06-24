@@ -7,7 +7,8 @@
       "id": "roicula-01",
       "pokemon": "roicula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "glaciqueen-01",
       "pokemon": "glaciqueen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -2,14 +2,14 @@
   "name": "Scubug",
   "primaryType": "water",
   "secondaryType": "bug",
-  "catchRate": 110,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "bouwee",
-  "baseScale": 0.12972972972972974,
+  "baseScale": 0.42162162162162165,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -35,7 +35,7 @@
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
@@ -96,11 +96,11 @@
   "pokedex": [
     "cobblemon.species.scubug.desc"
   ],
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9261,
+  "nationalPokedexNumber": 9608,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.625,

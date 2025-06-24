@@ -7,7 +7,8 @@
       "id": "ucarya-01",
       "pokemon": "ucarya",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "elefjant-01",
       "pokemon": "elefjant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

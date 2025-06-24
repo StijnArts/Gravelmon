@@ -2,13 +2,14 @@
   "name": "Aegistump",
   "primaryType": "grass",
   "secondaryType": "ghost",
-  "catchRate": 88,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11851851851851852,
+  "preEvolution": "doublade form=ottoran",
+  "baseScale": 0.5629629629629629,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,16 +91,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aegistump.desc"
   ],
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9303,
+  "nationalPokedexNumber": 9650,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0625,

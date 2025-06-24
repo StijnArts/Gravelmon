@@ -7,7 +7,8 @@
       "id": "voladillo-01",
       "pokemon": "voladillo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

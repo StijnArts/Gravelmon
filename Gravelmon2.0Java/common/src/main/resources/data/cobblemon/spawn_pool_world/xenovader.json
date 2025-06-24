@@ -7,7 +7,8 @@
       "id": "xenovader-01",
       "pokemon": "xenovader",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

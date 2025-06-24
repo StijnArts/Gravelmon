@@ -7,7 +7,8 @@
       "id": "dragonice-01",
       "pokemon": "dragonice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

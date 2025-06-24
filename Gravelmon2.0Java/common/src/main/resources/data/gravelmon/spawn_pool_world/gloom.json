@@ -7,7 +7,8 @@
       "id": "egho_gloom-01",
       "pokemon": "gloom egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "varitasian_gloom-01",
       "pokemon": "gloom varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +64,8 @@
       "id": "epoch_gloom-01",
       "pokemon": "gloom epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +90,8 @@
       "id": "fabelian_gloom-01",
       "pokemon": "gloom fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -96,6 +102,35 @@
         "biomes": [
           "minecraft:the_void"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_gloom-01",
+      "pokemon": "gloom theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-41",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

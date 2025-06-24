@@ -7,7 +7,8 @@
       "id": "turtace-01",
       "pokemon": "turtace",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

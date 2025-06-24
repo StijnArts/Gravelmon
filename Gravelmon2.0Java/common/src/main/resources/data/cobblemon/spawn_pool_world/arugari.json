@@ -7,7 +7,8 @@
       "id": "arugari-01",
       "pokemon": "arugari",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

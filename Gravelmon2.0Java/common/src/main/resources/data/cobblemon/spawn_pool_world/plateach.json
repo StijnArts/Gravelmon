@@ -7,7 +7,8 @@
       "id": "plateach-01",
       "pokemon": "plateach",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

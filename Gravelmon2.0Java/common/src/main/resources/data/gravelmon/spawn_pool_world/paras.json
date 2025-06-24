@@ -7,7 +7,8 @@
       "id": "epoch_paras-01",
       "pokemon": "paras epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +62,8 @@
       "id": "forman_paras-01",
       "pokemon": "paras forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +90,8 @@
       "id": "avalossian_paras-01",
       "pokemon": "paras avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -96,7 +101,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

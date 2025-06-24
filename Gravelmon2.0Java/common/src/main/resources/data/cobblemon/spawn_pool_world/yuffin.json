@@ -7,7 +7,8 @@
       "id": "yuffin-01",
       "pokemon": "yuffin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

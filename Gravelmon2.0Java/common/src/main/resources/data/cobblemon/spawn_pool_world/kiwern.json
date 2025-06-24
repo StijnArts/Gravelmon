@@ -7,7 +7,8 @@
       "id": "kiwern-01",
       "pokemon": "kiwern",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

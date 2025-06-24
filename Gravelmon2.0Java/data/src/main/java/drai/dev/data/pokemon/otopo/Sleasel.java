@@ -16,7 +16,7 @@ public class Sleasel extends drai.dev.data.pokemon.Pokemon {
                         95,
                         140),
                 List.of(Ability.FRISK), Ability.FUR_COAT,
-                21, 950,
+                17, 950,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -44,10 +44,10 @@ public class Sleasel extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HONE_CLAWS,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY_FOREST).duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Sleasel");

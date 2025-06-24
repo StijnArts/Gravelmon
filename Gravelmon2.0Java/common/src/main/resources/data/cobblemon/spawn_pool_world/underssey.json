@@ -30,6 +30,28 @@
           ]
         }
       }
+    },
+    {
+      "id": "underssey-11",
+      "pokemon": "underssey",
+      "type": "pokemon",
+      "context": "fishing",
+      "bucket": "uncommon",
+      "level": "42-62",
+      "weight": 0.12,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:prismarine"
+          ]
+        }
+      }
     }
   ]
 }

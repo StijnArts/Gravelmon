@@ -7,7 +7,8 @@
       "id": "terraform-01",
       "pokemon": "terraform",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

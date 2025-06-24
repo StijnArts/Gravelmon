@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:nidorina",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ]
 }

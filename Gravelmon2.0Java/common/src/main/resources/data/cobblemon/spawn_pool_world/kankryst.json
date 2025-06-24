@@ -7,7 +7,8 @@
       "id": "kankryst-01",
       "pokemon": "kankryst",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

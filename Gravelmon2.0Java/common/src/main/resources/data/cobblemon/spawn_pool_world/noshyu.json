@@ -7,7 +7,8 @@
       "id": "noshyu-01",
       "pokemon": "noshyu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

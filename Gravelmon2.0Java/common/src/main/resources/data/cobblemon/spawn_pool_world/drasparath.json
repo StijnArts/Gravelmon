@@ -7,7 +7,8 @@
       "id": "drasparath-01",
       "pokemon": "drasparath",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

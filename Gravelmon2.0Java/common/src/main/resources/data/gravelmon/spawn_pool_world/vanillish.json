@@ -7,7 +7,8 @@
       "id": "epoch_vanillish-01",
       "pokemon": "vanillish epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_swamp"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +62,8 @@
       "id": "avalossian_vanillish-01",
       "pokemon": "vanillish avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +91,8 @@
       "id": "ayreian_vanillish-01",
       "pokemon": "vanillish ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -113,7 +118,8 @@
       "id": "novran_vanillish-01",
       "pokemon": "vanillish novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -140,7 +146,8 @@
       "id": "aromian_vanillish-01",
       "pokemon": "vanillish aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

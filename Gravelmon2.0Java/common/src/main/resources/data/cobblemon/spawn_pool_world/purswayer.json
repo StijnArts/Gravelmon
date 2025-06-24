@@ -7,7 +7,8 @@
       "id": "purswayer-01",
       "pokemon": "purswayer",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

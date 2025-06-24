@@ -7,7 +7,8 @@
       "id": "gleamuse-01",
       "pokemon": "gleamuse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

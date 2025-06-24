@@ -2,13 +2,14 @@
   "name": "Saucerene",
   "primaryType": "psychic",
   "secondaryType": "steel",
-  "catchRate": 66,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.10212765957446808,
+  "preEvolution": "hattrem form=ottoran",
+  "baseScale": 0.5872340425531914,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,16 +90,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.saucerene.desc"
   ],
-  "height": 0,
+  "height": 23,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9288,
+  "nationalPokedexNumber": 9635,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

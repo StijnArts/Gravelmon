@@ -34,7 +34,8 @@
       "id": "delta_tangela-01",
       "pokemon": "tangela delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_tangela-01",
       "pokemon": "tangela epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -149,7 +151,8 @@
       "id": "qamoran_tangela-01",
       "pokemon": "tangela qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

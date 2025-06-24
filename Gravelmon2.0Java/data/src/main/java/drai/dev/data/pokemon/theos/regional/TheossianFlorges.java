@@ -17,7 +17,7 @@ public class TheossianFlorges extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.CURSED_BODY), Ability.MISTY_SURGE,
                 11, 100,
-                new Stats(0,0,0,0,3,0), 0,
+                new Stats(0,0,0,0,3,0), 45,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,10 @@ public class TheossianFlorges extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(36).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Florges");

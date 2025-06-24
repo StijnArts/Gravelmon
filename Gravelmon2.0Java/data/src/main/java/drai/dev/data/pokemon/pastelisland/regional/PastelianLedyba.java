@@ -23,7 +23,8 @@ public class PastelianLedyba extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They are docile and like to fall asleep in groups on dark surfaces. Their star-shaped spots give off a faint glow when in the dark."),
-                List.of(),
+                List.of(new EvolutionEntry("pastelianledian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,5),
@@ -100,9 +101,9 @@ public class PastelianLedyba extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Ledyba");

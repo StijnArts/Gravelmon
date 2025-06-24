@@ -7,7 +7,8 @@
       "id": "magester-01",
       "pokemon": "magester",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

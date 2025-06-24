@@ -7,7 +7,8 @@
       "id": "wisdaum-01",
       "pokemon": "wisdaum",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

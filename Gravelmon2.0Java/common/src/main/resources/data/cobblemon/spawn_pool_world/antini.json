@@ -7,7 +7,8 @@
       "id": "antini-01",
       "pokemon": "antini",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

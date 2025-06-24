@@ -8,6 +8,7 @@
       "pokemon": "damasoar",
       "presets": [
         "water",
+        "wild",
         "water"
       ],
       "type": "pokemon",

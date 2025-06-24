@@ -7,7 +7,8 @@
       "id": "varitasian_hitmonchan-01",
       "pokemon": "hitmonchan varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_hitmonchan-01",
       "pokemon": "hitmonchan epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "forman_hitmonchan-01",
       "pokemon": "hitmonchan forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +92,8 @@
       "id": "qamoran_hitmonchan-01",
       "pokemon": "hitmonchan qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -99,7 +103,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -114,7 +120,8 @@
       "id": "ayreian_hitmonchan-01",
       "pokemon": "hitmonchan ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -124,7 +131,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

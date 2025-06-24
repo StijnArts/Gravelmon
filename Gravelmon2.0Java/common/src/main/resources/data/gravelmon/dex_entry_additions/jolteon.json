@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:jolteon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

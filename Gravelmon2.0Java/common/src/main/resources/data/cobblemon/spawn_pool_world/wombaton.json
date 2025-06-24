@@ -7,7 +7,8 @@
       "id": "wombaton-01",
       "pokemon": "wombaton",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

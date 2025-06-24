@@ -7,7 +7,8 @@
       "id": "leukoon-01",
       "pokemon": "leukoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

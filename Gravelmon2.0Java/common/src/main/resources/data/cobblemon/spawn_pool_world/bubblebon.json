@@ -8,7 +8,8 @@
       "pokemon": "bubblebon",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

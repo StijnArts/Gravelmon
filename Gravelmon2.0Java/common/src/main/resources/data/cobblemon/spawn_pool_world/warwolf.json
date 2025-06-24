@@ -7,7 +7,8 @@
       "id": "warwolf-01",
       "pokemon": "warwolf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

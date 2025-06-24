@@ -7,7 +7,8 @@
       "id": "mandiblade-01",
       "pokemon": "mandiblade",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

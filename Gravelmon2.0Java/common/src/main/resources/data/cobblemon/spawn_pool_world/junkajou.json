@@ -7,7 +7,8 @@
       "id": "junkajou-01",
       "pokemon": "junkajou",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

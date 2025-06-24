@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "koiver",
-  "baseScale": 14.399999999999999,
+  "baseScale": 0.374025974025974,
   "cannotDynamax": false,
   "abilities": [
     "owntempo",
@@ -97,11 +97,11 @@
   "weight": 201,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8879,
+  "nationalPokedexNumber": 9166,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.8125,
+    "height": 4.8125,
     "fixed": false
   },
   "features": [],

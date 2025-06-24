@@ -7,7 +7,8 @@
       "id": "bwairy-01",
       "pokemon": "bwairy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

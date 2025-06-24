@@ -7,7 +7,8 @@
       "id": "sphynxeon-01",
       "pokemon": "sphynxeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "numerea-01",
       "pokemon": "numerea",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

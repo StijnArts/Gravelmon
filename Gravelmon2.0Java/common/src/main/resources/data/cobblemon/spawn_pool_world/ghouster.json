@@ -7,7 +7,8 @@
       "id": "ghouster-01",
       "pokemon": "ghouster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

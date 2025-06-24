@@ -7,7 +7,8 @@
       "id": "cappatross-01",
       "pokemon": "cappatross",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

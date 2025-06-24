@@ -16,7 +16,7 @@
       "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -34,7 +34,8 @@
       "id": "nodorran_oshawott-01",
       "pokemon": "oshawott nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +46,9 @@
         "biomes": [
           "#cobblemon:is_cold_ocean"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

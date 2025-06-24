@@ -7,7 +7,8 @@
       "id": "miscelliz-01",
       "pokemon": "miscelliz",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "shamseed-01",
       "pokemon": "shamseed",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

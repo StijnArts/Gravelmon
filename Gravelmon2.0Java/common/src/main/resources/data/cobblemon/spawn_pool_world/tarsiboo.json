@@ -7,7 +7,8 @@
       "id": "tarsiboo-01",
       "pokemon": "tarsiboo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

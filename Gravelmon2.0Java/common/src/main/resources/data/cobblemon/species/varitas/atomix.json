@@ -8,7 +8,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "minicule",
   "baseScale": 0.27169811320754716,
   "cannotDynamax": false,
   "abilities": [
@@ -80,14 +79,11 @@
     "48:mirrorcoat",
     "52:ominouswind",
     "55:shadowball",
-    "60:memento",
-    "tm:terablast"
+    "60:memento"
   ],
   "labels": [
     "varitas",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.atomix.desc"

@@ -7,7 +7,8 @@
       "id": "dragalis-01",
       "pokemon": "dragalis",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

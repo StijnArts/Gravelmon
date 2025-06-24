@@ -7,7 +7,8 @@
       "id": "jokaite-01",
       "pokemon": "jokaite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

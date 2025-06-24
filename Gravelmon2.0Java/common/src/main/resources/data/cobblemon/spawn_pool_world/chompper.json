@@ -7,7 +7,8 @@
       "id": "chompper-01",
       "pokemon": "chompper",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "sudoferno-01",
       "pokemon": "sudoferno",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

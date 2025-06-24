@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:armarouge",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

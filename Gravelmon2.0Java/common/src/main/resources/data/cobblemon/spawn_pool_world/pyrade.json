@@ -7,7 +7,8 @@
       "id": "pyrade-01",
       "pokemon": "pyrade",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

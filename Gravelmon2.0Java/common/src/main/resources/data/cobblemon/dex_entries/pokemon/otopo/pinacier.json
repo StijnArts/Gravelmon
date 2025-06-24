@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pinacier",
+  "speciesId": "cobblemon:pinacier",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

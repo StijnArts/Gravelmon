@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:poisnip",
+  "speciesId": "cobblemon:poisnip",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

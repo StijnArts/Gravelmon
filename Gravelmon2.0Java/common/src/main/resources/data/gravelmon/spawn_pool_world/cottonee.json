@@ -7,7 +7,8 @@
       "id": "epoch_cottonee-01",
       "pokemon": "cottonee epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_cottonee-01",
       "pokemon": "cottonee epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -54,6 +56,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_cottonee-01",
+      "pokemon": "cottonee theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_arid"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

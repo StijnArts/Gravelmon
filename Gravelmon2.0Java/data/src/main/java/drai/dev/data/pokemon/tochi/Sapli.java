@@ -23,14 +23,15 @@ public class Sapli extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Sapli survive the winter by stealing from other Pokemon's food stores. They are generally not well liked by other Pokemon for this reason."),
-                List.of(),
+                List.of(new EvolutionEntry("coatimber", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Sapli");

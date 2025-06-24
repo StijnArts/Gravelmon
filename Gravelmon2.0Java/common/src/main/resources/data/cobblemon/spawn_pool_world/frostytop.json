@@ -7,7 +7,8 @@
       "id": "frostytop-01",
       "pokemon": "frostytop",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "psybex-01",
       "pokemon": "psybex",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:naguni",
+  "speciesId": "cobblemon:naguni",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

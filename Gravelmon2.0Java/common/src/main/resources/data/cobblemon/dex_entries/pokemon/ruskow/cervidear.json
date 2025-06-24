@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cervidear",
+  "speciesId": "cobblemon:cervidear",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

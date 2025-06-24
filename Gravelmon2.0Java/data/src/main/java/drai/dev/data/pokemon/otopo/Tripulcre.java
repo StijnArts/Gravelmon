@@ -17,7 +17,7 @@ public class Tripulcre extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.HEATPROOF,Ability.STEELWORKER), Ability.LIGHTNING_ROD,
                 37, 3000,
-                new Stats(0,0,1,0,1,0), 0,
+                new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 182, ExperienceGroup.SLOW,
                 70,
@@ -62,11 +62,11 @@ public class Tripulcre extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHTMARE,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).atNight()
+                        .setSpawnPreset(SpawnPreset.RUINED_PORTAL).build(),
                 List.of());
            setLangFileName("Tripulcre");
 

@@ -1,6 +1,6 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "sortOrder": 88,
+  "sortOrder": 91,
   "id": "gravelmon:beginnings",
   "entries": [
     "cobblemon:moosong",
@@ -70,7 +70,6 @@
     "cobblemon:honedge-ottoran",
     "cobblemon:doublade-ottoran",
     "cobblemon:aegistump",
-    "cobblemon:chainslash",
-    "cobblemon:copurr"
+    "cobblemon:chainslash"
   ]
 }

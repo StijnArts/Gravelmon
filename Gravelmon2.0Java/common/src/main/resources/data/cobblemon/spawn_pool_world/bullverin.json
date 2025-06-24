@@ -7,7 +7,8 @@
       "id": "bullverin-01",
       "pokemon": "bullverin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

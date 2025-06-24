@@ -7,7 +7,8 @@
       "id": "draginas-01",
       "pokemon": "draginas",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

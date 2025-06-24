@@ -7,7 +7,8 @@
       "id": "dracotecnic-01",
       "pokemon": "dracotecnic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "nerocchio-01",
       "pokemon": "nerocchio",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

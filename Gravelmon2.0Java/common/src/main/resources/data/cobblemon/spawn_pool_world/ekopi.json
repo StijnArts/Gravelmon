@@ -7,7 +7,8 @@
       "id": "ekopi-01",
       "pokemon": "ekopi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

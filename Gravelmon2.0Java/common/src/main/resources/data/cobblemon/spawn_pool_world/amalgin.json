@@ -7,7 +7,8 @@
       "id": "amalgin-01",
       "pokemon": "amalgin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

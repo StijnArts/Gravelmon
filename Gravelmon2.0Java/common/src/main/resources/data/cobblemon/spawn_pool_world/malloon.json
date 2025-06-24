@@ -7,7 +7,8 @@
       "id": "malloon-01",
       "pokemon": "malloon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

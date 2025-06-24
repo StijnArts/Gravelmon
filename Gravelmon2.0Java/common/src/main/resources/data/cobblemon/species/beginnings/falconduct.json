@@ -8,7 +8,8 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12307692307692308,
+  "preEvolution": "shockite",
+  "baseScale": 0.46153846153846156,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -24,7 +25,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -84,16 +85,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.falconduct.desc"
   ],
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9251,
+  "nationalPokedexNumber": 9598,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.875,

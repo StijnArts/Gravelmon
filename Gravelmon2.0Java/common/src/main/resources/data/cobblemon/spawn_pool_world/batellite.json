@@ -7,7 +7,8 @@
       "id": "batellite-01",
       "pokemon": "batellite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

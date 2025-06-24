@@ -7,7 +7,8 @@
       "id": "nectair-01",
       "pokemon": "nectair",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

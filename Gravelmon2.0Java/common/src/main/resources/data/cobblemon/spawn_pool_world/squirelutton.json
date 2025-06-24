@@ -7,7 +7,8 @@
       "id": "squirelutton-01",
       "pokemon": "squirelutton",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

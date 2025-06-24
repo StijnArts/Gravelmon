@@ -7,7 +7,8 @@
       "id": "egho_oddish-01",
       "pokemon": "oddish egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "varitasian_oddish-01",
       "pokemon": "oddish varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +64,8 @@
       "id": "epoch_oddish-01",
       "pokemon": "oddish epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +90,8 @@
       "id": "forman_oddish-01",
       "pokemon": "oddish forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,7 +118,8 @@
       "id": "fabelian_oddish-01",
       "pokemon": "oddish fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -123,6 +130,35 @@
         "biomes": [
           "minecraft:the_void"
         ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_oddish-01",
+      "pokemon": "oddish theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_swamp"
+        ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

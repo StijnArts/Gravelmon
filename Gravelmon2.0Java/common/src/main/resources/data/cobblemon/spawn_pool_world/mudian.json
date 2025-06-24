@@ -7,7 +7,8 @@
       "id": "mudian-01",
       "pokemon": "mudian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

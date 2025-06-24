@@ -7,7 +7,8 @@
       "id": "galvanade-01",
       "pokemon": "galvanade",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

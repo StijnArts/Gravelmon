@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:petalite",
+  "speciesId": "cobblemon:petalite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

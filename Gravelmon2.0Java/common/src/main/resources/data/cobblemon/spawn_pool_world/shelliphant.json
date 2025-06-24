@@ -7,7 +7,8 @@
       "id": "shelliphant-01",
       "pokemon": "shelliphant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

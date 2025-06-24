@@ -7,7 +7,8 @@
       "id": "carnivice-01",
       "pokemon": "carnivice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

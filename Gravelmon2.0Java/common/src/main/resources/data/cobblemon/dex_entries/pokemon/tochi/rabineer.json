@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:rabineer",
+  "speciesId": "cobblemon:rabineer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

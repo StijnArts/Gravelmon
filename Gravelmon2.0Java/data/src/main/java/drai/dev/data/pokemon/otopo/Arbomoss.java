@@ -16,8 +16,8 @@ public class Arbomoss extends drai.dev.data.pokemon.Pokemon {
                         85,
                         25),
                 List.of(Ability.CHLOROPHYLL), Ability.GRASS_PELT,
-                0, 0,
-                new Stats(2,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 154, ExperienceGroup.SLOW,
                 70,
@@ -50,10 +50,10 @@ public class Arbomoss extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,57)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(22).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Arbomoss");

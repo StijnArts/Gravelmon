@@ -7,7 +7,8 @@
       "id": "epoch_ferroseed-01",
       "pokemon": "ferroseed epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

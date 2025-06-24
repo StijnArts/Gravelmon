@@ -7,7 +7,8 @@
       "id": "arincess-01",
       "pokemon": "arincess",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

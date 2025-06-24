@@ -7,7 +7,8 @@
       "id": "wisopotron-01",
       "pokemon": "wisopotron",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

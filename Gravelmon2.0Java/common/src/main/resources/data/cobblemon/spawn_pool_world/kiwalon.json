@@ -7,7 +7,8 @@
       "id": "kiwalon-01",
       "pokemon": "kiwalon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

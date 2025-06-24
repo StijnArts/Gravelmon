@@ -7,7 +7,8 @@
       "id": "oxacles-01",
       "pokemon": "oxacles",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

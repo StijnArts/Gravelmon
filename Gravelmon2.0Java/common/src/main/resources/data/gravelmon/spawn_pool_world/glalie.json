@@ -7,7 +7,8 @@
       "id": "cefiran_glalie-01",
       "pokemon": "glalie cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "delta_glalie-01",
       "pokemon": "glalie delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "epoch_glalie-01",
       "pokemon": "glalie epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +74,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -86,7 +91,8 @@
       "id": "ayreian_glalie-01",
       "pokemon": "glalie ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

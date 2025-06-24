@@ -7,7 +7,8 @@
       "id": "explosipede-01",
       "pokemon": "explosipede",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

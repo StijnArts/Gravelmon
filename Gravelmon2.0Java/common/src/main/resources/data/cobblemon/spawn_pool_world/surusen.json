@@ -7,7 +7,8 @@
       "id": "surusen-01",
       "pokemon": "surusen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

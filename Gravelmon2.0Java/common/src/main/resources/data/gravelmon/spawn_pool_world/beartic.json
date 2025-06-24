@@ -7,7 +7,8 @@
       "id": "epoch_beartic-01",
       "pokemon": "beartic epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -40,7 +41,8 @@
       "id": "qamoran_beartic-01",
       "pokemon": "beartic qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,8 @@
       "id": "nodorran_beartic-01",
       "pokemon": "beartic nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

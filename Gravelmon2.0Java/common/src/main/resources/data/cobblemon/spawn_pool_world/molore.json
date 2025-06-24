@@ -7,7 +7,8 @@
       "id": "molore-01",
       "pokemon": "molore",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

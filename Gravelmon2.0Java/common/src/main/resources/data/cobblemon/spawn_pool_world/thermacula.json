@@ -7,7 +7,8 @@
       "id": "thermacula-01",
       "pokemon": "thermacula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

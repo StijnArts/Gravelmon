@@ -7,7 +7,8 @@
       "id": "peyero-01",
       "pokemon": "peyero",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

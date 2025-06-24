@@ -7,7 +7,8 @@
       "id": "pottlin-01",
       "pokemon": "pottlin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tanupy-01",
       "pokemon": "tanupy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

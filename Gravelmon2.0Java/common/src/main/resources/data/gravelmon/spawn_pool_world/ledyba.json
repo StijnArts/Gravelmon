@@ -7,7 +7,8 @@
       "id": "relic_ledyba-01",
       "pokemon": "ledyba relic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "epoch_ledyba-01",
       "pokemon": "ledyba epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +63,8 @@
       "id": "forman_ledyba-01",
       "pokemon": "ledyba forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,6 +74,35 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastelian_ledyba-01",
+      "pokemon": "ledyba pastelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,

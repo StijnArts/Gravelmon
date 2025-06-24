@@ -7,6 +7,7 @@
       "id": "seviian_feebas-01",
       "pokemon": "feebas seviian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -64,6 +67,7 @@
       "id": "delta_feebas-01",
       "pokemon": "feebas delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -74,7 +78,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

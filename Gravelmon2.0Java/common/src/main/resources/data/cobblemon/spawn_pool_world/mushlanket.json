@@ -7,7 +7,8 @@
       "id": "mushlanket-01",
       "pokemon": "mushlanket",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "visacoon-01",
       "pokemon": "visacoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

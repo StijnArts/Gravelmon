@@ -7,7 +7,8 @@
       "id": "epoch_fennekin-01",
       "pokemon": "fennekin epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,7 +34,8 @@
       "id": "ayreian_fennekin-01",
       "pokemon": "fennekin ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "vesitan_fennekin-01",
       "pokemon": "fennekin vesitan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +74,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

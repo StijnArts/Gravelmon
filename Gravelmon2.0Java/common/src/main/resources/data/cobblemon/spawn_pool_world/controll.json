@@ -7,7 +7,8 @@
       "id": "controll-01",
       "pokemon": "controll",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

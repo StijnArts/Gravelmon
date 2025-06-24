@@ -7,6 +7,7 @@
       "id": "quisewer-01",
       "pokemon": "quisewer",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

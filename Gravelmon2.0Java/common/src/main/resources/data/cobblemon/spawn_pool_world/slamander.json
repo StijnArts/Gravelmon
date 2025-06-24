@@ -7,7 +7,8 @@
       "id": "slamander-01",
       "pokemon": "slamander",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

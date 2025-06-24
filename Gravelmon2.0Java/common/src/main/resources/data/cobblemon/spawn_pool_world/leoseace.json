@@ -7,7 +7,8 @@
       "id": "leoseace-01",
       "pokemon": "leoseace",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

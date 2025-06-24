@@ -7,7 +7,8 @@
       "id": "chrysurge-01",
       "pokemon": "chrysurge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

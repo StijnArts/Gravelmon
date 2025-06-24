@@ -23,7 +23,9 @@ public class PastelianChansey extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("On the Pastel Island, Chansey have grown unusually aggressive, losing their normal nursing tendencies for more violent and rebellious ways. They hold large rocks in their pouches as ammo to throw at mean or rude people."),
-                List.of(),
+                List.of(new EvolutionEntry("bossey", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"255"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -159,14 +161,16 @@ public class PastelianChansey extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_JUNGLE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Chansey");
-
+        addAdditionalEvolution("happiny", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:oval_stone"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_JUNGLE.getId() + ":" + Biome.IS_JUNGLE.getName()))));
     }
 
 

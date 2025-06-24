@@ -7,7 +7,8 @@
       "id": "nimbairy-01",
       "pokemon": "nimbairy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

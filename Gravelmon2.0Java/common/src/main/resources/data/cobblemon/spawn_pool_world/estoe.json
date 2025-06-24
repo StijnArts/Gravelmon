@@ -7,7 +7,8 @@
       "id": "estoe-01",
       "pokemon": "estoe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

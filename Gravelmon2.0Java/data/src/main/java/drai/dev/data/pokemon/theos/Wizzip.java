@@ -17,7 +17,7 @@ public class Wizzip extends drai.dev.data.pokemon.Pokemon {
                         90),
                 List.of(Ability.ADAPTABILITY), Ability.CORROSION,
                 16, 90,
-                new Stats(0,2,0,0,0,1), 0,
+                new Stats(0,2,0,0,0,1), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,13 @@ public class Wizzip extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(24).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Wizzip");
 
     }

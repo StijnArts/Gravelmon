@@ -7,6 +7,7 @@
       "id": "delta_dunsparce-01",
       "pokemon": "dunsparce delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_dunsparce-01",
       "pokemon": "dunsparce epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "pokemon": "dunsparce forman",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +90,8 @@
       "id": "hoennian_dunsparce-01",
       "pokemon": "dunsparce hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

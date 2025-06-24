@@ -11,8 +11,8 @@ public class Pedenki extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,9 +23,9 @@ public class Pedenki extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.RUSKOW),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(19).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Pedenki");

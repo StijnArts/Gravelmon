@@ -7,7 +7,8 @@
       "id": "gargorgon-01",
       "pokemon": "gargorgon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "jollibird-01",
       "pokemon": "jollibird",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

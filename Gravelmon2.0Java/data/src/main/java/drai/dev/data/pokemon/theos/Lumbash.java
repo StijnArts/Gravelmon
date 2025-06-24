@@ -17,7 +17,7 @@ public class Lumbash extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.SAP_SIPPER), Ability.TECHNICIAN,
                 17, 850,
-                new Stats(0,2,0,0,0,0), 0,
+                new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,11 +27,11 @@ public class Lumbash extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(24).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TAIGA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 List.of());
            setLangFileName("Lumbash");
 

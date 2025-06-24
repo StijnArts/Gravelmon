@@ -7,7 +7,8 @@
       "id": "plasmind-01",
       "pokemon": "plasmind",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

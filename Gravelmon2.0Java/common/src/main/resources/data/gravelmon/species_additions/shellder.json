@@ -836,6 +836,16 @@
       "requirements": [],
       "requiredContext": "gravelmon:slowpoke_tail",
       "permanent": true
+    },
+    {
+      "id": "shellder_decoyster",
+      "variant": "item_interact",
+      "result": "decoyster",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:metal_coat",
+      "permanent": true
     }
   ],
   "drops": {
@@ -843,6 +853,11 @@
     "entries": [
       {
         "item": "gravelmon:slowpoke_tail",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:metal_coat",
         "quantityRange": "1-1",
         "percentage": 10
       }

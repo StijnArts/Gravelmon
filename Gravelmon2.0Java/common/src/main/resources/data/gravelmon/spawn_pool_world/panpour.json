@@ -7,7 +7,8 @@
       "id": "epoch_panpour-01",
       "pokemon": "panpour epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Fossasin extends drai.dev.data.pokemon.Pokemon {
-    public Fossasin() {
+    public Fossasin(Stats stats) {
         super("Fossasin",
                 Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LIMBER), Ability.LIMBER,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +22,10 @@ public class Fossasin extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(29).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_JUNGLE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Fossasin");

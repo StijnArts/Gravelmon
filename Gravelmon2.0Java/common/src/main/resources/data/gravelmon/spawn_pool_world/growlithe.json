@@ -7,7 +7,8 @@
       "id": "delta_growlithe-01",
       "pokemon": "growlithe delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "aristosian_growlithe-01",
       "pokemon": "growlithe aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,6 +63,7 @@
       "id": "palmian_growlithe-01",
       "pokemon": "growlithe palmian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -89,7 +92,8 @@
       "id": "epoch_growlithe-01",
       "pokemon": "growlithe epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +118,8 @@
       "id": "epoch_growlithe-01",
       "pokemon": "growlithe epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -124,7 +129,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -139,7 +146,8 @@
       "id": "forman_growlithe-01",
       "pokemon": "growlithe forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -150,7 +158,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -165,7 +175,8 @@
       "id": "armiran_growlithe-01",
       "pokemon": "growlithe armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -192,7 +203,8 @@
       "id": "ishirian_growlithe-01",
       "pokemon": "growlithe ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -212,6 +224,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_growlithe-01",
+      "pokemon": "growlithe theossian",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-33",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
           ]
         }
       }

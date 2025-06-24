@@ -7,7 +7,8 @@
       "id": "puugamu-01",
       "pokemon": "puugamu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

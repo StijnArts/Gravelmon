@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:hoopa",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Delta_unleashed",
+      "unlockForms": [
+        "Delta_unleashed"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

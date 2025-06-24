@@ -16,21 +16,22 @@ public class Dametal extends drai.dev.data.pokemon.Pokemon {
                         35,
                         45),
                 List.of(Ability.GUTS,Ability.PRESSURE), Ability.HUGE_POWER,
-                19, 170,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 170,
+                new Stats(0,0,0,0,0,0), 170,
                 0.6,
                 58, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("damaleo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(13).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MOUNTAIN).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Dametal");

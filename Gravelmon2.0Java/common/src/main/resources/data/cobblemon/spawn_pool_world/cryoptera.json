@@ -7,7 +7,8 @@
       "id": "cryoptera-01",
       "pokemon": "cryoptera",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

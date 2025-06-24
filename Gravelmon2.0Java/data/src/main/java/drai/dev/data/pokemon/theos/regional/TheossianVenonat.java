@@ -23,7 +23,8 @@ public class TheossianVenonat extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Theosian Venonats are unable to control the brainwaves they emit sometimes causing hallucinations. It takes a trainer with great perserverance to make one evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("theossianvenomoth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DISABLE,1),
@@ -109,9 +110,9 @@ public class TheossianVenonat extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FLORAL).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Venonat");

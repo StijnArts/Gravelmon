@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:scatterbug",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

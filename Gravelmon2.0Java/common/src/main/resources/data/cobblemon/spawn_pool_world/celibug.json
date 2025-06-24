@@ -7,7 +7,8 @@
       "id": "celibug-01",
       "pokemon": "celibug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

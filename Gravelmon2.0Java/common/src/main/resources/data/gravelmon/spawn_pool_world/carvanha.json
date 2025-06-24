@@ -7,6 +7,7 @@
       "id": "x_carvanha-01",
       "pokemon": "carvanha x",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -33,7 +34,8 @@
       "id": "epoch_carvanha-01",
       "pokemon": "carvanha epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

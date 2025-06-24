@@ -7,7 +7,8 @@
       "id": "shamandor-01",
       "pokemon": "shamandor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

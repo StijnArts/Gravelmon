@@ -7,7 +7,8 @@
       "id": "spireye-01",
       "pokemon": "spireye",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

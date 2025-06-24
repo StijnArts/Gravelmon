@@ -7,7 +7,8 @@
       "id": "sabandolin-01",
       "pokemon": "sabandolin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

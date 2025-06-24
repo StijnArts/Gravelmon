@@ -34,7 +34,8 @@
       "id": "epoch_machop-01",
       "pokemon": "machop epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_machop-01",
       "pokemon": "machop epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +89,8 @@
       "id": "forman_machop-01",
       "pokemon": "machop forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +117,8 @@
       "id": "ferranian_machop-01",
       "pokemon": "machop ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,22 +16,23 @@ public class Adoved extends drai.dev.data.pokemon.Pokemon {
                         35,
                         30),
                 List.of(Ability.KEEN_EYE,Ability.EARLY_BIRD), Ability.DAZZLING,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("admibird", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(1).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Adoved");
 

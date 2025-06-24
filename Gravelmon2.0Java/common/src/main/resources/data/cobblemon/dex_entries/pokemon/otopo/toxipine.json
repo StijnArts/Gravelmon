@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxipine",
+  "speciesId": "cobblemon:toxipine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

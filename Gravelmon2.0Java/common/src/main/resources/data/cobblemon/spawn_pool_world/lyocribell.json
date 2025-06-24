@@ -7,7 +7,8 @@
       "id": "lyocribell-01",
       "pokemon": "lyocribell",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "bubbowl-01",
       "pokemon": "bubbowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

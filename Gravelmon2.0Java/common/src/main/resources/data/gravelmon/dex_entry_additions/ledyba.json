@@ -1,4 +1,29 @@
 {
   "entryId": "cobblemon:ledyba",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ]
 }

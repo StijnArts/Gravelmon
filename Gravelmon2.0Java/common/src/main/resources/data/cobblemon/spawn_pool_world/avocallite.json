@@ -7,7 +7,8 @@
       "id": "avocallite-01",
       "pokemon": "avocallite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

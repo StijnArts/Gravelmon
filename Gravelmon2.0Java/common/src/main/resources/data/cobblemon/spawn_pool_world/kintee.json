@@ -7,7 +7,8 @@
       "id": "kintee-01",
       "pokemon": "kintee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

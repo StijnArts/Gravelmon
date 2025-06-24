@@ -7,7 +7,8 @@
       "id": "disasteroid-01",
       "pokemon": "disasteroid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

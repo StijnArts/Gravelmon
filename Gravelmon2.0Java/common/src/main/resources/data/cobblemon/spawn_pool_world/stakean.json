@@ -7,7 +7,8 @@
       "id": "stakean-01",
       "pokemon": "stakean",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

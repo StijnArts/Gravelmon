@@ -7,7 +7,8 @@
       "id": "eiseith-01",
       "pokemon": "eiseith",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

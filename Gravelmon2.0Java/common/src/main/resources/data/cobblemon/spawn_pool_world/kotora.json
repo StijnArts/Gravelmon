@@ -7,7 +7,8 @@
       "id": "kotora-01",
       "pokemon": "kotora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

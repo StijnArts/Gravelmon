@@ -7,7 +7,8 @@
       "id": "halitox-01",
       "pokemon": "halitox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

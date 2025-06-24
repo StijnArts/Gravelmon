@@ -7,6 +7,7 @@
       "id": "salmini-01",
       "pokemon": "salmini",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_river"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

@@ -7,7 +7,8 @@
       "id": "desplash-01",
       "pokemon": "desplash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -11,8 +11,8 @@ public class Carcashark extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.DARK,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,12 +22,13 @@ public class Carcashark extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.RUSKOW),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(34).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Carcashark");
 
     }

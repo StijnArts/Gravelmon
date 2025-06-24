@@ -2,13 +2,14 @@
   "name": "Grimmsquatch",
   "primaryType": "fairy",
   "secondaryType": "fighting",
-  "catchRate": 66,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12151898734177216,
+  "preEvolution": "morgrem form=ottoran",
+  "baseScale": 0.5164556962025316,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -82,16 +83,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.grimmsquatch.desc"
   ],
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9289,
+  "nationalPokedexNumber": 9636,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.9375,

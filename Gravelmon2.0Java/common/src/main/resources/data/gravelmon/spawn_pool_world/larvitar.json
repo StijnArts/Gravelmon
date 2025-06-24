@@ -7,7 +7,8 @@
       "id": "epoch_larvitar-01",
       "pokemon": "larvitar epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "forman_larvitar-01",
       "pokemon": "larvitar forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,7 +68,8 @@
       "id": "mastenian_larvitar-01",
       "pokemon": "larvitar mastenian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

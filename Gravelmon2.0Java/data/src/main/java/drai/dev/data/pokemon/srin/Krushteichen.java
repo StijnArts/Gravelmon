@@ -16,8 +16,8 @@ public class Krushteichen extends drai.dev.data.pokemon.Pokemon {
                         70,
                         94),
                 List.of(Ability.BLAZE), Ability.IRON_FIST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -43,12 +43,14 @@ public class Krushteichen extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,1)                        ),
                 List.of(Label.SORIN),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BEACH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Krushteichen");
 
     }

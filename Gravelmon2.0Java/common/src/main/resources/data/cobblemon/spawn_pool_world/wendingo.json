@@ -7,7 +7,8 @@
       "id": "wendingo-01",
       "pokemon": "wendingo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

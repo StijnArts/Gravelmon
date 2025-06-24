@@ -11,8 +11,8 @@ public class Trojaraffe extends drai.dev.data.pokemon.Pokemon {
                 Type.FIGHTING, Type.STEEL,
                 stats,
                 List.of(Ability.DEFIANT), Ability.GORILLA_TACTICS,
-                82, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                35, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.4,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,10 +22,10 @@ public class Trojaraffe extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(30).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Trojaraffe");

@@ -7,7 +7,8 @@
       "id": "delta_plusle-01",
       "pokemon": "plusle delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_plusle-01",
       "pokemon": "plusle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

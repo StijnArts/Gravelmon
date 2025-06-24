@@ -17,7 +17,7 @@ public class Paraduck extends drai.dev.data.pokemon.Pokemon {
                         65),
                 List.of(Ability.RAIN_DISH,Ability.OWN_TEMPO), Ability.OVERCOAT,
                 12, 242,
-                new Stats(0,0,0,0,2,0), 0,
+                new Stats(0,0,0,0,2,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,13 @@ public class Paraduck extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(27).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SURFACE)
+                        .setBiomes(Biome.IS_FRESHWATER).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 List.of());
+        setCanWalkOnWater(true);
            setLangFileName("Paraduck");
 
     }

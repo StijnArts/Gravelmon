@@ -7,7 +7,8 @@
       "id": "vermacrom-01",
       "pokemon": "vermacrom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

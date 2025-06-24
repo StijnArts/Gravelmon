@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ruffurchin",
+  "speciesId": "cobblemon:ruffurchin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

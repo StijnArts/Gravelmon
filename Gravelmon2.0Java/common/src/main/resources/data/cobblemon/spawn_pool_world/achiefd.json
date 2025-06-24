@@ -8,6 +8,7 @@
       "pokemon": "achiefd",
       "presets": [
         "natural",
+        "wild",
         "wild"
       ],
       "type": "pokemon",

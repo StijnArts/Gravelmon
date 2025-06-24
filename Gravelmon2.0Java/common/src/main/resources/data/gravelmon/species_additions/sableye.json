@@ -489,7 +489,7 @@
         "12:taunt",
         "33:firelash",
         "6:ember",
-        "45:stonesurge",
+        "45:fakemonstonesurge",
         "15:assurance",
         "18:detect",
         "tm:acrobatics",
@@ -1046,7 +1046,8 @@
       },
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 7,
       "aspects": [
@@ -1073,7 +1074,8 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 7,
       "aspects": [
@@ -1100,7 +1102,8 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 7,
       "aspects": [

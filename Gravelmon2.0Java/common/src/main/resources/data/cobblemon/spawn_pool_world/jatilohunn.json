@@ -8,6 +8,7 @@
       "pokemon": "jatilohunn",
       "presets": [
         "natural",
+        "wild",
         "wild"
       ],
       "type": "pokemon",

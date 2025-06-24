@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:heliolisk",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mega",
+      "unlockForms": [
+        "Mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

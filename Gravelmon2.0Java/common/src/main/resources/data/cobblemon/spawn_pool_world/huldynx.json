@@ -7,7 +7,8 @@
       "id": "huldynx-01",
       "pokemon": "huldynx",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

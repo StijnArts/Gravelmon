@@ -38,10 +38,10 @@ public class Antillery extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Antillery");
 

@@ -7,7 +7,8 @@
       "id": "mountox-01",
       "pokemon": "mountox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

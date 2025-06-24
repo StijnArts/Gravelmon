@@ -7,7 +7,8 @@
       "id": "beadamup-01",
       "pokemon": "beadamup",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

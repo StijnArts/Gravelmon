@@ -17,14 +17,16 @@ public class Gargobble extends drai.dev.data.pokemon.Pokemon {
                         40,
                         70),
                 List.of(Ability.RIVALRY,Ability.INNER_FOCUS,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("Gargobble are born and raised in tall edifices such as towers and churches. From there, they can be heard practicing their screeching at night."),
-                List.of(),
+                List.of(new EvolutionEntry("garglizer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
                         new MoveLearnSetEntry(Move.WING_ATTACK,6),
@@ -49,10 +51,10 @@ public class Gargobble extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Gargobble");
 

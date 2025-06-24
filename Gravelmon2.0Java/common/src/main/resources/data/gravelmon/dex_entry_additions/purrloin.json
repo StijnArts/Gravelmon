@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:purrloin",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ]
 }

@@ -8,6 +8,7 @@
       "pokemon": "vicera",
       "presets": [
         "water",
+        "wild",
         "water"
       ],
       "type": "pokemon",

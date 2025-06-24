@@ -1,4 +1,41 @@
 {
   "entryId": "cobblemon:gyarados",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch_mega",
+      "unlockForms": [
+        "Epoch_mega"
+      ]
+    },
+    {
+      "displayForm": "Nuclear_mega",
+      "unlockForms": [
+        "Nuclear_mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    },
+    {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    },
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ]
 }

@@ -11,8 +11,8 @@ public class Talpastar extends drai.dev.data.pokemon.Pokemon {
                 Type.DARK, Type.GROUND,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                8, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,10 +23,10 @@ public class Talpastar extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Talpastar");
 

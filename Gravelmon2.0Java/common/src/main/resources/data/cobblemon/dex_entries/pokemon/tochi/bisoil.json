@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bisoil",
+  "speciesId": "cobblemon:bisoil",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "hatgic",
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "magician",
@@ -91,11 +91,11 @@
   "weight": 250,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8917,
+  "nationalPokedexNumber": 9209,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.25,
+    "height": 5.25,
     "fixed": false
   },
   "features": [],

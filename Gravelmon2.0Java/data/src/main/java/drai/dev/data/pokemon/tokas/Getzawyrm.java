@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Getzawyrm extends drai.dev.data.pokemon.Pokemon {
-    public Getzawyrm() {
+    public Getzawyrm(Stats stats) {
         super("Getzawyrm",
                 Type.DRAGON, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.FOREWARN), Ability.FOREWARN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +22,10 @@ public class Getzawyrm extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(39).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Getzawyrm");

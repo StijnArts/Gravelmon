@@ -7,7 +7,8 @@
       "id": "hizian_rhyhorn-01",
       "pokemon": "rhyhorn hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,6 +35,7 @@
       "id": "epoch_rhyhorn-01",
       "pokemon": "rhyhorn epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -61,7 +63,8 @@
       "id": "forman_rhyhorn-01",
       "pokemon": "rhyhorn forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +91,8 @@
       "id": "aromian_rhyhorn-01",
       "pokemon": "rhyhorn aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

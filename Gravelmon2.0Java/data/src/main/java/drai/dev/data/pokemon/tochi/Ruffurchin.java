@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Ruffurchin extends drai.dev.data.pokemon.Pokemon {
-    public Ruffurchin() {
+    public Ruffurchin(Stats stats) {
         super("Ruffurchin",
                 Type.POISON,Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.PUNK_ROCK), Ability.PUNK_ROCK,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 0,
+                new Stats(0,0,0,0,0,0), 85,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,11 +23,13 @@ public class Ruffurchin extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Ruffurchin");
 
     }

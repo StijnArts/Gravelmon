@@ -7,7 +7,8 @@
       "id": "lumbrill-01",
       "pokemon": "lumbrill",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

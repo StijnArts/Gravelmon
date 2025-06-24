@@ -7,7 +7,8 @@
       "id": "therpal-01",
       "pokemon": "therpal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

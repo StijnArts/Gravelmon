@@ -2,13 +2,14 @@
   "name": "Juekizumi",
   "primaryType": "electric",
   "secondaryType": "grass",
-  "catchRate": 83,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14545454545454548,
+  "preEvolution": "jueshika",
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -80,16 +81,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.juekizumi.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9263,
+  "nationalPokedexNumber": 9610,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.125,

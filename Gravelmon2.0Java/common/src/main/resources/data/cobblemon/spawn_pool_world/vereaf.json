@@ -7,7 +7,8 @@
       "id": "vereaf-01",
       "pokemon": "vereaf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

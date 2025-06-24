@@ -7,7 +7,8 @@
       "id": "hibidali-01",
       "pokemon": "hibidali",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

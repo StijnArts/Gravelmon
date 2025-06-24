@@ -7,7 +7,8 @@
       "id": "epoch_vaporeon-01",
       "pokemon": "vaporeon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "preano-01",
       "pokemon": "preano",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

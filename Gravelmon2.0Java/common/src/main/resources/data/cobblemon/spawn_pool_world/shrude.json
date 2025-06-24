@@ -7,7 +7,8 @@
       "id": "shrude-01",
       "pokemon": "shrude",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

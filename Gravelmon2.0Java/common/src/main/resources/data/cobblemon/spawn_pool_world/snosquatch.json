@@ -7,7 +7,8 @@
       "id": "snosquatch-01",
       "pokemon": "snosquatch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

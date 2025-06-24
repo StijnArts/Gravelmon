@@ -7,7 +7,8 @@
       "id": "sycelium-01",
       "pokemon": "sycelium",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

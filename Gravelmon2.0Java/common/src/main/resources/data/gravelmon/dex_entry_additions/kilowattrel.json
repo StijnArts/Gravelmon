@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:kilowattrel",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

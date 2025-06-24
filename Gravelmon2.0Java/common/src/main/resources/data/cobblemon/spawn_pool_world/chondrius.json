@@ -7,7 +7,8 @@
       "id": "chondrius-01",
       "pokemon": "chondrius",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

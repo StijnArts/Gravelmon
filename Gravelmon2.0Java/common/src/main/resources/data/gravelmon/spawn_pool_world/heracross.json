@@ -7,7 +7,8 @@
       "id": "epoch_heracross-01",
       "pokemon": "heracross epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "forman_heracross-01",
       "pokemon": "heracross forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,6 +46,34 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_heracross-01",
+      "pokemon": "heracross theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-45",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

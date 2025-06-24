@@ -7,7 +7,8 @@
       "id": "epoch_shiinotic-01",
       "pokemon": "shiinotic epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_mushroom",
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -34,7 +37,8 @@
       "id": "nostan_shiinotic-01",
       "pokemon": "shiinotic nostan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "lilcteria-01",
       "pokemon": "lilcteria",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

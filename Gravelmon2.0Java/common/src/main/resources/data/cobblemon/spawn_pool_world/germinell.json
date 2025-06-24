@@ -7,7 +7,8 @@
       "id": "germinell-01",
       "pokemon": "germinell",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

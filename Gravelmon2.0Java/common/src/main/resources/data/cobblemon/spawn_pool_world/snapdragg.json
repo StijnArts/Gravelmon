@@ -7,7 +7,8 @@
       "id": "snapdragg-01",
       "pokemon": "snapdragg",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

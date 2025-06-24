@@ -62,6 +62,7 @@
       "id": "epoch_horsea-01",
       "pokemon": "horsea epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

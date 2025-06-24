@@ -7,7 +7,8 @@
       "id": "bashorn-01",
       "pokemon": "bashorn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

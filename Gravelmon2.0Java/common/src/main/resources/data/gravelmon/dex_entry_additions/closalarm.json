@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:closalarm",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ]
 }

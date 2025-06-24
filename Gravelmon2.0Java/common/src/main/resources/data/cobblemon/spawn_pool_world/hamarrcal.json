@@ -7,7 +7,8 @@
       "id": "hamarrcal-01",
       "pokemon": "hamarrcal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

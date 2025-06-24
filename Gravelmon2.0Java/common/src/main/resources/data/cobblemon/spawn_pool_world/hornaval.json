@@ -7,6 +7,7 @@
       "id": "hornaval-01",
       "pokemon": "hornaval",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

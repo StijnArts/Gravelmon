@@ -7,7 +7,8 @@
       "id": "satyrnus-01",
       "pokemon": "satyrnus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

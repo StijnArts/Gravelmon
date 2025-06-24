@@ -7,7 +7,8 @@
       "id": "mitorch-01",
       "pokemon": "mitorch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

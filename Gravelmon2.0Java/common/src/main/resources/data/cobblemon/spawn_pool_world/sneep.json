@@ -7,7 +7,8 @@
       "id": "sneep-01",
       "pokemon": "sneep",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tiramisoul-01",
       "pokemon": "tiramisoul",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

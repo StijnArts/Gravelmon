@@ -7,7 +7,8 @@
       "id": "bulberry-01",
       "pokemon": "bulberry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

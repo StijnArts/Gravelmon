@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:gumshoos",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    }
+  ]
 }

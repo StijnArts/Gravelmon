@@ -7,7 +7,8 @@
       "id": "gormhyena-01",
       "pokemon": "gormhyena",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

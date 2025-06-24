@@ -34,7 +34,8 @@
       "id": "epoch_impidimp-01",
       "pokemon": "impidimp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_impidimp-01",
       "pokemon": "impidimp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "novran_impidimp-01",
       "pokemon": "impidimp novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -113,7 +116,8 @@
       "id": "fabelian_impidimp-01",
       "pokemon": "impidimp fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -140,7 +144,8 @@
       "id": "mystisian_impidimp-01",
       "pokemon": "impidimp mystisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -166,16 +171,17 @@
       "id": "ottoran_impidimp-01",
       "pokemon": "impidimp ottoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-23",
-      "weight": 9.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_old_growth_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,7 +7,8 @@
       "id": "ironincinerator-01",
       "pokemon": "ironincinerator",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

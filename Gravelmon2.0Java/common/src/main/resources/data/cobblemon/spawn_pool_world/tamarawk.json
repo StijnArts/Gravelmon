@@ -7,7 +7,8 @@
       "id": "tamarawk-01",
       "pokemon": "tamarawk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

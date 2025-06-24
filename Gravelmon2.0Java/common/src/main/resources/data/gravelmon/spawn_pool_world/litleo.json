@@ -7,7 +7,8 @@
       "id": "hizian_litleo-01",
       "pokemon": "litleo hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,7 +37,8 @@
       "id": "epoch_litleo-01",
       "pokemon": "litleo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "epoch_litleo-01",
       "pokemon": "litleo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -100,7 +103,8 @@
       "id": "ayreian_litleo-01",
       "pokemon": "litleo ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -110,7 +114,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

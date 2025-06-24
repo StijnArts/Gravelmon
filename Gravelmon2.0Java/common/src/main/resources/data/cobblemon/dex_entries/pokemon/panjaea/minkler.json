@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:minkler",
+  "speciesId": "cobblemon:minkler",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

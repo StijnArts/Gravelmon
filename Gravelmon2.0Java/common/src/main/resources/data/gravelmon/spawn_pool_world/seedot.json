@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_overworld"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +35,8 @@
       "id": "epoch_seedot-01",
       "pokemon": "seedot epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

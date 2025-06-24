@@ -18,7 +18,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 20
+        "maxY": 20,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

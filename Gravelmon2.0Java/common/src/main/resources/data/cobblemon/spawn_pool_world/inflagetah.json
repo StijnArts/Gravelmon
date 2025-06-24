@@ -7,7 +7,8 @@
       "id": "inflagetah-01",
       "pokemon": "inflagetah",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

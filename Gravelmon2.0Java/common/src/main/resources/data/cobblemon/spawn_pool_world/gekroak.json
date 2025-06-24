@@ -7,7 +7,8 @@
       "id": "gekroak-01",
       "pokemon": "gekroak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

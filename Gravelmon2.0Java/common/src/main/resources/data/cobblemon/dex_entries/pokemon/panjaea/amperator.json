@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:amperator",
+  "speciesId": "cobblemon:amperator",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

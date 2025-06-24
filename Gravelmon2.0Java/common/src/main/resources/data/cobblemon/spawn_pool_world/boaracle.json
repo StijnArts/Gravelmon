@@ -7,7 +7,8 @@
       "id": "boaracle-01",
       "pokemon": "boaracle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

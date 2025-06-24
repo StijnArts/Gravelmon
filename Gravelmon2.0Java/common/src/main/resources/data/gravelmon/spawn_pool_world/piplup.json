@@ -7,7 +7,8 @@
       "id": "interian_piplup-01",
       "pokemon": "piplup interian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_piplup-01",
       "pokemon": "piplup epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

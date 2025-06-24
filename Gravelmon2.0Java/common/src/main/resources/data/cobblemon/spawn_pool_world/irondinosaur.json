@@ -7,7 +7,8 @@
       "id": "irondinosaur-01",
       "pokemon": "irondinosaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

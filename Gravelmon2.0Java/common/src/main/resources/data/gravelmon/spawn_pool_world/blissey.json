@@ -7,7 +7,8 @@
       "id": "egho_blissey-01",
       "pokemon": "blissey egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_blissey-01",
       "pokemon": "blissey epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "avalossian_blissey-01",
       "pokemon": "blissey avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

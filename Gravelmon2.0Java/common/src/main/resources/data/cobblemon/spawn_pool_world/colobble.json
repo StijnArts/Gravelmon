@@ -7,7 +7,8 @@
       "id": "colobble-01",
       "pokemon": "colobble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

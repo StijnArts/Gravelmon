@@ -7,7 +7,8 @@
       "id": "colsector-01",
       "pokemon": "colsector",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

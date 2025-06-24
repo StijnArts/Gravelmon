@@ -7,7 +7,8 @@
       "id": "attawatta-01",
       "pokemon": "attawatta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

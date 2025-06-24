@@ -7,7 +7,8 @@
       "id": "lavaleon-01",
       "pokemon": "lavaleon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

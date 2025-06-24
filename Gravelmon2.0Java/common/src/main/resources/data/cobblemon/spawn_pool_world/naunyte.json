@@ -7,6 +7,7 @@
       "id": "naunyte-01",
       "pokemon": "naunyte",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

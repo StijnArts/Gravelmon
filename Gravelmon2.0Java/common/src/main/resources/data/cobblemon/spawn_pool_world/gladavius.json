@@ -7,7 +7,8 @@
       "id": "gladavius-01",
       "pokemon": "gladavius",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "kinegasus-01",
       "pokemon": "kinegasus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

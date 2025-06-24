@@ -7,7 +7,8 @@
       "id": "skiito-01",
       "pokemon": "skiito",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

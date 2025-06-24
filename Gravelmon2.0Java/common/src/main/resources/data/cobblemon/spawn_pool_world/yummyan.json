@@ -7,7 +7,8 @@
       "id": "yummyan-01",
       "pokemon": "yummyan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

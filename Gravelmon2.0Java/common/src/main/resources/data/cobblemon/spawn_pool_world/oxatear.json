@@ -7,7 +7,8 @@
       "id": "oxatear-01",
       "pokemon": "oxatear",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

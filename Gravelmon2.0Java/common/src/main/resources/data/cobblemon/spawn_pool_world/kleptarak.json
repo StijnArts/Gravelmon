@@ -7,7 +7,8 @@
       "id": "kleptarak-01",
       "pokemon": "kleptarak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "swingit-01",
       "pokemon": "swingit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

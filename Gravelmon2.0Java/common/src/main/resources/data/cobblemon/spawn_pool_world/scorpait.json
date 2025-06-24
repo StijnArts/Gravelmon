@@ -7,7 +7,8 @@
       "id": "scorpait-01",
       "pokemon": "scorpait",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

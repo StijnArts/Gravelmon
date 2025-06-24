@@ -8,7 +8,8 @@
       "pokemon": "roccoon",
       "presets": [
         "natural",
-        "foliage"
+        "foliage",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

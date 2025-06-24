@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyfan",
+  "speciesId": "cobblemon:psyfan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

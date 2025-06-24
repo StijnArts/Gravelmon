@@ -23,7 +23,9 @@ public class PastelianLedian extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("In the day, Ledian will sleep in any dark space, giving off a dim light. At night, however, they are very active, flying through the sky like shooting stars."),
-                List.of(),
+                List.of(new EvolutionEntry("eleedian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,5),
@@ -105,10 +107,10 @@ public class PastelianLedian extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUG_BUZZ,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(18).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Ledian");

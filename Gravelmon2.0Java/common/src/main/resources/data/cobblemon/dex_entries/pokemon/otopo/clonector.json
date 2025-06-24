@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:clonector",
+  "speciesId": "cobblemon:clonector",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

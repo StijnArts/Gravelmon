@@ -23,8 +23,8 @@ public class Coralush extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("Due to their weak fins, Coralush can only hop around on the seabed. As they age, some of them become strong enough to swim semi-consistently."),
-                List.of(new EvolutionEntry("coraltle", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+                List.of(new EvolutionEntry("coraltle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_WARM_OCEAN.getId() + ":" + Biome.IS_WARM_OCEAN.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,11),
                         new MoveLearnSetEntry(Move.REFRESH,1),

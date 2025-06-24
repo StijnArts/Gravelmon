@@ -99,10 +99,10 @@ public class PaleontologistOverride {
         itemListings.add((entity, randomSource) -> new MerchantOffer(
                 new ItemCost(Items.EMERALD, 32),
                 new ItemStack(CobblemonItems.SKULL_FOSSIL, 1), 3, 20, 0.05f));
-        Gravelmon.FOSSIL_ITEM_MAP.values().forEach(fossil-> {
+        Gravelmon.getAllowedFossils().forEach(fossil-> {
             itemListings.add((entity, randomSource) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 32),
-                    new ItemStack(fossil.get(), 1), 3, 20, 0.05f));
+                    new ItemStack(fossil, 1), 3, 20, 0.05f));
         });
     }
 }

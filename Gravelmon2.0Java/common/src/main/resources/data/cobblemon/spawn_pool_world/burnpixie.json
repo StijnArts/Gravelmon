@@ -7,7 +7,8 @@
       "id": "burnpixie-01",
       "pokemon": "burnpixie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

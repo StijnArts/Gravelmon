@@ -11,8 +11,8 @@ public class Cisburn extends drai.dev.data.pokemon.Pokemon {
                 Type.POISON, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,10 +23,10 @@ public class Cisburn extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.VERY_COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SWAMP)
+                        .setSpawnPreset(SpawnPreset.ILLAGER_STRUCTURES).build(),
                 List.of());
            setLangFileName("Cisburn");
 

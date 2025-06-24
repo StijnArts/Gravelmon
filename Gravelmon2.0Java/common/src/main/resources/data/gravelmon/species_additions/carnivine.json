@@ -301,11 +301,39 @@
         "height": 4.875,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "baseScale": 0.44999999999999996,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 150,
+        "defence": 92,
+        "special_attack": 90,
+        "special_defence": 82,
+        "speed": 66
+      },
+      "labels": [
+        "gen4",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 15,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "seviian",
-    "epoch"
+    "epoch",
+    "mega"
   ],
   "evolutions": [
     {

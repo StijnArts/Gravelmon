@@ -7,7 +7,8 @@
       "id": "bachist-01",
       "pokemon": "bachist",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

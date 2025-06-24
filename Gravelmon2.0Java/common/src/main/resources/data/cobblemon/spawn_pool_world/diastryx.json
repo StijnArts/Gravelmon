@@ -7,7 +7,8 @@
       "id": "diastryx-01",
       "pokemon": "diastryx",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

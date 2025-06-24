@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:hakamoo",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

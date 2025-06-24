@@ -497,6 +497,16 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "sunkern_sunflora",
+      "variant": "item_interact",
+      "result": "sunflora",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true
     }
   ]
 }

@@ -7,7 +7,8 @@
       "id": "plasmar-01",
       "pokemon": "plasmar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

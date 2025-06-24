@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tirtouga",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

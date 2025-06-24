@@ -2,13 +2,14 @@
   "name": "Thornull",
   "primaryType": "dark",
   "secondaryType": "poison",
-  "catchRate": 81,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.128,
+  "preEvolution": "gremliz",
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -88,16 +89,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.thornull.desc"
   ],
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9275,
+  "nationalPokedexNumber": 9622,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.6875,

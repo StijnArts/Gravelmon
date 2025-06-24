@@ -7,7 +7,8 @@
       "id": "tunnelid-01",
       "pokemon": "tunnelid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

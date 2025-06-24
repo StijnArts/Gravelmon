@@ -7,7 +7,8 @@
       "id": "shogizeta-01",
       "pokemon": "shogizeta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

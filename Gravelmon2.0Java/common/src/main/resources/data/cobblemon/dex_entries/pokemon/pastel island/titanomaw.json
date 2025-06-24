@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:titanomaw",
+  "speciesId": "cobblemon:titanomaw",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

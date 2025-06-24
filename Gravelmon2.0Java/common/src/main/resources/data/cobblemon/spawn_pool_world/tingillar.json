@@ -7,7 +7,8 @@
       "id": "tingillar-01",
       "pokemon": "tingillar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "batzon-01",
       "pokemon": "batzon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

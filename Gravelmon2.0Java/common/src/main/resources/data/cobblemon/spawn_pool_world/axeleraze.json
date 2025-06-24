@@ -7,7 +7,8 @@
       "id": "axeleraze-01",
       "pokemon": "axeleraze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

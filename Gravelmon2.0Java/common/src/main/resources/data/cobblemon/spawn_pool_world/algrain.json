@@ -7,6 +7,7 @@
       "id": "algrain-01",
       "pokemon": "algrain",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

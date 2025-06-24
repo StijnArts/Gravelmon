@@ -7,7 +7,8 @@
       "id": "cararalm-01",
       "pokemon": "cararalm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

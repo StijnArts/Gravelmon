@@ -7,7 +7,8 @@
       "id": "artifixt-01",
       "pokemon": "artifixt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

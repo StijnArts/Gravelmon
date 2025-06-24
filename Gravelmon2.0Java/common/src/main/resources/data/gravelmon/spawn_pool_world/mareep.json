@@ -7,7 +7,8 @@
       "id": "aristosian_mareep-01",
       "pokemon": "mareep aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -39,7 +40,8 @@
       "id": "epoch_mareep-01",
       "pokemon": "mareep epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,7 +66,8 @@
       "id": "forman_mareep-01",
       "pokemon": "mareep forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -83,6 +86,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:cauldron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_mareep-01",
+      "pokemon": "mareep theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

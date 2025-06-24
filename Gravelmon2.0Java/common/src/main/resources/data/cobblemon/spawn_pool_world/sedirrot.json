@@ -7,7 +7,8 @@
       "id": "sedirrot-01",
       "pokemon": "sedirrot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

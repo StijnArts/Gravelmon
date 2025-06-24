@@ -7,7 +7,8 @@
       "id": "canopeace-01",
       "pokemon": "canopeace",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

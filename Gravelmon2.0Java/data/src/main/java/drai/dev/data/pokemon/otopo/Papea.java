@@ -16,8 +16,8 @@ public class Papea extends drai.dev.data.pokemon.Pokemon {
                         145,
                         30),
                 List.of(Ability.HERBALIST), Ability.HERBALIST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 1.0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -49,11 +49,11 @@ public class Papea extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNTHESIS,62)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_GRASSLAND).canSeeSky().duringDaytime()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 List.of());
            setLangFileName("Papea");
 

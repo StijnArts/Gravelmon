@@ -7,7 +7,8 @@
       "id": "epoch_eternatus-01",
       "pokemon": "eternatus epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

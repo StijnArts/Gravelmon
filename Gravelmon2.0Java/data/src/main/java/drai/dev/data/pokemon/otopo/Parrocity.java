@@ -16,7 +16,7 @@ public class Parrocity extends drai.dev.data.pokemon.Pokemon {
                         65,
                         120),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
@@ -45,12 +45,13 @@ public class Parrocity extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,60)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(26).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Parrocity");
 
     }

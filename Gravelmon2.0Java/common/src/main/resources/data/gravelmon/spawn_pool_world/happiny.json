@@ -7,7 +7,8 @@
       "id": "egho_happiny-01",
       "pokemon": "happiny egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_happiny-01",
       "pokemon": "happiny epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "avalossian_happiny-01",
       "pokemon": "happiny avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

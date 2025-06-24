@@ -7,7 +7,8 @@
       "id": "pillunge-01",
       "pokemon": "pillunge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

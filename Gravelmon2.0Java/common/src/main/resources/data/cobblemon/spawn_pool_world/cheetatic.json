@@ -7,7 +7,8 @@
       "id": "cheetatic-01",
       "pokemon": "cheetatic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

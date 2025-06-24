@@ -1,4 +1,59 @@
 {
   "entryId": "cobblemon:onix",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Varitasian",
+      "unlockForms": [
+        "Varitasian"
+      ]
+    },
+    {
+      "displayForm": "Trizoran",
+      "unlockForms": [
+        "Trizoran"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Hoennian",
+      "unlockForms": [
+        "Hoennian"
+      ]
+    },
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    },
+    {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    },
+    {
+      "displayForm": "Ishirian",
+      "unlockForms": [
+        "Ishirian"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "moucroon-01",
       "pokemon": "moucroon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

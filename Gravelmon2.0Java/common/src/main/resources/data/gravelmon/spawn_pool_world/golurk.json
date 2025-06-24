@@ -7,7 +7,8 @@
       "id": "cefiran_golurk-01",
       "pokemon": "golurk cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "delta_golurk-01",
       "pokemon": "golurk delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -42,9 +46,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +61,8 @@
       "id": "epoch_golurk-01",
       "pokemon": "golurk epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,7 +72,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,7 +89,8 @@
       "id": "epoch_golurk-01",
       "pokemon": "golurk epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

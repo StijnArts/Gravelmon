@@ -17,21 +17,22 @@ public class Moleer extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.INSOMNIA), Ability.SAND_FORCE,
                 5, 85,
-                new Stats(0,0,0,0,0,1), 0,
+                new Stats(0,0,0,0,0,1), 230,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Moleer have very poor eye sight and rely on their sense of smell to know their surroundings. Their tough claws allow them to break through rock with ease."),
-                List.of(),
+                List.of(new EvolutionEntry("tremole", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_CAVE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Moleer");
 

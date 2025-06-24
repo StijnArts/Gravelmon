@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Tukaleap extends drai.dev.data.pokemon.Pokemon {
-    public Tukaleap() {
+    public Tukaleap(Stats stats) {
         super("Tukaleap",
                 Type.GRASS, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.OVERGROW), Ability.AIR_LOCK,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

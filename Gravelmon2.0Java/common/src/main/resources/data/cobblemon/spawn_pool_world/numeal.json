@@ -7,7 +7,8 @@
       "id": "numeal-01",
       "pokemon": "numeal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

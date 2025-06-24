@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:arboliva",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

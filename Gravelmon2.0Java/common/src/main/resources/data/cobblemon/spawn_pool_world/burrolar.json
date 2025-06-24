@@ -7,7 +7,8 @@
       "id": "burrolar-01",
       "pokemon": "burrolar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

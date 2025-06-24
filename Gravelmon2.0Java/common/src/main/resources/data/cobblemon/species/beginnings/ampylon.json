@@ -2,13 +2,14 @@
   "name": "Ampylon",
   "primaryType": "electric",
   "secondaryType": "steel",
-  "catchRate": 255,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.17142857142857143,
+  "preEvolution": "coulimb",
+  "baseScale": 0.5142857142857142,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 84,
+    "attack": 29,
+    "defence": 99,
+    "special_attack": 84,
+    "special_defence": 70,
+    "speed": 16
   },
   "evYield": {
     "hp": 0,
@@ -62,42 +63,56 @@
   "moves": [
     "1:thundershock",
     "1:metalclaw",
+    "1:bulkup",
+    "1:irondefense",
     "1:leer",
     "1:screech",
+    "1:calmmind",
+    "1:bulkup",
     "10:charge",
     "10:irontail",
+    "10:taunt",
+    "10:calmmind",
     "15:shockwave",
     "15:smartstrike",
+    "15:substitute",
+    "15:taunt",
     "20:discharge",
     "20:mirrorshot",
+    "20:rest",
+    "20:substitute",
     "25:thunderbolt",
     "25:flashcannon",
+    "25:rest",
     "30:thunder",
     "30:steelbeam",
-    "35:thundershock",
-    "35:metalclaw",
-    "40:leer",
-    "40:screech",
-    "45:charge",
-    "45:irontail",
-    "50:thunderpunch",
-    "50:smartstrike",
-    "55:discharge",
-    "55:ironhead",
     "tm:terablast"
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ampylon.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9280,
+  "evolutions": [
+    {
+      "id": "ampylon_voltowere",
+      "variant": "item_interact",
+      "result": "voltowere",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9627,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

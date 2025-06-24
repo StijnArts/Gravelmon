@@ -7,7 +7,8 @@
       "id": "mochrema-01",
       "pokemon": "mochrema",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

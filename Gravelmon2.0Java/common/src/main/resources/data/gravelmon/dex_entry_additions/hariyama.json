@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:hariyama",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

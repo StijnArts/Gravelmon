@@ -7,7 +7,8 @@
       "id": "moistone-01",
       "pokemon": "moistone",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,14 +16,15 @@ public class Furncoon extends drai.dev.data.pokemon.Pokemon {
                         30,
                         20),
                 List.of(Ability.SWARM), Ability.FLAME_BODY,
-                0, 0,
+                5, 0,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 72, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Hikers use Furncoon to keep warm in frigid climes. It attaches itself to branches with spikes, ready for evolution."),
-                List.of(),
+                List.of(new EvolutionEntry("eruptle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POWDER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -40,11 +41,11 @@ public class Furncoon extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUNGE,50)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Furncoon");
 

@@ -7,7 +7,8 @@
       "id": "serfierno-01",
       "pokemon": "serfierno",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_sobble-01",
       "pokemon": "sobble epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

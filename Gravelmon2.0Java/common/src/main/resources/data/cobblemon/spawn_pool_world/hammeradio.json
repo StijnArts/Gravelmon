@@ -7,6 +7,7 @@
       "id": "hammeradio-01",
       "pokemon": "hammeradio",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:beakat",
+  "speciesId": "cobblemon:beakat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,8 +16,8 @@ public class Mothread extends drai.dev.data.pokemon.Pokemon {
                         45,
                         85),
                 List.of(Ability.SWARM), Ability.OVERCOAT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 150,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,13 @@ public class Mothread extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(15).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Mothread");
 
     }

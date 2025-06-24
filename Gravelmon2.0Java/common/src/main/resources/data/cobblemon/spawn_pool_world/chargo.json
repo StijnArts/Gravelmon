@@ -7,7 +7,8 @@
       "id": "chargo-01",
       "pokemon": "chargo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "incubat-01",
       "pokemon": "incubat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

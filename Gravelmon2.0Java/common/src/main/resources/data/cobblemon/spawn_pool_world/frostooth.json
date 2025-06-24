@@ -7,7 +7,8 @@
       "id": "frostooth-01",
       "pokemon": "frostooth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

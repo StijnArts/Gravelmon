@@ -7,7 +7,8 @@
       "id": "egubloom-01",
       "pokemon": "egubloom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

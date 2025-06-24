@@ -7,7 +7,8 @@
       "id": "africanusan_donphan-01",
       "pokemon": "donphan africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "pokemon": "donphan raianian",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "epoch_donphan-01",
       "pokemon": "donphan epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -95,6 +98,7 @@
       "id": "epoch_donphan-01",
       "pokemon": "donphan epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -144,7 +148,8 @@
       "id": "forman_donphan-01",
       "pokemon": "donphan forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -172,7 +177,8 @@
       "id": "ayreian_donphan-01",
       "pokemon": "donphan ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

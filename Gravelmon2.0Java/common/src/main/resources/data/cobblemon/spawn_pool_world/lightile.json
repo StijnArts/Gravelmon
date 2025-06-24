@@ -7,7 +7,8 @@
       "id": "lightile-01",
       "pokemon": "lightile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

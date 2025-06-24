@@ -7,7 +7,8 @@
       "id": "siberizen-01",
       "pokemon": "siberizen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

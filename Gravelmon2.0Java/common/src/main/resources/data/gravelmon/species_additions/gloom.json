@@ -614,13 +614,201 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "grass",
+      "secondaryType": "psychic",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 138,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "oddish form=theossian",
+      "baseScale": 0.36923076923076925,
+      "cannotDynamax": false,
+      "abilities": [
+        "effectspore",
+        "h:stench"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defence": 70,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 40
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "grass"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growth",
+        "1:absorb",
+        "5:sweetscent",
+        "9:acid",
+        "13:poisonpowder",
+        "14:stunspore",
+        "15:sleeppowder",
+        "19:megadrain",
+        "24:luckychant",
+        "29:moonlight",
+        "34:gigadrain",
+        "39:toxic",
+        "44:naturalgift",
+        "49:petalblizzard",
+        "54:grassyterrain",
+        "59:petaldance",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:synthesis",
+        "tm:gastroacid",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:drainpunch",
+        "tm:afteryou",
+        "tm:grassyglide",
+        "tm:swordsdance",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:fling",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:venoshock",
+        "tm:round",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:infestation",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:rage",
+        "tm:megadrain",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:cut",
+        "tm:flash",
+        "tm:grassyterrain",
+        "tm:petalblizzard",
+        "tm:bulletseed",
+        "tm:captivate",
+        "tm:charm",
+        "tm:curse",
+        "tm:endure",
+        "tm:headbutt",
+        "tm:naturalgift",
+        "tm:secretpower",
+        "tm:sweetscent",
+        "tm:razorleaf",
+        "tm:flail",
+        "tm:charm",
+        "tm:ingrain",
+        "tm:secretpower",
+        "tm:teeterdance",
+        "tm:tickle",
+        "tm:strengthsap",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossiangloom.desc"
+      ],
+      "height": 8,
+      "weight": 86,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [
+        {
+          "id": "theossiangloom_vileplume_theossian",
+          "variant": "item_interact",
+          "result": "vileplume theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        },
+        {
+          "id": "theossiangloom_bellossom_theossian",
+          "variant": "item_interact",
+          "result": "bellossom theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:leaf_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.25,
+        "height": 3.25,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "egho",
     "varitasian",
     "epoch",
-    "fabelian"
+    "fabelian",
+    "theossian"
   ],
   "evolutions": [
     {

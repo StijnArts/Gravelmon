@@ -41,8 +41,7 @@ public class Buzzling extends drai.dev.data.pokemon.Pokemon {
     .setMinLevel(3)
     .setWeight(SpawnWeight.UNCOMMON)
     .setContext(SpawnContext.GROUNDED)
-    .setBiomes(Biome.IS_DECIDUOUS_FOREST)
-    .setAntiBiomes(Biome.IS_TAIGA, Biome.IS_JUNGLE)
+    .setBiomes(Biome.IS_BIRCH)
     .canSeeSky()
     .setSpawnPreset(SpawnPreset.NATURAL)
     .build(), List.of());

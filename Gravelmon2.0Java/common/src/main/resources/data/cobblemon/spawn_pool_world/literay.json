@@ -7,7 +7,8 @@
       "id": "literay-01",
       "pokemon": "literay",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

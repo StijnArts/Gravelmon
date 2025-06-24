@@ -7,7 +7,8 @@
       "id": "frozymp-01",
       "pokemon": "frozymp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

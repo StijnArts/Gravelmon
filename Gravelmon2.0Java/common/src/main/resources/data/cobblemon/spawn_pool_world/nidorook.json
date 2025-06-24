@@ -7,7 +7,8 @@
       "id": "nidorook-01",
       "pokemon": "nidorook",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

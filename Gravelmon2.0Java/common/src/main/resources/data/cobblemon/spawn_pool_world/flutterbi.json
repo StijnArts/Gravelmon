@@ -7,7 +7,8 @@
       "id": "flutterbi-01",
       "pokemon": "flutterbi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

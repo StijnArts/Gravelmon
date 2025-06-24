@@ -7,7 +7,8 @@
       "id": "kryuu-01",
       "pokemon": "kryuu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

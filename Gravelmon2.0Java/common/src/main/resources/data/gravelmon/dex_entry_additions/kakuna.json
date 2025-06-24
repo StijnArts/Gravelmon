@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:kakuna",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

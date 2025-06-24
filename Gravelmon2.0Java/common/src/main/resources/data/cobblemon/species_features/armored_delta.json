@@ -1,6 +1,0 @@
-{
-    "keys": [ "armored_delta" ],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
-  }

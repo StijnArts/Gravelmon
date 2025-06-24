@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:dimwraith",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mystisian",
+      "unlockForms": [
+        "Mystisian"
+      ]
+    }
+  ]
 }

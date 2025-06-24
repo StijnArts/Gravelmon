@@ -7,7 +7,8 @@
       "id": "calientrop-01",
       "pokemon": "calientrop",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

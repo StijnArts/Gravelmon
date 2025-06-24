@@ -7,7 +7,8 @@
       "id": "epoch_charjabug-01",
       "pokemon": "charjabug epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

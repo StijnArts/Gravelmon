@@ -7,7 +7,8 @@
       "id": "pebblosa-01",
       "pokemon": "pebblosa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

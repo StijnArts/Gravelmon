@@ -7,7 +7,8 @@
       "id": "flightjar-01",
       "pokemon": "flightjar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,13 +1,14 @@
 {
   "name": "Mergangster",
   "primaryType": "dark",
-  "catchRate": 114,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15737704918032788,
+  "preEvolution": "aqquack",
+  "baseScale": 0.5114754098360655,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -70,16 +71,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mergangster.desc"
   ],
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9265,
+  "nationalPokedexNumber": 9612,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.8125,

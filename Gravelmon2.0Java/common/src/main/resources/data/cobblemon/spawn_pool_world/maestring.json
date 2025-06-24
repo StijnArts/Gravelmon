@@ -7,7 +7,8 @@
       "id": "maestring-01",
       "pokemon": "maestring",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

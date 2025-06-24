@@ -7,7 +7,8 @@
       "id": "barmor-01",
       "pokemon": "barmor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

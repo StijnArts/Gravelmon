@@ -7,7 +7,8 @@
       "id": "excanth-01",
       "pokemon": "excanth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

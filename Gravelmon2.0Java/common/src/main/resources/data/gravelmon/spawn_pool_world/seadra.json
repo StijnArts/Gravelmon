@@ -35,7 +35,8 @@
       "id": "norheiman_seadra-01",
       "pokemon": "seadra norheiman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,6 +90,7 @@
       "id": "epoch_seadra-01",
       "pokemon": "seadra epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

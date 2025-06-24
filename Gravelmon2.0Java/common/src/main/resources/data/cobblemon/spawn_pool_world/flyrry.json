@@ -7,7 +7,8 @@
       "id": "flyrry-01",
       "pokemon": "flyrry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

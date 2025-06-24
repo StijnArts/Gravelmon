@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:staraptor",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

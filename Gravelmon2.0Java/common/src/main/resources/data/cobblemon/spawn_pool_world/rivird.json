@@ -7,6 +7,7 @@
       "id": "rivird-01",
       "pokemon": "rivird",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

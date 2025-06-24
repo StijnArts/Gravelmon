@@ -17,20 +17,21 @@ public class Psychick extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.FOREWARN), Ability.DAZZLING,
                 10, 20,
-                new Stats(0,0,0,1,0,0), 0,
+                new Stats(0,0,0,1,0,0), 240,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Psychick's mind is 2 seconds into the future while it's body is in the present. This often causes it to act out before anything happens, giving it a head start to get away."),
-                List.of(),
+                List.of(new EvolutionEntry("psyfan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FLORAL).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Psychick");

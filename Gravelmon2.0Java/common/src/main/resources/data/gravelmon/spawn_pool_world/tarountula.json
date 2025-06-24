@@ -7,7 +7,8 @@
       "id": "epoch_tarountula-01",
       "pokemon": "tarountula epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

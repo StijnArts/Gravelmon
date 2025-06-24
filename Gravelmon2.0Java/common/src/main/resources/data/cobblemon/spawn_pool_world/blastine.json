@@ -7,6 +7,7 @@
       "id": "blastine-01",
       "pokemon": "blastine",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

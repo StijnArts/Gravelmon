@@ -7,7 +7,8 @@
       "id": "muncheek-01",
       "pokemon": "muncheek",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

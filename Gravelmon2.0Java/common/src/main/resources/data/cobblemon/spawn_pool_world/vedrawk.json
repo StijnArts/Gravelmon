@@ -7,7 +7,8 @@
       "id": "vedrawk-01",
       "pokemon": "vedrawk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

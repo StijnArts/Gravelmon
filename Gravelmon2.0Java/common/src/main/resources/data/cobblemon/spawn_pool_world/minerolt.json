@@ -7,7 +7,8 @@
       "id": "minerolt-01",
       "pokemon": "minerolt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

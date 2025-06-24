@@ -8,7 +8,7 @@ import java.util.*;
 public class TheossianLuxray extends drai.dev.data.pokemon.Pokemon {
     public TheossianLuxray(String name, Aspect aspect) {
         super(name, aspect, "Luxray",
-                Type.PSYCHIC,
+                Type.PSYCHIC, Type.COSMIC,
                 new Stats(80,
                         95,
                         80,
@@ -117,10 +117,10 @@ public class TheossianLuxray extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(30).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Luxray");

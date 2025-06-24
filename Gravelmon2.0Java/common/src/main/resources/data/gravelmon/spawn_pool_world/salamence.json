@@ -7,7 +7,8 @@
       "id": "raianian_salamence-01",
       "pokemon": "salamence raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_salamence-01",
       "pokemon": "salamence epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "ferranian_salamence-01",
       "pokemon": "salamence ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

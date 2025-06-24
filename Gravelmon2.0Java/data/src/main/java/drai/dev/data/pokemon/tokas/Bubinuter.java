@@ -11,8 +11,8 @@ public class Bubinuter extends drai.dev.data.pokemon.Pokemon {
                 Type.NORMAL,
                 stats,
                 List.of(Ability.PARENTAL_BOND), Ability.PARENTAL_BOND,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,12 +22,14 @@ public class Bubinuter extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Bubinuter");
 
     }

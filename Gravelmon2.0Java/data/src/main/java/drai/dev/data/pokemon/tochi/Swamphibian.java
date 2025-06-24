@@ -16,8 +16,8 @@ public class Swamphibian extends drai.dev.data.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.DAMP), Ability.UNNERVE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,14 @@ public class Swamphibian extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(38).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Swamphibian");
 
     }

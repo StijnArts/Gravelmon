@@ -7,7 +7,8 @@
       "id": "herocray-01",
       "pokemon": "herocray",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

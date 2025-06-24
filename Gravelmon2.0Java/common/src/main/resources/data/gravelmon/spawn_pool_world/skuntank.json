@@ -7,7 +7,8 @@
       "id": "epoch_skuntank-01",
       "pokemon": "skuntank epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -37,7 +40,8 @@
       "id": "kaskadian_skuntank-01",
       "pokemon": "skuntank kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_vanilluxe-01",
       "pokemon": "vanilluxe epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_swamp"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +62,8 @@
       "id": "ayreian_vanilluxe-01",
       "pokemon": "vanilluxe ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +89,8 @@
       "id": "novran_vanilluxe-01",
       "pokemon": "vanilluxe novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

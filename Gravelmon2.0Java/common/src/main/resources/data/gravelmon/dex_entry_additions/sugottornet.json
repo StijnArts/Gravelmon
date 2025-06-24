@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:sugottornet",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    }
+  ]
 }

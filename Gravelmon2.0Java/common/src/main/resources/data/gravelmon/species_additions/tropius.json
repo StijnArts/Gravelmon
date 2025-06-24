@@ -784,6 +784,34 @@
         "height": 5.9375,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "baseScale": 0.5018181818181817,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "thickfat"
+      ],
+      "baseStats": {
+        "hp": 119,
+        "attack": 92,
+        "defence": 123,
+        "special_attack": 83,
+        "special_defence": 122,
+        "speed": 61
+      },
+      "labels": [
+        "gen3",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 23,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
@@ -791,7 +819,8 @@
     "hizian",
     "epoch",
     "kaskadian",
-    "ayreian"
+    "ayreian",
+    "mega"
   ],
   "evolutions": [
     {

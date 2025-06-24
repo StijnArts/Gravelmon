@@ -11,8 +11,8 @@ public class Lunbun extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC,Type.FAIRY,
                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,11 +23,12 @@ public class Lunbun extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Lunbun");
 
     }

@@ -7,7 +7,8 @@
       "id": "epoch_zigzagoon-01",
       "pokemon": "zigzagoon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "ayreian_zigzagoon-01",
       "pokemon": "zigzagoon ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

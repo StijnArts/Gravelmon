@@ -7,7 +7,8 @@
       "id": "poshlime-01",
       "pokemon": "poshlime",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

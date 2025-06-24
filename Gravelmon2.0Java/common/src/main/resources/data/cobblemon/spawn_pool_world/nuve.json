@@ -7,7 +7,8 @@
       "id": "nuve-01",
       "pokemon": "nuve",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

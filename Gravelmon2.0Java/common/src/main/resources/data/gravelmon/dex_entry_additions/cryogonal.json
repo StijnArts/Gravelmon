@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:cryogonal",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mega",
+      "unlockForms": [
+        "Mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

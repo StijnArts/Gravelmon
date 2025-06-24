@@ -7,7 +7,8 @@
       "id": "drahoggon-01",
       "pokemon": "drahoggon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

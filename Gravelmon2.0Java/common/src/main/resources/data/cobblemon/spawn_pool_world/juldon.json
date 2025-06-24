@@ -7,7 +7,8 @@
       "id": "juldon-01",
       "pokemon": "juldon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

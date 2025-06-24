@@ -7,7 +7,8 @@
       "id": "triglio-01",
       "pokemon": "triglio",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

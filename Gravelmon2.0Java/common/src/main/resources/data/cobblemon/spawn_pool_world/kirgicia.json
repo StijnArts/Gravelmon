@@ -7,7 +7,8 @@
       "id": "kirgicia-01",
       "pokemon": "kirgicia",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

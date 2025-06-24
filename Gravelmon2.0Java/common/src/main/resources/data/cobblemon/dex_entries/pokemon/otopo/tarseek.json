@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tarseek",
+  "speciesId": "cobblemon:tarseek",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "xenoqueen-01",
       "pokemon": "xenoqueen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

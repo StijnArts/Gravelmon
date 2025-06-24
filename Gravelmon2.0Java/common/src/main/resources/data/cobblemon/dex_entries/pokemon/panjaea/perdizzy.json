@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:perdizzy",
+  "speciesId": "cobblemon:perdizzy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

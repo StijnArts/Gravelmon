@@ -7,7 +7,8 @@
       "id": "kiderr-01",
       "pokemon": "kiderr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "atomite-01",
       "pokemon": "atomite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

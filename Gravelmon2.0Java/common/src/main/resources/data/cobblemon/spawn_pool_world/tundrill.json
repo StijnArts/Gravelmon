@@ -7,25 +7,25 @@
       "id": "tundrill-01",
       "pokemon": "tundrill",
       "presets": [
-        "natural"
+        "underground"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "23-43",
+      "bucket": "uncommon",
+      "level": "40-60",
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_sandy"
+          "#cobblemon:is_snowy"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:packed_mud"
+            "minecraft:iron_block"
           ]
         }
       }

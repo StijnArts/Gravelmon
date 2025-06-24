@@ -7,7 +7,8 @@
       "id": "cavahanbul-01",
       "pokemon": "cavahanbul",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

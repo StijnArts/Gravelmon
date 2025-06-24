@@ -7,7 +7,8 @@
       "id": "prickub-01",
       "pokemon": "prickub",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

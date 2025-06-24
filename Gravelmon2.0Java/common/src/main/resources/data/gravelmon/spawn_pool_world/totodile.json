@@ -7,7 +7,8 @@
       "id": "egho_totodile-01",
       "pokemon": "totodile egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -56,7 +57,8 @@
       "id": "epoch_totodile-01",
       "pokemon": "totodile epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -81,7 +85,8 @@
       "id": "epoch_totodile-01",
       "pokemon": "totodile epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -106,7 +111,8 @@
       "id": "forman_totodile-01",
       "pokemon": "totodile forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -165,7 +171,8 @@
       "id": "ionosian_totodile-01",
       "pokemon": "totodile ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -175,7 +182,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

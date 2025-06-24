@@ -7,7 +7,8 @@
       "id": "bowlaphod-01",
       "pokemon": "bowlaphod",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

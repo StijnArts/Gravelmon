@@ -24,7 +24,7 @@ public class Dracubat extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of("Dracubat's night vision is second to none, making them very powerful Pokémon at night. It leeches blood from other Pokémon to recover its own health."),
                 List.of(new EvolutionEntry("countula", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")), List.of(), "gravelmon:razorfang")),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")), List.of(), "cobblemon:razor_fang")),
                 List.of(
                         new MoveLearnSetEntry(Move.GALE_RUSH,44),
                         new MoveLearnSetEntry(Move.MEMENTO,58),

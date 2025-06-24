@@ -7,7 +7,8 @@
       "id": "mosquilite-01",
       "pokemon": "mosquilite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "typheon-01",
       "pokemon": "typheon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

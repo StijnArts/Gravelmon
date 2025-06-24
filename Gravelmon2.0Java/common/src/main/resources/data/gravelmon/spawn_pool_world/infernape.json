@@ -7,7 +7,8 @@
       "id": "epoch_infernape-01",
       "pokemon": "infernape epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "nodorran_infernape-01",
       "pokemon": "infernape nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:makuhita",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

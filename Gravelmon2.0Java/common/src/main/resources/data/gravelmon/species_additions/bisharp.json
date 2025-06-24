@@ -737,7 +737,8 @@
       },
       "labels": [
         "gen5",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
@@ -764,7 +765,8 @@
       },
       "labels": [
         "gen5",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 21,
       "aspects": [

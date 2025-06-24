@@ -23,7 +23,8 @@ public class TheossianCottonee extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("They spend their days drifting along with the wind. The cotton that falls from their body is used to make all sorts of clothing."),
-                List.of(),
+                List.of(new EvolutionEntry("theossianwhimsicott", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
@@ -99,11 +100,12 @@ public class TheossianCottonee extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_ARID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Cottonee");
 
     }

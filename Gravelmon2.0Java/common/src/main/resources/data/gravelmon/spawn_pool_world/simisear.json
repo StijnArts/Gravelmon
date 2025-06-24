@@ -7,7 +7,8 @@
       "id": "epoch_simisear-01",
       "pokemon": "simisear epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

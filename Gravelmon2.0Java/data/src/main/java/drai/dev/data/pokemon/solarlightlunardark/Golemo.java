@@ -24,7 +24,7 @@ public class Golemo extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL),
                 List.of("A Golemo in deep sleep cannot be easily moved. Some cities employ Bulker specifically to clear out blockades of sleeping Golemo."),
                 List.of(new EvolutionEntry("golossus", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")), List.of(), "gravelmon:kingsrock")),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")), List.of(), "cobblemon:kings_rock")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.ENDURE,5),

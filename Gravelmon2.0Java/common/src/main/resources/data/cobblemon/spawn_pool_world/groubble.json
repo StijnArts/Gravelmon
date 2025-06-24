@@ -7,7 +7,8 @@
       "id": "groubble-01",
       "pokemon": "groubble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

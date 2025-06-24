@@ -7,7 +7,8 @@
       "id": "rosinella-01",
       "pokemon": "rosinella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

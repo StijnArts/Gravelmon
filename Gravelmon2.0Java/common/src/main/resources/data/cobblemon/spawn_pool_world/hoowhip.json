@@ -7,7 +7,8 @@
       "id": "hoowhip-01",
       "pokemon": "hoowhip",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#gravelmon:is_deciduous_forest",
           "#cobblemon:is_magical"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

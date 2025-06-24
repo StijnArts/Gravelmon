@@ -7,7 +7,8 @@
       "id": "botachi-01",
       "pokemon": "botachi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

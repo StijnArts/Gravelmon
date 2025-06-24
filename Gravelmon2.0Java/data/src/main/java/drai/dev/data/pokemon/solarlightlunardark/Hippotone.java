@@ -106,6 +106,7 @@ public class Hippotone extends drai.dev.data.pokemon.Pokemon {
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hippotone");
+        setHasGenderDifferences(true);
 
     }
 

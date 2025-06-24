@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ignimus",
-  "baseScale": 21.6,
+  "baseScale": 0.526829268292683,
   "cannotDynamax": false,
   "abilities": [
     "blaze",
@@ -121,11 +121,11 @@
   "weight": 696,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8865,
+  "nationalPokedexNumber": 9152,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.125,
+    "height": 5.125,
     "fixed": false
   },
   "features": [],

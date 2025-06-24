@@ -7,7 +7,8 @@
       "id": "saillard-01",
       "pokemon": "saillard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

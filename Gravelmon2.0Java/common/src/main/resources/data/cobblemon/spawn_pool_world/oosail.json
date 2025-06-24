@@ -7,6 +7,7 @@
       "id": "oosail-01",
       "pokemon": "oosail",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

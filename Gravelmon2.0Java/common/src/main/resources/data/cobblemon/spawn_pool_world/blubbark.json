@@ -7,7 +7,8 @@
       "id": "blubbark-01",
       "pokemon": "blubbark",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

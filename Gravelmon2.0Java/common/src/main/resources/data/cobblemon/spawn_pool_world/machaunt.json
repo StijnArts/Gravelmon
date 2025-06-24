@@ -7,7 +7,8 @@
       "id": "machaunt-01",
       "pokemon": "machaunt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

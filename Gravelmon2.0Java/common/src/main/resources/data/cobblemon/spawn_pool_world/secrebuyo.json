@@ -7,7 +7,8 @@
       "id": "secrebuyo-01",
       "pokemon": "secrebuyo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

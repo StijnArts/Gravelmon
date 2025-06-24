@@ -7,7 +7,8 @@
       "id": "grimoth-01",
       "pokemon": "grimoth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

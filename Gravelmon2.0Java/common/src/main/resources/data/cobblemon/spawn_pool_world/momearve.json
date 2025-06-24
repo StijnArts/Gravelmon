@@ -7,7 +7,8 @@
       "id": "momearve-01",
       "pokemon": "momearve",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

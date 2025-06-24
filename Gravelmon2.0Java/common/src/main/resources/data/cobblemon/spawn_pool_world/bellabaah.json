@@ -7,7 +7,8 @@
       "id": "bellabaah-01",
       "pokemon": "bellabaah",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

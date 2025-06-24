@@ -7,7 +7,8 @@
       "id": "anguiterra-01",
       "pokemon": "anguiterra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

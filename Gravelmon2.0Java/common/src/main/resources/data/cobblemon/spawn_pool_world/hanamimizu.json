@@ -7,7 +7,8 @@
       "id": "hanamimizu-01",
       "pokemon": "hanamimizu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

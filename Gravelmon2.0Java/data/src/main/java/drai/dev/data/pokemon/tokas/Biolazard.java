@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Biolazard extends drai.dev.data.pokemon.Pokemon {
-    public Biolazard() {
+    public Biolazard(Stats stats) {
         super("Biolazard",
                 Type.POISON, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CORROSION), Ability.POISON_TOUCH,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

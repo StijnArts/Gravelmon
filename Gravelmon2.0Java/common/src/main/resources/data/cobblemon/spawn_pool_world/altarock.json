@@ -7,7 +7,8 @@
       "id": "altarock-01",
       "pokemon": "altarock",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

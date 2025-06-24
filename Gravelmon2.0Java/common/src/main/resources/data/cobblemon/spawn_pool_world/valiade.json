@@ -7,6 +7,7 @@
       "id": "valiade-01",
       "pokemon": "valiade",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

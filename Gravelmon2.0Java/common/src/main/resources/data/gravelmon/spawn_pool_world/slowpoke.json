@@ -7,7 +7,8 @@
       "id": "africanusan_slowpoke-01",
       "pokemon": "slowpoke africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "forman_slowpoke-01",
       "pokemon": "slowpoke forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "novran_slowpoke-01",
       "pokemon": "slowpoke novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

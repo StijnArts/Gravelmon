@@ -7,7 +7,8 @@
       "id": "nifflom-01",
       "pokemon": "nifflom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "sardiner-01",
       "pokemon": "sardiner",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

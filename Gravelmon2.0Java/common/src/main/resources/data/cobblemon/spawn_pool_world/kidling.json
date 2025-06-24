@@ -7,7 +7,8 @@
       "id": "kidling-01",
       "pokemon": "kidling",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "thorlock-01",
       "pokemon": "thorlock",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tribal_darcicle-01",
       "pokemon": "darcicle tribal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

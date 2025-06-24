@@ -7,7 +7,8 @@
       "id": "cradvris-01",
       "pokemon": "cradvris",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

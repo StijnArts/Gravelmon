@@ -7,7 +7,8 @@
       "id": "tombeat-01",
       "pokemon": "tombeat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -229,7 +229,6 @@ public class PostRegistration {
             }
 
             checkEvolutionStatus(pokemon);
-            SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
         System.out.println(pokemonWithZeroBaseStats);
 
@@ -266,19 +265,7 @@ public class PostRegistration {
                     }
                     checkEvolutionStatus(result);
                 }
-                SpawnDefinitionConverter.updateSpawnDefinitionInFile(result);
             }
-        }
-
-//        fixSpawnsForAllPokemon();
-//
-//        POKEMON_REGISTRY.values().forEach(SpawnDefinitionConverter::updateSpawnDefinitionInFile);
-    }
-
-    private static void fixSpawnsForAllPokemon() {
-        var allPokemonClasses = getAllPokemonClasses();
-        for (var pokemon : allPokemonClasses) {
-            SpawnDefinitionConverter.updateSpawnDefinitionInFile(pokemon);
         }
     }
 

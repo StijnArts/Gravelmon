@@ -7,7 +7,8 @@
       "id": "cefiran_golett-01",
       "pokemon": "golett cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "delta_golett-01",
       "pokemon": "golett delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -42,9 +46,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_desert"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +61,8 @@
       "id": "epoch_golett-01",
       "pokemon": "golett epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,7 +72,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,7 +89,8 @@
       "id": "epoch_golett-01",
       "pokemon": "golett epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -111,7 +117,8 @@
       "id": "kaskadian_golett-01",
       "pokemon": "golett kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

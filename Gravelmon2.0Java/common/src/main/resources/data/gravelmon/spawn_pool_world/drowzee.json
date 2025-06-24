@@ -7,7 +7,8 @@
       "id": "epoch_drowzee-01",
       "pokemon": "drowzee epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "forman_drowzee-01",
       "pokemon": "drowzee forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "enjinnian_drowzee-01",
       "pokemon": "drowzee enjinnian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

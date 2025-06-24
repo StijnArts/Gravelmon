@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:passimian",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

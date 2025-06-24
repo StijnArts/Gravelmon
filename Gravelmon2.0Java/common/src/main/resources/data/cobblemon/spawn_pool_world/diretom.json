@@ -7,7 +7,8 @@
       "id": "diretom-01",
       "pokemon": "diretom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

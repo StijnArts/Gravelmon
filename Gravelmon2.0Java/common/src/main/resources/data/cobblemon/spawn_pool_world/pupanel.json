@@ -7,7 +7,8 @@
       "id": "pupanel-01",
       "pokemon": "pupanel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

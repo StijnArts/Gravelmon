@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stormmer",
+  "speciesId": "cobblemon:stormmer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

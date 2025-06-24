@@ -7,7 +7,8 @@
       "id": "furabani-01",
       "pokemon": "furabani",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

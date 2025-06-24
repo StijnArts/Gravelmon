@@ -7,6 +7,7 @@
       "id": "psyren-01",
       "pokemon": "psyren",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

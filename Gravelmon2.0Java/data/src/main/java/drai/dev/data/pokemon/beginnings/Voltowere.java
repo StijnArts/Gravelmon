@@ -11,8 +11,8 @@ public class Voltowere extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC,Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                31, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,11 +22,11 @@ public class Voltowere extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(3).setPool(SpawnPool.ULTRA_RARE).setWeight(SpawnWeight.VERY_COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).isThundering().canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Voltowere");
 

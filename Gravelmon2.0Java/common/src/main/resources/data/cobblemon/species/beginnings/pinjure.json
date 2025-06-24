@@ -2,13 +2,13 @@
   "name": "Pinjure",
   "primaryType": "normal",
   "secondaryType": "poison",
-  "catchRate": 212,
+  "catchRate": 255,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.24615384615384617,
+  "baseScale": 0.36923076923076925,
   "cannotDynamax": false,
   "abilities": [
     "cutecharm",
@@ -95,11 +95,26 @@
   "pokedex": [
     "cobblemon.species.pinjure.desc"
   ],
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9247,
+  "evolutions": [
+    {
+      "id": "pinjure_mediquil",
+      "variant": "level_up",
+      "result": "mediquil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "25"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9594,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.4375,

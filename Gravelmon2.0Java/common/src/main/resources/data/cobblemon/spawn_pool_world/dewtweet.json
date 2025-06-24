@@ -7,7 +7,8 @@
       "id": "dewtweet-01",
       "pokemon": "dewtweet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

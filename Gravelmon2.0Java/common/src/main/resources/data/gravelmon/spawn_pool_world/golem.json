@@ -34,7 +34,8 @@
       "id": "epoch_golem-01",
       "pokemon": "golem epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +61,8 @@
       "id": "epoch_golem-01",
       "pokemon": "golem epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

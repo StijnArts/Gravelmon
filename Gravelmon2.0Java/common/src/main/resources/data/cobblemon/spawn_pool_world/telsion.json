@@ -7,7 +7,8 @@
       "id": "telsion-01",
       "pokemon": "telsion",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

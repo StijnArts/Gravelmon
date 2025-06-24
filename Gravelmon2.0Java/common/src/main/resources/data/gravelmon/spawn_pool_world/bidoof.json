@@ -65,7 +65,8 @@
       "id": "fabelian_bidoof-01",
       "pokemon": "bidoof fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

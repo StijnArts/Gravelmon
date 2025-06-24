@@ -7,7 +7,8 @@
       "id": "burrliz-01",
       "pokemon": "burrliz",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

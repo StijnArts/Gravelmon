@@ -7,7 +7,8 @@
       "id": "bingus-01",
       "pokemon": "bingus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

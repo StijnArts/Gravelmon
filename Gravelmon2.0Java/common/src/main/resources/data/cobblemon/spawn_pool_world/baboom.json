@@ -7,7 +7,8 @@
       "id": "baboom-01",
       "pokemon": "baboom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "popondot-01",
       "pokemon": "popondot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

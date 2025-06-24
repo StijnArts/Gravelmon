@@ -7,7 +7,8 @@
       "id": "glacerus-01",
       "pokemon": "glacerus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

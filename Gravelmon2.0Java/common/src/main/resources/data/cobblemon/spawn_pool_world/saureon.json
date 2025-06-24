@@ -7,7 +7,8 @@
       "id": "saureon-01",
       "pokemon": "saureon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

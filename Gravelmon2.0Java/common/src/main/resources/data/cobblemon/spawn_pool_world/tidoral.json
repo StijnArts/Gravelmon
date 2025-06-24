@@ -7,6 +7,7 @@
       "id": "tidoral-01",
       "pokemon": "tidoral",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

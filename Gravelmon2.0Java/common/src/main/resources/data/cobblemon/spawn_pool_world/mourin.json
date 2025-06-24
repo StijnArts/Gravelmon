@@ -7,7 +7,8 @@
       "id": "mourin-01",
       "pokemon": "mourin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

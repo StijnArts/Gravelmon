@@ -2,13 +2,14 @@
   "name": "Silvarn",
   "primaryType": "steel",
   "secondaryType": "dark",
-  "catchRate": 70,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.10212765957446808,
+  "preEvolution": "aubat",
+  "baseScale": 0.35744680851063826,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +23,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -103,16 +104,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.silvarn.desc"
   ],
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9273,
+  "nationalPokedexNumber": 9620,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.875000000000001,

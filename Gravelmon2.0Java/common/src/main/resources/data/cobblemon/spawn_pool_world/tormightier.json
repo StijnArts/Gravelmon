@@ -7,7 +7,8 @@
       "id": "tormightier-01",
       "pokemon": "tormightier",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

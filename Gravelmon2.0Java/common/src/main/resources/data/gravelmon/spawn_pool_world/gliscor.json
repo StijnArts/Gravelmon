@@ -7,7 +7,8 @@
       "id": "hizian_gliscor-01",
       "pokemon": "gliscor hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_gliscor-01",
       "pokemon": "gliscor epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

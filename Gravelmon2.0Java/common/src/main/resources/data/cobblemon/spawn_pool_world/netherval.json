@@ -7,7 +7,8 @@
       "id": "netherval-01",
       "pokemon": "netherval",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "kelpelago-01",
       "pokemon": "kelpelago",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "delta_arcanine-01",
       "pokemon": "arcanine delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "aristosian_arcanine-01",
       "pokemon": "arcanine aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "raianian_arcanine-01",
       "pokemon": "arcanine raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,6 +91,7 @@
       "id": "palmian_arcanine-01",
       "pokemon": "arcanine palmian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -116,7 +120,8 @@
       "id": "epoch_arcanine-01",
       "pokemon": "arcanine epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -141,7 +146,8 @@
       "id": "epoch_arcanine-01",
       "pokemon": "arcanine epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -151,7 +157,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -166,7 +174,8 @@
       "id": "armiran_arcanine-01",
       "pokemon": "arcanine armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -193,7 +202,8 @@
       "id": "ishirian_arcanine-01",
       "pokemon": "arcanine ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -213,6 +223,33 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:bone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_arcanine-01",
+      "pokemon": "arcanine theossian",
+      "presets": [
+        "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-55",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:packed_mud"
           ]
         }
       }

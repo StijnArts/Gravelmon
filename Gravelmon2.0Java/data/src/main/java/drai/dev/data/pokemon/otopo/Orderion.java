@@ -8,11 +8,11 @@ import java.util.*;
 public class Orderion extends drai.dev.data.pokemon.Pokemon {
     public Orderion(Stats stats) {
         super("Orderion",
-                Type.GHOST, Type.GRASS,
+                Type.DRAGON, Type.STEEL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                36, 0,
+                new Stats(0,0,0,0,0,0), 5,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,11 +23,12 @@ public class Orderion extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .legend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Orderion");
 
     }

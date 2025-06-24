@@ -7,7 +7,8 @@
       "id": "papernova-01",
       "pokemon": "papernova",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

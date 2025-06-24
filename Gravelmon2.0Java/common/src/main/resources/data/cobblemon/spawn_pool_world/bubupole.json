@@ -7,6 +7,7 @@
       "id": "bubupole-01",
       "pokemon": "bubupole",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

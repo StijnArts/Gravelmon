@@ -11,8 +11,8 @@ public class Lotten extends drai.dev.data.pokemon.Pokemon {
                 Type.FAIRY,Type.GRASS,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,11 +23,13 @@ public class Lotten extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.SURFACE)
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 List.of());
+        setCanWalkOnWater(true);
+        setCanFly(true);
            setLangFileName("Lotten");
 
     }

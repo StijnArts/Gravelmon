@@ -7,7 +7,8 @@
       "id": "juncko-01",
       "pokemon": "juncko",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

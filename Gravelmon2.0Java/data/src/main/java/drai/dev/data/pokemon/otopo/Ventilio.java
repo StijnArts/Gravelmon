@@ -16,23 +16,25 @@ public class Ventilio extends drai.dev.data.pokemon.Pokemon {
                         47,
                         55),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It is exceedingly quick, and only the most skilled anglers can see it. Because of its blade-like fins, it can readily avoid most traps."),
-                List.of(),
+                List.of(new EvolutionEntry("katanicut", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_LUKEWARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Ventilio");
 
     }

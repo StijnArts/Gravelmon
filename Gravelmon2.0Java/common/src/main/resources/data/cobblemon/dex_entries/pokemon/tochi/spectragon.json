@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:spectragon",
+  "speciesId": "cobblemon:spectragon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

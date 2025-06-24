@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:rhyperior",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

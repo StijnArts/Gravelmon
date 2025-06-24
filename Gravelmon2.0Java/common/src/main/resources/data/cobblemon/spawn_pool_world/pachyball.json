@@ -7,7 +7,8 @@
       "id": "pachyball-01",
       "pokemon": "pachyball",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

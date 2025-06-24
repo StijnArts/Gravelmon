@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +34,8 @@
       "id": "ayreian_floragato-01",
       "pokemon": "floragato ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

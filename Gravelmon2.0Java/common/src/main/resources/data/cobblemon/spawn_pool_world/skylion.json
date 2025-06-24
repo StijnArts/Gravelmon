@@ -7,7 +7,8 @@
       "id": "skylion-01",
       "pokemon": "skylion",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

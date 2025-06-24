@@ -23,7 +23,8 @@ public class TheossianGrowlithe extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Theosian Growlithe are commonly used on farmers due to their herding abilities. They love to play in wet mud, often covering themselves completely head to toe in dirt."),
-                List.of(),
+                List.of(new EvolutionEntry("theossianarcanine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.ROAR,1),
@@ -126,10 +127,10 @@ public class TheossianGrowlithe extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(13).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Growlithe");
 

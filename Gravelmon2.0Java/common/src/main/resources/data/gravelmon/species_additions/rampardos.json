@@ -355,7 +355,8 @@
       },
       "labels": [
         "gen4",
-        "xenoverse"
+        "xenoverse",
+        "not_modeled"
       ],
       "height": 22,
       "aspects": [

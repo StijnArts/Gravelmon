@@ -7,7 +7,8 @@
       "id": "soarup-01",
       "pokemon": "soarup",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

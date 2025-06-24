@@ -7,7 +7,8 @@
       "id": "radroot-01",
       "pokemon": "radroot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

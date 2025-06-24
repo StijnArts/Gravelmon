@@ -16,8 +16,8 @@ public class Jackajolt extends drai.dev.data.pokemon.Pokemon {
                         40,
                         140),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                152, 0,
-                new Stats(0,0,0,0,0,2), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,2), 70,
                 0.5,
                 133, ExperienceGroup.FAST,
                 70,
@@ -28,9 +28,9 @@ public class Jackajolt extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(14).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Jackajolt");

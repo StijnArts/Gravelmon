@@ -7,7 +7,8 @@
       "id": "polcreagiced-01",
       "pokemon": "polcreagiced",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

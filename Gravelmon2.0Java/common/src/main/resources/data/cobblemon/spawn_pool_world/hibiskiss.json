@@ -7,7 +7,8 @@
       "id": "hibiskiss-01",
       "pokemon": "hibiskiss",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

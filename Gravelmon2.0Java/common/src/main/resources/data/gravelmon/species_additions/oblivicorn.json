@@ -1,0 +1,35 @@
+{
+  "target": "cobblemon:oblivicorn",
+  "forms": [
+    {
+      "name": "mega",
+      "primaryType": "fairy",
+      "secondaryType": "dark",
+      "baseScale": 0.7792207792207793,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "sheerforce"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 143,
+        "defence": 102,
+        "special_attack": 67,
+        "special_defence": 100,
+        "speed": 123
+      },
+      "labels": [
+        "kuria",
+        "not_modeled"
+      ],
+      "height": 25,
+      "aspects": [
+        "mega"
+      ]
+    }
+  ],
+  "features": [
+    "mega"
+  ]
+}

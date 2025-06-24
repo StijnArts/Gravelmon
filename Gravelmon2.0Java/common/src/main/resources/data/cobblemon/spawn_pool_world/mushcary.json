@@ -7,7 +7,8 @@
       "id": "mushcary-01",
       "pokemon": "mushcary",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

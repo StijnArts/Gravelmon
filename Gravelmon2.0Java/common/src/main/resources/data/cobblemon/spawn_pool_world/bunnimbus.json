@@ -7,7 +7,8 @@
       "id": "bunnimbus-01",
       "pokemon": "bunnimbus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

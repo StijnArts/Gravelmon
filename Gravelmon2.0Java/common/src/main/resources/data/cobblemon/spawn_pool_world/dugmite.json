@@ -7,25 +7,27 @@
       "id": "dugmite-01",
       "pokemon": "dugmite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "25-45",
-      "weight": 0.5,
+      "bucket": "uncommon",
+      "level": "29-49",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cave"
+          "#cobblemon:is_badlands"
         ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:tuff"
+            "minecraft:packed_mud"
           ]
         }
       }

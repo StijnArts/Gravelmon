@@ -7,7 +7,8 @@
       "id": "frosplit-01",
       "pokemon": "frosplit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "symphot-01",
       "pokemon": "symphot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

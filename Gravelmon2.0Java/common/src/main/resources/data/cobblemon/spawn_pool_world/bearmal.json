@@ -7,7 +7,8 @@
       "id": "bearmal-01",
       "pokemon": "bearmal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

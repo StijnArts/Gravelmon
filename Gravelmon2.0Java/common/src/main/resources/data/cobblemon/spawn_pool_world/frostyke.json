@@ -7,7 +7,8 @@
       "id": "frostyke-01",
       "pokemon": "frostyke",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

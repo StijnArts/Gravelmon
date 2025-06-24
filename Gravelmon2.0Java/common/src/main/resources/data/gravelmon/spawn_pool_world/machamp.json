@@ -34,7 +34,8 @@
       "id": "epoch_machamp-01",
       "pokemon": "machamp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_machamp-01",
       "pokemon": "machamp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +89,8 @@
       "id": "ferranian_machamp-01",
       "pokemon": "machamp ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

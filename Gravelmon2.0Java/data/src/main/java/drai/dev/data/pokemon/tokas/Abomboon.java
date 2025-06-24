@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Abomboon extends drai.dev.data.pokemon.Pokemon {
-    public Abomboon() {
+    public Abomboon(Stats stats) {
         super("Abomboon",
                 Type.ICE, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SNOW_WARNING), Ability.BIG_PECKS,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

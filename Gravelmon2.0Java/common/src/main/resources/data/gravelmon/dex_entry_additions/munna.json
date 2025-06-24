@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:munna",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

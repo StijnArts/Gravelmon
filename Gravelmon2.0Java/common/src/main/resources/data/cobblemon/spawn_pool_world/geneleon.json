@@ -7,7 +7,8 @@
       "id": "geneleon-01",
       "pokemon": "geneleon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +61,8 @@
       "id": "x_smeargle-01",
       "pokemon": "smeargle x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +87,8 @@
       "id": "epoch_smeargle-01",
       "pokemon": "smeargle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -94,7 +98,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -109,7 +115,8 @@
       "id": "ivrisian_smeargle-01",
       "pokemon": "smeargle ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -136,7 +143,8 @@
       "id": "forman_smeargle-01",
       "pokemon": "smeargle forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -163,7 +171,8 @@
       "id": "fabelian_smeargle-01",
       "pokemon": "smeargle fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -173,6 +182,34 @@
       "condition": {
         "biomes": [
           "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastelian_smeargle-01",
+      "pokemon": "smeargle pastelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-23",
+      "weight": 0.9,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_snowy_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

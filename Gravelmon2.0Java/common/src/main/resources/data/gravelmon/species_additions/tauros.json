@@ -369,12 +369,120 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "dark",
+      "secondaryType": "normal",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "moofy",
+      "baseScale": 0.3733333333333333,
+      "cannotDynamax": false,
+      "abilities": [
+        "reckless",
+        "h:sheerforce"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defence": 105,
+        "special_attack": 30,
+        "special_defence": 70,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 2,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:bite",
+        "1:tackle",
+        "1:quickattack",
+        "1:extremespeed",
+        "1:leer",
+        "1:growl",
+        "1:swordsdance",
+        "1:quickattack",
+        "10:payback",
+        "10:quickattack",
+        "10:swordsdance",
+        "15:nightslash",
+        "15:bite",
+        "20:crunch",
+        "20:takedown",
+        "25:knockoff",
+        "25:crunch",
+        "30:suckerpunch",
+        "30:doubleedge",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossiantauros.desc"
+      ],
+      "height": 14,
+      "weight": 884,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.625,
+        "height": 5.625,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "africanusan",
     "epoch",
-    "forman"
+    "forman",
+    "theossian"
   ],
   "preEvolution": "calfpint"
 }

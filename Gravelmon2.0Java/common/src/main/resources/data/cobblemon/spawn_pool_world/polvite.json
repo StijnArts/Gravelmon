@@ -7,7 +7,8 @@
       "id": "polvite-01",
       "pokemon": "polvite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

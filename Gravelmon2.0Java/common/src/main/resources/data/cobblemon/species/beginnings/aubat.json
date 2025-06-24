@@ -2,13 +2,13 @@
   "name": "Aubat",
   "primaryType": "steel",
   "secondaryType": "flying",
-  "catchRate": 200,
+  "catchRate": 240,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.192,
+  "baseScale": 0.24,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +22,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -93,11 +93,26 @@
   "pokedex": [
     "cobblemon.species.aubat.desc"
   ],
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9272,
+  "evolutions": [
+    {
+      "id": "aubat_silvarn",
+      "variant": "level_up",
+      "result": "silvarn",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "24"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9619,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.125,

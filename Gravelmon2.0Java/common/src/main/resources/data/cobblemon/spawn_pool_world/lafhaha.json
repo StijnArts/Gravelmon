@@ -7,7 +7,8 @@
       "id": "lafhaha-01",
       "pokemon": "lafhaha",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "shroheat-01",
       "pokemon": "shroheat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

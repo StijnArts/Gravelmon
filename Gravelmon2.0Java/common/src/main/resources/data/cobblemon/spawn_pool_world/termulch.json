@@ -7,7 +7,8 @@
       "id": "termulch-01",
       "pokemon": "termulch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

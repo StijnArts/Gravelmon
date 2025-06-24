@@ -7,7 +7,8 @@
       "id": "frutanista-01",
       "pokemon": "frutanista",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

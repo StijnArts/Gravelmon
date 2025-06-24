@@ -7,7 +7,8 @@
       "id": "rollipod-01",
       "pokemon": "rollipod",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

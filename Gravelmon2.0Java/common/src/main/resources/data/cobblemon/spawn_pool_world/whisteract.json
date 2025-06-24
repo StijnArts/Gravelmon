@@ -7,7 +7,8 @@
       "id": "whisteract-01",
       "pokemon": "whisteract",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

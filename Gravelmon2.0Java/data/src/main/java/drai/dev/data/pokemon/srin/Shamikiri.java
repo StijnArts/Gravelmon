@@ -11,26 +11,24 @@ public class Shamikiri extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER,Type.NORMAL,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(),
-                List.of("- Crush ClawSTAB Normal - Retaliate (N)STAB Normal - Aqua JetSTAB Water"),
+                List.of(""),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.CRUSH_CLAW,1),
-                        new MoveLearnSetEntry(Move.RETALIATE,1),
-                        new MoveLearnSetEntry(Move.AQUA_JET,1)                        ),
+                List.of(                 ),
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_LUKEWARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Shamikiri");
 
     }

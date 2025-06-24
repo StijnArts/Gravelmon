@@ -7,7 +7,8 @@
       "id": "kofarudo-01",
       "pokemon": "kofarudo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

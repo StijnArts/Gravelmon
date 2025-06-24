@@ -7,7 +7,8 @@
       "id": "raizinger-01",
       "pokemon": "raizinger",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

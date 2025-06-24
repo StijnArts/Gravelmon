@@ -7,7 +7,8 @@
       "id": "panome-01",
       "pokemon": "panome",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

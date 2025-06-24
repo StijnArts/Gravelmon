@@ -7,7 +7,8 @@
       "id": "taratinder-01",
       "pokemon": "taratinder",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hyprentice",
+  "speciesId": "cobblemon:hyprentice",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

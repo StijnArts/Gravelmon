@@ -7,7 +7,8 @@
       "id": "lupupa-01",
       "pokemon": "lupupa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

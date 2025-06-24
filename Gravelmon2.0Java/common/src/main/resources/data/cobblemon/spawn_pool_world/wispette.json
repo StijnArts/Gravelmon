@@ -7,7 +7,8 @@
       "id": "wispette-01",
       "pokemon": "wispette",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

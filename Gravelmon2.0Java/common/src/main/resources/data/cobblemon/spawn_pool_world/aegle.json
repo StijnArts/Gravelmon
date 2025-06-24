@@ -7,7 +7,8 @@
       "id": "aegle-01",
       "pokemon": "aegle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

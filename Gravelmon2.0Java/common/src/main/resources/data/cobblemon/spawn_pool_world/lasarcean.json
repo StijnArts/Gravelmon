@@ -7,7 +7,8 @@
       "id": "lasarcean-01",
       "pokemon": "lasarcean",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

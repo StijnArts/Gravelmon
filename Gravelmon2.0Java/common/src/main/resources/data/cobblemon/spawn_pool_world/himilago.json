@@ -7,7 +7,8 @@
       "id": "himilago-01",
       "pokemon": "himilago",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "mesmerilla-01",
       "pokemon": "mesmerilla",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

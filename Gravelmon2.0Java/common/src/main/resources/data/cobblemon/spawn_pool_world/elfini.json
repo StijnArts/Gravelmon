@@ -7,7 +7,8 @@
       "id": "elfini-01",
       "pokemon": "elfini",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

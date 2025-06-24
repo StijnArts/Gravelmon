@@ -7,7 +7,8 @@
       "id": "terrachnid-01",
       "pokemon": "terrachnid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

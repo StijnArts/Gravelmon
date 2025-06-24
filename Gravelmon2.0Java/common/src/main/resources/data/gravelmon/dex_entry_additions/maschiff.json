@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:maschiff",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

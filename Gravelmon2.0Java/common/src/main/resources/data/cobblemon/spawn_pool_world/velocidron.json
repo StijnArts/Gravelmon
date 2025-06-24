@@ -7,7 +7,8 @@
       "id": "velocidron-01",
       "pokemon": "velocidron",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

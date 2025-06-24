@@ -7,7 +7,8 @@
       "id": "blizound-01",
       "pokemon": "blizound",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

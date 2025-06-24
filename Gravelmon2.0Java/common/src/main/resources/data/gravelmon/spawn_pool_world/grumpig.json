@@ -7,7 +7,8 @@
       "id": "epoch_grumpig-01",
       "pokemon": "grumpig epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "qamoran_grumpig-01",
       "pokemon": "grumpig qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

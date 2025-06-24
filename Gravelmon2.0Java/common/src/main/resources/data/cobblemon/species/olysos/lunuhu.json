@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 67,
-    "attack": 23,
-    "defence": 51,
-    "special_attack": 57,
-    "special_defence": 79,
-    "speed": 28
+    "hp": 56,
+    "attack": 29,
+    "defence": 48,
+    "special_attack": 69,
+    "special_defence": 66,
+    "speed": 48
   },
   "evYield": {
     "hp": 0,
@@ -62,24 +62,14 @@
   "moves": [
     "1:confusion",
     "1:gust",
-    "1:bulkup",
-    "1:bulkup",
     "1:growl",
     "1:leer",
-    "1:calmmind",
-    "1:calmmind",
     "10:psybeam",
     "10:aircutter",
-    "10:taunt",
-    "10:taunt",
     "15:futuresight",
     "15:wingattack",
-    "15:substitute",
-    "15:substitute",
     "20:psychic",
     "20:airslash",
-    "20:rest",
-    "20:rest",
     "25:psyshock",
     "25:drillpeck",
     "30:psychoboost",
@@ -112,7 +102,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8973,
+  "nationalPokedexNumber": 9320,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5,

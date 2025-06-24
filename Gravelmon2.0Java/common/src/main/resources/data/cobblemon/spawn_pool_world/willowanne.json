@@ -7,7 +7,8 @@
       "id": "willowanne-01",
       "pokemon": "willowanne",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

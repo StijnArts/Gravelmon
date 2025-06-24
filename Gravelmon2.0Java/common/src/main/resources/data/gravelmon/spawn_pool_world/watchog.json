@@ -7,7 +7,8 @@
       "id": "epoch_watchog-01",
       "pokemon": "watchog epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "ferranian_watchog-01",
       "pokemon": "watchog ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

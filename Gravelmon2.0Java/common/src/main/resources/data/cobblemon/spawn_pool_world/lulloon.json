@@ -7,7 +7,8 @@
       "id": "lulloon-01",
       "pokemon": "lulloon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

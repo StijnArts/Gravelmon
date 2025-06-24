@@ -7,7 +7,8 @@
       "id": "virtryph-01",
       "pokemon": "virtryph",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

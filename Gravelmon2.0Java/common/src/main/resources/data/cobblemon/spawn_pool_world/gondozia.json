@@ -7,7 +7,8 @@
       "id": "gondozia-01",
       "pokemon": "gondozia",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "egho_croconaw-01",
       "pokemon": "croconaw egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_croconaw-01",
       "pokemon": "croconaw epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +46,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +63,8 @@
       "id": "epoch_croconaw-01",
       "pokemon": "croconaw epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -111,7 +116,8 @@
       "id": "ionosian_croconaw-01",
       "pokemon": "croconaw ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -121,7 +127,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

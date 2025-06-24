@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:skeledirge",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

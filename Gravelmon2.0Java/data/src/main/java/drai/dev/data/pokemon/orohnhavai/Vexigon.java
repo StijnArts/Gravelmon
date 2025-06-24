@@ -16,22 +16,23 @@ public class Vexigon extends drai.dev.data.pokemon.Pokemon {
                         45,
                         35,
                         60),
-                List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                List.of(Ability.ANGER_POINT,Ability.RECKLESS), Ability.DEFIANT,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Vexigon can be quite a handful for Trainers. They like causing ruckus and disobeying commands. These stubborn Pokemon can go hours or even days of causing trouble."),
-                List.of(),
+                List.of(new EvolutionEntry("noxareo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .pseudoLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Vexigon");

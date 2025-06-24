@@ -2,13 +2,14 @@
   "name": "Howltlaw",
   "primaryType": "ground",
   "secondaryType": "dark",
-  "catchRate": 95,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11707317073170731,
+  "preEvolution": "vulpilfer",
+  "baseScale": 0.46829268292682924,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -89,16 +90,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.howltlaw.desc"
   ],
-  "height": 0,
+  "height": 16,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9301,
+  "nationalPokedexNumber": 9648,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.125,

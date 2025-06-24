@@ -7,7 +7,8 @@
       "id": "reileo-01",
       "pokemon": "reileo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

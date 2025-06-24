@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dodoc",
+  "speciesId": "cobblemon:dodoc",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

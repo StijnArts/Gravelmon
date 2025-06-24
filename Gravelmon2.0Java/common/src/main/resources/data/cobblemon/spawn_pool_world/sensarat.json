@@ -7,7 +7,8 @@
       "id": "sensarat-01",
       "pokemon": "sensarat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

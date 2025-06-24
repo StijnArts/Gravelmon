@@ -7,7 +7,8 @@
       "id": "epoch_heliolisk-01",
       "pokemon": "heliolisk epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "vesitan_heliolisk-01",
       "pokemon": "heliolisk vesitan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

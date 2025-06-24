@@ -7,7 +7,8 @@
       "id": "mimectar-01",
       "pokemon": "mimectar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

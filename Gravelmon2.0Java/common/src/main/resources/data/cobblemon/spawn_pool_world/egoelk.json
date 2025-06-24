@@ -7,7 +7,8 @@
       "id": "egoelk-01",
       "pokemon": "egoelk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_tundra",
           "#cobblemon:is_snowy_forest"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

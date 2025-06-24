@@ -7,7 +7,8 @@
       "id": "zokinub-01",
       "pokemon": "zokinub",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

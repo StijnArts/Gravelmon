@@ -7,7 +7,8 @@
       "id": "chereon-01",
       "pokemon": "chereon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

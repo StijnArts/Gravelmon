@@ -7,7 +7,8 @@
       "id": "navigale-01",
       "pokemon": "navigale",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

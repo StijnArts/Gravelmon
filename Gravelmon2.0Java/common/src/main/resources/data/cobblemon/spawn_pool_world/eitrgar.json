@@ -7,7 +7,8 @@
       "id": "eitrgar-01",
       "pokemon": "eitrgar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +34,8 @@
       "id": "epoch_dewpider-01",
       "pokemon": "dewpider epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

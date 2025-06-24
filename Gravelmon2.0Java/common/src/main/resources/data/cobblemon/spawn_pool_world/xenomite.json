@@ -7,7 +7,8 @@
       "id": "xenomite-01",
       "pokemon": "xenomite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

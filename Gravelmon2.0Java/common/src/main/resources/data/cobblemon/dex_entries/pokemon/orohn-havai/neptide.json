@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:neptide",
+  "speciesId": "cobblemon:neptide",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

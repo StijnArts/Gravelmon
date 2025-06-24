@@ -7,7 +7,8 @@
       "id": "draybale-01",
       "pokemon": "draybale",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

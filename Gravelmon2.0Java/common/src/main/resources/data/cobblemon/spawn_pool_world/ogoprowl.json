@@ -7,6 +7,7 @@
       "id": "ogoprowl-01",
       "pokemon": "ogoprowl",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "egho_magnemite-01",
       "pokemon": "magnemite egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_lush"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "epoch_magnemite-01",
       "pokemon": "magnemite epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -57,7 +61,8 @@
       "id": "epoch_magnemite-01",
       "pokemon": "magnemite epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -94,7 +99,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -109,7 +116,8 @@
       "id": "ayreian_magnemite-01",
       "pokemon": "magnemite ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -119,9 +127,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

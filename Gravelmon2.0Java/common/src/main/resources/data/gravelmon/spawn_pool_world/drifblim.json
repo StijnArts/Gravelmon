@@ -7,7 +7,8 @@
       "id": "delta_drifblim-01",
       "pokemon": "drifblim delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -46,9 +47,7 @@
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -73,7 +72,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_temperate"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -88,7 +89,8 @@
       "id": "ayreian_drifblim-01",
       "pokemon": "drifblim ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -117,7 +119,8 @@
       "id": "nodorran_drifblim-01",
       "pokemon": "drifblim nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -129,7 +132,9 @@
           "#cobblemon:is_plains"
         ],
         "isThundering": true,
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

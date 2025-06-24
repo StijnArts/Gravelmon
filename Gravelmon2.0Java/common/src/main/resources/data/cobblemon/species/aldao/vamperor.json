@@ -8,7 +8,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "vambat",
   "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
@@ -84,8 +83,6 @@
   "labels": [
     "aldao",
     "not_modeled",
-    "fakemon",
-    "fakemonevolution",
     "instagram",
     "instagram"
   ],

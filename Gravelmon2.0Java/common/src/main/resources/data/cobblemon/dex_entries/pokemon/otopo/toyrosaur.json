@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toyrosaur",
+  "speciesId": "cobblemon:toyrosaur",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:medusien",
+  "speciesId": "cobblemon:medusien",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

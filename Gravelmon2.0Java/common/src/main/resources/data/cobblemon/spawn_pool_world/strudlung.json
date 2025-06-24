@@ -7,7 +7,8 @@
       "id": "strudlung-01",
       "pokemon": "strudlung",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

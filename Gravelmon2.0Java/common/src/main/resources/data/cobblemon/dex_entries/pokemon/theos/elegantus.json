@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elegantus",
+  "speciesId": "cobblemon:elegantus",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

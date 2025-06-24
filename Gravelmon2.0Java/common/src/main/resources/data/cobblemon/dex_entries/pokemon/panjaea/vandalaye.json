@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vandalaye",
+  "speciesId": "cobblemon:vandalaye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

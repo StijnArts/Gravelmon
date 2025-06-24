@@ -17,21 +17,22 @@ public class Sqworm extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.EARTH_EATER), Ability.REGENERATOR,
                 3, 10,
-                new Stats(0,0,0,0,0,1), 0,
+                new Stats(0,0,0,0,0,1), 240,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Gardener's love Sqworm for their ability to turn the soil, keeping it fresh and moist. The length of a Sqworm depends on the quality of soil they've been eating."),
-                List.of(),
+                List.of(new EvolutionEntry("Tunnoworm", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 List.of());
            setLangFileName("Sqworm");
 

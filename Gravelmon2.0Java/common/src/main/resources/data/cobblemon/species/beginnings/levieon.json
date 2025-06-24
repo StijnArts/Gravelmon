@@ -1,13 +1,14 @@
 {
   "name": "Levieon",
   "primaryType": "flying",
-  "catchRate": 58,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.16271186440677968,
+  "preEvolution": "levieon",
+  "baseScale": 0.488135593220339,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -72,16 +73,17 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.levieon.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9277,
+  "nationalPokedexNumber": 9624,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.6874999999999996,

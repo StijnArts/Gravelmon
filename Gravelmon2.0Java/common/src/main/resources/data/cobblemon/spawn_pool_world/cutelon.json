@@ -7,7 +7,8 @@
       "id": "cutelon-01",
       "pokemon": "cutelon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

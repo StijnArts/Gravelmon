@@ -23,7 +23,8 @@ public class TheossianMareep extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("Theosian Mareep have very soft and springy wool. Clothing designers love using their wool in their clothes as they provide a fresh flowery scent while also being immune to static buildup."),
-                List.of(),
+                List.of(new EvolutionEntry("theossianflaaffy", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -119,7 +120,7 @@ public class TheossianMareep extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FLORAL).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Mareep");

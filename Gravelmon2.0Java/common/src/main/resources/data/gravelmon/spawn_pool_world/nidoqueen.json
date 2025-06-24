@@ -7,7 +7,8 @@
       "id": "forman_nidoqueen-01",
       "pokemon": "nidoqueen forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

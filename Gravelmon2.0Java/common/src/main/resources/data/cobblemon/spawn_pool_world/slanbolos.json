@@ -7,7 +7,8 @@
       "id": "slanbolos-01",
       "pokemon": "slanbolos",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -8,7 +8,8 @@
       "pokemon": "spudspark",
       "presets": [
         "natural",
-        "near_crops"
+        "near_crops",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

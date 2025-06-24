@@ -7,7 +7,8 @@
       "id": "toothitar-01",
       "pokemon": "toothitar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

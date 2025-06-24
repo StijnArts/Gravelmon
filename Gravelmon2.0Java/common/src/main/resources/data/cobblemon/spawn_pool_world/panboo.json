@@ -7,7 +7,8 @@
       "id": "panboo-01",
       "pokemon": "panboo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

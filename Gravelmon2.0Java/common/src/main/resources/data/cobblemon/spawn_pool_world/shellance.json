@@ -7,6 +7,7 @@
       "id": "shellance-01",
       "pokemon": "shellance",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "velosaur-01",
       "pokemon": "velosaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

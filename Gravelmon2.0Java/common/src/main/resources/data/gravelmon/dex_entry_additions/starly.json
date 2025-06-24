@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:starly",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

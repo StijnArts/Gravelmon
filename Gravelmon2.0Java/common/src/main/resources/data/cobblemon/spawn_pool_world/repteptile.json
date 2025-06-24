@@ -7,7 +7,8 @@
       "id": "repteptile-01",
       "pokemon": "repteptile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "daimonize-01",
       "pokemon": "daimonize",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

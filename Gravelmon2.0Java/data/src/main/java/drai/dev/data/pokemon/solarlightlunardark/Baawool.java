@@ -34,7 +34,7 @@ new EvolutionEntry("baabreeze", EvolutionType.ITEM_INTERACT, false, List.of(),
 new EvolutionEntry("baablock", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "gravelmon:solid_stone"),
 new EvolutionEntry("baablizz", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(), List.of(), "gravelmon:cold_stone")),
+ List.of(), List.of(), "cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,40),
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,22),

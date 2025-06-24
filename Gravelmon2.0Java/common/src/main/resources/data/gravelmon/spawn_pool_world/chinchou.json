@@ -7,7 +7,8 @@
       "id": "delta_chinchou-01",
       "pokemon": "chinchou delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -83,6 +84,7 @@
       "id": "epoch_chinchou-01",
       "pokemon": "chinchou epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -172,7 +174,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 48
+        "maxY": 48,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

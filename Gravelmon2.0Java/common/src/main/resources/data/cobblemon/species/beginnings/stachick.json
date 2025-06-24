@@ -2,7 +2,7 @@
   "name": "Stachick",
   "primaryType": "flying",
   "secondaryType": "electric",
-  "catchRate": 218,
+  "catchRate": 255,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
@@ -95,11 +95,26 @@
   "pokedex": [
     "cobblemon.species.stachick.desc"
   ],
-  "height": 0,
+  "height": 4,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9249,
+  "evolutions": [
+    {
+      "id": "stachick_shockite",
+      "variant": "level_up",
+      "result": "shockite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "14"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9596,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,

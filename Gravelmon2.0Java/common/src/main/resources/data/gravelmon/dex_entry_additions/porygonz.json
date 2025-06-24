@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:porygonz",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

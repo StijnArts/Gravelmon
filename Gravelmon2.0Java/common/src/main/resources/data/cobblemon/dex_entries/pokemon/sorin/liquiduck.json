@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:liquiduck",
+  "speciesId": "cobblemon:liquiduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

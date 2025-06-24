@@ -11,7 +11,8 @@
   "baseScale": 0.6776470588235294,
   "cannotDynamax": false,
   "abilities": [
-    "keeneye"
+    "keeneye",
+    "h:keeneye"
   ],
   "behaviour": {
     "resting": {
@@ -59,34 +60,7 @@
     "field"
   ],
   "drops": {},
-  "moves": [
-    "1:mudslap",
-    "1:ember",
-    "1:shoreup",
-    "1:bulkup",
-    "1:sandattack",
-    "1:growl",
-    "1:bulkup",
-    "1:calmmind",
-    "10:mudshot",
-    "10:firespin",
-    "10:calmmind",
-    "10:taunt",
-    "15:mudbomb",
-    "15:flamecharge",
-    "15:taunt",
-    "15:substitute",
-    "20:bulldoze",
-    "20:flameburst",
-    "20:substitute",
-    "20:rest",
-    "25:scorchingsands",
-    "25:flamethrower",
-    "25:rest",
-    "30:earthpower",
-    "30:fireblast",
-    "tm:terablast"
-  ],
+  "moves": [],
   "labels": [
     "orbis",
     "not_modeled"
@@ -98,7 +72,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9200,
+  "nationalPokedexNumber": 9547,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.3125,

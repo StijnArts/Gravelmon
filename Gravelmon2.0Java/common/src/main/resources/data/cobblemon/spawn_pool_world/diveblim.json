@@ -7,7 +7,8 @@
       "id": "diveblim-01",
       "pokemon": "diveblim",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

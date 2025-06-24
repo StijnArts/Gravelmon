@@ -7,7 +7,8 @@
       "id": "sawantina-01",
       "pokemon": "sawantina",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

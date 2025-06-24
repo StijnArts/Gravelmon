@@ -7,7 +7,8 @@
       "id": "bulblotel-01",
       "pokemon": "bulblotel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,16 +7,17 @@
       "id": "miensei-01",
       "pokemon": "miensei",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "rare",
+      "level": "59-79",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "minecraft:cherry_grove"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,6 +7,7 @@
       "id": "pleech-01",
       "pokemon": "pleech",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

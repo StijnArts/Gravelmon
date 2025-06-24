@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:wingull",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

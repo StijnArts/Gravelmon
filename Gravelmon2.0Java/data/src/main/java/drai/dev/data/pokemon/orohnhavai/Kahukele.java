@@ -16,9 +16,9 @@ public class Kahukele extends drai.dev.data.pokemon.Pokemon {
                         90,
                         50,
                         80),
-                List.of(Ability.INSOMNIA,Ability.UNAWARE,Ability.SHADOW_TAG), Ability.SHADOW_TAG,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                List.of(Ability.INSOMNIA,Ability.UNAWARE), Ability.SHADOW_TAG,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,10 +28,10 @@ public class Kahukele extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(32).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_JUNGLE).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Kahukel-e");

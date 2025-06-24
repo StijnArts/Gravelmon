@@ -7,7 +7,8 @@
       "id": "x_tapufini-01",
       "pokemon": "tapufini x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

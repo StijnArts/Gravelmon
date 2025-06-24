@@ -7,6 +7,7 @@
       "id": "baariette-01",
       "pokemon": "baariette",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

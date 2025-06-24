@@ -16,7 +16,7 @@ public class Eruptle extends drai.dev.data.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.SWARM), Ability.FLAME_BODY,
-                0, 0,
+                12, 0,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 185, ExperienceGroup.FAST,
@@ -27,11 +27,11 @@ public class Eruptle extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(14).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Eruptle");
 

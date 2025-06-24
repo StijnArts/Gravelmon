@@ -7,7 +7,8 @@
       "id": "wraggle-01",
       "pokemon": "wraggle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

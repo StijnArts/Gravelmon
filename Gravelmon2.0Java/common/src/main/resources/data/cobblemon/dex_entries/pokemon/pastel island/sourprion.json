@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sourprion",
+  "speciesId": "cobblemon:sourprion",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

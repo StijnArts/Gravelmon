@@ -7,7 +7,8 @@
       "id": "sucrostone-01",
       "pokemon": "sucrostone",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

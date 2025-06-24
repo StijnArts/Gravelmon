@@ -7,7 +7,8 @@
       "id": "bulldozon-01",
       "pokemon": "bulldozon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

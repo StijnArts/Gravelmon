@@ -7,7 +7,8 @@
       "id": "crouinn-01",
       "pokemon": "crouinn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

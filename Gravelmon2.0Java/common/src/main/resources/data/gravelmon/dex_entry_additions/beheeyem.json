@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:beheeyem",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch_mega",
+      "unlockForms": [
+        "Epoch_mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

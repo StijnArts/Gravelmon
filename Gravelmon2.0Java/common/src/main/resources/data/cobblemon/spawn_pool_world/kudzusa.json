@@ -7,7 +7,8 @@
       "id": "kudzusa-01",
       "pokemon": "kudzusa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

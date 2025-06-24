@@ -7,7 +7,8 @@
       "id": "kasodan-01",
       "pokemon": "kasodan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

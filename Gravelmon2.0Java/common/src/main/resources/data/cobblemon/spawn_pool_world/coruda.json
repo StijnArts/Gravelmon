@@ -7,7 +7,8 @@
       "id": "coruda-01",
       "pokemon": "coruda",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

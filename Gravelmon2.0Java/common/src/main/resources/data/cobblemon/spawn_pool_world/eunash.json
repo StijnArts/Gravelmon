@@ -7,7 +7,8 @@
       "id": "eunash-01",
       "pokemon": "eunash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

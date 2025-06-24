@@ -7,7 +7,8 @@
       "id": "foulfoal-01",
       "pokemon": "foulfoal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

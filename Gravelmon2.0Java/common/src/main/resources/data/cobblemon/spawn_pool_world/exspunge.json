@@ -7,6 +7,7 @@
       "id": "exspunge-01",
       "pokemon": "exspunge",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

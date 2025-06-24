@@ -313,6 +313,185 @@
       }
     },
     {
+      "name": "Pastelian",
+      "primaryType": "dark",
+      "secondaryType": "fire",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 179,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "sneasel form=pastelian",
+      "baseScale": 16.799999999999997,
+      "cannotDynamax": false,
+      "abilities": [
+        "pressure",
+        "h:sandrush"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defence": 65,
+        "special_attack": 45,
+        "special_defence": 85,
+        "speed": 125
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:leer",
+        "1:revenge",
+        "1:scratch",
+        "1:embargo",
+        "1:assurance",
+        "1:taunt",
+        "8:quickattack",
+        "10:feintattack",
+        "14:icywind",
+        "16:furyswipes",
+        "20:nastyplot",
+        "22:metalclaw",
+        "25:honeclaws",
+        "28:fling",
+        "32:screech",
+        "35:nightslash",
+        "40:snatch",
+        "44:punishment",
+        "47:darkpulse",
+        "tm:icepunch",
+        "tm:lowkick",
+        "tm:snore",
+        "tm:spite",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:focuspunch",
+        "tm:knockoff",
+        "tm:snatch",
+        "tm:foulplay",
+        "tm:laserfocus",
+        "tm:throatchop",
+        "tm:lashout",
+        "tm:tripleaxel",
+        "tm:swordsdance",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:hyperbeam",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:reflect",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:falseswipe",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:psychup",
+        "tm:shadowball",
+        "tm:snowscape",
+        "tm:torment",
+        "tm:facade",
+        "tm:taunt",
+        "tm:brickbreak",
+        "tm:aerialace",
+        "tm:calmmind",
+        "tm:payback",
+        "tm:embargo",
+        "tm:fling",
+        "tm:poisonjab",
+        "tm:darkpulse",
+        "tm:xscissor",
+        "tm:focusblast",
+        "tm:gigaimpact",
+        "tm:shadowclaw",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:snarl",
+        "tm:confide",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:swift",
+        "tm:takedown",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:submission",
+        "tm:skullbash",
+        "tm:terablast"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.pastelianweavile.desc"
+      ],
+      "height": 14,
+      "weight": 340,
+      "aspects": [
+        "pastelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "dark",
       "secondaryType": "ice",
@@ -332,7 +511,8 @@
       },
       "labels": [
         "gen4",
-        "xenoverse"
+        "xenoverse",
+        "not_modeled"
       ],
       "height": 12,
       "aspects": [
@@ -343,6 +523,7 @@
   "features": [
     "epoch",
     "epochtwo",
+    "pastelian",
     "mega"
   ]
 }

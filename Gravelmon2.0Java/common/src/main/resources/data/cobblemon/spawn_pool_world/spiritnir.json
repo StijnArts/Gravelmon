@@ -7,7 +7,8 @@
       "id": "spiritnir-01",
       "pokemon": "spiritnir",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

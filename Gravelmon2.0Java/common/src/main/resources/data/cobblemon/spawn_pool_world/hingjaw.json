@@ -7,7 +7,8 @@
       "id": "hingjaw-01",
       "pokemon": "hingjaw",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "chichaw-01",
       "pokemon": "chichaw",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

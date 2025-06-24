@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:oceadra",
+  "speciesId": "cobblemon:oceadra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

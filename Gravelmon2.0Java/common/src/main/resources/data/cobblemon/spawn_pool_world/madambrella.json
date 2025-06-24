@@ -7,7 +7,8 @@
       "id": "madambrella-01",
       "pokemon": "madambrella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

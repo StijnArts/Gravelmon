@@ -7,17 +7,20 @@
       "id": "assaceae-01",
       "pokemon": "assaceae",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_mushroom",
+          "#cobblemon:is_spooky"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

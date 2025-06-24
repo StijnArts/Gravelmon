@@ -7,7 +7,8 @@
       "id": "tastorture-01",
       "pokemon": "tastorture",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

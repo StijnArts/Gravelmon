@@ -7,7 +7,8 @@
       "id": "crunchawtle-01",
       "pokemon": "crunchawtle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

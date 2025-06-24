@@ -7,7 +7,8 @@
       "id": "milkitt-01",
       "pokemon": "milkitt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "cryodra-01",
       "pokemon": "cryodra",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

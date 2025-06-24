@@ -7,7 +7,8 @@
       "id": "juvy-01",
       "pokemon": "juvy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

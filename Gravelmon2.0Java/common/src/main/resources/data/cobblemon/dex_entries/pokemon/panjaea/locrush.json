@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:locrush",
+  "speciesId": "cobblemon:locrush",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

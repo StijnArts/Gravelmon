@@ -7,7 +7,8 @@
       "id": "kwauwk-01",
       "pokemon": "kwauwk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

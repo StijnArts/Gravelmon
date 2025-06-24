@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:eyesaur",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Crozoican",
+      "unlockForms": [
+        "Crozoican"
+      ]
+    }
+  ]
 }

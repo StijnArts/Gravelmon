@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:dragalisk",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
 }

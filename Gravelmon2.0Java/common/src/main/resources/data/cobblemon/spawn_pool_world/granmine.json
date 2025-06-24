@@ -7,7 +7,8 @@
       "id": "granmine-01",
       "pokemon": "granmine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

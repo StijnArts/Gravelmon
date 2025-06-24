@@ -7,7 +7,8 @@
       "id": "manchinade-01",
       "pokemon": "manchinade",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

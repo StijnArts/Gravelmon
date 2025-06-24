@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:basculegion",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "boxeroo-01",
       "pokemon": "boxeroo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

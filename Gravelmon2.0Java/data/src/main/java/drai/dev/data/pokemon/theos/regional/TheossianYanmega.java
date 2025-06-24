@@ -17,7 +17,7 @@ public class TheossianYanmega extends drai.dev.data.pokemon.Pokemon {
                         95),
                 List.of(Ability.PRESSURE,Ability.TINTED_LENS), Ability.ADAPTABILITY,
                 19, 515,
-                new Stats(0,0,0,2,0,0), 0,
+                new Stats(0,0,0,2,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,14 @@ public class TheossianYanmega extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanWalkOnWater(true);
+        setCanFly(true);
            setLangFileName("Yanmega");
 
     }

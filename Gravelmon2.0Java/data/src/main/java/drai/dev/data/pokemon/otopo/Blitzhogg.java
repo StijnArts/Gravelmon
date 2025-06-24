@@ -10,9 +10,9 @@ public class Blitzhogg extends drai.dev.data.pokemon.Pokemon {
         super("Blitzhogg",
                 Type.ELECTRIC, Type.GROUND,
                 stats,
-                List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                List.of(Ability.LIGHTNING_ROD, Ability.QUICK_FEET), Ability.SAND_RUSH,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -22,10 +22,10 @@ public class Blitzhogg extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Blitzhogg");

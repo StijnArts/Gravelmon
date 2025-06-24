@@ -34,6 +34,7 @@
       "id": "novran_omanyte-01",
       "pokemon": "omanyte novran",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

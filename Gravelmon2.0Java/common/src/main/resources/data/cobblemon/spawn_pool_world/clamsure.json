@@ -7,7 +7,8 @@
       "id": "clamsure-01",
       "pokemon": "clamsure",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

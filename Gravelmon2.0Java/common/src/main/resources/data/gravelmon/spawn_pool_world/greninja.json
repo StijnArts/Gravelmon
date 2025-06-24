@@ -7,7 +7,8 @@
       "id": "delta_greninja-01",
       "pokemon": "greninja delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "x_greninja-01",
       "pokemon": "greninja x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "epoch_greninja-01",
       "pokemon": "greninja epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +87,8 @@
       "id": "armiran_greninja-01",
       "pokemon": "greninja armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,7 +116,8 @@
       "id": "vesitan_greninja-01",
       "pokemon": "greninja vesitan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

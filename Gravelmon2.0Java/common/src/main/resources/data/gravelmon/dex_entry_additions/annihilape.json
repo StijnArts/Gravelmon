@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:annihilape",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

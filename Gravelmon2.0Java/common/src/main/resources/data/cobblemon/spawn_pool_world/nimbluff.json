@@ -7,7 +7,8 @@
       "id": "nimbluff-01",
       "pokemon": "nimbluff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

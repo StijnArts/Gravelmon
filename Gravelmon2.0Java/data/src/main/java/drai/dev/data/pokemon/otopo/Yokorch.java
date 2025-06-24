@@ -11,8 +11,8 @@ public class Yokorch extends drai.dev.data.pokemon.Pokemon {
                 Type.FIRE, Type.GHOST,
                 stats,
                 List.of(Ability.FLARE_BOOST), Ability.FLARE_BOOST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,12 +22,13 @@ public class Yokorch extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE, Biome.IS_BAMBOO).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Yokorch");
 
     }

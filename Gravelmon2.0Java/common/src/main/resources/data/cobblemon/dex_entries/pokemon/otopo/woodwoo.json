@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:woodwoo",
+  "speciesId": "cobblemon:woodwoo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "cave_envirock-01",
       "pokemon": "envirock cave",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "forest_envirock-01",
       "pokemon": "envirock forest",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -72,7 +74,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

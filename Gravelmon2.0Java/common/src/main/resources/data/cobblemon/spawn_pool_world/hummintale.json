@@ -7,7 +7,8 @@
       "id": "hummintale-01",
       "pokemon": "hummintale",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

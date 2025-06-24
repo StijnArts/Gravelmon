@@ -7,7 +7,8 @@
       "id": "duskreap-01",
       "pokemon": "duskreap",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

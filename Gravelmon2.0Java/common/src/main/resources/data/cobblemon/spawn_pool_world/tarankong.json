@@ -7,7 +7,8 @@
       "id": "tarankong-01",
       "pokemon": "tarankong",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

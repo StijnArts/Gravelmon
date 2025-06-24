@@ -7,7 +7,8 @@
       "id": "invadien-01",
       "pokemon": "invadien",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "devimp-01",
       "pokemon": "devimp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

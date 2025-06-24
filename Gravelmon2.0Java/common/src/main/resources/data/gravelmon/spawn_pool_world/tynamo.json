@@ -8,6 +8,7 @@
       "pokemon": "tynamo varitasian",
       "presets": [
         "near_water",
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -35,7 +36,8 @@
       "id": "epoch_tynamo-01",
       "pokemon": "tynamo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "hoennian_tynamo-01",
       "pokemon": "tynamo hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

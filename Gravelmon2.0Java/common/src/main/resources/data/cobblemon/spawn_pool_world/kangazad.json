@@ -7,7 +7,8 @@
       "id": "kangazad-01",
       "pokemon": "kangazad",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

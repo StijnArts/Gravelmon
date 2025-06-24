@@ -7,7 +7,8 @@
       "id": "wurmidrake-01",
       "pokemon": "wurmidrake",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

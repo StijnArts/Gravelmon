@@ -7,7 +7,8 @@
       "id": "bwibble-01",
       "pokemon": "bwibble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

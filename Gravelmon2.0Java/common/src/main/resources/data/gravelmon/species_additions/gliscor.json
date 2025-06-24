@@ -299,7 +299,8 @@
       },
       "labels": [
         "gen4",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 21,
       "aspects": [

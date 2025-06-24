@@ -7,7 +7,8 @@
       "id": "eruptide-01",
       "pokemon": "eruptide",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

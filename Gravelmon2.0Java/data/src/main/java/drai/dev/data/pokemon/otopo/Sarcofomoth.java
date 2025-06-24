@@ -46,12 +46,13 @@ public class Sarcofomoth extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,58)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(22).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_DESERT).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.DESERT_PYRAMID).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Sarcofomoth");
 
     }

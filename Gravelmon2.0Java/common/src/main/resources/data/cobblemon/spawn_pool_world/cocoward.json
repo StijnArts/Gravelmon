@@ -7,7 +7,8 @@
       "id": "cocoward-01",
       "pokemon": "cocoward",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "twigit-01",
       "pokemon": "twigit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

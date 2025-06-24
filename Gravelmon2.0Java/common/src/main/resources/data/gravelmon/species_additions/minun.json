@@ -364,7 +364,8 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 9,
       "aspects": [

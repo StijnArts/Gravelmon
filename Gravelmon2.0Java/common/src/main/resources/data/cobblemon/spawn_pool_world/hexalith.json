@@ -7,7 +7,8 @@
       "id": "hexalith-01",
       "pokemon": "hexalith",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

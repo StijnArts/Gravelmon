@@ -7,7 +7,8 @@
       "id": "arident-01",
       "pokemon": "arident",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

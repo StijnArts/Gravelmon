@@ -18,7 +18,7 @@ public class Intelix extends drai.dev.data.pokemon.Pokemon {
                         100),
                 List.of(Ability.LEVITATE), Ability.MAGIC_GUARD,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -29,9 +29,9 @@ public class Intelix extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .mythical()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Intelix");

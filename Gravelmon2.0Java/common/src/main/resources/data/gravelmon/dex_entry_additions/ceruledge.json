@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:ceruledge",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

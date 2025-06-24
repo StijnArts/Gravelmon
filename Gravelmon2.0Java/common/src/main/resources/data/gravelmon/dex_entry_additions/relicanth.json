@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:relicanth",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Ayreian_mega",
+      "unlockForms": [
+        "Ayreian_mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    }
+  ]
 }

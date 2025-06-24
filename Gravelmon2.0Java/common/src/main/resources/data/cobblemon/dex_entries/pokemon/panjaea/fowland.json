@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fowland",
+  "speciesId": "cobblemon:fowland",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

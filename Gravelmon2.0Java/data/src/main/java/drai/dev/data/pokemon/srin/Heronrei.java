@@ -11,8 +11,8 @@ public class Heronrei extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER,Type.GHOST,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,10 +22,10 @@ public class Heronrei extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.SORIN),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Heronūrei");

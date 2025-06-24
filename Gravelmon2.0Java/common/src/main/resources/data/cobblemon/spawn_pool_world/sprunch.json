@@ -7,7 +7,8 @@
       "id": "sprunch-01",
       "pokemon": "sprunch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

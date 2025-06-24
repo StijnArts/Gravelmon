@@ -7,7 +7,8 @@
       "id": "sparkadillo-01",
       "pokemon": "sparkadillo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

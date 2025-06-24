@@ -7,7 +7,8 @@
       "id": "pepprex-01",
       "pokemon": "pepprex",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

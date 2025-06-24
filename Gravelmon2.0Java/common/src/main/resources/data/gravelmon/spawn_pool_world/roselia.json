@@ -7,7 +7,8 @@
       "id": "relic_roselia-01",
       "pokemon": "roselia relic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -37,7 +40,8 @@
       "id": "delta_roselia-01",
       "pokemon": "roselia delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -47,7 +51,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -62,7 +68,8 @@
       "id": "x_roselia-01",
       "pokemon": "roselia x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +94,8 @@
       "id": "avorian_roselia-01",
       "pokemon": "roselia avorian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,7 +120,8 @@
       "id": "epoch_roselia-01",
       "pokemon": "roselia epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -140,7 +149,8 @@
       "id": "epoch_roselia-01",
       "pokemon": "roselia epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -152,7 +162,9 @@
           "#cobblemon:is_tropical_island",
           "#cobblemon:is_jungle"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -167,7 +179,8 @@
       "id": "ayreian_roselia-01",
       "pokemon": "roselia ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -194,7 +207,8 @@
       "id": "ishirian_roselia-01",
       "pokemon": "roselia ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -204,7 +218,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

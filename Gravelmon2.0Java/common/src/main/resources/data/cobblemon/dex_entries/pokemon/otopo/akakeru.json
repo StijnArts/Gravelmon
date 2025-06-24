@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:akakeru",
+  "speciesId": "cobblemon:akakeru",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

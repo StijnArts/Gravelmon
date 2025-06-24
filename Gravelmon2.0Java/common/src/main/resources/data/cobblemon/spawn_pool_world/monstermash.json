@@ -7,7 +7,8 @@
       "id": "monstermash-01",
       "pokemon": "monstermash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

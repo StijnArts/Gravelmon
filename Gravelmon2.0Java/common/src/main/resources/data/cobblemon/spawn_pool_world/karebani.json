@@ -7,7 +7,8 @@
       "id": "karebani-01",
       "pokemon": "karebani",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

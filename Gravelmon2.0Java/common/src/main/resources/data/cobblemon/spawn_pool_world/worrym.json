@@ -7,7 +7,8 @@
       "id": "worrym-01",
       "pokemon": "worrym",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "oniturl-01",
       "pokemon": "oniturl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

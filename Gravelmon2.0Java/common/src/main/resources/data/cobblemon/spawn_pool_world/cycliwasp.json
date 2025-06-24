@@ -7,7 +7,8 @@
       "id": "cycliwasp-01",
       "pokemon": "cycliwasp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

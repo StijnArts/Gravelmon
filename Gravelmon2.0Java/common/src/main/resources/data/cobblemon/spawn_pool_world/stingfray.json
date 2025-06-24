@@ -7,7 +7,8 @@
       "id": "stingfray-01",
       "pokemon": "stingfray",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

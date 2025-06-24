@@ -7,7 +7,8 @@
       "id": "quwauzrel-01",
       "pokemon": "quwauzrel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

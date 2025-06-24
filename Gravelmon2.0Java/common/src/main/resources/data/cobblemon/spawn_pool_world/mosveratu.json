@@ -7,6 +7,7 @@
       "id": "mosveratu-01",
       "pokemon": "mosveratu",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

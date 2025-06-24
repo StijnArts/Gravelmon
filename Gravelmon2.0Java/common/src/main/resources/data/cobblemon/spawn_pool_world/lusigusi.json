@@ -7,7 +7,8 @@
       "id": "lusigusi-01",
       "pokemon": "lusigusi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

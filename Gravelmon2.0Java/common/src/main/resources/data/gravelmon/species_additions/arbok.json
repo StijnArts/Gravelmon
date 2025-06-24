@@ -498,11 +498,68 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 19,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "poison",
+      "secondaryType": "dark",
+      "baseScale": 0.81,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 130,
+        "defence": 100,
+        "special_attack": 65,
+        "special_defence": 95,
+        "speed": 90
+      },
+      "labels": [
+        "gen1",
+        "uranium",
+        "not_modeled"
+      ],
+      "height": 27,
+      "aspects": [
+        "mega"
+      ]
+    },
+    {
+      "name": "nuclear_mega",
+      "primaryType": "poison",
+      "secondaryType": "nuclear",
+      "baseScale": 0.7902439024390244,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 130,
+        "defence": 100,
+        "special_attack": 65,
+        "special_defence": 95,
+        "speed": 90
+      },
+      "labels": [
+        "gen1",
+        "uranium",
+        "not_modeled"
+      ],
+      "height": 27,
+      "aspects": [
+        "nuclear_mega"
       ]
     }
   ],
@@ -511,7 +568,9 @@
     "epoch",
     "ionosian",
     "nodorran",
-    "epoch_mega"
+    "epoch_mega",
+    "mega",
+    "nuclear_mega"
   ],
   "evolutions": [
     {

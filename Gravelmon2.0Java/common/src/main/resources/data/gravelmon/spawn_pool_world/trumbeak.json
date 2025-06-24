@@ -40,7 +40,8 @@
       "id": "ivrisian_trumbeak-01",
       "pokemon": "trumbeak ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

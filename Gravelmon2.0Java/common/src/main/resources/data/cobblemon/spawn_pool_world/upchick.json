@@ -7,7 +7,8 @@
       "id": "upchick-01",
       "pokemon": "upchick",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

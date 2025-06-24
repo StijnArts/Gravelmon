@@ -7,6 +7,7 @@
       "id": "sandshar-01",
       "pokemon": "sandshar",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

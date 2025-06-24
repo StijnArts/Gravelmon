@@ -7,6 +7,7 @@
       "id": "fleetade-01",
       "pokemon": "fleetade",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

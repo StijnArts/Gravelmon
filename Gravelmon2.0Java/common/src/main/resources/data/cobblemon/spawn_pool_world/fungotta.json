@@ -7,7 +7,8 @@
       "id": "fungotta-01",
       "pokemon": "fungotta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_mushroom",
           "#gravelmon:is_deciduous_forest"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

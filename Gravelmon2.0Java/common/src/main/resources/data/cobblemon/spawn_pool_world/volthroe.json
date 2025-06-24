@@ -7,7 +7,8 @@
       "id": "volthroe-01",
       "pokemon": "volthroe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

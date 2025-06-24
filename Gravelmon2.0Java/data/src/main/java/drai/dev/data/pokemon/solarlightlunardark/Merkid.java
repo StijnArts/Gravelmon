@@ -24,8 +24,7 @@ public class Merkid extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2,EggGroup.HUMAN_LIKE),
                 List.of("They were once believed to be myths until their discovery in Rainbow Reef. Moving in schools, they would hypnotize people with their voices and make them leave them be."),
                 List.of(new EvolutionEntry("mermarine", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:shiny_stone"),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=female")), List.of(), "cobblemon:shiny_stone"),
 new EvolutionEntry("mersidon", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:shiny_stone")),
                 List.of(
@@ -89,6 +88,7 @@ new EvolutionEntry("mersidon", EvolutionType.ITEM_INTERACT, false, List.of(),
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setHasGenderDifferences(true);
            setLangFileName("Merkid");
 
     }

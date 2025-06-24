@@ -6,38 +6,29 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class IVish extends drai.dev.data.pokemon.Pokemon {
-    public IVish() {
+    public IVish(Stats stats) {
         super("IVish",
                 Type.POISON,Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.POISON_POINT), Ability.POISON_POINT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("- Splash Normal - Poison StingSTAB Poison - Poison JabSTAB Poison - Poison TailSTAB Poison - Aqua TailSTAB Water"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.POISON_TAIL,1),
-                        new MoveLearnSetEntry(Move.POISON_STING,1),
-                        new MoveLearnSetEntry(Move.SPLASH,1),
-                        new MoveLearnSetEntry(Move.AQUA_TAIL,1),
-                        new MoveLearnSetEntry(Move.POISON_JAB,1)),
+                List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(19).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky().belowY(30)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("I-Vish");
 
     }

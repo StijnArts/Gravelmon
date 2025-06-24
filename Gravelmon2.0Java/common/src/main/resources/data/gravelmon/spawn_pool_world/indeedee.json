@@ -7,7 +7,8 @@
       "id": "epoch_indeedee-01",
       "pokemon": "indeedee epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

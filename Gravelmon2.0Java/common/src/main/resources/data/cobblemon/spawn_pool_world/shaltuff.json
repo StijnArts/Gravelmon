@@ -7,6 +7,7 @@
       "id": "shaltuff-01",
       "pokemon": "shaltuff",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "purrow-01",
       "pokemon": "purrow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

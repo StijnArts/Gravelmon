@@ -7,7 +7,8 @@
       "id": "daieenn-01",
       "pokemon": "daieenn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

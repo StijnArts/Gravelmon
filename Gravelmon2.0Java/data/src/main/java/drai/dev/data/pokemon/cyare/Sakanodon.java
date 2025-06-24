@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 public class Sakanodon extends drai.dev.data.pokemon.Pokemon {
     public Sakanodon(Stats stats) {
-        super("Draphin",
+        super("Sakanodon",
                 Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
@@ -35,7 +35,7 @@ public class Sakanodon extends drai.dev.data.pokemon.Pokemon {
         setCanSwim(true);
         setCanBreathUnderwater(true);
         setAvoidsLand(true);
-           setLangFileName("Draphin");
+           setLangFileName("Sakanodon");
 
     }
 

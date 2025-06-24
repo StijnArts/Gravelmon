@@ -7,7 +7,8 @@
       "id": "hydromedary-01",
       "pokemon": "hydromedary",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

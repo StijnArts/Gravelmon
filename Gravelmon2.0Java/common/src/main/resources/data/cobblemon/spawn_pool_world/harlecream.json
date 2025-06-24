@@ -7,7 +7,8 @@
       "id": "harlecream-01",
       "pokemon": "harlecream",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "pacalpine-01",
       "pokemon": "pacalpine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

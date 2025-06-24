@@ -7,7 +7,8 @@
       "id": "coathief-01",
       "pokemon": "coathief",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

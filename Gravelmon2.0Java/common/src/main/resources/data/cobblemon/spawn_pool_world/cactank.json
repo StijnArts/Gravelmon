@@ -7,7 +7,8 @@
       "id": "cactank-01",
       "pokemon": "cactank",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

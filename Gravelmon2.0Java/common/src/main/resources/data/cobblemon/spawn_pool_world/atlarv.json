@@ -7,7 +7,8 @@
       "id": "atlarv-01",
       "pokemon": "atlarv",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

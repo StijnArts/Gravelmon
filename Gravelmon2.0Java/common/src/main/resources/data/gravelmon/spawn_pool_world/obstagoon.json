@@ -7,7 +7,8 @@
       "id": "epoch_obstagoon-01",
       "pokemon": "obstagoon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "ayreian_obstagoon-01",
       "pokemon": "obstagoon ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

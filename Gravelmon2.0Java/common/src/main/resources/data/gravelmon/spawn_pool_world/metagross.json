@@ -7,7 +7,8 @@
       "id": "delta_spider_metagross-01",
       "pokemon": "metagross delta_spider",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_metagross-01",
       "pokemon": "metagross epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "fabelian_metagross-01",
       "pokemon": "metagross fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

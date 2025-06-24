@@ -7,7 +7,8 @@
       "id": "kremcee-01",
       "pokemon": "kremcee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

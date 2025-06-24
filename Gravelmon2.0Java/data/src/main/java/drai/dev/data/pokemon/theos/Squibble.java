@@ -23,14 +23,15 @@ public class Squibble extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("Squibble never stay still and are always on the look out for berries to store in trees. When startled, they will bite onto their attacker with their strong front teeth."),
-                List.of(),
+                List.of(new EvolutionEntry("searell", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Squibble");

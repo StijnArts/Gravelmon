@@ -7,7 +7,8 @@
       "id": "delta_shuckle-01",
       "pokemon": "shuckle delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_shuckle-01",
       "pokemon": "shuckle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -57,7 +59,8 @@
       "id": "forman_shuckle-01",
       "pokemon": "shuckle forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +87,8 @@
       "id": "hoennian_shuckle-01",
       "pokemon": "shuckle hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -111,7 +115,8 @@
       "id": "ionosian_shuckle-01",
       "pokemon": "shuckle ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -138,7 +143,8 @@
       "id": "fabelian_shuckle-01",
       "pokemon": "shuckle fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

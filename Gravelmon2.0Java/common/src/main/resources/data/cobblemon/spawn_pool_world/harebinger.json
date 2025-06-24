@@ -7,7 +7,8 @@
       "id": "harebinger-01",
       "pokemon": "harebinger",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

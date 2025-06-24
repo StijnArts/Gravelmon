@@ -7,7 +7,8 @@
       "id": "gorriotto-01",
       "pokemon": "gorriotto",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

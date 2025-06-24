@@ -7,7 +7,8 @@
       "id": "carvtoise-01",
       "pokemon": "carvtoise",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

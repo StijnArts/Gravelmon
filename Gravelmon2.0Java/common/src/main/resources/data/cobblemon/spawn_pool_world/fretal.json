@@ -7,7 +7,8 @@
       "id": "fretal-01",
       "pokemon": "fretal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

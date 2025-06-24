@@ -7,7 +7,8 @@
       "id": "quartzac-01",
       "pokemon": "quartzac",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

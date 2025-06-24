@@ -7,7 +7,8 @@
       "id": "pomfly-01",
       "pokemon": "pomfly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

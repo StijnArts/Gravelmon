@@ -591,7 +591,8 @@
       },
       "labels": [
         "gen1",
-        "vanguard"
+        "vanguard",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

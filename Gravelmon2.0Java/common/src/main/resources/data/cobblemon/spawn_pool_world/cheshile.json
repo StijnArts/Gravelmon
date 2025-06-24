@@ -7,7 +7,8 @@
       "id": "cheshile-01",
       "pokemon": "cheshile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

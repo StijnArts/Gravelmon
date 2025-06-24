@@ -7,7 +7,8 @@
       "id": "hederat-01",
       "pokemon": "hederat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

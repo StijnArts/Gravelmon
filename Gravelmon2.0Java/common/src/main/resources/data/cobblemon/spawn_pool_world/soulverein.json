@@ -7,7 +7,8 @@
       "id": "soulverein-01",
       "pokemon": "soulverein",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

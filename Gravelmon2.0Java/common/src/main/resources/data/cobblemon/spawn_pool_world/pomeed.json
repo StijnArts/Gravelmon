@@ -7,7 +7,8 @@
       "id": "pomeed-01",
       "pokemon": "pomeed",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

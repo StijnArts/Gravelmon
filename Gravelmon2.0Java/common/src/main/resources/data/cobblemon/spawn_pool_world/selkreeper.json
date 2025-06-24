@@ -7,6 +7,7 @@
       "id": "selkreeper-01",
       "pokemon": "selkreeper",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

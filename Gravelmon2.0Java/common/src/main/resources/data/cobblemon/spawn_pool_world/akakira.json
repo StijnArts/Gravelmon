@@ -7,7 +7,8 @@
       "id": "akakira-01",
       "pokemon": "akakira",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

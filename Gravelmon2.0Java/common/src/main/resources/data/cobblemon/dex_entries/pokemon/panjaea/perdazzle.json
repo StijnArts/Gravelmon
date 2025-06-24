@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:perdazzle",
+  "speciesId": "cobblemon:perdazzle",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

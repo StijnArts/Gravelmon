@@ -17,20 +17,21 @@ public class Kestling extends drai.dev.data.pokemon.Pokemon {
                         60),
                 List.of(Ability.LIMBER), Ability.HUSTLE,
                 3, 18,
-                new Stats(0,0,0,0,0,1), 0,
+                new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("kestric", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Kestling");

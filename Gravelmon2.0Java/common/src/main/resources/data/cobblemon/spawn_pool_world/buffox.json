@@ -7,7 +7,8 @@
       "id": "buffox-01",
       "pokemon": "buffox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

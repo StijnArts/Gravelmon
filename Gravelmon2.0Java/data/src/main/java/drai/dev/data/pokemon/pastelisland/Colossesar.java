@@ -11,8 +11,8 @@ public class Colossesar extends drai.dev.data.pokemon.Pokemon {
                 Type.FIGHTING,
                 stats,
                 List.of(Ability.GUTS,Ability.IRON_FIST), Ability.SHEER_FORCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,10 +22,10 @@ public class Colossesar extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_HIGHLANDS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Colossesar");

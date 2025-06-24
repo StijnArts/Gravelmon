@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:runerigus",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

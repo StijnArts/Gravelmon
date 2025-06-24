@@ -7,6 +7,7 @@
       "id": "royjibiv-01",
       "pokemon": "royjibiv",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -16,7 +17,7 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

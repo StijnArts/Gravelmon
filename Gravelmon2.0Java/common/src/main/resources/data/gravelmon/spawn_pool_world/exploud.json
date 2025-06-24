@@ -7,7 +7,8 @@
       "id": "raianian_exploud-01",
       "pokemon": "exploud raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +60,8 @@
       "id": "kaskadian_exploud-01",
       "pokemon": "exploud kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

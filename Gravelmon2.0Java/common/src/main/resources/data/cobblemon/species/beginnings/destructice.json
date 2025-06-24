@@ -2,13 +2,13 @@
   "name": "Destructice",
   "primaryType": "dragon",
   "secondaryType": "flying",
-  "catchRate": 76,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.11428571428571428,
+  "baseScale": 0.5428571428571428,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,11 +93,11 @@
   "pokedex": [
     "cobblemon.species.destructice.desc"
   ],
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9296,
+  "nationalPokedexNumber": 9643,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.25,

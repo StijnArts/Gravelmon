@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Bullake extends drai.dev.data.pokemon.Pokemon {
-    public Bullake() {
+    public Bullake(Stats stats) {
         super("Bullake",
                 Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.THICK_FAT,Ability.OBLIVIOUS), Ability.HYDRATION,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +22,13 @@ public class Bullake extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).setAntiBiomes(Biome.IS_DEEP_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Bullake");
 
     }

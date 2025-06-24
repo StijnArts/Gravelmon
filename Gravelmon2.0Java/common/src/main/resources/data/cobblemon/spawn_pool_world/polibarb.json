@@ -7,7 +7,8 @@
       "id": "polibarb-01",
       "pokemon": "polibarb",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

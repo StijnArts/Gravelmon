@@ -23,7 +23,8 @@ public class PastelianShellder extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("The shell of these Shellder is so durable and tough that even some of the strongest Fighting-types cannot pry it open!"),
-                List.of(),
+                List.of(new EvolutionEntry("pasteliancloyster", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

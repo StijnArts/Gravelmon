@@ -7,16 +7,16 @@
       "id": "scubug-01",
       "pokemon": "scubug",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "seafloor",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "18-38",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

@@ -7,7 +7,8 @@
       "id": "hubian_togepi-01",
       "pokemon": "togepi hubian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "varitasian_togepi-01",
       "pokemon": "togepi varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "epoch_togepi-01",
       "pokemon": "togepi epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +90,8 @@
       "id": "forman_togepi-01",
       "pokemon": "togepi forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +118,8 @@
       "id": "ayreian_togepi-01",
       "pokemon": "togepi ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

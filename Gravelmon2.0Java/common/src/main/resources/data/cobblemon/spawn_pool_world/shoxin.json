@@ -7,7 +7,8 @@
       "id": "shoxin-01",
       "pokemon": "shoxin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

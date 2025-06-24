@@ -7,7 +7,8 @@
       "id": "almireon-01",
       "pokemon": "almireon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

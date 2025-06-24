@@ -7,7 +7,8 @@
       "id": "luchabra-01",
       "pokemon": "luchabra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

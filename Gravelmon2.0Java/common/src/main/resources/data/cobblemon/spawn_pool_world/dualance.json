@@ -7,7 +7,8 @@
       "id": "dualance-01",
       "pokemon": "dualance",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

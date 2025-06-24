@@ -7,7 +7,8 @@
       "id": "slickitty-01",
       "pokemon": "slickitty",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tamanily-01",
       "pokemon": "tamanily",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

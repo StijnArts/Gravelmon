@@ -7,7 +7,8 @@
       "id": "walpurrgeow-01",
       "pokemon": "walpurrgeow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "littoril-01",
       "pokemon": "littoril",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

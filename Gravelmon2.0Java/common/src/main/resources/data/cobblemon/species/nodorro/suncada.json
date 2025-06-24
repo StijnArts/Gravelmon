@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "imicada",
-  "baseScale": 15.600000000000001,
+  "baseScale": 0.5114754098360655,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -104,11 +104,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8876,
+  "nationalPokedexNumber": 9163,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.8125,
+    "height": 3.8125,
     "fixed": false
   },
   "features": [],

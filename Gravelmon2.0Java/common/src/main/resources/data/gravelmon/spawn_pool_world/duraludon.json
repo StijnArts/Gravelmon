@@ -7,7 +7,8 @@
       "id": "epoch_duraludon-01",
       "pokemon": "duraludon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

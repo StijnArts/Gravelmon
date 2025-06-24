@@ -436,11 +436,220 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "grass",
+      "catchRate": 120,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 128,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "mareep form=theossian",
+      "baseScale": 0.3490909090909091,
+      "cannotDynamax": false,
+      "abilities": [
+        "voltabsorb",
+        "h:flowerveil"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 45,
+        "defence": 55,
+        "special_attack": 80,
+        "special_defence": 70,
+        "speed": 45
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "monster",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:growl",
+        "1:tackle",
+        "4:thunderwave",
+        "8:thundershock",
+        "11:cottonspore",
+        "16:charge",
+        "20:takedown",
+        "25:electroball",
+        "29:confuseray",
+        "34:powergem",
+        "38:discharge",
+        "43:cottonguard",
+        "47:signalbeam",
+        "52:lightscreen",
+        "56:thunder",
+        "tm:firepunch",
+        "tm:thunderpunch",
+        "tm:snore",
+        "tm:healbell",
+        "tm:irontail",
+        "tm:focuspunch",
+        "tm:signalbeam",
+        "tm:shockwave",
+        "tm:magnetrise",
+        "tm:afteryou",
+        "tm:electroweb",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:fling",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:confide",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:mimic",
+        "tm:bide",
+        "tm:swift",
+        "tm:takedown",
+        "tm:submission",
+        "tm:skullbash",
+        "tm:agility",
+        "tm:captivate",
+        "tm:confuseray",
+        "tm:curse",
+        "tm:dazzlinggleam",
+        "tm:defensecurl",
+        "tm:dig",
+        "tm:dynamicpunch",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:endure",
+        "tm:flash",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:icepunch",
+        "tm:lowkick",
+        "tm:naturalgift",
+        "tm:powergem",
+        "tm:poweruppunch",
+        "tm:reflect",
+        "tm:risingvoltage",
+        "tm:rocksmash",
+        "tm:screech",
+        "tm:secretpower",
+        "tm:strength",
+        "tm:sunnyday",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:zapcannon",
+        "tm:sandattack",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:agility",
+        "tm:screech",
+        "tm:flatter",
+        "tm:charge",
+        "tm:odorsleuth",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianflaaffy.desc"
+      ],
+      "height": 8,
+      "weight": 133,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [
+        {
+          "id": "theossianflaaffy_ampharos_theossian",
+          "variant": "level_up",
+          "result": "ampharos theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "30"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 3.4375,
+        "height": 3.4375,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "aristosian",
     "epoch",
-    "forman"
+    "forman",
+    "theossian"
   ]
 }

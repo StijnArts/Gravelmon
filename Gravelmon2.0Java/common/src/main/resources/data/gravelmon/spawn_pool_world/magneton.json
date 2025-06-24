@@ -7,7 +7,8 @@
       "id": "egho_magneton-01",
       "pokemon": "magneton egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_magneton-01",
       "pokemon": "magneton epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "epoch_magneton-01",
       "pokemon": "magneton epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +89,8 @@
       "id": "ayreian_magneton-01",
       "pokemon": "magneton ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -96,9 +100,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_wasteland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

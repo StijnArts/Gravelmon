@@ -7,7 +7,8 @@
       "id": "kingpug-01",
       "pokemon": "kingpug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

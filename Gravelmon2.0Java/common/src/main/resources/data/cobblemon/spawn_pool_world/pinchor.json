@@ -7,7 +7,8 @@
       "id": "pinchor-01",
       "pokemon": "pinchor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "florascent-01",
       "pokemon": "florascent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "baoby-01",
       "pokemon": "baoby",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

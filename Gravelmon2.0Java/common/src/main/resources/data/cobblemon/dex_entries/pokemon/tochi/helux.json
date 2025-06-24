@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:helux",
+  "speciesId": "cobblemon:helux",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

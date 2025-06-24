@@ -7,6 +7,7 @@
       "id": "hizian_luvdisc-01",
       "pokemon": "luvdisc hizian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

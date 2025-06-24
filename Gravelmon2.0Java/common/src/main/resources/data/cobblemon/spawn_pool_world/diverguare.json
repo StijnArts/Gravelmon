@@ -7,7 +7,8 @@
       "id": "diverguare-01",
       "pokemon": "diverguare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

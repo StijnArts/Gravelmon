@@ -7,18 +7,21 @@
       "id": "oracowl-01",
       "pokemon": "oracowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "24-44",
-      "weight": 0.9,
+      "level": "33-53",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "#gravelmon:is_deciduous_forest"
+          "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

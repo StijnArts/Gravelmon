@@ -204,7 +204,9 @@
         "xenoverse",
         "gen1"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.monster.desc"
+      ],
       "height": 78,
       "weight": 2748,
       "aspects": [

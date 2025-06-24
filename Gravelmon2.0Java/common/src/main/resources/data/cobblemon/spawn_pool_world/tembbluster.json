@@ -7,7 +7,8 @@
       "id": "tembbluster-01",
       "pokemon": "tembbluster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

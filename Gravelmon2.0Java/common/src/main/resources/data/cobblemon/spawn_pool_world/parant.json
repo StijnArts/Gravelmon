@@ -7,7 +7,8 @@
       "id": "parant-01",
       "pokemon": "parant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

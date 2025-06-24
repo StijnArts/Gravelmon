@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:carracosta",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

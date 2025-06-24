@@ -419,11 +419,153 @@
         "height": 4.5,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "weepinbell form=theossian",
+      "baseScale": 0.47441860465116276,
+      "cannotDynamax": false,
+      "abilities": [
+        "intimidate",
+        "h:gluttony"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 90,
+        "attack": 115,
+        "defence": 75,
+        "special_attack": 80,
+        "special_defence": 70,
+        "speed": 60
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 3,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:bite",
+        "1:leer",
+        "1:leer",
+        "10:megadrain",
+        "10:payback",
+        "15:magicalleaf",
+        "15:nightdaze",
+        "20:gigadrain",
+        "20:snarl",
+        "25:energyball",
+        "25:knockoff",
+        "30:solarbeam",
+        "30:darkpulse",
+        "35:leafage",
+        "35:bite",
+        "40:leer",
+        "40:leer",
+        "45:absorb",
+        "45:payback",
+        "50:trailblaze",
+        "50:nightslash",
+        "55:gigadrain",
+        "55:crunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianvictreebel.desc"
+      ],
+      "height": 17,
+      "weight": 155,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.375,
+        "height": 5.375,
+        "fixed": false
+      }
+    },
+    {
+      "name": "avalossian_mega",
+      "primaryType": "grass",
+      "secondaryType": "dark",
+      "baseScale": 27.599999999999998,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 85,
+        "special_attack": 110,
+        "special_defence": 75,
+        "speed": 145
+      },
+      "labels": [
+        "gen1",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 23,
+      "aspects": [
+        "avalossian_mega"
+      ]
     }
   ],
   "features": [
     "aristosian",
     "epoch",
-    "avalossian"
+    "avalossian",
+    "theossian",
+    "avalossian_mega"
   ]
 }

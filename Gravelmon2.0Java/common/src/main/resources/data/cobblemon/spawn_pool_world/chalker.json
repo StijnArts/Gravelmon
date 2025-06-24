@@ -7,7 +7,8 @@
       "id": "chalker-01",
       "pokemon": "chalker",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

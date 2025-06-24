@@ -7,6 +7,7 @@
       "id": "masimuthi-01",
       "pokemon": "masimuthi",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

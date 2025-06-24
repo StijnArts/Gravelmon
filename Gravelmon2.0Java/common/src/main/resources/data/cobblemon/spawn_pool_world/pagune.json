@@ -7,7 +7,8 @@
       "id": "pagune-01",
       "pokemon": "pagune",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

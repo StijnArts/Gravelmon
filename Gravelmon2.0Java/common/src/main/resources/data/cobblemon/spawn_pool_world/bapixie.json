@@ -7,7 +7,8 @@
       "id": "bapixie-01",
       "pokemon": "bapixie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -2,13 +2,13 @@
   "name": "Disix",
   "primaryType": "dragon",
   "secondaryType": "rock",
-  "catchRate": 255,
+  "catchRate": 160,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.30000000000000004,
+  "baseScale": 0.5249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 57,
+    "attack": 19,
+    "defence": 57,
+    "special_attack": 57,
+    "special_defence": 58,
+    "speed": 11
   },
   "evYield": {
     "hp": 0,
@@ -62,28 +62,28 @@
   "moves": [
     "1:scratch",
     "1:rockthrow",
+    "1:bulkup",
+    "1:bulkup",
     "1:leer",
     "1:defensecurl",
+    "1:calmmind",
+    "1:calmmind",
     "10:twister",
     "10:rollout",
+    "10:taunt",
+    "10:taunt",
     "15:dragonbreath",
     "15:ancientpower",
+    "15:substitute",
+    "15:substitute",
     "20:breakingswipe",
     "20:powergem",
+    "20:rest",
+    "20:rest",
     "25:dragonpulse",
     "25:stealthrock",
     "30:dracometeor",
     "30:meteorbeam",
-    "35:scratch",
-    "35:rockthrow",
-    "40:leer",
-    "40:defensecurl",
-    "45:dragonrage",
-    "45:rollout",
-    "50:dualchop",
-    "50:smackdown",
-    "55:breakingswipe",
-    "55:rockblast",
     "tm:terablast"
   ],
   "labels": [
@@ -93,11 +93,26 @@
   "pokedex": [
     "cobblemon.species.disix.desc"
   ],
-  "height": 0,
+  "height": 7,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9297,
+  "evolutions": [
+    {
+      "id": "disix_diielve",
+      "variant": "level_up",
+      "result": "diielve",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "35"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9644,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.0,

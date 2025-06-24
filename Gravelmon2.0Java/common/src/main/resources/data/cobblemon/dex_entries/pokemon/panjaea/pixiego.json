@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pixiego",
+  "speciesId": "cobblemon:pixiego",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

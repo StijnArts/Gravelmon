@@ -7,7 +7,8 @@
       "id": "arctire-01",
       "pokemon": "arctire",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

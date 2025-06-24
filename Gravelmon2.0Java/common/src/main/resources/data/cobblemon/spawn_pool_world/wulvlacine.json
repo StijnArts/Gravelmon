@@ -7,7 +7,8 @@
       "id": "wulvlacine-01",
       "pokemon": "wulvlacine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

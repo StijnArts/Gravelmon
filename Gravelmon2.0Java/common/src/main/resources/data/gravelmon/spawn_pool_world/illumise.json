@@ -7,7 +7,8 @@
       "id": "epoch_illumise-01",
       "pokemon": "illumise epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

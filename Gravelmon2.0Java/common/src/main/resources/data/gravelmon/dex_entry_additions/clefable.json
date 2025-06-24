@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:clefable",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

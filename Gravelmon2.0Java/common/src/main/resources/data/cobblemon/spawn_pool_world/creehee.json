@@ -7,7 +7,8 @@
       "id": "creehee-01",
       "pokemon": "creehee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

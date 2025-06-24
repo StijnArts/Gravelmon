@@ -7,7 +7,8 @@
       "id": "bullirt-01",
       "pokemon": "bullirt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

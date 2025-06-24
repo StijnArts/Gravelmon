@@ -7,7 +7,8 @@
       "id": "daikongus-01",
       "pokemon": "daikongus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

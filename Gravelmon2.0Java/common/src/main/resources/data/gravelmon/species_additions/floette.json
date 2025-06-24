@@ -488,6 +488,160 @@
       }
     },
     {
+      "name": "Pastelian",
+      "primaryType": "fairy",
+      "secondaryType": "water",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 130,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "flabebe form=pastelian",
+      "baseScale": 4.800000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "waterveil",
+        "h:hydration"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 44,
+        "defence": 47,
+        "special_attack": 96,
+        "special_defence": 76,
+        "speed": 53
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "fairy"
+      ],
+      "drops": {},
+      "moves": [
+        "1:vinewhip",
+        "1:tackle",
+        "6:fairywind",
+        "10:luckychant",
+        "15:razorleaf",
+        "20:wish",
+        "25:magicalleaf",
+        "27:grassyterrain",
+        "33:petalblizzard",
+        "38:aromatherapy",
+        "43:mistyterrain",
+        "46:moonblast",
+        "51:petaldance",
+        "58:solarbeam",
+        "tm:snore",
+        "tm:gigadrain",
+        "tm:healbell",
+        "tm:synthesis",
+        "tm:helpinghand",
+        "tm:magiccoat",
+        "tm:endeavor",
+        "tm:covet",
+        "tm:worryseed",
+        "tm:seedbomb",
+        "tm:afteryou",
+        "tm:allyswitch",
+        "tm:solarbeam",
+        "tm:toxic",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:sunnyday",
+        "tm:facade",
+        "tm:naturepower",
+        "tm:calmmind",
+        "tm:energyball",
+        "tm:grassknot",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:confide",
+        "tm:dazzlinggleam",
+        "tm:camouflage",
+        "tm:copycat",
+        "tm:captivate",
+        "tm:tearfullook",
+        "tm:terablast"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.pastelianfloette.desc"
+      ],
+      "height": 2,
+      "weight": 9,
+      "aspects": [
+        "pastelian"
+      ],
+      "evolutions": [
+        {
+          "id": "pastelianfloette_florgae",
+          "variant": "item_interact",
+          "result": "florgae",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:shiny_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Vesitan",
       "primaryType": "fairy",
       "secondaryType": "grass",
@@ -600,13 +754,138 @@
         "height": 4.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "ghost",
+      "secondaryType": "fairy",
+      "catchRate": 120,
+      "maleRatio": 0.0,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "flabebe form=theossian",
+      "baseScale": 0.14328358208955225,
+      "cannotDynamax": false,
+      "abilities": [
+        "cursedbody",
+        "h:mistysurge"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 54,
+        "attack": 45,
+        "defence": 47,
+        "special_attack": 75,
+        "special_defence": 98,
+        "speed": 52
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:lick",
+        "1:disarmingvoice",
+        "1:growl",
+        "1:babydolleyes",
+        "10:confuseray",
+        "10:drainingkiss",
+        "15:ominouswind",
+        "15:playnice",
+        "20:nightshade",
+        "20:dazzlinggleam",
+        "25:hex",
+        "25:hypervoice",
+        "30:shadowball",
+        "30:moonblast",
+        "35:lick",
+        "35:disarmingvoice",
+        "40:growl",
+        "40:babydolleyes",
+        "45:confuseray",
+        "45:drainingkiss",
+        "50:hex",
+        "50:playnice",
+        "55:shadowclaw",
+        "55:dazzlinggleam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianfloette.desc"
+      ],
+      "height": 2,
+      "weight": 9,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [
+        {
+          "id": "theossianfloette_florges_theossian",
+          "variant": "item_interact",
+          "result": "florges theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "cobblemon:moon_stone",
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.1875,
+        "height": 4.1875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "relic",
     "varitasian",
     "epoch",
-    "vesitan"
+    "pastelian",
+    "vesitan",
+    "theossian"
   ],
   "evolutions": [
     {

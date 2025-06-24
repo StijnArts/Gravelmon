@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Hydrox extends drai.dev.data.pokemon.Pokemon {
-    public Hydrox() {
+    public Hydrox(Stats stats) {
         super("Hydrox",
                 Type.FIRE, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WATER_COMPACTION), Ability.WATER_BUBBLE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

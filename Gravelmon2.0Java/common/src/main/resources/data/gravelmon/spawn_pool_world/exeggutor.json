@@ -8,7 +8,8 @@
       "pokemon": "exeggutor palmian",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_exeggutor-01",
       "pokemon": "exeggutor epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +64,8 @@
       "id": "epoch_exeggutor-01",
       "pokemon": "exeggutor epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

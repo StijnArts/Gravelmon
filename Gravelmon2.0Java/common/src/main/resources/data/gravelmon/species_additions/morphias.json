@@ -20,7 +20,8 @@
         "speed": 120
       },
       "labels": [
-        "vanguard"
+        "vanguard",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [

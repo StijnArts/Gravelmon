@@ -1,4 +1,35 @@
 {
   "entryId": "cobblemon:dwebble",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta_berry",
+      "unlockForms": [
+        "Delta_berry"
+      ]
+    },
+    {
+      "displayForm": "Delta_cake",
+      "unlockForms": [
+        "Delta_cake"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ayreian",
+      "unlockForms": [
+        "Ayreian"
+      ]
+    },
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ]
 }

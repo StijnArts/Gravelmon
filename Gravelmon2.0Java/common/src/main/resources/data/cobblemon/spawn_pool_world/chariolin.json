@@ -7,7 +7,8 @@
       "id": "chariolin-01",
       "pokemon": "chariolin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

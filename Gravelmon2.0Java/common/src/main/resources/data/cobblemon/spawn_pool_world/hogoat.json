@@ -7,7 +7,8 @@
       "id": "hogoat-01",
       "pokemon": "hogoat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "chemko-01",
       "pokemon": "chemko",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

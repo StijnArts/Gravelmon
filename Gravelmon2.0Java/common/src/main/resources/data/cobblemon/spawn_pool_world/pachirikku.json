@@ -7,7 +7,8 @@
       "id": "pachirikku-01",
       "pokemon": "pachirikku",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

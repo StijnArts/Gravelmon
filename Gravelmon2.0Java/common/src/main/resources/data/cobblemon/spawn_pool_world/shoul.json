@@ -7,7 +7,8 @@
       "id": "shoul-01",
       "pokemon": "shoul",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

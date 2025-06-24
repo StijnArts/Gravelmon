@@ -1,13 +1,13 @@
 {
   "name": "Moosong",
   "primaryType": "normal",
-  "catchRate": 211,
+  "catchRate": 255,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21333333333333335,
+  "baseScale": 0.5866666666666667,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -89,11 +89,26 @@
   "pokedex": [
     "cobblemon.species.moosong.desc"
   ],
-  "height": 0,
+  "height": 11,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9245,
+  "evolutions": [
+    {
+      "id": "moosong_horncerto",
+      "variant": "level_up",
+      "result": "horncerto",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "24"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9592,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.8125,

@@ -7,7 +7,8 @@
       "id": "goathorr-01",
       "pokemon": "goathorr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

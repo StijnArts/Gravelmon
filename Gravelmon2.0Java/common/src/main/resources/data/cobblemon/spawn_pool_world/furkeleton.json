@@ -7,7 +7,8 @@
       "id": "furkeleton-01",
       "pokemon": "furkeleton",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

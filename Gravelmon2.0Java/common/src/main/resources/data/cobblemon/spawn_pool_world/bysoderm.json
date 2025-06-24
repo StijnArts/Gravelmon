@@ -7,7 +7,8 @@
       "id": "bysoderm-01",
       "pokemon": "bysoderm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

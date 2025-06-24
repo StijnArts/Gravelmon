@@ -7,7 +7,8 @@
       "id": "ribivine-01",
       "pokemon": "ribivine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

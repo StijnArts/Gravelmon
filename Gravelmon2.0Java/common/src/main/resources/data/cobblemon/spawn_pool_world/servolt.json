@@ -7,7 +7,8 @@
       "id": "servolt-01",
       "pokemon": "servolt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

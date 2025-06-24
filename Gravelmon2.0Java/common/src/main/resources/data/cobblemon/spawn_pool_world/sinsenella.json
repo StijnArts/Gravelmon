@@ -7,7 +7,8 @@
       "id": "sinsenella-01",
       "pokemon": "sinsenella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

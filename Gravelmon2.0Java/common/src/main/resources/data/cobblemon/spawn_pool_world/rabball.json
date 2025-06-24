@@ -7,7 +7,8 @@
       "id": "rabball-01",
       "pokemon": "rabball",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

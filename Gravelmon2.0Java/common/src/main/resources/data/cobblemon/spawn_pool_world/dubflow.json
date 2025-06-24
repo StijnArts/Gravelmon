@@ -7,7 +7,8 @@
       "id": "dubflow-01",
       "pokemon": "dubflow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

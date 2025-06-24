@@ -23,7 +23,8 @@ public class Faberon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("An egg which contains Faberon, is said to be hatched under a mountain of discarded Dragon Scales. It is incredibly delicate, and shy towards trainers and Pokémon alike. It hides under the casing of its shell at all times."),
-                List.of(),
+                List.of(new EvolutionEntry("dragerg", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -52,9 +53,9 @@ public class Faberon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(1).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Faberon");

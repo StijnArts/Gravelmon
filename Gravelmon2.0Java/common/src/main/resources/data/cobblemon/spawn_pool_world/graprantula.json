@@ -7,7 +7,8 @@
       "id": "graprantula-01",
       "pokemon": "graprantula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

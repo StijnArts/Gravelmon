@@ -7,7 +7,8 @@
       "id": "nymphlora-01",
       "pokemon": "nymphlora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

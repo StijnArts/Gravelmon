@@ -7,7 +7,8 @@
       "id": "cylily-01",
       "pokemon": "cylily",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

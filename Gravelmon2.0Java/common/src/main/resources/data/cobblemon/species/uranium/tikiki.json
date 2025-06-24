@@ -144,8 +144,7 @@
     "egg:swordsdance",
     "egg:agility",
     "egg:knockoff",
-    "egg:flameimpact",
-    "tm:terablast"
+    "egg:flameimpact"
   ],
   "labels": [
     "uranium",

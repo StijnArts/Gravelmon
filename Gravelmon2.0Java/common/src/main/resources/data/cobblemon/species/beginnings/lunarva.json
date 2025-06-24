@@ -2,13 +2,14 @@
   "name": "Lunarva",
   "primaryType": "bug",
   "secondaryType": "fairy",
-  "catchRate": 255,
+  "catchRate": 160,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.22857142857142856,
+  "preEvolution": "glittiny",
+  "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 79,
+    "attack": 27,
+    "defence": 60,
+    "special_attack": 67,
+    "special_defence": 79,
+    "speed": 48
   },
   "evYield": {
     "hp": 0,
@@ -74,30 +75,37 @@
     "25:hypervoice",
     "30:bugbuzz",
     "30:moonblast",
-    "35:strugglebug",
-    "35:disarmingvoice",
-    "40:stringshot",
-    "40:babydolleyes",
-    "45:leechlife",
-    "45:drainingkiss",
-    "50:lunge",
-    "50:playnice",
-    "55:xscissor",
-    "55:dazzlinggleam",
     "tm:terablast"
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lunarva.desc"
   ],
-  "height": 0,
+  "height": 7,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9258,
+  "evolutions": [
+    {
+      "id": "lunarva_fulluna",
+      "variant": "level_up",
+      "result": "fulluna",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "35"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9605,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.625,

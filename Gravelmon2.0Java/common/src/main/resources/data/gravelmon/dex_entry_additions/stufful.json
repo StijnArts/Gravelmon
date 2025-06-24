@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:stufful",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mystic",
+      "unlockForms": [
+        "Mystic"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

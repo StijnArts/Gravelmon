@@ -7,7 +7,8 @@
       "id": "puffulf-01",
       "pokemon": "puffulf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

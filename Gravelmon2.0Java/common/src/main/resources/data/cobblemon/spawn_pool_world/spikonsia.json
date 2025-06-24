@@ -7,7 +7,8 @@
       "id": "spikonsia-01",
       "pokemon": "spikonsia",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

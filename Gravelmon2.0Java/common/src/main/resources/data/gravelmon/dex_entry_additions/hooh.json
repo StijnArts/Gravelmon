@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:hooh",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    },
+    {
+      "displayForm": "Aromian",
+      "unlockForms": [
+        "Aromian"
+      ]
+    }
+  ]
 }

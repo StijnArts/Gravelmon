@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:spidops",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

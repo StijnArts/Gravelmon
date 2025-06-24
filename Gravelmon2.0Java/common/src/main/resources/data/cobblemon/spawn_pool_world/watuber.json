@@ -7,7 +7,8 @@
       "id": "watuber-01",
       "pokemon": "watuber",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

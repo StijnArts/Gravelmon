@@ -23,7 +23,8 @@ public class PastelianFlabebe extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("- Vine Whip Grass 6 Fairy WindSTAB Fairy 10 Lucky Chant  Normal 15 Razor Leaf Grass 20 Wish  Normal 22 Magical Leaf Grass 24 Grassy Terrain  Grass 28 Petal Blizzard Grass 33 Aromatherapy Grass 37 Misty Terrain  Fairy 41 MoonblastSTAB Fairy 45 Petal Dance Grass 48 Solar Beam Grass"),
-                List.of(),
+                List.of(new EvolutionEntry("pastelianfloette", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,6),
@@ -82,11 +83,12 @@ public class PastelianFlabebe extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Flabébé");
 
     }

@@ -7,7 +7,8 @@
       "id": "falcher-01",
       "pokemon": "falcher",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

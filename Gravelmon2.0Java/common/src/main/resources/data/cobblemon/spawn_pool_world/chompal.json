@@ -7,6 +7,7 @@
       "id": "chompal-01",
       "pokemon": "chompal",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

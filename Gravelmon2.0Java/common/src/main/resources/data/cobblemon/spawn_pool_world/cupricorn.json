@@ -7,7 +7,8 @@
       "id": "cupricorn-01",
       "pokemon": "cupricorn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

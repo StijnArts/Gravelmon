@@ -7,7 +7,8 @@
       "id": "whiskereef-01",
       "pokemon": "whiskereef",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

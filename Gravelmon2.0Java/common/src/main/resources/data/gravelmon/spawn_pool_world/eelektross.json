@@ -8,6 +8,7 @@
       "pokemon": "eelektross varitasian",
       "presets": [
         "near_water",
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -35,7 +36,8 @@
       "id": "epoch_eelektross-01",
       "pokemon": "eelektross epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "hoennian_eelektross-01",
       "pokemon": "eelektross hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -8,7 +8,8 @@
       "pokemon": "bulwart",
       "presets": [
         "near_water",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

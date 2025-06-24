@@ -7,7 +7,8 @@
       "id": "heftersack-01",
       "pokemon": "heftersack",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

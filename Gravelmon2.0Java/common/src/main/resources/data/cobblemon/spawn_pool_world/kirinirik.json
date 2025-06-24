@@ -7,7 +7,8 @@
       "id": "kirinirik-01",
       "pokemon": "kirinirik",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

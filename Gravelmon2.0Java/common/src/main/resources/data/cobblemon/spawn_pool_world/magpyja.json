@@ -7,7 +7,8 @@
       "id": "magpyja-01",
       "pokemon": "magpyja",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

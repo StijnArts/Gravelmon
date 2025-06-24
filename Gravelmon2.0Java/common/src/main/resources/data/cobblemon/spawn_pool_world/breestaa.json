@@ -7,7 +7,8 @@
       "id": "breestaa-01",
       "pokemon": "breestaa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

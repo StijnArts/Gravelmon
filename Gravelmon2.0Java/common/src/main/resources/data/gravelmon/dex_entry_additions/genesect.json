@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:genesect",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Interian",
+      "unlockForms": [
+        "Interian"
+      ]
+    }
+  ]
 }

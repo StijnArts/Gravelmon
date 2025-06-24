@@ -7,7 +7,8 @@
       "id": "fulion-01",
       "pokemon": "fulion",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

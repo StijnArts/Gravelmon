@@ -7,7 +7,8 @@
       "id": "asparies-01",
       "pokemon": "asparies",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

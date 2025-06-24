@@ -7,7 +7,8 @@
       "id": "seviian_noibat-01",
       "pokemon": "noibat seviian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +36,8 @@
       "id": "delta_noibat-01",
       "pokemon": "noibat delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -58,7 +62,8 @@
       "id": "epoch_noibat-01",
       "pokemon": "noibat epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +73,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -83,7 +90,8 @@
       "id": "ayreian_noibat-01",
       "pokemon": "noibat ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -111,7 +119,8 @@
       "id": "vesitan_noibat-01",
       "pokemon": "noibat vesitan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

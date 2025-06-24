@@ -465,7 +465,7 @@ public class MegaRegistry {
                                 115
                         ),
                         Ability.REGENERATOR,
-                        7, "uranium", List.of(Label.GEN5,Label.URANIUM))
+                        7, "uranium", List.of(Label.GEN5, Label.URANIUM))
                         .addPalette(new MegaStonePalette("#946a41", "#59dd4b", "#faeaed")),
                 new MegaEvolution("carnivine",
                         Type.GRASS,
@@ -477,8 +477,20 @@ public class MegaRegistry {
                                 66
                         ),
                         Ability.BUG_GLUTTON,
-                        15, "avalos", List.of(Label.GEN4,Label.AVALOS))
+                        15, "avalos", List.of(Label.GEN4, Label.AVALOS))
                         .addPalette(new MegaStonePalette("#e63900", "#f6cd31", "#bdc57b")),
+                new MegaEvolution("torterra",
+                        Type.GRASS, Type.GROUND,
+                        new Stats(95,
+                                129,
+                                145,
+                                75,
+                                135,
+                                46
+                        ),
+                        Ability.STAMINA,
+                        22, "avalos", List.of(Label.GEN4, Label.AVALOS))
+                        .addPalette(new MegaStonePalette("#478556", "#e6e6e6", "#b58452")),
                 new MegaEvolution("infernape",
                         Type.FIRE, Type.FIGHTING,
                         new Stats(76,
@@ -489,8 +501,20 @@ public class MegaRegistry {
                                 138
                         ),
                         Ability.LEVITATE,
-                        16, "avalos", List.of(Label.GEN4,Label.AVALOS))
+                        16, "avalos", List.of(Label.GEN4, Label.AVALOS))
                         .addPalette(new MegaStonePalette("#e63a42", "#ffde52", "#a57342")),
+                new MegaEvolution("empoleon",
+                        Type.WATER, Type.STEEL,
+                        new Stats(84,
+                                111,
+                                108,
+                                136,
+                                121,
+                                70
+                        ),
+                        Ability.SUPREME_OVERLORD,
+                        17, "avalos", List.of(Label.GEN4, Label.AVALOS))
+                        .addPalette(new MegaStonePalette("#102142", "#ffe684", "#528ce6")),
                 new MegaEvolution("magnezone",
                         Type.ELECTRIC, Type.STEEL,
                         new Stats(70,
@@ -501,7 +525,7 @@ public class MegaRegistry {
                                 75
                         ),
                         Ability.OVERCHARGED,
-                        17, "avalos", List.of(Label.GEN4,Label.AVALOS))
+                        17, "avalos", List.of(Label.GEN4, Label.AVALOS))
                         .addPalette(new MegaStonePalette("#d54a29", "#9cbdee", "#acacb4")),
                 new MegaEvolution("sceptile",
                         Type.ROCK, Type.STEEL,
@@ -513,8 +537,44 @@ public class MegaRegistry {
                                 145
                         ),
                         Ability.MOLDBREAKER,
-                        17, "avalos", List.of(Label.GEN3,Label.AVALOS), Aspect.AVALOSSIAN)
+                        17, "avalos", List.of(Label.GEN3, Label.AVALOS), Aspect.AVALOSSIAN)
                         .addPalette(new MegaStonePalette("#8f8263", "#fcfbfe", "#bf9863")),
+                new MegaEvolution("victreebel",
+                        Type.GRASS, Type.DARK,
+                        new Stats(70,
+                                145,
+                                85,
+                                110,
+                                75,
+                                145
+                        ),
+                        Ability.MALICE,
+                        23, "avalos", List.of(Label.GEN1, Label.AVALOS), Aspect.AVALOSSIAN)
+                        .addPalette(new MegaStonePalette("#3b373f", "#e44484", "#7bc552")),
+                new MegaEvolution("dugtrio",
+                        Type.GROUND,
+                        new Stats(35,
+                                150,
+                                75,
+                                50,
+                                85,
+                                130
+                        ),
+                        Ability.ROCKY_PAYLOAD,
+                        23, "avalos", List.of(Label.GEN1, Label.AVALOS))
+                        .addPalette(new MegaStonePalette("#545454", "#b4ac73", "#c57341")),
+                new MegaEvolution("conkeldurr",
+                        Type.FIGHTING,
+                        new Stats(105,
+                                170,
+                                105,
+                                65,
+                                95,
+                                65
+                        ),
+                        Ability.OVERWHELMING,
+                        20, "avalos", List.of(Label.GEN5, Label.AVALOS))
+                        .addPalette(new MegaStonePalette("#8b8b83", "#c56ab4", "#c59c73")),
                 new MegaEvolution("tropius",
                         Type.GRASS, Type.DRAGON,
                         new Stats(119,
@@ -525,8 +585,20 @@ public class MegaRegistry {
                                 61
                         ),
                         Ability.THICK_FAT,
-                        23, "avalos", List.of(Label.GEN3,Label.AVALOS))
+                        23, "avalos", List.of(Label.GEN3, Label.AVALOS))
                         .addPalette(new MegaStonePalette("#7b5a4a", "#ffff6a", "#52ac52")),
+                new MegaEvolution("opalian",
+                        Type.ROCK, Type.FAIRY,
+                        new Stats(70,
+                                130,
+                                110,
+                                70,
+                                140,
+                                100
+                        ),
+                        Ability.SOLID_ROCK,
+                        34, "avalos", List.of(Label.AVALOS))
+                        .addPalette(new MegaStonePalette("#c175f4", "#ff6696", "#4f5253")),
                 new MegaEvolution("moreaper",
                         Type.GHOST, Type.GRASS,
                         new Stats(70,
@@ -550,139 +622,247 @@ public class MegaRegistry {
                         ),
                         Ability.SCAVENGE,
                         11, "mystis", List.of(Label.MYSTIS))
-                        .addPalette(new MegaStonePalette("#da3d41", "#ffffff", "#d6b78c"))
+                        .addPalette(new MegaStonePalette("#da3d41", "#ffffff", "#d6b78c")),
+                new MegaEvolution("cofagrigus",
+                        Type.GHOST,
+                        new Stats(58,
+                                120,
+                                55,
+                                95,
+                                55,
+                                100
+                        ),
+                        Ability.SHEER_FORCE,
+                        18, "nodorro", List.of(Label.NODORRO, Label.GEN5))
+                        .addPalette(new MegaStonePalette("#3194ad", "#ffbd31", "#1f1f30")),
+                new MegaEvolution("khaheena",
+                        Type.GROUND, Type.GHOST,
+                        new Stats(89,
+                                130,
+                                88,
+                                109,
+                                89,
+                                110
+                        ),
+                        Ability.SAND_STREAM,
+                        17, "ionos", List.of(Label.IONOS))
+                        .addPalette(new MegaStonePalette("#e67c4a", "#eed594", "#5a5a62")),
+                new MegaEvolution("meaniechu",
+                        Type.ELECTRIC, Type.PSYCHIC,
+                        new Stats(80,
+                                130,
+                                66,
+                                111,
+                                96,
+                                50
+                        ),
+                        Ability.SAND_STREAM,
+                        15, "ionos", List.of(Label.IONOS))
+                        .addPalette(new MegaStonePalette("#414141", "#ffd500", "#2bbfff")),
+                new MegaEvolution("sheagull",
+                        Type.NORMAL, Type.PSYCHIC,
+                        new Stats(102,
+                                80,
+                                88,
+                                138,
+                                90,
+                                90
+                        ),
+                        Ability.NO_GUARD,
+                        16, "ionos", List.of(Label.IONOS))
+                        .addPalette(new MegaStonePalette("#f6d069", "#ffffff", "#946641")),
+                new MegaEvolution("torpeban",
+                        Type.FIRE,
+                        new Stats(85,
+                                135,
+                                105,
+                                90,
+                                105,
+                                90
+                        ),
+                        Ability.SKILL_LINK,
+                        15, "kuria", List.of(Label.KURIA))
+                        .addPalette(new MegaStonePalette("#222d60", "#ffde52", "#7b7bb4")),
+                new MegaEvolution("drajinn",
+                        Type.DRAGON, Type.FLYING,
+                        new Stats(70,
+                                120,
+                                80,
+                                150,
+                                80,
+                                120
+                        ),
+                        Ability.AERILATE,
+                        21, "kuria", List.of(Label.KURIA))
+                        .addPalette(new MegaStonePalette("#7671e1", "#0ae7e1", "#e3f0ee")),
+                new MegaEvolution("visarab",
+                        Type.BUG, Type.DRAGON,
+                        new Stats(72,
+                                170,
+                                111,
+                                150,
+                                116,
+                                81
+                        ),
+                        Ability.TINTED_LENS,
+                        21, "kuria", List.of(Label.KURIA))
+                        .addPalette(new MegaStonePalette("#2c2c2c", "#ec2f2f", "#e0e2f2")),
+                new MegaEvolution("oblivicorn",
+                        Type.FAIRY, Type.DARK,
+                        new Stats(75,
+                                143,
+                                102,
+                                67,
+                                100,
+                                123
+                        ),
+                        Ability.SHEER_FORCE,
+                        25, "kuria", List.of(Label.KURIA))
+                        .addPalette(new MegaStonePalette("#b6254f", "#fff993", "#b588ac")),
+                new MegaEvolution("pasmafis",
+                        Type.WATER, Type.DRAGON,
+                        new Stats(103,
+                                77,
+                                120,
+                                77,
+                                120,
+                                70
+                        ),
+                        Ability.SPLASHBACK,
+                        20, "kuria", List.of(Label.KURIA))
+                        .addPalette(new MegaStonePalette("#1b314e", "#f67b29", "#8bbdff"))
 
-        );
+                );
     }
 
     private static List<MegaEvolution> getSolarLightLunarDalkMegas() {
         return List.of(
                 new MegaEvolution("mountree",
-                        Type.GRASS,Type.ROCK,
-                        new Stats(111,128,142,60,89,105),
+                        Type.GRASS, Type.ROCK,
+                        new Stats(111, 128, 142, 60, 89, 105),
                         Ability.ROCK_HEAD,
                         21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#a88239","#62d23c","#8a9ba4")),
+                        .addPalette(new MegaStonePalette("#a88239", "#62d23c", "#8a9ba4")),
                 new MegaEvolution("flearoe",
-                        Type.FIRE,Type.GROUND,
-                        new Stats(75,82,118,128,145,87),
+                        Type.FIRE, Type.GROUND,
+                        new Stats(75, 82, 118, 128, 145, 87),
                         Ability.SMOKE_OUT,
                         15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#f22626","#efc68c","#f89c21")),
+                        .addPalette(new MegaStonePalette("#f22626", "#efc68c", "#f89c21")),
                 new MegaEvolution("salaslam",
-                        Type.WATER,Type.POISON,
-                        new Stats(88,142,80,105,131,89),
+                        Type.WATER, Type.POISON,
+                        new Stats(88, 142, 80, 105, 131, 89),
                         Ability.SHEER_FORCE,
                         20, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#313e4d","#de57fb","#788cd1")),
+                        .addPalette(new MegaStonePalette("#313e4d", "#de57fb", "#788cd1")),
                 new MegaEvolution("lavenrina",
-                        Type.GRASS,Type.FAIRY,
-                        new Stats(70,55,95,90,137,138),
+                        Type.GRASS, Type.FAIRY,
+                        new Stats(70, 55, 95, 90, 137, 138),
                         Ability.SPEED_BOOST,
                         16, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#b16aff","#ffffff","#ffdffa")),
+                        .addPalette(new MegaStonePalette("#b16aff", "#ffffff", "#ffdffa")),
                 new MegaEvolution("fevesta",
-                        Type.POISON,Type.DARK,
-                        new Stats(62,105,95,139,120,95),
+                        Type.POISON, Type.DARK,
+                        new Stats(62, 105, 95, 139, 120, 95),
                         Ability.MERCILESS,
                         19, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#302831","#ef0569","#d900c9")),
+                        .addPalette(new MegaStonePalette("#302831", "#ef0569", "#d900c9")),
                 new MegaEvolution("smaqua",
-                        Type.FIGHTING,Type.WATER,
-                        new Stats(80,130,105,86,52,80),
+                        Type.FIGHTING, Type.WATER,
+                        new Stats(80, 130, 105, 86, 52, 80),
                         Ability.CROSS_GUARD,
                         19, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#353344","#ffffff","#235ada")),
+                        .addPalette(new MegaStonePalette("#353344", "#ffffff", "#235ada")),
                 new MegaEvolution("werehide",
                         Type.DARK, Type.FIGHTING,
-                        new Stats(70,146,95,101,75,85),
+                        new Stats(70, 146, 95, 101, 75, 85),
                         Ability.STAKEOUT,
                         15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#1c1621","#c82261","#6b536f")),
+                        .addPalette(new MegaStonePalette("#1c1621", "#c82261", "#6b536f")),
                 new MegaEvolution("crystox",
-                        Type.ROCK,Type.POISON,
-                        new Stats(80,140,145,85,60,85),
+                        Type.ROCK, Type.POISON,
+                        new Stats(80, 140, 145, 85, 60, 85),
                         Ability.TINTED_LENS,
                         16, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#353258","#efabe4","#8b9ce6")),
+                        .addPalette(new MegaStonePalette("#353258", "#efabe4", "#8b9ce6")),
                 new MegaEvolution("lophug",
                         Type.FAIRY, Type.FIGHTING,
-                        new Stats(70,80,90,105,90,120),
+                        new Stats(70, 80, 90, 105, 90, 120),
                         Ability.HUGE_POWER,
                         9, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#742342","#ffffff","#f8a5c1")),
+                        .addPalette(new MegaStonePalette("#742342", "#ffffff", "#f8a5c1")),
                 new MegaEvolution("geckone",
                         Type.PSYCHIC, Type.DARK,
-                        new Stats(60,70,70,125,140,90),
+                        new Stats(60, 70, 70, 125, 140, 90),
                         Ability.NEUROFORCE,
                         8, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#515069","#fa879e","#9e6fd2")),
+                        .addPalette(new MegaStonePalette("#515069", "#fa879e", "#9e6fd2")),
                 new MegaEvolution("rushot",
                         Type.ELECTRIC,
-                        new Stats(65,133,65,141,130,65),
+                        new Stats(65, 133, 65, 141, 130, 65),
                         Ability.GALVANIZE,
                         15, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#5ae8ef","#f1ff46","#5a5360")),
+                        .addPalette(new MegaStonePalette("#5ae8ef", "#f1ff46", "#5a5360")),
                 new MegaEvolution("dinopion",
-                        Type.FIGHTING,Type.DRAGON,
-                        new Stats(65,155,110,102,61,90),
+                        Type.FIGHTING, Type.DRAGON,
+                        new Stats(65, 155, 110, 102, 61, 90),
                         Ability.MOXIE,
                         21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#d04228","#f3c72c","#585199")),
+                        .addPalette(new MegaStonePalette("#d04228", "#f3c72c", "#585199")),
                 new MegaEvolution("raizodon",
                         Type.ELECTRIC, Type.DRAGON,
-                        new Stats(95,165,100,85,90,80),
+                        new Stats(95, 165, 100, 85, 90, 80),
                         Ability.SHEER_FORCE,
                         21, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#434658","#ffe320","#a7b4ab")),
+                        .addPalette(new MegaStonePalette("#434658", "#ffe320", "#a7b4ab")),
                 new MegaEvolution("parabow",
-                        Type.NORMAL,Type.FLYING,
-                        new Stats(65, 104+33, 75, 113+34, 54, 75+33),
+                        Type.NORMAL, Type.FLYING,
+                        new Stats(65, 104 + 33, 75, 113 + 34, 54, 75 + 33),
                         Ability.SCRAPPY,
                         13, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#e36562","#ffffff","#80c8fd")),
+                        .addPalette(new MegaStonePalette("#e36562", "#ffffff", "#80c8fd")),
                 new MegaEvolution("skeledeep",
-                        Type.WATER,Type.GHOST,
-                        new Stats(70,115,145,105,40,105),
+                        Type.WATER, Type.GHOST,
+                        new Stats(70, 115, 145, 105, 40, 105),
                         Ability.REGENERATOR,
                         13, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#2d2b3c","#e8dad3","#423f56")),
+                        .addPalette(new MegaStonePalette("#2d2b3c", "#e8dad3", "#423f56")),
                 new MegaEvolution("monstune",
-                        Type.GROUND,Type.DARK,
-                        new Stats(90,90,75,75,138,125),
+                        Type.GROUND, Type.DARK,
+                        new Stats(90, 90, 75, 75, 138, 125),
                         Ability.SAND_RUSH,
                         0, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#e1c6aa","#e4cd9c","#ebe0d3")),
+                        .addPalette(new MegaStonePalette("#e1c6aa", "#e4cd9c", "#ebe0d3")),
                 new MegaEvolution("elestomp",
                         Type.GROUND, Type.GHOST,
-                        new Stats(131,95,125,45,108,114),
+                        new Stats(131, 95, 125, 45, 108, 114),
                         Ability.WANDERING_SPIRIT,
                         17, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#626384","#f7f7f2","#bcb094")),
+                        .addPalette(new MegaStonePalette("#626384", "#f7f7f2", "#bcb094")),
                 new MegaEvolution("leonite",
                         Type.ROCK,
-                        new Stats(74,155,128,103,58,82),
+                        new Stats(74, 155, 128, 103, 58, 82),
                         Ability.STRONG_JAW,
                         18, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#5e697b","#bae6ea","#c4b59f")),
+                        .addPalette(new MegaStonePalette("#5e697b", "#bae6ea", "#c4b59f")),
                 new MegaEvolution("cryodrago",
-                        Type.ICE,Type.DRAGON,
-                        new Stats(90,60,90,95,145,160),
+                        Type.ICE, Type.DRAGON,
+                        new Stats(90, 60, 90, 95, 145, 160),
                         Ability.MAGICBOUNCE,
                         42, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#9991fb","#f6f6f6","#acf9f4")),
+                        .addPalette(new MegaStonePalette("#9991fb", "#f6f6f6", "#acf9f4")),
                 new MegaEvolution("nawale",
-                        Type.ICE,Type.WATER,
-                        new Stats(85,170,90,90,100,80),
+                        Type.ICE, Type.WATER,
+                        new Stats(85, 170, 90, 90, 100, 80),
                         Ability.REFRIGERATE,
                         39, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#a2f4f2","#ddeaff","#1f63d3")),
+                        .addPalette(new MegaStonePalette("#a2f4f2", "#ddeaff", "#1f63d3")),
                 new MegaEvolution("aurorai",
-                        Type.ELECTRIC,Type.ICE,
-                        new Stats(60,59,75,125,139,125),
+                        Type.ELECTRIC, Type.ICE,
+                        new Stats(60, 59, 75, 125, 139, 125),
                         Ability.TRANSISTOR,
                         6, "solarlightlunardark", List.of(Label.SOLARLIGHTLUNARDARK))
-                        .addPalette(new MegaStonePalette("#e88efb","#5bf4dd","#e88efb"))
+                        .addPalette(new MegaStonePalette("#e88efb", "#5bf4dd", "#e88efb"))
         );
     }
 
@@ -813,7 +993,7 @@ public class MegaRegistry {
                         new Stats(100, 135, 95, 125, 50, 120),
                         Ability.LEECHINGFANGS,
                         30, "soulstones", List.of(Label.GEN8, Label.SOULSTONES), "epoch")
-                        .addPalette(new MegaStonePalette("#312039","#00e273", "#845a97")),
+                        .addPalette(new MegaStonePalette("#312039", "#00e273", "#845a97")),
                 new MegaEvolution("chandelure",
                         Type.LIGHT, Type.GHOST,
                         new Stats(70, 65, 80, 130, 140, 135),
@@ -989,8 +1169,8 @@ public class MegaRegistry {
                         19, "soulstones", List.of(Label.GEN3, Label.SOULSTONES), "epoch")
                         .addPalette(new MegaStonePalette("#58585f", "#fff5f5", "#f7483a")),
                 new MegaEvolution("gliscor",
-                        Type.ROCK,Type.DRAGON,
-                        new Stats(95,135,125,75,45,135),
+                        Type.ROCK, Type.DRAGON,
+                        new Stats(95, 135, 125, 75, 45, 135),
                         Ability.NO_GUARD,
                         21, "soulstones", List.of(Label.GEN4, Label.SOULSTONES), "epoch")
                         .addPalette(new MegaStonePalette("#414152", "#ffffff", "#757575")),
@@ -1783,12 +1963,12 @@ public class MegaRegistry {
                         Ability.FOUNDRY,
                         56, "insurgence", List.of(Label.GEN2, Label.INSURGENCE))
                         .addPalette(new MegaStonePalette("#ca460c", "#ffc500", "#51473e"))
-                        .setMegaName("mega_fire").onProcessResources(pokemon->{
+                        .setMegaName("mega_fire").onProcessResources(pokemon -> {
                             pokemon.getSpeciesFileData().addBasicVariation("Uncle Berry")
                                     .addLayer(new SimpleTextureLayerData("glow", "steelix_mega_emissive",
-                                    Optional.of(true), Optional.of(true), true, false))
+                                            Optional.of(true), Optional.of(true), true, false))
                                     .addLayer(new AnimatedLayerData("flame", List.of("flame/flame1", "flame/flame2", "flame/flame3", "flame/flame4"), 10,
-                                                    true, Optional.of(true), Optional.of(false), false, true)
+                                            true, Optional.of(true), Optional.of(false), false, true)
                                     );
                             pokemon.getPosingFileData().setAnimationFileName("mega_steelix_fire");
                             pokemon.getPosingFileData().setPortraitData(0.61f, new Vector3(-0.4, 1.77, 0));
@@ -1803,7 +1983,7 @@ public class MegaRegistry {
                             pokemon.getPosingFileData().setCryFromAnimationType("q.bedrock_stateful");
 
                             pokemon.setBaseScale(1.5);
-                            pokemon.setHitbox(1,1);
+                            pokemon.setHitbox(1, 1);
                         }),
                 new MegaEvolution("magcargo",
                         Type.FIRE,

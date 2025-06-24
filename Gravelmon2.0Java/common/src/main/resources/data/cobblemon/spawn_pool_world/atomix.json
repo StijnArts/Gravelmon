@@ -7,17 +7,20 @@
       "id": "atomix-01",
       "pokemon": "atomix",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "28-48",
-      "weight": 1.2,
+      "bucket": "common",
+      "level": "9-29",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#minecraft:is_end"
-        ]
+          "#cobblemon:is_deep_dark"
+        ],
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

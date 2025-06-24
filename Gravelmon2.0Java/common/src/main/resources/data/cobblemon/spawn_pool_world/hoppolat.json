@@ -7,7 +7,8 @@
       "id": "hoppolat-01",
       "pokemon": "hoppolat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

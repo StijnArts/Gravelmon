@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shimpole",
+  "speciesId": "cobblemon:shimpole",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

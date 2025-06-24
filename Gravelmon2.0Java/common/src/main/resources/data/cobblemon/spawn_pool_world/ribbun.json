@@ -7,7 +7,8 @@
       "id": "ribbun-01",
       "pokemon": "ribbun",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

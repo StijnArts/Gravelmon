@@ -7,6 +7,7 @@
       "id": "egho_lotad-01",
       "pokemon": "lotad egho",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -32,7 +33,8 @@
       "id": "delta_lotad-01",
       "pokemon": "lotad delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -43,7 +45,9 @@
         "biomes": [
           "#cobblemon:is_magical",
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -58,7 +62,8 @@
       "id": "epoch_lotad-01",
       "pokemon": "lotad epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

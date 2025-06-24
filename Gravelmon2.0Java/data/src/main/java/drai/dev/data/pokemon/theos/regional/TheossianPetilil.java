@@ -23,7 +23,8 @@ public class TheossianPetilil extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Adapting to the nutrient-poor soil of Theos Mountains, Petilil evolved to burrow in and absorb sunlight from the snow's reflective surface."),
-                List.of(),
+                List.of(new EvolutionEntry("theossianlilligant", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.GROWTH,4),
@@ -98,9 +99,9 @@ public class TheossianPetilil extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Petilil");

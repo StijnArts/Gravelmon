@@ -7,7 +7,8 @@
       "id": "camottle-01",
       "pokemon": "camottle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

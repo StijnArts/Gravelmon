@@ -7,7 +7,8 @@
       "id": "epoch_deerling-01",
       "pokemon": "deerling epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "ayreian_deerling-01",
       "pokemon": "deerling ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

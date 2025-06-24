@@ -53,7 +53,8 @@ public class ExcelExporter {
                                     if(mega.getAspect() == null) {
                                         return mega.getAspect() == null && pokemon.getAdditionalAspect() == null;
                                     }
-                                    return mega.getAspect().replaceAll("_", "").equalsIgnoreCase(pokemon.getAdditionalAspect().getName());
+                                    if(pokemon.getAdditionalAspect()!=null) return mega.getAspect().replaceAll("_", "").equalsIgnoreCase(pokemon.getAdditionalAspect().getName());
+                                    return false;
                                 }).toList();
                         pokemonAndMegas.addAll(megas);
                     }

@@ -7,7 +7,8 @@
       "id": "calaloof-01",
       "pokemon": "calaloof",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

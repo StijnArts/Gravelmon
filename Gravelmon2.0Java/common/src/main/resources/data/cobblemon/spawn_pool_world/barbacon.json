@@ -7,7 +7,8 @@
       "id": "barbacon-01",
       "pokemon": "barbacon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

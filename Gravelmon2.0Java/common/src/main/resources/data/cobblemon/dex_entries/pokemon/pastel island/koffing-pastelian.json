@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:koffing-pastelian",
+  "speciesId": "cobblemon:koffing",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

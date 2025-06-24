@@ -7,7 +7,8 @@
       "id": "chlorinse-01",
       "pokemon": "chlorinse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

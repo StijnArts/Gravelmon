@@ -16,7 +16,7 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -34,7 +34,8 @@
       "id": "cefiran_sableye-01",
       "pokemon": "sableye cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "delta_sableye-01",
       "pokemon": "sableye delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +89,8 @@
       "id": "epoch_sableye-01",
       "pokemon": "sableye epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,6 +115,7 @@
       "id": "epoch_sableye-01",
       "pokemon": "sableye epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -139,7 +143,8 @@
       "id": "enjinnian_sableye-01",
       "pokemon": "sableye enjinnian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -150,7 +155,9 @@
         "biomes": [
           "#cobblemon:is_freezing"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -165,7 +172,8 @@
       "id": "fabelian_sableye-01",
       "pokemon": "sableye fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

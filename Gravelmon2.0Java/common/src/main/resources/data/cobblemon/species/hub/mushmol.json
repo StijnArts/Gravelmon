@@ -226,7 +226,9 @@
         "hub",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.nosepattern.desc"
+      ],
       "height": 3,
       "weight": 165,
       "aspects": [
@@ -319,7 +321,9 @@
         "hub",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.browpattern.desc"
+      ],
       "height": 3,
       "weight": 165,
       "aspects": [

@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -38,7 +40,8 @@
       "id": "epoch_drakloak-01",
       "pokemon": "drakloak epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +69,8 @@
       "id": "hoennian_drakloak-01",
       "pokemon": "drakloak hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

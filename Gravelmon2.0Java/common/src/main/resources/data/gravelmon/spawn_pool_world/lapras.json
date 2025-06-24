@@ -17,9 +17,7 @@
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -34,7 +32,8 @@
       "id": "epoch_lapras-01",
       "pokemon": "lapras epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +60,8 @@
       "id": "kaskadian_lapras-01",
       "pokemon": "lapras kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +71,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -113,7 +115,8 @@
       "id": "ayreian_lapras-01",
       "pokemon": "lapras ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -123,7 +126,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -144,6 +149,7 @@
       "id": "novran_lapras-01",
       "pokemon": "lapras novran",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -172,7 +178,8 @@
       "id": "ferranian_lapras-01",
       "pokemon": "lapras ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

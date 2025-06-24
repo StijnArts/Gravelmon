@@ -7,7 +7,8 @@
       "id": "womblock-01",
       "pokemon": "womblock",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

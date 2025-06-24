@@ -16,7 +16,7 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -34,7 +34,8 @@
       "id": "epoch_trubbish-01",
       "pokemon": "trubbish epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +46,9 @@
         "biomes": [
           "#cobblemon:is_swamp"
         ],
-        "isThundering": true
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +63,8 @@
       "id": "mahalian_trubbish-01",
       "pokemon": "trubbish mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "slugmud-01",
       "pokemon": "slugmud",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

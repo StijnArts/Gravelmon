@@ -33,7 +33,8 @@
       "id": "epoch_sharpedo-01",
       "pokemon": "sharpedo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

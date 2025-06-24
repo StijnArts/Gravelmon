@@ -16,21 +16,22 @@ public class Stachick extends drai.dev.data.pokemon.Pokemon {
                         38,
                         58),
                 List.of(Ability.STATIC,Ability.EARLY_BIRD), Ability.LIGHTNING_ROD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
+                List.of(new EvolutionEntry("shockite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(),
                 List.of(Label.OTTORA),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Stachick");

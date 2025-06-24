@@ -563,9 +563,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .unlockedBy("hasHardStone", has(CobblemonItems.HARD_STONE))
                 .save(exporter);
 
-        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet()) {
-            SingleItemRecipeBuilder.stonecutting(Ingredient.of(MegaStones.MEGA_STONE),RecipeCategory.MISC,value.get())
-                    .unlockedBy("hasMegaStone", has(MegaStones.MEGA_STONE)).save(exporter);
-        }
+//        for (Supplier<Item> value : GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.keySet()) {
+//            SingleItemRecipeBuilder.stonecutting(Ingredient.of(MegaStones.MEGA_STONE),RecipeCategory.MISC,value.get())
+//                    .unlockedBy("hasMegaStone", has(MegaStones.MEGA_STONE)).save(exporter);
+//        }
     }
 }

@@ -7,7 +7,8 @@
       "id": "hilliage-01",
       "pokemon": "hilliage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

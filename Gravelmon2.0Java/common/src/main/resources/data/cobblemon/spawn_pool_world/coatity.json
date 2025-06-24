@@ -7,7 +7,8 @@
       "id": "coatity-01",
       "pokemon": "coatity",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

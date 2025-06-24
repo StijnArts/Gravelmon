@@ -7,7 +7,8 @@
       "id": "liglit-01",
       "pokemon": "liglit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tapukoko",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
 }

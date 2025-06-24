@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sparaffe",
+  "speciesId": "cobblemon:sparaffe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

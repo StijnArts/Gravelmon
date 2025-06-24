@@ -7,7 +7,8 @@
       "id": "cockatoto-01",
       "pokemon": "cockatoto",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

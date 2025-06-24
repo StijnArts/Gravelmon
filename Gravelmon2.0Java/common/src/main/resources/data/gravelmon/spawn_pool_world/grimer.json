@@ -7,7 +7,8 @@
       "id": "egho_grimer-01",
       "pokemon": "grimer egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "delta_grimer-01",
       "pokemon": "grimer delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "epoch_grimer-01",
       "pokemon": "grimer epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +117,8 @@
       "id": "forman_grimer-01",
       "pokemon": "grimer forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -169,7 +173,8 @@
       "id": "novran_grimer-01",
       "pokemon": "grimer novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

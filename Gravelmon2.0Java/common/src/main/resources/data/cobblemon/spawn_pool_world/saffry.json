@@ -7,7 +7,8 @@
       "id": "saffry-01",
       "pokemon": "saffry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_floral",
           "#cobblemon:is_jungle"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

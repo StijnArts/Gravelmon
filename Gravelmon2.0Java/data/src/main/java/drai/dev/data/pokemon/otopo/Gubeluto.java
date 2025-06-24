@@ -16,8 +16,8 @@ public class Gubeluto extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,11 +28,13 @@ public class Gubeluto extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Gubeluto");
 
     }

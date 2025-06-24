@@ -7,7 +7,8 @@
       "id": "ninfoxy-01",
       "pokemon": "ninfoxy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

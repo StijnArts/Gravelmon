@@ -8,6 +8,7 @@
       "pokemon": "gireamer",
       "presets": [
         "natural",
+        "wild",
         "wild"
       ],
       "type": "pokemon",

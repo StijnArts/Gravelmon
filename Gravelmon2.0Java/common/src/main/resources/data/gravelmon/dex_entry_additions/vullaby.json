@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:vullaby",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

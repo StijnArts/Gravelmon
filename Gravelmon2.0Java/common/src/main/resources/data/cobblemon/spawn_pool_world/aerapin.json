@@ -7,7 +7,8 @@
       "id": "aerapin-01",
       "pokemon": "aerapin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

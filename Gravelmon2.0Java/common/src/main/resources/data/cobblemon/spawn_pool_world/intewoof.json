@@ -7,7 +7,8 @@
       "id": "intewoof-01",
       "pokemon": "intewoof",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

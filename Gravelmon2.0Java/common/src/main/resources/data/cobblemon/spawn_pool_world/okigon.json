@@ -7,7 +7,8 @@
       "id": "okigon-01",
       "pokemon": "okigon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

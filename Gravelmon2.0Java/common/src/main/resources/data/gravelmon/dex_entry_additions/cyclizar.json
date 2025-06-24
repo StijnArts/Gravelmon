@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:cyclizar",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

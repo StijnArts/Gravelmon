@@ -8,7 +8,8 @@
       "pokemon": "krokorok epoch",
       "presets": [
         "village",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "ayreian_krokorok-01",
       "pokemon": "krokorok ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

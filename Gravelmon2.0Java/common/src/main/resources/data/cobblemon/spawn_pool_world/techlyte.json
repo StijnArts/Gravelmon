@@ -16,7 +16,7 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "timeRange": "night",
         "minSkyLight": 8,

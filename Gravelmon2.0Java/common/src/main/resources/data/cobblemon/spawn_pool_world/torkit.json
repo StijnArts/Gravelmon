@@ -7,7 +7,8 @@
       "id": "torkit-01",
       "pokemon": "torkit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

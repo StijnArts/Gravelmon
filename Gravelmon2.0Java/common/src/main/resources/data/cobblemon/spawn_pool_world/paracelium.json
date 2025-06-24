@@ -7,7 +7,8 @@
       "id": "paracelium-01",
       "pokemon": "paracelium",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

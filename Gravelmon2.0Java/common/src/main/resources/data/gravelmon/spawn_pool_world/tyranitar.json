@@ -32,7 +32,8 @@
       "id": "epoch_tyranitar-01",
       "pokemon": "tyranitar epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -42,7 +43,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -57,7 +60,8 @@
       "id": "armiran_tyranitar-01",
       "pokemon": "tyranitar armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,9 +72,7 @@
         "biomes": [
           "#cobblemon:is_volvanic",
           "#minecraft:is_nether"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

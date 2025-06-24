@@ -23,7 +23,8 @@ public class Watter extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Watter are extremely agile and can deflect even the most precise blows. It has the ability to reach the ocean's lowest depths."),
-                List.of(),
+                List.of(new EvolutionEntry("marinott", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
@@ -41,11 +42,13 @@ public class Watter extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(7).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
+                        .setContext(SpawnContext.SURFACE)
+                        .setBiomes(Biome.IS_COAST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.WATER_SURFACE).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Watter");
 
     }

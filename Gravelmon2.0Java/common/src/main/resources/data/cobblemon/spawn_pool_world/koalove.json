@@ -7,7 +7,8 @@
       "id": "koalove-01",
       "pokemon": "koalove",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

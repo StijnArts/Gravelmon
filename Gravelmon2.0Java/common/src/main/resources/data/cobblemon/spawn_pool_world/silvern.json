@@ -7,7 +7,8 @@
       "id": "silvern-01",
       "pokemon": "silvern",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

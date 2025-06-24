@@ -7,7 +7,8 @@
       "id": "stalagrunt-01",
       "pokemon": "stalagrunt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "haffy",
-  "baseScale": 19.200000000000003,
+  "baseScale": 0.5408450704225353,
   "cannotDynamax": false,
   "abilities": [
     "innerfocus",
@@ -95,11 +95,11 @@
   "weight": 402,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8870,
+  "nationalPokedexNumber": 9157,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.4375,
+    "height": 4.4375,
     "fixed": false
   },
   "features": [],

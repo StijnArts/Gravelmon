@@ -7,7 +7,8 @@
       "id": "odirose-01",
       "pokemon": "odirose",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

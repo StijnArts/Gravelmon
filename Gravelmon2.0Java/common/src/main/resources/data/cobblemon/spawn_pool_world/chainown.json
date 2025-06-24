@@ -7,7 +7,8 @@
       "id": "chainown-01",
       "pokemon": "chainown",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

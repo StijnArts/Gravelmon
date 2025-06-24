@@ -7,7 +7,8 @@
       "id": "smettle-01",
       "pokemon": "smettle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

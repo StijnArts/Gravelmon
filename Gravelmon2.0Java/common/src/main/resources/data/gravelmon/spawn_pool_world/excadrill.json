@@ -7,7 +7,8 @@
       "id": "epoch_excadrill-01",
       "pokemon": "excadrill epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_excadrill-01",
       "pokemon": "excadrill epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +46,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_freezing"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -64,7 +68,8 @@
       "id": "kaskadian_excadrill-01",
       "pokemon": "excadrill kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

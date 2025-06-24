@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:soarinne",
+  "speciesId": "cobblemon:soarinne",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

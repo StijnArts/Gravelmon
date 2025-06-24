@@ -7,6 +7,7 @@
       "id": "polynett-01",
       "pokemon": "polynett",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

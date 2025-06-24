@@ -7,7 +7,8 @@
       "id": "kuloff-01",
       "pokemon": "kuloff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

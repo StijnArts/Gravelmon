@@ -8,7 +8,8 @@
       "pokemon": "carabomb",
       "presets": [
         "wild",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "ganpaow-01",
       "pokemon": "ganpaow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

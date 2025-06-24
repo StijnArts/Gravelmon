@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "inquidy",
-  "baseScale": 37.2,
+  "baseScale": 0.7515151515151516,
   "cannotDynamax": false,
   "abilities": [
     "sniper",
@@ -121,11 +121,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8922,
+  "nationalPokedexNumber": 9214,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 6.1875,
+    "height": 6.1875,
     "fixed": false
   },
   "features": [],

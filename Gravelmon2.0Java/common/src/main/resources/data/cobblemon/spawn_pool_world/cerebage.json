@@ -7,16 +7,16 @@
       "id": "cerebage-01",
       "pokemon": "cerebage",
       "presets": [
-        "natural"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "26-46",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_grassland"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

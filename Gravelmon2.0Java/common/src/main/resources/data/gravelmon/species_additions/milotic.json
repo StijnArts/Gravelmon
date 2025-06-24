@@ -674,7 +674,8 @@
       },
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 25,
       "aspects": [
@@ -700,7 +701,8 @@
       },
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 24,
       "aspects": [
@@ -727,7 +729,8 @@
       },
       "labels": [
         "gen3",
-        "daybreak"
+        "daybreak",
+        "not_modeled"
       ],
       "height": 25,
       "aspects": [

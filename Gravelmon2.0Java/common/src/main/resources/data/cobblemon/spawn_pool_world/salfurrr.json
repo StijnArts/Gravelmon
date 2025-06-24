@@ -7,16 +7,16 @@
       "id": "salfurrr-01",
       "pokemon": "salfurrr",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
+      "context": "submerged",
+      "bucket": "uncommon",
       "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "minecraft:frozen_river"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

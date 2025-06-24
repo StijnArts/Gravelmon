@@ -7,7 +7,8 @@
       "id": "elvile-01",
       "pokemon": "elvile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

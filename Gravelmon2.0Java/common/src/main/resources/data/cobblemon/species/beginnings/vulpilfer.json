@@ -2,13 +2,13 @@
   "name": "Vulpilfer",
   "primaryType": "ground",
   "secondaryType": "dark",
-  "catchRate": 255,
+  "catchRate": 180,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.20425531914893616,
+  "baseScale": 0.3063829787234042,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 105,
+    "attack": 39,
+    "defence": 108,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 14
   },
   "evYield": {
     "hp": 0,
@@ -62,28 +62,29 @@
   "moves": [
     "1:mudslap",
     "1:bite",
-    "1:sandattack",
+    "1:shoreup",
+    "1:bulkup",
+    "1:growl",
     "1:leer",
-    "10:mudshot",
+    "1:bulkup",
+    "1:calmmind",
+    "10:sandattack",
     "10:payback",
+    "10:calmmind",
+    "10:taunt",
     "15:mudbomb",
-    "15:nightdaze",
+    "15:nightslash",
+    "15:taunt",
+    "15:substitute",
     "20:bulldoze",
-    "20:snarl",
-    "25:scorchingsands",
+    "20:crunch",
+    "20:substitute",
+    "20:rest",
+    "25:dig",
     "25:knockoff",
-    "30:earthpower",
-    "30:darkpulse",
-    "35:mudslap",
-    "35:bite",
-    "40:growl",
-    "40:leer",
-    "45:sandattack",
-    "45:payback",
-    "50:mudbomb",
-    "50:nightslash",
-    "55:bulldoze",
-    "55:crunch",
+    "25:rest",
+    "30:earthquake",
+    "30:suckerpunch",
     "tm:terablast"
   ],
   "labels": [
@@ -93,11 +94,26 @@
   "pokedex": [
     "cobblemon.species.vulpilfer.desc"
   ],
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9300,
+  "evolutions": [
+    {
+      "id": "vulpilfer_howltlaw",
+      "variant": "level_up",
+      "result": "howltlaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9647,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.9375000000000004,

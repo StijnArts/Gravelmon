@@ -11,7 +11,7 @@ public class Geonigma extends drai.dev.data.pokemon.Pokemon {
                 Type.NORMAL,
                 stats,
                 List.of(Ability.ACCLIMATIZE), Ability.ACCLIMATIZE,
-                0, 0,
+                7, 0,
                 new Stats(0,0,0,0,0,0), 35,
                 0.0,
                 0, ExperienceGroup.MEDIUM_FAST,
@@ -29,10 +29,10 @@ public class Geonigma extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TERRAIN_PULSE,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DESERT).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Geonigma");

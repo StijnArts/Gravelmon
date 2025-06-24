@@ -7,7 +7,8 @@
       "id": "chryspark-01",
       "pokemon": "chryspark",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

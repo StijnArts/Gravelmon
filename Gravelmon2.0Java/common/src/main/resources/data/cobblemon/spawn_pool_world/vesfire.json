@@ -7,7 +7,8 @@
       "id": "vesfire-01",
       "pokemon": "vesfire",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,7 +16,7 @@ public class Kelviper extends drai.dev.data.pokemon.Pokemon {
                         85,
                         60),
                 List.of(Ability.TORRENT), Ability.DRIZZLE,
-                37, 710,
+                23, 710,
                 new Stats(3,0,0,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -27,12 +27,14 @@ public class Kelviper extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Kelviper");
 
     }

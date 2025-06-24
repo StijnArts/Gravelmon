@@ -2,13 +2,14 @@
   "name": "Eeyencii",
   "primaryType": "electric",
   "secondaryType": "bug",
-  "catchRate": 96,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12,
+  "preEvolution": "yuesbii",
+  "baseScale": 0.36,
   "cannotDynamax": false,
   "abilities": [
     "download",
@@ -85,16 +86,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eeyencii.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9287,
+  "nationalPokedexNumber": 9634,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.0,

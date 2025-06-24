@@ -7,7 +7,8 @@
       "id": "felorest-01",
       "pokemon": "felorest",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

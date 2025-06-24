@@ -7,7 +7,8 @@
       "id": "meluros-01",
       "pokemon": "meluros",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

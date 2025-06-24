@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxerno",
+  "speciesId": "cobblemon:toxerno",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

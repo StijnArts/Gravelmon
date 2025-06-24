@@ -7,7 +7,8 @@
       "id": "merjestic-01",
       "pokemon": "merjestic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

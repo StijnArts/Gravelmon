@@ -7,7 +7,8 @@
       "id": "aetumnal-01",
       "pokemon": "aetumnal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

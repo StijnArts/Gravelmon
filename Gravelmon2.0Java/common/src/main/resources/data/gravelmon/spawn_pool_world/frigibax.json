@@ -7,7 +7,8 @@
       "id": "epoch_frigibax-01",
       "pokemon": "frigibax epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

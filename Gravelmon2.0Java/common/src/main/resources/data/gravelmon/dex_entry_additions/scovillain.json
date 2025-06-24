@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:scovillain",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "egho_altaria-01",
       "pokemon": "altaria egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "cefiran_altaria-01",
       "pokemon": "altaria cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,7 +66,8 @@
       "id": "varitasian_altaria-01",
       "pokemon": "altaria varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -91,7 +94,8 @@
       "id": "epoch_altaria-01",
       "pokemon": "altaria epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -145,7 +149,8 @@
       "id": "ayreian_altaria-01",
       "pokemon": "altaria ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

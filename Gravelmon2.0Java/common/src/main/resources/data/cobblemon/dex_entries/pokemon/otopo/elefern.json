@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:elefern",
+  "speciesId": "cobblemon:elefern",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

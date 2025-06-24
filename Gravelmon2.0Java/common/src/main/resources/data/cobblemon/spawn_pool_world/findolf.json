@@ -7,7 +7,8 @@
       "id": "findolf-01",
       "pokemon": "findolf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

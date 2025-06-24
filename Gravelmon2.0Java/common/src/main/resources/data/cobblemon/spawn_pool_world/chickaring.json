@@ -7,7 +7,8 @@
       "id": "chickaring-01",
       "pokemon": "chickaring",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

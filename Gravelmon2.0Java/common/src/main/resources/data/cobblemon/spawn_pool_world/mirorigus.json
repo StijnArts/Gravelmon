@@ -7,7 +7,8 @@
       "id": "mirorigus-01",
       "pokemon": "mirorigus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

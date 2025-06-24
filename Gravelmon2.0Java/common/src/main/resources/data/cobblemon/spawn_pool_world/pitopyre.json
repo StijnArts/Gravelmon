@@ -8,7 +8,8 @@
       "pokemon": "pitopyre",
       "presets": [
         "near_lava",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
         "biomes": [
           "#cobblemon:is_volvanic",
           "#cobblemon:is_cave"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

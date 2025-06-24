@@ -7,6 +7,7 @@
       "id": "smalldering-01",
       "pokemon": "smalldering",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

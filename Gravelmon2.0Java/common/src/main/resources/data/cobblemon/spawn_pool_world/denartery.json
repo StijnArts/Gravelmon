@@ -7,6 +7,7 @@
       "id": "denartery-01",
       "pokemon": "denartery",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

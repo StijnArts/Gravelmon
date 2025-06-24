@@ -7,7 +7,8 @@
       "id": "crabble-01",
       "pokemon": "crabble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

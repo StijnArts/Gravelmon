@@ -7,7 +7,8 @@
       "id": "mintrap-01",
       "pokemon": "mintrap",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

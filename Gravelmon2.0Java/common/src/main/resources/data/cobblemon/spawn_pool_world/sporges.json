@@ -7,7 +7,8 @@
       "id": "sporges-01",
       "pokemon": "sporges",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

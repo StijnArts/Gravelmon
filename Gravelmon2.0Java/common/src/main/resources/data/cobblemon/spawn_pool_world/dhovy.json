@@ -7,7 +7,8 @@
       "id": "dhovy-01",
       "pokemon": "dhovy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

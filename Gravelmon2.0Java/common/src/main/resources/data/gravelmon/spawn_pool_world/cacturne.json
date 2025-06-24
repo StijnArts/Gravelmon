@@ -7,7 +7,8 @@
       "id": "x_cacturne-01",
       "pokemon": "cacturne x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_cacturne-01",
       "pokemon": "cacturne epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "epoch_cacturne-01",
       "pokemon": "cacturne epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

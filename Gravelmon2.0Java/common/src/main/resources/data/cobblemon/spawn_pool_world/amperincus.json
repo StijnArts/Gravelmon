@@ -7,7 +7,8 @@
       "id": "amperincus-01",
       "pokemon": "amperincus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

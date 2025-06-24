@@ -7,7 +7,8 @@
       "id": "tigerage-01",
       "pokemon": "tigerage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

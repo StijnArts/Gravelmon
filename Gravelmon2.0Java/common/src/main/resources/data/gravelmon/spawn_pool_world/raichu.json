@@ -7,7 +7,8 @@
       "id": "delta_raichu-01",
       "pokemon": "raichu delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "x_raichu-01",
       "pokemon": "raichu x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "norse_raichu-01",
       "pokemon": "raichu norse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +90,8 @@
       "id": "epoch_raichu-01",
       "pokemon": "raichu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,7 +116,8 @@
       "id": "epoch_raichu-01",
       "pokemon": "raichu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -139,7 +144,8 @@
       "id": "mahalian_raichu-01",
       "pokemon": "raichu mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -149,6 +155,34 @@
       "condition": {
         "biomes": [
           "minecraft:the_void"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_raichu-01",
+      "pokemon": "raichu theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 0.05,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

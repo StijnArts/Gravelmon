@@ -7,7 +7,8 @@
       "id": "rakusuna-01",
       "pokemon": "rakusuna",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

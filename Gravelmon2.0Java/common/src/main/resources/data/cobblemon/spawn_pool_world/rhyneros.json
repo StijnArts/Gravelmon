@@ -7,7 +7,8 @@
       "id": "rhyneros-01",
       "pokemon": "rhyneros",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

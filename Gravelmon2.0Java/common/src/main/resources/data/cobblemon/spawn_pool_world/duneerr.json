@@ -7,7 +7,8 @@
       "id": "duneerr-01",
       "pokemon": "duneerr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

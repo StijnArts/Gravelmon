@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Puzzlock extends drai.dev.data.pokemon.Pokemon {
-    public Puzzlock() {
+    public Puzzlock(Stats stats) {
         super("Puzzlock",
                 Type.ROCK,Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 130,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,11 +23,12 @@ public class Puzzlock extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TRAIL_RUINS).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Puzzlock");
 
     }

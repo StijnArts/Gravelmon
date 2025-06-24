@@ -7,7 +7,8 @@
       "id": "smashiary-01",
       "pokemon": "smashiary",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

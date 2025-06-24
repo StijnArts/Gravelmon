@@ -7,7 +7,8 @@
       "id": "blastun-01",
       "pokemon": "blastun",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

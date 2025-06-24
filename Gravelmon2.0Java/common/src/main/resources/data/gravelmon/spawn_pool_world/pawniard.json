@@ -7,7 +7,8 @@
       "id": "delta_pawniard-01",
       "pokemon": "pawniard delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,7 +37,8 @@
       "id": "palmian_pawniard-01",
       "pokemon": "pawniard palmian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -63,7 +65,8 @@
       "id": "epoch_pawniard-01",
       "pokemon": "pawniard epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -74,7 +77,9 @@
         "biomes": [
           "minecraft:cherry_grove"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -89,7 +94,8 @@
       "id": "hoennian_pawniard-01",
       "pokemon": "pawniard hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -99,7 +105,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

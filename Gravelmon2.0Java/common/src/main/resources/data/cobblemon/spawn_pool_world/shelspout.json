@@ -7,7 +7,8 @@
       "id": "shelspout-01",
       "pokemon": "shelspout",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

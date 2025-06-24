@@ -7,7 +7,8 @@
       "id": "scub-01",
       "pokemon": "scub",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

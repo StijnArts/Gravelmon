@@ -7,7 +7,8 @@
       "id": "druidune-01",
       "pokemon": "druidune",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

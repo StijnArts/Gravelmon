@@ -7,7 +7,8 @@
       "id": "nuzzeltama-01",
       "pokemon": "nuzzeltama",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

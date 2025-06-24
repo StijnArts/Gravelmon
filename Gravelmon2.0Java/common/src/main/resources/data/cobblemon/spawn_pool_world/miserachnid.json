@@ -7,7 +7,8 @@
       "id": "miserachnid-01",
       "pokemon": "miserachnid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

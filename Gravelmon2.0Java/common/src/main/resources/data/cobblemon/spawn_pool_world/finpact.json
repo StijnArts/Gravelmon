@@ -7,6 +7,7 @@
       "id": "finpact-01",
       "pokemon": "finpact",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

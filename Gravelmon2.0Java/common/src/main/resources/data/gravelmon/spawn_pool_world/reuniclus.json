@@ -7,7 +7,8 @@
       "id": "delta_reuniclus-01",
       "pokemon": "reuniclus delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,6 +35,7 @@
       "id": "mystic_reuniclus-01",
       "pokemon": "reuniclus mystic",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -71,7 +75,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -86,7 +92,8 @@
       "id": "epoch_reuniclus-01",
       "pokemon": "reuniclus epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -145,7 +152,8 @@
       "id": "hoennian_reuniclus-01",
       "pokemon": "reuniclus hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

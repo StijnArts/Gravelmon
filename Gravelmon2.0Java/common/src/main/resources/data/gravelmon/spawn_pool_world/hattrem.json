@@ -35,7 +35,8 @@
       "id": "varitasian_hattrem-01",
       "pokemon": "hattrem varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_hattrem-01",
       "pokemon": "hattrem epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -72,7 +74,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -87,7 +91,8 @@
       "id": "ayreian_hattrem-01",
       "pokemon": "hattrem ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -115,7 +120,8 @@
       "id": "novran_hattrem-01",
       "pokemon": "hattrem novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -142,7 +148,8 @@
       "id": "fabelian_hattrem-01",
       "pokemon": "hattrem fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -169,19 +176,21 @@
       "id": "ottoran_hattrem-01",
       "pokemon": "hattrem ottoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 0.5,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

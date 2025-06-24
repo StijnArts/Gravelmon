@@ -7,7 +7,8 @@
       "id": "leapug-01",
       "pokemon": "leapug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

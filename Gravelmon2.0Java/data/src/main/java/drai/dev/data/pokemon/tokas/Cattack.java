@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cattack extends drai.dev.data.pokemon.Pokemon {
-    public Cattack() {
+    public Cattack(Stats stats) {
         super("Cattack",
                 Type.ELECTRIC, Type.FIGHTING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.DEFIANT), Ability.GALVANIZE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

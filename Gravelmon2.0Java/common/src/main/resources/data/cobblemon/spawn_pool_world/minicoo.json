@@ -7,7 +7,8 @@
       "id": "minicoo-01",
       "pokemon": "minicoo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

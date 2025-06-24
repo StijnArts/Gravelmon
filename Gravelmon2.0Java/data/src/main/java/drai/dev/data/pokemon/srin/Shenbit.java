@@ -16,7 +16,7 @@ public class Shenbit extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,

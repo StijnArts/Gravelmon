@@ -7,6 +7,7 @@
       "id": "aquarrior-01",
       "pokemon": "aquarrior",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

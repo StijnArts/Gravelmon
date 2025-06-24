@@ -7,7 +7,8 @@
       "id": "hizian_venonat-01",
       "pokemon": "venonat hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_venonat-01",
       "pokemon": "venonat epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "forman_venonat-01",
       "pokemon": "venonat forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +91,8 @@
       "id": "hoennian_venonat-01",
       "pokemon": "venonat hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -116,7 +120,8 @@
       "id": "ayreian_venonat-01",
       "pokemon": "venonat ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -135,6 +140,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_venonat-01",
+      "pokemon": "venonat theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-32",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_floral"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }

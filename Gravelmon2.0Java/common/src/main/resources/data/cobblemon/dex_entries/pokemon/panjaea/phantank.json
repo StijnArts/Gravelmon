@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phantank",
+  "speciesId": "cobblemon:phantank",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

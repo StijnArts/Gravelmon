@@ -7,7 +7,8 @@
       "id": "lightwin-01",
       "pokemon": "lightwin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

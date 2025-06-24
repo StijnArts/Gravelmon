@@ -1257,7 +1257,8 @@
       },
       "labels": [
         "gen4",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
@@ -1284,7 +1285,8 @@
       },
       "labels": [
         "gen4",
-        "vanguard"
+        "vanguard",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
@@ -1311,7 +1313,8 @@
       },
       "labels": [
         "gen4",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 19,
       "aspects": [

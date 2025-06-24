@@ -7,7 +7,8 @@
       "id": "farstamp-01",
       "pokemon": "farstamp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

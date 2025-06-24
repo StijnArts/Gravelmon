@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:solrock",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

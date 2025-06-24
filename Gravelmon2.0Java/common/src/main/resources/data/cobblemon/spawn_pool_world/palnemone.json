@@ -7,7 +7,8 @@
       "id": "palnemone-01",
       "pokemon": "palnemone",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

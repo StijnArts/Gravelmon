@@ -7,7 +7,8 @@
       "id": "delta_spider_beldum-01",
       "pokemon": "beldum delta_spider",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_beldum-01",
       "pokemon": "beldum epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "fabelian_beldum-01",
       "pokemon": "beldum fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

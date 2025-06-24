@@ -7,7 +7,8 @@
       "id": "egho_wartortle-01",
       "pokemon": "wartortle egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -40,7 +41,8 @@
       "id": "delta_wartortle-01",
       "pokemon": "wartortle delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "epoch_wartortle-01",
       "pokemon": "wartortle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -78,7 +81,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -93,7 +98,8 @@
       "id": "ayreian_wartortle-01",
       "pokemon": "wartortle ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

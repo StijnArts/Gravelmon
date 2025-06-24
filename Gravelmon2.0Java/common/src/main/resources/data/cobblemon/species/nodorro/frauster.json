@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "snowder",
-  "baseScale": 28.799999999999997,
+  "baseScale": 0.4143884892086331,
   "cannotDynamax": false,
   "abilities": [
     "snowwarning",
@@ -92,11 +92,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8908,
+  "nationalPokedexNumber": 9200,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 8.6875,
+    "height": 8.6875,
     "fixed": false
   },
   "features": [],

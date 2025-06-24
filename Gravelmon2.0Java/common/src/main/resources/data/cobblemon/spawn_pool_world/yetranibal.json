@@ -7,7 +7,8 @@
       "id": "yetranibal-01",
       "pokemon": "yetranibal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

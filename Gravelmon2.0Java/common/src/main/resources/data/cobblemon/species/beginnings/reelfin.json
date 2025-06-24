@@ -1,13 +1,14 @@
 {
   "name": "Reelfin",
   "primaryType": "water",
-  "catchRate": 77,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.15000000000000002,
+  "preEvolution": "finook",
+  "baseScale": 0.44999999999999996,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -26,14 +27,14 @@
       "canLook": true,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "avoidsLand": true
       },
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
@@ -82,16 +83,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.reelfin.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9271,
+  "nationalPokedexNumber": 9618,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

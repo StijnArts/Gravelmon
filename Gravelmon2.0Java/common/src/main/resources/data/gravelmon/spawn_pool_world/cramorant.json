@@ -7,7 +7,8 @@
       "id": "epoch_cramorant-01",
       "pokemon": "cramorant epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "ferociousfins-01",
       "pokemon": "ferociousfins",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

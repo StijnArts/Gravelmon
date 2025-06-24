@@ -7,7 +7,8 @@
       "id": "tanklang-01",
       "pokemon": "tanklang",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

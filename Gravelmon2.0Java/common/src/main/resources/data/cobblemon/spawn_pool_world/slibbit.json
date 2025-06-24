@@ -7,7 +7,8 @@
       "id": "slibbit-01",
       "pokemon": "slibbit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

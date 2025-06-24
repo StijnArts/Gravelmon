@@ -1,4 +1,35 @@
 {
   "entryId": "cobblemon:whimsicott",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epochtwo_mega",
+      "unlockForms": [
+        "Epochtwo_mega"
+      ]
+    },
+    {
+      "displayForm": "Mega",
+      "unlockForms": [
+        "Mega"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ]
 }

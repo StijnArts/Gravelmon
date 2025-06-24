@@ -7,7 +7,8 @@
       "id": "abyssalvern-01",
       "pokemon": "abyssalvern",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:damaleo",
+  "speciesId": "cobblemon:damaleo",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

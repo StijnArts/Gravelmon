@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:drizzile",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:erramite",
+  "speciesId": "cobblemon:erramite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

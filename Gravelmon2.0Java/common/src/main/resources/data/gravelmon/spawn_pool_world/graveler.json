@@ -34,7 +34,8 @@
       "id": "epoch_graveler-01",
       "pokemon": "graveler epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +61,8 @@
       "id": "epoch_graveler-01",
       "pokemon": "graveler epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

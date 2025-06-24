@@ -7,7 +7,8 @@
       "id": "dorhouse-01",
       "pokemon": "dorhouse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

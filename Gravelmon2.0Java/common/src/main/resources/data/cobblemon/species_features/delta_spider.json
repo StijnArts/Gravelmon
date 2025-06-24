@@ -1,6 +1,0 @@
-{
-    "keys": [ "delta_spider" ],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
-  }

@@ -7,7 +7,8 @@
       "id": "chamaelec-01",
       "pokemon": "chamaelec",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

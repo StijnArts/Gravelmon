@@ -7,7 +7,8 @@
       "id": "selpolar-01",
       "pokemon": "selpolar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

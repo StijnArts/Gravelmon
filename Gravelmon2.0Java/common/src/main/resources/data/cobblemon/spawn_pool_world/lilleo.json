@@ -7,7 +7,8 @@
       "id": "lilleo-01",
       "pokemon": "lilleo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "neschick-01",
       "pokemon": "neschick",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

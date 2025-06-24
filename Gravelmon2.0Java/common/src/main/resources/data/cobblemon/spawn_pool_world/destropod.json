@@ -7,7 +7,8 @@
       "id": "destropod-01",
       "pokemon": "destropod",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

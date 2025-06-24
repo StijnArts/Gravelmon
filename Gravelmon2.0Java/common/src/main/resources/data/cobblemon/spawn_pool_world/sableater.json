@@ -8,7 +8,8 @@
       "pokemon": "sableater",
       "presets": [
         "gemstones",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:antzooka",
+  "speciesId": "cobblemon:antzooka",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

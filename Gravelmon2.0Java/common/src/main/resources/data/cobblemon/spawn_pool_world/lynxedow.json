@@ -7,7 +7,8 @@
       "id": "lynxedow-01",
       "pokemon": "lynxedow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "qamoran_rabsca-01",
       "pokemon": "rabsca qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "driftilla-01",
       "pokemon": "driftilla",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

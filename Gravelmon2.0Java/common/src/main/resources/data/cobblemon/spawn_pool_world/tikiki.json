@@ -7,17 +7,17 @@
       "id": "tikiki-01",
       "pokemon": "tikiki",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "6-26",
-      "weight": 5.0,
+      "level": "9-29",
+      "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_tropical_island",
-          "#cobblemon:is_jungle"
+          "#cobblemon:is_tropical"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -26,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:moss_block"
+            "minecraft:magma_block"
           ]
         }
       }

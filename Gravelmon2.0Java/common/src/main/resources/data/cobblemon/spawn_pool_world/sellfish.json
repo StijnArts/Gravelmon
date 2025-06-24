@@ -7,6 +7,7 @@
       "id": "sellfish-01",
       "pokemon": "sellfish",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "hadcano-01",
       "pokemon": "hadcano",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

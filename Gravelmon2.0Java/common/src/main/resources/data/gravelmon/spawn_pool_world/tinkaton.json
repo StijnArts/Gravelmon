@@ -35,7 +35,8 @@
       "id": "epoch_tinkaton-01",
       "pokemon": "tinkaton epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "eldorchard-01",
       "pokemon": "eldorchard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

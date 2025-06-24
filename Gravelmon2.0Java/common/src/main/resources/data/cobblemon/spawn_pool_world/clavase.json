@@ -7,7 +7,8 @@
       "id": "clavase-01",
       "pokemon": "clavase",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

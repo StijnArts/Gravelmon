@@ -7,7 +7,8 @@
       "id": "rabbeti-01",
       "pokemon": "rabbeti",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

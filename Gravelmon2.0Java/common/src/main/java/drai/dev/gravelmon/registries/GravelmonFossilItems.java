@@ -925,5 +925,44 @@ public class GravelmonFossilItems {
             ),
             "river_fossil",
             "solsaur");
+    public static RegistrySupplier<Item> INHERITANCE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "inheritance_fossil",
+            "rexite");
+    public static RegistrySupplier<Item> PLATING_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "plating_fossil",
+            "stegron");
+    public static RegistrySupplier<Item> MORNING_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon(),
+                    BaseCobblemonDigSites.ERODED_PILLAR.uncommon()
+            ),
+            "morning_fossil",
+            "ankarmor");
+    public static RegistrySupplier<Item> IRRITATION_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.BIRCH_TREE.uncommon(),
+                    BaseCobblemonDigSites.OAK_TREE.uncommon(),
+                    BaseCobblemonDigSites.SPRUCE_TREE.uncommon()
+            ),
+            "irritation_fossil",
+            "therospine");
+    public static RegistrySupplier<Item> THIEF_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.UNDERWATER_FISSURE.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_SPIKE.uncommon()
+            ),
+            "thief_fossil",
+            "rapraider");
     public static void touch() {}
 }

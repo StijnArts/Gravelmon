@@ -7,7 +7,8 @@
       "id": "rattotem-01",
       "pokemon": "rattotem",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

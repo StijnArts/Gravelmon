@@ -7,6 +7,7 @@
       "id": "craberrant-01",
       "pokemon": "craberrant",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

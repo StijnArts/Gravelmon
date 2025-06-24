@@ -7,16 +7,16 @@
       "id": "pidunce-01",
       "pokemon": "pidunce",
       "presets": [
-        "natural"
+        "village"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "13-33",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_temperate"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

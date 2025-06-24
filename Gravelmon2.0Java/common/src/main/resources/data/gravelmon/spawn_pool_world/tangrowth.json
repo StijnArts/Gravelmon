@@ -34,7 +34,8 @@
       "id": "delta_tangrowth-01",
       "pokemon": "tangrowth delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_tangrowth-01",
       "pokemon": "tangrowth epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -149,7 +151,8 @@
       "id": "qamoran_tangrowth-01",
       "pokemon": "tangrowth qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

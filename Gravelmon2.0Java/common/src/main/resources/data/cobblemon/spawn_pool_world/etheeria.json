@@ -7,7 +7,8 @@
       "id": "etheeria-01",
       "pokemon": "etheeria",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

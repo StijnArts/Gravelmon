@@ -7,7 +7,8 @@
       "id": "sprocko-01",
       "pokemon": "sprocko",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "mousense-01",
       "pokemon": "mousense",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

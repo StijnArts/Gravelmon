@@ -7,7 +7,8 @@
       "id": "roboar-01",
       "pokemon": "roboar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

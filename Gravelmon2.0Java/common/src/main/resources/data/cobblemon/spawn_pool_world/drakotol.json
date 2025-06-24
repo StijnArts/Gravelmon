@@ -7,7 +7,8 @@
       "id": "drakotol-01",
       "pokemon": "drakotol",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

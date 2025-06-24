@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:bullake",
+  "speciesId": "cobblemon:bullake",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

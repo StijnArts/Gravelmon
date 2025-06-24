@@ -23,7 +23,8 @@ public class PastelianFloette extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("- Vine Whip Grass - Tackle Normal - Fairy WindSTAB Fairy 6 Fairy WindSTAB Fairy 10 Lucky Chant Normal 15 Razor Leaf Grass 20 Wish Normal 25 Magical Leaf Grass 27 Grassy Terrain Grass 33 Petal Blizzard Grass 38 Aromatherapy Grass 43 Misty Terrain Fairy 46 MoonblastSTAB Fairy 51 Petal Dance Grass 58 Solar Beam Grass"),
-                List.of(),
+                List.of(new EvolutionEntry("florgae", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -82,12 +83,13 @@ public class PastelianFloette extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(19).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Floette");
 
     }

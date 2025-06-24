@@ -7,7 +7,8 @@
       "id": "snowl-01",
       "pokemon": "snowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

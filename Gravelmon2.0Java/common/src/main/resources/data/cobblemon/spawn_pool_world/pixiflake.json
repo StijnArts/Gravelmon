@@ -7,7 +7,8 @@
       "id": "pixiflake-01",
       "pokemon": "pixiflake",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

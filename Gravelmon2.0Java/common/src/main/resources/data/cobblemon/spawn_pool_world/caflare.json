@@ -7,7 +7,8 @@
       "id": "caflare-01",
       "pokemon": "caflare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

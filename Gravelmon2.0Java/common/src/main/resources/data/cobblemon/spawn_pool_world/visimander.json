@@ -7,6 +7,7 @@
       "id": "visimander-01",
       "pokemon": "visimander",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

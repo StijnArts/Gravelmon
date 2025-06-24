@@ -7,7 +7,8 @@
       "id": "castlossus-01",
       "pokemon": "castlossus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

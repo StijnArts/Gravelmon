@@ -7,7 +7,8 @@
       "id": "scovile-01",
       "pokemon": "scovile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

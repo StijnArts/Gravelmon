@@ -7,7 +7,8 @@
       "id": "pubble-01",
       "pokemon": "pubble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

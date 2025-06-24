@@ -7,7 +7,8 @@
       "id": "saguartic-01",
       "pokemon": "saguartic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

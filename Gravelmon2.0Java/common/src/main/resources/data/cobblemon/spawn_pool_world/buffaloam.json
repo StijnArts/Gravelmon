@@ -7,7 +7,8 @@
       "id": "buffaloam-01",
       "pokemon": "buffaloam",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

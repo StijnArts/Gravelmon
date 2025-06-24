@@ -7,7 +7,8 @@
       "id": "orchynx-01",
       "pokemon": "orchynx",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

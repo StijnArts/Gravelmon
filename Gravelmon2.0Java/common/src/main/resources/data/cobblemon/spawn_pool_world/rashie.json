@@ -7,7 +7,8 @@
       "id": "rashie-01",
       "pokemon": "rashie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

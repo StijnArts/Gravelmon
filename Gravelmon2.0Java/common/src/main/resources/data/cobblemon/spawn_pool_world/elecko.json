@@ -7,7 +7,8 @@
       "id": "elecko-01",
       "pokemon": "elecko",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

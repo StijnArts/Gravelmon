@@ -7,7 +7,8 @@
       "id": "mushpunky-01",
       "pokemon": "mushpunky",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

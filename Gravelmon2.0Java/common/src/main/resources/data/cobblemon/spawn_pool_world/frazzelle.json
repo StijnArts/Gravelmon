@@ -7,7 +7,8 @@
       "id": "frazzelle-01",
       "pokemon": "frazzelle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

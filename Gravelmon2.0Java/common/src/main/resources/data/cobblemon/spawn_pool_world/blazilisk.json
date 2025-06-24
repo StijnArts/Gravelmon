@@ -7,16 +7,17 @@
       "id": "blazilisk-01",
       "pokemon": "blazilisk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "33-53",
-      "weight": 0.5,
+      "bucket": "ultra-rare",
+      "level": "65-85",
+      "weight": 0.4,
       "condition": {
         "biomes": [
-          "#cobblemon:is_grassland"
+          "#cobblemon:is_jungle"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -25,7 +26,7 @@
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
-            "minecraft:magma_block"
+            "minecraft:raw_gold_block"
           ]
         }
       }

@@ -7,7 +7,8 @@
       "id": "buffaheft-01",
       "pokemon": "buffaheft",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

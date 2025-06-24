@@ -288,7 +288,8 @@
       },
       "labels": [
         "gen1",
-        "phoenix_rising"
+        "phoenix_rising",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [
@@ -315,7 +316,8 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 14,
       "aspects": [

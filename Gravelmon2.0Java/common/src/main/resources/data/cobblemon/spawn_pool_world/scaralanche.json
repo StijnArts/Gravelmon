@@ -7,7 +7,8 @@
       "id": "scaralanche-01",
       "pokemon": "scaralanche",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

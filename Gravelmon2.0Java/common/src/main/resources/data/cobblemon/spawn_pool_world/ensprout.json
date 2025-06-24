@@ -7,7 +7,8 @@
       "id": "ensprout-01",
       "pokemon": "ensprout",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

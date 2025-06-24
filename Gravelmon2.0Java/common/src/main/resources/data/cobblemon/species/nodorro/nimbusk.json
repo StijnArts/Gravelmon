@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "clusk",
-  "baseScale": 18.0,
+  "baseScale": 0.44999999999999996,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -109,11 +109,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8913,
+  "nationalPokedexNumber": 9205,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.0,
+    "height": 5.0,
     "fixed": false
   },
   "features": [],

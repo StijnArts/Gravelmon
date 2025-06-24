@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:clauncher",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Seviian",
+      "unlockForms": [
+        "Seviian"
+      ]
+    },
+    {
+      "displayForm": "Ivrisian",
+      "unlockForms": [
+        "Ivrisian"
+      ]
+    },
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

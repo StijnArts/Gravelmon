@@ -1,0 +1,17 @@
+{
+  "entryId": "cobblemon:electruxo",
+  "forms": [
+    {
+      "displayForm": "Mega_uranium",
+      "unlockForms": [
+        "Mega_uranium"
+      ]
+    },
+    {
+      "displayForm": "Mega_uranium",
+      "unlockForms": [
+        "Mega_uranium"
+      ]
+    }
+  ]
+}

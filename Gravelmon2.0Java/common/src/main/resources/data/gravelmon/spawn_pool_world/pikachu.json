@@ -7,7 +7,8 @@
       "id": "delta_pikachu-01",
       "pokemon": "pikachu delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "male_x_pikachu-01",
       "pokemon": "pikachu male_x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -60,7 +62,8 @@
       "id": "female_x_pikachu-01",
       "pokemon": "pikachu female_x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +88,8 @@
       "id": "norse_pikachu-01",
       "pokemon": "pikachu norse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -112,7 +116,8 @@
       "id": "epoch_pikachu-01",
       "pokemon": "pikachu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -137,7 +142,8 @@
       "id": "epoch_pikachu-01",
       "pokemon": "pikachu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -164,7 +170,8 @@
       "id": "forman_pikachu-01",
       "pokemon": "pikachu forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -174,7 +181,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

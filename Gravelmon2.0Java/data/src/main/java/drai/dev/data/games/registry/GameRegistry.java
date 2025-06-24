@@ -6,8 +6,8 @@ import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
 import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
-import drai.dev.data.games.pokemmo.*;
-import drai.dev.data.games.pokemmo.done.*;
+import drai.dev.data.games.pokengine.done.*;
+import drai.dev.data.games.pokengine.done.Lagoone;
 import drai.dev.data.jsonwriters.*;
 
 import java.util.*;
@@ -93,18 +93,25 @@ public class GameRegistry {
         registerGame(Arom.INSTANCE);
 
         registerGame(Goetia.INSTANCE);
-//        registerGame(Sorin.INSTANCE);
+        registerGame(Panjaea.INSTANCE);
+        registerGame(Sorin.INSTANCE);
         registerGame(Mastenia.INSTANCE);
         registerGame(Mikitari.INSTANCE);
         registerGame(Mushi.INSTANCE);
         registerGame(Mongratis.INSTANCE);
         registerGame(Mystis.INSTANCE);
         registerGame(Nodorro.INSTANCE);
+        registerGame(PastelIsland.INSTANCE);
         registerGame(Olysos.INSTANCE);
         registerGame(Ishiria.INSTANCE);
         registerGame(Orbis.INSTANCE);
         registerGame(Beginnings.INSTANCE);
         registerGame(ChaosInVesita.INSTANCE);
+        registerGame(SolarLightLunarDark.INSTANCE);
+        registerGame(Otopo.INSTANCE);
+        registerGame(Ruskow.INSTANCE);
+        registerGame(Theos.INSTANCE);
+        registerGame(Tochi.INSTANCE);
     }
 
     private static void registerGame(Game game) {

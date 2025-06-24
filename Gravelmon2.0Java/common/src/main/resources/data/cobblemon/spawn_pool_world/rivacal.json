@@ -7,7 +7,8 @@
       "id": "rivacal-01",
       "pokemon": "rivacal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

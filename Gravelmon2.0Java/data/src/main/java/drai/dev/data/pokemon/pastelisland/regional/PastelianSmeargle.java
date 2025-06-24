@@ -23,7 +23,8 @@ public class PastelianSmeargle extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Smeargle are reclusive creatures, spending hours spraying their paint-like fluid onto walls. People sometimes gather to try and decipher the meaning of a Smeargle's paintings."),
-                List.of(),
+                List.of(new EvolutionEntry("banksund", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.MEMENTO.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SKETCH,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -43,9 +44,9 @@ public class PastelianSmeargle extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Smeargle");

@@ -7,7 +7,8 @@
       "id": "regalocera-01",
       "pokemon": "regalocera",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

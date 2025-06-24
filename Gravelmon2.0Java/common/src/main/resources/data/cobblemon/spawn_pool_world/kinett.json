@@ -7,7 +7,8 @@
       "id": "kinett-01",
       "pokemon": "kinett",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

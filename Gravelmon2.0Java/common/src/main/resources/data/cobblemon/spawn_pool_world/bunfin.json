@@ -7,7 +7,8 @@
       "id": "bunfin-01",
       "pokemon": "bunfin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

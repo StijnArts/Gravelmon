@@ -7,7 +7,8 @@
       "id": "dwarpy-01",
       "pokemon": "dwarpy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

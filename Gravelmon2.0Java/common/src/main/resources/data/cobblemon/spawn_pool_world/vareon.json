@@ -7,7 +7,8 @@
       "id": "vareon-01",
       "pokemon": "vareon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

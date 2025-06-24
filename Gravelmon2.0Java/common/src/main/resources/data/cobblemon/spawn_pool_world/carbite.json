@@ -7,7 +7,8 @@
       "id": "carbite-01",
       "pokemon": "carbite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

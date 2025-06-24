@@ -7,7 +7,8 @@
       "id": "aristosian_sentret-01",
       "pokemon": "sentret aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -40,7 +41,8 @@
       "id": "norse_sentret-01",
       "pokemon": "sentret norse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -67,7 +69,8 @@
       "id": "epoch_sentret-01",
       "pokemon": "sentret epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -78,7 +81,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -93,7 +98,8 @@
       "id": "forman_sentret-01",
       "pokemon": "sentret forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -120,7 +126,8 @@
       "id": "aromian_sentret-01",
       "pokemon": "sentret aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

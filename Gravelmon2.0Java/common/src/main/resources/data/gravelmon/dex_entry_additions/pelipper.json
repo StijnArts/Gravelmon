@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:pelipper",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

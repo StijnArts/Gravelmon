@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:coocun",
+  "speciesId": "cobblemon:coocun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

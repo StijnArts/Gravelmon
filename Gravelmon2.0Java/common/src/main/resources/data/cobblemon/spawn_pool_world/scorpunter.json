@@ -7,7 +7,8 @@
       "id": "scorpunter-01",
       "pokemon": "scorpunter",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

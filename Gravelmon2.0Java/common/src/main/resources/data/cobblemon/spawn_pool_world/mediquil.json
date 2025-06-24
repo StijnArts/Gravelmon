@@ -7,16 +7,17 @@
       "id": "mediquil-01",
       "pokemon": "mediquil",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "25-45",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_tundra"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

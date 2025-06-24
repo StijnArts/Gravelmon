@@ -7,7 +7,8 @@
       "id": "lukagon-01",
       "pokemon": "lukagon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

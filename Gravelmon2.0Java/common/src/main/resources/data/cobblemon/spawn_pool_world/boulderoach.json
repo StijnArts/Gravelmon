@@ -7,7 +7,8 @@
       "id": "boulderoach-01",
       "pokemon": "boulderoach",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

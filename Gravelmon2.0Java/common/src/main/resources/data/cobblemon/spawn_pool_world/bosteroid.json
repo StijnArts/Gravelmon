@@ -7,7 +7,8 @@
       "id": "bosteroid-01",
       "pokemon": "bosteroid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

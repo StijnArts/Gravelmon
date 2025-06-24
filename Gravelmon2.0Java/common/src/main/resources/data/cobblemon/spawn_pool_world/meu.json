@@ -7,7 +7,8 @@
       "id": "meu-01",
       "pokemon": "meu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

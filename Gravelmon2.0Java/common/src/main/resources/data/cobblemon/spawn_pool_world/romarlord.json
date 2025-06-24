@@ -7,7 +7,8 @@
       "id": "romarlord-01",
       "pokemon": "romarlord",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

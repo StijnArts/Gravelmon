@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:toedscruel",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "peanou-01",
       "pokemon": "peanou",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

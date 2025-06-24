@@ -7,7 +7,8 @@
       "id": "trillowee-01",
       "pokemon": "trillowee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

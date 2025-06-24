@@ -23,7 +23,8 @@ public class Whirliseed extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Whirliseed float down from the highest trees and drift around the countryside till they settle. They bury themselves once they've landed in order to evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("burlygig", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -46,10 +47,10 @@ public class Whirliseed extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
            setLangFileName("Whirliseed");
 

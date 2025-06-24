@@ -7,7 +7,8 @@
       "id": "cubbug-01",
       "pokemon": "cubbug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

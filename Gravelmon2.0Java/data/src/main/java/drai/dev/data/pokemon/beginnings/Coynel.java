@@ -32,7 +32,7 @@ public class Coynel extends drai.dev.data.pokemon.Pokemon {
                         .setMinLevel(12).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_GRASSLAND).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 List.of());
            setLangFileName("Coynel");
 

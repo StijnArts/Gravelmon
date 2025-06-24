@@ -7,7 +7,8 @@
       "id": "incendaur-01",
       "pokemon": "incendaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

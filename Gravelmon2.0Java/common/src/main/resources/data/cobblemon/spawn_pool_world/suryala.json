@@ -7,7 +7,8 @@
       "id": "suryala-01",
       "pokemon": "suryala",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

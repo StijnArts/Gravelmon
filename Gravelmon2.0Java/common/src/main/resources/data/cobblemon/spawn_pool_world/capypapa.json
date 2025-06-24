@@ -7,7 +7,8 @@
       "id": "capypapa-01",
       "pokemon": "capypapa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

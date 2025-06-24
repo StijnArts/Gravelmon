@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:searth",
+  "speciesId": "cobblemon:searth",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

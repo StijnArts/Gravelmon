@@ -7,7 +7,8 @@
       "id": "mokuonei-01",
       "pokemon": "mokuonei",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

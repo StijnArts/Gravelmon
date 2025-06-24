@@ -7,7 +7,8 @@
       "id": "balas-01",
       "pokemon": "balas",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

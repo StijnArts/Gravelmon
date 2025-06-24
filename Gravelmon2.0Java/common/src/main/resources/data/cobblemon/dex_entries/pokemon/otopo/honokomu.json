@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:honokomu",
+  "speciesId": "cobblemon:honokomu",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

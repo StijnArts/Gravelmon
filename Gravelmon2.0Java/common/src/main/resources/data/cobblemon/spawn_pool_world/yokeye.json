@@ -7,7 +7,8 @@
       "id": "yokeye-01",
       "pokemon": "yokeye",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

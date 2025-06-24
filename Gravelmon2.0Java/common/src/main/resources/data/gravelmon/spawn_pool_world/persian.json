@@ -7,7 +7,8 @@
       "id": "cefiran_fire_persian-01",
       "pokemon": "persian cefiran_fire",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "cefiran_ice_persian-01",
       "pokemon": "persian cefiran_ice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "cefiran_electric_persian-01",
       "pokemon": "persian cefiran_electric",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -101,7 +104,8 @@
       "id": "epoch_persian-01",
       "pokemon": "persian epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

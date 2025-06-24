@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flittervolt",
+  "speciesId": "cobblemon:flittervolt",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

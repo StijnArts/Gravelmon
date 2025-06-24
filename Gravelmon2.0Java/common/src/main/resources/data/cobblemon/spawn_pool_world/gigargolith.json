@@ -7,7 +7,8 @@
       "id": "gigargolith-01",
       "pokemon": "gigargolith",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

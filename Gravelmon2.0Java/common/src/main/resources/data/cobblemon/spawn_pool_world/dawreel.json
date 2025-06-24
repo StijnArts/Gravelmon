@@ -7,7 +7,8 @@
       "id": "dawreel-01",
       "pokemon": "dawreel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

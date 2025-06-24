@@ -7,6 +7,7 @@
       "id": "glamglob-01",
       "pokemon": "glamglob",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

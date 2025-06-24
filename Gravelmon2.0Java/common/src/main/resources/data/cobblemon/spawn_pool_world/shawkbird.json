@@ -7,7 +7,8 @@
       "id": "shawkbird-01",
       "pokemon": "shawkbird",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

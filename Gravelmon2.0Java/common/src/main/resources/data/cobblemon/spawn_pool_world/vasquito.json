@@ -7,6 +7,7 @@
       "id": "vasquito-01",
       "pokemon": "vasquito",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

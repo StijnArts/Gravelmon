@@ -7,7 +7,8 @@
       "id": "aristosian_spinarak-01",
       "pokemon": "spinarak aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,7 +37,8 @@
       "id": "epoch_spinarak-01",
       "pokemon": "spinarak epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,7 +66,8 @@
       "id": "forman_spinarak-01",
       "pokemon": "spinarak forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +92,8 @@
       "id": "ayreian_spinarak-01",
       "pokemon": "spinarak ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +118,8 @@
       "id": "fabelian_spinarak-01",
       "pokemon": "spinarak fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -127,6 +132,35 @@
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_spinarak-01",
+      "pokemon": "spinarak theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

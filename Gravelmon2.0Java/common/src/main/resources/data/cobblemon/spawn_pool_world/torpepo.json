@@ -7,7 +7,8 @@
       "id": "torpepo-01",
       "pokemon": "torpepo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -6,34 +6,27 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Raspberrel extends drai.dev.data.pokemon.Pokemon {
-    public Raspberrel() {
+    public Raspberrel(Stats stats) {
         super("Raspberrel",
                 Type.NORMAL,Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.GLUTTONY), Ability.GLUTTONY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("- Swallow Normal - Spit UpSTAB Normal"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.SPIT_UP,1),
-                        new MoveLearnSetEntry(Move.SWALLOW,1)),
+                List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TAIGA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_BERRY_BUSH).build(),
                 List.of());
            setLangFileName("Raspberrel");
 

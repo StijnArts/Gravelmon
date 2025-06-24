@@ -7,7 +7,8 @@
       "id": "phantocean-01",
       "pokemon": "phantocean",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sparkeet",
+  "speciesId": "cobblemon:sparkeet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "clouffing-01",
       "pokemon": "clouffing",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

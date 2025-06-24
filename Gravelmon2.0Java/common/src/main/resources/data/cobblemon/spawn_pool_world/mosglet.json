@@ -7,7 +7,8 @@
       "id": "mosglet-01",
       "pokemon": "mosglet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

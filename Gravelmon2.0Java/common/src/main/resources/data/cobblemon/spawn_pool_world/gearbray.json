@@ -7,7 +7,8 @@
       "id": "gearbray-01",
       "pokemon": "gearbray",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

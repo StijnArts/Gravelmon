@@ -344,7 +344,8 @@
       },
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 14,
       "aspects": [
@@ -371,7 +372,8 @@
       },
       "labels": [
         "gen3",
-        "xenoverse"
+        "xenoverse",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

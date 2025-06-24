@@ -7,7 +7,8 @@
       "id": "perrsbal-01",
       "pokemon": "perrsbal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

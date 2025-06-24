@@ -7,7 +7,8 @@
       "id": "seedent-01",
       "pokemon": "seedent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

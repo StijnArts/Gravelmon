@@ -7,7 +7,8 @@
       "id": "phrosant-01",
       "pokemon": "phrosant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

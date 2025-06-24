@@ -7,7 +7,8 @@
       "id": "rabullet-01",
       "pokemon": "rabullet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -840,6 +840,218 @@
       }
     },
     {
+      "name": "Theossian",
+      "primaryType": "electric",
+      "secondaryType": "flying",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 218,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "theossianraichu",
+      "baseScale": 0.2594594594594595,
+      "cannotDynamax": false,
+      "abilities": [
+        "aerilate",
+        "h:lightningrod"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 85,
+        "defence": 50,
+        "special_attack": 110,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "eggGroups": [
+        "field",
+        "fairy"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "cobblemon:thunder_stone",
+            "quantityRange": "1-1",
+            "percentage": 40
+          }
+        ]
+      },
+      "moves": [
+        "1:quickattack",
+        "1:tailwhip",
+        "1:thundershock",
+        "1:thunderbolt",
+        "tm:thunderpunch",
+        "tm:snore",
+        "tm:irontail",
+        "tm:focuspunch",
+        "tm:helpinghand",
+        "tm:knockoff",
+        "tm:signalbeam",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:magnetrise",
+        "tm:electroweb",
+        "tm:laserfocus",
+        "tm:risingvoltage",
+        "tm:babydolleyes",
+        "tm:hyperbeam",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:thunder",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:rest",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:facade",
+        "tm:brickbreak",
+        "tm:fling",
+        "tm:focusblast",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:chargebeam",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:confide",
+        "tm:megapunch",
+        "tm:megakick",
+        "tm:bodyslam",
+        "tm:takedown",
+        "tm:doubleedge",
+        "tm:payday",
+        "tm:submission",
+        "tm:seismictoss",
+        "tm:rage",
+        "tm:mimic",
+        "tm:reflect",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:flash",
+        "tm:dig",
+        "tm:counter",
+        "tm:electricterrain",
+        "tm:agility",
+        "tm:brutalswing",
+        "tm:calmmind",
+        "tm:captivate",
+        "tm:charm",
+        "tm:curse",
+        "tm:defensecurl",
+        "tm:detect",
+        "tm:disarmingvoice",
+        "tm:drainingkiss",
+        "tm:dynamicpunch",
+        "tm:eerieimpulse",
+        "tm:electroball",
+        "tm:encore",
+        "tm:endure",
+        "tm:faketears",
+        "tm:headbutt",
+        "tm:mudslap",
+        "tm:nastyplot",
+        "tm:naturalgift",
+        "tm:playrough",
+        "tm:reversal",
+        "tm:rocksmash",
+        "tm:rollout",
+        "tm:safeguard",
+        "tm:secretpower",
+        "tm:speedswap",
+        "tm:strength",
+        "tm:surf",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:uproar",
+        "tm:volttackle",
+        "tm:zapcannon",
+        "tm:doubleslap",
+        "tm:bide",
+        "tm:flail",
+        "tm:reversal",
+        "tm:endure",
+        "tm:present",
+        "tm:encore",
+        "tm:fakeout",
+        "tm:charge",
+        "tm:wish",
+        "tm:tickle",
+        "tm:luckychant",
+        "tm:bestow",
+        "tm:disarmingvoice",
+        "tm:electricterrain",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianraichu.desc"
+      ],
+      "height": 8,
+      "weight": 300,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 4.625,
+        "height": 4.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "epoch_mega",
       "primaryType": "sound",
       "secondaryType": "steel",
@@ -859,7 +1071,8 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 17,
       "aspects": [
@@ -874,6 +1087,7 @@
     "epoch",
     "epochtwo",
     "mahalian",
+    "theossian",
     "epoch_mega"
   ]
 }

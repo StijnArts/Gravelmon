@@ -16,24 +16,22 @@ public class Toxipine extends drai.dev.data.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.POISON_POINT,Ability.RUN_AWAY), Ability.TOXIC_BOOST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It glides around the woodland floor, gathering up berries as it goes. Despite its little size, its toxin is quite lethal."),
-                List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SMOG,1),
-                        new MoveLearnSetEntry(Move.POISON_GAS,1)                        ),
+                List.of(new EvolutionEntry("venetreme", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
+                List.of(               ),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Toxipine");

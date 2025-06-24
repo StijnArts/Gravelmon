@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:basculin",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

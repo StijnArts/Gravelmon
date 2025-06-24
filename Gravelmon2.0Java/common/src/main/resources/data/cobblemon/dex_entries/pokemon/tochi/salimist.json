@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:salimist",
+  "speciesId": "cobblemon:salimist",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

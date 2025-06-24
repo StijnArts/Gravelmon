@@ -7,7 +7,8 @@
       "id": "calypstar-01",
       "pokemon": "calypstar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

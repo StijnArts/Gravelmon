@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fibraark",
+  "speciesId": "cobblemon:fibraark",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

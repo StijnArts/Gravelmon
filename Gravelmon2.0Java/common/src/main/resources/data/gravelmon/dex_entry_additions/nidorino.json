@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:nidorino",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ]
 }

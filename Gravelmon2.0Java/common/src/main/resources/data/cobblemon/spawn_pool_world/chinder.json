@@ -7,7 +7,8 @@
       "id": "chinder-01",
       "pokemon": "chinder",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "milalien-01",
       "pokemon": "milalien",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

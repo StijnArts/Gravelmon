@@ -7,7 +7,8 @@
       "id": "seevile-01",
       "pokemon": "seevile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

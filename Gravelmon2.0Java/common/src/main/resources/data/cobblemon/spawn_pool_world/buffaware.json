@@ -7,7 +7,8 @@
       "id": "buffaware-01",
       "pokemon": "buffaware",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

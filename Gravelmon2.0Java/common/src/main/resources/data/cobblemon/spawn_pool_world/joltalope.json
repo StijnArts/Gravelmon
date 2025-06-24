@@ -7,7 +7,8 @@
       "id": "joltalope-01",
       "pokemon": "joltalope",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

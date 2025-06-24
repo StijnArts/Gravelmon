@@ -7,7 +7,8 @@
       "id": "inscepter-01",
       "pokemon": "inscepter",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

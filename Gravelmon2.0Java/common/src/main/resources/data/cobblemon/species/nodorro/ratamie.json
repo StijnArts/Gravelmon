@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "ratamie",
-  "baseScale": 8.399999999999999,
+  "baseScale": 0.3054545454545454,
   "cannotDynamax": false,
   "abilities": [
     "friendguard",
@@ -90,11 +90,11 @@
   "weight": 190,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8873,
+  "nationalPokedexNumber": 9160,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.4375,
+    "height": 3.4375,
     "fixed": false
   },
   "features": [],

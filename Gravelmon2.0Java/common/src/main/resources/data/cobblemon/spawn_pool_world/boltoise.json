@@ -7,7 +7,8 @@
       "id": "boltoise-01",
       "pokemon": "boltoise",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

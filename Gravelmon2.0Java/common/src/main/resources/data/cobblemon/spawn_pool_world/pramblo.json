@@ -7,7 +7,8 @@
       "id": "pramblo-01",
       "pokemon": "pramblo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:skwovet",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

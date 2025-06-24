@@ -7,7 +7,8 @@
       "id": "peernut-01",
       "pokemon": "peernut",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

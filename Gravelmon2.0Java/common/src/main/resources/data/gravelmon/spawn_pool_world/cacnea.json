@@ -7,7 +7,8 @@
       "id": "neo_cacnea-01",
       "pokemon": "cacnea neo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "x_cacnea-01",
       "pokemon": "cacnea x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "epoch_cacnea-01",
       "pokemon": "cacnea epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +89,8 @@
       "id": "epoch_cacnea-01",
       "pokemon": "cacnea epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "bouldog-01",
       "pokemon": "bouldog",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

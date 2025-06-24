@@ -7,7 +7,8 @@
       "id": "scovalope-01",
       "pokemon": "scovalope",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

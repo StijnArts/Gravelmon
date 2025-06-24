@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:shedinja",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

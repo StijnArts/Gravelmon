@@ -7,7 +7,8 @@
       "id": "bonkeet-01",
       "pokemon": "bonkeet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

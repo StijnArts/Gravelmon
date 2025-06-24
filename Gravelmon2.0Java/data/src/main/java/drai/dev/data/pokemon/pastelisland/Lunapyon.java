@@ -16,8 +16,8 @@ public class Lunapyon extends drai.dev.data.pokemon.Pokemon {
                         75,
                         60),
                 List.of(Ability.CUTE_CHARM,Ability.ILLUMINATE), Ability.FRIEND_GUARD,
-                21, 32,
-                new Stats(0,0,0,1,0,1), 0,
+                13, 32,
+                new Stats(0,0,0,1,0,1), 80,
                 0.5,
                 145, ExperienceGroup.ERRATIC,
                 70,
@@ -28,9 +28,9 @@ public class Lunapyon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MAGICAL).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Lunapyon");

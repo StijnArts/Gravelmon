@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tsunamink",
+  "speciesId": "cobblemon:tsunamink",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

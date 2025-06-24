@@ -7,7 +7,8 @@
       "id": "bannawk-01",
       "pokemon": "bannawk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

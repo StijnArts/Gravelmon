@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "scissorab",
-  "baseScale": 36.0,
+  "baseScale": 0.8089887640449438,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -95,11 +95,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8905,
+  "nationalPokedexNumber": 9197,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.5625,
+    "height": 5.5625,
     "fixed": false
   },
   "features": [],

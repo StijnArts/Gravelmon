@@ -7,7 +7,8 @@
       "id": "possessum-01",
       "pokemon": "possessum",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

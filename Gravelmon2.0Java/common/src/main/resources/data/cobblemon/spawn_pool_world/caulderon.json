@@ -7,7 +7,8 @@
       "id": "caulderon-01",
       "pokemon": "caulderon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

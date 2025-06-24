@@ -7,7 +7,8 @@
       "id": "taurion-01",
       "pokemon": "taurion",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

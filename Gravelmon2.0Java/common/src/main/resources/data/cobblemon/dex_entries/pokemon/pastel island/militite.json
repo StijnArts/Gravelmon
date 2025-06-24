@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:militite",
+  "speciesId": "cobblemon:militite",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

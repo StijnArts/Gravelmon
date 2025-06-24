@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weepinbell-theossian",
+  "speciesId": "cobblemon:weepinbell",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ],
+  "variations": []
+}

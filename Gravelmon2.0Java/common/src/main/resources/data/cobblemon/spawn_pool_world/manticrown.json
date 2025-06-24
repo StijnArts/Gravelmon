@@ -7,7 +7,8 @@
       "id": "manticrown-01",
       "pokemon": "manticrown",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

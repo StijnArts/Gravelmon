@@ -23,7 +23,8 @@ public class Gorbler extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("As it burrows underground, it forms a network of tunnels. Durtworm's eyesight is severely impaired as a result of living in such a dark environment, but its sense of smell is enhanced. It can detect food from a distance of 100 metres."),
-                List.of(),
+                List.of(new EvolutionEntry("gaiaminth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
@@ -45,10 +46,10 @@ public class Gorbler extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SAVANNA)
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Gorbler");
 

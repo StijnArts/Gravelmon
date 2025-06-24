@@ -7,7 +7,8 @@
       "id": "barbavelry-01",
       "pokemon": "barbavelry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

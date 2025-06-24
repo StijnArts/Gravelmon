@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Sentennial extends drai.dev.data.pokemon.Pokemon {
-    public Sentennial() {
+    public Sentennial(Stats stats) {
         super("Sentennial",
                 Type.ROCK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                41, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,10 +23,10 @@ public class Sentennial extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOCHI),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .subLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TRAIL_RUINS).build(),
                 List.of());
            setLangFileName("Sentennial");
 

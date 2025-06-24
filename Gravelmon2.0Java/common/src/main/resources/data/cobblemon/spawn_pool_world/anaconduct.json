@@ -7,7 +7,8 @@
       "id": "anaconduct-01",
       "pokemon": "anaconduct",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

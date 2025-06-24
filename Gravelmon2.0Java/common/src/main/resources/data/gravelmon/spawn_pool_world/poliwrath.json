@@ -7,7 +7,8 @@
       "id": "epoch_poliwrath-01",
       "pokemon": "poliwrath epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

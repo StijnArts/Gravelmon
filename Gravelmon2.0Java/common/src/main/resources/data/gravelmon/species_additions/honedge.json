@@ -757,13 +757,13 @@
       "name": "Ottoran",
       "primaryType": "grass",
       "secondaryType": "ghost",
-      "catchRate": 255,
+      "catchRate": 180,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.16842105263157894,
+      "baseScale": 0.29473684210526313,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -848,12 +848,27 @@
       "pokedex": [
         "cobblemon.species.ottoranhonedge.desc"
       ],
-      "height": 0,
+      "height": 7,
       "weight": 0,
       "aspects": [
         "ottoran"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "ottoranhonedge_doublade_ottoran",
+          "variant": "level_up",
+          "result": "doublade ottoran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "35"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 3.5625,

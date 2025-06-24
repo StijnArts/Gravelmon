@@ -2,6 +2,7 @@ package drai.dev.data.jsonwriters.data;
 
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.io.*;
@@ -60,14 +61,16 @@ public class SpeciesFeaturesJSONWriter {
 
     private static void writeAspect(Aspect aspect, String dir) throws IOException {
         if(aspect.isNew()){
+            var aspectName = aspect.name().toLowerCase();
+            if(!aspectName.contains("_mega")) aspectName = GravelmonUtils.getCleanName(aspect.name()).replaceAll("_","");
             String fileContents = "{\n" +
-                    "    \"keys\": [ \""+aspect.name().toLowerCase()+"\" ],\n" +
+                    "    \"keys\": [ \""+aspectName+"\" ],\n" +
                     "    \"type\": \"flag\",\n" +
                     "    \"isAspect\": true,\n" +
                     "    \"default\": "+aspect.isDefault()+"\n" +
                     "  }";
 
-            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspect.name().toLowerCase()+".json"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspectName+".json"));
             writer.write(fileContents);
             writer.close();
 
@@ -75,6 +78,7 @@ public class SpeciesFeaturesJSONWriter {
     }
 
     public static void writeFeature(String aspect, String resourcesDir) throws IOException {
+        aspect = GravelmonUtils.getCleanName(aspect);
         String dir = resourcesDir+"\\data\\cobblemon\\species_features\\";
             String fileContents = "{\n" +
                     "    \"keys\": [ \""+aspect.toLowerCase()+"\" ],\n" +
@@ -83,7 +87,7 @@ public class SpeciesFeaturesJSONWriter {
                     "    \"default\": false\n" +
                     "  }";
             Files.createDirectories(new File(dir).toPath());
-            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspect.toLowerCase()+".json"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(dir+aspect+".json"));
             writer.write(fileContents);
             writer.close();
 

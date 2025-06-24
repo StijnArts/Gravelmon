@@ -7,7 +7,8 @@
       "id": "phoeuck-01",
       "pokemon": "phoeuck",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

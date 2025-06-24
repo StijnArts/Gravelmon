@@ -7,7 +7,8 @@
       "id": "skitterth-01",
       "pokemon": "skitterth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

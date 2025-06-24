@@ -7,7 +7,8 @@
       "id": "floramic-01",
       "pokemon": "floramic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

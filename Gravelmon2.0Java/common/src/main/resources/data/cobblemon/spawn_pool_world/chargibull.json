@@ -7,7 +7,8 @@
       "id": "chargibull-01",
       "pokemon": "chargibull",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

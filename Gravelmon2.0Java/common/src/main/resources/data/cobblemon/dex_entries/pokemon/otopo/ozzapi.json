@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ozzapi",
+  "speciesId": "cobblemon:ozzapi",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

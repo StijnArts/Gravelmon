@@ -7,7 +7,8 @@
       "id": "aromianferalassi-01",
       "pokemon": "aromianferalassi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

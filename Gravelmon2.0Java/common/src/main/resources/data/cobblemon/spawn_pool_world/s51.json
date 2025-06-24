@@ -7,7 +7,8 @@
       "id": "s51-01",
       "pokemon": "s51",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

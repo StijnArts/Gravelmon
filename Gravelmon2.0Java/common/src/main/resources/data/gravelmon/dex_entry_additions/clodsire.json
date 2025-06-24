@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:clodsire",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

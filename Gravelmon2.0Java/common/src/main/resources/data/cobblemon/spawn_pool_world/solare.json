@@ -7,7 +7,8 @@
       "id": "solare-01",
       "pokemon": "solare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

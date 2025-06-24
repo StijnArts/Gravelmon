@@ -7,7 +7,8 @@
       "id": "nidorimewintercoat-01",
       "pokemon": "nidorimewintercoat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

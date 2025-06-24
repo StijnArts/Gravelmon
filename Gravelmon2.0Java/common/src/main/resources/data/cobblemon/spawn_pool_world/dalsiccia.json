@@ -7,7 +7,8 @@
       "id": "dalsiccia-01",
       "pokemon": "dalsiccia",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

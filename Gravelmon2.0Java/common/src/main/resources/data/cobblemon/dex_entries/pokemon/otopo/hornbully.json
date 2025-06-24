@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hornbully",
+  "speciesId": "cobblemon:hornbully",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

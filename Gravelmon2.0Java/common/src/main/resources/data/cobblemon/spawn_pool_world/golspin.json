@@ -8,7 +8,8 @@
       "pokemon": "golspin",
       "presets": [
         "natural",
-        "gemstones"
+        "gemstones",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

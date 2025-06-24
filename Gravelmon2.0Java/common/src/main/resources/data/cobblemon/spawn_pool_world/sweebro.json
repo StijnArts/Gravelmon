@@ -7,7 +7,8 @@
       "id": "sweebro-01",
       "pokemon": "sweebro",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

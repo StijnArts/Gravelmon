@@ -7,7 +7,8 @@
       "id": "humwing-01",
       "pokemon": "humwing",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

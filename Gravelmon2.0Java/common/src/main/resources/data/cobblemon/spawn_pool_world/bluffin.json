@@ -7,7 +7,8 @@
       "id": "bluffin-01",
       "pokemon": "bluffin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

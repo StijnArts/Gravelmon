@@ -7,7 +7,8 @@
       "id": "vigoking-01",
       "pokemon": "vigoking",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

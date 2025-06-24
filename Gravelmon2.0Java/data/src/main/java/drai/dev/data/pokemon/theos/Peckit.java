@@ -17,20 +17,21 @@ public class Peckit extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.BIG_PECKS,Ability.QUICK_FEET), Ability.GUTS,
                 4, 30,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 225,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Peckit cannot fly but can jump quite high. Their beak is quite strong, using it to peck through the hard ground to find hiding Sqworm."),
-                List.of(),
+                List.of(new EvolutionEntry("luvzonica", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_TAIGA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Peckit");

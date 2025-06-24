@@ -24,14 +24,13 @@ public class Coatimber extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Coatimber were used for many years by master criminals in heists of important artifacts from museums and private collections. These Pokemon were slowly used less and less as law enforcement better understood how this Pokemon would help to commit crimes. They have since been adopted by Pokemon rehabilitation groups and have been found to be very excellent and caring companions and excellent battlers."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.THIEF,1)),
+                List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(3)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DECIDUOUS_FOREST).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Coatimber");

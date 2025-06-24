@@ -7,7 +7,8 @@
       "id": "banup-01",
       "pokemon": "banup",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

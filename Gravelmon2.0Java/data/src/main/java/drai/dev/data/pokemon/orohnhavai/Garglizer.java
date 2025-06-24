@@ -17,7 +17,7 @@ public class Garglizer extends drai.dev.data.pokemon.Pokemon {
                         60,
                         95),
                 List.of(Ability.RIVALRY,Ability.MOXIE,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 25,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -49,11 +49,11 @@ public class Garglizer extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKY_DROP,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Garglizer");
 

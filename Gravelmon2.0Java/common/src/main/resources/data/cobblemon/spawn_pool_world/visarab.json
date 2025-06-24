@@ -7,7 +7,8 @@
       "id": "visarab-01",
       "pokemon": "visarab",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "castide-01",
       "pokemon": "castide",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

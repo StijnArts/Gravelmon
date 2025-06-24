@@ -7,7 +7,8 @@
       "id": "turkistador-01",
       "pokemon": "turkistador",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

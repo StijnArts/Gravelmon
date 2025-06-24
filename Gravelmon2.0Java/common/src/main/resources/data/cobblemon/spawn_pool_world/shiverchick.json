@@ -7,7 +7,8 @@
       "id": "shiverchick-01",
       "pokemon": "shiverchick",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

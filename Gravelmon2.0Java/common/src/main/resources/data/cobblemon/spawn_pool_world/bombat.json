@@ -7,7 +7,8 @@
       "id": "bombat-01",
       "pokemon": "bombat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

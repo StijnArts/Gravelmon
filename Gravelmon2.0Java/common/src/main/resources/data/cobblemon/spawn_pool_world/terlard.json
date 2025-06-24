@@ -7,7 +7,8 @@
       "id": "terlard-01",
       "pokemon": "terlard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

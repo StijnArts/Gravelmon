@@ -7,7 +7,8 @@
       "id": "gorgopy-01",
       "pokemon": "gorgopy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

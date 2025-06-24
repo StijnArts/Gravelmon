@@ -7,7 +7,8 @@
       "id": "viperoyal-01",
       "pokemon": "viperoyal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

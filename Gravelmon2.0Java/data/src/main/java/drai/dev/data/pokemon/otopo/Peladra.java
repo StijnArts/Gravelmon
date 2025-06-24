@@ -11,8 +11,8 @@ public class Peladra extends drai.dev.data.pokemon.Pokemon {
                 Type.WATER, Type.DRAGON,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                22, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -42,12 +42,13 @@ public class Peladra extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,39)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(38).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_LUKEWARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Peladra");
 
     }

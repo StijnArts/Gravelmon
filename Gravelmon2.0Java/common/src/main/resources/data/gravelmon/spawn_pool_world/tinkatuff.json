@@ -35,7 +35,8 @@
       "id": "epoch_tinkatuff-01",
       "pokemon": "tinkatuff epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

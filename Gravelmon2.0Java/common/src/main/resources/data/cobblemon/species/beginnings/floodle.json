@@ -2,13 +2,13 @@
   "name": "Floodle",
   "primaryType": "water",
   "secondaryType": "normal",
-  "catchRate": 194,
+  "catchRate": 220,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21818181818181817,
+  "baseScale": 0.43636363636363634,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -95,11 +95,26 @@
   "pokedex": [
     "cobblemon.species.floodle.desc"
   ],
-  "height": 0,
+  "height": 8,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9252,
+  "evolutions": [
+    {
+      "id": "floodle_woofoam",
+      "variant": "level_up",
+      "result": "woofoam",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "25"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9599,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

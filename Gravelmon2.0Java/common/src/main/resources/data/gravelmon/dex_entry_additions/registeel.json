@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:registeel",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
 }

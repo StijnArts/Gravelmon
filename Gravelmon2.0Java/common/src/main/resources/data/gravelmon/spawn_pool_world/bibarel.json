@@ -34,7 +34,8 @@
       "id": "kaskadian_bibarel-01",
       "pokemon": "bibarel kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +67,8 @@
       "id": "fabelian_bibarel-01",
       "pokemon": "bibarel fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

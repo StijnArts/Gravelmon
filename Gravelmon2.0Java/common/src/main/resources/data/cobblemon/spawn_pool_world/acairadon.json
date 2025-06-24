@@ -7,7 +7,8 @@
       "id": "acairadon-01",
       "pokemon": "acairadon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

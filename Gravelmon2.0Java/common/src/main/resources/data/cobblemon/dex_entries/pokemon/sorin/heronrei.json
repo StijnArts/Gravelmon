@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:heronrei",
+  "speciesId": "cobblemon:heronrei",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

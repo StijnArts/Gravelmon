@@ -7,7 +7,8 @@
       "id": "abuleaf-01",
       "pokemon": "abuleaf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

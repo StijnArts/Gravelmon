@@ -7,7 +7,8 @@
       "id": "gumla-01",
       "pokemon": "gumla",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

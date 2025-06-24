@@ -7,7 +7,8 @@
       "id": "victoriant-01",
       "pokemon": "victoriant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

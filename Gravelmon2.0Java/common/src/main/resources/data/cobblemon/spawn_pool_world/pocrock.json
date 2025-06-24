@@ -7,7 +7,8 @@
       "id": "pocrock-01",
       "pokemon": "pocrock",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_armarouge-01",
       "pokemon": "armarouge epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

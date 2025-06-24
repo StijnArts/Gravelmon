@@ -7,7 +7,8 @@
       "id": "x_haunter-01",
       "pokemon": "haunter x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "havaiian_haunter-01",
       "pokemon": "haunter havaiian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -58,7 +60,8 @@
       "id": "epoch_haunter-01",
       "pokemon": "haunter epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +89,8 @@
       "id": "kaskadian_haunter-01",
       "pokemon": "haunter kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -97,7 +101,9 @@
         "biomes": [
           "#cobblemon:is_temperate"
         ],
-        "isRaining": true
+        "isRaining": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -112,7 +118,8 @@
       "id": "forman_haunter-01",
       "pokemon": "haunter forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -123,7 +130,9 @@
         "biomes": [
           "#cobblemon:is_grassland"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -138,7 +147,8 @@
       "id": "ayreian_haunter-01",
       "pokemon": "haunter ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -164,7 +174,8 @@
       "id": "nodorran_haunter-01",
       "pokemon": "haunter nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -175,7 +186,9 @@
         "biomes": [
           "#cobblemon:is_snowy"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -7,7 +7,8 @@
       "id": "vipetro-01",
       "pokemon": "vipetro",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "kingpome-01",
       "pokemon": "kingpome",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

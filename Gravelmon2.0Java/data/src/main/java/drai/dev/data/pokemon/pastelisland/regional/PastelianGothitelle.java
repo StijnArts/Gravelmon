@@ -22,7 +22,7 @@ public class PastelianGothitelle extends drai.dev.data.pokemon.Pokemon {
                 221, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("- Pound Normal - Confusion Psychic - Tickle Normal - Play Nice Normal 3 Confusion Psychic 7 Tickle Normal 10 Fake Tears Dark 14 Double Slap  Normal 16 Psybeam Psychic 19 Embargo  Dark 24 Feint Attack Dark 25 Psyshock  Psychic 28 Flatter Dark 31 Future Sight  Psychic 34 Heal Block  Psychic 39 Psychic Psychic 45 Telekinesis  Psychic 54 Charm Fairy 59 Magic Room  Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
@@ -112,10 +112,10 @@ public class PastelianGothitelle extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(41).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SPOOKY).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Gothitelle");

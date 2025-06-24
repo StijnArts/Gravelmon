@@ -7,7 +7,8 @@
       "id": "rudeworm-01",
       "pokemon": "rudeworm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

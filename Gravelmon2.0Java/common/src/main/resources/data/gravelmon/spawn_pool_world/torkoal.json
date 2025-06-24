@@ -7,7 +7,8 @@
       "id": "epoch_torkoal-01",
       "pokemon": "torkoal epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "mahalian_torkoal-01",
       "pokemon": "torkoal mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

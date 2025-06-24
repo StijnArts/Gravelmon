@@ -7,7 +7,8 @@
       "id": "enchantowl-01",
       "pokemon": "enchantowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

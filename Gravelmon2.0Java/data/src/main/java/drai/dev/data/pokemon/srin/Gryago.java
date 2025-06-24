@@ -11,8 +11,8 @@ public class Gryago extends drai.dev.data.pokemon.Pokemon {
                 Type.ICE,Type.GROUND,
                 stats,
                 List.of(Ability.POISON_POINT,Ability.SNOW_WARNING), Ability.SHEER_FORCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                26, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,10 +22,10 @@ public class Gryago extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.SORIN),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(42).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY_FOREST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Gūryago");

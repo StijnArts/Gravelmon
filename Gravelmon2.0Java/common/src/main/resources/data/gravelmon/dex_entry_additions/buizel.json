@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:buizel",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

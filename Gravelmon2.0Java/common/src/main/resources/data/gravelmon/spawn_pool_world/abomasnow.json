@@ -7,7 +7,8 @@
       "id": "cefiran_abomasnow-01",
       "pokemon": "abomasnow cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_abomasnow-01",
       "pokemon": "abomasnow epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,8 @@
       "id": "kaskadian_abomasnow-01",
       "pokemon": "abomasnow kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

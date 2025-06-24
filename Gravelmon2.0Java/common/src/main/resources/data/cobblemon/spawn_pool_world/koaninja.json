@@ -8,7 +8,8 @@
       "pokemon": "koaninja",
       "presets": [
         "natural",
-        "treetop"
+        "treetop",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

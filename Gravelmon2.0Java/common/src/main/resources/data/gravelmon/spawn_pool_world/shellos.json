@@ -7,6 +7,7 @@
       "id": "rican_shellos-01",
       "pokemon": "shellos rican",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -358,7 +359,8 @@
       "id": "avalossian_shellos-01",
       "pokemon": "shellos avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

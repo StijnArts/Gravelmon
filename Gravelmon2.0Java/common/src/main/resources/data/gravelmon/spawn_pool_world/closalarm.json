@@ -7,7 +7,8 @@
       "id": "tribal_closalarm-01",
       "pokemon": "closalarm tribal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

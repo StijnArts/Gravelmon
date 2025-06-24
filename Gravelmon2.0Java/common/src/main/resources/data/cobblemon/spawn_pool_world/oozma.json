@@ -7,7 +7,8 @@
       "id": "oozma-01",
       "pokemon": "oozma",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

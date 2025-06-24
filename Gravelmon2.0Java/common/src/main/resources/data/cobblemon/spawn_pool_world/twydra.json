@@ -7,7 +7,8 @@
       "id": "twydra-01",
       "pokemon": "twydra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tandash-01",
       "pokemon": "tandash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

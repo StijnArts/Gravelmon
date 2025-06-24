@@ -7,7 +7,8 @@
       "id": "galatoo-01",
       "pokemon": "galatoo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

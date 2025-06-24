@@ -7,7 +7,8 @@
       "id": "calfyr-01",
       "pokemon": "calfyr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

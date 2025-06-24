@@ -7,7 +7,8 @@
       "id": "whelasse-01",
       "pokemon": "whelasse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

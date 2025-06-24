@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +35,8 @@
       "id": "epoch_dragapult-01",
       "pokemon": "dragapult epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +64,8 @@
       "id": "hoennian_dragapult-01",
       "pokemon": "dragapult hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

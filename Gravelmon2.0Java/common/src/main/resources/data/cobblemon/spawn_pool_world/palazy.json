@@ -7,7 +7,8 @@
       "id": "palazy-01",
       "pokemon": "palazy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "mitequeen-01",
       "pokemon": "mitequeen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

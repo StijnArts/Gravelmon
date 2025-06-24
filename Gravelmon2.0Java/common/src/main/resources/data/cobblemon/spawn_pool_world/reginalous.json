@@ -7,7 +7,8 @@
       "id": "reginalous-01",
       "pokemon": "reginalous",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

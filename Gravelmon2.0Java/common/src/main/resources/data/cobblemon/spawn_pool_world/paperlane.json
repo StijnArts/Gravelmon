@@ -7,7 +7,8 @@
       "id": "paperlane-01",
       "pokemon": "paperlane",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

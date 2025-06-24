@@ -7,7 +7,8 @@
       "id": "eeveeon-01",
       "pokemon": "eeveeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

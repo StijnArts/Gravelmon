@@ -7,6 +7,7 @@
       "id": "seviian_milotic-01",
       "pokemon": "milotic seviian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -37,6 +40,7 @@
       "id": "delta_milotic-01",
       "pokemon": "milotic delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -47,7 +51,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

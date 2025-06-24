@@ -7,7 +7,8 @@
       "id": "fjordrake-01",
       "pokemon": "fjordrake",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

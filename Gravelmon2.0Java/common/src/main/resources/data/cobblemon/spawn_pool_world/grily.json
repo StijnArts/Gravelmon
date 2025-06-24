@@ -7,7 +7,8 @@
       "id": "grily-01",
       "pokemon": "grily",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "balocket-01",
       "pokemon": "balocket",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "polykelp-01",
       "pokemon": "polykelp",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

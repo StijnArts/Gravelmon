@@ -7,7 +7,8 @@
       "id": "flamingant-01",
       "pokemon": "flamingant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

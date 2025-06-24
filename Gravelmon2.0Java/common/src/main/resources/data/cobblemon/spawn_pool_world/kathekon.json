@@ -7,7 +7,8 @@
       "id": "kathekon-01",
       "pokemon": "kathekon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

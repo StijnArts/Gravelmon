@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:has_season/spring"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

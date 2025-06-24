@@ -7,7 +7,8 @@
       "id": "maschodile-01",
       "pokemon": "maschodile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

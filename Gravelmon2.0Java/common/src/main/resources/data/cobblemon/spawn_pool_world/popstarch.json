@@ -7,7 +7,7 @@
       "id": "popstarch-01",
       "pokemon": "popstarch",
       "presets": [
-        "natural"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",

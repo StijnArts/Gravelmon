@@ -7,7 +7,8 @@
       "id": "bansenbu-01",
       "pokemon": "bansenbu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

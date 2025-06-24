@@ -563,11 +563,40 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 39,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "nuclear_mega",
+      "primaryType": "water",
+      "secondaryType": "nuclear",
+      "baseScale": 1.14,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 155,
+        "defence": 109,
+        "special_attack": 70,
+        "special_defence": 130,
+        "speed": 81
+      },
+      "labels": [
+        "gen1",
+        "uranium",
+        "not_modeled"
+      ],
+      "height": 38,
+      "aspects": [
+        "nuclear_mega"
       ]
     }
   ],
@@ -576,6 +605,7 @@
     "ivrisian",
     "nodorran",
     "ishirian",
-    "epoch_mega"
+    "epoch_mega",
+    "nuclear_mega"
   ]
 }

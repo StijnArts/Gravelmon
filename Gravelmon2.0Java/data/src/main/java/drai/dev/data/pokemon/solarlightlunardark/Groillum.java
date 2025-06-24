@@ -23,8 +23,8 @@ public class Groillum extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Groillum wrestle with each other as a past time. They can do stunt attacks like body slamming from the treetops, or hanging the others upside down under a branch."),
-                List.of(new EvolutionEntry("kongrilla", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+                List.of(new EvolutionEntry("kongrilla", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.LEAF_DARTS.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,9),
                         new MoveLearnSetEntry(Move.SKY_UPPERCUT,38),

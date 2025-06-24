@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:electrike",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Enjinnian",
+      "unlockForms": [
+        "Enjinnian"
+      ]
+    }
+  ]
 }

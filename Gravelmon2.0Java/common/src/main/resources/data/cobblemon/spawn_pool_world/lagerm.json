@@ -7,7 +7,8 @@
       "id": "lagerm-01",
       "pokemon": "lagerm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

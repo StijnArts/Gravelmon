@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:dustox",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

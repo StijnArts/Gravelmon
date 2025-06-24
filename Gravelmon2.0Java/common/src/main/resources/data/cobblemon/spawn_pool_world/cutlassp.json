@@ -7,7 +7,8 @@
       "id": "cutlassp-01",
       "pokemon": "cutlassp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

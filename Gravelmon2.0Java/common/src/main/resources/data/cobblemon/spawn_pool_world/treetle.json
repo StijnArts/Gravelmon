@@ -7,7 +7,8 @@
       "id": "treetle-01",
       "pokemon": "treetle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

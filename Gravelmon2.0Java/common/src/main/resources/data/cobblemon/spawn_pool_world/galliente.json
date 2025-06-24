@@ -7,7 +7,8 @@
       "id": "galliente-01",
       "pokemon": "galliente",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

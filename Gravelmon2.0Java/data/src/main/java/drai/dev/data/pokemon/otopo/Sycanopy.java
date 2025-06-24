@@ -16,7 +16,7 @@ public class Sycanopy extends drai.dev.data.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                23, 0,
                 new Stats(1,0,0,2,0,0), 45,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -31,10 +31,10 @@ public class Sycanopy extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(30).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Sycanopy");

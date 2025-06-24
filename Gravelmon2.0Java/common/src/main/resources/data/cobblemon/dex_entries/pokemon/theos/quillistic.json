@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:quillistic",
+  "speciesId": "cobblemon:quillistic",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

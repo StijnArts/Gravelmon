@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "electone",
-  "baseScale": 21.6,
+  "baseScale": 0.4363636363636364,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -105,11 +105,11 @@
   "weight": 2080,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8895,
+  "nationalPokedexNumber": 9187,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 6.1875,
+    "height": 6.1875,
     "fixed": false
   },
   "features": [],

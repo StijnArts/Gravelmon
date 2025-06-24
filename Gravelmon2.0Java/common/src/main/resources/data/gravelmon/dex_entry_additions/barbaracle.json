@@ -1,4 +1,29 @@
 {
   "entryId": "cobblemon:barbaracle",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch_mega",
+      "unlockForms": [
+        "Epoch_mega"
+      ]
+    },
+    {
+      "displayForm": "Lagoonan",
+      "unlockForms": [
+        "Lagoonan"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

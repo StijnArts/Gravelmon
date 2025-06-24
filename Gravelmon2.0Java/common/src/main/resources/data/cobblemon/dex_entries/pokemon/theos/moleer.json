@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moleer",
+  "speciesId": "cobblemon:moleer",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

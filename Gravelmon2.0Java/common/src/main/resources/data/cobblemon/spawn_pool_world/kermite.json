@@ -7,7 +7,8 @@
       "id": "kermite-01",
       "pokemon": "kermite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "harmosoar-01",
       "pokemon": "harmosoar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

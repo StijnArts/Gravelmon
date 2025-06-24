@@ -7,7 +7,8 @@
       "id": "draconaut-01",
       "pokemon": "draconaut",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

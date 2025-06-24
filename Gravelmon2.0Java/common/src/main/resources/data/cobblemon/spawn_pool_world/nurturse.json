@@ -7,7 +7,8 @@
       "id": "nurturse-01",
       "pokemon": "nurturse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

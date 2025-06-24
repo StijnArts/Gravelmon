@@ -7,7 +7,8 @@
       "id": "irogustodos-01",
       "pokemon": "irogustodos",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

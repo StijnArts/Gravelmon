@@ -7,7 +7,8 @@
       "id": "leeceri-01",
       "pokemon": "leeceri",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

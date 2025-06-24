@@ -7,7 +7,8 @@
       "id": "searpent-01",
       "pokemon": "searpent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

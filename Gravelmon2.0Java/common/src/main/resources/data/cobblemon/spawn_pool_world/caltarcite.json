@@ -7,7 +7,8 @@
       "id": "caltarcite-01",
       "pokemon": "caltarcite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

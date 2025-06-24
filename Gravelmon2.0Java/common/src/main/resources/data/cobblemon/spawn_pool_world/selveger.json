@@ -7,7 +7,8 @@
       "id": "selveger-01",
       "pokemon": "selveger",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

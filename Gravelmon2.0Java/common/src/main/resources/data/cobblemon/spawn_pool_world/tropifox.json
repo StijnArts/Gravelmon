@@ -7,7 +7,8 @@
       "id": "tropifox-01",
       "pokemon": "tropifox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

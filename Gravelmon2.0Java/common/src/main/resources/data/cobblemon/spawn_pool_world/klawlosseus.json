@@ -7,7 +7,8 @@
       "id": "klawlosseus-01",
       "pokemon": "klawlosseus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_snowy"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +35,8 @@
       "id": "epoch_mimikyu-01",
       "pokemon": "mimikyu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -85,7 +88,8 @@
       "id": "fabelian_mimikyu-01",
       "pokemon": "mimikyu fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

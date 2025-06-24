@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:auriconda",
+  "speciesId": "cobblemon:auriconda",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

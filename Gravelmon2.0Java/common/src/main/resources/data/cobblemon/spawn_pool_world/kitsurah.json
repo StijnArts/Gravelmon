@@ -7,7 +7,8 @@
       "id": "kitsurah-01",
       "pokemon": "kitsurah",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

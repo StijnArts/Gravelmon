@@ -16,7 +16,7 @@ public class Cerisefly extends drai.dev.data.pokemon.Pokemon {
                         60,
                         90),
                 List.of(Ability.TINTED_LENS,Ability.SWARM), Ability.ADAPTABILITY,
-                0, 0,
+                12, 0,
                 new Stats(0,0,0,2,0,1), 45,
                 0.5,
                 185, ExperienceGroup.MEDIUM_FAST,
@@ -42,12 +42,13 @@ public class Cerisefly extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,63)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(14).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Cerisefly");
 
     }

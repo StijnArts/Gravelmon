@@ -7,7 +7,8 @@
       "id": "harevoyant-01",
       "pokemon": "harevoyant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

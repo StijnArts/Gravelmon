@@ -7,7 +7,8 @@
       "id": "froby-01",
       "pokemon": "froby",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

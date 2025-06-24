@@ -7,7 +7,8 @@
       "id": "baparo-01",
       "pokemon": "baparo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

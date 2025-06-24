@@ -7,7 +7,8 @@
       "id": "lansor-01",
       "pokemon": "lansor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

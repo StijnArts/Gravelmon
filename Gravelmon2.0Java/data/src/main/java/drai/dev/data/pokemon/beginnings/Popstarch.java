@@ -31,7 +31,7 @@ public class Popstarch extends drai.dev.data.pokemon.Pokemon {
                         .setMinLevel(28).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
                         .setBiomes(Biome.IS_GRASSLAND).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 List.of());
            setLangFileName("Popstarch");
 

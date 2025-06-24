@@ -7,7 +7,8 @@
       "id": "festivowl-01",
       "pokemon": "festivowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

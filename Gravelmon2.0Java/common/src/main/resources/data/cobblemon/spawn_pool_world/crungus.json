@@ -7,7 +7,8 @@
       "id": "crungus-01",
       "pokemon": "crungus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,8 +16,8 @@ public class Pangoloo extends drai.dev.data.pokemon.Pokemon {
                         40,
                         30),
                 List.of(Ability.DEEP_FREEZE), Ability.DEEP_FREEZE,
-                0, 0,
-                new Stats(0,0,2,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 140, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,9 +28,9 @@ public class Pangoloo extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FREEZING).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Pangoloo");

@@ -7,7 +7,8 @@
       "id": "egho_hoothoot-01",
       "pokemon": "hoothoot egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "delta_hoothoot-01",
       "pokemon": "hoothoot delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "epoch_hoothoot-01",
       "pokemon": "hoothoot epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -91,7 +94,8 @@
       "id": "epoch_hoothoot-01",
       "pokemon": "hoothoot epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -118,7 +122,8 @@
       "id": "forman_hoothoot-01",
       "pokemon": "hoothoot forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -146,7 +151,8 @@
       "id": "enjinnian_hoothoot-01",
       "pokemon": "hoothoot enjinnian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -174,7 +180,8 @@
       "id": "fabelian_hoothoot-01",
       "pokemon": "hoothoot fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

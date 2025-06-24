@@ -7,7 +7,8 @@
       "id": "relic_ledian-01",
       "pokemon": "ledian relic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +35,8 @@
       "id": "alteran_ledian-01",
       "pokemon": "ledian alteran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -42,7 +46,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_arid"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -57,7 +63,8 @@
       "id": "epoch_ledian-01",
       "pokemon": "ledian epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +91,8 @@
       "id": "forman_ledian-01",
       "pokemon": "ledian forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -94,6 +102,35 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:honeycomb_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastelian_ledian-01",
+      "pokemon": "ledian pastelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-38",
+      "weight": 0.5,
+      "condition": {
+        "biomes": [
+          "minecraft:birch_forest"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15,

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:golisopod",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

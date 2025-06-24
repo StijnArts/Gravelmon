@@ -7,6 +7,7 @@
       "id": "dhioman_polynett-01",
       "pokemon": "polynett dhioman",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

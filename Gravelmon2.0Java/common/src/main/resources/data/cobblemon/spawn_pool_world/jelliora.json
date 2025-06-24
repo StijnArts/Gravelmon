@@ -7,7 +7,8 @@
       "id": "jelliora-01",
       "pokemon": "jelliora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

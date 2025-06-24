@@ -7,7 +7,8 @@
       "id": "compoet-01",
       "pokemon": "compoet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

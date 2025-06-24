@@ -7,7 +7,8 @@
       "id": "whaloon-01",
       "pokemon": "whaloon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

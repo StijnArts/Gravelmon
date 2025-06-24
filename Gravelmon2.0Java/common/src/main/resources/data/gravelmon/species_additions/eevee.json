@@ -372,7 +372,8 @@
       },
       "labels": [
         "gen1",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 6,
       "aspects": [
@@ -951,6 +952,54 @@
       "permanent": true
     },
     {
+      "id": "eevee_necreon",
+      "variant": "level_up",
+      "result": "necreon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:nether/is_soul_sand"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "eevee_bladeon",
+      "variant": "item_interact",
+      "result": "bladeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:iron_sword",
+      "permanent": true
+    },
+    {
+      "id": "eevee_waspeon",
+      "variant": "item_interact",
+      "result": "waspeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:poison_barb",
+      "permanent": true
+    },
+    {
+      "id": "eevee_toxeon",
+      "variant": "level_up",
+      "result": "toxeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        }
+      ],
+      "permanent": true
+    },
+    {
       "id": "eevee_titaneon",
       "variant": "level_up",
       "result": "titaneon",
@@ -1048,6 +1097,34 @@
       "learnableMoves": [],
       "requirements": [],
       "requiredContext": "cobblemon:dragon_scale",
+      "permanent": true
+    },
+    {
+      "id": "eevee_levieon",
+      "variant": "level_up",
+      "result": "levieon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_sky"
+        }
+      ],
+      "permanent": true
+    },
+    {
+      "id": "eevee_bankeon",
+      "variant": "level_up",
+      "result": "bankeon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:soft_sand"
+        }
+      ],
       "permanent": true
     }
   ],
@@ -1240,6 +1317,16 @@
         "percentage": 10
       },
       {
+        "item": "minecraft:iron_sword",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "minecraft:iron_helmet",
         "quantityRange": "1-1",
         "percentage": 10
@@ -1271,6 +1358,11 @@
       },
       {
         "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:soft_sand",
         "quantityRange": "1-1",
         "percentage": 10
       }

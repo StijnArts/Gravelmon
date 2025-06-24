@@ -240,10 +240,10 @@ public class CreativeTabsInit {
             });
         });
 
-//        if(Platform.isModLoaded("mega_showdown")){
-//            ItemGroupEvents.modifyEntriesEvent(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB).register(entries -> {
-//
-//            });
-//        }
+        if(Platform.isModLoaded("mega_showdown")){
+            ItemGroupEvents.modifyEntriesEvent(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB.getKey()).register(entries -> {
+                GravelmonMegas.getLegalMegaStones().forEach(entry -> entries.accept(entry.getKey().get()));
+            });
+        }
     }
 }

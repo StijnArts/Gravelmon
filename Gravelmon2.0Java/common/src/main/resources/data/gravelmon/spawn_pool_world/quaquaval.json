@@ -7,7 +7,8 @@
       "id": "epoch_quaquaval-01",
       "pokemon": "quaquaval epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "ayreian_quaquaval-01",
       "pokemon": "quaquaval ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

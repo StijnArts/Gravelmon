@@ -7,7 +7,8 @@
       "id": "pharaox-01",
       "pokemon": "pharaox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

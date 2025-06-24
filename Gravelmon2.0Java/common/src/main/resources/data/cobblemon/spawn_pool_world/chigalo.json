@@ -7,7 +7,8 @@
       "id": "chigalo-01",
       "pokemon": "chigalo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

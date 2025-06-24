@@ -7,7 +7,8 @@
       "id": "basilect-01",
       "pokemon": "basilect",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

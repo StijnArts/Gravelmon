@@ -7,7 +7,8 @@
       "id": "geigeroach-01",
       "pokemon": "geigeroach",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

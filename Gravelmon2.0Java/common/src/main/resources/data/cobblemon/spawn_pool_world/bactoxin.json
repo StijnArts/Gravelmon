@@ -7,7 +7,8 @@
       "id": "bactoxin-01",
       "pokemon": "bactoxin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

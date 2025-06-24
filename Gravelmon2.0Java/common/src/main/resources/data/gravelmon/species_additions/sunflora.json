@@ -456,6 +456,114 @@
       }
     },
     {
+      "name": "Theossian",
+      "primaryType": "grass",
+      "secondaryType": "fire",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 149,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.32,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 75,
+        "attack": 75,
+        "defence": 55,
+        "special_attack": 115,
+        "special_defence": 75,
+        "speed": 30
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:absorb",
+        "1:ember",
+        "1:leer",
+        "1:growl",
+        "10:megadrain",
+        "10:firespin",
+        "15:magicalleaf",
+        "15:flamecharge",
+        "20:gigadrain",
+        "20:flameburst",
+        "25:energyball",
+        "25:flamethrower",
+        "30:solarbeam",
+        "30:fireblast",
+        "35:leafage",
+        "35:ember",
+        "40:leer",
+        "40:growl",
+        "45:absorb",
+        "45:quickattack",
+        "50:trailblaze",
+        "50:flamecharge",
+        "55:gigadrain",
+        "55:firepunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossiansunflora.desc"
+      ],
+      "height": 12,
+      "weight": 85,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.625,
+        "height": 5.625,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "grass",
       "baseScale": 0.13521126760563382,
@@ -474,7 +582,8 @@
       },
       "labels": [
         "gen2",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 8,
       "aspects": [
@@ -501,7 +610,8 @@
       },
       "labels": [
         "gen2",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 11,
       "aspects": [
@@ -513,6 +623,7 @@
     "delta",
     "epoch",
     "nodorran",
+    "theossian",
     "mega",
     "delta_mega"
   ],

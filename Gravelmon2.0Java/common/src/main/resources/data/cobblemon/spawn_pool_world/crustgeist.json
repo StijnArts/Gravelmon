@@ -7,7 +7,8 @@
       "id": "crustgeist-01",
       "pokemon": "crustgeist",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

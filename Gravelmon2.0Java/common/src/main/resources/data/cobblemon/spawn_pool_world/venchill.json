@@ -7,7 +7,8 @@
       "id": "venchill-01",
       "pokemon": "venchill",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

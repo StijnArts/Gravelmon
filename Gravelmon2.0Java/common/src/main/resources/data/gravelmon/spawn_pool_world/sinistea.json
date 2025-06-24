@@ -34,7 +34,8 @@
       "id": "ivrisian_sinistea-01",
       "pokemon": "sinistea ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "ferranian_sinistea-01",
       "pokemon": "sinistea ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +90,8 @@
       "id": "mahalian_sinistea-01",
       "pokemon": "sinistea mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -115,7 +118,8 @@
       "id": "fabelian_sinistea-01",
       "pokemon": "sinistea fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

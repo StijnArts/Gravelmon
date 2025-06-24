@@ -7,7 +7,8 @@
       "id": "epoch_cubchoo-01",
       "pokemon": "cubchoo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -40,7 +41,8 @@
       "id": "qamoran_cubchoo-01",
       "pokemon": "cubchoo qamoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,8 @@
       "id": "nodorran_cubchoo-01",
       "pokemon": "cubchoo nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

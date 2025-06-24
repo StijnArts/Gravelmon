@@ -7,7 +7,8 @@
       "id": "littull-01",
       "pokemon": "littull",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -34,7 +34,8 @@
       "id": "x_electabuzz-01",
       "pokemon": "electabuzz x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +60,8 @@
       "id": "epoch_electabuzz-01",
       "pokemon": "electabuzz epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "ishirian_electabuzz-01",
       "pokemon": "electabuzz ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -96,7 +99,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

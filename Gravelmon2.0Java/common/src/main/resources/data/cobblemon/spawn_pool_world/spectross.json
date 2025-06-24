@@ -7,7 +7,8 @@
       "id": "spectross-01",
       "pokemon": "spectross",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

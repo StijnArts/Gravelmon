@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:mawile",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta_mega",
+      "unlockForms": [
+        "Delta_mega"
+      ]
+    },
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
 }

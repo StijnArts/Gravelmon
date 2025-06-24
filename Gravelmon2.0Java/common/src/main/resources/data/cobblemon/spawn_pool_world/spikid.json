@@ -7,7 +7,8 @@
       "id": "spikid-01",
       "pokemon": "spikid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

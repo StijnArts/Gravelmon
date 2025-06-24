@@ -7,7 +7,8 @@
       "id": "burnaram-01",
       "pokemon": "burnaram",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

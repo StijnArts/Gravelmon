@@ -7,7 +7,8 @@
       "id": "panditsy-01",
       "pokemon": "panditsy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "pearry-01",
       "pokemon": "pearry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

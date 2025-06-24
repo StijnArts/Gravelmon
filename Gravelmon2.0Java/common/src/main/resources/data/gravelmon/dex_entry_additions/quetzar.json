@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:quetzar",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Space",
+      "unlockForms": [
+        "Space"
+      ]
+    }
+  ]
 }

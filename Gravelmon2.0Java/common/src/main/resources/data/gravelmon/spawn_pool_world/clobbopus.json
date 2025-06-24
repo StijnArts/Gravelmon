@@ -34,6 +34,7 @@
       "id": "novran_clobbopus-01",
       "pokemon": "clobbopus novran",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

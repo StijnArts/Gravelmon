@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:typheline",
+  "speciesId": "cobblemon:typheline",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

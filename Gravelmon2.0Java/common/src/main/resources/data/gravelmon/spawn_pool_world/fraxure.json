@@ -7,6 +7,7 @@
       "id": "delta_fraxure-01",
       "pokemon": "fraxure delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_fraxure-01",
       "pokemon": "fraxure epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "ayreian_fraxure-01",
       "pokemon": "fraxure ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

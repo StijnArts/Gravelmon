@@ -7,7 +7,8 @@
       "id": "thefcoon-01",
       "pokemon": "thefcoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

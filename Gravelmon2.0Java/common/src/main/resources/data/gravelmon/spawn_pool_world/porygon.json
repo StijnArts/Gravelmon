@@ -34,7 +34,8 @@
       "id": "epoch_porygon-01",
       "pokemon": "porygon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

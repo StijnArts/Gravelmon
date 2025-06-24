@@ -7,7 +7,8 @@
       "id": "blingrimm-01",
       "pokemon": "blingrimm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

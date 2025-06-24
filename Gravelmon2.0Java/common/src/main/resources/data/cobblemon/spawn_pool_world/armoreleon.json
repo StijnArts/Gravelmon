@@ -7,7 +7,8 @@
       "id": "armoreleon-01",
       "pokemon": "armoreleon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

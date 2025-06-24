@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:llamagma",
+  "speciesId": "cobblemon:llamagma",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

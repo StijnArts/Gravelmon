@@ -7,7 +7,8 @@
       "id": "beavel-01",
       "pokemon": "beavel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

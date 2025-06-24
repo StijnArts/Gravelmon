@@ -7,7 +7,8 @@
       "id": "glittiny-01",
       "pokemon": "glittiny",
       "presets": [
-        "natural"
+        "wild",
+        "treetop"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,8 +17,9 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#gravelmon:is_deciduous_forest"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

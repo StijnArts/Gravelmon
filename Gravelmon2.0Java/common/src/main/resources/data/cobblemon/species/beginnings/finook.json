@@ -1,13 +1,13 @@
 {
   "name": "Finook",
   "primaryType": "water",
-  "catchRate": 197,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.26666666666666666,
+  "baseScale": 0.3333333333333333,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -26,14 +26,14 @@
       "canLook": true,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "avoidsLand": true
       },
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
@@ -80,11 +80,26 @@
   "pokedex": [
     "cobblemon.species.finook.desc"
   ],
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9270,
+  "evolutions": [
+    {
+      "id": "finook_reelfin",
+      "variant": "level_up",
+      "result": "reelfin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "26"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9617,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.25,

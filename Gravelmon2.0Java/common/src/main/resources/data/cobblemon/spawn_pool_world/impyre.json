@@ -7,7 +7,8 @@
       "id": "impyre-01",
       "pokemon": "impyre",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

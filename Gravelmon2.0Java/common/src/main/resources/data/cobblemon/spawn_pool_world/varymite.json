@@ -7,7 +7,8 @@
       "id": "varymite-01",
       "pokemon": "varymite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

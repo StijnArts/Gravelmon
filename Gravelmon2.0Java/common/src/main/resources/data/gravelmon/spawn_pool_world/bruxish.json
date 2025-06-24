@@ -56,7 +56,8 @@
       "id": "kaskadian_bruxish-01",
       "pokemon": "bruxish kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +67,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_river"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

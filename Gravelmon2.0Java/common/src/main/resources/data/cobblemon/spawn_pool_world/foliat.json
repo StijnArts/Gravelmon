@@ -7,7 +7,8 @@
       "id": "foliat-01",
       "pokemon": "foliat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

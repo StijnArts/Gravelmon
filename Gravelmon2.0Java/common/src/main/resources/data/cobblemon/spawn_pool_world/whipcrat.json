@@ -7,7 +7,8 @@
       "id": "whipcrat-01",
       "pokemon": "whipcrat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

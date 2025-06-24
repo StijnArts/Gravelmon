@@ -7,7 +7,8 @@
       "id": "xenotic-01",
       "pokemon": "xenotic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:bombirdier",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

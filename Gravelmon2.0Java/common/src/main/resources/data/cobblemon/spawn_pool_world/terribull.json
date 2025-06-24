@@ -7,7 +7,8 @@
       "id": "terribull-01",
       "pokemon": "terribull",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

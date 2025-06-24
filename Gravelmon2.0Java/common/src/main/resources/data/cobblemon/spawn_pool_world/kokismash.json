@@ -7,7 +7,8 @@
       "id": "kokismash-01",
       "pokemon": "kokismash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "inferaid-01",
       "pokemon": "inferaid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

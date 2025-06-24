@@ -7,7 +7,8 @@
       "id": "xinigen-01",
       "pokemon": "xinigen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

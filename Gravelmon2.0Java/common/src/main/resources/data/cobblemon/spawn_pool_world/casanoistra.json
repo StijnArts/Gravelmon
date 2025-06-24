@@ -7,7 +7,8 @@
       "id": "casanoistra-01",
       "pokemon": "casanoistra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

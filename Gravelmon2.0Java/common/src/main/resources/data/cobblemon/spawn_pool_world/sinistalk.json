@@ -7,7 +7,8 @@
       "id": "sinistalk-01",
       "pokemon": "sinistalk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

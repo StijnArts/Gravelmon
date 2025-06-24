@@ -7,7 +7,8 @@
       "id": "thermonster-01",
       "pokemon": "thermonster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,9 +20,7 @@
           "#minecraft:is_nether",
           "#cobblemon:is_volvanic",
           "#cobblemon:is_thermal"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

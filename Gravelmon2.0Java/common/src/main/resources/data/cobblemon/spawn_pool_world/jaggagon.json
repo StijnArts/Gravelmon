@@ -7,7 +7,8 @@
       "id": "jaggagon-01",
       "pokemon": "jaggagon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

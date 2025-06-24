@@ -7,7 +7,8 @@
       "id": "cefiran_petilil-01",
       "pokemon": "petilil cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "minecraft:cherry_grove"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,6 +35,7 @@
       "id": "delta_water_petilil-01",
       "pokemon": "petilil delta_water",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -42,7 +46,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -62,7 +68,8 @@
       "id": "delta_fairy_petilil-01",
       "pokemon": "petilil delta_fairy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -90,7 +97,8 @@
       "id": "epoch_petilil-01",
       "pokemon": "petilil epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -107,6 +115,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:magma_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_petilil-01",
+      "pokemon": "petilil theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_peak"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:moss_block"
           ]
         }
       }

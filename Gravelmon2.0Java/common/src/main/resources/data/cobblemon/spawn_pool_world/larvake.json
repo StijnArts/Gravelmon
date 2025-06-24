@@ -7,7 +7,8 @@
       "id": "larvake-01",
       "pokemon": "larvake",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

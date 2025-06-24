@@ -7,7 +7,8 @@
       "id": "mantaby-01",
       "pokemon": "mantaby",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

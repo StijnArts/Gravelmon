@@ -7,7 +7,8 @@
       "id": "humborb-01",
       "pokemon": "humborb",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

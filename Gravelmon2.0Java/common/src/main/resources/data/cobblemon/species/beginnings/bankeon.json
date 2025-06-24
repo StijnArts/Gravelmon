@@ -1,13 +1,14 @@
 {
   "name": "Bankeon",
   "primaryType": "ground",
-  "catchRate": 62,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.13521126760563382,
+  "preEvolution": "bankeon",
+  "baseScale": 0.4394366197183099,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -57,7 +58,16 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {},
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:mudslap",
     "1:shoreup",
@@ -78,16 +88,17 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bankeon.desc"
   ],
-  "height": 0,
+  "height": 13,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9278,
+  "nationalPokedexNumber": 9625,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

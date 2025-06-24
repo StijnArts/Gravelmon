@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:rufflet",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

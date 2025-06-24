@@ -7,7 +7,8 @@
       "id": "epoch_banette-01",
       "pokemon": "banette epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

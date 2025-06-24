@@ -7,7 +7,8 @@
       "id": "modra-01",
       "pokemon": "modra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

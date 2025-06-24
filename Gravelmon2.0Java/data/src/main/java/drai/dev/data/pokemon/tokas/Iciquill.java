@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Iciquill extends drai.dev.data.pokemon.Pokemon {
-    public Iciquill() {
+    public Iciquill(Stats stats) {
         super("Iciquill",
                 Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.MIRROR_ARMOR), Ability.MIRROR_ARMOR,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

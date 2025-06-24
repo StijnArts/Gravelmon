@@ -7,7 +7,8 @@
       "id": "aerocea-01",
       "pokemon": "aerocea",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -11,6 +11,7 @@ import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import drai.dev.gravelsextendedbattles.resorting.*;
 import kotlin.*;
+import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import org.apache.logging.log4j.*;
 import org.spongepowered.asm.mixin.*;
@@ -18,6 +19,7 @@ import org.spongepowered.asm.mixin.*;
 import java.io.*;
 import java.util.*;
 import java.util.function.*;
+import java.util.stream.*;
 
 public class Gravelmon
 {
@@ -99,6 +101,14 @@ public class Gravelmon
 		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.CRUNCH, 30));
 		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.CALM_MIND, 30));
 		GravelmonMoveSubstitution.registerMoveInsertion("stantler", new MoveLearnSetEntry(Move.SACRED_SWORD, 30));
+	}
 
+	public static List<Item> getAllowedFossils() {
+		return FOSSIL_ITEM_MAP.values().stream().map(Supplier::get).filter(item -> {
+			var itemId = BuiltInRegistries.ITEM.getKey(item);
+			var fossil = GravelsExtendedBattles.FOSSIL_MAP.get(itemId);
+			if(fossil == null) return false;
+			return SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm());
+		}).collect(Collectors.toList());
 	}
 }

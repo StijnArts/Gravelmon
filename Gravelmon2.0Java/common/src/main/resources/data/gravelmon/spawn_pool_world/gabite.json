@@ -7,7 +7,8 @@
       "id": "raianian_gabite-01",
       "pokemon": "gabite raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "norse_gabite-01",
       "pokemon": "gabite norse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "palmian_gabite-01",
       "pokemon": "gabite palmian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +92,8 @@
       "id": "trizoran_gabite-01",
       "pokemon": "gabite trizoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -117,7 +121,8 @@
       "id": "epoch_gabite-01",
       "pokemon": "gabite epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -128,7 +133,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -170,7 +177,8 @@
       "id": "aromian_gabite-01",
       "pokemon": "gabite aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

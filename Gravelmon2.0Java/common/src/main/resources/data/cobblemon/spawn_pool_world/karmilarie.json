@@ -7,7 +7,8 @@
       "id": "karmilarie-01",
       "pokemon": "karmilarie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

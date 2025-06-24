@@ -7,7 +7,8 @@
       "id": "trepinject-01",
       "pokemon": "trepinject",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

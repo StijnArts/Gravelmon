@@ -7,7 +7,8 @@
       "id": "goaterr-01",
       "pokemon": "goaterr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

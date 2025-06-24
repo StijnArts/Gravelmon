@@ -2,13 +2,14 @@
   "name": "Voltowere",
   "primaryType": "electric",
   "secondaryType": "steel",
-  "catchRate": 61,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.10434782608695653,
+  "preEvolution": "ampylon",
+  "baseScale": 0.808695652173913,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 113,
-    "attack": 39,
-    "defence": 134,
-    "special_attack": 113,
-    "special_defence": 96,
-    "speed": 22
+    "hp": 120,
+    "attack": 42,
+    "defence": 142,
+    "special_attack": 120,
+    "special_defence": 101,
+    "speed": 23
   },
   "evYield": {
     "hp": 0,
@@ -72,33 +73,34 @@
     "10:irontail",
     "10:taunt",
     "10:calmmind",
-    "15:shockwave",
+    "15:thunderpunch",
     "15:smartstrike",
     "15:substitute",
     "15:taunt",
     "20:discharge",
-    "20:mirrorshot",
+    "20:ironhead",
     "20:rest",
     "20:substitute",
-    "25:thunderbolt",
-    "25:flashcannon",
+    "25:wildcharge",
+    "25:meteormash",
     "25:rest",
-    "30:thunder",
-    "30:steelbeam",
+    "30:supercellslam",
     "tm:terablast"
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.voltowere.desc"
   ],
-  "height": 0,
+  "height": 31,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9281,
+  "nationalPokedexNumber": 9628,
   "shoulderMountable": false,
   "hitbox": {
     "width": 5.75,

@@ -7,7 +7,8 @@
       "id": "sphingus-01",
       "pokemon": "sphingus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

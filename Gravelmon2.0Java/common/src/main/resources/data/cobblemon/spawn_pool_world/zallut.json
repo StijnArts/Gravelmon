@@ -7,7 +7,8 @@
       "id": "zallut-01",
       "pokemon": "zallut",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

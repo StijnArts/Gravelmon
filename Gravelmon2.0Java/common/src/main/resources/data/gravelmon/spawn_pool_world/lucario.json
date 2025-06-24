@@ -34,7 +34,8 @@
       "id": "mystic_lucario-01",
       "pokemon": "lucario mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "raianian_lucario-01",
       "pokemon": "lucario raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -73,9 +75,7 @@
         "biomes": [
           "#cobblemon:nether/is_crimson",
           "#cobblemon:nether/is_wasteland"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -90,7 +90,8 @@
       "id": "epoch_lucario-01",
       "pokemon": "lucario epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -115,7 +116,8 @@
       "id": "ayreian_lucario-01",
       "pokemon": "lucario ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

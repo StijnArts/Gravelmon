@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:ferroseed",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

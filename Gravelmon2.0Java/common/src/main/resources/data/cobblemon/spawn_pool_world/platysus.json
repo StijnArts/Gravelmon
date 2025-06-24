@@ -7,7 +7,8 @@
       "id": "platysus-01",
       "pokemon": "platysus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

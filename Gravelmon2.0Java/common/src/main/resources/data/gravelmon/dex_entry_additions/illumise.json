@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:illumise",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

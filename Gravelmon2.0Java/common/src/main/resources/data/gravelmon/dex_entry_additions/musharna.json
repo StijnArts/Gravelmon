@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:musharna",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

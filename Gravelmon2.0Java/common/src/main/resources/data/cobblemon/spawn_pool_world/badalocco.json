@@ -7,7 +7,8 @@
       "id": "badalocco-01",
       "pokemon": "badalocco",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

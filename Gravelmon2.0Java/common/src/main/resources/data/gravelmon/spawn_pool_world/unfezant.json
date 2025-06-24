@@ -34,7 +34,8 @@
       "id": "ayreian_unfezant-01",
       "pokemon": "unfezant ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tornadus",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    }
+  ]
 }

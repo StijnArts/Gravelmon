@@ -23,7 +23,8 @@ public class TheossianDwebble extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
                 List.of("The coastal habitat of Theos allowed for Dwebble to adapt to a more aquatic lifestyle, where it thrives by utilizing a seashell as its protective home."),
-                List.of(),
+                List.of(new EvolutionEntry("theossiancrustle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FURY_CUTTER,1),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,5),
@@ -99,12 +100,13 @@ public class TheossianDwebble extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_LUKEWARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
-           setLangFileName("Dwebble");
+        setCanBreathUnderwater(true);
+        setLangFileName("Dwebble");
 
     }
 

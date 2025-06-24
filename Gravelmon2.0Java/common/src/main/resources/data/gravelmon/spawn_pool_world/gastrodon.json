@@ -7,6 +7,7 @@
       "id": "rican_gastrodon-01",
       "pokemon": "gastrodon rican",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -358,7 +359,8 @@
       "id": "avalossian_gastrodon-01",
       "pokemon": "gastrodon avalossian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

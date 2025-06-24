@@ -7,7 +7,8 @@
       "id": "howolver-01",
       "pokemon": "howolver",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

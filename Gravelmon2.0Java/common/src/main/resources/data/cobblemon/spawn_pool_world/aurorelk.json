@@ -7,7 +7,8 @@
       "id": "aurorelk-01",
       "pokemon": "aurorelk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

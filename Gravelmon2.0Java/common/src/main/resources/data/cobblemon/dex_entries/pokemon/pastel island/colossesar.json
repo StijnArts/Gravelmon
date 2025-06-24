@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:colossesar",
+  "speciesId": "cobblemon:colossesar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

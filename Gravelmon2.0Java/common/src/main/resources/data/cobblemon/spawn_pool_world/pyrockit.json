@@ -7,7 +7,8 @@
       "id": "pyrockit-01",
       "pokemon": "pyrockit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

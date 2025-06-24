@@ -7,7 +7,8 @@
       "id": "sneezwiz-01",
       "pokemon": "sneezwiz",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

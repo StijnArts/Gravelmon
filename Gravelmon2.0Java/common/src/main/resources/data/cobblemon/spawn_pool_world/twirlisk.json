@@ -7,7 +7,8 @@
       "id": "twirlisk-01",
       "pokemon": "twirlisk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

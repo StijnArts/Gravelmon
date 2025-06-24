@@ -7,7 +7,8 @@
       "id": "craud-01",
       "pokemon": "craud",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

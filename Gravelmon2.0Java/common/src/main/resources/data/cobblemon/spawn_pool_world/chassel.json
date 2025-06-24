@@ -7,7 +7,8 @@
       "id": "chassel-01",
       "pokemon": "chassel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

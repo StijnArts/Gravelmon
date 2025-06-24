@@ -7,7 +7,8 @@
       "id": "reacon-01",
       "pokemon": "reacon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

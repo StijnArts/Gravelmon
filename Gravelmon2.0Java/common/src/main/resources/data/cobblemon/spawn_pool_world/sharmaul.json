@@ -7,6 +7,7 @@
       "id": "sharmaul-01",
       "pokemon": "sharmaul",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

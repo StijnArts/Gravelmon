@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whimsicott-theossian",
+  "speciesId": "cobblemon:whimsicott",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ],
+  "variations": []
+}

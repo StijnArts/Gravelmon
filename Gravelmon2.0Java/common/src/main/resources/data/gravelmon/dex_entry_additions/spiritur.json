@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:spiritur",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ]
 }

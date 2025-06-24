@@ -7,7 +7,8 @@
       "id": "egho_chikorita-01",
       "pokemon": "chikorita egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -41,7 +42,8 @@
       "id": "epoch_chikorita-01",
       "pokemon": "chikorita epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +70,8 @@
       "id": "epoch_chikorita-01",
       "pokemon": "chikorita epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -78,7 +81,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_deep_dark"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -93,7 +98,8 @@
       "id": "forman_chikorita-01",
       "pokemon": "chikorita forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -120,7 +126,8 @@
       "id": "ayreian_chikorita-01",
       "pokemon": "chikorita ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -148,7 +155,8 @@
       "id": "ionosian_chikorita-01",
       "pokemon": "chikorita ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -176,7 +184,8 @@
       "id": "ishirian_chikorita-01",
       "pokemon": "chikorita ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -187,7 +196,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

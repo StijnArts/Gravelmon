@@ -7,7 +7,8 @@
       "id": "epoch_grubbin-01",
       "pokemon": "grubbin epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:knoknok",
+  "speciesId": "cobblemon:knoknok",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

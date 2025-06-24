@@ -7,7 +7,8 @@
       "id": "dousear-01",
       "pokemon": "dousear",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

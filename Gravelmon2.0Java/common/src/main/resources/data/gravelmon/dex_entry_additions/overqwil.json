@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:overqwil",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

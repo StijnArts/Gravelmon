@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kilosor",
+  "speciesId": "cobblemon:kilosor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

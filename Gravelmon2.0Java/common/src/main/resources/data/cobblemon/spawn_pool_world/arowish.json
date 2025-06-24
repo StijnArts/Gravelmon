@@ -7,6 +7,7 @@
       "id": "arowish-01",
       "pokemon": "arowish",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

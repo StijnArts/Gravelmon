@@ -2,13 +2,14 @@
   "name": "Chainslash",
   "primaryType": "grass",
   "secondaryType": "steel",
-  "catchRate": 72,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1391304347826087,
+  "preEvolution": "doublade form=ottoran",
+  "baseScale": 0.5217391304347826,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -83,16 +84,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chainslash.desc"
   ],
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9304,
+  "nationalPokedexNumber": 9651,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.3125,

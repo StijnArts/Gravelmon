@@ -7,7 +7,8 @@
       "id": "slickle-01",
       "pokemon": "slickle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

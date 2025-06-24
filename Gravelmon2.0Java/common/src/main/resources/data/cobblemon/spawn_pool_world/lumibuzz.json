@@ -7,7 +7,8 @@
       "id": "lumibuzz-01",
       "pokemon": "lumibuzz",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gothita-pastelian",
+  "speciesId": "cobblemon:gothita",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

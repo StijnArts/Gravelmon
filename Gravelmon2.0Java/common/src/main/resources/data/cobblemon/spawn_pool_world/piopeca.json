@@ -7,7 +7,8 @@
       "id": "piopeca-01",
       "pokemon": "piopeca",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

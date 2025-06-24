@@ -781,6 +781,145 @@
         "height": 32.0,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "bug",
+      "secondaryType": "dragon",
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.3555555555555555,
+      "cannotDynamax": false,
+      "abilities": [
+        "pressure",
+        "tintedlens",
+        "h:adaptability"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 75,
+        "defence": 45,
+        "special_attack": 65,
+        "special_defence": 45,
+        "speed": 95
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:strugglebug",
+        "1:scratch",
+        "1:pollenpuff",
+        "1:healbell",
+        "1:vacuumwave",
+        "1:vacuumwave",
+        "1:stringshot",
+        "1:leer",
+        "1:healbell",
+        "1:wish",
+        "1:nastyplot",
+        "1:nastyplot",
+        "10:silverwind",
+        "10:twister",
+        "10:wish",
+        "10:uturn",
+        "10:quickattack",
+        "15:signalbeam",
+        "15:dragonbreath",
+        "15:quickattack",
+        "15:swordsdance",
+        "20:infestation",
+        "20:breakingswipe",
+        "20:swordsdance",
+        "25:uturn",
+        "25:dragonpulse",
+        "30:bugbuzz",
+        "30:dracometeor",
+        "35:strugglebug",
+        "35:scratch",
+        "40:stringshot",
+        "40:leer",
+        "45:leechlife",
+        "45:dragonrage",
+        "50:lunge",
+        "50:dualchop",
+        "55:xscissor",
+        "55:breakingswipe",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianyanma.desc"
+      ],
+      "height": 12,
+      "weight": 380,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [
+        {
+          "id": "theossianyanma_yanmega_theossian",
+          "variant": "level_up",
+          "result": "yanmega theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 5.0625,
+        "height": 5.0625,
+        "fixed": false
+      }
     }
   ],
   "features": [
@@ -788,6 +927,7 @@
     "epoch",
     "epochtwo",
     "kaskadian",
-    "mahalian"
+    "mahalian",
+    "theossian"
   ]
 }

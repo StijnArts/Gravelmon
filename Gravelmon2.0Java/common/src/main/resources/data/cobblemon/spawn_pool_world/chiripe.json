@@ -7,7 +7,8 @@
       "id": "chiripe-01",
       "pokemon": "chiripe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

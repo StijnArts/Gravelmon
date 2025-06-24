@@ -7,7 +7,8 @@
       "id": "apheed-01",
       "pokemon": "apheed",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

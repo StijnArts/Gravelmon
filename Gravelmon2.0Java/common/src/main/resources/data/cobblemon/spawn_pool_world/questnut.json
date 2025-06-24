@@ -7,7 +7,8 @@
       "id": "questnut-01",
       "pokemon": "questnut",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

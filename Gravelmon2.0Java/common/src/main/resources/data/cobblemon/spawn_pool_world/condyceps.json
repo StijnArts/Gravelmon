@@ -7,7 +7,8 @@
       "id": "condyceps-01",
       "pokemon": "condyceps",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

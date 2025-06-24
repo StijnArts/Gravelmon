@@ -7,7 +7,8 @@
       "id": "wingmite-01",
       "pokemon": "wingmite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

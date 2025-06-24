@@ -11,8 +11,8 @@ public class Monarctic extends drai.dev.data.pokemon.Pokemon {
                 Type.BUG, Type.ICE,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,12 +22,13 @@ public class Monarctic extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PANJAEA),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(22).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SNOWY_FOREST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.WILD).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Monarctic");
 
     }

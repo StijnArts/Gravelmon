@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:durant",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

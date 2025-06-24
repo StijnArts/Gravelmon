@@ -7,7 +7,8 @@
       "id": "x_mareanie-01",
       "pokemon": "mareanie x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_mareanie-01",
       "pokemon": "mareanie epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "tarmendoa-01",
       "pokemon": "tarmendoa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

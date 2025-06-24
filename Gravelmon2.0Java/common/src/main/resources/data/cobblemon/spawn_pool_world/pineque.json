@@ -7,7 +7,8 @@
       "id": "pineque-01",
       "pokemon": "pineque",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

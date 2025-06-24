@@ -7,7 +7,8 @@
       "id": "laflala-01",
       "pokemon": "laflala",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

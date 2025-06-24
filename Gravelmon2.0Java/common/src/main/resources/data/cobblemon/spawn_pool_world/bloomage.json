@@ -7,7 +7,8 @@
       "id": "bloomage-01",
       "pokemon": "bloomage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

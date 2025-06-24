@@ -7,7 +7,8 @@
       "id": "ebodhenu-01",
       "pokemon": "ebodhenu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

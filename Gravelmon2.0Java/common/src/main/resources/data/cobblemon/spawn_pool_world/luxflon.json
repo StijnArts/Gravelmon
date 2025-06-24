@@ -7,7 +7,8 @@
       "id": "luxflon-01",
       "pokemon": "luxflon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

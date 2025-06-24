@@ -7,7 +7,8 @@
       "id": "cubby-01",
       "pokemon": "cubby",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "dielebi-01",
       "pokemon": "dielebi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

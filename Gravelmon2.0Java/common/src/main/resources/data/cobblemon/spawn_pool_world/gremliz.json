@@ -7,17 +7,18 @@
       "id": "gremliz-01",
       "pokemon": "gremliz",
       "presets": [
-        "natural"
+        "underground"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
+      "bucket": "uncommon",
+      "level": "13-33",
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_overworld"
         ],
+        "timeRange": "night",
         "minSkyLight": 8,
         "maxSkyLight": 15
       },

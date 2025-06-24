@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:crystone",
+  "speciesId": "cobblemon:crystone",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

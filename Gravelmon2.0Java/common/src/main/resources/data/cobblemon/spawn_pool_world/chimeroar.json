@@ -7,7 +7,8 @@
       "id": "chimeroar-01",
       "pokemon": "chimeroar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

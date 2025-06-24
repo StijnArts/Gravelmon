@@ -7,7 +7,8 @@
       "id": "magemeltre-01",
       "pokemon": "magemeltre",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

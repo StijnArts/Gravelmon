@@ -7,7 +7,8 @@
       "id": "sealkie-01",
       "pokemon": "sealkie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

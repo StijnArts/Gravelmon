@@ -7,7 +7,8 @@
       "id": "batacuila-01",
       "pokemon": "batacuila",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

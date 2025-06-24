@@ -7,7 +7,8 @@
       "id": "biosaur-01",
       "pokemon": "biosaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

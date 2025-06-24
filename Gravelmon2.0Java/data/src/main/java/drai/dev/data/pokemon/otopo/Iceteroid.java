@@ -16,7 +16,7 @@ public class Iceteroid extends drai.dev.data.pokemon.Pokemon {
                         40,
                         20),
                 List.of(Ability.SHELL_ARMOR), Ability.ANGER_POINT,
-                0, 0,
+                15, 0,
                 new Stats(0,0,2,0,0,0), 30,
                 0.0,
                 180, ExperienceGroup.MEDIUM_SLOW,
@@ -27,12 +27,13 @@ public class Iceteroid extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(45).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FREEZING).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Iceteroid");
 
     }

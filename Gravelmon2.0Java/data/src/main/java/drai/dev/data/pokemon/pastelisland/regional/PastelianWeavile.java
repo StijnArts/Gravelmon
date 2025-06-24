@@ -16,7 +16,7 @@ public class PastelianWeavile extends drai.dev.data.pokemon.Pokemon {
                         85,
                         125),
                 List.of(Ability.PRESSURE), Ability.SAND_RUSH,
-                11, 340,
+                14, 340,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -118,10 +118,10 @@ public class PastelianWeavile extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_OLD_GROWTH_TAIGA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Weavile");

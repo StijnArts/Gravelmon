@@ -7,7 +7,8 @@
       "id": "speeda-01",
       "pokemon": "speeda",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

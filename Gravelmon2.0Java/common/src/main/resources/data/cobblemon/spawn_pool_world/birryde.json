@@ -7,7 +7,8 @@
       "id": "birryde-01",
       "pokemon": "birryde",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

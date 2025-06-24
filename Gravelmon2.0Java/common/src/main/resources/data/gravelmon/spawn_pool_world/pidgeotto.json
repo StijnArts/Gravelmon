@@ -7,7 +7,8 @@
       "id": "delta_pidgeotto-01",
       "pokemon": "pidgeotto delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_pidgeotto-01",
       "pokemon": "pidgeotto epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "ayreian_pidgeotto-01",
       "pokemon": "pidgeotto ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "wintweasel-01",
       "pokemon": "wintweasel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

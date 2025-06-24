@@ -7,7 +7,8 @@
       "id": "cocowi-01",
       "pokemon": "cocowi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

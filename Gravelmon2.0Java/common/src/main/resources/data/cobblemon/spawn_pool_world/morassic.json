@@ -7,7 +7,8 @@
       "id": "morassic-01",
       "pokemon": "morassic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

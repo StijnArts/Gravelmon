@@ -7,7 +7,8 @@
       "id": "dragose-01",
       "pokemon": "dragose",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

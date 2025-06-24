@@ -322,7 +322,7 @@
         "egg:doublekick",
         "egg:highjumpkick",
         "egg:pyroball",
-        "egg:stonesurge",
+        "egg:fakemonstonesurge",
         "egg:highhorsepower",
         "tm:terablast"
       ],

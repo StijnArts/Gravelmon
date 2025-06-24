@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "pastone",
-  "baseScale": 24.0,
+  "baseScale": 0.42105263157894735,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -120,11 +120,11 @@
   "weight": 3450,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8901,
+  "nationalPokedexNumber": 9193,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 7.125,
+    "height": 7.125,
     "fixed": false
   },
   "features": [],

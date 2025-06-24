@@ -7,7 +7,8 @@
       "id": "carosella-01",
       "pokemon": "carosella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

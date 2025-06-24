@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:galvantula",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "balaefax-01",
       "pokemon": "balaefax",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

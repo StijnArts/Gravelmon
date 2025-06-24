@@ -2,13 +2,14 @@
   "name": "Fulluna",
   "primaryType": "fairy",
   "secondaryType": "bug",
-  "catchRate": 61,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.12631578947368421,
+  "preEvolution": "lunarva",
+  "baseScale": 0.44210526315789467,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +23,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -88,16 +89,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fulluna.desc"
   ],
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9259,
+  "nationalPokedexNumber": 9606,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.75,

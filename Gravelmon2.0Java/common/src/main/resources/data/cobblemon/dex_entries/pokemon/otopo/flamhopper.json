@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flamhopper",
+  "speciesId": "cobblemon:flamhopper",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

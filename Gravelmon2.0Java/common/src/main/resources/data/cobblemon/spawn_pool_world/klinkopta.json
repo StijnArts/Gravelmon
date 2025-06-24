@@ -7,7 +7,8 @@
       "id": "klinkopta-01",
       "pokemon": "klinkopta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

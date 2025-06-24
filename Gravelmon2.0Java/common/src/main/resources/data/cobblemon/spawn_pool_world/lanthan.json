@@ -7,7 +7,8 @@
       "id": "lanthan-01",
       "pokemon": "lanthan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "maxY": 30
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

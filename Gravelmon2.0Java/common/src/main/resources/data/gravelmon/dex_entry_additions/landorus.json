@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:landorus",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mahalian",
+      "unlockForms": [
+        "Mahalian"
+      ]
+    }
+  ]
 }

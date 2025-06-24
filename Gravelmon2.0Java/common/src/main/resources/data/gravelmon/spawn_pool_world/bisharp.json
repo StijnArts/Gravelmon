@@ -7,7 +7,8 @@
       "id": "delta_bisharp-01",
       "pokemon": "bisharp delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -36,7 +37,8 @@
       "id": "x_bisharp-01",
       "pokemon": "bisharp x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "palmian_bisharp-01",
       "pokemon": "bisharp palmian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +91,8 @@
       "id": "epoch_bisharp-01",
       "pokemon": "bisharp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -99,7 +103,9 @@
         "biomes": [
           "minecraft:cherry_grove"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -114,7 +120,8 @@
       "id": "hoennian_bisharp-01",
       "pokemon": "bisharp hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -124,7 +131,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

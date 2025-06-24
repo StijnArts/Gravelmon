@@ -7,7 +7,8 @@
       "id": "marsupunch-01",
       "pokemon": "marsupunch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

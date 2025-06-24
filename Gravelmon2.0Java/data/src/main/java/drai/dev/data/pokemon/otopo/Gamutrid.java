@@ -38,12 +38,14 @@ public class Gamutrid extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_SPORT,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(28).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL).build(),
                 List.of());
+        setAquatic();
+        setAvoidsLand(false);
            setLangFileName("Gamutrid");
 
     }

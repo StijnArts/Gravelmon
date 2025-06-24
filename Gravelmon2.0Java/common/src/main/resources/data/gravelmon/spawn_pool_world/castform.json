@@ -7,7 +7,8 @@
       "id": "gutsy_castform-01",
       "pokemon": "castform gutsy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "windy_castform-01",
       "pokemon": "castform windy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -63,7 +65,8 @@
       "id": "smoggy_castform-01",
       "pokemon": "castform smoggy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -91,7 +94,8 @@
       "id": "dusty_castform-01",
       "pokemon": "castform dusty",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -119,7 +123,8 @@
       "id": "sandy_castform-01",
       "pokemon": "castform sandy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -147,7 +152,8 @@
       "id": "swarmy_castform-01",
       "pokemon": "castform swarmy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -175,7 +181,8 @@
       "id": "spooky_castform-01",
       "pokemon": "castform spooky",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -203,7 +210,8 @@
       "id": "whirly_castform-01",
       "pokemon": "castform whirly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -231,7 +239,8 @@
       "id": "allergy_castform-01",
       "pokemon": "castform allergy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -259,7 +268,8 @@
       "id": "zappy_castform-01",
       "pokemon": "castform zappy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -287,7 +297,8 @@
       "id": "zenny_castform-01",
       "pokemon": "castform zenny",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -315,7 +326,8 @@
       "id": "sorcery_castform-01",
       "pokemon": "castform sorcery",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -343,7 +355,8 @@
       "id": "shady_castform-01",
       "pokemon": "castform shady",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -371,7 +384,8 @@
       "id": "lovely_castform-01",
       "pokemon": "castform lovely",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

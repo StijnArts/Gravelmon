@@ -7,6 +7,7 @@
       "id": "lurkitopi-01",
       "pokemon": "lurkitopi",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "flamingle-01",
       "pokemon": "flamingle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,14 +16,15 @@ public class Rosepillar extends drai.dev.data.pokemon.Pokemon {
                         20,
                         50),
                 List.of(Ability.SHIELD_DUST,Ability.RUN_AWAY), Ability.COMPOUND_EYES,
-                0, 0,
+                3, 0,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 40, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Rosepillars are found in the undergrowth of forests and utilise their red feelers to detect danger. When opponents are detected, they retract, making Rosepillar a smaller prey for predators."),
-                List.of(),
+                List.of(new EvolutionEntry("pupenta", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"7")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -41,10 +42,10 @@ public class Rosepillar extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(1).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
            setLangFileName("Rosepillar");
 

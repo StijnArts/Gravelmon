@@ -7,7 +7,8 @@
       "id": "seaghoul-01",
       "pokemon": "seaghoul",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

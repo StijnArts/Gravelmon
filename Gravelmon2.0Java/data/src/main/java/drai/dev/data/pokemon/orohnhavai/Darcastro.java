@@ -16,8 +16,8 @@ public class Darcastro extends drai.dev.data.pokemon.Pokemon {
                         115,
                         85,
                         85),
-                List.of(Ability.ANGER_POINT,Ability.RECKLESS,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                List.of(Ability.ANGER_POINT,Ability.RECKLESS), Ability.DEFIANT,
+                23, 165,
                 new Stats(0,2,0,1,0,0), 15,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -28,10 +28,10 @@ public class Darcastro extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .pseudoLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Darcastro");

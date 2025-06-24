@@ -7,7 +7,8 @@
       "id": "brumalaise-01",
       "pokemon": "brumalaise",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

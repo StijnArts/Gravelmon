@@ -7,7 +7,8 @@
       "id": "celluler-01",
       "pokemon": "celluler",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

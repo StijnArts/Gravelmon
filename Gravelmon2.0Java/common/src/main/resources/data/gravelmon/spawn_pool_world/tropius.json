@@ -7,7 +7,8 @@
       "id": "aristosian_tropius-01",
       "pokemon": "tropius aristosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "hizian_tropius-01",
       "pokemon": "tropius hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,6 +70,7 @@
       "id": "epoch_tropius-01",
       "pokemon": "tropius epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -78,7 +81,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_deep_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -93,7 +98,8 @@
       "id": "kaskadian_tropius-01",
       "pokemon": "tropius kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -120,7 +126,8 @@
       "id": "ayreian_tropius-01",
       "pokemon": "tropius ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

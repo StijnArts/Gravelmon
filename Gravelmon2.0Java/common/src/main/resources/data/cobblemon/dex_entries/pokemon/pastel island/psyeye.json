@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyeye",
+  "speciesId": "cobblemon:psyeye",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

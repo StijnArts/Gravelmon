@@ -7,7 +7,8 @@
       "id": "lunectric-01",
       "pokemon": "lunectric",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -99,7 +99,7 @@ public class Hippond extends drai.dev.data.pokemon.Pokemon {
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hippond");
-
+        setHasGenderDifferences(true);
     }
 
 

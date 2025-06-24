@@ -7,7 +7,8 @@
       "id": "ragingspikes-01",
       "pokemon": "ragingspikes",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

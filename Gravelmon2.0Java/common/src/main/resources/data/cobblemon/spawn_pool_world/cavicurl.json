@@ -7,7 +7,8 @@
       "id": "cavicurl-01",
       "pokemon": "cavicurl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

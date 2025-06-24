@@ -11,8 +11,8 @@ public class Mallowisp extends drai.dev.data.pokemon.Pokemon {
                 Type.GHOST, Type.FIRE,
                 stats,
                 List.of(Ability.GOOEY), Ability.STICKY_HOLD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -22,11 +22,11 @@ public class Mallowisp extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(36).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_FOREST).canSeeSky().atNight()
+                        .setSpawnPreset(SpawnPreset.NEAR_CAMPFIRE).build(),
                 List.of());
            setLangFileName("Mallowisp");
 

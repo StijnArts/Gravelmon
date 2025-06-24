@@ -7,7 +7,8 @@
       "id": "airville-01",
       "pokemon": "airville",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

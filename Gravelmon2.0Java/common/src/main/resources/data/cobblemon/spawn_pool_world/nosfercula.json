@@ -7,7 +7,8 @@
       "id": "nosfercula-01",
       "pokemon": "nosfercula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

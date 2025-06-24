@@ -24,7 +24,7 @@ public class Sandster extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("Hiding in dunes, Sandster often trips Pokémon and people alike by creating small bumps of sand, then attacking them when they're down."),
                 List.of(new EvolutionEntry("monstune", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.QUICKSAND.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.GEOGEYSER,25),
                         new MoveLearnSetEntry(Move.DARK_PULSE,46),

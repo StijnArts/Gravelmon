@@ -7,7 +7,8 @@
       "id": "quibble-01",
       "pokemon": "quibble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

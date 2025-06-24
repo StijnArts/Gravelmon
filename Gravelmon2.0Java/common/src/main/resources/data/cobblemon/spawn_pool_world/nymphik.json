@@ -7,7 +7,8 @@
       "id": "nymphik-01",
       "pokemon": "nymphik",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

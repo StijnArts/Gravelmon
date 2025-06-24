@@ -7,7 +7,8 @@
       "id": "platinux-01",
       "pokemon": "platinux",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

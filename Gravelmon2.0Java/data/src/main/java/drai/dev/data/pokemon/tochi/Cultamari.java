@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Cultamari extends drai.dev.data.pokemon.Pokemon {
-    public Cultamari() {
+    public Cultamari(Stats stats) {
         super("Cultamari",
                 Type.WATER,Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SUCTION_CUPS), Ability.SUCTION_CUPS,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +22,13 @@ public class Cultamari extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(35).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_COLD_OCEAN).canSeeSky().atNight()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Cultamari");
 
     }

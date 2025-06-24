@@ -7,7 +7,8 @@
       "id": "epoch_inteleon-01",
       "pokemon": "inteleon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

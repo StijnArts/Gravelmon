@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:shuppet",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

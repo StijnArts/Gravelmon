@@ -7,7 +7,8 @@
       "id": "hubian_togetic-01",
       "pokemon": "togetic hubian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "varitasian_togetic-01",
       "pokemon": "togetic varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "epoch_togetic-01",
       "pokemon": "togetic epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +89,8 @@
       "id": "ayreian_togetic-01",
       "pokemon": "togetic ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

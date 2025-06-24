@@ -7,7 +7,8 @@
       "id": "chilleti-01",
       "pokemon": "chilleti",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

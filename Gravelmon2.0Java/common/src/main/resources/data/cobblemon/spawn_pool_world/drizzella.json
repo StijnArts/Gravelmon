@@ -7,6 +7,7 @@
       "id": "drizzella-01",
       "pokemon": "drizzella",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

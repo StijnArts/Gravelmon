@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pripilla",
+  "speciesId": "cobblemon:pripilla",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

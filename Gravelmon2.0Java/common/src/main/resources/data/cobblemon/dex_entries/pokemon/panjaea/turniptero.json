@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:turniptero",
+  "speciesId": "cobblemon:turniptero",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

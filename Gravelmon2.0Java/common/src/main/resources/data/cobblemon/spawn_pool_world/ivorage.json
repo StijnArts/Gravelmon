@@ -7,7 +7,8 @@
       "id": "ivorage-01",
       "pokemon": "ivorage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

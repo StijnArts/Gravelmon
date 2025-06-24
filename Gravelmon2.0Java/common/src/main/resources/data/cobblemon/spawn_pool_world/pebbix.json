@@ -7,7 +7,8 @@
       "id": "pebbix-01",
       "pokemon": "pebbix",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

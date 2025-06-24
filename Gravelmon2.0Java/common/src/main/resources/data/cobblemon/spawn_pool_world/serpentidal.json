@@ -7,6 +7,7 @@
       "id": "serpentidal-01",
       "pokemon": "serpentidal",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

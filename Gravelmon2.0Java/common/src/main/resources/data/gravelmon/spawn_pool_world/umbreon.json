@@ -7,7 +7,8 @@
       "id": "epoch_umbreon-01",
       "pokemon": "umbreon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

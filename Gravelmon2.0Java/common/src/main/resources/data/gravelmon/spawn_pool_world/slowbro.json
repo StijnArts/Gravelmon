@@ -7,7 +7,8 @@
       "id": "africanusan_slowbro-01",
       "pokemon": "slowbro africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "forman_slowbro-01",
       "pokemon": "slowbro forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -86,7 +88,8 @@
       "id": "novran_slowbro-01",
       "pokemon": "slowbro novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -96,7 +99,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_jungle"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

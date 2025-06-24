@@ -7,7 +7,8 @@
       "id": "cefiran_fire_meowth-01",
       "pokemon": "meowth cefiran_fire",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "cefiran_ice_meowth-01",
       "pokemon": "meowth cefiran_ice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,8 @@
       "id": "cefiran_electric_meowth-01",
       "pokemon": "meowth cefiran_electric",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -98,7 +101,8 @@
       "id": "eldiwan_meowth-01",
       "pokemon": "meowth eldiwan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -154,7 +158,8 @@
       "id": "epoch_meowth-01",
       "pokemon": "meowth epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -181,7 +186,8 @@
       "id": "ivrisian_meowth-01",
       "pokemon": "meowth ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -208,7 +214,8 @@
       "id": "forman_meowth-01",
       "pokemon": "meowth forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -235,7 +242,8 @@
       "id": "ferranian_meowth-01",
       "pokemon": "meowth ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -262,7 +270,8 @@
       "id": "mahalian_meowth-01",
       "pokemon": "meowth mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -289,7 +298,8 @@
       "id": "fabelian_meowth-01",
       "pokemon": "meowth fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -316,7 +326,8 @@
       "id": "aromian_meowth-01",
       "pokemon": "meowth aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -343,7 +354,8 @@
       "id": "ishirian_meowth-01",
       "pokemon": "meowth ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -302,7 +302,8 @@
       },
       "labels": [
         "gen6",
-        "daybreak"
+        "daybreak",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

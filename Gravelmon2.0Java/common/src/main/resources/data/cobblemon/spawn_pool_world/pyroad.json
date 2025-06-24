@@ -7,7 +7,8 @@
       "id": "pyroad-01",
       "pokemon": "pyroad",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

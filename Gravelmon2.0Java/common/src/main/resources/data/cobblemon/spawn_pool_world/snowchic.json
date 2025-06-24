@@ -7,7 +7,8 @@
       "id": "snowchic-01",
       "pokemon": "snowchic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

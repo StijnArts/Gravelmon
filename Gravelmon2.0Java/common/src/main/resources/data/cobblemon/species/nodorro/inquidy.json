@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "cephinky",
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -103,11 +103,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8921,
+  "nationalPokedexNumber": 9213,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
   "features": [],

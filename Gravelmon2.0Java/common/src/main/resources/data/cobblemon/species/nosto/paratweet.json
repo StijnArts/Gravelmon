@@ -8,7 +8,6 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "budcheep",
   "baseScale": 0.4051948051948052,
   "cannotDynamax": false,
   "abilities": [
@@ -132,9 +131,7 @@
   ],
   "labels": [
     "nosto",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.paratweet.desc"
@@ -143,7 +140,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4705,
+  "nationalPokedexNumber": 4725,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.8125,

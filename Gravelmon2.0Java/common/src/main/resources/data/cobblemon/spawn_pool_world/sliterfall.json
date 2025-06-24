@@ -7,6 +7,7 @@
       "id": "sliterfall-01",
       "pokemon": "sliterfall",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

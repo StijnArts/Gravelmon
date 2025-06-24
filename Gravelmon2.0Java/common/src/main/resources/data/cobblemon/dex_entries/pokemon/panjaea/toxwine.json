@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:toxwine",
+  "speciesId": "cobblemon:toxwine",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,6 +7,7 @@
       "id": "pressie-01",
       "pokemon": "pressie",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

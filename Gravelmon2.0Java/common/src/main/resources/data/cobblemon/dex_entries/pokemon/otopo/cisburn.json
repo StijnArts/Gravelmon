@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cisburn",
+  "speciesId": "cobblemon:cisburn",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "equarea-01",
       "pokemon": "equarea",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

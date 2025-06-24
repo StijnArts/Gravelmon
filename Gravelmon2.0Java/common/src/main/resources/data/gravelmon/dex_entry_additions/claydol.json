@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:claydol",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

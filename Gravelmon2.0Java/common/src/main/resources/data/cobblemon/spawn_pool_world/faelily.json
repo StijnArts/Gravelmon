@@ -7,6 +7,7 @@
       "id": "faelily-01",
       "pokemon": "faelily",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

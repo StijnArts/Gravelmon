@@ -7,7 +7,8 @@
       "id": "gnaphid-01",
       "pokemon": "gnaphid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

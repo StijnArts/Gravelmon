@@ -7,7 +7,8 @@
       "id": "baobash-01",
       "pokemon": "baobash",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

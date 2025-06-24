@@ -7,7 +7,8 @@
       "id": "trematon-01",
       "pokemon": "trematon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "armorca-01",
       "pokemon": "armorca",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

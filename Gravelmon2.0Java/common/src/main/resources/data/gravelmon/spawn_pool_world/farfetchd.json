@@ -34,7 +34,8 @@
       "id": "forman_farfetchd-01",
       "pokemon": "farfetchd forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

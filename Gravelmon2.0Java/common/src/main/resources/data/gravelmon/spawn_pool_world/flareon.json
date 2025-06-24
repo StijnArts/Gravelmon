@@ -7,7 +7,8 @@
       "id": "epoch_flareon-01",
       "pokemon": "flareon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

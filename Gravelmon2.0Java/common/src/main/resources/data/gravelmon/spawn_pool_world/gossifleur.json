@@ -7,7 +7,8 @@
       "id": "epoch_gossifleur-01",
       "pokemon": "gossifleur epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

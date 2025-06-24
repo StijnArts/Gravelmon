@@ -7,7 +7,8 @@
       "id": "lacry-01",
       "pokemon": "lacry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "bufierce-01",
       "pokemon": "bufierce",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

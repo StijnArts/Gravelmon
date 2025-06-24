@@ -34,7 +34,8 @@
       "id": "ayreian_tranquill-01",
       "pokemon": "tranquill ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

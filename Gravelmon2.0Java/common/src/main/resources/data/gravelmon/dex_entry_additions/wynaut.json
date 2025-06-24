@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:wynaut",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

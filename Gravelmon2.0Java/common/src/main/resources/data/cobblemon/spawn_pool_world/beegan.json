@@ -7,7 +7,8 @@
       "id": "beegan-01",
       "pokemon": "beegan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

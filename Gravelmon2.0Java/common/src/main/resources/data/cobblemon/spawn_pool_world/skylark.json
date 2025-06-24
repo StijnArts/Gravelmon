@@ -7,7 +7,8 @@
       "id": "skylark-01",
       "pokemon": "skylark",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -23,7 +23,20 @@ public class Tamanome extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has a unique genetic structure, in which it can evolve based on the favouritism of certain parameters. Its form will change depending on how it has been treated."),
-                List.of(),
+                List.of(new EvolutionEntry("tamakomu", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
+                        new EvolutionEntry("honokomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:hp_up"),
+                        new EvolutionEntry("tatakomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:protein"),
+                        new EvolutionEntry("mizukomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:iron"),
+                        new EvolutionEntry("majokomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:calcium"),
+                        new EvolutionEntry("damakomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:zinc"),
+                        new EvolutionEntry("sokukomu", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:carbos")),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -43,9 +56,9 @@ public class Tamanome extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Tamanome");

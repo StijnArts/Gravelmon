@@ -229,7 +229,7 @@
         "10:flamecharge",
         "1:firelash",
         "28:rockslide",
-        "40:stonesurge",
+        "40:fakemonstonesurge",
         "52:doubleironbash",
         "37:shieldbash",
         "49:swordsdance",
@@ -340,7 +340,8 @@
       },
       "labels": [
         "gen9",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 26,
       "aspects": [

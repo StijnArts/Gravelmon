@@ -2,6 +2,7 @@ package drai.dev.gravelmon.mega;
 
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.pokemon.*;
+import com.cobblemon.mod.common.pokemon.*;
 import com.cobblemon.mod.common.pokemon.helditem.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.registries.*;
@@ -10,7 +11,6 @@ import drai.dev.gravelsextendedbattles.showdown.*;
 import kotlin.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
-import org.apache.commons.lang3.*;
 
 import java.util.*;
 import java.util.function.*;
@@ -30,24 +30,22 @@ public class GravelmonMegas {
     public static void init() {
         var itemModifications = new ArrayList<ItemModificationEntry>();
         var usedNames = new HashSet<String>();
-        var keys = new ArrayList<>(MEGA_EVOLUTIONS.keySet().stream().filter(key->{
-            var speciesName = key.split(" ")[0];
-            var aspects = new HashSet<String>();
-            if(key.contains(" ")) {
-                List<String> split = new ArrayList<>(List.of(key.split(" ")));
-                split.remove(speciesName);
-                aspects.addAll(split);
-            }
-            var labels = SpeciesManager.getLabelsFromSpecies(key, aspects);
-            var isBanned = SpeciesManager.containsBannedLabels(labels);
-            return isBanned;
-        }).sorted().toList());
+        var keys = new ArrayList<>(MEGA_EVOLUTIONS.keySet().stream().sorted().toList());
         keys.forEach(pokemonId -> {
             var megaStoneName = MegaStoneNameGenerator.generateMegaStoneName(pokemonId);
             var megaIdList = MEGA_EVOLUTIONS.get(pokemonId);
             megaIdList.forEach(mega -> {
                 var aspect = mega.getMegaAspect();
-
+                var aspects = new HashSet<String>();
+                aspects.add(aspect);
+                if(pokemonId.contains(" ")) {
+                    List<String> split = new ArrayList<>(List.of(pokemonId.split(" ")));
+                    split.removeFirst();
+                    aspects.addAll(split);
+                }
+                var labels = SpeciesManager.getLabelsFromSpecies(pokemonId, aspects);
+                var isBanned = SpeciesManager.containsBannedLabels(labels);
+                if(isBanned) return;
                 String accurateStoneName = mega.getMegaStoneName(megaStoneName);
                 if(usedNames.contains(accurateStoneName)) return;
                 var item = GravelmonItems.megaItem(accurateStoneName);
@@ -88,5 +86,30 @@ public class GravelmonMegas {
 
     public static void lateInit() {
         MEGA_STONE_SUPPLIERS_IDS.forEach((itemSupplier, megaId) -> MEGA_STONE_IDS.put(itemSupplier.get(), megaId));
+    }
+
+    public static List<Map.Entry<Supplier<Item>, Pair<String, String>>> getLegalMegaStones(){
+        return GravelmonMegas.MEGA_STONE_SUPPLIERS_IDS.entrySet().stream().filter((entry) -> {
+            var stringStringPair = entry.getValue();
+            var aspect = stringStringPair.component2();
+            var fullSpeciesName = stringStringPair.component1();
+            var speciesName = fullSpeciesName;
+            var aspects = new HashSet<String>();
+            if (fullSpeciesName.contains(" ")) {
+                List<String> split = new ArrayList<>(List.of(fullSpeciesName.split(" ")));
+                speciesName = split.get(0);
+                split.removeFirst();
+                aspects.addAll(split);
+            }
+            Species pokemon = PokemonSpecies.INSTANCE.getByName(speciesName);
+            if(pokemon == null) return false;
+            var form = pokemon.getForm(Set.of(aspect));
+            if(form.getName().equalsIgnoreCase("normal")) return false;
+            return true;
+//            var labels = new ArrayList<>(SpeciesManager.getLabelsFromSpecies(speciesName, aspects));
+//            labels.addAll(SpeciesManager.getLabelsFromSpecies(speciesName, Set.of(aspect)));
+//            var isBanned = SpeciesManager.containsBannedLabels(labels);
+//            return !isBanned;
+        }).toList();
     }
 }

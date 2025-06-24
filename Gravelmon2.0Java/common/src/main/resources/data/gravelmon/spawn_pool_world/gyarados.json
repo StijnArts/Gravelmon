@@ -18,7 +18,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 30
+        "maxY": 30,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +35,8 @@
       "id": "ivrisian_gyarados-01",
       "pokemon": "gyarados ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -93,7 +96,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

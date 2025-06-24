@@ -7,7 +7,8 @@
       "id": "excalibould-01",
       "pokemon": "excalibould",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

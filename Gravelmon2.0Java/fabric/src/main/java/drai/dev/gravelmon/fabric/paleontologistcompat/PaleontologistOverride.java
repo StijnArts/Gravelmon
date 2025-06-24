@@ -57,7 +57,7 @@ public class PaleontologistOverride {
     }
 
     private static void addGravelmonFossils(VillagerProfession paleontologist, int i) {
-        TradeOfferHelper.registerVillagerOffers(paleontologist, 5, factories -> {
+        TradeOfferHelper.registerVillagerOffers(paleontologist, i, factories -> {
             factories.add((entity, random) -> new MerchantOffer(
                     new ItemCost(Items.EMERALD, 16),
                     new ItemStack(CobblemonItems.FOSSILIZED_BIRD), 3, 10, 0.05f
@@ -118,10 +118,10 @@ public class PaleontologistOverride {
                     new ItemCost(Items.EMERALD, 32),
                     new ItemStack(CobblemonItems.SKULL_FOSSIL), 3, 10, 0.05f
             ));
-            Gravelmon.FOSSIL_ITEM_MAP.values().forEach(fossil-> {
+            Gravelmon.getAllowedFossils().forEach(fossil-> {
                 factories.add((entity, random) -> new MerchantOffer(
                         new ItemCost(Items.EMERALD, 32),
-                        new ItemStack(fossil.get()), 3, 10, 0.05f
+                        new ItemStack(fossil), 3, 10, 0.05f
                 ));
             });
         });

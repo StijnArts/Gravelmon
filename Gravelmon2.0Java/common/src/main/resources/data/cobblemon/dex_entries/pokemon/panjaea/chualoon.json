@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chualoon",
+  "speciesId": "cobblemon:chualoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

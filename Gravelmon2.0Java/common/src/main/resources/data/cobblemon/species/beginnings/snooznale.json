@@ -1,13 +1,14 @@
 {
   "name": "Snooznale",
   "primaryType": "psychic",
-  "catchRate": 89,
+  "catchRate": 80,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14328358208955225,
+  "preEvolution": "doznale",
+  "baseScale": 0.5014925373134328,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -75,16 +76,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.snooznale.desc"
   ],
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9285,
+  "nationalPokedexNumber": 9632,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

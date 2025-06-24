@@ -7,7 +7,8 @@
       "id": "kuruhinomi-01",
       "pokemon": "kuruhinomi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

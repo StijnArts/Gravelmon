@@ -7,6 +7,7 @@
       "id": "corecif-01",
       "pokemon": "corecif",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

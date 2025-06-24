@@ -7,7 +7,8 @@
       "id": "caustibian-01",
       "pokemon": "caustibian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

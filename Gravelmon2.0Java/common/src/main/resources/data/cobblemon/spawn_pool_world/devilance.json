@@ -7,7 +7,8 @@
       "id": "devilance-01",
       "pokemon": "devilance",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -67,17 +67,17 @@ public class PokemonSpawnData {
                 ']';
     }
 
-    public BiomeSpawnCondition getBiomeSpawnCondition(){
+    public BiomeSpawnCondition getBiomeSpawnCondition() {
         var biomeSpawnConditionOptional = spawnConditions.stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES).findFirst();
-        if(biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
+        if (biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
         var biomeSpawnCondition = new BiomeSpawnCondition(new ArrayList<>());
         spawnConditions.add(biomeSpawnCondition);
         return biomeSpawnCondition;
     }
 
-    public BiomeSpawnCondition getAntiBiomeSpawnCondition(){
+    public BiomeSpawnCondition getAntiBiomeSpawnCondition() {
         var biomeSpawnConditionOptional = spawnAntiConditions.stream().filter(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.BIOMES).findFirst();
-        if(biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
+        if (biomeSpawnConditionOptional.isPresent()) return (BiomeSpawnCondition) biomeSpawnConditionOptional.get();
         var biomeSpawnCondition = new BiomeSpawnCondition(new ArrayList<>());
         spawnAntiConditions.add(biomeSpawnCondition);
         return biomeSpawnCondition;
@@ -164,24 +164,45 @@ public class PokemonSpawnData {
     }
 
     public void validate() {
+        if (spawnPresets.contains(SpawnPreset.NATURAL)) spawnPresets.add(SpawnPreset.WILD);
+        if (getBiomeSpawnCondition().getBiomes().stream().allMatch(biome -> biome == Biome.IS_OVERWORLD) &&
+                spawnConditions.stream().anyMatch(spawnCondition ->
+                        spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY && "true".equalsIgnoreCase(spawnCondition.getCondition()))) {
+            getBiomeSpawnCondition().getBiomes().removeIf(biome -> biome == Biome.IS_OVERWORLD);
+            getBiomeSpawnCondition().getBiomes().add(Biome.IS_CAVE);
+        }
+
+        if (getSpawnConditions().stream().noneMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY ||
+                (spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY && "false".equalsIgnoreCase(spawnCondition.getCondition())))) {
+            getSpawnConditions().add(new SpawnCondition(SpawnConditionType.CANSEESKY, "true"));
+        }
+
         var snowyBiomes = List.of(
-                Biome.IS_SNOWY , Biome.IS_SNOWY_FOREST , Biome.IS_FREEZING , Biome.IS_FROZEN_OCEAN, Biome.IS_PEAK
+                Biome.IS_SNOWY, Biome.IS_SNOWY_FOREST, Biome.IS_FREEZING, Biome.IS_FROZEN_OCEAN, Biome.IS_PEAK
         );
-        if(getBiomeSpawnCondition().getBiomes().stream().anyMatch(snowyBiomes::contains)) {
-            if(getSpawnConditions().stream().anyMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING)) {
+        if (getBiomeSpawnCondition().getBiomes().stream().anyMatch(snowyBiomes::contains)) {
+            if (getSpawnConditions().stream().anyMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING)) {
                 getSpawnConditions().removeIf(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.IS_THUNDERING);
                 getSpawnConditions().add(new SpawnCondition(SpawnConditionType.IS_RAINING, "true"));
                 Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a snowy biome condition and expects thunder. Mitigated");
             }
         }
 
-        if(SpawnContext.GROUNDED != getSpawnContext()) {
-            if(getSpawnPresets().contains(SpawnPreset.NATURAL)){
+        if (getBiomeSpawnCondition().getBiomes().stream().anyMatch(biome -> biome.name().toLowerCase().contains("nether")
+                || biome.name().toLowerCase().contains("end"))) {
+            spawnConditions.removeIf(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY);
+        }
+        if (getBiomeSpawnCondition().getBiomes().stream().anyMatch(biome -> biome==Biome.IS_OVERWORLD)) {
+
+        }
+
+        if (SpawnContext.GROUNDED != getSpawnContext()) {
+            if (getSpawnPresets().contains(SpawnPreset.NATURAL)) {
                 Logger.getAnonymousLogger().log(Level.WARNING, "PokemonSpawnData: " + this + " has a submerged or seafloor context and a natural spawn preset. This is not allowed.");
                 getSpawnPresets().remove(SpawnPreset.NATURAL);
-                if(getSpawnContext() == SpawnContext.SUBMERGED || getSpawnContext() == SpawnContext.SEAFLOOR) {
+                if (getSpawnContext() == SpawnContext.SUBMERGED || getSpawnContext() == SpawnContext.SEAFLOOR) {
                     getSpawnPresets().add(SpawnPreset.UNDERWATER);
-                } else if(getSpawnContext() == SpawnContext.SURFACE) {
+                } else if (getSpawnContext() == SpawnContext.SURFACE) {
                     getSpawnPresets().add(SpawnPreset.WATER_SURFACE);
                 }
             }

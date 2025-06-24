@@ -17,7 +17,9 @@
           "#cobblemon:is_temperate",
           "#cobblemon:is_freshwater"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

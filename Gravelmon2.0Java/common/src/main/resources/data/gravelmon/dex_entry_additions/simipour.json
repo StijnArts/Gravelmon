@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:simipour",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

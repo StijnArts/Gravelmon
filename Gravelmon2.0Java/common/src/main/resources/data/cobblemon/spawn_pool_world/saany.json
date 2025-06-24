@@ -7,7 +7,8 @@
       "id": "saany-01",
       "pokemon": "saany",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

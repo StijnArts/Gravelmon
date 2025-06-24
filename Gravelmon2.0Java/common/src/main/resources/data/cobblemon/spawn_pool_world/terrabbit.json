@@ -7,7 +7,8 @@
       "id": "terrabbit-01",
       "pokemon": "terrabbit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

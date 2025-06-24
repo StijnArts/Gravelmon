@@ -7,7 +7,8 @@
       "id": "kombantis-01",
       "pokemon": "kombantis",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

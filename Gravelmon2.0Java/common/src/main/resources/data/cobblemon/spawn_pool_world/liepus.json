@@ -7,7 +7,8 @@
       "id": "liepus-01",
       "pokemon": "liepus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

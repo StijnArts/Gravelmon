@@ -7,7 +7,8 @@
       "id": "hoglog-01",
       "pokemon": "hoglog",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

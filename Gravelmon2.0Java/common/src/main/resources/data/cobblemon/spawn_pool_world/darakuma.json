@@ -7,7 +7,8 @@
       "id": "darakuma-01",
       "pokemon": "darakuma",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

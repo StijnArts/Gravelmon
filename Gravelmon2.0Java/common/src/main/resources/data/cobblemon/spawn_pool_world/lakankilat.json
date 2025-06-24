@@ -7,7 +7,8 @@
       "id": "lakankilat-01",
       "pokemon": "lakankilat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cerebeluga",
+  "speciesId": "cobblemon:cerebeluga",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

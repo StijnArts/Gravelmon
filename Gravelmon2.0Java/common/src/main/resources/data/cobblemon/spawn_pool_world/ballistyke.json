@@ -7,7 +7,8 @@
       "id": "ballistyke-01",
       "pokemon": "ballistyke",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

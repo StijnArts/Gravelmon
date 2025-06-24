@@ -18,7 +18,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -7,7 +7,8 @@
       "id": "cococrabalm-01",
       "pokemon": "cococrabalm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

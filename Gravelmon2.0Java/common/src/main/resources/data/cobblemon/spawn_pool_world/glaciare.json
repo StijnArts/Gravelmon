@@ -7,7 +7,8 @@
       "id": "glaciare-01",
       "pokemon": "glaciare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

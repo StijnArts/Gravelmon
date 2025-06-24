@@ -7,7 +7,8 @@
       "id": "snogre-01",
       "pokemon": "snogre",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

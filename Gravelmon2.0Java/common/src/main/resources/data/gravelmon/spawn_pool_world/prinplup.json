@@ -7,7 +7,8 @@
       "id": "interian_prinplup-01",
       "pokemon": "prinplup interian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_prinplup-01",
       "pokemon": "prinplup epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

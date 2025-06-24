@@ -7,7 +7,8 @@
       "id": "mosstrich-01",
       "pokemon": "mosstrich",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

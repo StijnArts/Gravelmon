@@ -7,7 +7,8 @@
       "id": "cretassom-01",
       "pokemon": "cretassom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

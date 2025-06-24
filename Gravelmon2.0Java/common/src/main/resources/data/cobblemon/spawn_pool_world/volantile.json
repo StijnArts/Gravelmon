@@ -7,7 +7,8 @@
       "id": "volantile-01",
       "pokemon": "volantile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

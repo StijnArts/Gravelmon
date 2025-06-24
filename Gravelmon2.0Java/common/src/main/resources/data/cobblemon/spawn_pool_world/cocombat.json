@@ -7,7 +7,8 @@
       "id": "cocombat-01",
       "pokemon": "cocombat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

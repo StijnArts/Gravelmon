@@ -7,7 +7,8 @@
       "id": "taraxaconk-01",
       "pokemon": "taraxaconk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

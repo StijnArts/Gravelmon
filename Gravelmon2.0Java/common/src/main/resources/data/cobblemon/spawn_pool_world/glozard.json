@@ -7,7 +7,8 @@
       "id": "glozard-01",
       "pokemon": "glozard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "chirpunch-01",
       "pokemon": "chirpunch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

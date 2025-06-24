@@ -7,7 +7,8 @@
       "id": "sprousy-01",
       "pokemon": "sprousy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

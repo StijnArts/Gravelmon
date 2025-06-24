@@ -7,7 +7,8 @@
       "id": "cefiran_hariyama-01",
       "pokemon": "hariyama cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_hariyama-01",
       "pokemon": "hariyama epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_qwilfish-01",
       "pokemon": "qwilfish epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "forman_qwilfish-01",
       "pokemon": "qwilfish forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -71,7 +73,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

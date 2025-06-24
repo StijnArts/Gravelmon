@@ -7,7 +7,8 @@
       "id": "fawnlora-01",
       "pokemon": "fawnlora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

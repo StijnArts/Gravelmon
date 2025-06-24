@@ -179,7 +179,7 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> fossilItem(List<ResourceLocation> lootTables, String itemName, String speciesName) {
         var item = item(itemName);
         GravelmonFossilManager.addFossil(lootTables, item);
-        Gravelmon.FOSSIL_MAP.put(itemName, speciesName);
+        Gravelmon.FOSSIL_MAP.put(itemName, speciesName.toLowerCase());
         Gravelmon.FOSSIL_ITEM_MAP.put(itemName, item::get);
         return item;
     }
@@ -218,7 +218,7 @@ public class GravelmonItems {
     }
 
     public static RegistrySupplier<Item> megaItem(String megaStoneName) {
-        Item item = new Item(new Item.Properties().arch$tab(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB)) {
+        Item item = new Item(new Item.Properties()) {
             @Override
             public void appendHoverText(ItemStack itemStack, TooltipContext tooltipContext, List<Component> list, TooltipFlag tooltipFlag) {
                 list.add(Component.translatable("tooltip.gravelmon."+megaStoneName+".tooltip"));

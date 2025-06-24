@@ -7,7 +7,8 @@
       "id": "harestic-01",
       "pokemon": "harestic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

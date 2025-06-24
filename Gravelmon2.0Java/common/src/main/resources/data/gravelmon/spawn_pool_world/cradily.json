@@ -7,6 +7,7 @@
       "id": "hizian_cradily-01",
       "pokemon": "cradily hizian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_cradily-01",
       "pokemon": "cradily epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

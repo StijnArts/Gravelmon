@@ -34,7 +34,8 @@
       "id": "epoch_magby-01",
       "pokemon": "magby epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

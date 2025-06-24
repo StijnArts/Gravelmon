@@ -23,7 +23,8 @@ public class Reavair extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It flutters around, emitting ultrasonic waves in quest of its prey - bug type Pokemon. These ultrasonic waves are great at highlighting the glint of metal."),
-                List.of(),
+                List.of(new EvolutionEntry("maraudair", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
                         new MoveLearnSetEntry(Move.GUST,1),
@@ -46,11 +47,12 @@ public class Reavair extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Reavair");
 
     }

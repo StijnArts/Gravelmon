@@ -7,7 +7,8 @@
       "id": "batmirrel-01",
       "pokemon": "batmirrel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

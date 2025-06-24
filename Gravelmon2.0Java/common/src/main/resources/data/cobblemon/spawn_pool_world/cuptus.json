@@ -7,7 +7,8 @@
       "id": "cuptus-01",
       "pokemon": "cuptus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

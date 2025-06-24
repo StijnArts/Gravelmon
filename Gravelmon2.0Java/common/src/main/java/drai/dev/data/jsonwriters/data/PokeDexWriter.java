@@ -32,6 +32,7 @@ public class PokeDexWriter {
 
         fileContents.add("entries", dexes);
         try {
+            Files.createDirectories(new File(dir).toPath());
         BufferedWriter writer = new BufferedWriter(new FileWriter(dir +"\\national.json"));
 
             writer.write(gson.toJson(fileContents));

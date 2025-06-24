@@ -23,16 +23,20 @@ public class Gallocamp extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Gallocamp are very playful and energetic. They have the ability to run on water, often putting on shows to entertain wild Pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("aquastrian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_GRASSLAND).setAntiBiomes(Biome.IS_ARID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanWalkOnWater(true);
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Gallocamp");
 
     }

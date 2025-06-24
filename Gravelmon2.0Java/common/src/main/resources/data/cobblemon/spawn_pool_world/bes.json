@@ -7,7 +7,8 @@
       "id": "bes-01",
       "pokemon": "bes",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

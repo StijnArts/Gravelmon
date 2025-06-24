@@ -7,7 +7,8 @@
       "id": "imagamma-01",
       "pokemon": "imagamma",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

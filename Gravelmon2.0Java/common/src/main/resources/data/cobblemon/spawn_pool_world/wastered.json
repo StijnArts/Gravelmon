@@ -7,6 +7,7 @@
       "id": "wastered-01",
       "pokemon": "wastered",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "wyfern-01",
       "pokemon": "wyfern",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

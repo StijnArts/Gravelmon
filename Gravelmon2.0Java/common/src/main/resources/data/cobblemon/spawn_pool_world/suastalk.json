@@ -7,7 +7,8 @@
       "id": "suastalk-01",
       "pokemon": "suastalk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

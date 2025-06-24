@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:mantislash",
+  "speciesId": "cobblemon:mantislash",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

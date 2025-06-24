@@ -8,7 +8,8 @@
       "pokemon": "papilitite",
       "presets": [
         "natural",
-        "foliage"
+        "foliage",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

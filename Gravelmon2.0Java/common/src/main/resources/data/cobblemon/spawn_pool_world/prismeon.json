@@ -7,7 +7,8 @@
       "id": "prismeon-01",
       "pokemon": "prismeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

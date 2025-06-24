@@ -7,7 +7,8 @@
       "id": "starledi-01",
       "pokemon": "starledi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

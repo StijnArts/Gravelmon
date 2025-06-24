@@ -7,16 +7,18 @@
       "id": "aqquack-01",
       "pokemon": "aqquack",
       "presets": [
-        "natural"
+        "natural",
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-23",
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_swamp"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

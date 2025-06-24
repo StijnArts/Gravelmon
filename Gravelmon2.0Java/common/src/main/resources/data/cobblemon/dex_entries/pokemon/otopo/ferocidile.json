@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ferocidile",
+  "speciesId": "cobblemon:ferocidile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

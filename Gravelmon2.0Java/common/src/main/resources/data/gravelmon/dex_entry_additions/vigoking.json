@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:vigoking",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Elbian",
+      "unlockForms": [
+        "Elbian"
+      ]
+    }
+  ]
 }

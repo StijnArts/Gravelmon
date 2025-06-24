@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:cinderace",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "yetroll-01",
       "pokemon": "yetroll",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

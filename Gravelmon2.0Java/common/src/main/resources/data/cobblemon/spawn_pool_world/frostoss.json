@@ -7,7 +7,8 @@
       "id": "frostoss-01",
       "pokemon": "frostoss",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

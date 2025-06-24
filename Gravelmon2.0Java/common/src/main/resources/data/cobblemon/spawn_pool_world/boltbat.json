@@ -7,7 +7,8 @@
       "id": "boltbat-01",
       "pokemon": "boltbat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

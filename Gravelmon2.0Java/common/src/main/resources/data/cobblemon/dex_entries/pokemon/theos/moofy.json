@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:moofy",
+  "speciesId": "cobblemon:moofy",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

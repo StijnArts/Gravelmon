@@ -7,7 +7,8 @@
       "id": "cervelot-01",
       "pokemon": "cervelot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

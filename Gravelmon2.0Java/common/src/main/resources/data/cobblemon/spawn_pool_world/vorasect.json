@@ -7,7 +7,8 @@
       "id": "vorasect-01",
       "pokemon": "vorasect",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

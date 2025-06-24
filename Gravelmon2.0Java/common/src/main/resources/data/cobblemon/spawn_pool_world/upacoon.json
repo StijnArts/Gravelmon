@@ -7,7 +7,8 @@
       "id": "upacoon-01",
       "pokemon": "upacoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "sombearo-01",
       "pokemon": "sombearo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

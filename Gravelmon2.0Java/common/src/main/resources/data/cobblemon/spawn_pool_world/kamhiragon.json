@@ -7,7 +7,8 @@
       "id": "kamhiragon-01",
       "pokemon": "kamhiragon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

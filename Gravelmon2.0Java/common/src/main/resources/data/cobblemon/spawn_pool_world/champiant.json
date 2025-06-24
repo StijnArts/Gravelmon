@@ -7,7 +7,8 @@
       "id": "champiant-01",
       "pokemon": "champiant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "snowze-01",
       "pokemon": "snowze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

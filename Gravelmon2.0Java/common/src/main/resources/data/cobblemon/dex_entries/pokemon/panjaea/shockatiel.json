@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shockatiel",
+  "speciesId": "cobblemon:shockatiel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

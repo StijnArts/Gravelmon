@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:queenbeet",
+  "speciesId": "cobblemon:queenbeet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

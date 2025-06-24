@@ -7,7 +7,8 @@
       "id": "tribal_triclope-01",
       "pokemon": "triclope tribal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

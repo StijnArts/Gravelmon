@@ -7,7 +7,8 @@
       "id": "epoch_weedle-01",
       "pokemon": "weedle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,9 +18,7 @@
       "condition": {
         "biomes": [
           "#minecraft:is_end"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -34,7 +33,8 @@
       "id": "forman_weedle-01",
       "pokemon": "weedle forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

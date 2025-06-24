@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rostone",
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.5333333333333332,
   "cannotDynamax": false,
   "abilities": [
     "levitate",
@@ -120,11 +120,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8894,
+  "nationalPokedexNumber": 9186,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.9375,
+    "height": 3.9375,
     "fixed": false
   },
   "features": [],

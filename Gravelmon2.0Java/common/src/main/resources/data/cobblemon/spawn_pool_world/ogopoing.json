@@ -7,7 +7,8 @@
       "id": "ogopoing-01",
       "pokemon": "ogopoing",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

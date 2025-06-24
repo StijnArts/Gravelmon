@@ -7,7 +7,8 @@
       "id": "fai-01",
       "pokemon": "fai",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

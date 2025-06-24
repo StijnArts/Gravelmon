@@ -7,7 +7,8 @@
       "id": "nownowl-01",
       "pokemon": "nownowl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

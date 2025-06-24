@@ -8,7 +8,6 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "quetzap",
   "baseScale": 0.26249999999999996,
   "cannotDynamax": false,
   "abilities": [
@@ -111,14 +110,11 @@
     "tm:uturn",
     "tm:voltswitch",
     "tm:wildcharge",
-    "tm:workup",
-    "tm:terablast"
+    "tm:workup"
   ],
   "labels": [
     "cyare",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.shockatoo.desc"
@@ -142,7 +138,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 7348,
+  "nationalPokedexNumber": 7368,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0,

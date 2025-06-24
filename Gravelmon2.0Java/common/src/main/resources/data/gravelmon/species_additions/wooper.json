@@ -618,12 +618,226 @@
         "height": 2.6875,
         "fixed": false
       }
+    },
+    {
+      "name": "Theossian",
+      "primaryType": "water",
+      "secondaryType": "psychic",
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 42,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "baseScale": 0.22325581395348837,
+      "cannotDynamax": false,
+      "abilities": [
+        "analytic",
+        "waterabsorb",
+        "h:anticipation"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 25,
+        "defence": 25,
+        "special_attack": 45,
+        "special_defence": 45,
+        "speed": 15
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "water_1",
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:watergun",
+        "1:tailwhip",
+        "5:mudsport",
+        "9:mudshot",
+        "15:slam",
+        "19:mudbomb",
+        "23:amnesia",
+        "29:yawn",
+        "33:earthquake",
+        "37:raindance",
+        "43:haze",
+        "43:mist",
+        "47:muddywater",
+        "tm:icepunch",
+        "tm:snore",
+        "tm:icywind",
+        "tm:irontail",
+        "tm:waterpulse",
+        "tm:aquatail",
+        "tm:earthpower",
+        "tm:afteryou",
+        "tm:stompingtantrum",
+        "tm:surf",
+        "tm:icebeam",
+        "tm:blizzard",
+        "tm:earthquake",
+        "tm:toxic",
+        "tm:doubleteam",
+        "tm:waterfall",
+        "tm:rest",
+        "tm:substitute",
+        "tm:protect",
+        "tm:sludgebomb",
+        "tm:sandstorm",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:snowscape",
+        "tm:facade",
+        "tm:sludgewave",
+        "tm:round",
+        "tm:scald",
+        "tm:bulldoze",
+        "tm:confide",
+        "tm:infestation",
+        "tm:bodyslam",
+        "tm:doubleedge",
+        "tm:counter",
+        "tm:rage",
+        "tm:dig",
+        "tm:mimic",
+        "tm:bide",
+        "tm:takedown",
+        "tm:bubblebeam",
+        "tm:watergun",
+        "tm:fissure",
+        "tm:skullbash",
+        "tm:acidspray",
+        "tm:amnesia",
+        "tm:ancientpower",
+        "tm:avalanche",
+        "tm:captivate",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:defensecurl",
+        "tm:dive",
+        "tm:dynamicpunch",
+        "tm:eerieimpulse",
+        "tm:encore",
+        "tm:endure",
+        "tm:flash",
+        "tm:guardswap",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:liquidation",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:muddywater",
+        "tm:naturalgift",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:rollout",
+        "tm:secretpower",
+        "tm:spikes",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:terablast",
+        "tm:trailblaze",
+        "tm:whirlpool",
+        "tm:doublekick",
+        "tm:bodyslam",
+        "tm:counter",
+        "tm:recover",
+        "tm:curse",
+        "tm:encore",
+        "tm:ancientpower",
+        "tm:stockpile",
+        "tm:spitup",
+        "tm:swallow",
+        "tm:mudsport",
+        "tm:guardswap",
+        "tm:acidspray",
+        "tm:eerieimpulse",
+        "tm:poweruppunch",
+        "tm:terablast"
+      ],
+      "labels": [
+        "theos",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.theossianwooper.desc"
+      ],
+      "height": 4,
+      "weight": 85,
+      "aspects": [
+        "theossian"
+      ],
+      "evolutions": [
+        {
+          "id": "theossianwooper_quagsire_theossian",
+          "variant": "level_up",
+          "result": "quagsire theossian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "22"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 2.6875,
+        "height": 2.6875,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "delta",
     "epoch",
     "forman",
-    "mastenian"
+    "mastenian",
+    "theossian"
   ]
 }

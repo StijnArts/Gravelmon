@@ -7,7 +7,8 @@
       "id": "carcaheet-01",
       "pokemon": "carcaheet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

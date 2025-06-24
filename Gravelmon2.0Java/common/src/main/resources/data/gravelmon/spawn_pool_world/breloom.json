@@ -7,7 +7,8 @@
       "id": "alteran_breloom-01",
       "pokemon": "breloom alteran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "mastenian_breloom-01",
       "pokemon": "breloom mastenian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -72,7 +74,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_magical"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

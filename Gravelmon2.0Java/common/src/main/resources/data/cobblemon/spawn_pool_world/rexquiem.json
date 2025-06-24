@@ -7,7 +7,8 @@
       "id": "rexquiem-01",
       "pokemon": "rexquiem",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

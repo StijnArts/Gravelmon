@@ -7,7 +7,8 @@
       "id": "blazferno-01",
       "pokemon": "blazferno",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

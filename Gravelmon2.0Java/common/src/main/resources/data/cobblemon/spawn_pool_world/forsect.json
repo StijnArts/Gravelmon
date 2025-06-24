@@ -7,7 +7,8 @@
       "id": "forsect-01",
       "pokemon": "forsect",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

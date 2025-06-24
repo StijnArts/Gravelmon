@@ -7,7 +7,8 @@
       "id": "ploworm-01",
       "pokemon": "ploworm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

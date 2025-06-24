@@ -7,7 +7,8 @@
       "id": "hizian_nosepass-01",
       "pokemon": "nosepass hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +46,9 @@
         "biomes": [
           "#cobblemon:is_jungle",
           "#cobblemon:is_tropical_island"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +63,8 @@
       "id": "epoch_nosepass-01",
       "pokemon": "nosepass epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +92,8 @@
       "id": "ayreian_nosepass-01",
       "pokemon": "nosepass ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -115,7 +120,8 @@
       "id": "nodorran_nosepass-01",
       "pokemon": "nosepass nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -126,7 +132,9 @@
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

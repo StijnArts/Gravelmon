@@ -744,7 +744,7 @@
       "name": "Ottoran",
       "primaryType": "psychic",
       "secondaryType": "steel",
-      "catchRate": 255,
+      "catchRate": 235,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
@@ -835,12 +835,27 @@
       "pokedex": [
         "cobblemon.species.ottoranhatenna.desc"
       ],
-      "height": 0,
+      "height": 4,
       "weight": 0,
       "aspects": [
         "ottoran"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "ottoranhatenna_hattrem_ottoran",
+          "variant": "level_up",
+          "result": "hattrem ottoran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 1.875,

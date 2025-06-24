@@ -7,6 +7,7 @@
       "id": "seamian-01",
       "pokemon": "seamian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -8,7 +8,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "fomen",
   "baseScale": 0.4394366197183099,
   "cannotDynamax": false,
   "abilities": [
@@ -74,14 +73,11 @@
     "32:destinybond",
     "41:perishsong",
     "47:moonblast",
-    "54:strengthsap",
-    "tm:terablast"
+    "54:strengthsap"
   ],
   "labels": [
     "fliga",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.spirix.desc"
@@ -90,7 +86,7 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 5341,
+  "nationalPokedexNumber": 5361,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.4375,

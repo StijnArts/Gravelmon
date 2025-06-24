@@ -7,7 +7,8 @@
       "id": "beelzeboon-01",
       "pokemon": "beelzeboon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

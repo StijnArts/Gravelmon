@@ -7,7 +7,8 @@
       "id": "ailember-01",
       "pokemon": "ailember",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

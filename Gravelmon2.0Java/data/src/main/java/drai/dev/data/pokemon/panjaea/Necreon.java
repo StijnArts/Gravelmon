@@ -28,13 +28,14 @@ public class Necreon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PANJAEA),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .eeveelution()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_NETHER_SOUL_FIRE)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Necreon");
-
+        addAdditionalEvolution("eevee", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_NETHER_SOUL_SAND.getId() + ":" + Biome.IS_NETHER_SOUL_SAND.getName()))));
     }
 
 

@@ -7,7 +7,8 @@
       "id": "mystic_marshtomp-01",
       "pokemon": "marshtomp mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_marshtomp-01",
       "pokemon": "marshtomp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "epoch_marshtomp-01",
       "pokemon": "marshtomp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,7 +72,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_cave"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

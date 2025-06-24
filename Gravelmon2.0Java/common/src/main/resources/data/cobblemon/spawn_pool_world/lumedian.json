@@ -7,7 +7,8 @@
       "id": "lumedian-01",
       "pokemon": "lumedian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,23 @@
 {
   "entryId": "cobblemon:mewtwo",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Shadow_mega",
+      "unlockForms": [
+        "Shadow_mega"
+      ]
+    },
+    {
+      "displayForm": "Shadow",
+      "unlockForms": [
+        "Shadow"
+      ]
+    },
+    {
+      "displayForm": "X",
+      "unlockForms": [
+        "X"
+      ]
+    }
+  ]
 }

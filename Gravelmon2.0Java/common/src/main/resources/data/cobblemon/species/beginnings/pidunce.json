@@ -2,13 +2,13 @@
   "name": "Pidunce",
   "primaryType": "normal",
   "secondaryType": "flying",
-  "catchRate": 137,
+  "catchRate": 150,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.3,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -94,11 +94,11 @@
   "pokedex": [
     "cobblemon.species.pidunce.desc"
   ],
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9295,
+  "nationalPokedexNumber": 9642,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,8 @@
       "id": "harpiron-01",
       "pokemon": "harpiron",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

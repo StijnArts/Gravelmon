@@ -7,6 +7,7 @@
       "id": "submurchin-01",
       "pokemon": "submurchin",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -34,7 +34,8 @@
       "id": "kaskadian_bunnelby-01",
       "pokemon": "bunnelby kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +45,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -65,7 +68,8 @@
       "id": "mahalian_bunnelby-01",
       "pokemon": "bunnelby mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

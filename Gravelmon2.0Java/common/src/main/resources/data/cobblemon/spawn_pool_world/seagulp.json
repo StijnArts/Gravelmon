@@ -7,7 +7,8 @@
       "id": "seagulp-01",
       "pokemon": "seagulp",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

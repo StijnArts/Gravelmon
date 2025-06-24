@@ -7,7 +7,8 @@
       "id": "solardon-01",
       "pokemon": "solardon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

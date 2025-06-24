@@ -7,7 +7,8 @@
       "id": "bloomeg-01",
       "pokemon": "bloomeg",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

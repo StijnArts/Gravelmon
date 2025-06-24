@@ -7,7 +7,8 @@
       "id": "raunny-01",
       "pokemon": "raunny",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_cave",
           "#cobblemon:is_highlands",
           "#cobblemon:is_mountain"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

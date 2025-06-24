@@ -7,7 +7,8 @@
       "id": "sunole-01",
       "pokemon": "sunole",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

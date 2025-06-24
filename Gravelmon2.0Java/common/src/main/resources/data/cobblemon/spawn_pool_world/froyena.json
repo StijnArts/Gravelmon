@@ -7,7 +7,8 @@
       "id": "froyena-01",
       "pokemon": "froyena",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

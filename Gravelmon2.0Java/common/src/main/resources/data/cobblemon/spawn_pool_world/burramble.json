@@ -7,7 +7,8 @@
       "id": "burramble-01",
       "pokemon": "burramble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

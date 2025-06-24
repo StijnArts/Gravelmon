@@ -7,7 +7,8 @@
       "id": "raianian_garchomp-01",
       "pokemon": "garchomp raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "norse_garchomp-01",
       "pokemon": "garchomp norse",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "palmian_garchomp-01",
       "pokemon": "garchomp palmian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +92,8 @@
       "id": "trizoran_garchomp-01",
       "pokemon": "garchomp trizoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -117,7 +121,8 @@
       "id": "epoch_garchomp-01",
       "pokemon": "garchomp epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -128,7 +133,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -170,7 +177,8 @@
       "id": "armiran_garchomp-01",
       "pokemon": "garchomp armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -197,7 +205,8 @@
       "id": "aromian_garchomp-01",
       "pokemon": "garchomp aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

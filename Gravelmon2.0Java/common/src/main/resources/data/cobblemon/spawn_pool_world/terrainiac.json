@@ -7,7 +7,8 @@
       "id": "terrainiac-01",
       "pokemon": "terrainiac",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

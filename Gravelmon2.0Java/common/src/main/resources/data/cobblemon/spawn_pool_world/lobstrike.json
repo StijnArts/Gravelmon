@@ -7,7 +7,8 @@
       "id": "lobstrike-01",
       "pokemon": "lobstrike",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

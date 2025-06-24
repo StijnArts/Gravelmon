@@ -16,23 +16,26 @@ public class Jellestrial extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Jellestrial are alien Pokemon that were discovered in a meteorite found in Hoenn. It seeks safety since its jelly-like body is exceedingly vulnerable. When Jellestrial encounters steel-type Pokemon, they get ecstatic."),
-                List.of(),
+                List.of(new EvolutionEntry("medusien", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(),
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BADLANDS).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Jellestrial");
 
     }

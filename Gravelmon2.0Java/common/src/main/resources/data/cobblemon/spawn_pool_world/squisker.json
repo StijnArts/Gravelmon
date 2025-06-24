@@ -7,7 +7,8 @@
       "id": "squisker-01",
       "pokemon": "squisker",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

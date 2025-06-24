@@ -7,7 +7,8 @@
       "id": "makakari-01",
       "pokemon": "makakari",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

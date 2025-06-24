@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:spinda",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Relic",
+      "unlockForms": [
+        "Relic"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

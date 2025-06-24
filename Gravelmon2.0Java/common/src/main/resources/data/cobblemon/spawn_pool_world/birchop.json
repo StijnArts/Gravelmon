@@ -7,7 +7,8 @@
       "id": "birchop-01",
       "pokemon": "birchop",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:kormini",
+  "speciesId": "cobblemon:kormini",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

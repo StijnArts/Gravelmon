@@ -7,7 +7,8 @@
       "id": "perrinnip-01",
       "pokemon": "perrinnip",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_glimmet-01",
       "pokemon": "glimmet epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

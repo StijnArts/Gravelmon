@@ -7,7 +7,8 @@
       "id": "musiquail-01",
       "pokemon": "musiquail",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "edglet-01",
       "pokemon": "edglet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

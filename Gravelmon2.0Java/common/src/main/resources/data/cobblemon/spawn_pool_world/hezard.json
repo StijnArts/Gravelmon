@@ -7,7 +7,8 @@
       "id": "hezard-01",
       "pokemon": "hezard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

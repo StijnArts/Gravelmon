@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [

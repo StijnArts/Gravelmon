@@ -7,7 +7,8 @@
       "id": "lumbrig-01",
       "pokemon": "lumbrig",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

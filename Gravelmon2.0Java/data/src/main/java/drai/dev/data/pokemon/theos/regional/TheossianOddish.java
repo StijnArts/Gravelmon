@@ -23,7 +23,8 @@ public class TheossianOddish extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("The leaves that fall off Theosian Oddish's head were used to make potions in ancient times because they were said to have magical abilities."),
-                List.of(),
+                List.of(new EvolutionEntry("theossiangloom", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -105,7 +106,7 @@ public class TheossianOddish extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).atNight().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Oddish");

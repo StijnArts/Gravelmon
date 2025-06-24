@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:eshouten",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Alteran",
+      "unlockForms": [
+        "Alteran"
+      ]
+    }
+  ]
 }

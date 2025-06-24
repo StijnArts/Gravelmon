@@ -7,7 +7,8 @@
       "id": "chantarule-01",
       "pokemon": "chantarule",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

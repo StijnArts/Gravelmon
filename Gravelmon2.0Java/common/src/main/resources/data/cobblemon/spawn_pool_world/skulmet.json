@@ -7,7 +7,8 @@
       "id": "skulmet-01",
       "pokemon": "skulmet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

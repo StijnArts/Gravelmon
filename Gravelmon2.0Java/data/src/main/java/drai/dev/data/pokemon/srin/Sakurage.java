@@ -11,8 +11,8 @@ public class Sakurage extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC,Type.GRASS,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                28, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,9 +23,9 @@ public class Sakurage extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .legend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Sakurage");

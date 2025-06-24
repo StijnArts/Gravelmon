@@ -7,7 +7,8 @@
       "id": "phosos-01",
       "pokemon": "phosos",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

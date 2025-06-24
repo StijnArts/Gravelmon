@@ -7,7 +7,8 @@
       "id": "hididna-01",
       "pokemon": "hididna",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

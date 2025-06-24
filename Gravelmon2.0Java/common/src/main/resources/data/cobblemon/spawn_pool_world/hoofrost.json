@@ -7,7 +7,8 @@
       "id": "hoofrost-01",
       "pokemon": "hoofrost",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

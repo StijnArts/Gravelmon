@@ -7,7 +7,8 @@
       "id": "tanghetti-01",
       "pokemon": "tanghetti",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

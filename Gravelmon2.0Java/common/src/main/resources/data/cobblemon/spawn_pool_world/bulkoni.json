@@ -7,7 +7,8 @@
       "id": "bulkoni-01",
       "pokemon": "bulkoni",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

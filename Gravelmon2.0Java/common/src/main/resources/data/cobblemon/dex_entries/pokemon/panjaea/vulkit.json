@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vulkit",
+  "speciesId": "cobblemon:vulkit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

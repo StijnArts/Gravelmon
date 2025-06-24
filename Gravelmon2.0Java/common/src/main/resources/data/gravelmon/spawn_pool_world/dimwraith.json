@@ -7,7 +7,8 @@
       "id": "mystisian_dimwraith-01",
       "pokemon": "dimwraith mystisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "armarauder-01",
       "pokemon": "armarauder",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

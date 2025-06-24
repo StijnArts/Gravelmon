@@ -7,7 +7,8 @@
       "id": "beaki-01",
       "pokemon": "beaki",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -16,8 +16,8 @@ public class Fibraark extends drai.dev.data.pokemon.Pokemon {
                         63,
                         95),
                 List.of(Ability.FUR_COAT), Ability.FUR_COAT,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 145, ExperienceGroup.ERRATIC,
                 70,
@@ -78,10 +78,10 @@ public class Fibraark extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SMASH,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SAVANNA).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Fibraark");

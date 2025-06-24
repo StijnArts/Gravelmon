@@ -7,7 +7,8 @@
       "id": "dopibara-01",
       "pokemon": "dopibara",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

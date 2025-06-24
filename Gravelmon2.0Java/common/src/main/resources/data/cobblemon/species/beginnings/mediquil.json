@@ -2,13 +2,14 @@
   "name": "Mediquil",
   "primaryType": "normal",
   "secondaryType": "poison",
-  "catchRate": 108,
+  "catchRate": 110,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.16000000000000003,
+  "preEvolution": "pinjure",
+  "baseScale": 0.48,
   "cannotDynamax": false,
   "abilities": [
     "triage",
@@ -110,16 +111,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mediquil.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9248,
+  "nationalPokedexNumber": 9595,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.75,

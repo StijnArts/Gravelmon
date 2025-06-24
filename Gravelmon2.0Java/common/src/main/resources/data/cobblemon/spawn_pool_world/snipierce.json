@@ -7,7 +7,8 @@
       "id": "snipierce-01",
       "pokemon": "snipierce",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

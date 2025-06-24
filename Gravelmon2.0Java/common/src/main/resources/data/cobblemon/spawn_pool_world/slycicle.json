@@ -7,7 +7,8 @@
       "id": "slycicle-01",
       "pokemon": "slycicle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

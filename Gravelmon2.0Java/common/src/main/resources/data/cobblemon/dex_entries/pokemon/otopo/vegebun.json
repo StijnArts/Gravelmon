@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vegebun",
+  "speciesId": "cobblemon:vegebun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

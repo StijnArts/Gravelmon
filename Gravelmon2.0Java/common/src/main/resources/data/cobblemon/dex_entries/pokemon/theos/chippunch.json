@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chippunch",
+  "speciesId": "cobblemon:chippunch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

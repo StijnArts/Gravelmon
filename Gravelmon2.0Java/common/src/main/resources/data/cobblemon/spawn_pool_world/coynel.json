@@ -7,7 +7,7 @@
       "id": "coynel-01",
       "pokemon": "coynel",
       "presets": [
-        "natural"
+        "near_crops"
       ],
       "type": "pokemon",
       "context": "grounded",

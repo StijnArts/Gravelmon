@@ -7,7 +7,8 @@
       "id": "interian_genesect-01",
       "pokemon": "genesect interian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

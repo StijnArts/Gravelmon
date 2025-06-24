@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tripulcre",
+  "speciesId": "cobblemon:tripulcre",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

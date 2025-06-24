@@ -7,7 +7,8 @@
       "id": "shakuzora-01",
       "pokemon": "shakuzora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "fauxiage-01",
       "pokemon": "fauxiage",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

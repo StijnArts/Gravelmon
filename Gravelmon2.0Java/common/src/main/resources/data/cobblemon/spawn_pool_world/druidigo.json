@@ -7,7 +7,8 @@
       "id": "druidigo-01",
       "pokemon": "druidigo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

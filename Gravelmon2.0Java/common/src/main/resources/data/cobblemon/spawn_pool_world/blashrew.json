@@ -7,7 +7,8 @@
       "id": "blashrew-01",
       "pokemon": "blashrew",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

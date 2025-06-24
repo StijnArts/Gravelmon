@@ -7,7 +7,8 @@
       "id": "epoch_wyrdeer-01",
       "pokemon": "wyrdeer epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_wyrdeer-01",
       "pokemon": "wyrdeer epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "isThundering": true
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +64,8 @@
       "id": "fabelian_wyrdeer-01",
       "pokemon": "wyrdeer fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

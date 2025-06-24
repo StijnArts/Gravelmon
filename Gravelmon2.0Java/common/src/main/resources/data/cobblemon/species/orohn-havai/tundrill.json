@@ -78,8 +78,7 @@
     "32:ironhead",
     "38:earthquake",
     "42:spikes",
-    "47:block",
-    "tm:terablast"
+    "47:block"
   ],
   "labels": [
     "orohnhavai",
@@ -92,7 +91,7 @@
   "weight": 165,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4074,
+  "nationalPokedexNumber": 4088,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.0625,

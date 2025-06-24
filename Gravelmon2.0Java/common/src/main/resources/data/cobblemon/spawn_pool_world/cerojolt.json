@@ -7,7 +7,8 @@
       "id": "cerojolt-01",
       "pokemon": "cerojolt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

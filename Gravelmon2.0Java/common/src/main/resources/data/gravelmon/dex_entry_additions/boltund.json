@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:boltund",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

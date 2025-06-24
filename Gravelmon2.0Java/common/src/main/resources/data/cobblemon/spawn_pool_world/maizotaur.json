@@ -7,7 +7,8 @@
       "id": "maizotaur-01",
       "pokemon": "maizotaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

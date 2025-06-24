@@ -7,7 +7,8 @@
       "id": "chubchu-01",
       "pokemon": "chubchu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

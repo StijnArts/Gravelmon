@@ -7,7 +7,8 @@
       "id": "beegarden-01",
       "pokemon": "beegarden",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

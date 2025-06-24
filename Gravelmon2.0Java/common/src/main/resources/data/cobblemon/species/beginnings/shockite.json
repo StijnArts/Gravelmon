@@ -2,13 +2,14 @@
   "name": "Shockite",
   "primaryType": "flying",
   "secondaryType": "electric",
-  "catchRate": 134,
+  "catchRate": 110,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.17142857142857143,
+  "preEvolution": "stachick",
+  "baseScale": 0.3857142857142857,
   "cannotDynamax": false,
   "abilities": [
     "static",
@@ -90,16 +91,33 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shockite.desc"
   ],
-  "height": 0,
+  "height": 9,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9250,
+  "evolutions": [
+    {
+      "id": "shockite_falconduct",
+      "variant": "level_up",
+      "result": "falconduct",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9597,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5,

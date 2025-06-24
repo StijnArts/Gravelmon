@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:chingling",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

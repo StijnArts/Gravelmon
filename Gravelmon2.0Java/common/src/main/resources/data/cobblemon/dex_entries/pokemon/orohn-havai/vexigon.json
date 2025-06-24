@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vexigon",
+  "speciesId": "cobblemon:vexigon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

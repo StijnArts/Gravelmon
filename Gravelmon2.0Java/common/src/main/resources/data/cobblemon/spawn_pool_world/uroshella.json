@@ -7,7 +7,8 @@
       "id": "uroshella-01",
       "pokemon": "uroshella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

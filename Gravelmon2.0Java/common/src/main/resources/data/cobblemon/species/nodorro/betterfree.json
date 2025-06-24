@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "betterfree",
-  "baseScale": 18.0,
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "compoundeyes",
@@ -90,11 +90,11 @@
   "weight": 350,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8874,
+  "nationalPokedexNumber": 9161,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.9375,
+    "height": 3.9375,
     "fixed": false
   },
   "features": [],

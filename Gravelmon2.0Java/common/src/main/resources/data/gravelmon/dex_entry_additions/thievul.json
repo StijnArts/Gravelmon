@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:thievul",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

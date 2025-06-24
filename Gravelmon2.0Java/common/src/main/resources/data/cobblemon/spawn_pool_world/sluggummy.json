@@ -7,7 +7,8 @@
       "id": "sluggummy-01",
       "pokemon": "sluggummy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

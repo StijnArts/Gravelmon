@@ -7,6 +7,7 @@
       "id": "delta_huntail-01",
       "pokemon": "huntail delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -35,6 +36,7 @@
       "id": "epoch_huntail-01",
       "pokemon": "huntail epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -46,7 +48,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 38
+        "maxY": 38,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

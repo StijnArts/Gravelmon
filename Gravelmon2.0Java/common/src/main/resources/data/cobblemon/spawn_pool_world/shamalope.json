@@ -7,7 +7,8 @@
       "id": "shamalope-01",
       "pokemon": "shamalope",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

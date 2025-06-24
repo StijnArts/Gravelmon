@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dolfun",
+  "speciesId": "cobblemon:dolfun",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

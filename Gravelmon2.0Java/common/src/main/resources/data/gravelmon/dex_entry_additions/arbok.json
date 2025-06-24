@@ -1,4 +1,47 @@
 {
   "entryId": "cobblemon:arbok",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch_mega",
+      "unlockForms": [
+        "Epoch_mega"
+      ]
+    },
+    {
+      "displayForm": "Mega",
+      "unlockForms": [
+        "Mega"
+      ]
+    },
+    {
+      "displayForm": "Nuclear_mega",
+      "unlockForms": [
+        "Nuclear_mega"
+      ]
+    },
+    {
+      "displayForm": "Alteran",
+      "unlockForms": [
+        "Alteran"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Ionosian",
+      "unlockForms": [
+        "Ionosian"
+      ]
+    },
+    {
+      "displayForm": "Nodorran",
+      "unlockForms": [
+        "Nodorran"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "africanusan_comfey-01",
       "pokemon": "comfey africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_tropical",
           "#cobblemon:is_jungle",
           "#cobblemon:has_density/dense"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -45,7 +48,9 @@
       "condition": {
         "biomes": [
           "#minecraft:is_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

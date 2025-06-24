@@ -7,7 +7,8 @@
       "id": "bratanat-01",
       "pokemon": "bratanat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

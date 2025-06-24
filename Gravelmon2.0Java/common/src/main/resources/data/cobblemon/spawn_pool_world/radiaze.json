@@ -7,7 +7,8 @@
       "id": "radiaze-01",
       "pokemon": "radiaze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

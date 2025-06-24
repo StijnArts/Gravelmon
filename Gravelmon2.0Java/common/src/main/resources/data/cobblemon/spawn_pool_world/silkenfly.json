@@ -7,7 +7,8 @@
       "id": "silkenfly-01",
       "pokemon": "silkenfly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

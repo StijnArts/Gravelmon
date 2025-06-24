@@ -7,7 +7,8 @@
       "id": "fruitius-01",
       "pokemon": "fruitius",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

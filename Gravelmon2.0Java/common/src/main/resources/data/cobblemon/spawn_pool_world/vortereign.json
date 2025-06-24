@@ -7,6 +7,7 @@
       "id": "vortereign-01",
       "pokemon": "vortereign",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

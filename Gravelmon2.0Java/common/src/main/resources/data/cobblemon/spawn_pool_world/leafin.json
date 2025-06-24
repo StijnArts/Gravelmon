@@ -7,7 +7,8 @@
       "id": "leafin-01",
       "pokemon": "leafin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

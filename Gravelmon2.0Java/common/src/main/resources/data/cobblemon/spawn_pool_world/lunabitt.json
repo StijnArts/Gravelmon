@@ -7,7 +7,8 @@
       "id": "lunabitt-01",
       "pokemon": "lunabitt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

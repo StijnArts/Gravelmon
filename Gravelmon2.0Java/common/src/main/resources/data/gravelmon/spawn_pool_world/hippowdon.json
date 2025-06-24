@@ -34,7 +34,8 @@
       "id": "armiran_hippowdon-01",
       "pokemon": "hippowdon armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "mahalian_hippowdon-01",
       "pokemon": "hippowdon mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +91,8 @@
       "id": "nodorran_hippowdon-01",
       "pokemon": "hippowdon nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

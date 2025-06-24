@@ -7,7 +7,8 @@
       "id": "smotra-01",
       "pokemon": "smotra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:bastiodon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

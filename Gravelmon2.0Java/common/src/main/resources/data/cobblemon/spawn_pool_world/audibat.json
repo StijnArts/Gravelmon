@@ -7,7 +7,8 @@
       "id": "audibat-01",
       "pokemon": "audibat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

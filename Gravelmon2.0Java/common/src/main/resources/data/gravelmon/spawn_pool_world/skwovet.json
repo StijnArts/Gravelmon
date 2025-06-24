@@ -7,7 +7,8 @@
       "id": "epoch_skwovet-01",
       "pokemon": "skwovet epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

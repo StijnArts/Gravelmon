@@ -7,7 +7,8 @@
       "id": "anoga-01",
       "pokemon": "anoga",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

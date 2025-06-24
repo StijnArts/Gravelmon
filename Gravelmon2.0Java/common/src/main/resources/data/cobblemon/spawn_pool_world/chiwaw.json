@@ -7,7 +7,8 @@
       "id": "chiwaw-01",
       "pokemon": "chiwaw",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

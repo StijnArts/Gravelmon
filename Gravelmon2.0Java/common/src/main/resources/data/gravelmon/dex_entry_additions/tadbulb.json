@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tadbulb",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

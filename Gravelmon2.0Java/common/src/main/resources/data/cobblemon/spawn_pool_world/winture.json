@@ -7,7 +7,8 @@
       "id": "winture-01",
       "pokemon": "winture",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

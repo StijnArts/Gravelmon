@@ -7,7 +7,8 @@
       "id": "chirunner-01",
       "pokemon": "chirunner",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

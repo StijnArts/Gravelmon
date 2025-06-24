@@ -7,7 +7,8 @@
       "id": "froskatrice-01",
       "pokemon": "froskatrice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

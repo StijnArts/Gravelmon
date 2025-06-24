@@ -91,7 +91,7 @@
   "weight": 135,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4580,
+  "nationalPokedexNumber": 4600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.5625,
@@ -172,7 +172,9 @@
         "lockemon",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.swarm.desc"
+      ],
       "height": 102,
       "weight": 213,
       "aspects": [

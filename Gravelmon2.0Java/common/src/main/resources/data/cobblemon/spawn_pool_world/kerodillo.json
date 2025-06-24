@@ -7,7 +7,8 @@
       "id": "kerodillo-01",
       "pokemon": "kerodillo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

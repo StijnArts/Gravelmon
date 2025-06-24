@@ -7,7 +7,8 @@
       "id": "epoch_overqwil-01",
       "pokemon": "overqwil epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

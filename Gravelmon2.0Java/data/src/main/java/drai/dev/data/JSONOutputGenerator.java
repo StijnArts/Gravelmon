@@ -20,7 +20,7 @@ public class JSONOutputGenerator {
             var baseStoneName = MegaStoneNameGenerator.generateMegaStoneName(name);
             megaEvolutions.forEach(megaEvolution -> {
                 megaEvolution.processPokemonAssets(resourcesDir);
-                PokeDexEntryWriter.writeMega(megaEvolution, resourcesDir);
+                PokedexEntryAdditionsWriter.writeMega(megaEvolution);
                 MegaStoneGenerator.createMegaStoneTexture(resourcesDir, baseStoneName, megaEvolution);
             });
         });
@@ -32,10 +32,10 @@ public class JSONOutputGenerator {
         for(Game game : GameRegistry.games){
             generateJsonFiles(game,resourcesDir);
             PokeDexWriter.write(game, resourcesDir);
-            PokeDexAdditionsWriter.write(game, resourcesDir);
         }
         SpeciesAdditionsWriter.writeAdditions(resourcesDir);
-        PokedexEntryAdditionsWriter.writeAdditions(resourcesDir);
+        PokedexEntryAdditionsWriter.writeAdditions();
+        PokedexEntryAdditionsWriter.finalizeDexEntryAdditions(resourcesDir);
         AdditionalFormAssetsJSONWriter.writeSpecies(resourcesDir);
         AdditionSpawnPoolWorldJSONWriter.writeSpawns(resourcesDir);
         FossilJSONWriter.writeFossils(resourcesDir);
@@ -50,7 +50,7 @@ public class JSONOutputGenerator {
         PokeDexWriter.finalizeDexes(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 
-        if(false){
+        if(true){
             ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
             ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
         }

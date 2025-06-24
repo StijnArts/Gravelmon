@@ -7,7 +7,8 @@
       "id": "thronoor-01",
       "pokemon": "thronoor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

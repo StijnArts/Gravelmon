@@ -7,7 +7,8 @@
       "id": "cracklin-01",
       "pokemon": "cracklin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

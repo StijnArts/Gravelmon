@@ -7,7 +7,8 @@
       "id": "squittel-01",
       "pokemon": "squittel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

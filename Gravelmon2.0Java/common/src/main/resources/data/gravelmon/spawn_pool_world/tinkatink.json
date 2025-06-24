@@ -35,7 +35,8 @@
       "id": "epoch_tinkatink-01",
       "pokemon": "tinkatink epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "quetzoral-01",
       "pokemon": "quetzoral",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

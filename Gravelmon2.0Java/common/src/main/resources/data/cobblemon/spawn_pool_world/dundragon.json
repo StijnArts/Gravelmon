@@ -7,7 +7,8 @@
       "id": "dundragon-01",
       "pokemon": "dundragon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

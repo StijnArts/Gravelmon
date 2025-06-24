@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:chainscraw",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Crozoican",
+      "unlockForms": [
+        "Crozoican"
+      ]
+    }
+  ]
 }

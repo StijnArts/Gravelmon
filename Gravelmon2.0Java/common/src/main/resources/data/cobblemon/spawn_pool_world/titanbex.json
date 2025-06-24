@@ -7,7 +7,8 @@
       "id": "titanbex-01",
       "pokemon": "titanbex",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

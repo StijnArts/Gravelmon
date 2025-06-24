@@ -7,7 +7,8 @@
       "id": "dnarc-01",
       "pokemon": "dnarc",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

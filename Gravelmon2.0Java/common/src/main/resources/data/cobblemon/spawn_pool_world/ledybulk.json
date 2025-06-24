@@ -7,7 +7,8 @@
       "id": "ledybulk-01",
       "pokemon": "ledybulk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

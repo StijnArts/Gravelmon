@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:staravia",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

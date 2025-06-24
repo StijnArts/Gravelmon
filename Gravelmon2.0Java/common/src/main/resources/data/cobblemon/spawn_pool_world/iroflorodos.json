@@ -7,7 +7,8 @@
       "id": "iroflorodos-01",
       "pokemon": "iroflorodos",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

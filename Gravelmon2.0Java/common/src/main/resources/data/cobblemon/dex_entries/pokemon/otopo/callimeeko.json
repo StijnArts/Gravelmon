@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:callimeeko",
+  "speciesId": "cobblemon:callimeeko",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

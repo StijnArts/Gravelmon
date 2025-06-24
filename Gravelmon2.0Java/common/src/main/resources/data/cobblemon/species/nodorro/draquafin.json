@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "slifin",
-  "baseScale": 24.0,
+  "baseScale": 0.5106382978723404,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -107,11 +107,11 @@
   "weight": 1002,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8925,
+  "nationalPokedexNumber": 9217,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.875000000000001,
+    "height": 5.875000000000001,
     "fixed": false
   },
   "features": [],

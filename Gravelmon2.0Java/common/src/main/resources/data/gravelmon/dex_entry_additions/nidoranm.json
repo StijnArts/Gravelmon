@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:nidoranm",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Alteran_summer_coat",
+      "unlockForms": [
+        "Alteran_summer_coat"
+      ]
+    }
+  ]
 }

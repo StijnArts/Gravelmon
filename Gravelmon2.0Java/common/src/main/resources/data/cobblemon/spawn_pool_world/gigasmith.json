@@ -7,7 +7,8 @@
       "id": "gigasmith-01",
       "pokemon": "gigasmith",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

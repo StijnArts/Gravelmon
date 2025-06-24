@@ -7,7 +7,8 @@
       "id": "epoch_gulpin-01",
       "pokemon": "gulpin epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

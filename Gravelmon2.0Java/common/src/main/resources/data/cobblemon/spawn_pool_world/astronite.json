@@ -7,7 +7,8 @@
       "id": "astronite-01",
       "pokemon": "astronite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

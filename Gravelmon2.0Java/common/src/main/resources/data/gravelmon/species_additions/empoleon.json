@@ -282,17 +282,47 @@
       },
       "labels": [
         "gen4",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "water",
+      "secondaryType": "steel",
+      "baseScale": 0.4434782608695652,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "supremeoverlord"
+      ],
+      "baseStats": {
+        "hp": 84,
+        "attack": 111,
+        "defence": 108,
+        "special_attack": 136,
+        "special_defence": 121,
+        "speed": 70
+      },
+      "labels": [
+        "gen4",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
       ]
     }
   ],
   "features": [
     "interian",
     "epoch",
-    "epoch_mega"
+    "epoch_mega",
+    "mega"
   ]
 }

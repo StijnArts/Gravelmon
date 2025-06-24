@@ -3,7 +3,9 @@ package drai.dev.gravelmon.forge;
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.fossil.*;
 import com.cobblemon.mod.common.item.group.*;
+import dev.architectury.platform.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import net.minecraft.resources.*;
@@ -22,7 +24,7 @@ public class CreativeTabsInit {
 
     @SubscribeEvent
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTab() == CobblemonItemGroups.getEVOLUTION_ITEMS()) {
+        if (event.getTab() == CobblemonItemGroups.getEVOLUTION_ITEMS()) {
             //evolution stones
             event.insertAfter(CobblemonItems.ICE_STONE.getDefaultInstance(),
                     GravelmonItems.XENOLITH.get().getDefaultInstance(),
@@ -134,7 +136,7 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getBLOCKS()) {
+        if (event.getTab() == CobblemonItemGroups.getBLOCKS()) {
             event.insertBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.AIR_STONE_ORE.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -165,7 +167,7 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getHELD_ITEMS()) {
+        if (event.getTab() == CobblemonItemGroups.getHELD_ITEMS()) {
             event.accept(GravelmonItems.LONG_CLUB.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.accept(GravelmonItems.ICE_SHARD.get().asItem().getDefaultInstance(),
@@ -195,7 +197,7 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getAGRICULTURE()) {
+        if (event.getTab() == CobblemonItemGroups.getAGRICULTURE()) {
             event.insertBefore(CobblemonItems.PINK_APRICORN.asItem().getDefaultInstance(),
                     GravelmonItems.ORANGE_APRICORN.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -212,7 +214,7 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getUTILITY_ITEMS()) {
+        if (event.getTab() == CobblemonItemGroups.getUTILITY_ITEMS()) {
             event.insertAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -324,15 +326,20 @@ public class CreativeTabsInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-        if(event.getTab() == CobblemonItemGroups.getARCHAEOLOGY()) {
-            Consumer<ItemStack> fossilConsumer = (fossil)-> event.insertAfter(CobblemonItems.FOSSILIZED_DINO.asItem().getDefaultInstance(), fossil,
+        if (event.getTab() == CobblemonItemGroups.getARCHAEOLOGY()) {
+            Consumer<ItemStack> fossilConsumer = (fossil) -> event.insertAfter(CobblemonItems.FOSSILIZED_DINO.asItem().getDefaultInstance(), fossil,
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             Gravelmon.FOSSIL_MAP.forEach((key, value) -> {
                 var fossil = Fossils.INSTANCE.getByIdentifier(ResourceLocation.fromNamespaceAndPath("cobblemon", value.split(" ")[0]));
-                if(fossil == null) return;
-                if(SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm())) return;
+                if (fossil == null) return;
+                if (SpeciesManager.containsBannedLabels(fossil.getResult().getSpecies(), fossil.getResult().getForm()))
+                    return;
                 fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());
             });
+        }
+
+        if (Platform.isModLoaded("mega_showdown") && event.getTab() == GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB.get()) {
+            GravelmonMegas.getLegalMegaStones().forEach(entry -> event.accept(entry.getKey().get()));
         }
     }
 }

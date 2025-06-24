@@ -7,7 +7,8 @@
       "id": "froll-01",
       "pokemon": "froll",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

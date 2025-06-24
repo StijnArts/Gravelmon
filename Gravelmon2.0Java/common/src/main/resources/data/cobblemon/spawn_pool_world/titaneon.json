@@ -7,7 +7,8 @@
       "id": "titaneon-01",
       "pokemon": "titaneon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

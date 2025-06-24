@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:prizmazor",
+  "speciesId": "cobblemon:prizmazor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

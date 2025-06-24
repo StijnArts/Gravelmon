@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:fuecoco",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

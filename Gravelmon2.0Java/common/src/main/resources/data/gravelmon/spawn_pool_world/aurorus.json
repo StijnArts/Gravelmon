@@ -34,7 +34,8 @@
       "id": "epoch_aurorus-01",
       "pokemon": "aurorus epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

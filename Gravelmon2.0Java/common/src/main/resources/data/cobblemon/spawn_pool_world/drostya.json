@@ -7,7 +7,8 @@
       "id": "drostya-01",
       "pokemon": "drostya",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

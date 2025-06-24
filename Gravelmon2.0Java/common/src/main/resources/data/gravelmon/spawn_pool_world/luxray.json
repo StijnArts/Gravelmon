@@ -7,7 +7,8 @@
       "id": "delta_luxray-01",
       "pokemon": "luxray delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,9 +18,7 @@
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
-        ],
-        "minSkyLight": 0,
-        "maxSkyLight": 7
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -34,7 +33,8 @@
       "id": "epoch_luxray-01",
       "pokemon": "luxray epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +61,8 @@
       "id": "kaskadian_luxray-01",
       "pokemon": "luxray kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -88,7 +89,8 @@
       "id": "ayreian_luxray-01",
       "pokemon": "luxray ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -115,7 +117,8 @@
       "id": "ishirian_luxray-01",
       "pokemon": "luxray ishirian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -125,13 +128,44 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:redstone_block"
+          ]
+        }
+      }
+    },
+    {
+      "id": "theossian_luxray-01",
+      "pokemon": "luxray theossian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-50",
+      "weight": 0.09,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "timeRange": "night"
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:amethyst_block"
           ]
         }
       }

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Stalkturnal extends drai.dev.data.pokemon.Pokemon {
-    public Stalkturnal() {
+    public Stalkturnal(Stats stats) {
         super("Stalkturnal",
                 Type.BUG, Type.DARK,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CHLOROPHYLL), Ability.SWEET_VEIL,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

@@ -16,23 +16,21 @@ public class Turphoon extends drai.dev.data.pokemon.Pokemon {
                         85,
                         80),
                 List.of(Ability.TORRENT), Ability.DRIZZLE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("- HurricaneSTAB Flying - Thunderbolt Electric"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.HURRICANE,1),
-                        new MoveLearnSetEntry(Move.THUNDERBOLT,1)),
+                List.of(),
                 List.of(Label.TOCHI),
                 0, List.of(
-                ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ), new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(31).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_GRASSLAND).isRaining().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Turphoon");

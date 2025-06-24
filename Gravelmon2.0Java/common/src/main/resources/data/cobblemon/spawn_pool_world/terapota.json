@@ -7,7 +7,8 @@
       "id": "terapota-01",
       "pokemon": "terapota",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "delta_bergmite-01",
       "pokemon": "bergmite delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -33,7 +34,8 @@
       "id": "epoch_bergmite-01",
       "pokemon": "bergmite epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -58,7 +60,8 @@
       "id": "epoch_bergmite-01",
       "pokemon": "bergmite epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,7 +72,9 @@
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

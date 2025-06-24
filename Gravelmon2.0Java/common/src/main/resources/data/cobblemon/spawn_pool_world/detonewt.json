@@ -7,7 +7,8 @@
       "id": "detonewt-01",
       "pokemon": "detonewt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

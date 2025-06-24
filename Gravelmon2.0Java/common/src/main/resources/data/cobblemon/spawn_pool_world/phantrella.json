@@ -7,7 +7,8 @@
       "id": "phantrella-01",
       "pokemon": "phantrella",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

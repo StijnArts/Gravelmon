@@ -7,7 +7,8 @@
       "id": "sheeptight-01",
       "pokemon": "sheeptight",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

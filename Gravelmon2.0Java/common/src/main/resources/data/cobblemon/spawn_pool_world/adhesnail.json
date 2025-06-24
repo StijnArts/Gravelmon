@@ -7,7 +7,8 @@
       "id": "adhesnail-01",
       "pokemon": "adhesnail",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

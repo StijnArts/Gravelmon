@@ -16,7 +16,7 @@ public class Mimicnid extends drai.dev.data.pokemon.Pokemon {
                         120,
                         95),
                 List.of(Ability.TRACE), Ability.RECEIVER,
-                0, 0,
+                6, 0,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 137, ExperienceGroup.FAST,
@@ -31,10 +31,10 @@ public class Mimicnid extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BIRCH)
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
            setLangFileName("Mimicnid");
 

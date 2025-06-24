@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:dudunsparce",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

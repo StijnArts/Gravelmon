@@ -7,7 +7,8 @@
       "id": "remainstone-01",
       "pokemon": "remainstone",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,9 +18,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:nether/is_soul_sand"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,

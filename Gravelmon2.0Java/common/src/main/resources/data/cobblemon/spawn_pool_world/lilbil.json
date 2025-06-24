@@ -7,7 +7,8 @@
       "id": "lilbil-01",
       "pokemon": "lilbil",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

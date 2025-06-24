@@ -22,15 +22,16 @@ public class Cygnaze extends drai.dev.data.pokemon.Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
-                List.of("Anascorch have a quiet demeanor, liking to sit alone on shores. But they can be very loud and thrashing when threatened."),
-                List.of(),
+                List.of("Cygnaze have a quiet demeanor, liking to sit alone on shores. But they can be very loud and thrashing when threatened."),
+                List.of(new EvolutionEntry("inphoeno", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Cygnaze");

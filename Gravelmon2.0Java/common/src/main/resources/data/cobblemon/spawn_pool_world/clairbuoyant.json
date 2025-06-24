@@ -7,6 +7,7 @@
       "id": "clairbuoyant-01",
       "pokemon": "clairbuoyant",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

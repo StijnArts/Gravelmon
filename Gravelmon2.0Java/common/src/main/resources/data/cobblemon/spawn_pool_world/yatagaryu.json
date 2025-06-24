@@ -7,7 +7,8 @@
       "id": "yatagaryu-01",
       "pokemon": "yatagaryu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

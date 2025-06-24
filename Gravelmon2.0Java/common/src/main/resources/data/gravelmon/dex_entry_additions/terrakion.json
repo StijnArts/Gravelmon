@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:terrakion",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    }
+  ]
 }

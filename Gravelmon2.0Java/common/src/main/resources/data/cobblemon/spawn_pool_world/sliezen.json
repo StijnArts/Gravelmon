@@ -7,7 +7,8 @@
       "id": "sliezen-01",
       "pokemon": "sliezen",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

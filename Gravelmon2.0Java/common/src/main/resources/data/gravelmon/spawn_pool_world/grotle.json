@@ -7,7 +7,8 @@
       "id": "delta_grotle-01",
       "pokemon": "grotle delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -41,7 +42,8 @@
       "id": "epoch_grotle-01",
       "pokemon": "grotle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -67,7 +69,8 @@
       "id": "epoch_grotle-01",
       "pokemon": "grotle epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

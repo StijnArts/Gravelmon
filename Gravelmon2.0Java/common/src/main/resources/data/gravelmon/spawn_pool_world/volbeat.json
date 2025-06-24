@@ -7,7 +7,8 @@
       "id": "epoch_volbeat-01",
       "pokemon": "volbeat epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "mastenian_volbeat-01",
       "pokemon": "volbeat mastenian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "bronkilles-01",
       "pokemon": "bronkilles",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

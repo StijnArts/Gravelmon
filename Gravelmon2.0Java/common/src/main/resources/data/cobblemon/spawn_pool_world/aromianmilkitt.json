@@ -7,7 +7,8 @@
       "id": "aromianmilkitt-01",
       "pokemon": "aromianmilkitt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

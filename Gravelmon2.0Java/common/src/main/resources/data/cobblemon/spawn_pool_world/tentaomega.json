@@ -7,6 +7,7 @@
       "id": "tentaomega-01",
       "pokemon": "tentaomega",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

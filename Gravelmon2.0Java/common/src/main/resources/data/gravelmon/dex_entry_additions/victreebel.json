@@ -1,4 +1,35 @@
 {
   "entryId": "cobblemon:victreebel",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Avalossian_mega",
+      "unlockForms": [
+        "Avalossian_mega"
+      ]
+    },
+    {
+      "displayForm": "Aristosian",
+      "unlockForms": [
+        "Aristosian"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Avalossian",
+      "unlockForms": [
+        "Avalossian"
+      ]
+    },
+    {
+      "displayForm": "Theossian",
+      "unlockForms": [
+        "Theossian"
+      ]
+    }
+  ]
 }

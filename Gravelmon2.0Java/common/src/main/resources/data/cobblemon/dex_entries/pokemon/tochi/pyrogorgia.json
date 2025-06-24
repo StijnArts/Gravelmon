@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pyrogorgia",
+  "speciesId": "cobblemon:pyrogorgia",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

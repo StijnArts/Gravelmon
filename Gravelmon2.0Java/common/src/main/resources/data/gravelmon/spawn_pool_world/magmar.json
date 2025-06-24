@@ -34,7 +34,8 @@
       "id": "epoch_magmar-01",
       "pokemon": "magmar epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

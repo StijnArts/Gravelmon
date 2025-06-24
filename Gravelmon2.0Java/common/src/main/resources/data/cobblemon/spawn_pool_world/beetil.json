@@ -7,7 +7,8 @@
       "id": "beetil-01",
       "pokemon": "beetil",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

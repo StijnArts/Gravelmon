@@ -17,7 +17,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,7 +34,8 @@
       "id": "mystic_combusken-01",
       "pokemon": "combusken mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +62,8 @@
       "id": "epoch_combusken-01",
       "pokemon": "combusken epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -69,7 +73,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -84,7 +90,8 @@
       "id": "ayreian_combusken-01",
       "pokemon": "combusken ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

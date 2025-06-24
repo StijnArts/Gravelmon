@@ -11,13 +11,13 @@ public class Stunzeed extends drai.dev.data.pokemon.Pokemon {
                 Type.ELECTRIC,Type.GRASS,
                 stats,
                 List.of(Ability.LEVITATE,Ability.ELECTRIC_SURGE), Ability.GRASSY_SURGE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                8, 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Twin Beam (N) Psychic - Seed BombSTAB Grass - Seed ShotSTAB Grass - Charge BeamSTAB Electric - Confuse Ray Ghost - Topsy-Turvy Dark - Double-Edge Normal - Double ShockSTAB Electric - Double Hit (N) Normal - Double Slap (N) Normal - Thunder ShockSTAB Electric - Thunder Wave Electric - Gravity (N) Psychic - Electro BallSTAB Electric - Energy BallSTAB Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_HIT,1),
@@ -38,9 +38,9 @@ public class Stunzeed extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Stunzeed");

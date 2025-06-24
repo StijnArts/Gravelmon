@@ -7,7 +7,8 @@
       "id": "ayreian_yungoos-01",
       "pokemon": "yungoos ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "fabelian_yungoos-01",
       "pokemon": "yungoos fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

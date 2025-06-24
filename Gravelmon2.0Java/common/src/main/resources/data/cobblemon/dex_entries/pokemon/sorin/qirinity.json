@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:qirinity",
+  "speciesId": "cobblemon:qirinity",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

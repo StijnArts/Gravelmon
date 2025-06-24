@@ -7,7 +7,8 @@
       "id": "fairlion-01",
       "pokemon": "fairlion",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

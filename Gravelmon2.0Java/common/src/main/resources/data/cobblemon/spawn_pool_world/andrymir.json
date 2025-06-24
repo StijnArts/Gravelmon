@@ -7,7 +7,8 @@
       "id": "andrymir-01",
       "pokemon": "andrymir",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

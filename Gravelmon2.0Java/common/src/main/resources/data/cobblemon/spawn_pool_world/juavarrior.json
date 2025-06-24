@@ -7,7 +7,8 @@
       "id": "juavarrior-01",
       "pokemon": "juavarrior",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

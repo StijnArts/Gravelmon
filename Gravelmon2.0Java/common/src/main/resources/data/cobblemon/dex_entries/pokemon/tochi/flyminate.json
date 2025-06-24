@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flyminate",
+  "speciesId": "cobblemon:flyminate",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

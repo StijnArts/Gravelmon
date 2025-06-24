@@ -7,7 +7,8 @@
       "id": "mamby-01",
       "pokemon": "mamby",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

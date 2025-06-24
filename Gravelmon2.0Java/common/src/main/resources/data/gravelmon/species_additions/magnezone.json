@@ -489,11 +489,40 @@
         "height": 5.0625,
         "fixed": false
       }
+    },
+    {
+      "name": "mega",
+      "primaryType": "electric",
+      "secondaryType": "steel",
+      "baseScale": 0.38857142857142857,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 145,
+        "special_attack": 170,
+        "special_defence": 95,
+        "speed": 75
+      },
+      "labels": [
+        "gen4",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 17,
+      "aspects": [
+        "mega"
+      ]
     }
   ],
   "features": [
     "egho",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "mega"
   ]
 }

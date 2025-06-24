@@ -7,7 +7,8 @@
       "id": "skurrow-01",
       "pokemon": "skurrow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

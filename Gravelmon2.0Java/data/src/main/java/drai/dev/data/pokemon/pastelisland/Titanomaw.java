@@ -9,15 +9,15 @@ public class Titanomaw extends drai.dev.data.pokemon.Pokemon {
     public Titanomaw() {
         super("Titanomaw",
                 Type.GROUND, Type.DARK,
-                new Stats(60,
-                        80,
-                        80,
+                new Stats(90,
+                        120,
+                        100,
                         60,
-                        75,
+                        95,
                         55),
                 List.of(Ability.DRY_SKIN,Ability.MOXIE), Ability.MARVEL_SCALE,
-                79, 1220,
-                new Stats(0,0,0,0,0,0), 0,
+                38, 1220,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 185, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,10 @@ public class Titanomaw extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(31).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_ARID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Titanomaw");

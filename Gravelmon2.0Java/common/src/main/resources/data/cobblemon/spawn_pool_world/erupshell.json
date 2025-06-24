@@ -7,7 +7,8 @@
       "id": "erupshell-01",
       "pokemon": "erupshell",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

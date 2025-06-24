@@ -7,7 +7,8 @@
       "id": "bovinda-01",
       "pokemon": "bovinda",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "krakoon-01",
       "pokemon": "krakoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "lilpaca-01",
       "pokemon": "lilpaca",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

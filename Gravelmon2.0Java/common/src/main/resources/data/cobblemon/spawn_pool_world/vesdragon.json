@@ -7,7 +7,8 @@
       "id": "vesdragon-01",
       "pokemon": "vesdragon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

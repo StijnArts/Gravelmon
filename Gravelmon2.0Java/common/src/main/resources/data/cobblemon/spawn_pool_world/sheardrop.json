@@ -7,7 +7,8 @@
       "id": "sheardrop-01",
       "pokemon": "sheardrop",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

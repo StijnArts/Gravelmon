@@ -7,7 +7,8 @@
       "id": "cefiran_numel-01",
       "pokemon": "numel cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "delta_numel-01",
       "pokemon": "numel delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "norheiman_numel-01",
       "pokemon": "numel norheiman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -94,7 +97,8 @@
       "id": "epoch_numel-01",
       "pokemon": "numel epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -122,7 +126,8 @@
       "id": "epoch_numel-01",
       "pokemon": "numel epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

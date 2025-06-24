@@ -7,7 +7,8 @@
       "id": "slitharjo-01",
       "pokemon": "slitharjo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "navibri-01",
       "pokemon": "navibri",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

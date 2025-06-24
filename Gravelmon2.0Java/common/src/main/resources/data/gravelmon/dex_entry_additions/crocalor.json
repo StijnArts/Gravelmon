@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:crocalor",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

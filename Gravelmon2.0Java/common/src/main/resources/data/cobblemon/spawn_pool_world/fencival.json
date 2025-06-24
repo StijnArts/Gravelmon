@@ -7,7 +7,8 @@
       "id": "fencival-01",
       "pokemon": "fencival",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "delta_scraggy-01",
       "pokemon": "scraggy delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "dugmite",
   "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
@@ -80,7 +81,9 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terramite.desc"
@@ -104,7 +107,7 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 5855,
+  "nationalPokedexNumber": 5875,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

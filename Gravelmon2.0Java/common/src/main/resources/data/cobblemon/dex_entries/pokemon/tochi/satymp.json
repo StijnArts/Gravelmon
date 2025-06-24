@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:satymp",
+  "speciesId": "cobblemon:satymp",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

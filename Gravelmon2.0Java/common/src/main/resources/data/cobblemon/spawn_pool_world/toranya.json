@@ -7,7 +7,8 @@
       "id": "toranya-01",
       "pokemon": "toranya",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

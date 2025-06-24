@@ -7,7 +7,8 @@
       "id": "woltaic-01",
       "pokemon": "woltaic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

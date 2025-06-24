@@ -24,7 +24,7 @@ public class Molice extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Molice carve through ice sheets for fun, though sometimes they can accidentally dig through houses in snow-covered villages."),
                 List.of(new EvolutionEntry("tundrill", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRILL_RUN.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.HORN_DRILL,61),
                         new MoveLearnSetEntry(Move.DIG,25),

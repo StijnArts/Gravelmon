@@ -7,7 +7,8 @@
       "id": "scornovilain-01",
       "pokemon": "scornovilain",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

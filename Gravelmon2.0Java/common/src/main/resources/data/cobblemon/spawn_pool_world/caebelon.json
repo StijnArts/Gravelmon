@@ -7,7 +7,8 @@
       "id": "caebelon-01",
       "pokemon": "caebelon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

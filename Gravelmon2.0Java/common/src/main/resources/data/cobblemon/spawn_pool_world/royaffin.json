@@ -7,7 +7,8 @@
       "id": "royaffin-01",
       "pokemon": "royaffin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "sugottornet-01",
       "pokemon": "sugottornet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

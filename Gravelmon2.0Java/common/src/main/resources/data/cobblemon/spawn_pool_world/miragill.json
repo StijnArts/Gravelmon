@@ -7,6 +7,7 @@
       "id": "miragill-01",
       "pokemon": "miragill",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

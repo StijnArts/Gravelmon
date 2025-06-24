@@ -7,7 +7,8 @@
       "id": "vicoon-01",
       "pokemon": "vicoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

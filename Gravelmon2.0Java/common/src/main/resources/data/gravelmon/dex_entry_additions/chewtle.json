@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:chewtle",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

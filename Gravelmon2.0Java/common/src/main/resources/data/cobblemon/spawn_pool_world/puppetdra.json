@@ -7,7 +7,8 @@
       "id": "puppetdra-01",
       "pokemon": "puppetdra",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

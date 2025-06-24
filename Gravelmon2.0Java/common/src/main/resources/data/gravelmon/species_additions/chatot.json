@@ -135,7 +135,8 @@
       },
       "labels": [
         "gen4",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 6,
       "aspects": [

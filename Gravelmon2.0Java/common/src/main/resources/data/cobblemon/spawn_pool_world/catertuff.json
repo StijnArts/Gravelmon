@@ -7,7 +7,8 @@
       "id": "catertuff-01",
       "pokemon": "catertuff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

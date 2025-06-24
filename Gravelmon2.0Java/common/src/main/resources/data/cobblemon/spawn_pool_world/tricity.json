@@ -7,7 +7,8 @@
       "id": "tricity-01",
       "pokemon": "tricity",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

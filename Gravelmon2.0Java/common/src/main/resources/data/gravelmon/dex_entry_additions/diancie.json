@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:diancie",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Kaskadian",
+      "unlockForms": [
+        "Kaskadian"
+      ]
+    }
+  ]
 }

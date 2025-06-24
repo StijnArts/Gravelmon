@@ -7,6 +7,7 @@
       "id": "selody-01",
       "pokemon": "selody",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

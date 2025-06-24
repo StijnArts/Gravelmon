@@ -7,7 +7,8 @@
       "id": "squrmy-01",
       "pokemon": "squrmy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "feliger-01",
       "pokemon": "feliger",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

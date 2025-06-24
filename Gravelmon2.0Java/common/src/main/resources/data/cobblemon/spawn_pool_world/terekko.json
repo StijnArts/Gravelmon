@@ -7,7 +7,8 @@
       "id": "terekko-01",
       "pokemon": "terekko",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

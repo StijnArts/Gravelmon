@@ -7,7 +7,8 @@
       "id": "silxie-01",
       "pokemon": "silxie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

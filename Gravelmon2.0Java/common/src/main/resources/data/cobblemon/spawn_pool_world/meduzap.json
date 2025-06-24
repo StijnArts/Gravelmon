@@ -7,7 +7,8 @@
       "id": "meduzap-01",
       "pokemon": "meduzap",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

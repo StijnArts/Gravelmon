@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Fountic extends drai.dev.data.pokemon.Pokemon {
-    public Fountic() {
+    public Fountic(Stats stats) {
         super("Fountic",
                 Type.BUG, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.WATER_VEIL), Ability.SUCTION_CUPS,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

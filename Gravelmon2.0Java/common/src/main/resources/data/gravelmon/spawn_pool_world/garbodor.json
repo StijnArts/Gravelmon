@@ -16,7 +16,7 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -34,7 +34,8 @@
       "id": "epoch_garbodor-01",
       "pokemon": "garbodor epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +46,9 @@
         "biomes": [
           "#cobblemon:is_swamp"
         ],
-        "isThundering": true
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +63,8 @@
       "id": "mahalian_garbodor-01",
       "pokemon": "garbodor mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

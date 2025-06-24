@@ -11,8 +11,8 @@ public class Levieon extends drai.dev.data.pokemon.Pokemon {
                 Type.FLYING,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,13 +23,14 @@ public class Levieon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTTORA),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .eeveelution()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SKY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
-           setLangFileName("Levieon");
-
+        addAdditionalEvolution("eevee", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_SKY.getId() + ":" + Biome.IS_SKY.getName()))));
+        setLangFileName("Levieon");
     }
 
 

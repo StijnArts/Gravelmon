@@ -7,7 +7,8 @@
       "id": "peepsqueak-01",
       "pokemon": "peepsqueak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

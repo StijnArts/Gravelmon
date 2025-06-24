@@ -7,7 +7,8 @@
       "id": "cubblfly-01",
       "pokemon": "cubblfly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

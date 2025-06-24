@@ -7,7 +7,8 @@
       "id": "macrochip-01",
       "pokemon": "macrochip",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

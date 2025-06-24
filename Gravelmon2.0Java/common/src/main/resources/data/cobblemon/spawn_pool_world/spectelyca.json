@@ -7,7 +7,8 @@
       "id": "spectelyca-01",
       "pokemon": "spectelyca",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

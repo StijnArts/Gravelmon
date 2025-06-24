@@ -34,7 +34,8 @@
       "id": "epoch_aromatisse-01",
       "pokemon": "aromatisse epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -68,7 +69,8 @@
       "id": "aromian_aromatisse-01",
       "pokemon": "aromatisse aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -95,7 +97,8 @@
       "id": "vesitan_aromatisse-01",
       "pokemon": "aromatisse vesitan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

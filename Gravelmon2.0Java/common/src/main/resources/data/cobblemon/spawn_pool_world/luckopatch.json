@@ -7,7 +7,8 @@
       "id": "luckopatch-01",
       "pokemon": "luckopatch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

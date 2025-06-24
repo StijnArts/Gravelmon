@@ -7,7 +7,8 @@
       "id": "kikro-01",
       "pokemon": "kikro",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

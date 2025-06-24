@@ -7,7 +7,8 @@
       "id": "sequardian-01",
       "pokemon": "sequardian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

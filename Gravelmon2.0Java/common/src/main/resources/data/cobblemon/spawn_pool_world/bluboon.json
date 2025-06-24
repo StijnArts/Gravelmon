@@ -7,6 +7,7 @@
       "id": "bluboon-01",
       "pokemon": "bluboon",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

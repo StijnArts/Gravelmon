@@ -799,7 +799,8 @@
       },
       "labels": [
         "gen2",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 14,
       "aspects": [
@@ -826,7 +827,8 @@
       },
       "labels": [
         "gen2",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

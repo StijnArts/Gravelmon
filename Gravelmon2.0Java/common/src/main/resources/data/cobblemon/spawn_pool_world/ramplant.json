@@ -7,7 +7,8 @@
       "id": "ramplant-01",
       "pokemon": "ramplant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

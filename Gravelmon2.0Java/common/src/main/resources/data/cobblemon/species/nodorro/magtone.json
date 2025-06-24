@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "meltone",
-  "baseScale": 21.6,
+  "baseScale": 0.4153846153846154,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -115,11 +115,11 @@
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8899,
+  "nationalPokedexNumber": 9191,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 6.5,
+    "height": 6.5,
     "fixed": false
   },
   "features": [],

@@ -7,7 +7,8 @@
       "id": "everieon-01",
       "pokemon": "everieon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

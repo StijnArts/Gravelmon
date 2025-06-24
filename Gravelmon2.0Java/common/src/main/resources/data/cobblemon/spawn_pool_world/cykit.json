@@ -7,7 +7,8 @@
       "id": "cykit-01",
       "pokemon": "cykit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

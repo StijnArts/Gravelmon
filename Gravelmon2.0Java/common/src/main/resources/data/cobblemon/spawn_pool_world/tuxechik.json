@@ -7,7 +7,8 @@
       "id": "tuxechik-01",
       "pokemon": "tuxechik",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "uselake-01",
       "pokemon": "uselake",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

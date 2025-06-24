@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sneasel-pastelian",
+  "speciesId": "cobblemon:sneasel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

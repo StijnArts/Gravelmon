@@ -7,7 +7,8 @@
       "id": "flaskantine-01",
       "pokemon": "flaskantine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

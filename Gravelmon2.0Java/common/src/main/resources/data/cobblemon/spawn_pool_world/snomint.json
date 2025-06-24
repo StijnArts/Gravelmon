@@ -7,7 +7,8 @@
       "id": "snomint-01",
       "pokemon": "snomint",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

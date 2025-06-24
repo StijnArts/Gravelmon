@@ -7,7 +7,8 @@
       "id": "freil-01",
       "pokemon": "freil",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

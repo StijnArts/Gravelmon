@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:archaludon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

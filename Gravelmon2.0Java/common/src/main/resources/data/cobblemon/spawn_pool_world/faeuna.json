@@ -7,7 +7,8 @@
       "id": "faeuna-01",
       "pokemon": "faeuna",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

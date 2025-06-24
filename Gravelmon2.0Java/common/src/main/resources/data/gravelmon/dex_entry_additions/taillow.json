@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:taillow",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

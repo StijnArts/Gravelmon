@@ -7,7 +7,8 @@
       "id": "bovlame-01",
       "pokemon": "bovlame",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

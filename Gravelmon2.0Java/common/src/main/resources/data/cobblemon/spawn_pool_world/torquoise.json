@@ -7,7 +7,8 @@
       "id": "torquoise-01",
       "pokemon": "torquoise",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

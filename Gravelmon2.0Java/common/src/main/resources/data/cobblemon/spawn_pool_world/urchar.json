@@ -7,6 +7,7 @@
       "id": "urchar-01",
       "pokemon": "urchar",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

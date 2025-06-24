@@ -7,7 +7,8 @@
       "id": "bowlder-01",
       "pokemon": "bowlder",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

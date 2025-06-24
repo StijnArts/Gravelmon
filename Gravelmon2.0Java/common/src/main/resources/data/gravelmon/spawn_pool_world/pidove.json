@@ -34,7 +34,8 @@
       "id": "ayreian_pidove-01",
       "pokemon": "pidove ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

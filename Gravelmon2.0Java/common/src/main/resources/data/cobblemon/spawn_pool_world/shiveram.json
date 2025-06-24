@@ -7,7 +7,8 @@
       "id": "shiveram-01",
       "pokemon": "shiveram",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

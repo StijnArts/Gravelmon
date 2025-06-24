@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:roostuff",
+  "speciesId": "cobblemon:roostuff",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

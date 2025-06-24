@@ -7,7 +7,8 @@
       "id": "impferno-01",
       "pokemon": "impferno",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

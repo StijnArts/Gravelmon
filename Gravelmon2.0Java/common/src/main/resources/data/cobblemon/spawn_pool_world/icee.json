@@ -7,7 +7,8 @@
       "id": "icee-01",
       "pokemon": "icee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

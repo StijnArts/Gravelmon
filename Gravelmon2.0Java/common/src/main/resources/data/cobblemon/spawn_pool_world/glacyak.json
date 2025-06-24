@@ -7,7 +7,8 @@
       "id": "glacyak-01",
       "pokemon": "glacyak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

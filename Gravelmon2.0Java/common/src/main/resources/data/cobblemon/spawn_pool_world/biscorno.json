@@ -7,7 +7,8 @@
       "id": "biscorno-01",
       "pokemon": "biscorno",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

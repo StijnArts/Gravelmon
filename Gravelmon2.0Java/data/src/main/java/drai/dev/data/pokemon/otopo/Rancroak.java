@@ -16,14 +16,15 @@ public class Rancroak extends drai.dev.data.pokemon.Pokemon {
                         50,
                         90),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                10, 0,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Due to the acidic qualities of its saliva, it feels a continual burning sensation on its tongue. A single lick from a Pokemon may render you paralysed for life."),
-                List.of(),
+                List.of(new EvolutionEntry("gamutrid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIST,"tm"),
                         new MoveLearnSetEntry(Move.BUBBLE_BEAM,"tm"),
@@ -38,12 +39,14 @@ public class Rancroak extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_SPORT,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(18).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL).build(),
                 List.of());
+        setAquatic();
+        setAvoidsLand(false);
            setLangFileName("Rancroak");
 
     }

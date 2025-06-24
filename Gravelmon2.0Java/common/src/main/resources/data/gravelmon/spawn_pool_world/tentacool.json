@@ -40,7 +40,8 @@
       "id": "delta_tentacool-01",
       "pokemon": "tentacool delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -67,6 +68,7 @@
       "id": "epoch_tentacool-01",
       "pokemon": "tentacool epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -95,6 +97,7 @@
       "id": "forman_tentacool-01",
       "pokemon": "tentacool forman",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

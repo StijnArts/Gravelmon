@@ -7,7 +7,8 @@
       "id": "epoch_tyrunt-01",
       "pokemon": "tyrunt epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_tyrunt-01",
       "pokemon": "tyrunt epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "ayreian_tyrunt-01",
       "pokemon": "tyrunt ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "delta_yamask-01",
       "pokemon": "yamask delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "x_yamask-01",
       "pokemon": "yamask x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -113,7 +115,8 @@
       "id": "ferranian_yamask-01",
       "pokemon": "yamask ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -140,7 +143,8 @@
       "id": "fabelian_yamask-01",
       "pokemon": "yamask fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -178,7 +182,9 @@
         "biomes": [
           "#cobblemon:is_jungle"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

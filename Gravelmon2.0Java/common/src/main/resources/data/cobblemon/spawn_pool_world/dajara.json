@@ -7,7 +7,8 @@
       "id": "dajara-01",
       "pokemon": "dajara",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -40,7 +40,8 @@
       "id": "delta_tentacruel-01",
       "pokemon": "tentacruel delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -67,6 +68,7 @@
       "id": "epoch_tentacruel-01",
       "pokemon": "tentacruel epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "charcool-01",
       "pokemon": "charcool",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

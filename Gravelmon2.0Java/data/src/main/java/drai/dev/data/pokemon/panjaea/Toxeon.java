@@ -33,6 +33,8 @@ public class Toxeon extends drai.dev.data.pokemon.Pokemon {
                         .setBiomes(Biome.IS_VOID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        addAdditionalEvolution("eevee", new EvolutionEntry(getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_SWAMP.getId() + ":" + Biome.IS_SWAMP.getName()))));
            setLangFileName("Toxeon");
 
     }

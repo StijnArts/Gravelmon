@@ -7,7 +7,8 @@
       "id": "varitasian_klang-01",
       "pokemon": "klang varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "aromian_klang-01",
       "pokemon": "klang aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

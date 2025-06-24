@@ -7,7 +7,8 @@
       "id": "tumball-01",
       "pokemon": "tumball",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

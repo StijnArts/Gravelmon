@@ -7,7 +7,8 @@
       "id": "kilokatta-01",
       "pokemon": "kilokatta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

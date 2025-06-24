@@ -16,7 +16,7 @@ public class Kerukeru extends drai.dev.data.pokemon.Pokemon {
                         110,
                         107),
                 List.of(Ability.STURDY,Ability.BIG_PECKS), Ability.STAMINA,
-                0, 0,
+                15, 0,
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 159, ExperienceGroup.MEDIUM_FAST,
@@ -52,10 +52,10 @@ public class Kerukeru extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(25).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Kerukeru");

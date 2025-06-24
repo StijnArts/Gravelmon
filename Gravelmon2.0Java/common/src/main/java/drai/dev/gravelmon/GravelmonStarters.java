@@ -710,7 +710,7 @@ public class GravelmonStarters {
                 createCategory("Bago",
                         List.of(
                                 "Cattail level=10",
-                                "Searpent level=10",
+                                "Searther level=10",
                                 "Marmink level=10"
                         )
                 ));
@@ -776,6 +776,70 @@ public class GravelmonStarters {
                                 "Herovor level=10",
                                 "Purrlit level=10",
                                 "Salatad level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Otopo",
+                        List.of(
+                                "Elefern level=10",
+                                "Kinfowl level=10",
+                                "Cubble level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Panjaea",
+                        List.of(
+                                "Owleaf level=10",
+                                "Coalverine level=10",
+                                "Raindolph level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Pastel Island",
+                        List.of(
+                                "Geckamp level=10",
+                                "Avire level=10",
+                                "Hissicle level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ruskow",
+                        List.of(
+                                "Eleplant level=10",
+                                "Bollokin level=10",
+                                "Newtiny level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Sorin",
+                        List.of(
+                                "Grascal level=10",
+                                "Ochrab level=10",
+                                "Burrblu level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Theos",
+                        List.of(
+                                "Leazid level=10",
+                                "Bullit level=10",
+                                "Hippony level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Tochi",
+                        List.of(
+                                "Brambli level=10",
+                                "Salamagma level=10",
+                                "Octiny level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Tokas",
+                        List.of(
+                                "Frungus level=10",
+                                "Oinklit level=10",
+                                "Bufflow level=10"
                         )
                 ));
     }

@@ -7,7 +7,8 @@
       "id": "caquypapa-01",
       "pokemon": "caquypapa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

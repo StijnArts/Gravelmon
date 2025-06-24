@@ -7,7 +7,8 @@
       "id": "cefiran_lopunny-01",
       "pokemon": "lopunny cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "delta_lopunny-01",
       "pokemon": "lopunny delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +46,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_desert"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +63,8 @@
       "id": "epoch_lopunny-01",
       "pokemon": "lopunny epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -70,7 +75,9 @@
         "biomes": [
           "#cobblemon:is_freezing"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -97,7 +104,9 @@
           "#cobblemon:is_taiga",
           "#cobblemon:is_cold"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -112,7 +121,8 @@
       "id": "olysosian_lopunny-01",
       "pokemon": "lopunny olysosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -122,7 +132,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy_forest"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

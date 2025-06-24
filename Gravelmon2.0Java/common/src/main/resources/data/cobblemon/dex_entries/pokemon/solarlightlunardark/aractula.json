@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aractula",
+  "speciesId": "cobblemon:aractula",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

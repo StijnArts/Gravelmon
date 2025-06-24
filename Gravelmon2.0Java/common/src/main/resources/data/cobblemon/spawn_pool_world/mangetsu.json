@@ -7,7 +7,8 @@
       "id": "mangetsu-01",
       "pokemon": "mangetsu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

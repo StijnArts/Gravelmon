@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:primeape",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

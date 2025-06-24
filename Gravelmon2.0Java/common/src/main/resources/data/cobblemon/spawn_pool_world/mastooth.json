@@ -7,7 +7,8 @@
       "id": "mastooth-01",
       "pokemon": "mastooth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

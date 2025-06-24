@@ -7,7 +7,8 @@
       "id": "qualder-01",
       "pokemon": "qualder",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

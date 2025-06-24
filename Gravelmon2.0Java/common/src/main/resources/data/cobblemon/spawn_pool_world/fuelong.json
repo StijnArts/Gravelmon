@@ -7,7 +7,8 @@
       "id": "fuelong-01",
       "pokemon": "fuelong",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

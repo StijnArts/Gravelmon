@@ -7,7 +7,8 @@
       "id": "vinagruff-01",
       "pokemon": "vinagruff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

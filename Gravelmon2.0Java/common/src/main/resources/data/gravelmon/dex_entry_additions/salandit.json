@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:salandit",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

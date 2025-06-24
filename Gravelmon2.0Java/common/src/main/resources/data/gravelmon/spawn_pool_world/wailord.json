@@ -7,7 +7,8 @@
       "id": "delta_wailord-01",
       "pokemon": "wailord delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "ferranian_wailord-01",
       "pokemon": "wailord ferranian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

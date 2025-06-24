@@ -7,7 +7,8 @@
       "id": "delta_escavalier-01",
       "pokemon": "escavalier delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_escavalier-01",
       "pokemon": "escavalier epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

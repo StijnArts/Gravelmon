@@ -7,7 +7,8 @@
       "id": "chocolluxe-01",
       "pokemon": "chocolluxe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

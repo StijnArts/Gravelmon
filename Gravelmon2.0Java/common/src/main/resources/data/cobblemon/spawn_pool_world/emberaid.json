@@ -7,7 +7,8 @@
       "id": "emberaid-01",
       "pokemon": "emberaid",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "mandrazooka-01",
       "pokemon": "mandrazooka",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

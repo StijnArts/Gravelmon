@@ -7,7 +7,8 @@
       "id": "prosciuthough-01",
       "pokemon": "prosciuthough",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

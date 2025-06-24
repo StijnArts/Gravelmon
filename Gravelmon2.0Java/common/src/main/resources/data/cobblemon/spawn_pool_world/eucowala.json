@@ -7,7 +7,8 @@
       "id": "eucowala-01",
       "pokemon": "eucowala",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

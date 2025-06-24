@@ -465,12 +465,196 @@
         "height": 3.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "Pastelian",
+      "primaryType": "ghost",
+      "catchRate": 100,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 137,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "gothita form=pastelian",
+      "baseScale": 9.600000000000001,
+      "cannotDynamax": false,
+      "abilities": [
+        "frisk",
+        "competitive",
+        "h:shadowtag"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 45,
+        "defence": 70,
+        "special_attack": 75,
+        "special_defence": 85,
+        "speed": 55
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:playnice",
+        "1:pound",
+        "3:confusion",
+        "7:tickle",
+        "10:faketears",
+        "14:doubleslap",
+        "16:psybeam",
+        "19:embargo",
+        "24:feintattack",
+        "25:psyshock",
+        "28:flatter",
+        "31:futuresight",
+        "34:healblock",
+        "39:psychic",
+        "43:telekinesis",
+        "50:charm",
+        "53:magicroom",
+        "tm:snore",
+        "tm:healbell",
+        "tm:uproar",
+        "tm:helpinghand",
+        "tm:trick",
+        "tm:roleplay",
+        "tm:magiccoat",
+        "tm:recycle",
+        "tm:skillswap",
+        "tm:snatch",
+        "tm:signalbeam",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:gravity",
+        "tm:zenheadbutt",
+        "tm:telekinesis",
+        "tm:magicroom",
+        "tm:foulplay",
+        "tm:allyswitch",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:psychup",
+        "tm:shadowball",
+        "tm:torment",
+        "tm:facade",
+        "tm:taunt",
+        "tm:rocktomb",
+        "tm:calmmind",
+        "tm:payback",
+        "tm:embargo",
+        "tm:fling",
+        "tm:darkpulse",
+        "tm:energyball",
+        "tm:trickroom",
+        "tm:grassknot",
+        "tm:chargebeam",
+        "tm:psyshock",
+        "tm:round",
+        "tm:confide",
+        "tm:meanlook",
+        "tm:mirrorcoat",
+        "tm:miracleeye",
+        "tm:captivate",
+        "tm:healpulse",
+        "tm:terablast"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.pasteliangothorita.desc"
+      ],
+      "height": 8,
+      "weight": 180,
+      "aspects": [
+        "pastelian"
+      ],
+      "evolutions": [
+        {
+          "id": "pasteliangothorita_gothitelle_pastelian",
+          "variant": "level_up",
+          "result": "gothitelle pastelian",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "41"
+            }
+          ],
+          "permanent": true
+        }
+      ],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "africanusan",
     "epoch",
-    "epochtwo"
+    "epochtwo",
+    "pastelian"
   ],
   "evolutions": [
     {

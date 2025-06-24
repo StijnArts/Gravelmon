@@ -7,7 +7,8 @@
       "id": "cactana-01",
       "pokemon": "cactana",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

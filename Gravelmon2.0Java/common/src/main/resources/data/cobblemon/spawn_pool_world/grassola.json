@@ -7,7 +7,8 @@
       "id": "grassola-01",
       "pokemon": "grassola",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "varitasian_klink-01",
       "pokemon": "klink varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "aromian_klink-01",
       "pokemon": "klink aromian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

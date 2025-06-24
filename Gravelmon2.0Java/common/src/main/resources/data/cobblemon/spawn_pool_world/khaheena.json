@@ -7,7 +7,8 @@
       "id": "khaheena-01",
       "pokemon": "khaheena",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

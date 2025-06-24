@@ -7,7 +7,8 @@
       "id": "varitasian_hatenna-01",
       "pokemon": "hatenna varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_hatenna-01",
       "pokemon": "hatenna epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -44,7 +46,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -59,7 +63,8 @@
       "id": "ayreian_hatenna-01",
       "pokemon": "hatenna ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +92,8 @@
       "id": "novran_hatenna-01",
       "pokemon": "hatenna novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +120,8 @@
       "id": "fabelian_hatenna-01",
       "pokemon": "hatenna fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -141,19 +148,21 @@
       "id": "ottoran_hatenna-01",
       "pokemon": "hatenna ottoran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-23",
-      "weight": 9.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_badlands"
         ],
         "minSkyLight": 8,
-        "maxSkyLight": 15
+        "maxSkyLight": 15,
+        "timeRange": "night"
       },
       "weightMultiplier": {
         "multiplier": 5.0,

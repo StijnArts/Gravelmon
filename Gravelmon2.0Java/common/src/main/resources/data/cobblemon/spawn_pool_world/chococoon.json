@@ -7,7 +7,8 @@
       "id": "chococoon-01",
       "pokemon": "chococoon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

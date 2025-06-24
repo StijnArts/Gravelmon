@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gubeluto",
+  "speciesId": "cobblemon:gubeluto",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

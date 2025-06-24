@@ -7,7 +7,8 @@
       "id": "chrysow-01",
       "pokemon": "chrysow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

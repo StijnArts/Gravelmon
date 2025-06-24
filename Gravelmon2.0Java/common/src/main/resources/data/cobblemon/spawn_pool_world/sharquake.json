@@ -7,7 +7,8 @@
       "id": "sharquake-01",
       "pokemon": "sharquake",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

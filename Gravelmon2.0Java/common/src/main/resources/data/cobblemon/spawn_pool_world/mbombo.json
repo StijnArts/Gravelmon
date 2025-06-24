@@ -7,7 +7,8 @@
       "id": "mbombo-01",
       "pokemon": "mbombo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

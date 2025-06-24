@@ -7,7 +7,8 @@
       "id": "malleamole-01",
       "pokemon": "malleamole",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

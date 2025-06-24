@@ -34,7 +34,8 @@
       "id": "epoch_amaura-01",
       "pokemon": "amaura epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

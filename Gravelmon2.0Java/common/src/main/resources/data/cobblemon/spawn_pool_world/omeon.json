@@ -7,7 +7,8 @@
       "id": "omeon-01",
       "pokemon": "omeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

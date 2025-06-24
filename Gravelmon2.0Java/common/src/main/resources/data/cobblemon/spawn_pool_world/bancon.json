@@ -7,7 +7,8 @@
       "id": "bancon-01",
       "pokemon": "bancon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

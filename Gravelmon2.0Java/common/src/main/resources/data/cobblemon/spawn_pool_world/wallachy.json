@@ -7,7 +7,8 @@
       "id": "wallachy-01",
       "pokemon": "wallachy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "morturtle-01",
       "pokemon": "morturtle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

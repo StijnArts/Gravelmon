@@ -7,7 +7,8 @@
       "id": "cereblast-01",
       "pokemon": "cereblast",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

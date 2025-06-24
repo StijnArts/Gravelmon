@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tasmaniac",
+  "speciesId": "cobblemon:tasmaniac",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

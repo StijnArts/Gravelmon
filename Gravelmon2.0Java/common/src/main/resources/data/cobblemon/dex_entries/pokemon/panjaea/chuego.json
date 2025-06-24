@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chuego",
+  "speciesId": "cobblemon:chuego",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

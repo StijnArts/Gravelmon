@@ -7,7 +7,8 @@
       "id": "hoppiler-01",
       "pokemon": "hoppiler",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

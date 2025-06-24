@@ -34,7 +34,8 @@
       "id": "epoch_meloetta-01",
       "pokemon": "meloetta epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "jinnister-01",
       "pokemon": "jinnister",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

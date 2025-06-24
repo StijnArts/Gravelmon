@@ -7,6 +7,7 @@
       "id": "delta_haxorus-01",
       "pokemon": "haxorus delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_haxorus-01",
       "pokemon": "haxorus epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +63,8 @@
       "id": "ayreian_haxorus-01",
       "pokemon": "haxorus ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

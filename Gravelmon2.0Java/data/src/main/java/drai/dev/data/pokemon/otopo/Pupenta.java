@@ -16,14 +16,15 @@ public class Pupenta extends drai.dev.data.pokemon.Pokemon {
                         30,
                         30),
                 List.of(Ability.SHED_SKIN,Ability.RUN_AWAY), Ability.EFFECT_SPORE,
-                0, 0,
+                5, 0,
                 new Stats(0,0,1,0,1,0), 120,
                 0.5,
                 74, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It positions itself as near to the sun as possible in order to acquire adequate energy for development. Constantly staring at the sun has left it blind, but it has enhanced its other senses."),
-                List.of(),
+                List.of(new EvolutionEntry("cerisefly", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -41,11 +42,11 @@ public class Pupenta extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC,45)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(7).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
            setLangFileName("Pupenta");
 

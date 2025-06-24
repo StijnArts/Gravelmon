@@ -7,7 +7,8 @@
       "id": "egho_azumarill-01",
       "pokemon": "azumarill egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "kaskadian_azumarill-01",
       "pokemon": "azumarill kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

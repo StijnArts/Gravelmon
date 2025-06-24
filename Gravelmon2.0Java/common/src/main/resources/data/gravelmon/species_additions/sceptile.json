@@ -1097,7 +1097,8 @@
       },
       "labels": [
         "gen3",
-        "daybreak"
+        "daybreak",
+        "not_modeled"
       ],
       "height": 19,
       "aspects": [
@@ -1124,11 +1125,40 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 19,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "avalossian_mega",
+      "primaryType": "rock",
+      "secondaryType": "steel",
+      "baseScale": 0.4584269662921348,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "keeneye"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 85,
+        "special_attack": 110,
+        "special_defence": 75,
+        "speed": 145
+      },
+      "labels": [
+        "gen3",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 17,
+      "aspects": [
+        "avalossian_mega"
       ]
     }
   ],
@@ -1141,6 +1171,7 @@
     "armiran",
     "ayreian",
     "armiran_mega",
-    "epoch_mega"
+    "epoch_mega",
+    "avalossian_mega"
   ]
 }

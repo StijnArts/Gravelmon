@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:snipion",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Crozoican",
+      "unlockForms": [
+        "Crozoican"
+      ]
+    }
+  ]
 }

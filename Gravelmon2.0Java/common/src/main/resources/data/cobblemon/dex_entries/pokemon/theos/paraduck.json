@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:paraduck",
+  "speciesId": "cobblemon:paraduck",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

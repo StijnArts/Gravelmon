@@ -7,6 +7,7 @@
       "id": "amoebolt-01",
       "pokemon": "amoebolt",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

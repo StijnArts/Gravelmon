@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "lumiscent",
-  "baseScale": 10.8,
+  "baseScale": 0.4595744680851064,
   "cannotDynamax": false,
   "abilities": [
     "chlorophyll"
@@ -88,11 +88,11 @@
   "weight": 6,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8877,
+  "nationalPokedexNumber": 9164,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 2.9375000000000004,
+    "height": 2.9375000000000004,
     "fixed": false
   },
   "features": [],

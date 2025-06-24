@@ -963,7 +963,8 @@
       },
       "labels": [
         "gen3",
-        "vanguard"
+        "vanguard",
+        "not_modeled"
       ],
       "height": 19,
       "aspects": [
@@ -989,7 +990,8 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 14,
       "aspects": [
@@ -1016,7 +1018,8 @@
       },
       "labels": [
         "gen3",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 16,
       "aspects": [

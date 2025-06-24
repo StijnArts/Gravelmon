@@ -7,6 +7,7 @@
       "id": "baitatao-01",
       "pokemon": "baitatao",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_warm_ocean"
         ],
-        "maxY": 40
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

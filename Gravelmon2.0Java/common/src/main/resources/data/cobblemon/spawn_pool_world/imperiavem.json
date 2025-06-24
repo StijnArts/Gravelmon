@@ -7,7 +7,8 @@
       "id": "imperiavem-01",
       "pokemon": "imperiavem",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "escalaze-01",
       "pokemon": "escalaze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

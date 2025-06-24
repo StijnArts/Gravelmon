@@ -297,7 +297,7 @@
         "egg:rockthrow",
         "egg:rockslide",
         "egg:sunnyday",
-        "egg:stonesurge",
+        "egg:fakemonstonesurge",
         "tm:terablast"
       ],
       "labels": [

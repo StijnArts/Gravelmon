@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Gectidact extends drai.dev.data.pokemon.Pokemon {
-    public Gectidact() {
+    public Gectidact(Stats stats) {
         super("Gectidact",
                 Type.POISON, Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.POISON_POINT), Ability.STICKY_HOLD,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

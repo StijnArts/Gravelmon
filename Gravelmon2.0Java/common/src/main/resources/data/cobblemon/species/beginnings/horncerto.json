@@ -1,16 +1,19 @@
 {
   "name": "Horncerto",
   "primaryType": "normal",
-  "catchRate": 104,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14328358208955225,
+  "preEvolution": "moosong",
+  "baseScale": 0.7522388059701492,
   "cannotDynamax": false,
   "abilities": [
-    "keeneye"
+    "sapsipper",
+    "runaway",
+    "h:soundproof"
   ],
   "behaviour": {
     "resting": {
@@ -75,16 +78,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.horncerto.desc"
   ],
-  "height": 0,
+  "height": 21,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9246,
+  "nationalPokedexNumber": 9593,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

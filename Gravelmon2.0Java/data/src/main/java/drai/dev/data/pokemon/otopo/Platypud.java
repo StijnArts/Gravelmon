@@ -23,7 +23,8 @@ public class Platypud extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("The toxin it secretes from its paws can be utilised medicinally if diluted. When you touch this Pokemon, you will feel a tingling feeling."),
-                List.of(),
+                List.of(new EvolutionEntry("platypulse", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
@@ -40,11 +41,13 @@ public class Platypud extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(11).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Platypud");
 
     }

@@ -24,7 +24,7 @@ public class Apein extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("As human development encroaches on the rainforests, sightings of Apein have become rarer and rarer. They have taken to hiding among treetops nowadays."),
                 List.of(new EvolutionEntry("sascrush", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_DENSE.getId() + ":" + Biome.IS_DENSE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,45),
                         new MoveLearnSetEntry(Move.TACKLE,1),

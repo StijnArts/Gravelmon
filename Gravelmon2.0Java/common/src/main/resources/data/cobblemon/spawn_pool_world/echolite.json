@@ -7,7 +7,8 @@
       "id": "echolite-01",
       "pokemon": "echolite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

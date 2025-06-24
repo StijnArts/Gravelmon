@@ -7,7 +7,8 @@
       "id": "cryscross-01",
       "pokemon": "cryscross",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

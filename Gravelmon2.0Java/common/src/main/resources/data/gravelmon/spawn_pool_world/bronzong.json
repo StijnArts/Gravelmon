@@ -7,7 +7,8 @@
       "id": "africanusan_bronzong-01",
       "pokemon": "bronzong africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -61,7 +62,8 @@
       "id": "epoch_bronzong-01",
       "pokemon": "bronzong epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "stoni-01",
       "pokemon": "stoni",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

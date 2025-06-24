@@ -7,7 +7,8 @@
       "id": "dasypudge-01",
       "pokemon": "dasypudge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

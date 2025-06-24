@@ -7,7 +7,8 @@
       "id": "hawkedge-01",
       "pokemon": "hawkedge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

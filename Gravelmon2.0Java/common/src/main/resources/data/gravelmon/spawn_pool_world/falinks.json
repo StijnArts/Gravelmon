@@ -7,7 +7,8 @@
       "id": "cefiran_falinks-01",
       "pokemon": "falinks cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "epoch_falinks-01",
       "pokemon": "falinks epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -87,7 +89,8 @@
       "id": "fabelian_falinks-01",
       "pokemon": "falinks fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -114,7 +117,8 @@
       "id": "mikitarian_falinks-01",
       "pokemon": "falinks mikitarian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

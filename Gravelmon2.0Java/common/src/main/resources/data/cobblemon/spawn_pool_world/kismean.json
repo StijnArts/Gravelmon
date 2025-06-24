@@ -7,7 +7,8 @@
       "id": "kismean-01",
       "pokemon": "kismean",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

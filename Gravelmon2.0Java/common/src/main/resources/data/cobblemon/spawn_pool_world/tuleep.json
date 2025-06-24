@@ -7,7 +7,8 @@
       "id": "tuleep-01",
       "pokemon": "tuleep",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

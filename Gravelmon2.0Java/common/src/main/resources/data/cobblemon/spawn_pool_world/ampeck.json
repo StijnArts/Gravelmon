@@ -7,7 +7,8 @@
       "id": "ampeck-01",
       "pokemon": "ampeck",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

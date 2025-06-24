@@ -34,7 +34,8 @@
       "id": "epoch_magmortar-01",
       "pokemon": "magmortar epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

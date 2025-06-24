@@ -7,7 +7,8 @@
       "id": "whud-01",
       "pokemon": "whud",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

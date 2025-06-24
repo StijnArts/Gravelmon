@@ -7,7 +7,8 @@
       "id": "inchard-01",
       "pokemon": "inchard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,7 @@ public class Elegantus extends drai.dev.data.pokemon.Pokemon {
                         29),
                 List.of(Ability.SHIELD_DUST), Ability.SERENE_GRACE,
                 18, 498,
-                new Stats(0,0,0,3,0,0), 0,
+                new Stats(0,0,0,3,0,0), 45,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,10 +27,10 @@ public class Elegantus extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(42).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_MUSHROOM, Biome.IS_BIRCH).canSeeSky().atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Elegantus");

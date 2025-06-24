@@ -7,7 +7,8 @@
       "id": "bandeon-01",
       "pokemon": "bandeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "lickitin-01",
       "pokemon": "lickitin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

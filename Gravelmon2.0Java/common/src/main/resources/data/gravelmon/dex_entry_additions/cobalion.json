@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:cobalion",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    }
+  ]
 }

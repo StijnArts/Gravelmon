@@ -7,7 +7,8 @@
       "id": "hantama-01",
       "pokemon": "hantama",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

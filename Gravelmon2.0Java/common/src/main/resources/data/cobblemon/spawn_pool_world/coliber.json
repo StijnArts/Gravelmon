@@ -7,7 +7,8 @@
       "id": "coliber-01",
       "pokemon": "coliber",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:amoxica",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ]
 }

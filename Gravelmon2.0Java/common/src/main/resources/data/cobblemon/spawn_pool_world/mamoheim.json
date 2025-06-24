@@ -7,7 +7,8 @@
       "id": "mamoheim-01",
       "pokemon": "mamoheim",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

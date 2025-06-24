@@ -7,7 +7,8 @@
       "id": "crabruner-01",
       "pokemon": "crabruner",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

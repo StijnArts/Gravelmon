@@ -7,7 +7,8 @@
       "id": "wrrazal-01",
       "pokemon": "wrrazal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

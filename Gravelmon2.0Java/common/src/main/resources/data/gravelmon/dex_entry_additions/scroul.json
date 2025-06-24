@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:scroul",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Olysosian",
+      "unlockForms": [
+        "Olysosian"
+      ]
+    }
+  ]
 }

@@ -17,21 +17,22 @@ public class Nibblit extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SAP_SIPPER), Ability.STRONG_JAW,
                 8, 90,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Nibblit are constantly looking for something to chew, forcing Trainers to carry sticks with them in order to avoid Nibblit destroying their belongings."),
-                List.of(),
+                List.of(new EvolutionEntry("lumbash", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(7).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TAIGA).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 List.of());
            setLangFileName("Nibblit");
 

@@ -7,7 +7,8 @@
       "id": "growel-01",
       "pokemon": "growel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_charcadet-01",
       "pokemon": "charcadet epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

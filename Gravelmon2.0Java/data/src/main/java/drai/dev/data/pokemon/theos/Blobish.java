@@ -5,6 +5,7 @@ import drai.dev.data.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
+
 public class Blobish extends drai.dev.data.pokemon.Pokemon {
     public Blobish() {
         super("Blobish",
@@ -15,9 +16,9 @@ public class Blobish extends drai.dev.data.pokemon.Pokemon {
                         75,
                         110,
                         65),
-                List.of(Ability.STICKY_HOLD,Ability.DRY_SKIN), Ability.REGENERATOR,
-                0, 0,
-                new Stats(2,0,0,0,0,0), 0,
+                List.of(Ability.STICKY_HOLD, Ability.DRY_SKIN), Ability.REGENERATOR,
+                5, 0,
+                new Stats(2, 0, 0, 0, 0, 0), 70,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -26,14 +27,15 @@ public class Blobish extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(),
                 List.of(Label.THEOS),
-                0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                0, List.of(),
+                new PokemonSpawnDataBuilder(1)
+                        .setMinLevel(7).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.RARE)
+                        .setContext(SpawnContext.SEAFLOOR)
+                        .setBiomes(Biome.IS_DEEP_OCEAN).canSeeSky().belowY(40)
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
-           setLangFileName("Blobish");
+        setAquatic();
+        setLangFileName("Blobish");
 
     }
 

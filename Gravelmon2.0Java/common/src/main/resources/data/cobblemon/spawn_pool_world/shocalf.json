@@ -7,7 +7,8 @@
       "id": "shocalf-01",
       "pokemon": "shocalf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

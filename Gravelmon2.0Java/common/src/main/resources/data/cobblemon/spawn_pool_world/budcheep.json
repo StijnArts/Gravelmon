@@ -7,13 +7,14 @@
       "id": "budcheep-01",
       "pokemon": "budcheep",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "1-21",
-      "weight": 5.0,
+      "bucket": "common",
+      "level": "3-23",
+      "weight": 9.0,
       "condition": {
         "biomes": [
           "#cobblemon:is_grassland"

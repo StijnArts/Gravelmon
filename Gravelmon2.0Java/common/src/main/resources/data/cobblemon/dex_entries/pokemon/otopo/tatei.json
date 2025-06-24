@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tatei",
+  "speciesId": "cobblemon:tatei",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

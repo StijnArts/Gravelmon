@@ -7,7 +7,8 @@
       "id": "pengblok-01",
       "pokemon": "pengblok",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "mosstone-01",
       "pokemon": "mosstone",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "seviian_carnivine-01",
       "pokemon": "carnivine seviian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_badlands"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -33,7 +36,8 @@
       "id": "epoch_carnivine-01",
       "pokemon": "carnivine epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,7 @@ public class Esoterra extends drai.dev.data.pokemon.Pokemon {
                         20),
                 List.of(Ability.SOLID_ROCK), Ability.SOLID_ROCK,
                 45, 10000,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 288, ExperienceGroup.SLOW,
                 70,
@@ -44,9 +44,9 @@ public class Esoterra extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .subLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DEEP_DARK)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Esoterra");

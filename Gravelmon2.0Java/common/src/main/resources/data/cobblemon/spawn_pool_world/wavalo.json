@@ -7,7 +7,8 @@
       "id": "wavalo-01",
       "pokemon": "wavalo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

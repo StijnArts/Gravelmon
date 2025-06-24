@@ -7,7 +7,8 @@
       "id": "snoosect-01",
       "pokemon": "snoosect",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

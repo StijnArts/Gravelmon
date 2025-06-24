@@ -7,7 +7,8 @@
       "id": "waruphosa-01",
       "pokemon": "waruphosa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

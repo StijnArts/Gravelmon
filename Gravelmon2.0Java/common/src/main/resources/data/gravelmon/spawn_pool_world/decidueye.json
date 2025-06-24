@@ -7,7 +7,8 @@
       "id": "epoch_decidueye-01",
       "pokemon": "decidueye epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_decidueye-01",
       "pokemon": "decidueye epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -41,7 +43,7 @@
       "weight": 0.009,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "isThundering": true,
         "minSkyLight": 8,

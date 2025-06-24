@@ -7,7 +7,8 @@
       "id": "avocadoze-01",
       "pokemon": "avocadoze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

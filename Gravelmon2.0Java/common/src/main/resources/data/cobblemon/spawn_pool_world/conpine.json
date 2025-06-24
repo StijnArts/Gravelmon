@@ -7,7 +7,8 @@
       "id": "conpine-01",
       "pokemon": "conpine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

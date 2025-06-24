@@ -7,7 +7,8 @@
       "id": "locusteror-01",
       "pokemon": "locusteror",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

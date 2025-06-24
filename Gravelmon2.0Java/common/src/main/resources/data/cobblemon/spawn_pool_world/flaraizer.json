@@ -7,7 +7,8 @@
       "id": "flaraizer-01",
       "pokemon": "flaraizer",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

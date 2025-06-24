@@ -7,7 +7,8 @@
       "id": "geyseror-01",
       "pokemon": "geyseror",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "criwely-01",
       "pokemon": "criwely",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

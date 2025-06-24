@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Crustancient extends drai.dev.data.pokemon.Pokemon {
-    public Crustancient() {
+    public Crustancient(Stats stats) {
         super("Crustancient",
                 Type.WATER, Type.GRASS,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SAP_SIPPER), Ability.MOODY,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

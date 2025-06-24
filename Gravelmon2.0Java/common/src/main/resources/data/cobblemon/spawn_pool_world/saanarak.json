@@ -7,7 +7,8 @@
       "id": "saanarak-01",
       "pokemon": "saanarak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

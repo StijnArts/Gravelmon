@@ -7,7 +7,8 @@
       "id": "draudager-01",
       "pokemon": "draudager",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

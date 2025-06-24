@@ -7,7 +7,8 @@
       "id": "empurroar-01",
       "pokemon": "empurroar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

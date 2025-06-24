@@ -7,7 +7,8 @@
       "id": "regiwater-01",
       "pokemon": "regiwater",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

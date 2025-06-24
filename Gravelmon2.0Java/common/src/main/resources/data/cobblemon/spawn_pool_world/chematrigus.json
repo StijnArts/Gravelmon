@@ -7,7 +7,8 @@
       "id": "chematrigus-01",
       "pokemon": "chematrigus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

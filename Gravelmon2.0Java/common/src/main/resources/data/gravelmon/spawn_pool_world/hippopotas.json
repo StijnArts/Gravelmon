@@ -34,7 +34,8 @@
       "id": "armiran_hippopotas-01",
       "pokemon": "hippopotas armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +63,8 @@
       "id": "mahalian_hippopotas-01",
       "pokemon": "hippopotas mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +91,8 @@
       "id": "nodorran_hippopotas-01",
       "pokemon": "hippopotas nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

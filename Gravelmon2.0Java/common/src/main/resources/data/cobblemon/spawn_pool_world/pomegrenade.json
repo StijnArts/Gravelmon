@@ -7,7 +7,8 @@
       "id": "pomegrenade-01",
       "pokemon": "pomegrenade",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

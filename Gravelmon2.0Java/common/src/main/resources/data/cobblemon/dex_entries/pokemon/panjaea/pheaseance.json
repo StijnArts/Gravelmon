@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pheaseance",
+  "speciesId": "cobblemon:pheaseance",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -16,8 +16,8 @@ public class Dinomond extends drai.dev.data.pokemon.Pokemon {
                         100,
                         70),
                 List.of(Ability.STURDY,Ability.ROUGH_SKIN), Ability.SHEER_FORCE,
-                0, 0,
-                new Stats(0,3,0,0,0,0), 0,
+                26, 0,
+                new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,11 +27,11 @@ public class Dinomond extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(41).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_CAVE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Dinomond");
 

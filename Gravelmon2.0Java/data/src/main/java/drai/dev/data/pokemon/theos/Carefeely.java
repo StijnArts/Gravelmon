@@ -17,7 +17,7 @@ public class Carefeely extends drai.dev.data.pokemon.Pokemon {
                         50),
                 List.of(Ability.TELEPATHY,Ability.FRIEND_GUARD), Ability.SYNCHRONIZE,
                 19, 300,
-                new Stats(2,0,0,0,0,0), 0,
+                new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 390, ExperienceGroup.ERRATIC,
                 70,
@@ -28,9 +28,9 @@ public class Carefeely extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_FLORAL).canSeeSky().duringDaytime()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Carefeely");

@@ -7,7 +7,8 @@
       "id": "gloefa-01",
       "pokemon": "gloefa",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:sandridger",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Alolan",
+      "unlockForms": [
+        "Alolan"
+      ]
+    }
+  ]
 }

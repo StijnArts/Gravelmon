@@ -7,7 +7,8 @@
       "id": "hazmoz-01",
       "pokemon": "hazmoz",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

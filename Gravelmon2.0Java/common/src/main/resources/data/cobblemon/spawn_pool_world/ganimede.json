@@ -7,6 +7,7 @@
       "id": "ganimede-01",
       "pokemon": "ganimede",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_sky"
         ],
-        "maxY": 40
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

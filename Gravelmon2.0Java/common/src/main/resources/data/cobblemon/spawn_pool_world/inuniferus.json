@@ -7,7 +7,8 @@
       "id": "inuniferus-01",
       "pokemon": "inuniferus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

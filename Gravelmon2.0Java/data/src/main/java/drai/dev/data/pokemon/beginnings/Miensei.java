@@ -28,9 +28,9 @@ public class Miensei extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTTORA),
                 0, List.of(
                 ), new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(59).setPool(SpawnPool.RARE).setWeight(SpawnWeight.ULTRA_RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_CHERRY_GROVE).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Miensei");

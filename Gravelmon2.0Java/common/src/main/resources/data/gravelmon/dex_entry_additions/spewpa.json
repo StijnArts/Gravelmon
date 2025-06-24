@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:spewpa",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

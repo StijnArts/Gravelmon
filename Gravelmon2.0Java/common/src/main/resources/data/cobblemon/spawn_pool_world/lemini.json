@@ -7,7 +7,8 @@
       "id": "lemini-01",
       "pokemon": "lemini",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

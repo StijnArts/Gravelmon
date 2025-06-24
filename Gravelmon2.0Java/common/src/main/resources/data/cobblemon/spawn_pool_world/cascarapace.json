@@ -7,6 +7,7 @@
       "id": "cascarapace-01",
       "pokemon": "cascarapace",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

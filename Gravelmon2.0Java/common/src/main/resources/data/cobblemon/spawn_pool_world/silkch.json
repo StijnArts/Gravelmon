@@ -7,7 +7,8 @@
       "id": "silkch-01",
       "pokemon": "silkch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

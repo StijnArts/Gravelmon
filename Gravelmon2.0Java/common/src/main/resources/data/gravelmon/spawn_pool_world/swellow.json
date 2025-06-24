@@ -34,7 +34,8 @@
       "id": "armiran_swellow-01",
       "pokemon": "swellow armiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

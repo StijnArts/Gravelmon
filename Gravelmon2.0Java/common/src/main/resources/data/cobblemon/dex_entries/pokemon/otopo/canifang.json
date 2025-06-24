@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:canifang",
+  "speciesId": "cobblemon:canifang",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

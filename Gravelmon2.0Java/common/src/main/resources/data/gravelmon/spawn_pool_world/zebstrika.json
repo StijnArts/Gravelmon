@@ -7,7 +7,8 @@
       "id": "seviian_zebstrika-01",
       "pokemon": "zebstrika seviian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_plains"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -38,7 +41,8 @@
       "id": "epoch_zebstrika-01",
       "pokemon": "zebstrika epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -50,7 +54,9 @@
           "#cobblemon:is_floral",
           "#cobblemon:is_magical"
         ],
-        "timeRange": "day"
+        "timeRange": "day",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -65,7 +71,8 @@
       "id": "epoch_zebstrika-01",
       "pokemon": "zebstrika epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

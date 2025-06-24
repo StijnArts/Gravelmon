@@ -7,7 +7,8 @@
       "id": "africanusan_phanpy-01",
       "pokemon": "phanpy africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "pokemon": "phanpy raianian",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "epoch_phanpy-01",
       "pokemon": "phanpy epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -95,6 +98,7 @@
       "id": "epoch_phanpy-01",
       "pokemon": "phanpy epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -144,7 +148,8 @@
       "id": "forman_phanpy-01",
       "pokemon": "phanpy forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -172,7 +177,8 @@
       "id": "ayreian_phanpy-01",
       "pokemon": "phanpy ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

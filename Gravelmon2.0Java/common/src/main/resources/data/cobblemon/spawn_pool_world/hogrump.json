@@ -7,7 +7,8 @@
       "id": "hogrump-01",
       "pokemon": "hogrump",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

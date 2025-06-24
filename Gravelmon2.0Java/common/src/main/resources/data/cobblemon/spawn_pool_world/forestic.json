@@ -7,7 +7,8 @@
       "id": "forestic-01",
       "pokemon": "forestic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

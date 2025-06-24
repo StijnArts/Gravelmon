@@ -7,7 +7,8 @@
       "id": "scissorab-01",
       "pokemon": "scissorab",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

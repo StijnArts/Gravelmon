@@ -7,7 +7,8 @@
       "id": "larvomit-01",
       "pokemon": "larvomit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "felipom-01",
       "pokemon": "felipom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

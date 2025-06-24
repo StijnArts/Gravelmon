@@ -7,7 +7,8 @@
       "id": "delta_scolipede-01",
       "pokemon": "scolipede delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "epoch_scolipede-01",
       "pokemon": "scolipede epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -58,7 +60,8 @@
       "pokemon": "scolipede ayreian",
       "presets": [
         "natural",
-        "mineshaft"
+        "mineshaft",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

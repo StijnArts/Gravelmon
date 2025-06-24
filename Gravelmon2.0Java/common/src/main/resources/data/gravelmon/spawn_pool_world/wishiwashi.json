@@ -84,7 +84,8 @@
       "id": "epoch_wishiwashi-01",
       "pokemon": "wishiwashi epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

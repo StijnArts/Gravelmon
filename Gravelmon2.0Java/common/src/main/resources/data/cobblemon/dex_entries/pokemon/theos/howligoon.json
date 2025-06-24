@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:howligoon",
+  "speciesId": "cobblemon:howligoon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "strunk-01",
       "pokemon": "strunk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

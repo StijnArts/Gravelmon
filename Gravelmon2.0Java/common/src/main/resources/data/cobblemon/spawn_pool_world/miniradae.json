@@ -7,7 +7,8 @@
       "id": "miniradae-01",
       "pokemon": "miniradae",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "androck-01",
       "pokemon": "androck",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

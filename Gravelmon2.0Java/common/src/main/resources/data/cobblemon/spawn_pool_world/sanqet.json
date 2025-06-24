@@ -7,7 +7,8 @@
       "id": "sanqet-01",
       "pokemon": "sanqet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

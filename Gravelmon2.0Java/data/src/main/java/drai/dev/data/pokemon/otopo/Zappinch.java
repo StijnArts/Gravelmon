@@ -23,7 +23,8 @@ public class Zappinch extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Zappinch was originally assumed to be a Normal-type Pokémon until it was found that its claws can absorb electricity. Zappinch nest in pylons and can be found in cosmopolitan places."),
-                List.of(),
+                List.of(new EvolutionEntry("parrocity", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AIR_SLASH,25),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,27),
@@ -46,11 +47,12 @@ public class Zappinch extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Zappinch");
 
     }

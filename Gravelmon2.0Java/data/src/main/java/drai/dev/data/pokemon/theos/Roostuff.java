@@ -17,8 +17,8 @@ public class Roostuff extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.INNER_FOCUS), Ability.DEFIANT,
                 13, 180,
-                new Stats(0,2,0,0,0,0), 0,
-                0.5,
+                new Stats(0,2,0,0,0,0), 70,
+                1,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
@@ -27,11 +27,11 @@ public class Roostuff extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Roostuff");
 

@@ -7,7 +7,8 @@
       "id": "kobalt-01",
       "pokemon": "kobalt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

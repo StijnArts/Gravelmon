@@ -7,7 +7,8 @@
       "id": "africanusan_kricketune-01",
       "pokemon": "kricketune africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_kricketune-01",
       "pokemon": "kricketune epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

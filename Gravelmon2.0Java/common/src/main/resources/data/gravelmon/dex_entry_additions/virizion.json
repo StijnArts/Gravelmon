@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:virizion",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Ferranian",
+      "unlockForms": [
+        "Ferranian"
+      ]
+    }
+  ]
 }

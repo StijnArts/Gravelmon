@@ -523,7 +523,8 @@
       },
       "labels": [
         "gen2",
-        "daybreak"
+        "daybreak",
+        "not_modeled"
       ],
       "height": 23,
       "aspects": [
@@ -550,7 +551,8 @@
       },
       "labels": [
         "gen2",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 23,
       "aspects": [

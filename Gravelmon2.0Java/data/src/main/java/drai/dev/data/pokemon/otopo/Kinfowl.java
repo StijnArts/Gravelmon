@@ -23,7 +23,8 @@ public class Kinfowl extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("Mountain summits are typically home to Kinfowl. It may spew embers that are above 2000 degrees if startled. For its characteristics, its feathers are used in apparel due to them exuding their own warmth."),
-                List.of(),
+                List.of(new EvolutionEntry("pyravis", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -50,11 +51,12 @@ public class Kinfowl extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_HIGHLANDS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Kinfowl");
 
     }

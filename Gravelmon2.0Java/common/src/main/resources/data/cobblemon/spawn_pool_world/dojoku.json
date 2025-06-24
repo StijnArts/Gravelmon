@@ -7,7 +7,8 @@
       "id": "dojoku-01",
       "pokemon": "dojoku",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "wisterious-01",
       "pokemon": "wisterious",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

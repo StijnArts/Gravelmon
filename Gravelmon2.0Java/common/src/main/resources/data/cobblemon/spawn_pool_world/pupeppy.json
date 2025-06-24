@@ -8,7 +8,8 @@
       "pokemon": "pupeppy",
       "presets": [
         "natural",
-        "village"
+        "village",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "caclender-01",
       "pokemon": "caclender",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

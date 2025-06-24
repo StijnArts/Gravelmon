@@ -7,6 +7,7 @@
       "id": "crocoxic-01",
       "pokemon": "crocoxic",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

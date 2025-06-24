@@ -7,7 +7,8 @@
       "id": "hissiorite-01",
       "pokemon": "hissiorite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

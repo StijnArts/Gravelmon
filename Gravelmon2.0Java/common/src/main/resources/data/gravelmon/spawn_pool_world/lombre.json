@@ -7,7 +7,8 @@
       "id": "egho_lombre-01",
       "pokemon": "lombre egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "delta_lombre-01",
       "pokemon": "lombre delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -43,7 +45,9 @@
         "biomes": [
           "#cobblemon:is_magical",
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -58,7 +62,8 @@
       "id": "epoch_lombre-01",
       "pokemon": "lombre epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

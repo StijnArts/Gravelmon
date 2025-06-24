@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:trainymph",
+  "speciesId": "cobblemon:trainymph",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

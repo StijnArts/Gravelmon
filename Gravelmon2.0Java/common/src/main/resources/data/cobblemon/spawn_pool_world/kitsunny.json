@@ -7,7 +7,8 @@
       "id": "kitsunny-01",
       "pokemon": "kitsunny",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

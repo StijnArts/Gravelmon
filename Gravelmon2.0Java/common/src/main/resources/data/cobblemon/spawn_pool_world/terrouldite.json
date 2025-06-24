@@ -7,7 +7,8 @@
       "id": "terrouldite-01",
       "pokemon": "terrouldite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -19,7 +20,9 @@
           "#cobblemon:is_highlands",
           "#cobblemon:is_mountain",
           "#cobblemon:is_cave"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

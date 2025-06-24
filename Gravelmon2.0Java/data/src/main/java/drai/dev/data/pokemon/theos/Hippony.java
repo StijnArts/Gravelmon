@@ -23,16 +23,20 @@ public class Hippony extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Hippony are loved by young kids because of their playful attitude. They can create colorful bubbles, used to put on shows or to distract opponents in battle."),
-                List.of(),
+                List.of(new EvolutionEntry("gallocamp", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_GRASSLAND).setAntiBiomes(Biome.IS_ARID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanWalkOnWater(true);
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Hippony");
 
     }

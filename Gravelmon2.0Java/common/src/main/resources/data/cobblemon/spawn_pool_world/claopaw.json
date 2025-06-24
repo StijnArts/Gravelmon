@@ -7,7 +7,8 @@
       "id": "claopaw-01",
       "pokemon": "claopaw",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

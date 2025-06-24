@@ -7,7 +7,8 @@
       "id": "fibichou-01",
       "pokemon": "fibichou",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

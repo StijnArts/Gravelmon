@@ -7,7 +7,8 @@
       "id": "gorajack-01",
       "pokemon": "gorajack",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

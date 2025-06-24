@@ -7,7 +7,8 @@
       "id": "princeo-01",
       "pokemon": "princeo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

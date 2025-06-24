@@ -7,7 +7,8 @@
       "id": "epoch_palossand-01",
       "pokemon": "palossand epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "kaskadian_palossand-01",
       "pokemon": "palossand kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_highlands"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +64,8 @@
       "id": "mahalian_palossand-01",
       "pokemon": "palossand mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "grumpster-01",
       "pokemon": "grumpster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

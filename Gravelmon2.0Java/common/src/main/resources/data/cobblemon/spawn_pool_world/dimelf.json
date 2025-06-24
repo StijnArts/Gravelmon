@@ -7,7 +7,8 @@
       "id": "dimelf-01",
       "pokemon": "dimelf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

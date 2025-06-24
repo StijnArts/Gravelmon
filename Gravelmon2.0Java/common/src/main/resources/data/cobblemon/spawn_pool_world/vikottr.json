@@ -7,7 +7,8 @@
       "id": "vikottr-01",
       "pokemon": "vikottr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

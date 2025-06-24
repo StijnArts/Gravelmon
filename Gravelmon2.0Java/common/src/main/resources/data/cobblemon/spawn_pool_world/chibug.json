@@ -7,7 +7,8 @@
       "id": "chibug-01",
       "pokemon": "chibug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

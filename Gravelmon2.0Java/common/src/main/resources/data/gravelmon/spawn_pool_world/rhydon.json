@@ -7,7 +7,8 @@
       "id": "hizian_rhydon-01",
       "pokemon": "rhydon hizian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,6 +35,7 @@
       "id": "epoch_rhydon-01",
       "pokemon": "rhydon epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

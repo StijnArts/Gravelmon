@@ -7,7 +7,8 @@
       "id": "gourmilin-01",
       "pokemon": "gourmilin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

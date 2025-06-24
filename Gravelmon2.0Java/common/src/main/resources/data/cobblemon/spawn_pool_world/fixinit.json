@@ -7,7 +7,8 @@
       "id": "fixinit-01",
       "pokemon": "fixinit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

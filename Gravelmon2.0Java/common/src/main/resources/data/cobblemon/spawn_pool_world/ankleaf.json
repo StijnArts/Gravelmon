@@ -7,7 +7,8 @@
       "id": "ankleaf-01",
       "pokemon": "ankleaf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

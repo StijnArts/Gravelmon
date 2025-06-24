@@ -7,7 +7,8 @@
       "id": "aidelf-01",
       "pokemon": "aidelf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

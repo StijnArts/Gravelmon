@@ -2,13 +2,14 @@
   "name": "Ghoullery",
   "primaryType": "ghost",
   "secondaryType": "psychic",
-  "catchRate": 86,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1,
+  "preEvolution": "poltrait",
+  "baseScale": 0.525,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +23,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -89,16 +90,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ghoullery.desc"
   ],
-  "height": 0,
+  "height": 21,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9294,
+  "nationalPokedexNumber": 9641,
   "shoulderMountable": false,
   "hitbox": {
     "width": 6.0,

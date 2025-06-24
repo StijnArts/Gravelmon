@@ -7,6 +7,7 @@
       "id": "rowviar-01",
       "pokemon": "rowviar",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

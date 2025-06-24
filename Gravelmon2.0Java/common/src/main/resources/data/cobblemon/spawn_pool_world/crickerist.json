@@ -7,7 +7,8 @@
       "id": "crickerist-01",
       "pokemon": "crickerist",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

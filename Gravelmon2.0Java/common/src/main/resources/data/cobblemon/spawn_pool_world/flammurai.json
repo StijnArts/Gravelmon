@@ -7,7 +7,8 @@
       "id": "flammurai-01",
       "pokemon": "flammurai",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

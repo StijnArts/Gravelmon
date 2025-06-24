@@ -7,7 +7,8 @@
       "id": "woolvry-01",
       "pokemon": "woolvry",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_stantler-01",
       "pokemon": "stantler epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_stantler-01",
       "pokemon": "stantler epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
         "biomes": [
           "#gravelmon:is_deciduous_forest"
         ],
-        "isThundering": true
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -60,7 +64,8 @@
       "id": "ayreian_stantler-01",
       "pokemon": "stantler ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +94,8 @@
       "id": "fabelian_stantler-01",
       "pokemon": "stantler fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

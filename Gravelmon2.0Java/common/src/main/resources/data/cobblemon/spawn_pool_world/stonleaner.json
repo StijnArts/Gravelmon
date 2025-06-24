@@ -7,7 +7,8 @@
       "id": "stonleaner-01",
       "pokemon": "stonleaner",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

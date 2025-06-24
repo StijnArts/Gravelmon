@@ -7,7 +7,8 @@
       "id": "jawcicle-01",
       "pokemon": "jawcicle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

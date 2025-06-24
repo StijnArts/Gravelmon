@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:togedemaru",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

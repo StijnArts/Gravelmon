@@ -7,7 +7,8 @@
       "id": "kuldown-01",
       "pokemon": "kuldown",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

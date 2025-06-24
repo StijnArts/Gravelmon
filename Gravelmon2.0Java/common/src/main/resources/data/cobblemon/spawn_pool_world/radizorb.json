@@ -7,7 +7,8 @@
       "id": "radizorb-01",
       "pokemon": "radizorb",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

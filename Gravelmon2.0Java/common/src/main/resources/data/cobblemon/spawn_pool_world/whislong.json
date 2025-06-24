@@ -7,7 +7,8 @@
       "id": "whislong-01",
       "pokemon": "whislong",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

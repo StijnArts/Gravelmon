@@ -7,7 +7,8 @@
       "id": "desol-01",
       "pokemon": "desol",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

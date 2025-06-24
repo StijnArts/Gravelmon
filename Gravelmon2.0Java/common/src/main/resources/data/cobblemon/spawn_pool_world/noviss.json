@@ -7,7 +7,8 @@
       "id": "noviss-01",
       "pokemon": "noviss",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

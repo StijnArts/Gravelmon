@@ -7,7 +7,8 @@
       "id": "scarfly-01",
       "pokemon": "scarfly",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

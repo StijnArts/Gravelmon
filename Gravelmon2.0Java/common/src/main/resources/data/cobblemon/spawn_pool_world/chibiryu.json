@@ -7,7 +7,8 @@
       "id": "chibiryu-01",
       "pokemon": "chibiryu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

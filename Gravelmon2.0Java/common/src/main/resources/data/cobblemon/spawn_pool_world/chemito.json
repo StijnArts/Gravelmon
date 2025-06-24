@@ -7,7 +7,8 @@
       "id": "chemito-01",
       "pokemon": "chemito",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

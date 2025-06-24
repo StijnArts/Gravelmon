@@ -7,6 +7,7 @@
       "id": "delta_dratini-01",
       "pokemon": "dratini delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_dratini-01",
       "pokemon": "dratini epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -122,9 +124,7 @@
       "condition": {
         "biomes": [
           "#minecraft:is_nether"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -139,7 +139,8 @@
       "id": "mahalian_dratini-01",
       "pokemon": "dratini mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

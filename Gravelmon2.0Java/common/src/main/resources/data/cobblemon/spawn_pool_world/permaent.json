@@ -7,7 +7,8 @@
       "id": "permaent-01",
       "pokemon": "permaent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

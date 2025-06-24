@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:partae",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Lost_islands",
+      "unlockForms": [
+        "Lost_islands"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "epoch_sneasel-01",
       "pokemon": "sneasel epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_sneasel-01",
       "pokemon": "sneasel epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -51,6 +53,34 @@
         "condition": {
           "neededNearbyBlocks": [
             "minecraft:glowstone"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pastelian_sneasel-01",
+      "pokemon": "sneasel pastelian",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_old_growth_taiga"
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:black_wool"
           ]
         }
       }

@@ -7,7 +7,8 @@
       "id": "dustfully-01",
       "pokemon": "dustfully",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

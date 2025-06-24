@@ -7,7 +7,8 @@
       "id": "cometile-01",
       "pokemon": "cometile",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

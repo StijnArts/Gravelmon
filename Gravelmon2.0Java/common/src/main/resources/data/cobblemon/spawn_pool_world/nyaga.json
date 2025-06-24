@@ -7,7 +7,8 @@
       "id": "nyaga-01",
       "pokemon": "nyaga",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

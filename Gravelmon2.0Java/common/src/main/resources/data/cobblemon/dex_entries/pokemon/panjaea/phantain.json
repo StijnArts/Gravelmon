@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:phantain",
+  "speciesId": "cobblemon:phantain",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

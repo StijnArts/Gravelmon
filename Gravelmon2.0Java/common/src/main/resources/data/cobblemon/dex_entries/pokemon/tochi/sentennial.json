@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:sentennial",
+  "speciesId": "cobblemon:sentennial",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

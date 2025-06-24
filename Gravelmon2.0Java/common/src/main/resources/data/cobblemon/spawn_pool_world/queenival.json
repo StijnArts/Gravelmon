@@ -7,7 +7,8 @@
       "id": "queenival-01",
       "pokemon": "queenival",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

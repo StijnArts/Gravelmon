@@ -16,24 +16,26 @@ public class Chainect extends drai.dev.data.pokemon.Pokemon {
                         70,
                         65,
                         60),
-                List.of(Ability.PLUS,Ability.MINUS,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                List.of(Ability.PLUS,Ability.MINUS), Ability.BATTERY,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("These Pokemon are being used to run small facilities and are used in tests regarding space-flight products. They feed on electricity by draining them from many sources. Chainect connect with other Chainect to transfer electricity."),
-                List.of(),
+                List.of(new EvolutionEntry("chainector", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DEEP_DARK).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Chainect");
 
     }

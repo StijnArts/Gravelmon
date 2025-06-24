@@ -1074,6 +1074,21 @@
       "requirements": [],
       "requiredContext": "minecraft:end_crystal",
       "permanent": true
+    },
+    {
+      "id": "pikachu_theossianraichu",
+      "variant": "item_interact",
+      "result": "theossianraichu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_peak"
+        }
+      ],
+      "requiredContext": "cobblemon:thunder_stone",
+      "permanent": true
     }
   ],
   "drops": {
@@ -1086,6 +1101,11 @@
       },
       {
         "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:thunder_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }

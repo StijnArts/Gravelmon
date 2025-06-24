@@ -7,7 +7,8 @@
       "id": "fumaji-01",
       "pokemon": "fumaji",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

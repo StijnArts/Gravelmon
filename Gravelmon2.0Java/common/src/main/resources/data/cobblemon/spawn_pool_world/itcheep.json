@@ -7,7 +7,8 @@
       "id": "itcheep-01",
       "pokemon": "itcheep",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

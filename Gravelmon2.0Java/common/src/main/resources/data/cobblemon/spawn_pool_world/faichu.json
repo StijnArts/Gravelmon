@@ -7,7 +7,8 @@
       "id": "faichu-01",
       "pokemon": "faichu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

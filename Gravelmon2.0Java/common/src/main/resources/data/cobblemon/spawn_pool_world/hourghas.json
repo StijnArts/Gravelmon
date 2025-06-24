@@ -7,7 +7,8 @@
       "id": "hourghas-01",
       "pokemon": "hourghas",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

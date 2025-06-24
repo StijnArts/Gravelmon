@@ -7,7 +7,8 @@
       "id": "epoch_dubwool-01",
       "pokemon": "dubwool epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_dubwool-01",
       "pokemon": "dubwool epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -67,7 +69,8 @@
       "id": "kaskadian_dubwool-01",
       "pokemon": "dubwool kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -78,9 +81,7 @@
         "biomes": [
           "#cobblemon:is_volvanic",
           "#cobblemon:nether/is_soul_fire"
-        ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        ]
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -95,7 +96,8 @@
       "id": "novran_dubwool-01",
       "pokemon": "dubwool novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -122,7 +124,8 @@
       "id": "fabelian_dubwool-01",
       "pokemon": "dubwool fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

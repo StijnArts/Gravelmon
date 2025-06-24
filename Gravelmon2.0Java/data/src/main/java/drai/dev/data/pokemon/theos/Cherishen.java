@@ -18,7 +18,7 @@ public class Cherishen extends drai.dev.data.pokemon.Pokemon {
                 List.of(Ability.IMMUNITY), Ability.NATURAL_CURE,
                 11, 200,
                 new Stats(2,0,0,0,0,0), 70,
-                0.5,
+                0,
                 168, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
@@ -27,11 +27,11 @@ public class Cherishen extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE, Biome.IS_ARID).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Cherishen");
 

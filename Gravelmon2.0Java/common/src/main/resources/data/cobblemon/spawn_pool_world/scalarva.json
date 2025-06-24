@@ -7,7 +7,8 @@
       "id": "scalarva-01",
       "pokemon": "scalarva",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

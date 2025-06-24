@@ -28,13 +28,14 @@ public class Bladeon extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.PANJAEA),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .eeveelution()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_HIGHLANDS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Bladeon");
-
+        addAdditionalEvolution("eevee", new EvolutionEntry(getCleanName(), EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(),List.of(),"minecraft:iron_sword"));
     }
 
 

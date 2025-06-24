@@ -7,7 +7,8 @@
       "id": "delta_mawile-01",
       "pokemon": "mawile delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

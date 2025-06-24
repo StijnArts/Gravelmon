@@ -7,7 +7,8 @@
       "id": "seviian_ursaring-01",
       "pokemon": "ursaring seviian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -38,7 +41,8 @@
       "id": "cefiran_ursaring-01",
       "pokemon": "ursaring cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -65,7 +69,8 @@
       "id": "epoch_ursaring-01",
       "pokemon": "ursaring epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -76,7 +81,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -91,7 +98,8 @@
       "id": "epoch_ursaring-01",
       "pokemon": "ursaring epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -101,7 +109,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_glacial"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -116,7 +126,8 @@
       "id": "hoennian_ursaring-01",
       "pokemon": "ursaring hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -143,7 +154,8 @@
       "id": "nodorran_ursaring-01",
       "pokemon": "ursaring nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

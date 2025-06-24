@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flysh",
+  "speciesId": "cobblemon:flysh",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,7 +7,8 @@
       "id": "dandyprawl-01",
       "pokemon": "dandyprawl",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

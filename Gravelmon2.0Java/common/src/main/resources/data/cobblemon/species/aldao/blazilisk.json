@@ -8,7 +8,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "chinder",
   "baseScale": 0.051562500000000004,
   "cannotDynamax": false,
   "abilities": [
@@ -60,28 +59,10 @@
     "field"
   ],
   "drops": {},
-  "moves": [
-    "1:ember",
-    "1:scratch",
-    "1:growl",
-    "1:leer",
-    "4:firespin",
-    "4:twister",
-    "7:flamecharge",
-    "7:dragonbreath",
-    "10:flameburst",
-    "10:breakingswipe",
-    "13:flamethrower",
-    "13:dragonpulse",
-    "16:fireblast",
-    "16:dracometeor",
-    "tm:terablast"
-  ],
+  "moves": [],
   "labels": [
     "aldao",
     "not_modeled",
-    "fakemon",
-    "fakemonevolution",
     "instagram",
     "instagram"
   ],

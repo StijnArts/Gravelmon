@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:coathief",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ]
 }

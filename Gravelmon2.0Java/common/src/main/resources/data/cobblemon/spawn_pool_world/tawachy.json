@@ -7,7 +7,8 @@
       "id": "tawachy-01",
       "pokemon": "tawachy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

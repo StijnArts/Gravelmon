@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:primarina",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

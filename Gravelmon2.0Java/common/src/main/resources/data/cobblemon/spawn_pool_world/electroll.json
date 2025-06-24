@@ -7,7 +7,8 @@
       "id": "electroll-01",
       "pokemon": "electroll",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

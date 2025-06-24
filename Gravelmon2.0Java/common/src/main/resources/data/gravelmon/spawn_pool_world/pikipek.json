@@ -40,7 +40,8 @@
       "id": "ivrisian_pikipek-01",
       "pokemon": "pikipek ivrisian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

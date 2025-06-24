@@ -7,7 +7,8 @@
       "id": "spranamos-01",
       "pokemon": "spranamos",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

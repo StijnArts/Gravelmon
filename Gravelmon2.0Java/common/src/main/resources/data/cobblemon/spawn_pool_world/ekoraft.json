@@ -7,7 +7,8 @@
       "id": "ekoraft-01",
       "pokemon": "ekoraft",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

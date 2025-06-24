@@ -530,6 +530,179 @@
       }
     },
     {
+      "name": "Pastelian",
+      "primaryType": "ghost",
+      "catchRate": 50,
+      "maleRatio": 0.25,
+      "baseExperienceYield": 221,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "gothorita form=pastelian",
+      "baseScale": 18.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "anticipation",
+        "competitive",
+        "h:forewarn"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 55,
+        "defence": 95,
+        "special_attack": 95,
+        "special_defence": 110,
+        "speed": 65
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 3,
+        "speed": 0
+      },
+      "eggGroups": [
+        "human_like"
+      ],
+      "drops": {},
+      "moves": [
+        "1:playnice",
+        "1:pound",
+        "3:confusion",
+        "7:tickle",
+        "10:faketears",
+        "14:doubleslap",
+        "16:psybeam",
+        "19:embargo",
+        "24:feintattack",
+        "25:psyshock",
+        "28:flatter",
+        "31:futuresight",
+        "34:healblock",
+        "39:psychic",
+        "45:telekinesis",
+        "54:charm",
+        "59:magicroom",
+        "tm:snore",
+        "tm:healbell",
+        "tm:uproar",
+        "tm:helpinghand",
+        "tm:trick",
+        "tm:roleplay",
+        "tm:magiccoat",
+        "tm:recycle",
+        "tm:skillswap",
+        "tm:snatch",
+        "tm:signalbeam",
+        "tm:covet",
+        "tm:shockwave",
+        "tm:gravity",
+        "tm:zenheadbutt",
+        "tm:telekinesis",
+        "tm:magicroom",
+        "tm:foulplay",
+        "tm:allyswitch",
+        "tm:laserfocus",
+        "tm:hyperbeam",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:toxic",
+        "tm:psychic",
+        "tm:doubleteam",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:dreameater",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:substitute",
+        "tm:thief",
+        "tm:protect",
+        "tm:swagger",
+        "tm:attract",
+        "tm:sleeptalk",
+        "tm:return",
+        "tm:frustration",
+        "tm:safeguard",
+        "tm:hiddenpower",
+        "tm:raindance",
+        "tm:psychup",
+        "tm:shadowball",
+        "tm:torment",
+        "tm:facade",
+        "tm:taunt",
+        "tm:brickbreak",
+        "tm:rocktomb",
+        "tm:calmmind",
+        "tm:payback",
+        "tm:embargo",
+        "tm:fling",
+        "tm:darkpulse",
+        "tm:energyball",
+        "tm:gigaimpact",
+        "tm:trickroom",
+        "tm:grassknot",
+        "tm:chargebeam",
+        "tm:psyshock",
+        "tm:lowsweep",
+        "tm:round",
+        "tm:confide",
+        "tm:meanlook",
+        "tm:mirrorcoat",
+        "tm:miracleeye",
+        "tm:captivate",
+        "tm:healpulse",
+        "tm:terablast"
+      ],
+      "labels": [
+        "pastel_island",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.pasteliangothitelle.desc"
+      ],
+      "height": 15,
+      "weight": 440,
+      "aspects": [
+        "pastelian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "mega",
       "primaryType": "psychic",
       "secondaryType": "dark",
@@ -549,7 +722,8 @@
       },
       "labels": [
         "gen5",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 17,
       "aspects": [
@@ -576,7 +750,8 @@
       },
       "labels": [
         "gen5",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 21,
       "aspects": [
@@ -603,7 +778,8 @@
       },
       "labels": [
         "gen5",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 18,
       "aspects": [
@@ -616,6 +792,7 @@
     "africanusan",
     "epoch",
     "epochtwo",
+    "pastelian",
     "mega",
     "epoch_mega",
     "epochtwo_mega"

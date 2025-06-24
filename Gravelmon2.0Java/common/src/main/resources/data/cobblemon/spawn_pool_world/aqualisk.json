@@ -7,6 +7,7 @@
       "id": "aqualisk-01",
       "pokemon": "aqualisk",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

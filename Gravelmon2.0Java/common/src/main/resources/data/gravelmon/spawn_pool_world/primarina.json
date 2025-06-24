@@ -8,7 +8,8 @@
       "pokemon": "primarina epoch",
       "presets": [
         "natural",
-        "near_water"
+        "near_water",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

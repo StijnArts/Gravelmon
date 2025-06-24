@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:rabsca",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Qamoran",
+      "unlockForms": [
+        "Qamoran"
+      ]
+    }
+  ]
 }

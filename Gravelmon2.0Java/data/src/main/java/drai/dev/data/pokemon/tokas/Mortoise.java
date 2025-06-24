@@ -6,18 +6,13 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Mortoise extends drai.dev.data.pokemon.Pokemon {
-    public Mortoise() {
+    public Mortoise(Stats stats) {
         super("Mortoise",
                 Type.ELECTRIC, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.AFTERMATH), Ability.SHELL_ARMOR,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 75,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,10 +23,10 @@ public class Mortoise extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOKAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_JUNGLE).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.JUNGLE_PYRAMID).build(),
                 List.of());
            setLangFileName("Mortoise");
 

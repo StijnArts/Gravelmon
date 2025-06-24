@@ -7,7 +7,8 @@
       "id": "nomadent-01",
       "pokemon": "nomadent",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

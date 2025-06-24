@@ -7,7 +7,8 @@
       "id": "froggidi-01",
       "pokemon": "froggidi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

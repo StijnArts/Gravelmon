@@ -7,7 +7,8 @@
       "id": "carvarble-01",
       "pokemon": "carvarble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

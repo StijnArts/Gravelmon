@@ -7,7 +7,8 @@
       "id": "clobstrich-01",
       "pokemon": "clobstrich",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

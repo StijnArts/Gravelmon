@@ -7,7 +7,8 @@
       "id": "gnabling-01",
       "pokemon": "gnabling",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

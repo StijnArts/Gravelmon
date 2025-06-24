@@ -7,6 +7,7 @@
       "id": "foreminn-01",
       "pokemon": "foreminn",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

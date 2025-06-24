@@ -7,7 +7,8 @@
       "id": "keletta-01",
       "pokemon": "keletta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

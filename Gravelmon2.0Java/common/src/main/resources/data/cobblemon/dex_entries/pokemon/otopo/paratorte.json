@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:paratorte",
+  "speciesId": "cobblemon:paratorte",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

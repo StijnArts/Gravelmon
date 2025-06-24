@@ -7,6 +7,7 @@
       "id": "hizian_lileep-01",
       "pokemon": "lileep hizian",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -34,7 +35,8 @@
       "id": "epoch_lileep-01",
       "pokemon": "lileep epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

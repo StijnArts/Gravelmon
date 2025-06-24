@@ -7,7 +7,8 @@
       "id": "searopod-01",
       "pokemon": "searopod",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

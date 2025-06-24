@@ -7,7 +7,8 @@
       "id": "spothyena-01",
       "pokemon": "spothyena",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

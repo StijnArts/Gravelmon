@@ -7,7 +7,8 @@
       "id": "gifrost-01",
       "pokemon": "gifrost",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

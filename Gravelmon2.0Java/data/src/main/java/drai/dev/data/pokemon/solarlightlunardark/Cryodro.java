@@ -24,7 +24,7 @@ public class Cryodro extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_2),
                 List.of("Cryodro is adorned with scales of clear crystals on its back. When sunlight shines down, the scales refract the light into many different colors."),
                 List.of(new EvolutionEntry("cryodra", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")), List.of(), "gravelmon:prismscale")),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")), List.of(), "cobblemon:prism_scale")),
                 List.of(
                         new MoveLearnSetEntry(Move.FREEZEDRY,32),
                         new MoveLearnSetEntry(Move.AURORA_VEIL,55),

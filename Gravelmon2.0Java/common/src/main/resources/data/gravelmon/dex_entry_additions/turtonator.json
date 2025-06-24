@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:turtonator",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

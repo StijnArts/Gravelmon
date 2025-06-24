@@ -7,7 +7,8 @@
       "id": "crabutan-01",
       "pokemon": "crabutan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

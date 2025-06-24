@@ -7,7 +7,8 @@
       "id": "kotsumo-01",
       "pokemon": "kotsumo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

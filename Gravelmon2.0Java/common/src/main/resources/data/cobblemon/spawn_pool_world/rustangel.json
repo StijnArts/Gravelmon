@@ -7,7 +7,8 @@
       "id": "rustangel-01",
       "pokemon": "rustangel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

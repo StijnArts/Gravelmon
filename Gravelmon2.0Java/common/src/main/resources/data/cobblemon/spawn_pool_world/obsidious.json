@@ -7,7 +7,8 @@
       "id": "obsidious-01",
       "pokemon": "obsidious",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

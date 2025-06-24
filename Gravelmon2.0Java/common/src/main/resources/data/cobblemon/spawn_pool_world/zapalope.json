@@ -7,7 +7,8 @@
       "id": "zapalope-01",
       "pokemon": "zapalope",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

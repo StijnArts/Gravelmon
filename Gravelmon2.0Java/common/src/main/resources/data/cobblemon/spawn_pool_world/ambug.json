@@ -7,7 +7,8 @@
       "id": "ambug-01",
       "pokemon": "ambug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

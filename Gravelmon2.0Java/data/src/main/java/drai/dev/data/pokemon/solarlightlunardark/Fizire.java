@@ -23,8 +23,8 @@ public class Fizire extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("Fizire can create smog clouds from the two chutes on its back. The fields where they have left their particles become fertile land, excellent for agriculture."),
-                List.of(new EvolutionEntry("volcadon", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+                List.of(new EvolutionEntry("volcadon", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.GEOGEYSER,29),
                         new MoveLearnSetEntry(Move.FIRE_SPIN,1),

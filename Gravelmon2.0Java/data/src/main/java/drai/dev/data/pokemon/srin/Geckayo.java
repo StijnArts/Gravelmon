@@ -16,8 +16,8 @@ public class Geckayo extends drai.dev.data.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.INNER_FOCUS,Ability.SHED_SKIN), Ability.PROTEAN,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.875,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -44,9 +44,9 @@ public class Geckayo extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(21).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BAMBOO).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Geckay-o");

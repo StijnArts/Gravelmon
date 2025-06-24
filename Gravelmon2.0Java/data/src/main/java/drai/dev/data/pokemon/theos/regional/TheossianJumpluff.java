@@ -17,7 +17,7 @@ public class TheossianJumpluff extends drai.dev.data.pokemon.Pokemon {
                         75),
                 List.of(Ability.HARVEST), Ability.DRY_SKIN,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -27,11 +27,11 @@ public class TheossianJumpluff extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(27).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NEAR_CROPS).build(),
                 List.of());
            setLangFileName("Jumpluff");
 

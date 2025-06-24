@@ -7,7 +7,8 @@
       "id": "burrorm-01",
       "pokemon": "burrorm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "harplust-01",
       "pokemon": "harplust",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

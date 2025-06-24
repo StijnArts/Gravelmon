@@ -7,7 +7,8 @@
       "id": "peritwinkle-01",
       "pokemon": "peritwinkle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

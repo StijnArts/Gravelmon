@@ -142,7 +142,7 @@
   "weight": 89,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 6282,
+  "nationalPokedexNumber": 6302,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.1875,
@@ -224,7 +224,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.sunny.desc"
+      ],
       "height": 4,
       "weight": 89,
       "aspects": [
@@ -301,7 +303,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.rainy.desc"
+      ],
       "height": 4,
       "weight": 89,
       "aspects": [
@@ -378,7 +382,9 @@
         "deneb",
         "not_modeled"
       ],
-      "pokedex": [],
+      "pokedex": [
+        "cobblemon.species.snowy.desc"
+      ],
       "height": 4,
       "weight": 89,
       "aspects": [

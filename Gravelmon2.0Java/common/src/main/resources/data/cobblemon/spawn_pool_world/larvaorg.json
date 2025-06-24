@@ -7,7 +7,8 @@
       "id": "larvaorg-01",
       "pokemon": "larvaorg",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

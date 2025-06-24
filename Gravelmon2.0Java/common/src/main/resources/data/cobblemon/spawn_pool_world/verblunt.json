@@ -7,7 +7,8 @@
       "id": "verblunt-01",
       "pokemon": "verblunt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

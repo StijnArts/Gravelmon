@@ -7,7 +7,8 @@
       "id": "nomobjeka-01",
       "pokemon": "nomobjeka",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

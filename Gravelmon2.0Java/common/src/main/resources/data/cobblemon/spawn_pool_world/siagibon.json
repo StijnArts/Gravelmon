@@ -7,7 +7,8 @@
       "id": "siagibon-01",
       "pokemon": "siagibon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

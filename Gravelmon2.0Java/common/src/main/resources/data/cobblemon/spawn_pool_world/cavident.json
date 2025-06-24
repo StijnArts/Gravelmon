@@ -7,7 +7,8 @@
       "id": "cavident-01",
       "pokemon": "cavident",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

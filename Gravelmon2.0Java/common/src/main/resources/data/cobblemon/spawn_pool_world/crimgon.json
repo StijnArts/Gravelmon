@@ -7,7 +7,8 @@
       "id": "crimgon-01",
       "pokemon": "crimgon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:lycanroc",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

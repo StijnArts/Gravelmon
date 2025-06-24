@@ -7,7 +7,8 @@
       "id": "loameo-01",
       "pokemon": "loameo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

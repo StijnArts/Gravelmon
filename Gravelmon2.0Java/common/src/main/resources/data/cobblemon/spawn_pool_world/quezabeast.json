@@ -7,7 +7,8 @@
       "id": "quezabeast-01",
       "pokemon": "quezabeast",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

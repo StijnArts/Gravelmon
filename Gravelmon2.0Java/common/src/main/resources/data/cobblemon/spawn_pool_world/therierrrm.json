@@ -7,7 +7,8 @@
       "id": "therierrrm-01",
       "pokemon": "therierrrm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

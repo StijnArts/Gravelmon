@@ -23,7 +23,8 @@ public class Gullstal extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FLYING),
                 List.of("Gullstal is a popular choice among sailors and fisherman. Its diminutive size allows it to get into places that other Pokémon can't. It frequently quarrels with Wingull."),
-                List.of(),
+                List.of(new EvolutionEntry("coasteron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -55,11 +56,12 @@ public class Gullstal extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_COAST).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Gullstal");
 
     }

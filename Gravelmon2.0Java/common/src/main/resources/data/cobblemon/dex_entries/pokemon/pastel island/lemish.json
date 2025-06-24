@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lemish",
+  "speciesId": "cobblemon:lemish",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

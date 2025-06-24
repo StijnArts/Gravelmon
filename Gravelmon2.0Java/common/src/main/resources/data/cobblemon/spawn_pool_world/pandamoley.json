@@ -7,7 +7,8 @@
       "id": "pandamoley-01",
       "pokemon": "pandamoley",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

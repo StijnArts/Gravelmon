@@ -7,7 +7,8 @@
       "id": "delta_lanturn-01",
       "pokemon": "lanturn delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -83,6 +84,7 @@
       "id": "epoch_lanturn-01",
       "pokemon": "lanturn epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -121,7 +123,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 40
+        "maxY": 40,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

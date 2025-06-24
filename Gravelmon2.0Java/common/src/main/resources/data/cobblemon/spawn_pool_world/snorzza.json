@@ -7,7 +7,8 @@
       "id": "snorzza-01",
       "pokemon": "snorzza",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

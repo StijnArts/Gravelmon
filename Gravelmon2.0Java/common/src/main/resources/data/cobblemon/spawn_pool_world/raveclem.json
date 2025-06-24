@@ -7,7 +7,8 @@
       "id": "raveclem-01",
       "pokemon": "raveclem",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

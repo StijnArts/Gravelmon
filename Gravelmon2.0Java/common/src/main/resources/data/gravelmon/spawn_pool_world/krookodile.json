@@ -8,7 +8,8 @@
       "pokemon": "krookodile epoch",
       "presets": [
         "village",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "ayreian_krookodile-01",
       "pokemon": "krookodile ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

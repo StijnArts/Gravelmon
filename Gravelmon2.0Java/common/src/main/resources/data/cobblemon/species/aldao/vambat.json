@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 45,
-    "attack": 24,
-    "defence": 48,
-    "special_attack": 82,
-    "special_defence": 48,
-    "speed": 70
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
   },
   "evYield": {
     "hp": 0,
@@ -59,27 +59,7 @@
     "field"
   ],
   "drops": {},
-  "moves": [
-    "1:bite",
-    "1:gust",
-    "1:vacuumwave",
-    "1:vacuumwave",
-    "1:leer",
-    "1:leer",
-    "1:nastyplot",
-    "1:nastyplot",
-    "4:payback",
-    "4:aircutter",
-    "7:nightdaze",
-    "7:wingattack",
-    "10:snarl",
-    "10:airslash",
-    "13:knockoff",
-    "13:drillpeck",
-    "16:darkpulse",
-    "16:hurricane",
-    "tm:terablast"
-  ],
+  "moves": [],
   "labels": [
     "aldao",
     "not_modeled",

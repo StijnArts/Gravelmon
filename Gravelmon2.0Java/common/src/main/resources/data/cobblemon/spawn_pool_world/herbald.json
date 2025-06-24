@@ -7,7 +7,8 @@
       "id": "herbald-01",
       "pokemon": "herbald",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

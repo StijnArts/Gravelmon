@@ -7,7 +7,8 @@
       "id": "varantox-01",
       "pokemon": "varantox",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

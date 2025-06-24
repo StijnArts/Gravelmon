@@ -7,7 +7,8 @@
       "id": "nukemu-01",
       "pokemon": "nukemu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

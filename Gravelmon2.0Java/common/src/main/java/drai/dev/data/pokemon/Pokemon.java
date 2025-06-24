@@ -479,6 +479,10 @@ public class Pokemon extends AbstractPokemon {
         return this;
     }
 
+    public Pokemon setCanFly() {
+        return setCanFly(true);
+    }
+
     public Pokemon setAquatic() {
         this.avoidsLand = true;
         this.canSwimInWater = true;

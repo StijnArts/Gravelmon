@@ -7,7 +7,8 @@
       "id": "cheeda-01",
       "pokemon": "cheeda",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

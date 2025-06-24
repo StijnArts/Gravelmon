@@ -7,7 +7,8 @@
       "id": "frogermit-01",
       "pokemon": "frogermit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

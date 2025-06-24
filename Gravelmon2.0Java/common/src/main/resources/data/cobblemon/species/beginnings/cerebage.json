@@ -2,13 +2,14 @@
   "name": "Cerebage",
   "primaryType": "grass",
   "secondaryType": "psychic",
-  "catchRate": 81,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.1523809523809524,
+  "preEvolution": "cabbrain",
+  "baseScale": 0.5714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -78,16 +79,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cerebage.desc"
   ],
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9269,
+  "nationalPokedexNumber": 9616,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.9375,

@@ -7,7 +7,8 @@
       "id": "huskerous-01",
       "pokemon": "huskerous",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "eyesult-01",
       "pokemon": "eyesult",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

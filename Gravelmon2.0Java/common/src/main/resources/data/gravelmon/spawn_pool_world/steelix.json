@@ -7,7 +7,8 @@
       "id": "epoch_steelix-01",
       "pokemon": "steelix epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_steelix-01",
       "pokemon": "steelix epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -59,7 +61,8 @@
       "id": "forman_steelix-01",
       "pokemon": "steelix forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -84,7 +87,8 @@
       "id": "nodorran_steelix-01",
       "pokemon": "steelix nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -121,7 +125,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_overworld"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -1,13 +1,13 @@
 {
   "name": "Dustbun",
   "primaryType": "ground",
-  "catchRate": 226,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.21818181818181817,
+  "baseScale": 0.2727272727272727,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,11 +90,11 @@
   "pokedex": [
     "cobblemon.species.dustbun.desc"
   ],
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9276,
+  "nationalPokedexNumber": 9623,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.75,

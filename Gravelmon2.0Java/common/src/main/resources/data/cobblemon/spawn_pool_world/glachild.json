@@ -7,7 +7,8 @@
       "id": "glachild-01",
       "pokemon": "glachild",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:weavile-pastelian",
+  "speciesId": "cobblemon:weavile",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

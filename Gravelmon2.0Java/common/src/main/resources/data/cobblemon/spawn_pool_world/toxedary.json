@@ -7,7 +7,8 @@
       "id": "toxedary-01",
       "pokemon": "toxedary",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

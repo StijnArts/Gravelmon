@@ -7,7 +7,8 @@
       "id": "sandemonium-01",
       "pokemon": "sandemonium",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

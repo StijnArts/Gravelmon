@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:greavard",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

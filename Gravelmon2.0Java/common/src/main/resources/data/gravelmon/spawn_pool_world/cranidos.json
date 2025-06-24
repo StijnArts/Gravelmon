@@ -7,7 +7,8 @@
       "id": "epoch_cranidos-01",
       "pokemon": "cranidos epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "novran_cranidos-01",
       "pokemon": "cranidos novran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

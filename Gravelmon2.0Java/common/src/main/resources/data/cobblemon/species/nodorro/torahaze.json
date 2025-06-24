@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "mistiger",
-  "baseScale": 20.4,
+  "baseScale": 0.4340425531914893,
   "cannotDynamax": false,
   "abilities": [
     "torrent"
@@ -147,11 +147,11 @@
   "weight": 931,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8868,
+  "nationalPokedexNumber": 9155,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.875000000000001,
+    "height": 5.875000000000001,
     "fixed": false
   },
   "features": [],

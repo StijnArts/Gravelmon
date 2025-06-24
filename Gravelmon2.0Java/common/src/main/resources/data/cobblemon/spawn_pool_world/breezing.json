@@ -7,7 +7,8 @@
       "id": "breezing-01",
       "pokemon": "breezing",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

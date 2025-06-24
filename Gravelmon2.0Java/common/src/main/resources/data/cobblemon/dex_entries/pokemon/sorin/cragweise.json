@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cragweise",
+  "speciesId": "cobblemon:cragweise",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

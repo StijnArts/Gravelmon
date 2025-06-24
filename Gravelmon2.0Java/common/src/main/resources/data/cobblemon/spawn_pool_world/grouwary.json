@@ -7,7 +7,8 @@
       "id": "grouwary-01",
       "pokemon": "grouwary",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

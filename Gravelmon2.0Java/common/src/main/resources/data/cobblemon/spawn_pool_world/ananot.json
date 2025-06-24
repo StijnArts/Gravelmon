@@ -7,7 +7,8 @@
       "id": "ananot-01",
       "pokemon": "ananot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

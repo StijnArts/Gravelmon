@@ -7,7 +7,8 @@
       "id": "jumpkret-01",
       "pokemon": "jumpkret",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

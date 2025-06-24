@@ -7,7 +7,8 @@
       "id": "phylo-01",
       "pokemon": "phylo",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -395,7 +395,7 @@
         "7:pursuit",
         "10:torment",
         "35:firelash",
-        "57:stonesurge",
+        "57:fakemonstonesurge",
         "43:darkestlariat",
         "4:fakeout",
         "tm:acrobatics",
@@ -906,13 +906,13 @@
       "name": "Ottoran",
       "primaryType": "fairy",
       "secondaryType": "fighting",
-      "catchRate": 255,
+      "catchRate": 235,
       "maleRatio": 0.5,
       "baseExperienceYield": 60,
       "experienceGroup": "erratic",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.20869565217391306,
+      "baseScale": 0.2608695652173913,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -997,12 +997,27 @@
       "pokedex": [
         "cobblemon.species.ottoranimpidimp.desc"
       ],
-      "height": 0,
+      "height": 5,
       "weight": 0,
       "aspects": [
         "ottoran"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "ottoranimpidimp_morgrem_ottoran",
+          "variant": "level_up",
+          "result": "morgrem ottoran",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "32"
+            }
+          ],
+          "permanent": true
+        }
+      ],
       "shoulderMountable": false,
       "hitbox": {
         "width": 2.875,

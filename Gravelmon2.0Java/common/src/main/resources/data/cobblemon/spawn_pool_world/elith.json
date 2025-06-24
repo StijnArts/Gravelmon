@@ -7,7 +7,8 @@
       "id": "elith-01",
       "pokemon": "elith",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

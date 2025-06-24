@@ -7,7 +7,8 @@
       "id": "royalarva-01",
       "pokemon": "royalarva",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

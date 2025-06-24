@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:mothim",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

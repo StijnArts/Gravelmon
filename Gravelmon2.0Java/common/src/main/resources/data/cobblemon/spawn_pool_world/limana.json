@@ -7,7 +7,8 @@
       "id": "limana-01",
       "pokemon": "limana",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

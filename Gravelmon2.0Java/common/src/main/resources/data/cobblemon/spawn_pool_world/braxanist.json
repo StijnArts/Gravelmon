@@ -7,7 +7,8 @@
       "id": "braxanist-01",
       "pokemon": "braxanist",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

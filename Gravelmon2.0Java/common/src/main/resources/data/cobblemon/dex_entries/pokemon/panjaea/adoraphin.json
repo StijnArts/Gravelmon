@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:adoraphin",
+  "speciesId": "cobblemon:adoraphin",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

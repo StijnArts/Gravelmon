@@ -7,7 +7,8 @@
       "id": "bulkpack-01",
       "pokemon": "bulkpack",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

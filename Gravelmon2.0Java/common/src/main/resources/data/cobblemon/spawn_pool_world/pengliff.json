@@ -7,7 +7,8 @@
       "id": "pengliff-01",
       "pokemon": "pengliff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "twallgon-01",
       "pokemon": "twallgon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

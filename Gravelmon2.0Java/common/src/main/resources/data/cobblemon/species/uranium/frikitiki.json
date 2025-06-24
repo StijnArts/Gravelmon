@@ -8,7 +8,6 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 100,
   "baseFriendship": 70,
-  "preEvolution": "tikiki",
   "baseScale": 0.512,
   "cannotDynamax": false,
   "abilities": [
@@ -156,9 +155,7 @@
   ],
   "labels": [
     "uranium",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.frikitiki.desc"

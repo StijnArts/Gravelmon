@@ -7,7 +7,8 @@
       "id": "sakurovix-01",
       "pokemon": "sakurovix",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

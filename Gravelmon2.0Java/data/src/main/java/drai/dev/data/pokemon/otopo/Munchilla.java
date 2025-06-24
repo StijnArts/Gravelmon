@@ -16,7 +16,7 @@ public class Munchilla extends drai.dev.data.pokemon.Pokemon {
                         98,
                         20),
                 List.of(Ability.GLUTTONY,Ability.THICK_FAT), Ability.CHEEK_POUCH,
-                0, 0,
+                14, 0,
                 new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 146, ExperienceGroup.MEDIUM_FAST,
@@ -36,11 +36,11 @@ public class Munchilla extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUPER_FANG,18)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(20).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_TEMPERATE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.VILLAGE).build(),
                 List.of());
            setLangFileName("Munchilla");
 

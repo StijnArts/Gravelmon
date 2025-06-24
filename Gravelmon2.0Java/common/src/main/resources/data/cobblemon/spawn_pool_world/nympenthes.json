@@ -7,7 +7,8 @@
       "id": "nympenthes-01",
       "pokemon": "nympenthes",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

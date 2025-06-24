@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:gryago",
+  "speciesId": "cobblemon:gryago",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

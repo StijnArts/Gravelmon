@@ -7,7 +7,8 @@
       "id": "thornment-01",
       "pokemon": "thornment",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

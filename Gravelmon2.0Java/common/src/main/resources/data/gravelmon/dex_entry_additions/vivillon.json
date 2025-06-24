@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:vivillon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Vesitan",
+      "unlockForms": [
+        "Vesitan"
+      ]
+    }
+  ]
 }

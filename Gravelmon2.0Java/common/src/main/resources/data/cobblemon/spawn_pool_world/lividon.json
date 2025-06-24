@@ -7,6 +7,7 @@
       "id": "lividon-01",
       "pokemon": "lividon",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

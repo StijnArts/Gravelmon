@@ -7,6 +7,7 @@
       "id": "delta_clamperl-01",
       "pokemon": "clamperl delta",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -17,7 +18,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_spooky"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -32,6 +35,7 @@
       "id": "epoch_clamperl-01",
       "pokemon": "clamperl epoch",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -43,7 +47,9 @@
         "biomes": [
           "#minecraft:is_deep_ocean"
         ],
-        "maxY": 38
+        "maxY": 38,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

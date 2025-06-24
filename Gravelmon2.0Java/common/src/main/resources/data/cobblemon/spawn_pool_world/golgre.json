@@ -7,6 +7,7 @@
       "id": "golgre-01",
       "pokemon": "golgre",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

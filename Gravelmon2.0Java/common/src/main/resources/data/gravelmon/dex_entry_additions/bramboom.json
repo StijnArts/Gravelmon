@@ -1,0 +1,11 @@
+{
+  "entryId": "cobblemon:bramboom",
+  "forms": [
+    {
+      "displayForm": "Mega",
+      "unlockForms": [
+        "Mega"
+      ]
+    }
+  ]
+}

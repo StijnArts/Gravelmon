@@ -7,6 +7,7 @@
       "id": "jelectric-01",
       "pokemon": "jelectric",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

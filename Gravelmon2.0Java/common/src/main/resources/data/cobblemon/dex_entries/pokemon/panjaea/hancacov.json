@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hancacov",
+  "speciesId": "cobblemon:hancacov",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

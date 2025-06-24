@@ -7,7 +7,8 @@
       "id": "timbug-01",
       "pokemon": "timbug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

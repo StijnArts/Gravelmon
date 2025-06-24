@@ -7,7 +7,8 @@
       "id": "frilzard-01",
       "pokemon": "frilzard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

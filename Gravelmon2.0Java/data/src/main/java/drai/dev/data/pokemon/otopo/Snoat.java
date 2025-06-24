@@ -16,14 +16,19 @@ public class Snoat extends drai.dev.data.pokemon.Pokemon {
                         50,
                         75),
                 List.of(Ability.ADAPTABILITY,Ability.THICK_FAT), Ability.PIXILATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 75, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Snoat has a slender physique. It can squeeze through tight areas and flee when attacked. Snoat is assumed to be a localised variety of Furret in other areas."),
-                List.of(),
+                List.of(new EvolutionEntry("glacermine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                        new EvolutionEntry("sleasel", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
@@ -46,9 +51,9 @@ public class Snoat extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY_FOREST)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Snoat");

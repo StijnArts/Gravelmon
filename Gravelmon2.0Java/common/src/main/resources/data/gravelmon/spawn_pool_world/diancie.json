@@ -7,7 +7,8 @@
       "id": "kaskadian_diancie-01",
       "pokemon": "diancie kaskadian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

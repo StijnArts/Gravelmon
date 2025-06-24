@@ -7,7 +7,8 @@
       "id": "oculeus-01",
       "pokemon": "oculeus",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,7 +17,7 @@
       "weight": 6.0E-4,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minY": 300,
         "minSkyLight": 8,

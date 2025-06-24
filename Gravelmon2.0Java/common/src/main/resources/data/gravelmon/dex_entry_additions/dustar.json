@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:dustar",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Okenian",
+      "unlockForms": [
+        "Okenian"
+      ]
+    }
+  ]
 }

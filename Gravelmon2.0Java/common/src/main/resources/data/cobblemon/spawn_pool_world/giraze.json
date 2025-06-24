@@ -7,7 +7,8 @@
       "id": "giraze-01",
       "pokemon": "giraze",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

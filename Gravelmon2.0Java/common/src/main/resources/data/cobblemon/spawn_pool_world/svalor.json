@@ -7,7 +7,8 @@
       "id": "svalor-01",
       "pokemon": "svalor",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

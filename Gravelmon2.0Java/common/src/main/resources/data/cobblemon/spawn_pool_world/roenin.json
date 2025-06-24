@@ -7,6 +7,7 @@
       "id": "roenin-01",
       "pokemon": "roenin",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class Grebloo extends drai.dev.data.pokemon.Pokemon {
-    public Grebloo() {
+    public Grebloo(Stats stats) {
         super("Grebloo",
                 Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.CLOUD_NINE), Ability.REFRIGERATE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

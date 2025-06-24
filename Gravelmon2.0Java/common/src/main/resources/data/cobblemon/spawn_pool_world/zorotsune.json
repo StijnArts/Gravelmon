@@ -7,7 +7,8 @@
       "id": "zorotsune-01",
       "pokemon": "zorotsune",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

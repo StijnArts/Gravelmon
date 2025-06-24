@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:palafin",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

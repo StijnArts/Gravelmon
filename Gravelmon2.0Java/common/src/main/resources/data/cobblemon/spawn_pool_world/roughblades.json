@@ -7,7 +7,8 @@
       "id": "roughblades-01",
       "pokemon": "roughblades",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

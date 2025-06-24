@@ -7,7 +7,8 @@
       "id": "knitzard-01",
       "pokemon": "knitzard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

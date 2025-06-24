@@ -7,7 +7,8 @@
       "id": "rootkie-01",
       "pokemon": "rootkie",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

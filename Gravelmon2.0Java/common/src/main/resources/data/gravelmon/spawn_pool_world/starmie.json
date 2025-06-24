@@ -7,7 +7,8 @@
       "id": "epoch_starmie-01",
       "pokemon": "starmie epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -32,7 +33,8 @@
       "id": "ionosian_starmie-01",
       "pokemon": "starmie ionosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

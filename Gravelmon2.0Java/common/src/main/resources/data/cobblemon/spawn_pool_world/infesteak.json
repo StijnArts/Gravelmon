@@ -7,7 +7,8 @@
       "id": "infesteak-01",
       "pokemon": "infesteak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

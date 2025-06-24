@@ -7,7 +7,8 @@
       "id": "orbatom-01",
       "pokemon": "orbatom",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

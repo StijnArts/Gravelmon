@@ -7,7 +7,8 @@
       "id": "ramvolt-01",
       "pokemon": "ramvolt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

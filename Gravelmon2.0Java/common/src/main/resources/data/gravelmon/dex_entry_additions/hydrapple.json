@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:hydrapple",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

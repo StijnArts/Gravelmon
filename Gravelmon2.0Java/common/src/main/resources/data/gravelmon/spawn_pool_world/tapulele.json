@@ -7,7 +7,8 @@
       "id": "x_tapulele-01",
       "pokemon": "tapulele x",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

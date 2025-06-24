@@ -7,7 +7,8 @@
       "id": "lilacorn-01",
       "pokemon": "lilacorn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

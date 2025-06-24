@@ -2,13 +2,13 @@
   "name": "Gremliz",
   "primaryType": "dark",
   "secondaryType": "poison",
-  "catchRate": 173,
+  "catchRate": 170,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2594594594594595,
+  "baseScale": 0.3891891891891892,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,11 +93,26 @@
   "pokedex": [
     "cobblemon.species.gremliz.desc"
   ],
-  "height": 0,
+  "height": 6,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9274,
+  "evolutions": [
+    {
+      "id": "gremliz_thornull",
+      "variant": "level_up",
+      "result": "thornull",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "30"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9621,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.3125,

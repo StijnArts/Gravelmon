@@ -24,7 +24,7 @@ public class Carbonix extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("Carbonix can produce two types of liquid that can either rapidly freeze or scorch anything in contact with it. They are used in cooking before electricity became common."),
                 List.of(new EvolutionEntry("carbonitro", EvolutionType.LEVEL_UP, List.of(), 
- List.of())),
+ List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,Move.DRY_ICE.getName())))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.FREEZEDRY,32),

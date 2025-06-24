@@ -7,7 +7,8 @@
       "id": "forestryx-01",
       "pokemon": "forestryx",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

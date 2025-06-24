@@ -563,5 +563,35 @@
     "egho",
     "epoch",
     "avalossian"
-  ]
+  ],
+  "evolutions": [
+    {
+      "id": "happiny_pastelianchansey",
+      "variant": "level_up",
+      "result": "pastelianchansey",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:oval_stone"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_jungle"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "cobblemon:oval_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  }
 }

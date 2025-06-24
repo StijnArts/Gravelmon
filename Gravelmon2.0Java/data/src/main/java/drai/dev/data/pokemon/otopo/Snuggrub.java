@@ -16,14 +16,15 @@ public class Snuggrub extends drai.dev.data.pokemon.Pokemon {
                         30,
                         25),
                 List.of(Ability.SWARM), Ability.FLAME_BODY,
-                0, 0,
+                3, 0,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 39, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Snuggrub live at the base of mountains and volcanoes. They headbutt assaulting opponents with their pointy horn."),
-                List.of(),
+                List.of(new EvolutionEntry("furncoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"7")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -40,10 +41,10 @@ public class Snuggrub extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).cantSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERGROUND).build(),
                 List.of());
            setLangFileName("Snuggrub");
 

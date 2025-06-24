@@ -7,7 +7,8 @@
       "id": "grubait-01",
       "pokemon": "grubait",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

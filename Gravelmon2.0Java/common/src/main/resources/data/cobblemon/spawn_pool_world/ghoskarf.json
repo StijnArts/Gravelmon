@@ -7,7 +7,8 @@
       "id": "ghoskarf-01",
       "pokemon": "ghoskarf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

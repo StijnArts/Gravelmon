@@ -23,9 +23,9 @@ public class Weedsea extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Weedsea resides among the seaweed crowds to hide from the hunters. There are even seemingly algae colonies where there is nothing but Weedsea."),
-                List.of(new EvolutionEntry("kelpula", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male"),
-new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"gender=male")), List.of(), "cobblemon:water_stone")),
+                List.of(new EvolutionEntry("kelpula", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY, "gender=female")),
+                        List.of(), "cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_SEED,20),
                         new MoveLearnSetEntry(Move.SOAK,40),

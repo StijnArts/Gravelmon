@@ -7,16 +7,17 @@
       "id": "shockite-01",
       "pokemon": "shockite",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "level": "14-34",
+      "weight": 0.9,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_taiga"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

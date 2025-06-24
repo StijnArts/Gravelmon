@@ -7,7 +7,8 @@
       "id": "calburn-01",
       "pokemon": "calburn",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

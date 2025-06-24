@@ -7,7 +7,8 @@
       "id": "epoch_durant-01",
       "pokemon": "durant epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

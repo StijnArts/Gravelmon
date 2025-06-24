@@ -7,7 +7,8 @@
       "id": "bavis-01",
       "pokemon": "bavis",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

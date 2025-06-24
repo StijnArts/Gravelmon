@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:heartbill",
+  "speciesId": "cobblemon:heartbill",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

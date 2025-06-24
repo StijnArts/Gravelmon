@@ -18,7 +18,9 @@
         "biomes": [
           "#cobblemon:is_sandy"
         ],
-        "isThundering": true
+        "isThundering": true,
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:regice",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Delta",
+      "unlockForms": [
+        "Delta"
+      ]
+    }
+  ]
 }

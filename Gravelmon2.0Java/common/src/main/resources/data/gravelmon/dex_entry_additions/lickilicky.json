@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:lickilicky",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

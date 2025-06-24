@@ -7,7 +7,8 @@
       "id": "pyrall-01",
       "pokemon": "pyrall",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

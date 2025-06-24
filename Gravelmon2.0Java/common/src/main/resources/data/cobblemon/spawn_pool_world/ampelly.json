@@ -7,6 +7,7 @@
       "id": "ampelly-01",
       "pokemon": "ampelly",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

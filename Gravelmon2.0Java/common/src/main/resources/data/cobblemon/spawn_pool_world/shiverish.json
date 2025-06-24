@@ -7,6 +7,7 @@
       "id": "shiverish-01",
       "pokemon": "shiverish",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -30,7 +30,7 @@ new EvolutionEntry("gillyde", EvolutionType.ITEM_INTERACT, false, List.of(),
 new EvolutionEntry("seagic", EvolutionType.ITEM_INTERACT, false, List.of(), 
  List.of(), List.of(), "cobblemon:dawn_stone"),
 new EvolutionEntry("orcail", EvolutionType.ITEM_INTERACT, false, List.of(), 
- List.of(), List.of(), "gravelmon:cold_stone")),
+ List.of(), List.of(), "cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_PULSE,16),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,41),

@@ -7,7 +7,8 @@
       "id": "ayreian_gumshoos-01",
       "pokemon": "gumshoos ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "fabelian_gumshoos-01",
       "pokemon": "gumshoos fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

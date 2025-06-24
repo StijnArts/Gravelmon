@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "rostone",
-  "baseScale": 15.600000000000001,
+  "baseScale": 0.49523809523809526,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -120,11 +120,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8896,
+  "nationalPokedexNumber": 9188,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.9375,
+    "height": 3.9375,
     "fixed": false
   },
   "features": [],

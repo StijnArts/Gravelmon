@@ -66,7 +66,8 @@
       "id": "norheiman_shellder-01",
       "pokemon": "shellder norheiman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -93,7 +94,8 @@
       "id": "epoch_shellder-01",
       "pokemon": "shellder epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -145,6 +147,7 @@
       "id": "forman_shellder-01",
       "pokemon": "shellder forman",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",
@@ -155,7 +158,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_warm_ocean"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

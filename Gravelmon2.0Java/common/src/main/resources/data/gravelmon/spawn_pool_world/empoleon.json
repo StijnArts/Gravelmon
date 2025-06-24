@@ -7,7 +7,8 @@
       "id": "interian_empoleon-01",
       "pokemon": "empoleon interian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_empoleon-01",
       "pokemon": "empoleon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

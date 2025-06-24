@@ -7,7 +7,8 @@
       "id": "camoflora-01",
       "pokemon": "camoflora",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

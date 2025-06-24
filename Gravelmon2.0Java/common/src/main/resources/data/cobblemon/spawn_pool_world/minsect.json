@@ -7,7 +7,8 @@
       "id": "minsect-01",
       "pokemon": "minsect",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "sasaggot-01",
       "pokemon": "sasaggot",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

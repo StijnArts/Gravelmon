@@ -34,7 +34,8 @@
       "id": "epoch_crawdaunt-01",
       "pokemon": "crawdaunt epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

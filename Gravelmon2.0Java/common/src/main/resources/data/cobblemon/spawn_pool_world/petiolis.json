@@ -7,7 +7,8 @@
       "id": "petiolis-01",
       "pokemon": "petiolis",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

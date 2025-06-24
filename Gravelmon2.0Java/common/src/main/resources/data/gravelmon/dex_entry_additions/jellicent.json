@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:jellicent",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

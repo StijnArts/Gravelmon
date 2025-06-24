@@ -7,16 +7,17 @@
       "id": "moosong-01",
       "pokemon": "moosong",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
       "level": "3-23",
-      "weight": 9.0,
+      "weight": 5.0,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_tundra"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

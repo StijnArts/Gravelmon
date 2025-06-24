@@ -7,7 +7,8 @@
       "id": "stargazaur-01",
       "pokemon": "stargazaur",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

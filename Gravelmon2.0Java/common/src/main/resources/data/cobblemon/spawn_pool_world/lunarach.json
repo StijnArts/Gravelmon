@@ -7,7 +7,8 @@
       "id": "lunarach-01",
       "pokemon": "lunarach",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

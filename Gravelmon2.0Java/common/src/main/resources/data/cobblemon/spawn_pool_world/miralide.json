@@ -7,7 +7,8 @@
       "id": "miralide-01",
       "pokemon": "miralide",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

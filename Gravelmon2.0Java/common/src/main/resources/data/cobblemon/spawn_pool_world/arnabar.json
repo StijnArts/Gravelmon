@@ -7,7 +7,8 @@
       "id": "arnabar-01",
       "pokemon": "arnabar",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,7 @@ public class Orilepi extends drai.dev.data.pokemon.Pokemon {
                         55),
                 List.of(Ability.SWARM,Ability.COMPOUND_EYES), Ability.TINTED_LENS,
                 15, 130,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 138, ExperienceGroup.ERRATIC,
                 70,
@@ -27,12 +27,13 @@ public class Orilepi extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.PASTEL_ISLAND),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(13).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_BIRCH).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Orilepi");
 
     }

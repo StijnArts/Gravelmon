@@ -23,7 +23,8 @@ public class Hunbear extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It's always hungry, therefore it'll strive to collect as much honey as it can. It is frequently seen napping in a Furrbee husk with its sticky paws."),
-                List.of(),
+                List.of(new EvolutionEntry("grizlusk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
@@ -100,9 +101,9 @@ public class Hunbear extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hunbear");

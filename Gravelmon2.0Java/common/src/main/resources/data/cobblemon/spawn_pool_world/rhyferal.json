@@ -7,7 +7,8 @@
       "id": "rhyferal-01",
       "pokemon": "rhyferal",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

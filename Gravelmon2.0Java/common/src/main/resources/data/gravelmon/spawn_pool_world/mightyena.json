@@ -7,7 +7,8 @@
       "id": "mystic_mightyena-01",
       "pokemon": "mightyena mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_mightyena-01",
       "pokemon": "mightyena epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -65,7 +69,8 @@
       "id": "mahalian_mightyena-01",
       "pokemon": "mightyena mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -92,7 +97,8 @@
       "id": "olysosian_mightyena-01",
       "pokemon": "mightyena olysosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_monferno-01",
       "pokemon": "monferno epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "nodorran_monferno-01",
       "pokemon": "monferno nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

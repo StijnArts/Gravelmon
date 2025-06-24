@@ -7,7 +7,8 @@
       "id": "roswain-01",
       "pokemon": "roswain",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "fungrove-01",
       "pokemon": "fungrove",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

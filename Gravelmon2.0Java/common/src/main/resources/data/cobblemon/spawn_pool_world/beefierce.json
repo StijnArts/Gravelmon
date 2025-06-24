@@ -7,7 +7,8 @@
       "id": "beefierce-01",
       "pokemon": "beefierce",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "dazee-01",
       "pokemon": "dazee",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

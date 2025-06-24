@@ -7,7 +7,8 @@
       "id": "pumpcula-01",
       "pokemon": "pumpcula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

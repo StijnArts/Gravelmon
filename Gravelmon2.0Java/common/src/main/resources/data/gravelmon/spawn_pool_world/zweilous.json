@@ -7,7 +7,8 @@
       "id": "delta_zweilous-01",
       "pokemon": "zweilous delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_zweilous-01",
       "pokemon": "zweilous epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

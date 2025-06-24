@@ -7,7 +7,8 @@
       "id": "roogilist-01",
       "pokemon": "roogilist",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

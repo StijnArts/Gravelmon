@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:glaceor",
+  "speciesId": "cobblemon:glaceor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

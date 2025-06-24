@@ -7,7 +7,8 @@
       "id": "tweetrille-01",
       "pokemon": "tweetrille",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

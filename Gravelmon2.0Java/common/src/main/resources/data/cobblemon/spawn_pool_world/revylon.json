@@ -7,7 +7,8 @@
       "id": "revylon-01",
       "pokemon": "revylon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

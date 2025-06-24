@@ -7,7 +7,8 @@
       "id": "charlami-01",
       "pokemon": "charlami",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

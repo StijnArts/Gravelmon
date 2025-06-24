@@ -17,22 +17,24 @@ public class Venotrap extends drai.dev.data.pokemon.Pokemon {
                         35),
                 List.of(Ability.TANGLING_HAIR), Ability.ARENA_TRAP,
                 5, 104,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Snaptrap hang from trees to disguise themselves as hanging plants. When it's prey passes by, it quickly snaps them up and tangles them in it's vines."),
-                List.of(),
+                List.of(new EvolutionEntry("faupent", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(),
                 List.of(Label.THEOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(12).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_JUNGLE).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.TREE_TOP).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Snaptrap");
 
     }

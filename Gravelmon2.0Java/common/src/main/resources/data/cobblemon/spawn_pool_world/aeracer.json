@@ -7,7 +7,8 @@
       "id": "aeracer-01",
       "pokemon": "aeracer",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "kobarak-01",
       "pokemon": "kobarak",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

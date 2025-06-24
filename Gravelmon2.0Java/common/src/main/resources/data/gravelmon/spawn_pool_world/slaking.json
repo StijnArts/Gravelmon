@@ -7,7 +7,8 @@
       "id": "epoch_slaking-01",
       "pokemon": "slaking epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

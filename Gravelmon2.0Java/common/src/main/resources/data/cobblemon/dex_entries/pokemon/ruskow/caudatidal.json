@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caudatidal",
+  "speciesId": "cobblemon:caudatidal",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -8,7 +8,8 @@
       "pokemon": "nibblet",
       "presets": [
         "natural",
-        "village"
+        "village",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

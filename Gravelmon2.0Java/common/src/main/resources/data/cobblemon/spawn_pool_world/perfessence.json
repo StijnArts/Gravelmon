@@ -7,7 +7,8 @@
       "id": "perfessence-01",
       "pokemon": "perfessence",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

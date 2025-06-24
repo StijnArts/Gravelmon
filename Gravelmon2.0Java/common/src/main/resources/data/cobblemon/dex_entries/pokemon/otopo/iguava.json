@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:iguava",
+  "speciesId": "cobblemon:iguava",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

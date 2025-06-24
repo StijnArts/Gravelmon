@@ -7,6 +7,7 @@
       "id": "narspike-01",
       "pokemon": "narspike",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

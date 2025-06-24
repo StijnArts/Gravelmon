@@ -7,7 +7,8 @@
       "id": "drogaster-01",
       "pokemon": "drogaster",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

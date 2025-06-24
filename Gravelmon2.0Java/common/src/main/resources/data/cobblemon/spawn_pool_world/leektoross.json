@@ -7,7 +7,8 @@
       "id": "leektoross-01",
       "pokemon": "leektoross",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

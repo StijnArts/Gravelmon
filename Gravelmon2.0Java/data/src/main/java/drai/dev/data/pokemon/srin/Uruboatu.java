@@ -11,8 +11,8 @@ public class Uruboatu extends drai.dev.data.pokemon.Pokemon {
                 Type.COSMIC,Type.WATER,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.0,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -23,11 +23,12 @@ public class Uruboatu extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.SORIN),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(44).setPool(SpawnPool.ULTRA_RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BAMBOO).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
         setLangFileName("Uruboatu");
 
     }

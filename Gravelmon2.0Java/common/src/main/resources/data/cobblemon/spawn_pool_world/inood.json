@@ -7,7 +7,8 @@
       "id": "inood-01",
       "pokemon": "inood",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

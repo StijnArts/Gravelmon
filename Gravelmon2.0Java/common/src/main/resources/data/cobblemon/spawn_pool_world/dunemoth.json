@@ -7,7 +7,8 @@
       "id": "dunemoth-01",
       "pokemon": "dunemoth",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

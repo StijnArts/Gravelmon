@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:raspberrel",
+  "speciesId": "cobblemon:raspberrel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

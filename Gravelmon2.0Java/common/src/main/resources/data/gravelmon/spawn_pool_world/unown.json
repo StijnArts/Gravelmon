@@ -67,7 +67,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -82,7 +84,8 @@
       "id": "epoch_unown-01",
       "pokemon": "unown epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -107,7 +110,8 @@
       "id": "forman_unown-01",
       "pokemon": "unown forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

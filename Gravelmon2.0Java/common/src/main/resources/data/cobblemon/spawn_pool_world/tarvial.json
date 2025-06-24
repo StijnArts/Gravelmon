@@ -7,7 +7,8 @@
       "id": "tarvial-01",
       "pokemon": "tarvial",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

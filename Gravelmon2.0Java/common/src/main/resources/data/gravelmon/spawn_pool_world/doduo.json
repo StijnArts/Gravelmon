@@ -7,7 +7,8 @@
       "id": "seviian_doduo-01",
       "pokemon": "doduo seviian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -41,7 +42,8 @@
       "id": "delta_doduo-01",
       "pokemon": "doduo delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -66,7 +68,8 @@
       "id": "epoch_doduo-01",
       "pokemon": "doduo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -118,7 +121,8 @@
       "id": "forman_doduo-01",
       "pokemon": "doduo forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -128,7 +132,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_glacial"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -143,7 +149,8 @@
       "id": "ayreian_doduo-01",
       "pokemon": "doduo ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

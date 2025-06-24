@@ -7,7 +7,8 @@
       "id": "turbotachi-01",
       "pokemon": "turbotachi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

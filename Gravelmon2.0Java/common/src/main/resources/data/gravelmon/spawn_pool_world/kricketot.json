@@ -7,7 +7,8 @@
       "id": "africanusan_kricketot-01",
       "pokemon": "kricketot africanusan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "epoch_kricketot-01",
       "pokemon": "kricketot epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

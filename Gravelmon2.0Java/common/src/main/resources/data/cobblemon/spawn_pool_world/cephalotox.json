@@ -7,6 +7,7 @@
       "id": "cephalotox-01",
       "pokemon": "cephalotox",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

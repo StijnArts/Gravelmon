@@ -7,7 +7,8 @@
       "id": "himegami-01",
       "pokemon": "himegami",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

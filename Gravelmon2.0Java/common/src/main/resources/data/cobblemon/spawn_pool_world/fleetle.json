@@ -7,7 +7,8 @@
       "id": "fleetle-01",
       "pokemon": "fleetle",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

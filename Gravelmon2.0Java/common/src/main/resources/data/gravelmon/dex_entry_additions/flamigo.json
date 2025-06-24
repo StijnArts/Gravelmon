@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:flamigo",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

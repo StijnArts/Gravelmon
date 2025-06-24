@@ -7,7 +7,8 @@
       "id": "flaritch-01",
       "pokemon": "flaritch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "twirpant-01",
       "pokemon": "twirpant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "epoch_pawmi-01",
       "pokemon": "pawmi epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,6 +7,7 @@
       "id": "feegremin-01",
       "pokemon": "feegremin",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

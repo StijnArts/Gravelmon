@@ -7,7 +7,8 @@
       "id": "kryoalis-01",
       "pokemon": "kryoalis",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

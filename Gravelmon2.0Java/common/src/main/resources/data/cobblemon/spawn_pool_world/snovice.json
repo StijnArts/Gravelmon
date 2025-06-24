@@ -7,7 +7,8 @@
       "id": "snovice-01",
       "pokemon": "snovice",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

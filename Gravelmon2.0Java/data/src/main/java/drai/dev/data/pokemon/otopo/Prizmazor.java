@@ -24,14 +24,13 @@ public class Prizmazor extends drai.dev.data.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("Prizmazor's carapace has bleached due to the immense power that it contains. One blast from a Prizmazor's Hyper Beam is enough to tear through a mountain."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.HYPER_BEAM,1)                        ),
+                List.of(                      ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(40).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK, Biome.IS_SKY).duringDaytime().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Prizmazor");

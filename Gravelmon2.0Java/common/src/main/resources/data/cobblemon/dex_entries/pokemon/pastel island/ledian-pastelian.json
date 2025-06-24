@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ledian-pastelian",
+  "speciesId": "cobblemon:ledian",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

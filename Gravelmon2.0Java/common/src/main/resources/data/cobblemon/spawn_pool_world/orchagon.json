@@ -7,7 +7,8 @@
       "id": "orchagon-01",
       "pokemon": "orchagon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

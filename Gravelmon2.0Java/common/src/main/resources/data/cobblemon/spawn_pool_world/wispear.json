@@ -7,7 +7,8 @@
       "id": "wispear-01",
       "pokemon": "wispear",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

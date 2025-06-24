@@ -7,7 +7,8 @@
       "id": "wingeon-01",
       "pokemon": "wingeon",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

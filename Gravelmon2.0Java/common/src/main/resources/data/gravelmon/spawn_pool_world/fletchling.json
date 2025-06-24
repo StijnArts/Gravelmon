@@ -7,7 +7,8 @@
       "id": "epoch_fletchling-01",
       "pokemon": "fletchling epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

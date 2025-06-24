@@ -23,7 +23,8 @@ public class Vivizard extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("Long thought to be a myth, this Pokémon's existence was only recently confirmed by a mountaineer who caught one."),
-                List.of(),
+                List.of(new EvolutionEntry("Prizmazor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,1),
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -42,9 +43,9 @@ public class Vivizard extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(13).setPool(SpawnPool.RARE).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK, Biome.IS_SKY).duringDaytime().canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Vivizard");

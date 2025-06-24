@@ -2,13 +2,14 @@
   "name": "Woofoam",
   "primaryType": "water",
   "secondaryType": "normal",
-  "catchRate": 91,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.14328358208955225,
+  "preEvolution": "floodle",
+  "baseScale": 0.5373134328358209,
   "cannotDynamax": false,
   "abilities": [
     "healer",
@@ -90,16 +91,18 @@
   ],
   "labels": [
     "ottora",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.woofoam.desc"
   ],
-  "height": 0,
+  "height": 15,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 9253,
+  "nationalPokedexNumber": 9600,
   "shoulderMountable": false,
   "hitbox": {
     "width": 4.1875,

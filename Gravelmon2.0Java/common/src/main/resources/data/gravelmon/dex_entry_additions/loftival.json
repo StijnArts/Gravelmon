@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:loftival",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Lost_islands",
+      "unlockForms": [
+        "Lost_islands"
+      ]
+    }
+  ]
 }

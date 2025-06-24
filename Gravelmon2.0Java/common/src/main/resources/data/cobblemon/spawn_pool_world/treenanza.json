@@ -7,7 +7,8 @@
       "id": "treenanza-01",
       "pokemon": "treenanza",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

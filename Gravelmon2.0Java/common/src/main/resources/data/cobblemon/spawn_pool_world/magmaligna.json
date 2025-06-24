@@ -7,7 +7,8 @@
       "id": "magmaligna-01",
       "pokemon": "magmaligna",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

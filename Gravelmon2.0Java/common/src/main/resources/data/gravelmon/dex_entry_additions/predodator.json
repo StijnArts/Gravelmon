@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:predodator",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Tribal",
+      "unlockForms": [
+        "Tribal"
+      ]
+    }
+  ]
 }

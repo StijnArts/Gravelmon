@@ -7,7 +7,8 @@
       "id": "girafaraf-01",
       "pokemon": "girafaraf",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

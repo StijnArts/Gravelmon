@@ -7,7 +7,8 @@
       "id": "haagross-01",
       "pokemon": "haagross",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

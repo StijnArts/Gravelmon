@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caratarge",
+  "speciesId": "cobblemon:caratarge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

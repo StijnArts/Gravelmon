@@ -7,7 +7,8 @@
       "id": "auburnt-01",
       "pokemon": "auburnt",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

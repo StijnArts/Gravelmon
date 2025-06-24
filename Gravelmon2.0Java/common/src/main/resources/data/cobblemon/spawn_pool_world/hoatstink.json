@@ -7,7 +7,8 @@
       "id": "hoatstink-01",
       "pokemon": "hoatstink",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

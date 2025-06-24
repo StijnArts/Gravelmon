@@ -7,7 +7,8 @@
       "id": "foxairy-01",
       "pokemon": "foxairy",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

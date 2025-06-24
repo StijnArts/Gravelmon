@@ -7,7 +7,8 @@
       "id": "kyuukit-01",
       "pokemon": "kyuukit",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -23,7 +23,8 @@ public class Orialisk extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("The first sighting of an Orialisk was in a distant Pokémon Tower. A departing spirit inhabits the memorial, causing it to have a mind of its own."),
-                List.of(),
+                List.of(new EvolutionEntry("tripulcre", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
@@ -53,10 +54,10 @@ public class Orialisk extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(23).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_OVERWORLD).atNight()
+                        .setSpawnPreset(SpawnPreset.RUINED_PORTAL).build(),
                 List.of());
            setLangFileName("Orialisk");
 

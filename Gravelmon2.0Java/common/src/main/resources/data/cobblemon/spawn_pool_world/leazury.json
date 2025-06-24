@@ -7,7 +7,8 @@
       "id": "leazury-01",
       "pokemon": "leazury",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "denruu-01",
       "pokemon": "denruu",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

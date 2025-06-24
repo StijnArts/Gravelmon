@@ -7,7 +7,8 @@
       "id": "delta_hydreigon-01",
       "pokemon": "hydreigon delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_hydreigon-01",
       "pokemon": "hydreigon epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

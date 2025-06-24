@@ -7,7 +7,8 @@
       "id": "marmera-01",
       "pokemon": "marmera",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

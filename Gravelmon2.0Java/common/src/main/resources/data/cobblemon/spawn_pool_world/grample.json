@@ -7,7 +7,8 @@
       "id": "grample-01",
       "pokemon": "grample",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

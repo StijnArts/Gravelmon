@@ -7,7 +7,8 @@
       "id": "chinchul-01",
       "pokemon": "chinchul",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

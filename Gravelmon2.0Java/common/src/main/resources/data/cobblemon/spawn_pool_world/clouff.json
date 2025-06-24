@@ -7,7 +7,8 @@
       "id": "clouff-01",
       "pokemon": "clouff",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

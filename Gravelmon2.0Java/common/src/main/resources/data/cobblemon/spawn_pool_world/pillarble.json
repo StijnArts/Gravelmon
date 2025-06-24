@@ -7,7 +7,8 @@
       "id": "pillarble-01",
       "pokemon": "pillarble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

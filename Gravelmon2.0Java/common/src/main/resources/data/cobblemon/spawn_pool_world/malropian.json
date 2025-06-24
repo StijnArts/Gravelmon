@@ -7,7 +7,8 @@
       "id": "malropian-01",
       "pokemon": "malropian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

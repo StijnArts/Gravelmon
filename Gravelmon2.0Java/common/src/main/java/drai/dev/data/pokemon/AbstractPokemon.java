@@ -88,7 +88,11 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
         this.spawnData.addAll(pokemonSpawnData);
 
         checkCanWalkOnSurface(spawnData);
+
         this.dexEntries.addAll(dexEntries);
+        this.dexEntries.removeIf(entry->entry.startsWith("- "));
+        if(this.dexEntries.isEmpty()) this.dexEntries.add("");
+
         this.labels.addAll(labels);
         this.labels.add(Label.NOT_MODELED);
         this.evolutions.addAll(evolutions);

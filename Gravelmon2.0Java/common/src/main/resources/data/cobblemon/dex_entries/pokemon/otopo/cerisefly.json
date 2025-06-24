@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cerisefly",
+  "speciesId": "cobblemon:cerisefly",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

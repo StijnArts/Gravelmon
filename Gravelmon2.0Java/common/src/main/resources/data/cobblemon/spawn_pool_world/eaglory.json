@@ -7,7 +7,8 @@
       "id": "eaglory-01",
       "pokemon": "eaglory",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

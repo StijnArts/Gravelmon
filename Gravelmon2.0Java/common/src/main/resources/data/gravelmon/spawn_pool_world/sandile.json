@@ -8,7 +8,8 @@
       "pokemon": "sandile epoch",
       "presets": [
         "village",
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "ayreian_sandile-01",
       "pokemon": "sandile ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

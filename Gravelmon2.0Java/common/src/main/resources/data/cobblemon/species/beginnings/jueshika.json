@@ -1,13 +1,13 @@
 {
   "name": "Jueshika",
   "primaryType": "electric",
-  "catchRate": 176,
+  "catchRate": 160,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.23414634146341462,
+  "baseScale": 0.2926829268292683,
   "cannotDynamax": false,
   "abilities": [
     "sapsipper",
@@ -88,11 +88,22 @@
   "pokedex": [
     "cobblemon.species.jueshika.desc"
   ],
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9262,
+  "evolutions": [
+    {
+      "id": "jueshika_juekizumi",
+      "variant": "item_interact",
+      "result": "juekizumi",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:honeycomb",
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9609,
   "shoulderMountable": false,
   "hitbox": {
     "width": 2.5625,

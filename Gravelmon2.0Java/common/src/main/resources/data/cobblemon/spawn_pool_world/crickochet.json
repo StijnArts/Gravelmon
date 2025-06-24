@@ -7,7 +7,8 @@
       "id": "crickochet-01",
       "pokemon": "crickochet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

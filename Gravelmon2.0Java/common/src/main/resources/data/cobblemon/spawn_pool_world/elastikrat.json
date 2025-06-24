@@ -7,7 +7,8 @@
       "id": "elastikrat-01",
       "pokemon": "elastikrat",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

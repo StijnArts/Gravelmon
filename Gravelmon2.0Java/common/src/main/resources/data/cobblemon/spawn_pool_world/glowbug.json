@@ -7,7 +7,8 @@
       "id": "glowbug-01",
       "pokemon": "glowbug",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

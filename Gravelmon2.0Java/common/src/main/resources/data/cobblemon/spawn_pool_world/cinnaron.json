@@ -7,7 +7,8 @@
       "id": "cinnaron-01",
       "pokemon": "cinnaron",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

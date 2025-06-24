@@ -7,7 +7,8 @@
       "id": "epoch_pumpkaboo-01",
       "pokemon": "pumpkaboo epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -34,7 +35,8 @@
       "id": "ayreian_pumpkaboo-01",
       "pokemon": "pumpkaboo ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

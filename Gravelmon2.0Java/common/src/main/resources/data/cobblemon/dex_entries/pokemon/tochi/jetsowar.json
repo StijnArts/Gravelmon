@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:jetsowar",
+  "speciesId": "cobblemon:jetsowar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

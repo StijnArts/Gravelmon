@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:flabebe-pastelian",
+  "speciesId": "cobblemon:flabebe",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Pastelian",
+      "unlockForms": [
+        "Pastelian"
+      ]
+    }
+  ],
+  "variations": []
+}

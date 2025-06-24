@@ -7,7 +7,8 @@
       "id": "lambi-01",
       "pokemon": "lambi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

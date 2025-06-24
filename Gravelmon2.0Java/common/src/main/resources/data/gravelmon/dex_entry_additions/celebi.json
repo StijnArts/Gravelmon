@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:celebi",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Cefiran",
+      "unlockForms": [
+        "Cefiran"
+      ]
+    }
+  ]
 }

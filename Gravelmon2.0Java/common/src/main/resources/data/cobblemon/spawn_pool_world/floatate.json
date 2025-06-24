@@ -7,6 +7,7 @@
       "id": "floatate-01",
       "pokemon": "floatate",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

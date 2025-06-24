@@ -7,7 +7,8 @@
       "id": "trypagnet-01",
       "pokemon": "trypagnet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

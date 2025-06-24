@@ -7,7 +7,8 @@
       "id": "snowoof-01",
       "pokemon": "snowoof",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "wyverserk-01",
       "pokemon": "wyverserk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

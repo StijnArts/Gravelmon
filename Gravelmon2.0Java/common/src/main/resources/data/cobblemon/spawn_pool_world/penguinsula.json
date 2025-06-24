@@ -7,7 +7,8 @@
       "id": "penguinsula-01",
       "pokemon": "penguinsula",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

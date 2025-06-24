@@ -7,7 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 6.0,
+  "baseScale": 0.23529411764705882,
   "cannotDynamax": false,
   "abilities": [
     "torrent",
@@ -143,11 +143,11 @@
       "permanent": true
     }
   ],
-  "nationalPokedexNumber": 8866,
+  "nationalPokedexNumber": 9153,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.1875,
+    "height": 3.1875,
     "fixed": false
   },
   "features": [],

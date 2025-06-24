@@ -7,7 +7,8 @@
       "id": "poyai-01",
       "pokemon": "poyai",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

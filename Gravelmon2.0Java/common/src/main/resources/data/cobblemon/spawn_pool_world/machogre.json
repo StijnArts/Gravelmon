@@ -7,7 +7,8 @@
       "id": "machogre-01",
       "pokemon": "machogre",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

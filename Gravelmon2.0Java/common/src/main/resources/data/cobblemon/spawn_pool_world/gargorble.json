@@ -7,7 +7,8 @@
       "id": "gargorble-01",
       "pokemon": "gargorble",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,8 @@
       "id": "togesik-01",
       "pokemon": "togesik",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

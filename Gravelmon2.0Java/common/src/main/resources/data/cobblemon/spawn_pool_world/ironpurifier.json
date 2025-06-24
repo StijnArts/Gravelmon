@@ -7,7 +7,8 @@
       "id": "ironpurifier-01",
       "pokemon": "ironpurifier",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

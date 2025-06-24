@@ -7,7 +7,8 @@
       "id": "ironjet-01",
       "pokemon": "ironjet",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

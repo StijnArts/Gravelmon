@@ -6,15 +6,10 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 public class TokassianMagmar extends drai.dev.data.pokemon.Pokemon {
-    public TokassianMagmar(String name, Aspect aspect) {
+    public TokassianMagmar(Stats stats, String name, Aspect aspect) {
         super(name, aspect, "Magmar",
                 Type.FIRE, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,

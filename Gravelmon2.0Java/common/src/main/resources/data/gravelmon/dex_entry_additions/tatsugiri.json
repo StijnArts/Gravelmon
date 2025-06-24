@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tatsugiri",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

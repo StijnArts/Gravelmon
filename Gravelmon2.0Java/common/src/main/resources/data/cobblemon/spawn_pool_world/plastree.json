@@ -7,7 +7,8 @@
       "id": "plastree-01",
       "pokemon": "plastree",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

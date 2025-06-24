@@ -16,7 +16,7 @@ public class Piroyata extends drai.dev.data.pokemon.Pokemon {
                         75,
                         100),
                 List.of(Ability.INNER_FOCUS,Ability.FOREWARN), Ability.INTIMIDATE,
-                0, 0,
+                23, 0,
                 new Stats(1,1,0,0,0,1), 45,
                 0.5,
                 239, ExperienceGroup.MEDIUM_FAST,
@@ -48,10 +48,10 @@ public class Piroyata extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BARRAGE,1)                        ),
                 List.of(Label.OTOPO),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .setMinLevel(56).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BIRCH).atNight()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Piroyata");

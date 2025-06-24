@@ -7,7 +7,8 @@
       "id": "plumplete-01",
       "pokemon": "plumplete",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

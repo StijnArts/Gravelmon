@@ -7,7 +7,8 @@
       "id": "witherwind-01",
       "pokemon": "witherwind",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

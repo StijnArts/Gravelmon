@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psylet",
+  "speciesId": "cobblemon:psylet",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

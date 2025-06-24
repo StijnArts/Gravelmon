@@ -7,7 +7,8 @@
       "id": "porcupin-01",
       "pokemon": "porcupin",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

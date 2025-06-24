@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "moistone",
-  "baseScale": 21.6,
+  "baseScale": 0.47472527472527476,
   "cannotDynamax": false,
   "abilities": [
     "stormdrain",
@@ -105,11 +105,11 @@
   "weight": 1900,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 8897,
+  "nationalPokedexNumber": 9189,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.6875,
+    "height": 5.6875,
     "fixed": false
   },
   "features": [],

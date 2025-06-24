@@ -7,7 +7,8 @@
       "id": "angemini-01",
       "pokemon": "angemini",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

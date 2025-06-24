@@ -7,7 +7,8 @@
       "id": "mazzamoga-01",
       "pokemon": "mazzamoga",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

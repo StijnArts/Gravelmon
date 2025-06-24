@@ -562,7 +562,8 @@
       },
       "labels": [
         "gen3",
-        "insurgence"
+        "insurgence",
+        "not_modeled"
       ],
       "height": 24,
       "aspects": [
@@ -589,7 +590,8 @@
       },
       "labels": [
         "gen3",
-        "vanguard"
+        "vanguard",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

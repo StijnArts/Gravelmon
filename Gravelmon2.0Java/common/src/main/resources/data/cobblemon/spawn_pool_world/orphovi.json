@@ -7,7 +7,8 @@
       "id": "orphovi-01",
       "pokemon": "orphovi",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

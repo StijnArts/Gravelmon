@@ -7,7 +7,8 @@
       "id": "colosseel-01",
       "pokemon": "colosseel",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

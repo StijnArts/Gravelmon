@@ -7,7 +7,8 @@
       "id": "porygony-01",
       "pokemon": "porygony",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

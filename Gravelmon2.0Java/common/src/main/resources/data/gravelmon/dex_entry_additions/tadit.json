@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:tadit",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Mastenian",
+      "unlockForms": [
+        "Mastenian"
+      ]
+    }
+  ]
 }

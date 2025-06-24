@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pikpossum",
+  "speciesId": "cobblemon:pikpossum",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

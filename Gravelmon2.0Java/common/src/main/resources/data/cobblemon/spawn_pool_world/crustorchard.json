@@ -7,7 +7,8 @@
       "id": "crustorchard-01",
       "pokemon": "crustorchard",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

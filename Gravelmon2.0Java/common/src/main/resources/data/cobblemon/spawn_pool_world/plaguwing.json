@@ -7,7 +7,8 @@
       "id": "plaguwing-01",
       "pokemon": "plaguwing",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

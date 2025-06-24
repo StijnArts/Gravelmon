@@ -7,7 +7,8 @@
       "id": "quailert-01",
       "pokemon": "quailert",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

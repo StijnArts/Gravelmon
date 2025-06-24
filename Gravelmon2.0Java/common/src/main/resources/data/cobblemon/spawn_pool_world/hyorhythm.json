@@ -7,7 +7,8 @@
       "id": "hyorhythm-01",
       "pokemon": "hyorhythm",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

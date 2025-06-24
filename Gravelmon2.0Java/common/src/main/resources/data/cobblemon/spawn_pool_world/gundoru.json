@@ -7,7 +7,8 @@
       "id": "gundoru-01",
       "pokemon": "gundoru",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

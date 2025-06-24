@@ -7,7 +7,8 @@
       "id": "smoochonk-01",
       "pokemon": "smoochonk",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

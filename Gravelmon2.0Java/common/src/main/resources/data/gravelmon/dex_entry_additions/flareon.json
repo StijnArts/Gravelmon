@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:flareon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

@@ -7,7 +7,8 @@
       "id": "bloomare-01",
       "pokemon": "bloomare",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

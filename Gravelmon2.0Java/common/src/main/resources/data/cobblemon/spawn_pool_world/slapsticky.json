@@ -7,7 +7,8 @@
       "id": "slapsticky-01",
       "pokemon": "slapsticky",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

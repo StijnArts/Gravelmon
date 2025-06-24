@@ -289,17 +289,47 @@
       },
       "labels": [
         "gen4",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [
         "epoch_mega"
+      ]
+    },
+    {
+      "name": "mega",
+      "primaryType": "fire",
+      "secondaryType": "fighting",
+      "baseScale": 0.3801980198019802,
+      "cannotDynamax": false,
+      "battleOnly": true,
+      "abilities": [
+        "levitate"
+      ],
+      "baseStats": {
+        "hp": 76,
+        "attack": 134,
+        "defence": 76,
+        "special_attack": 134,
+        "special_defence": 76,
+        "speed": 138
+      },
+      "labels": [
+        "gen4",
+        "fliga",
+        "not_modeled"
+      ],
+      "height": 16,
+      "aspects": [
+        "mega"
       ]
     }
   ],
   "features": [
     "epoch",
     "nodorran",
-    "epoch_mega"
+    "epoch_mega",
+    "mega"
   ]
 }

@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:kingambit",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

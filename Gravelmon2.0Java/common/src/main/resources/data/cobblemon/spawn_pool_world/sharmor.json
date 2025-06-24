@@ -7,6 +7,7 @@
       "id": "sharmor-01",
       "pokemon": "sharmor",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

@@ -7,7 +7,8 @@
       "id": "egho_swablu-01",
       "pokemon": "swablu egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "cefiran_swablu-01",
       "pokemon": "swablu cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -64,7 +66,8 @@
       "id": "varitasian_swablu-01",
       "pokemon": "swablu varitasian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -91,7 +94,8 @@
       "id": "epoch_swablu-01",
       "pokemon": "swablu epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -145,7 +149,8 @@
       "id": "ayreian_swablu-01",
       "pokemon": "swablu ayreian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -175,7 +180,8 @@
       "id": "fabelian_swablu-01",
       "pokemon": "swablu fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

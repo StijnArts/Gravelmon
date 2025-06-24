@@ -7,7 +7,8 @@
       "id": "gardraog-01",
       "pokemon": "gardraog",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

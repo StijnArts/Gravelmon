@@ -7,7 +7,8 @@
       "id": "cunooty-01",
       "pokemon": "cunooty",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

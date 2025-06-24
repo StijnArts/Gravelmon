@@ -16,7 +16,7 @@ public class Harpiveran extends drai.dev.data.pokemon.Pokemon {
                         100,
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                28, 0,
                 new Stats(3,0,0,0,0,0), 3,
                 0.5,
                 279, ExperienceGroup.SLOW,
@@ -28,11 +28,12 @@ public class Harpiveran extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.OTOPO),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .subLegend()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Harpiveran");
 
     }

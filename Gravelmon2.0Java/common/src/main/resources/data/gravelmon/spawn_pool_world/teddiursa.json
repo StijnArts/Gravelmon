@@ -7,7 +7,8 @@
       "id": "seviian_teddiursa-01",
       "pokemon": "teddiursa seviian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -18,7 +19,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -38,7 +41,8 @@
       "id": "cefiran_teddiursa-01",
       "pokemon": "teddiursa cefiran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -65,7 +69,8 @@
       "id": "epoch_teddiursa-01",
       "pokemon": "teddiursa epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -76,7 +81,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -91,7 +98,8 @@
       "id": "epoch_teddiursa-01",
       "pokemon": "teddiursa epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -101,7 +109,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_glacial"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -116,7 +126,8 @@
       "id": "forman_teddiursa-01",
       "pokemon": "teddiursa forman",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -126,7 +137,9 @@
       "condition": {
         "biomes": [
           "minecraft:mangrove_swamp"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,
@@ -141,7 +154,8 @@
       "id": "hoennian_teddiursa-01",
       "pokemon": "teddiursa hoennian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -168,7 +182,8 @@
       "id": "nodorran_teddiursa-01",
       "pokemon": "teddiursa nodorran",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

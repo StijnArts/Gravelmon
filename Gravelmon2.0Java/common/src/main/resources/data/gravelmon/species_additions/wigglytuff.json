@@ -232,7 +232,7 @@
         "40:rollout",
         "43:rockpolish",
         "34:firelash",
-        "46:stonesurge",
+        "46:fakemonstonesurge",
         "1:rockblast",
         "25:workup",
         "49:earthquake",
@@ -336,7 +336,8 @@
       },
       "labels": [
         "gen1",
-        "soulstones"
+        "soulstones",
+        "not_modeled"
       ],
       "height": 15,
       "aspects": [

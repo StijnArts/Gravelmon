@@ -7,7 +7,8 @@
       "id": "egho_noctowl-01",
       "pokemon": "noctowl egho",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "delta_noctowl-01",
       "pokemon": "noctowl delta",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -62,7 +64,8 @@
       "id": "raianian_noctowl-01",
       "pokemon": "noctowl raianian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -89,7 +92,8 @@
       "id": "epoch_noctowl-01",
       "pokemon": "noctowl epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -118,7 +122,8 @@
       "id": "epoch_noctowl-01",
       "pokemon": "noctowl epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -145,7 +150,8 @@
       "id": "enjinnian_noctowl-01",
       "pokemon": "noctowl enjinnian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -173,7 +179,8 @@
       "id": "fabelian_noctowl-01",
       "pokemon": "noctowl fabelian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -200,7 +207,8 @@
       "id": "mikitarian_noctowl-01",
       "pokemon": "noctowl mikitarian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -211,7 +219,9 @@
         "biomes": [
           "#cobblemon:is_spooky"
         ],
-        "timeRange": "night"
+        "timeRange": "night",
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "weightMultiplier": {
         "multiplier": 5.0,

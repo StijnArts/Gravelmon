@@ -7,7 +7,8 @@
       "id": "pepstep-01",
       "pokemon": "pepstep",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

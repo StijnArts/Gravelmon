@@ -7,7 +7,8 @@
       "id": "sagephant-01",
       "pokemon": "sagephant",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

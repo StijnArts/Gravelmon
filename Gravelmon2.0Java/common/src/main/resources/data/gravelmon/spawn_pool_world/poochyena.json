@@ -7,7 +7,8 @@
       "id": "mystic_poochyena-01",
       "pokemon": "poochyena mystic",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -35,7 +36,8 @@
       "id": "epoch_poochyena-01",
       "pokemon": "poochyena epoch",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -45,7 +47,9 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_snowy"
-        ]
+        ],
+        "minSkyLight": 8,
+        "maxSkyLight": 15
       },
       "anticondition": {
         "biomes": [
@@ -65,7 +69,8 @@
       "id": "mahalian_poochyena-01",
       "pokemon": "poochyena mahalian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -92,7 +97,8 @@
       "id": "olysosian_poochyena-01",
       "pokemon": "poochyena olysosian",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

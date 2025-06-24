@@ -7,7 +7,8 @@
       "id": "awesurge-01",
       "pokemon": "awesurge",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

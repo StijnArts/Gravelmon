@@ -7,7 +7,8 @@
       "id": "shielbow-01",
       "pokemon": "shielbow",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

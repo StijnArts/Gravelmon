@@ -7,7 +7,8 @@
       "id": "oragnutan-01",
       "pokemon": "oragnutan",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

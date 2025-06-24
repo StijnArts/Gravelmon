@@ -1,4 +1,35 @@
 {
   "entryId": "cobblemon:unown",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Earth",
+      "unlockForms": [
+        "Earth"
+      ]
+    },
+    {
+      "displayForm": "Xenoverse",
+      "unlockForms": [
+        "Xenoverse"
+      ]
+    },
+    {
+      "displayForm": "Norheiman",
+      "unlockForms": [
+        "Norheiman"
+      ]
+    },
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ]
 }

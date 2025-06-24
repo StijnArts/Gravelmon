@@ -7,7 +7,8 @@
       "id": "cachoe-01",
       "pokemon": "cachoe",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

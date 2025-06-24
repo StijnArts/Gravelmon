@@ -7,7 +7,8 @@
       "id": "metamarine-01",
       "pokemon": "metamarine",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

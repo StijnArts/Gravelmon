@@ -7,7 +7,8 @@
       "id": "luchito-01",
       "pokemon": "luchito",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

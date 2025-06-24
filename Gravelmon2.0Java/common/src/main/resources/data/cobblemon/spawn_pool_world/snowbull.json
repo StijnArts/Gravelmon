@@ -7,7 +7,8 @@
       "id": "snowbull-01",
       "pokemon": "snowbull",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

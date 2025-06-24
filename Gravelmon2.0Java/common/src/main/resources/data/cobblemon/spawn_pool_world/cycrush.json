@@ -7,7 +7,8 @@
       "id": "cycrush-01",
       "pokemon": "cycrush",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

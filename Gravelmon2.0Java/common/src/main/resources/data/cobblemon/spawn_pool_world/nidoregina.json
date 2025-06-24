@@ -7,7 +7,8 @@
       "id": "nidoregina-01",
       "pokemon": "nidoregina",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

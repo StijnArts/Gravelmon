@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:arrokuda",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    }
+  ]
 }

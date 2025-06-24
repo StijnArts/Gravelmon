@@ -2,13 +2,13 @@
   "name": "Salfurrr",
   "primaryType": "water",
   "secondaryType": "ice",
-  "catchRate": 255,
+  "catchRate": 210,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.2,
+  "baseScale": 0.25,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -27,25 +27,25 @@
       "canLook": true,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "avoidsLand": true
       },
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 105,
+    "attack": 39,
+    "defence": 108,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 14
   },
   "evYield": {
     "hp": 0,
@@ -62,28 +62,28 @@
   "moves": [
     "1:watergun",
     "1:powdersnow",
+    "1:bulkup",
+    "1:bulkup",
     "1:tailwhip",
     "1:growl",
+    "1:calmmind",
+    "1:calmmind",
     "10:bubblebeam",
     "10:icywind",
-    "15:brine",
-    "15:aurorabeam",
+    "10:taunt",
+    "10:taunt",
+    "15:aquatail",
+    "15:icepunch",
+    "15:substitute",
+    "15:substitute",
     "20:surf",
-    "20:freezedry",
-    "25:chillingwater",
-    "25:icebeam",
-    "30:hydropump",
-    "30:blizzard",
-    "35:watergun",
-    "35:powdersnow",
-    "40:tailwhip",
-    "40:growl",
-    "45:bubblebeam",
-    "45:icywind",
-    "50:aquatail",
-    "50:icepunch",
-    "55:surf",
-    "55:icespinner",
+    "20:icespinner",
+    "20:rest",
+    "20:rest",
+    "25:waterfall",
+    "25:iceshard",
+    "30:liquidation",
+    "30:iciclecrash",
     "tm:terablast"
   ],
   "labels": [
@@ -93,11 +93,26 @@
   "pokedex": [
     "cobblemon.species.salfurrr.desc"
   ],
-  "height": 0,
+  "height": 5,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
-  "nationalPokedexNumber": 9290,
+  "evolutions": [
+    {
+      "id": "salfurrr_salbrrr",
+      "variant": "level_up",
+      "result": "salbrrr",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "32"
+        }
+      ],
+      "permanent": true
+    }
+  ],
+  "nationalPokedexNumber": 9637,
   "shoulderMountable": false,
   "hitbox": {
     "width": 3.0,

@@ -7,6 +7,7 @@
       "id": "krillzaingel-01",
       "pokemon": "krillzaingel",
       "presets": [
+        "wild",
         "water"
       ],
       "type": "pokemon",

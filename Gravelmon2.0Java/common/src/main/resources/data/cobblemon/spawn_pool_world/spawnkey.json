@@ -7,7 +7,8 @@
       "id": "spawnkey-01",
       "pokemon": "spawnkey",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

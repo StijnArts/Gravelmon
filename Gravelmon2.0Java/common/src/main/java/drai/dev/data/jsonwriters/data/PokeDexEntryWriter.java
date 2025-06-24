@@ -12,16 +12,6 @@ import java.util.*;
 
 public class PokeDexEntryWriter {
     static int order = 10;
-    public static void writeMega(MegaEvolution megaEvolution, String resourcesDir) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
-            try {
-                String dir = resourcesDir + "\\data\\cobblemon\\dex_entries\\pokemon\\"+megaEvolution.getGameName().toLowerCase()+"\\";
-                Files.createDirectories(new File(dir).toPath());
-                writePokedexEntry(megaEvolution, dir, gson);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-    }
 
     public static void write(Game game, String resourcesDir) {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();

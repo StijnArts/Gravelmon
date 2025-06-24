@@ -7,7 +7,8 @@
       "id": "zenithera-01",
       "pokemon": "zenithera",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

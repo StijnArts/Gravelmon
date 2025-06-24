@@ -1,4 +1,17 @@
 {
   "entryId": "cobblemon:oricorio",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Epoch",
+      "unlockForms": [
+        "Epoch"
+      ]
+    },
+    {
+      "displayForm": "Mikitarian",
+      "unlockForms": [
+        "Mikitarian"
+      ]
+    }
+  ]
 }

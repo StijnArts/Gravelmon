@@ -1,4 +1,11 @@
 {
   "entryId": "cobblemon:cottoon",
-  "forms": []
+  "forms": [
+    {
+      "displayForm": "Fabelian",
+      "unlockForms": [
+        "Fabelian"
+      ]
+    }
+  ]
 }

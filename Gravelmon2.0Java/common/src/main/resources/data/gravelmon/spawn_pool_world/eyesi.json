@@ -7,7 +7,8 @@
       "id": "crozoican_eyesi-01",
       "pokemon": "eyesi crozoican",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",

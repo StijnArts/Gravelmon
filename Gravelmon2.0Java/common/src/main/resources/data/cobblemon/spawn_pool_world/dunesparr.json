@@ -7,7 +7,8 @@
       "id": "dunesparr-01",
       "pokemon": "dunesparr",
       "presets": [
-        "natural"
+        "natural",
+        "wild"
       ],
       "type": "pokemon",
       "context": "grounded",
