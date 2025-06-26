@@ -11,8 +11,8 @@ public class Gectidact extends drai.dev.data.pokemon.Pokemon {
                 Type.POISON, Type.DRAGON,
                 stats,
                 List.of(Ability.POISON_POINT), Ability.STICKY_HOLD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -22,10 +22,10 @@ public class Gectidact extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.TOKAS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .setMinLevel(45).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_BADLANDS).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Gectidact");

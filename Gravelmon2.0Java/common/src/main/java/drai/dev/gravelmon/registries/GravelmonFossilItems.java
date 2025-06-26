@@ -964,5 +964,39 @@ public class GravelmonFossilItems {
             ),
             "thief_fossil",
             "rapraider");
+
+    public static RegistrySupplier<Item> RAPTOR_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon(),
+                    BaseCobblemonDigSites.POWDERED_DEPOSIT.uncommon(),
+                    BaseCobblemonDigSites.ROOTED_PIT.uncommon()
+            ),
+            "raptor_fossil",
+            "gravelo");
+
+    public static RegistrySupplier<Item> CLOUD_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.DRIPSTONE_OASIS.uncommon(),
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.LUSH_DEN.uncommon()
+            ),
+            "cloud_fossil",
+            "brachiboing");
+    public static RegistrySupplier<Item> STAKE_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.SANDY_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_DEN.uncommon(),
+                    BaseCobblemonDigSites.SUNSCORCHED_REMAINS.uncommon()
+            ),
+            "stake_fossil",
+            "souropod");
+    public static RegistrySupplier<Item> FESTIVAL_FOSSIL = fossilItem(
+            List.of(
+                    BaseCobblemonDigSites.PRESERVED_SKELETON.uncommon(),
+                    BaseCobblemonDigSites.MUD_PIT.uncommon(),
+                    BaseCobblemonDigSites.SUBMERGED_IMPACT.uncommon()
+            ),
+            "festival_fossil",
+            "wrrazal");
     public static void touch() {}
 }

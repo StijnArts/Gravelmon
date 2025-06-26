@@ -6,9 +6,6 @@
     {
       "id": "monstroach-01",
       "pokemon": "monstroach",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,7 @@
       "weight": 0.09,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "maxY": 0,
         "minSkyLight": 0,

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whirlifern",
+  "speciesId": "cobblemon:whirlifern",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -8,7 +8,6 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "terramite",
   "baseScale": 0.275,
   "cannotDynamax": false,
   "abilities": [
@@ -81,9 +80,7 @@
   ],
   "labels": [
     "midamis",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.terragrip.desc"

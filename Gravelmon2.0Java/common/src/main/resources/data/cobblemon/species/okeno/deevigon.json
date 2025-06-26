@@ -7,6 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "feygon",
   "baseScale": 0.5052631578947367,
   "cannotDynamax": false,
   "abilities": [
@@ -78,7 +79,9 @@
   ],
   "labels": [
     "okeno",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deevigon.desc"

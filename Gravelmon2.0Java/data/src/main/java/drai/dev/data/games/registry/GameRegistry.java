@@ -6,8 +6,7 @@ import drai.dev.data.games.instagram.federex.*;
 import drai.dev.data.games.instagram.fra.*;
 import drai.dev.data.games.other.*;
 import drai.dev.data.games.pbs.*;
-import drai.dev.data.games.pokengine.done.*;
-import drai.dev.data.games.pokengine.done.Lagoone;
+import drai.dev.data.games.pokengine.*;
 import drai.dev.data.jsonwriters.*;
 
 import java.util.*;
@@ -112,6 +111,10 @@ public class GameRegistry {
         registerGame(Ruskow.INSTANCE);
         registerGame(Theos.INSTANCE);
         registerGame(Tochi.INSTANCE);
+        registerGame(Tokas.INSTANCE);
+        registerGame(Ultraspace.INSTANCE);
+        registerGame(Urzavos.INSTANCE);
+        //TODO registerGame(EliteRedux.INSTANCE);
     }
 
     private static void registerGame(Game game) {

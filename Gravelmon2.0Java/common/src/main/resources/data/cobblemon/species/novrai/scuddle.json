@@ -133,8 +133,7 @@
     "tm:stockpile",
     "tm:swallow",
     "tm:spitup",
-    "tm:rototiller",
-    "tm:terablast"
+    "tm:rototiller"
   ],
   "labels": [
     "novrai",

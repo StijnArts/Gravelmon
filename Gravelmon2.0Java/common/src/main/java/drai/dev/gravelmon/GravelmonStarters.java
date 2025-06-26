@@ -842,6 +842,23 @@ public class GravelmonStarters {
                                 "Bufflow level=10"
                         )
                 ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Ultra Space",
+                        List.of(
+                                "Amphibrain level=10",
+                                "Jawminate level=10",
+                                "Knuclaw level=10",
+                                "Poipole level=10"
+                        )
+                ));
+        GravelmonStarterManager.registerNewStarter(null,
+                createCategory("Urzavos",
+                        List.of(
+                                "Spritten level=10",
+                                "Ambystar level=10",
+                                "Psyalii level=10"
+                        )
+                ));
     }
 
     private static StarterCategoryDataHolder createCategory(String name, List<String> starters) {

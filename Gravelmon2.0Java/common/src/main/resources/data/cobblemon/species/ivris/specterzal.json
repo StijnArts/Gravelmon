@@ -2,13 +2,14 @@
   "name": "Specterzal",
   "primaryType": "ghost",
   "secondaryType": "rock",
-  "catchRate": 84,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "preEvolution": "wrrazal",
+  "baseScale": 0.11249999999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -91,17 +92,20 @@
     "ivris",
     "not_modeled",
     "fossil",
+    "fakemon",
+    "fakemonevolution",
+    "fossil",
     "instagram",
     "instagram"
   ],
   "pokedex": [
     "cobblemon.species.specterzal.desc"
   ],
-  "height": 0,
+  "height": 24,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4939,
+  "nationalPokedexNumber": 4937,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

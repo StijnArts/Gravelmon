@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ambystar",
+  "speciesId": "cobblemon:ambystar",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

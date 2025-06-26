@@ -5,6 +5,7 @@ import drai.dev.data.pokemon.form.*;
 import drai.dev.data.pokemon.form.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
+//DONE
 public class Form extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Form();
     private Form() {
@@ -79,10 +80,10 @@ public class Form extends drai.dev.data.games.registry.Game {
         addNewPokemon(new FormanSandshrew("", Aspect.FORMAN));
         addNewPokemon(new Toxslash());
 
-        addNewPokemon(new FormanNidoranfemale("", Aspect.FORMAN));
+        addNewPokemon(new FormanNidoranF("", Aspect.FORMAN));
         addNewPokemon(new FormanNidorina("", Aspect.FORMAN));
         addNewPokemon(new FormanNidoqueen("", Aspect.FORMAN));
-        addNewPokemon(new FormanNidoranmale("", Aspect.FORMAN));
+        addNewPokemon(new FormanNidoranM("", Aspect.FORMAN));
         addNewPokemon(new FormanNidorino("", Aspect.FORMAN));
         addNewPokemon(new FormanNidoking("", Aspect.FORMAN));
         addNewPokemon(new Clefar());

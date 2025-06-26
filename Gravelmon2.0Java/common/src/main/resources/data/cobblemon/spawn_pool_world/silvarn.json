@@ -6,9 +6,6 @@
     {
       "id": "silvarn-01",
       "pokemon": "silvarn",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
@@ -16,7 +13,7 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "timeRange": "night",
         "minSkyLight": 8,

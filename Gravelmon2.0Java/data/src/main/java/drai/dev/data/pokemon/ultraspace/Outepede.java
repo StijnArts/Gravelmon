@@ -11,8 +11,8 @@ public class Outepede extends drai.dev.data.pokemon.Pokemon {
                 Type.DRAGON, Type.ICE,
                 stats,
                 List.of(Ability.LIMBER,Ability.OUTBURST), Ability.BERSERK,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -23,9 +23,9 @@ public class Outepede extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(33).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Outepede");

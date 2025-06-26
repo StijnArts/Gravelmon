@@ -40,12 +40,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 55,
+    "attack": 29,
+    "defence": 47,
+    "special_attack": 81,
+    "special_defence": 52,
+    "speed": 47
   },
   "evYield": {
     "hp": 0,
@@ -74,20 +74,6 @@
     "13:sludgebomb",
     "16:hydropump",
     "16:sludgewave",
-    "19:watergun",
-    "19:poisonsting",
-    "22:tailwhip",
-    "22:leer",
-    "25:bubblebeam",
-    "25:venoshock",
-    "28:aquatail",
-    "28:poisontail",
-    "31:surf",
-    "31:toxicspikes",
-    "34:waterfall",
-    "34:sludgebomb",
-    "39:liquidation",
-    "39:poisonjab",
     "tm:terablast"
   ],
   "labels": [
@@ -104,9 +90,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "inkuid_funkuid",
+      "id": "inkuid_gunkuid",
       "variant": "level_up",
-      "result": "funkuid",
+      "result": "Gunkuid",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

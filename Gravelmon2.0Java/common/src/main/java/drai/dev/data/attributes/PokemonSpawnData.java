@@ -172,6 +172,13 @@ public class PokemonSpawnData {
             getBiomeSpawnCondition().getBiomes().add(Biome.IS_CAVE);
         }
 
+        if (spawnPresets.contains(SpawnPreset.UNDERGROUND)) {
+            getBiomeSpawnCondition().getBiomes().removeIf(biome -> biome == Biome.IS_OVERWORLD);
+            if(getBiomeSpawnCondition().getBiomes().stream().noneMatch(biome -> biome==Biome.IS_CAVE))
+                getBiomeSpawnCondition().getBiomes().add(Biome.IS_CAVE);
+            spawnPresets.removeIf(spawnPreset -> spawnPreset == SpawnPreset.UNDERGROUND);
+        }
+
         if (getSpawnConditions().stream().noneMatch(spawnCondition -> spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY ||
                 (spawnCondition.getConditionKind() == SpawnConditionType.CANSEESKY && "false".equalsIgnoreCase(spawnCondition.getCondition())))) {
             getSpawnConditions().add(new SpawnCondition(SpawnConditionType.CANSEESKY, "true"));

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:peap",
+  "speciesId": "cobblemon:peap",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

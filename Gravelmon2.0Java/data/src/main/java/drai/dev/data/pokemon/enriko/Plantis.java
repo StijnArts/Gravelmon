@@ -23,7 +23,7 @@ public class Plantis extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.BUG),
                 List.of("Their parents lay their eggs in the canopy of jungles, where they blend in. They make a high-pitched chirping noise so their parents can find them afterwards."),
-                List.of(new EvolutionEntry("ensencoon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Savantis", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
                 ),
                 List.of(

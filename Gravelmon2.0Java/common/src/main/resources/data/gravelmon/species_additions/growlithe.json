@@ -775,9 +775,9 @@
       ],
       "evolutions": [
         {
-          "id": "epochgrowlitheone_epochtwoarcanine",
+          "id": "epochgrowlitheone_arcanine_epochtwo",
           "variant": "item_interact",
-          "result": "epochtwoarcanine",
+          "result": "arcanine epochtwo",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],

@@ -138,9 +138,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "geckrow_gaonopy",
+      "id": "geckrow_goanopy",
       "variant": "level_up",
-      "result": "gaonopy",
+      "result": "Goanopy",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -4,6 +4,8 @@ package drai.dev.data.games.instagram.fra;
 import drai.dev.data.pokemon.aldao.*;
 import drai.dev.data.pokemon.aldao.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+//DONE
 public class Aldao extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Aldao();
     private Aldao() {

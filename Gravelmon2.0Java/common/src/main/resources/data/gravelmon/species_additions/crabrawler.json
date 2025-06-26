@@ -118,5 +118,21 @@
   ],
   "features": [
     "mahalian"
+  ],
+  "evolutions": [
+    {
+      "id": "crabrawler_kaskadiancrabominable",
+      "variant": "level_up",
+      "result": "kaskadiancrabominable",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_snowy_forest"
+        }
+      ],
+      "permanent": true
+    }
   ]
 }

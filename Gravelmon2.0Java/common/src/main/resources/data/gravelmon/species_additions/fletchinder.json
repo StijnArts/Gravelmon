@@ -301,9 +301,9 @@
       ],
       "evolutions": [
         {
-          "id": "ayreianfletchinder_fleuflame",
+          "id": "ayreianfletchinder_fleumflame",
           "variant": "level_up",
-          "result": "fleuflame",
+          "result": "Fleumflame",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [

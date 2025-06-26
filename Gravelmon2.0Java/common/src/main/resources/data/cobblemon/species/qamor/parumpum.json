@@ -90,9 +90,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "parumpum_dokuduru",
+      "id": "parumpum_dokudurru",
       "variant": "level_up",
-      "result": "dokuduru",
+      "result": "Dokudurru",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

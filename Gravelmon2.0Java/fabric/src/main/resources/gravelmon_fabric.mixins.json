@@ -5,7 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "plugin": "drai.dev.gravelmon.fabric.mixin.GravelmonFabricMixinPlugin",
   "mixins": [
-    "CobblemonPaleontologistMixin"
+    "CobblemonPaleontologistMixin",
+    "megashowdown.EventUtilsMixin",
+    "megashowdown.MegaLogicMixin",
+    "megashowdown.RevertEventsMixin"
   ],
   "injectors": {
     "defaultRequire": 1

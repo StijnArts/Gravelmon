@@ -2,13 +2,13 @@
   "name": "Ironjet",
   "primaryType": "flying",
   "secondaryType": "ground",
-  "catchRate": 31,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.15000000000000002,
   "cannotDynamax": false,
   "abilities": [
     "quarkdrive"
@@ -22,7 +22,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.ironjet.desc"
   ],
-  "height": 0,
+  "height": 32,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

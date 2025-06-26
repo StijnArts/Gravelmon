@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "monkiyo",
   "baseScale": 0.5666666666666667,
   "cannotDynamax": false,
   "abilities": [
@@ -76,7 +77,9 @@
   ],
   "labels": [
     "sorin",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.macaukong.desc"

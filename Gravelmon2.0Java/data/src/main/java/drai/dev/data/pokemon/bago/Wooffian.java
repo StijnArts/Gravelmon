@@ -24,7 +24,7 @@ public class Wooffian extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("brawlawdo", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Brawlawoo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(),
                 List.of(Label.BAGO),

@@ -6,9 +6,6 @@
     {
       "id": "snuggrub-01",
       "pokemon": "snuggrub",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,7 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

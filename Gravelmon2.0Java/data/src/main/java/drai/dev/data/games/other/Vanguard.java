@@ -177,9 +177,6 @@ public class Vanguard extends Game {
         addNewPokemon(new AyreianGogoat("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPhantump("", Aspect.AYREIAN));
         addNewPokemon(new AyreianTrevenant("", Aspect.AYREIAN));
-
-        addNewPokemon(new AyreianFletchling("", Aspect.AYREIAN));
-        addNewPokemon(new AyreianFletchinder("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPancham("", Aspect.AYREIAN));
         addNewPokemon(new AyreianPangoro("", Aspect.AYREIAN));
         addNewPokemon(new AyreianCarbink("", Aspect.AYREIAN));
@@ -282,6 +279,8 @@ public class Vanguard extends Game {
         addPokedexPokemon("applin, flapple, appletun");
         addNewPokemon(new Applidunn());
         addPokedexPokemon("dipplin, hydrapple");
+        addNewPokemon(new AyreianFletchling("", Aspect.AYREIAN));
+        addNewPokemon(new AyreianFletchinder("", Aspect.AYREIAN));
         addNewPokemon(new Fleumflame());
         addNewPokemon(new Frigideer());
 //        addNewPokemon(new Sakushido()); //MISSING ART

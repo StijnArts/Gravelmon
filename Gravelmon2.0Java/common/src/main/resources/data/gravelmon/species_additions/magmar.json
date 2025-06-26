@@ -336,10 +336,123 @@
         "height": 3.1875,
         "fixed": false
       }
+    },
+    {
+      "name": "Tokassian",
+      "primaryType": "fire",
+      "secondaryType": "steel",
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 60,
+      "experienceGroup": "erratic",
+      "eggCycles": 50,
+      "baseFriendship": 70,
+      "preEvolution": "magby form=tokassian",
+      "baseScale": 0.053932584269662916,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 108,
+        "attack": 37,
+        "defence": 103,
+        "special_attack": 91,
+        "special_defence": 108,
+        "speed": 46
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "eggGroups": [
+        "field"
+      ],
+      "drops": {},
+      "moves": [
+        "1:ember",
+        "1:metalclaw",
+        "1:bulkup",
+        "1:irondefense",
+        "1:growl",
+        "1:screech",
+        "1:calmmind",
+        "1:bulkup",
+        "10:firespin",
+        "10:irontail",
+        "10:taunt",
+        "10:calmmind",
+        "15:flamecharge",
+        "15:smartstrike",
+        "15:substitute",
+        "15:taunt",
+        "20:flameburst",
+        "20:mirrorshot",
+        "20:rest",
+        "20:substitute",
+        "25:flamethrower",
+        "25:flashcannon",
+        "25:rest",
+        "30:fireblast",
+        "30:steelbeam",
+        "tm:terablast"
+      ],
+      "labels": [
+        "tokas",
+        "not_modeled",
+        "fakemon",
+        "fakemonevolution"
+      ],
+      "pokedex": [
+        "cobblemon.species.tokassianmagmar.desc"
+      ],
+      "height": 14,
+      "weight": 0,
+      "aspects": [
+        "tokassian"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 38.9375,
+        "height": 38.9375,
+        "fixed": false
+      }
     }
   ],
   "features": [
     "delta",
-    "epoch"
+    "epoch",
+    "tokassian"
   ]
 }

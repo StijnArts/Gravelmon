@@ -30,7 +30,7 @@ public class SpeciesAssetsJSONWriter {
     }
 
     public static @NotNull String getDirectory(Game game, String resourcesDir) {
-        return resourcesDir + "\\assets\\cobblemon\\bedrock\\species\\" + game.getName().toLowerCase() + "\\";
+        return resourcesDir + "\\assets\\cobblemon\\bedrock\\species\\" + game.getCleanName().toLowerCase() + "\\";
     }
 
     private static void writePokemon(Pokemon pokemon, String dir, Gson gson) throws IOException {

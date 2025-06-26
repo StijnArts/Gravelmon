@@ -8,7 +8,6 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "scuddle",
   "baseScale": 0.49811320754716987,
   "cannotDynamax": false,
   "abilities": [
@@ -138,9 +137,7 @@
   "labels": [
     "novrai",
     "not_modeled",
-    "starter",
-    "fakemon",
-    "fakemonevolution"
+    "starter"
   ],
   "pokedex": [
     "cobblemon.species.bubbeetle.desc"

@@ -2,13 +2,13 @@
   "name": "Soldarise",
   "primaryType": "fairy",
   "secondaryType": "fighting",
-  "catchRate": 3,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.1640625,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +22,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -89,11 +89,11 @@
   "pokedex": [
     "cobblemon.species.soldarise.desc"
   ],
-  "height": 0,
+  "height": 35,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4925,
+  "nationalPokedexNumber": 4939,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

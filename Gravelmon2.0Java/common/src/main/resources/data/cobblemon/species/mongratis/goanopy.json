@@ -7,6 +7,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "geckrow",
   "baseScale": 0.33,
   "cannotDynamax": false,
   "abilities": [
@@ -130,7 +131,9 @@
   "labels": [
     "mongratis",
     "not_modeled",
-    "starter"
+    "starter",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.goanopy.desc"

@@ -23,7 +23,7 @@ public class Larvozer extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Larvozer's body has atleast 3 layers of armor protecting its body, the armor is so hard it can shrug off a direct hit from a cannonball."),
-                List.of(new EvolutionEntry("armanzer", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Armophant", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
                 ),
                 List.of(

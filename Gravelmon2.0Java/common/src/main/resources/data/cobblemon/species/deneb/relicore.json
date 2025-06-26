@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "relicore",
-  "baseScale": 38.400000000000006,
+  "baseScale": 1.3714285714285714,
   "cannotDynamax": false,
   "abilities": [
     "swiftswim",
@@ -144,8 +144,8 @@
   "nationalPokedexNumber": 6273,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 3.5,
+    "height": 3.5,
     "fixed": false
   },
   "features": [],

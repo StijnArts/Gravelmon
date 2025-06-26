@@ -44,7 +44,6 @@ public class Tokas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Arachute());
         addNewPokemon(new Parachnid(new Stats(487, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.DEFENCE))));
-
         addNewPokemon(new Scuddle());
         addNewPokemon(new Crustancient(new Stats(487, StatArchetype.BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
@@ -76,7 +75,7 @@ public class Tokas extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Abomboon(new Stats(523, StatArchetype.BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Gexom());
-        addNewPokemon(new Gectidact(new Stats(522, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Gectidact(new Stats(542, StatArchetype.PHYSICAL_ATTACKER,
                 List.of(StatType.ATTACK))));
         addNewPokemon(new Finpin());
         addNewPokemon(new Merpin());
@@ -90,7 +89,7 @@ public class Tokas extends drai.dev.data.games.registry.Game {
                 List.of(StatType.SPECIAL_ATTACK))));
         addNewPokemon(new Gravelo());
         addNewPokemon(new Minerapt());
-        addNewPokemon(new Outcroptor(new Stats(530, StatArchetype.FAST_PHYSICAL_ATTACKER,
+        addNewPokemon(new Outcroptor(new Stats(534, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));
         addNewPokemon(new Grebur());
         addNewPokemon(new Grebloo(new Stats(480, StatArchetype.PHYSICAL_ATTACKER,

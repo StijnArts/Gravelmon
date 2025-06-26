@@ -94,9 +94,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "baulder_dredrock",
+      "id": "baulder_dreadrock",
       "variant": "level_up",
-      "result": "dredrock",
+      "result": "Dreadrock",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

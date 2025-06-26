@@ -6,9 +6,6 @@
     {
       "id": "maraudair-01",
       "pokemon": "maraudair",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,7 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

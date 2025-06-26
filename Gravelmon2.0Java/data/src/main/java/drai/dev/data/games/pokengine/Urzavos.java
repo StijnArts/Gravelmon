@@ -58,11 +58,11 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Briarasp(new Stats(480, StatArchetype.FAST_PHYSICAL_ATTACKER,
                 List.of(StatType.SPEED))));      
         addNewPokemon(new Elemuttal());   
-        addNewPokemon(new Caniflame(new Stats(450, StatArchetype.SPECIAL_ATTACKER,
+        addNewPokemon(new Caniflame(new Stats(500, StatArchetype.SPECIAL_ATTACKER,
                 List.of(StatType.SPECIAL_ATTACK))));
-        addNewPokemon(new Thounder(new Stats(450, StatArchetype.FAST_SPECIAL_ATTACKER,
+        addNewPokemon(new Thounder(new Stats(500, StatArchetype.FAST_SPECIAL_ATTACKER,
                 List.of(StatType.SPEED))));      
-        addNewPokemon(new Permafruff(new Stats(450, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+        addNewPokemon(new Permafruff(new Stats(500, StatArchetype.BULKY_PHYSICAL_ATTACKER,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Snatchirp());   
         addNewPokemon(new Corvosene(new Stats(440, StatArchetype.SPECIAL_ATTACKER,
@@ -89,13 +89,12 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Mosshroud());
         addNewPokemon(new Murkreep());
         addNewPokemon(new Bateeny());
-        addNewPokemon(new Bathemoth(new Stats(478, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
-                List.of(StatType.DEFENCE))));
+        addNewPokemon(new Bathemoth());
         addNewPokemon(new Brachiboing());
-        addNewPokemon(new Soaropod(new Stats(480, StatArchetype.PHYSICAL_WALL,
+        addNewPokemon(new Soaropod(new Stats(520, StatArchetype.FAST_SUPPORT,
                 List.of(StatType.HP))));
         addNewPokemon(new Souropod());
-        addNewPokemon(new Apatoplek(new Stats(480, StatArchetype.PHYSICAL_ATTACKER,
+        addNewPokemon(new Apatoplek(new Stats(520, StatArchetype.PHYSICAL_WALL,
                 List.of(StatType.DEFENCE))));
         addNewPokemon(new Whirlifern());
         addNewPokemon(new Ferneurosis(new Stats(478, StatArchetype.FAST_SPECIAL_ATTACKER,
@@ -106,6 +105,7 @@ public class Urzavos extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Prickity());   
         addNewPokemon(new Ruffhaws());
         addNewPokemon(new Chompupi());
+        addNewPokemon(new Mongrowl());
     }
 
 }

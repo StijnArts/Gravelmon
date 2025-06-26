@@ -11,9 +11,9 @@ public class Cerebranch extends drai.dev.data.pokemon.Pokemon {
                 Type.PSYCHIC, Type.GRASS,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
-                0.0,
+                43, 0,
+                new Stats(0,0,0,0,0,0), 45,
+                -1,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
@@ -23,9 +23,9 @@ public class Cerebranch extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .abnormality()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Cerebranch");

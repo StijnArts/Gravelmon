@@ -19,7 +19,7 @@ public class Baulder extends Pokemon {
                 70,
                 100, List.of(EggGroup.FIELD),
                 List.of("Baulder has lived in the depths of Mythan for almost 7,000 years. It is said that this Pokemon is incredibly smart."),
-                List.of(new EvolutionEntry("dredrock", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Dreadrock", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN, 1),

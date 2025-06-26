@@ -11,7 +11,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "preEvolution": "nidoranmale form=forman",
+      "preEvolution": "nidoranm form=forman",
       "baseScale": 0.018750000000000003,
       "cannotDynamax": false,
       "abilities": [

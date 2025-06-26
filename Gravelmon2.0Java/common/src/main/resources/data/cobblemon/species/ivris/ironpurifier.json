@@ -2,13 +2,13 @@
   "name": "Ironpurifier",
   "primaryType": "fairy",
   "secondaryType": "grass",
-  "catchRate": 38,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.056249999999999994,
   "cannotDynamax": false,
   "abilities": [
     "quarkdrive"
@@ -114,7 +114,7 @@
   "pokedex": [
     "cobblemon.species.ironpurifier.desc"
   ],
-  "height": 0,
+  "height": 12,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

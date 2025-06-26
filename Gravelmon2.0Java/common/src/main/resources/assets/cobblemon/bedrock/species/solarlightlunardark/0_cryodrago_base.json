@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": [],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_182_by_138.geo",
+      "poser": "cobblemon:cutout_gravelmon_182_by_138",
       "texture": "cobblemon:textures/pokemon/solarlightlunardark/cryodrago.png",
       "layers": [
         {

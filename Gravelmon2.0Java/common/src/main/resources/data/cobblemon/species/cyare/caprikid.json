@@ -40,10 +40,10 @@
   },
   "baseStats": {
     "hp": 60,
-    "attack": 74,
-    "defence": 65,
-    "special_attack": 31,
-    "special_defence": 56,
+    "attack": 31,
+    "defence": 51,
+    "special_attack": 74,
+    "special_defence": 70,
     "speed": 51
   },
   "evYield": {
@@ -60,12 +60,12 @@
   "drops": {},
   "moves": [
     "1:mudslap",
-    "1:growl",
-    "10:sandattack",
+    "1:sandattack",
+    "10:mudshot",
     "15:mudbomb",
     "20:bulldoze",
-    "25:dig",
-    "30:earthquake",
+    "25:scorchingsands",
+    "30:earthpower",
     "tm:terablast"
   ],
   "labels": [
@@ -80,9 +80,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "caprikid_caspaprine",
+      "id": "caprikid_cascaprine",
       "variant": "item_interact",
-      "result": "caspaprine",
+      "result": "Cascaprine",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

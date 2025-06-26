@@ -10,6 +10,8 @@ import java.util.*;
 import static drai.dev.data.attributes.StatArchetype.*;
 import static drai.dev.data.attributes.StatType.*;
 
+
+//DONE
 public class Raian extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Raian();
     private Raian() {

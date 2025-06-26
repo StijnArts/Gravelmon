@@ -88,9 +88,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "feygon_maligon",
+      "id": "feygon_deevigon",
       "variant": "level_up",
-      "result": "maligon",
+      "result": "Deevigon",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

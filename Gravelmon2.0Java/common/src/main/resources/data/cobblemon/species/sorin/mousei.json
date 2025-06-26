@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "mousu",
   "baseScale": 0.5894736842105263,
   "cannotDynamax": false,
   "abilities": [
@@ -107,7 +108,9 @@
   ],
   "labels": [
     "sorin",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mousei.desc"

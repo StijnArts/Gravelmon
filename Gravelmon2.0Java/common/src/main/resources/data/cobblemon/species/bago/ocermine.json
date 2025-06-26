@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "marshten",
   "baseScale": 0.0796875,
   "cannotDynamax": false,
   "abilities": [
@@ -86,6 +87,8 @@
     "bago",
     "not_modeled",
     "starter",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],

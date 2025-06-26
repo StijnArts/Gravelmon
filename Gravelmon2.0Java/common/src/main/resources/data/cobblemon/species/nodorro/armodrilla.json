@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "armarolla",
   "baseScale": 0.49230769230769234,
   "cannotDynamax": false,
   "abilities": [
@@ -100,7 +101,9 @@
   ],
   "labels": [
     "nodorro",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armodrilla.desc"

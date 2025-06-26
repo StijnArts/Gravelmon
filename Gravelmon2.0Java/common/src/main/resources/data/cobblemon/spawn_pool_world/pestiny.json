@@ -6,9 +6,6 @@
     {
       "id": "pestiny-01",
       "pokemon": "pestiny",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,7 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "maxY": 0,
         "minSkyLight": 0,

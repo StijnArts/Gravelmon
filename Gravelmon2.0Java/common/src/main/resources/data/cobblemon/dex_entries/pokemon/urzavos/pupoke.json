@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pupoke",
+  "speciesId": "cobblemon:pupoke",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

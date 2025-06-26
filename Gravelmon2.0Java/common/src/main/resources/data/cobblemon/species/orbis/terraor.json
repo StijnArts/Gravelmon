@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "aburago",
   "baseScale": 0.192,
   "cannotDynamax": false,
   "abilities": [
@@ -67,7 +68,9 @@
   ],
   "labels": [
     "orbis",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terraor.desc"

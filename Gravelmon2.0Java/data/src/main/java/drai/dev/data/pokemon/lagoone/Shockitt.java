@@ -23,7 +23,7 @@ public class Shockitt extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
-                List.of(new EvolutionEntry("felightnin", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("felightning", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

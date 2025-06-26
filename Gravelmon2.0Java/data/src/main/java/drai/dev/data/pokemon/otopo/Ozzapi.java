@@ -23,7 +23,7 @@ public class Ozzapi extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Ozzapi are found in Otopo's rugged, savannah-esque areas. They are extremely fast Pokemon, so can be hard to study. When spooked, it will send a quick jolt at its assailant using its ossicones."),
-                List.of(new EvolutionEntry("tezlaraf", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("Oscillacone", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),

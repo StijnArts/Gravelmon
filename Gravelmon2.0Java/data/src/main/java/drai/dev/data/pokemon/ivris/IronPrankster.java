@@ -16,8 +16,8 @@ public class IronPrankster extends drai.dev.data.pokemon.Pokemon {
                         52,
                         123),
                 List.of(Ability.QUARK_DRIVE), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,11 +28,12 @@ public class IronPrankster extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.IVRIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .abnormality()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_DEEP_DARK).cantSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
+        setCanFly(true);
            setLangFileName("Iron Prankster");
 
     }

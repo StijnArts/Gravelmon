@@ -51,7 +51,7 @@ public class JSONOutputGenerator {
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 
         if(true){
-            ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
+//            ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
             ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
         }
 

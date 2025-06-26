@@ -2,13 +2,13 @@
   "name": "Spikymushroom",
   "primaryType": "fire",
   "secondaryType": "fighting",
-  "catchRate": 32,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.0796875,
   "cannotDynamax": false,
   "abilities": [
     "protosynthesis"
@@ -97,7 +97,7 @@
   "pokedex": [
     "cobblemon.species.spikymushroom.desc"
   ],
-  "height": 0,
+  "height": 17,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

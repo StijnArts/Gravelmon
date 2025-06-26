@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ichorot",
+  "speciesId": "cobblemon:ichorot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

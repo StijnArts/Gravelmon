@@ -5,6 +5,7 @@ import com.cobblemon.mod.common.api.pokemon.*;
 import com.cobblemon.mod.common.pokemon.*;
 import com.cobblemon.mod.common.pokemon.helditem.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
 import drai.dev.gravelsextendedbattles.showdown.*;

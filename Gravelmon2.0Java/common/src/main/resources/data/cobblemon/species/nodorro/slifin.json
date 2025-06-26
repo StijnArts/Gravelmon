@@ -8,7 +8,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sarqua",
-  "baseScale": 16.799999999999997,
+  "baseScale": 0.46027397260273967,
   "cannotDynamax": false,
   "abilities": [
     "moxie",
@@ -124,8 +124,8 @@
   "nationalPokedexNumber": 9216,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.5625,
+    "height": 4.5625,
     "fixed": false
   },
   "features": [],

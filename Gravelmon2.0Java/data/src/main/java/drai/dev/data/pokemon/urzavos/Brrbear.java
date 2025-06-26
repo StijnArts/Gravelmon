@@ -23,16 +23,15 @@ public class Brrbear extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Young Brrbear have an abundance of fluff to the point where they must roll around. As they grow older they lose their fur, which is highly prized coat stuffing."),
-                List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1)                        ),
+                List.of(new EvolutionEntry("brrzolt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
+                List.of(                  ),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(13).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SNOWY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Brrbear");

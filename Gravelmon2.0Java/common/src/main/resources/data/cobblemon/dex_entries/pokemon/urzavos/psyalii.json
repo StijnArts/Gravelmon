@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:psyalii",
+  "speciesId": "cobblemon:psyalii",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

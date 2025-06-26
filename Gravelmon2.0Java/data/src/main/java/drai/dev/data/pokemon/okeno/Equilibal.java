@@ -23,7 +23,7 @@ public class Equilibal extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.HUMAN_LIKE),
                 List.of("It can only move by hopping around. Bugaloo can juggle up to around twenty berries when happy."),
-                List.of(new EvolutionEntry("juggaloo", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Hoppler", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),

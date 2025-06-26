@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "equilibal",
   "baseScale": 0.5260273972602739,
   "cannotDynamax": false,
   "abilities": [
@@ -97,7 +98,9 @@
   ],
   "labels": [
     "okeno",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoppler.desc"

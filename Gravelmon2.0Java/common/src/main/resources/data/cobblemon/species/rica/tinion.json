@@ -140,9 +140,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "tinion_onioni",
+      "id": "tinion_akoni",
       "variant": "level_up",
-      "result": "onioni",
+      "result": "Akoni",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

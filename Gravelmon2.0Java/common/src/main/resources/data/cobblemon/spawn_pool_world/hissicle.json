@@ -6,9 +6,6 @@
     {
       "id": "hissicle-01",
       "pokemon": "hissicle",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
@@ -16,7 +13,8 @@
       "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -40,7 +38,8 @@
       "weight": 6.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_cave"
         ]
       },
       "weightMultiplier": {

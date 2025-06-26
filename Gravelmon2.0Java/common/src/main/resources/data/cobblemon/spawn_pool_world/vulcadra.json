@@ -7,7 +7,6 @@
       "id": "vulcadra-01",
       "pokemon": "vulcadra",
       "presets": [
-        "underground",
         "near_lava"
       ],
       "type": "pokemon",
@@ -17,7 +16,7 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

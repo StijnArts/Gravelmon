@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "wooffian",
   "baseScale": 0.060937500000000006,
   "cannotDynamax": false,
   "abilities": [
@@ -71,6 +72,8 @@
   "labels": [
     "bago",
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],

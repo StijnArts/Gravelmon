@@ -29,7 +29,7 @@ public class Gravelmon
 	public static final Map<String, Supplier<Item>> FOSSIL_ITEM_MAP = new HashMap<>();
 	public static final Logger LOGGER = LogManager.getLogger();
 
-	public static void init(boolean relyOnGeb) {
+	public static void init() {
 		GravelmonBlocks.touch();
 		GravelmonItems.touch();
 		GravelmonPokeballs.touch();

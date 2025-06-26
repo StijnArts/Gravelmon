@@ -172,8 +172,6 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Pixsea().fishingSpawnFromExisting());
         addNewPokemon(new Equarea());
         addNewPokemon(new Hydrocampa());
-        addNewPokemon(new Drastell());
-        addNewPokemon(new Soldarise());
         addNewPokemon(new Orchagon());
         addNewPokemon(new Chivapplir());
         addNewPokemon(new Ciderpent());
@@ -186,8 +184,12 @@ public class Ivris extends drai.dev.data.games.registry.Game {
         addNewPokemon(new Moroller());
         addNewPokemon(new Strinmmer());
         addNewPokemon(new Nartana());
+
         addNewPokemon(new Wrrazal().addLabels(Label.FOSSIL)); //fossil
         addNewPokemon(new Specterzal().addLabels(Label.FOSSIL));
+        addNewPokemon(new Drastell());
+        addNewPokemon(new Soldarise());
+        //Paradox
         addNewPokemon(new IronJaws().fishingSpawnFromExisting().addLabels(Label.PARADOX));
         addNewPokemon(new AbyssalHunger().fishingSpawnFromExisting().addLabels(Label.PARADOX));
         addNewPokemon(new IronFists().addLabels(Label.PARADOX));

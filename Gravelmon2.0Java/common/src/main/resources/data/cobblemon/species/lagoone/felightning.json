@@ -8,6 +8,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "shockitt",
   "baseScale": 0.2926829268292683,
   "cannotDynamax": false,
   "abilities": [
@@ -79,7 +80,9 @@
   "labels": [
     "lagoone",
     "not_modeled",
-    "pseudo_legendary"
+    "pseudo_legendary",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.felightning.desc"

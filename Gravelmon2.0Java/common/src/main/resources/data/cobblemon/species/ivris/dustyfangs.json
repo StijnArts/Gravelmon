@@ -2,13 +2,13 @@
   "name": "Dustyfangs",
   "primaryType": "ground",
   "secondaryType": "dragon",
-  "catchRate": 32,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.08906249999999999,
   "cannotDynamax": false,
   "abilities": [
     "protosynthesis"
@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.dustyfangs.desc"
   ],
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

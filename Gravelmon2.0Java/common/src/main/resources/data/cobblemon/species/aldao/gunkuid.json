@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "inkuid",
   "baseScale": 0.051562500000000004,
   "cannotDynamax": false,
   "abilities": [
@@ -79,6 +80,8 @@
   "labels": [
     "aldao",
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],

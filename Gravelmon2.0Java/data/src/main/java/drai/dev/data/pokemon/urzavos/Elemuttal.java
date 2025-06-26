@@ -23,18 +23,22 @@ public class Elemuttal extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("There are a few different variations of this 'Mon with distinct patches of colored fur on their back. Scientists have often wondered if they share a common Ancestor with Eevee."),
-                List.of(),
+                List.of(new EvolutionEntry("caniflame", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(),
                 List.of(Label.URZAVOS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON.getWeight(1)/3)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_ARID).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Elemuttal");
-
+        getForms().add(PokemonForm.fromPokemon(this, Aspect.YELLOW).setEvolutions(List.of(new EvolutionEntry("thounder", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27"))))));
+        getForms().add(PokemonForm.fromPokemon(this, Aspect.BLUE).setEvolutions(List.of(new EvolutionEntry("permafruff", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27"))))));
     }
 
 

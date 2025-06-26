@@ -91,9 +91,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "larvozer_armanzer",
+      "id": "larvozer_armophant",
       "variant": "level_up",
-      "result": "armanzer",
+      "result": "Armophant",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

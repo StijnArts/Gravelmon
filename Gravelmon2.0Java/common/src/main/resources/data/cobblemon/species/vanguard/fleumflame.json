@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "fletchinder form=ayreian",
   "baseScale": 0.30967741935483867,
   "cannotDynamax": false,
   "abilities": [
@@ -143,7 +144,8 @@
   ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fleumflame.desc"

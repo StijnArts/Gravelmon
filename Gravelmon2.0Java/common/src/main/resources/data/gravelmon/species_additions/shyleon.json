@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "preEvolution": "shyleon form=xenoversal",
+      "preEvolution": "shyleon form=astral",
       "baseScale": 1.0,
       "cannotDynamax": false,
       "abilities": [
@@ -314,24 +314,24 @@
             "percentage": 40
           },
           {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 40
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
+          },
+          {
+            "item": "gravelmon:xenoversal_ring",
+            "quantityRange": "1-1",
+            "percentage": 10
           },
           {
             "item": "gravelmon:xenoversal_ring",
@@ -565,22 +565,22 @@
           {
             "item": "gravelmon:terrestrial_ring",
             "quantityRange": "1-1",
-            "percentage": 40
+            "percentage": 10
           },
           {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
-            "percentage": 40
+            "percentage": 10
           },
           {
             "item": "gravelmon:terrestrial_ring",
             "quantityRange": "1-1",
-            "percentage": 10
+            "percentage": 40
           },
           {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
-            "percentage": 10
+            "percentage": 40
           },
           {
             "item": "gravelmon:terrestrial_ring",

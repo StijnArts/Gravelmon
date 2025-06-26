@@ -11,8 +11,8 @@ public class Soaropod extends drai.dev.data.pokemon.Pokemon {
                 Type.NORMAL,Type.FLYING,
                 stats,
                 List.of(Ability.MIRROR_ARMOR), Ability.MAGIC_BOUNCE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                35, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -34,10 +34,10 @@ public class Soaropod extends drai.dev.data.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_SWAP,1)                        ),
                 List.of(Label.URZAVOS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(2)
+                        .fossil()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_PEAK).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Soaropod");

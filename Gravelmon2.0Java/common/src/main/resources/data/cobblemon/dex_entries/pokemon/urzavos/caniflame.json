@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:caniflame",
+  "speciesId": "cobblemon:caniflame",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

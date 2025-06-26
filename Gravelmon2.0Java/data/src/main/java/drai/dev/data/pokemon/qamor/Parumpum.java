@@ -24,7 +24,7 @@ public class Parumpum extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("During battles of tribes, native Qamorans would always take Parumpum out to help sync the warriors with one another, and pump them up for the fight."),
-                List.of(new EvolutionEntry("dokuduru", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Dokudurru", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"47")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRUM_BEATING,"tm"),

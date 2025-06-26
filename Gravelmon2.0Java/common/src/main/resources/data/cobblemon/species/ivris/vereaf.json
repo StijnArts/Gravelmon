@@ -2,13 +2,14 @@
   "name": "Vereaf",
   "primaryType": "grass",
   "secondaryType": "poison",
-  "catchRate": 255,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "preEvolution": "hezard",
+  "baseScale": 0.046875,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -40,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 65,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 34,
+    "special_defence": 62,
+    "speed": 56
   },
   "evYield": {
     "hp": 0,
@@ -60,50 +61,53 @@
   ],
   "drops": {},
   "moves": [
-    "1:absorb",
-    "1:acid",
+    "1:leafage",
+    "1:poisonsting",
     "1:leer",
     "1:leer",
-    "4:megadrain",
-    "4:clearsmog",
-    "7:magicalleaf",
-    "7:sludge",
+    "4:absorb",
+    "4:venoshock",
+    "7:trailblaze",
+    "7:poisontail",
     "10:gigadrain",
     "10:toxicspikes",
-    "13:energyball",
+    "13:seedbomb",
     "13:sludgebomb",
-    "16:solarbeam",
-    "16:sludgewave",
-    "19:leafage",
-    "19:poisonsting",
-    "22:leer",
-    "22:leer",
-    "25:absorb",
-    "25:venoshock",
-    "28:trailblaze",
-    "28:poisontail",
-    "31:gigadrain",
-    "31:toxicspikes",
-    "34:seedbomb",
-    "34:sludgebomb",
-    "39:leafblade",
-    "39:poisonjab",
+    "16:leafblade",
+    "16:poisonjab",
     "tm:terablast"
   ],
   "labels": [
     "ivris",
     "not_modeled",
     "starter",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],
   "pokedex": [
     "cobblemon.species.vereaf.desc"
   ],
-  "height": 0,
+  "height": 10,
   "weight": 0,
   "aspects": [],
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "vereaf_varanion",
+      "variant": "level_up",
+      "result": "varanion",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "36"
+        }
+      ],
+      "permanent": true
+    }
+  ],
   "nationalPokedexNumber": 4812,
   "shoulderMountable": false,
   "hitbox": {

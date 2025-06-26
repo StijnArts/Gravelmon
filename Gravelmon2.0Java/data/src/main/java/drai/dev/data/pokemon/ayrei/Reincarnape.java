@@ -118,7 +118,7 @@ public class Reincarnape extends drai.dev.data.pokemon.Pokemon {
     .build(), List.of());
 	
            setLangFileName("Reincarnape");
-           addAdditionalEvolution("primape", new EvolutionEntry("reincarnape", EvolutionType.ITEM_INTERACT, false, List.of(),
+           addAdditionalEvolution("primeape", new EvolutionEntry("reincarnape", EvolutionType.ITEM_INTERACT, false, List.of(),
                    List.of(),List.of(),"cobblemon:magmarizer"));
 
     }

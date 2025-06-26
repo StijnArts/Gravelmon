@@ -2,13 +2,13 @@
   "name": "Drastell",
   "primaryType": "dark",
   "secondaryType": "fire",
-  "catchRate": 3,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.19218749999999998,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -22,7 +22,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -89,11 +89,11 @@
   "pokedex": [
     "cobblemon.species.drastell.desc"
   ],
-  "height": 0,
+  "height": 41,
   "weight": 0,
   "aspects": [],
   "evolutions": [],
-  "nationalPokedexNumber": 4924,
+  "nationalPokedexNumber": 4938,
   "shoulderMountable": false,
   "hitbox": {
     "width": 32.0,

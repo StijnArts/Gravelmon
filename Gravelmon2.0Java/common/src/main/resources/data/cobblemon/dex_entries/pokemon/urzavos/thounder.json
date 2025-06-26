@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thounder",
+  "speciesId": "cobblemon:thounder",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

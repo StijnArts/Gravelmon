@@ -8,7 +8,8 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 28.799999999999997,
+  "preEvolution": "ozzapi",
+  "baseScale": 0.6063157894736843,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -82,7 +83,9 @@
   ],
   "labels": [
     "otopo",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.oscillacone.desc"
@@ -94,8 +97,8 @@
   "nationalPokedexNumber": 10097,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 5.9375,
+    "height": 5.9375,
     "fixed": false
   },
   "features": [],

@@ -7,6 +7,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "chitaki",
   "baseScale": 0.4253164556962025,
   "cannotDynamax": false,
   "abilities": [
@@ -85,7 +86,9 @@
   ],
   "labels": [
     "sorin",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chitossan.desc"

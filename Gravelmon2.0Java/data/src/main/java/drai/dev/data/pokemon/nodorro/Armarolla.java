@@ -23,7 +23,7 @@ public class Armarolla extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("- Sand Attack Ground - Tackle Normal - Leer Normal - Harden Normal - RolloutSTAB Rock 4 Headbutt Normal 6 Mud Shot Ground 11 RolloutSTAB Rock 16 Stealth Rock Rock 19 Sharpen Normal 24 Rock BlastSTAB Rock 27 Rock Polish Rock 29 Iron Defense Steel 31 Spiky Shield Grass 36 Rock Climb Normal 39 Metal BurstSTAB Steel 40 Rock SlideSTAB Rock 43 Iron HeadSTAB Steel 50 Horn Drill Normal 53 Earthquake Ground"),
-                List.of(new EvolutionEntry("armodilla", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Armodrilla", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

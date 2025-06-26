@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nidoranm-forman",
+  "speciesId": "cobblemon:nidoranm",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Forman",
+      "unlockForms": [
+        "Forman"
+      ]
+    }
+  ],
+  "variations": []
+}

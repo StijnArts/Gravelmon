@@ -2,6 +2,8 @@ package drai.dev.data.games.instagram.fra;
 
 import drai.dev.data.pokemon.borazul.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
+
+//DONE
 public class Borazul extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Borazul();
     private Borazul() {

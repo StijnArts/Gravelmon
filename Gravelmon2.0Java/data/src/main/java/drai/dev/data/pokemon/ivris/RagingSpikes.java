@@ -16,8 +16,8 @@ public class RagingSpikes extends drai.dev.data.pokemon.Pokemon {
                         105,
                         24),
                 List.of(Ability.PROTOSYNTHESIS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                24, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,9 +28,9 @@ public class RagingSpikes extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.IVRIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .abnormality()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SPOOKY).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Raging Spikes");

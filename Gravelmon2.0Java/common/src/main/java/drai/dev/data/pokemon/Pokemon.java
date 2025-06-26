@@ -18,7 +18,7 @@ public class Pokemon extends AbstractPokemon {
     //temp
     public boolean needsUpdatedSpawnDefinition = false;
     private int pokedexNumber;
-    private final List<PokemonForm> forms;
+    private final List<PokemonForm> forms = new ArrayList<>();
     private Boolean isNew = true;
     private boolean nameDifferentInLangFile;
     private String langFileName;
@@ -105,7 +105,7 @@ public class Pokemon extends AbstractPokemon {
                    List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, List<PokemonForm> forms) {
         super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
                 eggCycles, eggGroups, entries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, List.of(), height, weight, pokemonSpawnData);
-        this.forms = forms;
+        this.forms.addAll(forms);
         POKEMON_REGISTRY.put(getCleanName(), this);
         forms.forEach(form -> form.setFormOf(this));
     }
@@ -186,7 +186,7 @@ public class Pokemon extends AbstractPokemon {
                    List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, List<PokemonSpawnData> pokemonSpawnData, double d, double e, List<PokemonForm> forms) {
         super(name, stats, primaryType, null, abilities, hiddenAbility, catchRate, maleRatio, baseExperienceYield, experienceGroup,
                 eggCycles, eggGroups, entries, evolutions, labels, dropAmount, drops, baseFriendship, evYield, learnSet, List.of(), height, weight, pokemonSpawnData);
-        this.forms = forms;
+        this.forms.addAll(forms);
         POKEMON_REGISTRY.put(getCleanName(), this);
         forms.forEach(form -> form.setFormOf(this));
     }

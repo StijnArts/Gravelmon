@@ -90,9 +90,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "plantis_ensencoon",
+      "id": "plantis_savantis",
       "variant": "level_up",
-      "result": "ensencoon",
+      "result": "Savantis",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

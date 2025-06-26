@@ -24,7 +24,7 @@ public class Inkuid extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("funkuid", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Gunkuid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(),
                 List.of(Label.ALDAO),

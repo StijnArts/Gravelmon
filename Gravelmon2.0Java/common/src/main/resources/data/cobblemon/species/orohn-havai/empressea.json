@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "shelmissy",
-  "baseScale": 22.799999999999997,
+  "baseScale": 0.07972027972027972,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -93,8 +93,8 @@
   "nationalPokedexNumber": 4063,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 35.75,
+    "height": 35.75,
     "fixed": false
   },
   "features": [],

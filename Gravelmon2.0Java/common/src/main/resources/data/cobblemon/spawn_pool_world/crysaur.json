@@ -6,9 +6,6 @@
     {
       "id": "crysaur-01",
       "pokemon": "crysaur",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",

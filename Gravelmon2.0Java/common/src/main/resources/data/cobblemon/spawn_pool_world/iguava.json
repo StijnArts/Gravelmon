@@ -7,7 +7,6 @@
       "id": "iguava-01",
       "pokemon": "iguava",
       "presets": [
-        "underground",
         "near_lava"
       ],
       "type": "pokemon",
@@ -17,7 +16,7 @@
       "weight": 9.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

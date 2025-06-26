@@ -2,13 +2,14 @@
   "name": "Varanion",
   "primaryType": "grass",
   "secondaryType": "poison",
-  "catchRate": 55,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "preEvolution": "vereaf",
+  "baseScale": 0.08906249999999999,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -80,13 +81,15 @@
     "ivris",
     "not_modeled",
     "starter",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],
   "pokedex": [
     "cobblemon.species.varanion.desc"
   ],
-  "height": 0,
+  "height": 19,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

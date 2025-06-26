@@ -17,7 +17,7 @@ public class Craycrane extends drai.dev.data.pokemon.Pokemon {
                         70),
                 List.of(Ability.HEAVY_METAL), Ability.STEELWORKER,
                 70, 3000,
-                new Stats(1,2,0,0,0,0), 0,
+                new Stats(1,2,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -41,9 +41,9 @@ public class Craycrane extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.ULTRASPACE),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(33).setPool(SpawnPool.RARE).setWeight(SpawnWeight.RARE)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Craycrane");

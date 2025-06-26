@@ -89,9 +89,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "shockitt_felightnin",
+      "id": "shockitt_felightning",
       "variant": "level_up",
-      "result": "felightnin",
+      "result": "felightning",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

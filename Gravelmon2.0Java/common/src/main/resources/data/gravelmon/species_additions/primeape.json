@@ -204,6 +204,16 @@
         }
       ],
       "permanent": true
+    },
+    {
+      "id": "primeape_reincarnape",
+      "variant": "item_interact",
+      "result": "reincarnape",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:magmarizer",
+      "permanent": true
     }
   ],
   "drops": {
@@ -211,6 +221,11 @@
     "entries": [
       {
         "item": "gravelmon:jungle_crown",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:magmarizer",
         "quantityRange": "1-1",
         "percentage": 10
       }

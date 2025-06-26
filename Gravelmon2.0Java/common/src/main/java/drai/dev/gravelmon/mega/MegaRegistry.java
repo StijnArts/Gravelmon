@@ -245,7 +245,7 @@ public class MegaRegistry {
                         Ability.JUSTIFIED,
                         18, "atlas", List.of(Label.ATLAS))
                         .addPalette(new MegaStonePalette("#8a4c7e", "#ffffff", "#d03362")),
-                new MegaEvolution("strikezal",
+                new MegaEvolution("strikezall",
                         Type.FIGHTING, Type.STEEL,
                         new Stats(88,
                                 133,
@@ -670,7 +670,7 @@ public class MegaRegistry {
                         ),
                         Ability.NO_GUARD,
                         16, "ionos", List.of(Label.IONOS))
-                        .addPalette(new MegaStonePalette("#f6d069", "#ffffff", "#946641")),
+                        .addPalette(new MegaStonePalette("#f6d069", "#ffffff", "#946641"))/*,
                 new MegaEvolution("torpeban",
                         Type.FIRE,
                         new Stats(85,
@@ -730,7 +730,7 @@ public class MegaRegistry {
                         ),
                         Ability.SPLASHBACK,
                         20, "kuria", List.of(Label.KURIA))
-                        .addPalette(new MegaStonePalette("#1b314e", "#f67b29", "#8bbdff"))
+                        .addPalette(new MegaStonePalette("#1b314e", "#f67b29", "#8bbdff"))*/
 
                 );
     }

@@ -2,13 +2,13 @@
   "name": "Ferociousfins",
   "primaryType": "water",
   "secondaryType": "dragon",
-  "catchRate": 3,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.19218749999999998,
   "cannotDynamax": false,
   "abilities": [
     "protosynthesis"
@@ -27,14 +27,14 @@
       "canLook": true,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "avoidsLand": true
       },
       "swim": {
         "swimSpeed": 0.1,
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
@@ -96,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.ferociousfins.desc"
   ],
-  "height": 0,
+  "height": 41,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

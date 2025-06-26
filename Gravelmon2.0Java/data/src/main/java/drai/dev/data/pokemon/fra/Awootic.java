@@ -23,7 +23,7 @@ public class Awootic extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("huskimo", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Huskinu", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(),
                 List.of(Label.FRA),

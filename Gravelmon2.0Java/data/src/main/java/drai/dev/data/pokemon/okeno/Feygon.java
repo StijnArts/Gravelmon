@@ -23,7 +23,7 @@ public class Feygon extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("At night, they search the grasslands and destroy any four-leaf clover they find. It is said they look for lucky people and try to ruin their lives."),
-                List.of(new EvolutionEntry("maligon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Deevigon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.JAB,1),

@@ -15,6 +15,7 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
 
 import java.util.*;
+import java.util.function.*;
 
 import static drai.dev.gravelmon.Gravelmon.*;
 
@@ -218,13 +219,13 @@ public class GravelmonItems {
     }
 
     public static RegistrySupplier<Item> megaItem(String megaStoneName) {
-        Item item = new Item(new Item.Properties()) {
+        Supplier<Item> item = ()->new Item(new Item.Properties()) {
             @Override
             public void appendHoverText(ItemStack itemStack, TooltipContext tooltipContext, List<Component> list, TooltipFlag tooltipFlag) {
                 list.add(Component.translatable("tooltip.gravelmon."+megaStoneName+".tooltip"));
                 super.appendHoverText(itemStack, tooltipContext, list, tooltipFlag);
             }
         };
-        return ITEMS.register(megaStoneName, () -> item);
+        return ITEMS.register(megaStoneName, item);
     }
 }

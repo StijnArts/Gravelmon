@@ -23,7 +23,7 @@ public class Geckrow extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Geckrow live in humid jungles and constantly climb the large trees. In the morning, they soak up the sunlight from the canopy, but when the day turns too hot, they descend to the floor to cool themselves in mud pools."),
-                List.of(new EvolutionEntry("gaonopy", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Goanopy", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

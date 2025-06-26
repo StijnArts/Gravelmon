@@ -16,8 +16,8 @@ public class AbyssalHunger extends drai.dev.data.pokemon.Pokemon {
                         95,
                         53),
                 List.of(Ability.PROTOSYNTHESIS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                32, 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,11 +28,12 @@ public class AbyssalHunger extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.IVRIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .abnormality()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_WARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Abyssal Hunger");
 
     }

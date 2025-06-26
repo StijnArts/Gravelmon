@@ -7,6 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
+//DONE
 public class Palmia  extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Palmia();
     private Palmia() {

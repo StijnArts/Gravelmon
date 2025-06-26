@@ -6,9 +6,6 @@
     {
       "id": "talpastar-01",
       "pokemon": "talpastar",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",
@@ -16,7 +13,7 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

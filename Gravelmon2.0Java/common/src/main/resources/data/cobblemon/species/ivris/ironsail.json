@@ -2,13 +2,13 @@
   "name": "Ironsail",
   "primaryType": "dark",
   "secondaryType": "water",
-  "catchRate": 38,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.09843750000000001,
   "cannotDynamax": false,
   "abilities": [
     "quarkdrive"
@@ -34,7 +34,7 @@
         "canSwimInWater": true,
         "canSwimInLava": false,
         "canBreatheUnderlava": false,
-        "canBreatheUnderwater": false,
+        "canBreatheUnderwater": true,
         "canWalkOnLava": false
       }
     }
@@ -96,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.ironsail.desc"
   ],
-  "height": 0,
+  "height": 21,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

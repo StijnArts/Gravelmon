@@ -9,7 +9,7 @@
   "eggCycles": 50,
   "baseFriendship": 70,
   "preEvolution": "sneacroach",
-  "baseScale": 19.200000000000003,
+  "baseScale": 0.49230769230769234,
   "cannotDynamax": false,
   "abilities": [
     "rattled",
@@ -122,8 +122,8 @@
   "nationalPokedexNumber": 8793,
   "shoulderMountable": false,
   "hitbox": {
-    "width": 0.125,
-    "height": 0.125,
+    "width": 4.875,
+    "height": 4.875,
     "fixed": false
   },
   "features": [],

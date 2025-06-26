@@ -107,9 +107,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "armarolla_armodilla",
+      "id": "armarolla_armodrilla",
       "variant": "level_up",
-      "result": "armodilla",
+      "result": "Armodrilla",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

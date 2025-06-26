@@ -24,7 +24,7 @@ public class Marshten extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("overmine", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Ocermine", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(),
                 List.of(Label.BAGO),

@@ -23,7 +23,7 @@ public class EpochGrowlitheOne extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It respects only the strongest trainers, making it an absolute menace to raise for even the most iron-willed trainers."),
-                List.of(new EvolutionEntry("epochtwoarcanine", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("arcanine epochtwo", EvolutionType.ITEM_INTERACT, false, List.of(),
  List.of(), List.of(), "cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CHAOSBLAST,60),

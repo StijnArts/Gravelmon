@@ -23,7 +23,7 @@ public class Caprikid extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("caspaprine", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("Cascaprine", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:water_stone"),
                         new EvolutionEntry("flaries", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:fire_stone")),

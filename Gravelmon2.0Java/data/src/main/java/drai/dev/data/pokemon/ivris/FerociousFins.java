@@ -16,8 +16,8 @@ public class FerociousFins extends drai.dev.data.pokemon.Pokemon {
                         109,
                         25),
                 List.of(Ability.PROTOSYNTHESIS), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                41, 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -28,11 +28,12 @@ public class FerociousFins extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.IVRIS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
-                        .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .abnormality()
+                        .setContext(SpawnContext.SUBMERGED)
+                        .setBiomes(Biome.IS_LUKEWARM_OCEAN).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.UNDERWATER).build(),
                 List.of());
+        setAquatic();
            setLangFileName("Ferocious Fins");
 
     }

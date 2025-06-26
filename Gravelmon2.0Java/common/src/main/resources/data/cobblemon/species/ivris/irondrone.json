@@ -2,13 +2,13 @@
   "name": "Irondrone",
   "primaryType": "flying",
   "secondaryType": "poison",
-  "catchRate": 38,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "baseScale": 0.06562499999999999,
   "cannotDynamax": false,
   "abilities": [
     "quarkdrive"
@@ -22,7 +22,7 @@
     },
     "moving": {
       "fly": {
-        "canFly": false
+        "canFly": true
       },
       "canLook": true,
       "walk": {
@@ -96,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.irondrone.desc"
   ],
-  "height": 0,
+  "height": 14,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

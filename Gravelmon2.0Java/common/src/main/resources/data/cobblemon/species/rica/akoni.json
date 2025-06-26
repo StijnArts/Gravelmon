@@ -8,6 +8,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "tinion",
   "baseScale": 0.39999999999999997,
   "cannotDynamax": false,
   "abilities": [
@@ -130,7 +131,9 @@
   ],
   "labels": [
     "rica",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.akoni.desc"

@@ -7,7 +7,6 @@
       "id": "gemmany-01",
       "pokemon": "gemmany",
       "presets": [
-        "underground",
         "gemstones"
       ],
       "type": "pokemon",
@@ -17,7 +16,7 @@
       "weight": 0.005,
       "condition": {
         "biomes": [
-          "#cobblemon:is_overworld"
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

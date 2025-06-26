@@ -10,6 +10,37 @@ public class PokemonForm extends AbstractPokemon {
     private final Boolean isBattleOnly;
     private boolean hasSeparateModel = false;
     private Pokemon formOf;
+
+    public static PokemonForm fromPokemon(Pokemon pokemon, Aspect aspect) {
+        var spawnData = pokemon.getSpawnData().getFirst();
+        PokemonForm pokemonForm = new PokemonForm(aspect.getName(), false,
+                pokemon.getPrimaryType(), pokemon.getSecondaryType(),
+                pokemon.getStats(),
+                pokemon.getAbilities(), pokemon.getHiddenAbility(), pokemon.getHeight(), pokemon.getWeight(),
+                pokemon.getEvYield(), pokemon.getCatchRate(), pokemon.getMaleRatio(), pokemon.getBaseExperienceYield(),
+                pokemon.getExperienceGroup(), pokemon.getBaseFriendship(),
+                pokemon.getEggCycles(), pokemon.getEggGroups(),
+
+                new ArrayList<>(List.of(aspect)),
+
+                pokemon.getDexEntries(),
+
+                pokemon.getEvolutions(),
+
+                pokemon.getLearnSet(),
+
+                pokemon.getLabels(),
+
+                pokemon.getDropAmount(), pokemon.getDrops(),
+
+                spawnData.spawnContext, spawnData.spawnPool,
+                spawnData.minSpawnLevel, spawnData.maxSpawnLevel, spawnData.spawnWeight,
+                spawnData.spawnConditions,
+                spawnData.spawnAntiConditions, spawnData.spawnPresets);
+        pokemonForm.formOf = pokemon;
+        return pokemonForm;
+    }
+
     public String getFormName() {
         return name;
     }
@@ -17,7 +48,8 @@ public class PokemonForm extends AbstractPokemon {
     public PokemonForm(String name, Boolean isBattleOnly,
                        Type primaryType, Stats stats,
                        List<Ability> abilities, Ability hiddenAbility, int height, int weight,
-                       Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                       Stats evYield, int catchRate, double maleRatio, int baseExperienceYield,
+                       ExperienceGroup experienceGroup, int baseFriendship,
                        int eggCycles, List<EggGroup> eggGroups,
 
                        List<Aspect> aspects,
@@ -33,7 +65,8 @@ public class PokemonForm extends AbstractPokemon {
                        int dropAmount, List<ItemDrop> drops,
 
                        SpawnContext spawnContext, SpawnPool spawnPool,
-                       int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                       int minSpawnLevel, int maxSpawnLevel, double spawnWeight,
+                       List<SpawnCondition> spawnConditions,
                        List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets
 
     ) {
@@ -50,7 +83,8 @@ public class PokemonForm extends AbstractPokemon {
                        Type primaryType, Type secondaryType,
                        Stats stats,
                        List<Ability> abilities, Ability hiddenAbility, int height, int weight,
-                       Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                       Stats evYield, int catchRate, double maleRatio, int baseExperienceYield,
+                       ExperienceGroup experienceGroup, int baseFriendship,
                        int eggCycles, List<EggGroup> eggGroups,
 
                        List<Aspect> aspects,
@@ -66,7 +100,8 @@ public class PokemonForm extends AbstractPokemon {
                        int dropAmount, List<ItemDrop> drops,
 
                        SpawnContext spawnContext, SpawnPool spawnPool,
-                       int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                       int minSpawnLevel, int maxSpawnLevel, double spawnWeight,
+                       List<SpawnCondition> spawnConditions,
                        List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets
 
     ) {
@@ -102,5 +137,11 @@ public class PokemonForm extends AbstractPokemon {
     @Override
     public String getTextureName() {
         return getCleanName()+"_"+getFormOf().getCleanName();
+    }
+
+    public PokemonForm setEvolutions(List<EvolutionEntry> evolutions) {
+        this.evolutions.clear();
+        this.evolutions.addAll(evolutions);
+        return this;
     }
 }

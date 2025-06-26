@@ -16,8 +16,8 @@ public class Hipposh extends drai.dev.data.pokemon.Pokemon {
                         89,
                         49),
                 List.of(), null,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                22, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -27,10 +27,10 @@ public class Hipposh extends drai.dev.data.pokemon.Pokemon {
                 List.of(),
                 List.of(Label.IVRIS),
                 0, List.of(
-                ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                ),new PokemonSpawnDataBuilder(3)
+                        .starter()
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_SWAMP).canSeeSky()
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Hipposh");

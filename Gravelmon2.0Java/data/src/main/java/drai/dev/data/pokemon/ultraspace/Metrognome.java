@@ -31,7 +31,7 @@ public class Metrognome extends drai.dev.data.pokemon.Pokemon {
                 ),new PokemonSpawnDataBuilder(1)
                         .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
+                        .setBiomes(Biome.IS_END)
                         .setSpawnPreset(SpawnPreset.NATURAL).build(),
                 List.of());
            setLangFileName("Metrognome");

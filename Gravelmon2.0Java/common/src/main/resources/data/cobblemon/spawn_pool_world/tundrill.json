@@ -6,9 +6,6 @@
     {
       "id": "tundrill-01",
       "pokemon": "tundrill",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,8 @@
       "weight": 0.9,
       "condition": {
         "biomes": [
-          "#cobblemon:is_snowy"
+          "#cobblemon:is_snowy",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

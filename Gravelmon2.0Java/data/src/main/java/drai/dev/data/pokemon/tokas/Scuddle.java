@@ -16,14 +16,15 @@ public class Scuddle extends drai.dev.data.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.HARVEST), Ability.FRIEND_GUARD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("- Water GunSTAB Water - BubbleSTAB Water - Charm Fairy 6 Razor LeafSTAB Grass 8 Tackle Normal 10 Fake Tears Dark 10 Return Normal 11 Double Slap Normal 20 Snore Normal 44 Grass Whistle Grass 44 Bubble BeamSTAB Water 47 Protect Normal 77 CrabhammerSTAB Water 100 Attract Normal"),
-                List.of(),
+                List.of(new EvolutionEntry("crustancient", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.BUBBLE,1),
@@ -42,11 +43,13 @@ public class Scuddle extends drai.dev.data.pokemon.Pokemon {
                 List.of(Label.TOKAS),
                 0, List.of(
                 ),new PokemonSpawnDataBuilder(1)
-                        .setMinLevel(3).setPool(SpawnPool.COMMON).setWeight(SpawnWeight.COMMON)
+                        .setMinLevel(3).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.UNCOMMON)
                         .setContext(SpawnContext.GROUNDED)
-                        .setBiomes(Biome.IS_VOID).canSeeSky()
-                        .setSpawnPreset(SpawnPreset.NATURAL).build(),
+                        .setBiomes(Biome.IS_COAST).canSeeSky()
+                        .setSpawnPreset(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER).build(),
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Scuddle");
 
     }

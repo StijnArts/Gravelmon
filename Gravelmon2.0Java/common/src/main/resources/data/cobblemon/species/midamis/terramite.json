@@ -8,11 +8,11 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "preEvolution": "dugmite",
   "baseScale": 0.1,
   "cannotDynamax": false,
   "abilities": [
-    "intimidate"
+    "intimidate",
+    "h:intimidate"
   ],
   "behaviour": {
     "resting": {
@@ -76,14 +76,11 @@
     "44:ironhead",
     "48:entrainment",
     "52:irondefense",
-    "56:guillotine",
-    "tm:terablast"
+    "56:guillotine"
   ],
   "labels": [
     "midamis",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.terramite.desc"

@@ -562,7 +562,7 @@ public class SolarLightLunarDark extends drai.dev.data.games.registry.Game {
                 .setContext(SpawnContext.GROUNDED)
                 .setBiomes(Biome.IS_BADLANDS).duringDaytime().canSeeSky()
                 .setSpawnPreset(SpawnPreset.NATURAL).build()));
-        addNewPokemon(new Erramite().overwriteSpawnData(new PokemonSpawnDataBuilder(2)
+        addNewPokemon(new Terramite().overwriteSpawnData(new PokemonSpawnDataBuilder(2)
                 .setMinLevel(6).setPool(SpawnPool.UNCOMMON).setWeight(SpawnWeight.COMMON)
                 .setContext(SpawnContext.GROUNDED)
                 .setBiomes(Biome.IS_DESERT).canSeeSky()

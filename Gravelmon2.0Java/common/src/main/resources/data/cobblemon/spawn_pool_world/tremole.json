@@ -6,9 +6,6 @@
     {
       "id": "tremole-01",
       "pokemon": "tremole",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",

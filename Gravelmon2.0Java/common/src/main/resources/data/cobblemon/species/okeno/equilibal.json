@@ -107,9 +107,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "equilibal_juggaloo",
+      "id": "equilibal_hoppler",
       "variant": "level_up",
-      "result": "juggaloo",
+      "result": "Hoppler",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

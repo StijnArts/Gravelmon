@@ -12,6 +12,12 @@
       "unlockForms": [
         "Epoch"
       ]
+    },
+    {
+      "displayForm": "Tokassian",
+      "unlockForms": [
+        "Tokassian"
+      ]
     }
   ]
 }

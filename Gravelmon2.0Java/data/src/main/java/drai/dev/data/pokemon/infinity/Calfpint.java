@@ -98,7 +98,7 @@ public class Calfpint extends Pokemon {
                 ), new PokemonSpawnDataBuilder(1)
     .setPool(SpawnPool.COMMON)
     .setMinLevel(3)
-    .setWeight(SpawnWeight.COMMON)
+    .setWeight(SpawnWeight.UNCOMMON)
     .setContext(SpawnContext.GROUNDED)
     .setBiomes(Biome.IS_PLAINS)
     .canSeeSky()

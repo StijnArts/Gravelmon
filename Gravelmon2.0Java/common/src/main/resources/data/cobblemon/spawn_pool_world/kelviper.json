@@ -6,9 +6,6 @@
     {
       "id": "kelviper-01",
       "pokemon": "kelviper",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
@@ -16,7 +13,8 @@
       "weight": 0.4,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

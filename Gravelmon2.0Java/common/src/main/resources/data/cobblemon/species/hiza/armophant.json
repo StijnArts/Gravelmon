@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "larvozer",
   "baseScale": 0.5241379310344827,
   "cannotDynamax": false,
   "abilities": [
@@ -82,7 +83,9 @@
   ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armophant.desc"

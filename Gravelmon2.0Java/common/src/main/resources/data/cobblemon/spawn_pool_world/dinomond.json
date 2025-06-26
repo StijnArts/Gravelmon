@@ -6,9 +6,6 @@
     {
       "id": "dinomond-01",
       "pokemon": "dinomond",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",

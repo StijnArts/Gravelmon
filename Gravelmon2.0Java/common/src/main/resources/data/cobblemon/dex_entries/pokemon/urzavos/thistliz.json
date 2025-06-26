@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thistliz",
+  "speciesId": "cobblemon:thistliz",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

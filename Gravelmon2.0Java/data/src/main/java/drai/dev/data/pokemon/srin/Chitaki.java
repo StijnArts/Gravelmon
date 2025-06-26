@@ -23,7 +23,7 @@ public class Chitaki extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("kindoko", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Chitossan", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(),
                 List.of(Label.SORIN),

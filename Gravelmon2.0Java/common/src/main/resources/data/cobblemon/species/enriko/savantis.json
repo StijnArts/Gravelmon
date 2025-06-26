@@ -8,6 +8,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "plantis",
   "baseScale": 0.4173913043478261,
   "cannotDynamax": false,
   "abilities": [
@@ -80,7 +81,9 @@
   "labels": [
     "enriko",
     "not_modeled",
-    "starter"
+    "starter",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.savantis.desc"

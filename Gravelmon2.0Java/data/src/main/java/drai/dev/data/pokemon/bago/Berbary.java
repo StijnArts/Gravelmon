@@ -24,7 +24,7 @@ public class Berbary extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("rockpisc", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("Barbaroca", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(),
                 List.of(Label.BAGO),

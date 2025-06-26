@@ -155,8 +155,6 @@
     "cobblemon:gogoat-ayreian",
     "cobblemon:phantump-ayreian",
     "cobblemon:trevenant-ayreian",
-    "cobblemon:fletchling-ayreian",
-    "cobblemon:fletchinder-ayreian",
     "cobblemon:pancham-ayreian",
     "cobblemon:pangoro-ayreian",
     "cobblemon:carbink-ayreian",
@@ -250,6 +248,8 @@
     "cobblemon:applidunn",
     "cobblemon:dipplin",
     "cobblemon:hydrapple",
+    "cobblemon:fletchling-ayreian",
+    "cobblemon:fletchinder-ayreian",
     "cobblemon:fleumflame",
     "cobblemon:frigideer"
   ]

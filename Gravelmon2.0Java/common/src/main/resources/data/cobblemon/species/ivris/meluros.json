@@ -2,13 +2,14 @@
   "name": "Meluros",
   "primaryType": "fire",
   "secondaryType": "steel",
-  "catchRate": 73,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "baseExperienceYield": 60,
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
-  "baseScale": 0.018750000000000003,
+  "preEvolution": "caligni",
+  "baseScale": 0.09843750000000001,
   "cannotDynamax": false,
   "abilities": [
     "keeneye"
@@ -90,13 +91,15 @@
     "ivris",
     "not_modeled",
     "starter",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],
   "pokedex": [
     "cobblemon.species.meluros.desc"
   ],
-  "height": 0,
+  "height": 21,
   "weight": 0,
   "aspects": [],
   "evolutions": [],

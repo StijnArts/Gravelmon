@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "oddish form=forman",
   "baseScale": 0.0421875,
   "cannotDynamax": false,
   "abilities": [
@@ -107,6 +108,8 @@
   "labels": [
     "form",
     "not_modeled",
+    "fakemon",
+    "fakemonevolution",
     "instagram",
     "instagram"
   ],

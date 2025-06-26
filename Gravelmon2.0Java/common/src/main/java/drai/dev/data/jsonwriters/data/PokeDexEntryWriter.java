@@ -17,7 +17,7 @@ public class PokeDexEntryWriter {
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         game.getNewPokemon().forEach(pokemon -> {
                 try {
-                    String dir = resourcesDir + "\\data\\cobblemon\\dex_entries\\pokemon\\"+game.getName().toLowerCase()+"\\";
+                    String dir = resourcesDir + "\\data\\cobblemon\\dex_entries\\pokemon\\"+ game.getCleanName().toLowerCase()+"\\";
                     Files.createDirectories(new File(dir).toPath());
                     writePokedexEntry(pokemon, dir, gson);
                 } catch (IOException e) {

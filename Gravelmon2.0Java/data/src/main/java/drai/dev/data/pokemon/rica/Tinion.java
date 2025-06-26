@@ -24,7 +24,7 @@ public class Tinion extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Tinion burrow underground during the day. They camouflage perfectly amongst tall grass."),
-                List.of(new EvolutionEntry("onioni", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Akoni", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

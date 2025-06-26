@@ -23,7 +23,7 @@ public class Mousu extends drai.dev.data.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("sensouri", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Mousei", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(),
                 List.of(Label.SORIN),

@@ -6,9 +6,6 @@
     {
       "id": "gaiaminth-01",
       "pokemon": "gaiaminth",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,8 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_savanna"
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

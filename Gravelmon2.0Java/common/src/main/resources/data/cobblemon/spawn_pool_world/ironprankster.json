@@ -12,15 +12,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_deep_dark"
         ],
-        "minSkyLight": 8,
-        "maxSkyLight": 15
+        "minSkyLight": 0,
+        "maxSkyLight": 7
       },
       "weightMultiplier": {
         "multiplier": 5.0,

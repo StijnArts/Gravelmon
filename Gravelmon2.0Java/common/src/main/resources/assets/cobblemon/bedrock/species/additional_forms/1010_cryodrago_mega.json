@@ -6,8 +6,8 @@
       "aspects": [
         "mega"
       ],
-      "model": "cobblemon:cutout_gravelmon_2_by_2.geo",
-      "poser": "cobblemon:cutout_gravelmon_2_by_2",
+      "model": "cobblemon:cutout_gravelmon_210_by_200.geo",
+      "poser": "cobblemon:cutout_gravelmon_210_by_200",
       "texture": "cobblemon:textures/pokemon/solarlightlunardark/cryodrago_mega.png",
       "layers": [
         {

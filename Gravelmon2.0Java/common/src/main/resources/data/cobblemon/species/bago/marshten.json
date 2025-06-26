@@ -41,12 +41,12 @@
     }
   },
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 51,
+    "attack": 77,
+    "defence": 53,
+    "special_attack": 27,
+    "special_defence": 53,
+    "speed": 91
   },
   "evYield": {
     "hp": 0,
@@ -62,19 +62,15 @@
   "drops": {},
   "moves": [
     "1:watergun",
+    "1:flipturn",
     "1:tailwhip",
+    "1:quickattack",
     "4:bubblebeam",
-    "7:brine",
+    "4:swordsdance",
+    "7:aquatail",
     "10:surf",
-    "13:chillingwater",
-    "16:hydropump",
-    "19:watergun",
-    "22:tailwhip",
-    "25:bubblebeam",
-    "28:aquatail",
-    "31:surf",
-    "34:waterfall",
-    "39:liquidation",
+    "13:waterfall",
+    "16:liquidation",
     "tm:terablast"
   ],
   "labels": [
@@ -94,9 +90,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "marshten_overmine",
+      "id": "marshten_ocermine",
       "variant": "level_up",
-      "result": "overmine",
+      "result": "Ocermine",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

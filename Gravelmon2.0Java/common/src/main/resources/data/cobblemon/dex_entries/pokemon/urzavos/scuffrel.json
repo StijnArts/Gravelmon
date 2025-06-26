@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scuffrel",
+  "speciesId": "cobblemon:scuffrel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

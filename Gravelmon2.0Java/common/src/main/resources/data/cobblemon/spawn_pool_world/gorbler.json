@@ -6,9 +6,6 @@
     {
       "id": "gorbler-01",
       "pokemon": "gorbler",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
@@ -16,7 +13,8 @@
       "weight": 5.0,
       "condition": {
         "biomes": [
-          "#cobblemon:is_savanna"
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

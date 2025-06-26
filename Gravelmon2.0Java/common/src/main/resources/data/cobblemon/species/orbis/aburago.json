@@ -78,9 +78,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "aburago_terroar",
+      "id": "aburago_terraor",
       "variant": "level_up",
-      "result": "terroar",
+      "result": "Terraor",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

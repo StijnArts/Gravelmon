@@ -7,17 +7,16 @@
       "id": "abyssalhunger-01",
       "pokemon": "abyssalhunger",
       "presets": [
-        "natural",
-        "wild"
+        "water"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_warm_ocean"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15
@@ -36,12 +35,12 @@
       "pokemon": "abyssalhunger",
       "type": "pokemon",
       "context": "fishing",
-      "bucket": "common",
-      "level": "3-23",
-      "weight": 9.0,
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 0.05,
       "condition": {
         "biomes": [
-          "minecraft:the_void"
+          "#cobblemon:is_warm_ocean"
         ]
       },
       "weightMultiplier": {

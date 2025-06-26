@@ -8,6 +8,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 100,
   "baseFriendship": 70,
+  "preEvolution": "baulder",
   "baseScale": 0.5368421052631579,
   "cannotDynamax": false,
   "abilities": [
@@ -84,7 +85,9 @@
   ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dreadrock.desc"

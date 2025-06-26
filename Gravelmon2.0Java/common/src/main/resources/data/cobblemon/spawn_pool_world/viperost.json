@@ -6,9 +6,6 @@
     {
       "id": "viperost-01",
       "pokemon": "viperost",
-      "presets": [
-        "underground"
-      ],
       "type": "pokemon",
       "context": "submerged",
       "bucket": "ultra-rare",
@@ -16,7 +13,8 @@
       "weight": 3.6,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cold_ocean"
+          "#cobblemon:is_cold_ocean",
+          "#cobblemon:is_cave"
         ],
         "minSkyLight": 8,
         "maxSkyLight": 15

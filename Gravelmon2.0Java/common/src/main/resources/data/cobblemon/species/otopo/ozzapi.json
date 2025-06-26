@@ -85,9 +85,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "ozzapi_tezlaraf",
+      "id": "ozzapi_oscillacone",
       "variant": "item_interact",
-      "result": "tezlaraf",
+      "result": "Oscillacone",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

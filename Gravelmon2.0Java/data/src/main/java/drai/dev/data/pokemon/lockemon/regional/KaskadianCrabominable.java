@@ -34,8 +34,8 @@ public class KaskadianCrabominable  extends Pokemon {
     .setSpawnPreset(SpawnPreset.NATURAL)
     .build(), List.of());
 	
-        this.setLangFileName("Golett");
-        this.addAdditionalEvolution("crawbrawler", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
+        this.setLangFileName("Crabominable");
+        this.addAdditionalEvolution("crabrawler", new EvolutionEntry(this.getCleanName(), EvolutionType.LEVEL_UP, List.of(),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME, Biome.IS_SNOWY_FOREST.getId() + ":" + Biome.IS_SNOWY_FOREST.getName()))));
 
     }
