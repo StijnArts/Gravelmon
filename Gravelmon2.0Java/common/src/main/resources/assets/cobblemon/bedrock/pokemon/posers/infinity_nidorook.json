@@ -12,6 +12,9 @@
     1.0,
     0.0
   ],
+  "animations": {
+    "cry": "q.bedrock_stateful('nidorook', 'cry')"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",

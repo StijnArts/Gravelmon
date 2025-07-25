@@ -24,13 +24,16 @@
       ],
       "poseTypes": [
         "STAND",
-        "PORTRAIT",
-        "PROFILE",
-        "NONE",
-        "SWIM",
-        "FLOAT",
+        "WALK",
         "SLEEP",
-        "WALK"
+        "FLOAT",
+        "SWIM",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "PROFILE",
+        "PORTRAIT",
+        "OPEN",
+        "NONE"
       ],
       "transformTicks": 10,
       "quirks": [

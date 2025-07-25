@@ -12,6 +12,9 @@
     0.55,
     0.0
   ],
+  "animations": {
+    "cry": "q.bedrock_stateful('pumpkid', 'cry')"
+  },
   "poses": {
     "standing": {
       "poseName": "standing",
