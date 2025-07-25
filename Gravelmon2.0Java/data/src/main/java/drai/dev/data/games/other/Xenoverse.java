@@ -145,6 +145,7 @@ public class Xenoverse extends Game {
         addNewPokemon(new CofagrigusX("", Aspect.X));
         addNewPokemon(new PonytaX("", Aspect.X));
         addNewPokemon(new RapidashX("", Aspect.X));
+        addNewPokemon(new RapidashStorm("", Aspect.STORM));
         addNewPokemon(new CacneaX("", Aspect.X));
         addNewPokemon(new CacturneX("", Aspect.X));
         addNewPokemon(new SwirlixX("Swirlix", Aspect.X));

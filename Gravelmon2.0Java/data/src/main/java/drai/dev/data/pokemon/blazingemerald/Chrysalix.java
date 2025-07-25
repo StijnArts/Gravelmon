@@ -82,8 +82,8 @@ public class Chrysalix extends Pokemon {
 
         getSpeciesFileData().addBasicVariation("Neoxaivus");
         getPosingFileData().setAnimationFileName("steelix");
-        getPosingFileData().setPortraitData(0.4f, new Vector3(-0.2, 1.2, 0));
-        getPosingFileData().setProfileData(0.4f, new Vector3(-0.2, 1.2, 0));
+        getPosingFileData().setPortraitData(0.7f, new Vector3(-0.7, 1.8, 0));
+        getPosingFileData().setProfileData(0.4f, new Vector3(-0.1, 1.1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.battleIdleAnimation("cobblemon").withBlink(),

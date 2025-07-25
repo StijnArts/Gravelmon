@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.30697674418604654,
+      "baseScale": 0.275,
       "cannotDynamax": false,
       "abilities": [
         "defiant",
@@ -154,8 +154,7 @@
       ],
       "labels": [
         "gen5",
-        "insurgence",
-        "not_modeled"
+        "insurgence"
       ],
       "pokedex": [
         "cobblemon.species.deltalarvesta.desc"
@@ -183,8 +182,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.375,
-        "height": 5.375,
+        "width": 6.0,
+        "height": 6.0,
         "fixed": false
       }
     },

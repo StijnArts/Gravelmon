@@ -78,7 +78,7 @@ public class Drilladin extends Pokemon {
         getPosingFileData().setProfileData(.58f, new Vector3(-.12, 0.9, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withLook()
+                AnimationData.standingAnimation().markAsBackupPose().withLook().setStatic()
         ));
     }
 }

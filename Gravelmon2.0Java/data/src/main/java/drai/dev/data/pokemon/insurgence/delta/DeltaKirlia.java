@@ -118,6 +118,7 @@ public class DeltaKirlia extends Pokemon {
         
         this.setBaseScale(0.9);
         this.setHitbox(0.5,1.4);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );

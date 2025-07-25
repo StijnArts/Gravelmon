@@ -143,5 +143,6 @@ public class Nidorook extends Pokemon {
                 AnimationData.walkingAnimation().withLook().withBlink(),
                 AnimationData.sleepingAnimation()
                 ));
+        getPosingFileData().setCry("q.bedrock_stateful('nidorook', 'cry')");
     }
 }

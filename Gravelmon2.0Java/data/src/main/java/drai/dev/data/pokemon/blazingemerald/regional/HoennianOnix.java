@@ -80,13 +80,13 @@ public class HoennianOnix extends Pokemon {
 
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
-        
+        this.setNeedsRemodel("New model with higher res textures in Cobblemon.");
         setBaseScale(3);
         setHitbox(1,1);
         getSpeciesFileData().addBasicVariation("Neoxaivus");
         getPosingFileData().setAnimationFileName("hoennian_onix");
-        getPosingFileData().setPortraitData(0.7f, new Vector3(0, 1, 0));
-        getPosingFileData().setProfileData(0.7f, new Vector3(0, 1, 0));
+        getPosingFileData().setPortraitData(0.83f, new Vector3(-1.2, 2.49, 0));
+        getPosingFileData().setProfileData(0.24f, new Vector3(0, 1.23, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
                 AnimationData.battleIdleAnimation().withBlink().addAnimation("boulder_rotation"),

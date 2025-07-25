@@ -129,7 +129,7 @@ public class DeltaLombre extends Pokemon {
         getPosingFileData().setPortraitData(2.26f, new Vector3(0.01, -0.22, 0));
         getPosingFileData().setProfileData(.85f, new Vector3(0.01, 0.52, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose()
+                AnimationData.standingAnimation().markAsBackupPose().setStatic()
         ));
     }
 }

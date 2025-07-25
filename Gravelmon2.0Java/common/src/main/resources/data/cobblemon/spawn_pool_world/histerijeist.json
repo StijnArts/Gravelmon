@@ -13,7 +13,8 @@
       "weight": 0.5,
       "condition": {
         "biomes": [
-          "#cobblemon:is_cave"
+          "#cobblemon:is_cave",
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

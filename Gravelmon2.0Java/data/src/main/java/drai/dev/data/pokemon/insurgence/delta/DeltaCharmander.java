@@ -133,6 +133,7 @@ public class DeltaCharmander extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setHitbox(0.7,1.1);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                         new AnimatedLayerData("flame",
                                 List.of("flame/deltatail1", "flame/deltatail2", "flame/deltatail3", "flame/deltatail4"),

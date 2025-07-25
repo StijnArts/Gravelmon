@@ -115,6 +115,7 @@ public class Nimbeon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("nimbeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.ROOST, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"minecraft:feather"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));

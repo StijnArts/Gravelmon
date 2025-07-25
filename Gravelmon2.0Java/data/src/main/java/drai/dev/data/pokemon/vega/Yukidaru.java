@@ -92,7 +92,7 @@ public class Yukidaru extends Pokemon {
         getPosingFileData().setProfileData( .8f, new Vector3(0, .55, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose()
+                AnimationData.standingAnimation().markAsBackupPose().setStatic()
         ));
     }
 }

@@ -71,9 +71,9 @@ public class PosingFileData {
         var pokemon = this.getPokemon();
         var metaData = pokemon.getModelMetaData();
         if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
-            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator[0]);
+            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator[0]);
         }
-        metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator[0]);
+        metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator[0]);
     }
 
     public void addFaint(String... animator){

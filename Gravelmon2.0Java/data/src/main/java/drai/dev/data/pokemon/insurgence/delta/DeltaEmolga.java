@@ -140,6 +140,7 @@ public class DeltaEmolga extends Pokemon {
         
         this.setBaseScale(0.6);
         this.setHitbox(0.9,1);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.1, -0.7, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));

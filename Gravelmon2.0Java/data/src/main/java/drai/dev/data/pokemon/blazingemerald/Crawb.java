@@ -41,7 +41,7 @@ public class Crawb extends Pokemon {
         getPosingFileData().setPortraitData(1.92f, new Vector3(0.03, -1.56, 0));
         getPosingFileData().setProfileData(.93f, new Vector3(-0.07, -0.03, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation("El Pigeon").markAsBackupPose()
+                AnimationData.standingAnimation("El Pigeon").markAsBackupPose().setStatic()
         ));
     }
 }

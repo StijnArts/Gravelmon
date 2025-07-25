@@ -108,7 +108,7 @@ public class Cowatti extends Pokemon {
         getPosingFileData().setProfileData( .9f, new Vector3(0, .5, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().setStatic()
         ));
 
     }

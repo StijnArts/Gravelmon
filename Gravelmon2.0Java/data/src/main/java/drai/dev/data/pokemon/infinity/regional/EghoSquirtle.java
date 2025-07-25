@@ -110,6 +110,7 @@ public class EghoSquirtle extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setCanSwim(false);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-0.3, -.2, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(-0.0, .4, 0));

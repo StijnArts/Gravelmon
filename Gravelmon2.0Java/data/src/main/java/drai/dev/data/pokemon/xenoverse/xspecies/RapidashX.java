@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-public class RapidashX  extends Pokemon {
+public class RapidashX extends Pokemon {
     public RapidashX(String name, Aspect aspect) {
         super(name, aspect,"RapidashX",
                 Type.FLYING,
@@ -117,11 +117,12 @@ public class RapidashX  extends Pokemon {
         this.setHitbox(0.9,2);
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("rapidash_x");
+        setNeedsRemodel("Updated animations in the cobblemon repo");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.3, 1.3, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .68, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().setStatic()
         ));
     }
 }

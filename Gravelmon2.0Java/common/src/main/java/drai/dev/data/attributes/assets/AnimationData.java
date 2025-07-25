@@ -114,6 +114,11 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
+    public AnimationData setStatic(){
+        isStatic = true;
+        return this;
+    }
+
     public AnimationData addPoseType(PoseType poseType) {
         this.poseTypes.add(poseType);
         return this;

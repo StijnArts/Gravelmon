@@ -126,6 +126,7 @@ public class EghoVenusaur extends Pokemon {
         this.setBaseScale(2);
         
         this.setHitbox(1.5,1.4);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("venusaur_egho");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.4, -.8, 0));

@@ -112,6 +112,7 @@ public class Guardeon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("guardeon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.IRON_DEFENSE, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:metal_coat"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));

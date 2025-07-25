@@ -153,6 +153,7 @@ public class DeltaPidgey extends Pokemon {
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.7);
         getSpeciesFileData().addBasicVariation("Drai");
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getPosingFileData().setPortraitData( 3.5f, new Vector3(-0.1, -2.2, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, 0, 0));
         getPosingFileData().setBasicHead();

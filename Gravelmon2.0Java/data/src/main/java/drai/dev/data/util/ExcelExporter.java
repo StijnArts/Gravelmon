@@ -184,10 +184,6 @@ public class ExcelExporter {
         table.setName(sheetName + " Table"); // Give the table a name
         // Auto-size columns for readability
         for (int i = 0; i < headers.length; i++) {
-//            if(i == 2) {
-//                sheet.setColumnWidth(2, 64);
-//                continue;
-//            }
             sheet.autoSizeColumn(i);
         }
         sheet.setColumnHidden(2, false);

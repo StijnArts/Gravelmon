@@ -112,6 +112,7 @@ public class Draconeon extends Pokemon {
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:dragon_scale"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));
 
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Sidhwin");
         getPosingFileData().setAnimationFileName("draconeon");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.7, -0.3, 0));

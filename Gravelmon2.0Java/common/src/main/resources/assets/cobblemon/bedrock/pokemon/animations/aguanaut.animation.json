@@ -3,7 +3,7 @@
 	"animations": {
 		"animation.aguanaut.ground_idle": {
 			"loop": true,
-			"animation_length": 6.83333,
+			"animation_length": 6.8333,
 			"bones": {
 				"torso": {
 					"rotation": [10, 0, 0]
@@ -20,9 +20,6 @@
 				},
 				"heel": {
 					"rotation": ["-0.5*(math.sin(q.anim_time*90*4-90)*1+1)", 0, 0]
-				},
-				"foot": {
-					"rotation": ["0.8*(math.sin(q.anim_time*90*4-90)*1+1)", 0, 0]
 				},
 				"bone2": {
 					"rotation": [20, 0, 0],

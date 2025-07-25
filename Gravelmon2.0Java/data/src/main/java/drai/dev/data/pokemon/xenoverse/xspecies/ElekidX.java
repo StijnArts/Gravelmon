@@ -86,12 +86,14 @@ public class ElekidX extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.5,0.6);
+        this.setNeedsRemodel("Updated animations in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("elekid_x");
         getPosingFileData().setPortraitData( 2.9f, new Vector3(-.2, -1.5, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.6, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().markAsBackupPose()
+                AnimationData.standingAnimation().withBlink().markAsBackupPose().setStatic(),
+                AnimationData.battleIdleAnimation().withBlink().markAsBackupPose().setStatic()
         ));
     }
 }

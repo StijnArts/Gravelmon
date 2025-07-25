@@ -196,7 +196,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.1706666666666667,
+      "baseScale": 0.8,
       "cannotDynamax": false,
       "abilities": [
         "aftermath",
@@ -299,8 +299,7 @@
       ],
       "labels": [
         "xenoverse",
-        "gen2",
-        "not_modeled"
+        "gen2"
       ],
       "pokedex": [
         "cobblemon.species.elekidx.desc"
@@ -328,8 +327,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 28.124999999999996,
-        "height": 28.124999999999996,
+        "width": 0.5,
+        "height": 0.6,
         "fixed": false
       }
     },

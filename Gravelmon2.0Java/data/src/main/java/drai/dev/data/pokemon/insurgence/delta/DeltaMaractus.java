@@ -129,6 +129,7 @@ public class DeltaMaractus extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1,1.5);
+        this.setNeedsRemodel("Needs molang animations");
         getSpeciesFileData().addBasicVariation("Maliant", "maliant").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );

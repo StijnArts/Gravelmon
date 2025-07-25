@@ -157,7 +157,7 @@ public class Wereyena extends Pokemon {
         getPosingFileData().setProfileData(.52f, new Vector3(-0.06, 1.04, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withLook()
+                AnimationData.standingAnimation().markAsBackupPose().withLook().setStatic()
         ));
     }
 }

@@ -84,6 +84,7 @@ public class CarvanhaX extends Pokemon {
         
         this.setBaseScale(0.7);
         this.setHitbox(0.6, 0.8);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("carvanha_x");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(0, -.4, 0));

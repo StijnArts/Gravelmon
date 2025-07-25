@@ -115,6 +115,7 @@ public class Lepideon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("lepideon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.SIGNAL_BEAM, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:silver_powder"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))));
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));

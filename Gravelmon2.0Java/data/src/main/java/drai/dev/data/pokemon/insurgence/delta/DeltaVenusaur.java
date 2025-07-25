@@ -140,6 +140,7 @@ public class DeltaVenusaur extends Pokemon {
         
         this.setBaseScale(2);
         this.setHitbox(1.5,1.4);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.65f, new Vector3(-.5, -.8, 0));
         getPosingFileData().setProfileData( 0.9f, new Vector3(0.07, .38, 0));

@@ -125,6 +125,7 @@ public class Obsideon extends Pokemon {
 
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         addAdditionalEvolution("eevee", new EvolutionEntry("obsideon", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.PRESSURIZE, "")),
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"cobblemon:hard_stone"),
                         new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"))));

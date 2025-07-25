@@ -49,6 +49,7 @@ public class DeltaDitto extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);
+        this.setNeedsRemodel("Needs updated texture on existing model");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-0, -1.5, 0));
         getPosingFileData().setProfileData( 1f, new Vector3(0, .2, 0));

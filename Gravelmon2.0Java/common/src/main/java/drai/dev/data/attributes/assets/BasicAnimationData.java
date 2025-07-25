@@ -10,6 +10,7 @@ public abstract class BasicAnimationData {
     public List<String> animations = new ArrayList<>();
     protected PosingFileData posingFileData;
     private String animator;
+    protected boolean isStatic;
 
     public BasicAnimationData(String animationName, List<String> animations, String... animator) {
         this.animationName = animationName;
@@ -47,10 +48,10 @@ public abstract class BasicAnimationData {
         var pokemon = this.posingFileData.getPokemon();
         var metaData = pokemon.getModelMetaData();
         animations.forEach(animation -> {
-            if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
-                metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator);
-            }
-            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new HashSet<>()).add(animator);
+//            if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
+//                metaData.getAnimatorsPerOptionalAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator).setStatic(isStatic);
+//            }
+            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator).setStatic(isStatic);
         });
     }
 }

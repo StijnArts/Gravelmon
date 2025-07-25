@@ -153,6 +153,7 @@ public class DeltaWartortle extends Pokemon {
         
         this.setBaseScale(0.9);
         this.setHitbox(0.7,1.5);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2f, new Vector3(-.3, .4, 0));
         getPosingFileData().setProfileData( 0.7f, new Vector3(-.10, .7, 0));

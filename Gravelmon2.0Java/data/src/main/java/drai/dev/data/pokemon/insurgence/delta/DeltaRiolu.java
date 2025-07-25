@@ -130,6 +130,7 @@ public class DeltaRiolu extends Pokemon {
         
         this.setBaseScale(0.9);
         this.setHitbox(0.6,1.3);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 3f, new Vector3(0, -.5, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .4, 0));

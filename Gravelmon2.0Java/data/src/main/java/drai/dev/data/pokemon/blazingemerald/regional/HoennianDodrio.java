@@ -81,6 +81,7 @@ public class HoennianDodrio extends Pokemon {
                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"marowak"))));
 
         getSpeciesFileData().addBasicVariation("PorousMist");
+        this.setNeedsRemodel("Updated animations in cobblemon model repo");
         getPosingFileData().setAnimationFileName("dodrio_hoennian");
         getPosingFileData().setPortraitData(1.3f, new Vector3(-0.1, .9, 0));
         getPosingFileData().setProfileData(0.4f, new Vector3(0.0, 0.6, 0.0));

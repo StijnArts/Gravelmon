@@ -80,9 +80,9 @@ public class HoennianEmolga extends Pokemon {
         getPosingFileData().setProfileData(0.8f, new Vector3(0.1, 0.8, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().withLook().addPoseType(PoseType.WALK),
-                AnimationData.flyingAnimation().withBlink().withLook(),
-                AnimationData.hoveringAnimation().withBlink().withLook()
+                AnimationData.standingAnimation().withBlink().withLook().addPoseType(PoseType.WALK).setStatic(),
+                AnimationData.flyingAnimation().withBlink().withLook().setStatic(),
+                AnimationData.hoveringAnimation().withBlink().withLook().setStatic()
         ));
         
         this.setBaseScale(0.52);

@@ -82,11 +82,12 @@ public class PonytaX extends Pokemon {
         this.setHitbox(0.8,1.4);
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("ponyta_x");
+        setNeedsRemodel("Updated animations in the cobblemon repo");
         getPosingFileData().setPortraitData( 2.4f, new Vector3(-.4, .2, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, 0.42, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().setStatic()
         ));
     }
 }

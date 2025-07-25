@@ -12,7 +12,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "larvesta form=delta",
-      "baseScale": 0.192,
+      "baseScale": 0.9,
       "cannotDynamax": false,
       "abilities": [
         "levitate",
@@ -27,7 +27,7 @@
         },
         "moving": {
           "fly": {
-            "canFly": false
+            "canFly": true
           },
           "canLook": true,
           "walk": {
@@ -205,7 +205,6 @@
       "labels": [
         "gen5",
         "insurgence",
-        "not_modeled",
         "fakemonevolution"
       ],
       "pokedex": [
@@ -219,8 +218,8 @@
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 12.5,
-        "height": 12.5,
+        "width": 1.0,
+        "height": 1.0,
         "fixed": false
       }
     },

@@ -160,6 +160,7 @@ public class DeltaCharizard extends Pokemon {
                                 Optional.of(true), Optional.of(false), false, false))
                 .addLayer(new SimpleTextureLayerData("glow", "deltacharizard_emissive",
                         Optional.of(true), Optional.of(true), false, true));
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getPosingFileData().setPortraitData( 2f, new Vector3(-0.4, 1.4, 0));
         getPosingFileData().setProfileData( .55f, new Vector3(0, .95, 0));
         getPosingFileData().setBasicHead();

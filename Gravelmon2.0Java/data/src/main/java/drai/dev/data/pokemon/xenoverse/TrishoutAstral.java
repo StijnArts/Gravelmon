@@ -103,7 +103,7 @@ public class TrishoutAstral extends Pokemon {
         getPosingFileData().setProfileData(.44f, new Vector3(0, 1.1, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withLook()
+                AnimationData.standingAnimation().markAsBackupPose().withLook().setStatic()
         ));
     }
 }

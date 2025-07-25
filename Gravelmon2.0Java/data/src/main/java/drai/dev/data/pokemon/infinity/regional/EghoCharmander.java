@@ -116,6 +116,7 @@ public class EghoCharmander extends Pokemon {
         this.setLangFileName("Charmander");
         
         this.setBaseScale(0.7);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Porous Mist");
         getPosingFileData().setPortraitData( 2f, new Vector3(-0, -0, 0));
         getPosingFileData().setProfileData( .7f, new Vector3(0, .75, 0));

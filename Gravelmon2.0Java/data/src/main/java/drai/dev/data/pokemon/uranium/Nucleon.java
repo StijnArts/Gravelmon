@@ -104,6 +104,7 @@ public class Nucleon extends Pokemon {
                 .addLayer(
                         new SimpleTextureLayerData("emissive", "nucleon_emissive", Optional.of(true), Optional.of(false), false, true)
                 );
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getPosingFileData().setAnimationFileName("umbreon");
         getPosingFileData().setPortraitData(2.41f, new Vector3(-.71, -.73, 0));
         getPosingFileData().setProfileData(0.9f, new Vector3(0, .35, 0));

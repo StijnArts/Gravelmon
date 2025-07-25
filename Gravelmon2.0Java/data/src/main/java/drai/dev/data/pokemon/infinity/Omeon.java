@@ -129,6 +129,7 @@ public class Omeon extends Pokemon {
         this.setBaseScale(0.8);
         addAdditionalEvolution("eevee", new EvolutionEntry("omeon", EvolutionType.ITEM_INTERACT, false, List.of(new MoveLearnSetEntry(Move.VANISH, 0)),
                 List.of(),List.of(),"cobblemon:dusk_stone"));
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));

@@ -154,6 +154,158 @@
       }
     },
     {
+      "name": "Storm",
+      "primaryType": "flying",
+      "secondaryType": "electric",
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 175,
+      "experienceGroup": "medium_fast",
+      "eggCycles": 26,
+      "baseFriendship": 70,
+      "baseScale": 60.0,
+      "cannotDynamax": false,
+      "abilities": [
+        "keeneye"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": true,
+          "willSleepOnBed": false,
+          "depth": "normal",
+          "light": "0-6"
+        },
+        "moving": {
+          "fly": {
+            "canFly": false
+          },
+          "canLook": true,
+          "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+          },
+          "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canSwimInLava": false,
+            "canBreatheUnderlava": false,
+            "canBreatheUnderwater": false,
+            "canWalkOnLava": false
+          }
+        }
+      },
+      "baseStats": {
+        "hp": 65,
+        "attack": 80,
+        "defence": 70,
+        "special_attack": 140,
+        "special_defence": 60,
+        "speed": 145
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "eggGroups": [
+        "undiscovered"
+      ],
+      "drops": {
+        "amount": 1,
+        "entries": [
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
+          }
+        ]
+      },
+      "moves": [
+        "1:substitute",
+        "1:magnetrise",
+        "1:discharge",
+        "1:thunder",
+        "1:tackle",
+        "1:growl",
+        "1:tailwhip",
+        "1:gust",
+        "1:defog",
+        "15:aircutter",
+        "20:agility",
+        "25:bounce",
+        "30:stomp",
+        "35:cottonguard",
+        "40:discharge",
+        "43:takedown",
+        "49:airslash",
+        "56:hurricane",
+        "63:wildcharge",
+        "tm:toxic",
+        "tm:hiddenpower",
+        "tm:sunnyday",
+        "tm:hyperbeam",
+        "tm:protect",
+        "tm:raindance",
+        "tm:roost",
+        "tm:thunderbolt",
+        "tm:thunder",
+        "tm:return",
+        "tm:doubleteam",
+        "tm:aerialace",
+        "tm:facade",
+        "tm:rest",
+        "tm:attract",
+        "tm:round",
+        "tm:echoedvoice",
+        "tm:chargebeam",
+        "tm:skydrop",
+        "tm:acrobatics",
+        "tm:smartstrike",
+        "tm:gigaimpact",
+        "tm:voltswitch",
+        "tm:thunderwave",
+        "tm:swordsdance",
+        "tm:swagger",
+        "tm:substitute",
+        "tm:wildcharge",
+        "tutor:aircutter",
+        "tutor:bounce",
+        "tutor:flash",
+        "tutor:heatwave",
+        "tutor:hurricane",
+        "tutor:icywind",
+        "tutor:lowkick",
+        "tutor:secretpower",
+        "tutor:shockwave",
+        "tutor:snore",
+        "tutor:tailwind",
+        "tm:terablast"
+      ],
+      "labels": [
+        "xenoverse",
+        "gen1",
+        "not_modeled"
+      ],
+      "pokedex": [
+        "cobblemon.species.rapidashstorm.desc"
+      ],
+      "height": 17,
+      "weight": 900,
+      "aspects": [
+        "storm"
+      ],
+      "evolutions": [],
+      "shoulderMountable": false,
+      "hitbox": {
+        "width": 0.125,
+        "height": 0.125,
+        "fixed": false
+      }
+    },
+    {
       "name": "Africanusan",
       "primaryType": "flying",
       "secondaryType": "steel",
@@ -578,6 +730,7 @@
   ],
   "features": [
     "x",
+    "storm",
     "africanusan",
     "epoch",
     "epochtwo",

@@ -139,6 +139,7 @@ public class DeltaGallade extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.6,2.25);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant").addLayer(
                 SimpleTextureLayerData.glowLayer(this)
         );

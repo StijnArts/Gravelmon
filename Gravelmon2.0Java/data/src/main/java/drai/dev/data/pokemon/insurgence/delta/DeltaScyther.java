@@ -131,6 +131,7 @@ public class DeltaScyther extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.9,2);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-.4, 1.5, 0));
         getPosingFileData().setProfileData( 0.7f, new Vector3(0, .7, 0));

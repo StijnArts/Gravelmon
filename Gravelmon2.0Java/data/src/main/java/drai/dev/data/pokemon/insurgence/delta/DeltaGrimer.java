@@ -133,6 +133,7 @@ public class DeltaGrimer extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(1,1.2);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.8f, new Vector3(-0.2, -0.1, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, .48, 0));

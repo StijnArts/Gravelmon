@@ -8,6 +8,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "baseFriendship": 70,
+  "preEvolution": "mawrine",
   "baseScale": 0.6,
   "cannotDynamax": false,
   "abilities": [
@@ -109,7 +110,9 @@
   "labels": [
     "olysos",
     "not_modeled",
-    "starter"
+    "starter",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.orcanfrak.desc"

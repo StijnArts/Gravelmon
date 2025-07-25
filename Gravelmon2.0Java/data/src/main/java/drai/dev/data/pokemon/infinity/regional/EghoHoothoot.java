@@ -104,6 +104,7 @@ public class EghoHoothoot extends Pokemon {
         
         setBaseScale(0.8);
         setHitbox(0.8,1.0);
+        this.setNeedsRemodel("Updated animations in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.2, -.5, -10.0));
         getPosingFileData().setProfileData( 1f, new Vector3(0.0, .3, 0.0));

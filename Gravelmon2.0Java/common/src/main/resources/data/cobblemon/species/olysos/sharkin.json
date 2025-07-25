@@ -88,9 +88,9 @@
   "aspects": [],
   "evolutions": [
     {
-      "id": "sharkin_paddorn",
+      "id": "sharkin_mawrine",
       "variant": "level_up",
-      "result": "paddorn",
+      "result": "Mawrine",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

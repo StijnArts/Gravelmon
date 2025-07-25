@@ -166,13 +166,14 @@ public class DeltaBuneary extends Pokemon {
         
         this.setHitbox(1.5, 1.5);
         this.setBaseScale(0.5);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.65f, new Vector3(-0, 0, 0));
         getPosingFileData().setProfileData( .75f, new Vector3(0, .6, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink(),
-                AnimationData.walkingAnimation().withLook().withBlink()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().withBlink().setStatic(),
+                AnimationData.walkingAnimation().withLook().withBlink().setStatic()
         ));
     }
 }

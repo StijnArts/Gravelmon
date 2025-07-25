@@ -38,7 +38,7 @@ public class DittoX extends Pokemon {
 	
         this.setLangFileName("Ditto");
 
-        
+        //TODO fix portrait and profile
         this.setBaseScale(1);
         this.setHitbox(0.5,0.6);
         getSpeciesFileData().addBasicVariation("Drai");

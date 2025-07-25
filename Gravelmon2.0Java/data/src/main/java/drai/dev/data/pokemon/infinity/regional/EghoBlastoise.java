@@ -130,6 +130,7 @@ public class EghoBlastoise extends Pokemon {
         this.setCanSwim(false);
         this.setCanFly(true);
         this.setHitbox(1.6,2.5);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 2.1f, new Vector3(-0.8, 2.4, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0.1, 1.2, 0));

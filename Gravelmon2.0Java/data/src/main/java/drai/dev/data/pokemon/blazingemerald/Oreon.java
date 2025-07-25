@@ -66,7 +66,7 @@ public class Oreon extends Pokemon {
         addAdditionalEvolution("eevee", new EvolutionEntry("oreon", EvolutionType.ITEM_INTERACT, false, List.of(),
                 List.of(),List.of(),"minecraft:cookie"));
         
-
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Ordeaux", "Neoxaivus");
         getPosingFileData().setAnimationFileName("umbreon");
         getPosingFileData().setPortraitData(1f, new Vector3(0, 0.2, 0));

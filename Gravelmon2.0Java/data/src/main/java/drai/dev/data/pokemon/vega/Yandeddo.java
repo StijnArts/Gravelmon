@@ -93,5 +93,6 @@ public class Yandeddo extends Pokemon {
         getPosingFileData().addAnimations(List.of(
                 AnimationData.standingAnimation().markAsBackupPose()
         ));
+        getPosingFileData().setCry("q.bedrock_stateful('yandeddo', 'cry')");
     }
 }

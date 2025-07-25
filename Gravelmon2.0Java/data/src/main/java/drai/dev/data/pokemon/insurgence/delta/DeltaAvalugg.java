@@ -132,6 +132,7 @@ public class DeltaAvalugg extends Pokemon {
 
         this.setBaseScale(0.9);
         this.setHitbox(4,3);
+        this.setNeedsRemodel("Needs re-texture and reanimating on existing model");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 1.15f, new Vector3(
                 -1.7,
@@ -143,8 +144,8 @@ public class DeltaAvalugg extends Pokemon {
                 0.0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink(),
-                AnimationData.walkingAnimation().withLook().withBlink()
+                AnimationData.standingAnimation().markAsBackupPose().withLook().withBlink().setStatic(),
+                AnimationData.walkingAnimation().withLook().withBlink().setStatic()
         ));
         getPosingFileData().setAnimationFileName("avalugg");
     }

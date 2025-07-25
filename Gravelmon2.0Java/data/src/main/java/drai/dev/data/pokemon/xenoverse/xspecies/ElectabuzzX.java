@@ -89,13 +89,14 @@ public class ElectabuzzX extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(0.6,1.5);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setAnimationFileName("electabuzz_x");
         getPosingFileData().setPortraitData( 2.3f, new Vector3(-.10, .4, 0));
         getPosingFileData().setProfileData( .8f, new Vector3(0, 0.55, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().setStatic()
         ));
     }
 }

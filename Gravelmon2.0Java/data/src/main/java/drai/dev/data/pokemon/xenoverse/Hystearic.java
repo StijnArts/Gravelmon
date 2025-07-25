@@ -93,7 +93,7 @@ public class Hystearic extends Pokemon {
         getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation()
+                AnimationData.standingAnimation().setStatic()
         ));
     }
 }

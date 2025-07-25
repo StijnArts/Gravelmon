@@ -85,8 +85,8 @@ public class HoennianMaractus extends Pokemon {
         getPosingFileData().setProfileData(.74f, new Vector3(0, 0.63, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withBlink().withLook(),
-                AnimationData.sleepingAnimation()
+                AnimationData.standingAnimation().markAsBackupPose().withBlink().withLook().setStatic(),
+                AnimationData.sleepingAnimation().setStatic()
         ));
     }
 }

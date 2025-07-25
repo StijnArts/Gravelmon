@@ -139,6 +139,7 @@ public class DeltaQuagsire extends Pokemon {
         
         this.setBaseScale(1.1);
         this.setHitbox(0.8,1.45);
+        this.setNeedsRemodel("Needs molang animations");
         getSpeciesFileData().addBasicVariation("Drai").addLayer(
                         new AnimatedLayerData("flame",
                                 List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),

@@ -120,7 +120,7 @@ public class Chihaha extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(0, .85, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().markAsBackupPose().setStatic()
         ));
     }
 }

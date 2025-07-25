@@ -120,8 +120,8 @@ public class DeltaChinchou extends Pokemon {
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-0.2, -.7, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(0, .5, 0));
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().markAsBackupPose().withBlink(),
-                AnimationData.hoveringAnimation().withBlink()
+                AnimationData.standingAnimation().markAsBackupPose().withBlink().setStatic(),
+                AnimationData.hoveringAnimation().withBlink().setStatic()
         ));
     }
 }

@@ -122,11 +122,11 @@ public class Oarwish extends Pokemon {
         getPosingFileData().setProfileData( .6f, new Vector3(-.3, .80, 0));
         getPosingFileData().setBasicHead();
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withBlink().markAsBackupPose(),
-                AnimationData.walkingAnimation().withBlink(),
-                AnimationData.swimmingAnimation().withBlink(),
-                AnimationData.surfaceFloatingAnimation().withBlink(),
-                AnimationData.floatingAnimation().inWater().withBlink()
+                AnimationData.standingAnimation().withBlink().markAsBackupPose().setStatic(),
+                AnimationData.walkingAnimation().withBlink().setStatic(),
+                AnimationData.swimmingAnimation().withBlink().setStatic(),
+                AnimationData.surfaceFloatingAnimation().withBlink().setStatic(),
+                AnimationData.floatingAnimation().inWater().withBlink().setStatic()
         ));
     }
 }

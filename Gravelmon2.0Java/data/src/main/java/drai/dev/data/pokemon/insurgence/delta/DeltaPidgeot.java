@@ -153,6 +153,7 @@ public class DeltaPidgeot extends Pokemon {
         
         this.setBaseScale(1.85);
         this.setHitbox(0.75,1.5);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai");
         getPosingFileData().setPortraitData( 3.1f, new Vector3(-0.4, -1, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0.1, 0, 0));

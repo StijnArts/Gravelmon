@@ -88,31 +88,33 @@ public abstract class WorldRepresentablePokemon {
 
     private void setModelMetadata() {
         if(this instanceof AbstractPokemon abstractPokemon){
-            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("battle_idle", k -> new HashSet<>());
-            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("sleep", k -> new HashSet<>());
-            this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("faint", k -> new HashSet<>());
+            this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("battle_idle", k -> new AnimationMetadata());
+            this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("sleep", k -> new AnimationMetadata());
+            this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("faint", k -> new AnimationMetadata());
+            this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("cry", k -> new AnimationMetadata());
+            this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("recoil", k -> new AnimationMetadata());
             if(abstractPokemon.canFly) {
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_idle", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_fly", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_idle", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("air_fly", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new AnimationMetadata());
             } else if (abstractPokemon.canSwimInWater || abstractPokemon.canSwimInLava) {
 
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_idle", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_swim", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_idle", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("water_swim", k -> new AnimationMetadata());
                 if(abstractPokemon.canWalkOnWater || abstractPokemon.canWalkOnLava){
-                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_idle", k -> new HashSet<>());
-                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_swim", k -> new HashSet<>());
+                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_idle", k -> new AnimationMetadata());
+                    this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("surface_swim", k -> new AnimationMetadata());
                 }
-                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_idle", k -> new AnimationMetadata());
                 if(((AbstractPokemon) this).avoidsLand){
                     return;
                 }
-                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_walk", k -> new AnimationMetadata());
             } else {
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_idle", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_walk", k -> new HashSet<>());
-                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_run", k -> new HashSet<>());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_idle", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerAnimation().computeIfAbsent("ground_walk", k -> new AnimationMetadata());
+                this.modelMetaData.getAnimatorsPerOptionalAnimation().computeIfAbsent("ground_run", k -> new AnimationMetadata());
             }
         }
     }
@@ -424,5 +426,9 @@ public abstract class WorldRepresentablePokemon {
 
     public String getTexturePath() {
         return textureDirectory.getAbsolutePath()+ ".png";
+    }
+
+    protected void setNeedsRemodel(String reason) {
+        this.modelMetaData.setNeedsRemodel(reason);
     }
 }

@@ -68,6 +68,7 @@ public class HoennianShuckle extends Pokemon {
         
         this.setHitbox(1,1);
         this.setBaseScale(0.6);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("PorousMist");
         getPosingFileData().setAnimationFileName("hoennianshuckle");
         getPosingFileData().setPortraitData( 2.2f, new Vector3(-0.45, 0.35, 0.0));

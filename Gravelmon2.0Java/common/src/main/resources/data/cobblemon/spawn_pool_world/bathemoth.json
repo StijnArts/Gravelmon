@@ -14,7 +14,7 @@
       "condition": {
         "biomes": [
           "#cobblemon:is_dripstone",
-          "#cobblemon:is_cave"
+          "#cobblemon:is_overworld"
         ],
         "minSkyLight": 0,
         "maxSkyLight": 7

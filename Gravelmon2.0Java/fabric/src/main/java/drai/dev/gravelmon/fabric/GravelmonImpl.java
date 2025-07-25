@@ -57,14 +57,16 @@ public class GravelmonImpl {
             var aspect = stringStringPair.component2();
             var fullSpeciesName = stringStringPair.component1();
             ResourceLocation recipeId = ResourceLocation.fromNamespaceAndPath(MOD_ID, "stonecutter_megastone_" + aspect + "_" + GravelmonUtils.getCleanName(fullSpeciesName));
-            ItemStack output = new ItemStack(item.get(), 1);
-            StonecutterRecipe recipe = new StonecutterRecipe(
-                    recipeId.toString(),
-                    input,
-                    output
-            );
-            RecipeHolder<?> holder = new RecipeHolder<>(recipeId, recipe);
-            newRecipes.add(holder);
+            if(newRecipes.stream().anyMatch(holder->holder.id().equals(recipeId))){
+                ItemStack output = new ItemStack(item.get(), 1);
+                StonecutterRecipe recipe = new StonecutterRecipe(
+                        recipeId.toString(),
+                        input,
+                        output
+                );
+                RecipeHolder<?> holder = new RecipeHolder<>(recipeId, recipe);
+                newRecipes.add(holder);
+            }
         });
         recipeManager.replaceRecipes(newRecipes);
     }

@@ -117,6 +117,7 @@ public class Scorpeon extends Pokemon {
         this.setBaseScale(0.8);
         this.setPreEvolution("eevee");
         getSpeciesFileData().addBasicVariation("Drai");
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getPosingFileData().setPortraitData( 1.9f, new Vector3(-0.4, -0.3, 0));
         getPosingFileData().setProfileData( .9f, new Vector3(0, .35, 0));
         getPosingFileData().setBasicHead();

@@ -1,6 +1,7 @@
 package drai.dev.data.pokemon.insurgence.delta;
 
 import drai.dev.data.attributes.*;
+import drai.dev.data.attributes.assets.*;
 import drai.dev.data.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
@@ -34,6 +35,18 @@ public class DeltaVolcarona extends Pokemon {
     .build(), List.of());
 	
         this.setLangFileName("Volcarona");
+
+        this.setCanFly();
+        this.setBaseScale(0.9);
+        this.setHitbox(1,1);
+
+
+        getSpeciesFileData().addBasicVariation("Iketarou");
+        getPosingFileData().setPortraitData( 1.6f, new Vector3(0, .2, 0));
+        getPosingFileData().setProfileData( .8f, new Vector3(0, .6, 0));
+        getPosingFileData().addAnimations(List.of(
+                AnimationData.standingAnimation().markAsBackupPose()
+        ));
     }
 
     public static List<MoveLearnSetEntry> getMoves(){

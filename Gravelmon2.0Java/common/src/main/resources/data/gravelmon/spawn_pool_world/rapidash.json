@@ -29,6 +29,31 @@
       }
     },
     {
+      "id": "storm_rapidash-01",
+      "pokemon": "rapidash storm",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-56",
+      "weight": 0.0,
+      "condition": {
+        "biomes": [
+          "minecraft:the_void"
+        ]
+      },
+      "weightMultiplier": {
+        "multiplier": 5.0,
+        "condition": {
+          "neededNearbyBlocks": [
+            "minecraft:hay_block"
+          ]
+        }
+      }
+    },
+    {
       "id": "africanusan_rapidash-01",
       "pokemon": "rapidash africanusan",
       "presets": [

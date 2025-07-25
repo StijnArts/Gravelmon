@@ -162,6 +162,7 @@ public class DeltaAipom extends Pokemon {
         
         this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
+        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Maliant");
         getPosingFileData().setPortraitData( 3.5f, new Vector3(0, -2.2, 0));
         getPosingFileData().setProfileData( 1.2f, new Vector3(0, -.1, 0));
