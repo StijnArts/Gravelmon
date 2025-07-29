@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochsceptilite",
+  "showdown_id": "epochsceptilite",
+  "item_id": "gravelmon:epoch_sceptilite",
+  "item_name": "Epoch Sceptilite",
+  "pokemon": "sceptile",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Sceptile to Mega Evolve into Mega Epoch Sceptile"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

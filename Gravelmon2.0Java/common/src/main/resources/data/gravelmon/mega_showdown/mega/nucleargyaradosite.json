@@ -1,0 +1,16 @@
+{
+  "msd_id": "nucleargyaradosite",
+  "showdown_id": "nucleargyaradosite",
+  "item_id": "gravelmon:nuclear_gyaradosite",
+  "item_name": "Nuclear Gyaradosite",
+  "pokemon": "gyarados",
+  "apply_aspect": "nuclear_mega",
+  "itemDescription": [
+    "Allows Nuclear Gyarados to Mega Evolve into Mega Nuclear Gyarados"
+  ],
+  "requiredAspects": [
+    [
+      "nuclear"
+    ]
+  ]
+}

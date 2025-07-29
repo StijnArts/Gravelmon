@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochblastoisite",
+  "showdown_id": "epochblastoisite",
+  "item_id": "gravelmon:epoch_blastoisite",
+  "item_name": "Epoch Blastoisite",
+  "pokemon": "blastoise",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Blastoise to Mega Evolve into Mega Epoch Blastoise"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

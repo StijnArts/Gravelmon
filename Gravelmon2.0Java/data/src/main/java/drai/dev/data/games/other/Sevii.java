@@ -12,26 +12,26 @@ public class Sevii extends Game {
 
     @Override
     public void registerPokemon() {
-        addNewPokemon(new SeviianDoduo("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianDodrio("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianMantyke("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianMantine("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianTeddiursa("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianUrsaring("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianFeebas("Feebas", Aspect.SEVIIAN).fishingSpawnFromExisting());
-        addNewPokemon(new SeviianMilotic("Milotic", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianCarnivine("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianBlitzle("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianZebstrika("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianClauncher("Clauncher", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianClawitzer("Clawitzer", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianNoibat("Noibat", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianNoivern("Noivern", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianWishiwashi("", Aspect.SEVIIAN).fishingSpawnFromExisting());
-        addNewPokemon(new SeviianDhelmise("", Aspect.SEVIIAN).fishingSpawnFromExisting());
-        addNewPokemon(new SeviianSizzlipede("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianCentiskorch("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianNymble("", Aspect.SEVIIAN));
-        addNewPokemon(new SeviianLokix("", Aspect.SEVIIAN));
+        addNewPokemon(new SeviianDoduo("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianDodrio("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianMantyke("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianMantine("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianTeddiursa("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianUrsaring("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianFeebas("Feebas", Aspect.SEVIIAN).fishingSpawnFromExisting().useDefaultCry());
+        addNewPokemon(new SeviianMilotic("Milotic", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianCarnivine("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianBlitzle("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianZebstrika("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianClauncher("Clauncher", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianClawitzer("Clawitzer", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianNoibat("Noibat", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianNoivern("Noivern", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianWishiwashi("", Aspect.SEVIIAN).fishingSpawnFromExisting().useDefaultCry());
+        addNewPokemon(new SeviianDhelmise("", Aspect.SEVIIAN).fishingSpawnFromExisting().useDefaultCry());
+        addNewPokemon(new SeviianSizzlipede("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianCentiskorch("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianNymble("", Aspect.SEVIIAN).useDefaultCry());
+        addNewPokemon(new SeviianLokix("", Aspect.SEVIIAN).useDefaultCry());
     }
 }

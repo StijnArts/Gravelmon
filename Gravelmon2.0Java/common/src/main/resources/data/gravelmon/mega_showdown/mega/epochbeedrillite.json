@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochbeedrillite",
+  "showdown_id": "epochbeedrillite",
+  "item_id": "gravelmon:epoch_beedrillite",
+  "item_name": "Epoch Beedrillite",
+  "pokemon": "beedrill",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Beedrill to Mega Evolve into Mega Epoch Beedrill"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

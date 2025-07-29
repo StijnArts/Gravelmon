@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltaspidermetagrossite",
+  "showdown_id": "deltaspidermetagrossite",
+  "item_id": "gravelmon:delta_spider_metagrossite",
+  "item_name": "Delta Spider Metagrossite",
+  "pokemon": "metagross",
+  "apply_aspect": "delta_spider_mega",
+  "itemDescription": [
+    "Allows Delta Spider Metagross to Mega Evolve into Mega Delta Spider Metagross"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA_SPIDER"
+    ]
+  ]
+}

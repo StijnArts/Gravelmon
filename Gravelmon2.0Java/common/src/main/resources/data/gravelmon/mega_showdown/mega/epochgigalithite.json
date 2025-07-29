@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgigalithite",
+  "showdown_id": "epochgigalithite",
+  "item_id": "gravelmon:epoch_gigalithite",
+  "item_name": "Epoch Gigalithite",
+  "pokemon": "gigalith",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Gigalith to Mega Evolve into Mega Epoch Gigalith"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

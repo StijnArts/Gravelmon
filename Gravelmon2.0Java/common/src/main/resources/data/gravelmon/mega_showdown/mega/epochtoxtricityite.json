@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtoxtricityite",
+  "showdown_id": "epochtoxtricityite",
+  "item_id": "gravelmon:epoch_toxtricityite",
+  "item_name": "Epoch Toxtricityite",
+  "pokemon": "toxtricity",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Toxtricity to Mega Evolve into Mega Epoch Toxtricity"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

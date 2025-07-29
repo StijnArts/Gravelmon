@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochvenusaurite",
+  "showdown_id": "epochvenusaurite",
+  "item_id": "gravelmon:epoch_venusaurite",
+  "item_name": "Epoch Venusaurite",
+  "pokemon": "venusaur",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Venusaur to Mega Evolve into Mega Epoch Venusaur"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

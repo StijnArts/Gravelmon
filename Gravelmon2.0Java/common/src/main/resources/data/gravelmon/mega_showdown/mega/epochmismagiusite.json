@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochmismagiusite",
+  "showdown_id": "epochmismagiusite",
+  "item_id": "gravelmon:epoch_mismagiusite",
+  "item_name": "Epoch Mismagiusite",
+  "pokemon": "mismagius",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Mismagius to Mega Evolve into Mega Epoch Mismagius"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

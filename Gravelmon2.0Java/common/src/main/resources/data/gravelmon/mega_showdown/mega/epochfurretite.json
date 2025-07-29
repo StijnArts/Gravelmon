@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochfurretite",
+  "showdown_id": "epochfurretite",
+  "item_id": "gravelmon:epoch_furretite",
+  "item_name": "Epoch Furretite",
+  "pokemon": "furret",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Furret to Mega Evolve into Mega Epoch Furret"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

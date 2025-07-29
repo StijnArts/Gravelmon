@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochbanettite",
+  "showdown_id": "epochbanettite",
+  "item_id": "gravelmon:epoch_banettite",
+  "item_name": "Epoch Banettite",
+  "pokemon": "banette",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Banette to Mega Evolve into Mega Epoch Banette"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

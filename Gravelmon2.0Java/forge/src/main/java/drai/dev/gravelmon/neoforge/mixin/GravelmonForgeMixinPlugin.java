@@ -12,10 +12,10 @@ public class GravelmonForgeMixinPlugin implements IMixinConfigPlugin {
     private static final Supplier<Boolean> TRUE = () -> true;
 
     private static final Map<String, Supplier<Boolean>> CONDITIONS = ImmutableMap.of(
-            "drai.dev.gravelmon.forge.mixin.CobblemonPaleontologistMixin", () -> isModLoaded("cobblemon_paleontologist"),
-            "drai.dev.gravelmon.mixin.megashowdown.MegaLogicMixin", () -> isModLoaded("mega_showdown"),
-            "drai.dev.gravelmon.mixin.megashowdown.RevertEventsMixin", () -> isModLoaded("mega_showdown"),
-            "drai.dev.gravelmon.mixin.megashowdown.EventUtilsMixin", () -> isModLoaded("mega_showdown")
+            "drai.dev.gravelmon.forge.mixin.CobblemonPaleontologistMixin", () -> isModLoaded("cobblemon_paleontologist")
+//            "drai.dev.gravelmon.mixin.megashowdown.MegaLogicMixin", () -> isModLoaded("mega_showdown"),
+//            "drai.dev.gravelmon.mixin.megashowdown.RevertEventsMixin", () -> isModLoaded("mega_showdown"),
+//            "drai.dev.gravelmon.mixin.megashowdown.EventUtilsMixin", () -> isModLoaded("mega_showdown")
     );
 
     public static boolean isModLoaded(String modid) {

@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreiancharizardite",
+  "showdown_id": "ayreiancharizardite",
+  "item_id": "gravelmon:ayreian_charizardite",
+  "item_name": "Ayreian Charizardite",
+  "pokemon": "charizard",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Charizard to Mega Evolve into Mega Ayreian Charizard"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

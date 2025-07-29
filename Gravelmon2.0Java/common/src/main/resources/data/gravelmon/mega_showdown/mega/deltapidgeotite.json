@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltapidgeotite",
+  "showdown_id": "deltapidgeotite",
+  "item_id": "gravelmon:delta_pidgeotite",
+  "item_name": "Delta Pidgeotite",
+  "pokemon": "pidgeot",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Pidgeot to Mega Evolve into Mega Delta Pidgeot"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

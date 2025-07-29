@@ -134,7 +134,7 @@ public class LanguageGenerator {
                 megaSource = capitalizeWords(megaSource.replaceAll("_", " "));
                 var tooltip = "Allows "+megaSource+" to Mega Evolve into Mega "+megaSource;
                 LangJSONWriter.writeTranslationKey("item.gravelmon." + megaStoneName, capitalizeWords(megaStoneName.replaceAll("_", " ")));
-                LangJSONWriter.writeTranslationKey("tooltip.gravelmon."+megaStoneName+".tooltip" + megaStoneName, tooltip);
+//                LangJSONWriter.writeTranslationKey("tooltip.gravelmon."+megaStoneName+".tooltip" + megaStoneName, tooltip);
             }
         });
 

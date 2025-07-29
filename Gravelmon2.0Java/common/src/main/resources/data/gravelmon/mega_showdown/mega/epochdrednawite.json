@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochdrednawite",
+  "showdown_id": "epochdrednawite",
+  "item_id": "gravelmon:epoch_drednawite",
+  "item_name": "Epoch Drednawite",
+  "pokemon": "drednaw",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Drednaw to Mega Evolve into Mega Epoch Drednaw"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

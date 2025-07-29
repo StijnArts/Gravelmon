@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwojumpluffite",
+  "showdown_id": "epochtwojumpluffite",
+  "item_id": "gravelmon:epochtwo_jumpluffite",
+  "item_name": "Epochtwo Jumpluffite",
+  "pokemon": "jumpluff",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Jumpluff to Mega Evolve into Mega Epochtwo Jumpluff"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

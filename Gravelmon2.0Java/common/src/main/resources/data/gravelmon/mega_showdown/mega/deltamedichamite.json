@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltamedichamite",
+  "showdown_id": "deltamedichamite",
+  "item_id": "gravelmon:delta_medichamite",
+  "item_name": "Delta Medichamite",
+  "pokemon": "medicham",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Medicham to Mega Evolve into Mega Delta Medicham"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

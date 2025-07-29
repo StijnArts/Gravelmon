@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochinfernapite",
+  "showdown_id": "epochinfernapite",
+  "item_id": "gravelmon:epoch_infernapite",
+  "item_name": "Epoch Infernapite",
+  "pokemon": "infernape",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Infernape to Mega Evolve into Mega Epoch Infernape"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

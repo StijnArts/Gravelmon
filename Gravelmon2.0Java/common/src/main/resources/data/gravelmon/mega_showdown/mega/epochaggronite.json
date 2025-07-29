@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochaggronite",
+  "showdown_id": "epochaggronite",
+  "item_id": "gravelmon:epoch_aggronite",
+  "item_name": "Epoch Aggronite",
+  "pokemon": "aggron",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Aggron to Mega Evolve into Mega Epoch Aggron"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

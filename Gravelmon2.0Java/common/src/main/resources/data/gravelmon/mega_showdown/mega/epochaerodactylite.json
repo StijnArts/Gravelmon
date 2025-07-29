@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochaerodactylite",
+  "showdown_id": "epochaerodactylite",
+  "item_id": "gravelmon:epoch_aerodactylite",
+  "item_name": "Epoch Aerodactylite",
+  "pokemon": "aerodactyl",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Aerodactyl to Mega Evolve into Mega Epoch Aerodactyl"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

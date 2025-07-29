@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgolurkite",
+  "showdown_id": "epochgolurkite",
+  "item_id": "gravelmon:epoch_golurkite",
+  "item_name": "Epoch Golurkite",
+  "pokemon": "golurk",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Golurk to Mega Evolve into Mega Epoch Golurk"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

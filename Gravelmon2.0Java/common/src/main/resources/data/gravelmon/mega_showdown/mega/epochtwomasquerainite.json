@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwomasquerainite",
+  "showdown_id": "epochtwomasquerainite",
+  "item_id": "gravelmon:epochtwo_masquerainite",
+  "item_name": "Epochtwo Masquerainite",
+  "pokemon": "masquerain",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Masquerain to Mega Evolve into Mega Epochtwo Masquerain"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

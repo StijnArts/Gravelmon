@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltamawilite",
+  "showdown_id": "deltamawilite",
+  "item_id": "gravelmon:delta_mawilite",
+  "item_name": "Delta Mawilite",
+  "pokemon": "mawile",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Mawile to Mega Evolve into Mega Delta Mawile"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

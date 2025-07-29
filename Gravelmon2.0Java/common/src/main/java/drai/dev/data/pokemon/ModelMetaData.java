@@ -72,7 +72,7 @@ public class ModelMetaData {
 
         if (!animatorsPerOptionalAnimation.isEmpty()) {
             sb.append("Optional Animations:\n");
-            getAnimatorsForAnimations(sb, animatorsPerAnimation);
+            getAnimatorsForAnimations(sb, animatorsPerOptionalAnimation);
         } else {
             sb.append(" None\n");
         }

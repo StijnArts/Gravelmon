@@ -131,6 +131,20 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         RecipeProvider.getItemName(GravelmonItems.ASTRAL_STONE.get())+"_blasting_from_"+
                                 GravelmonBlocks.ASTRAL_STONE_ORE.get().getDescriptionId());
 
+
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(GravelmonItems.ORANGE_APRICORN.get()),
+                        RecipeCategory.MISC, Items.ORANGE_DYE, 0.1f,200)
+                .unlockedBy(RecipeProvider.getHasName(GravelmonBlocks.ORANGE_APRICORN.get()),
+                        RecipeProvider.has(GravelmonItems.ORANGE_APRICORN.get())).save(exporter,
+                        RecipeProvider.getItemName(Items.ORANGE_DYE)+"_smelting_from_"+
+                                GravelmonItems.ORANGE_APRICORN.get().getDescriptionId());
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(GravelmonItems.PURPLE_APRICORN.get()),
+                        RecipeCategory.MISC, Items.PURPLE_DYE, 0.1f,200)
+                .unlockedBy(RecipeProvider.getHasName(GravelmonBlocks.PURPLE_APRICORN.get()),
+                        RecipeProvider.has(GravelmonItems.PURPLE_APRICORN.get())).save(exporter,
+                        RecipeProvider.getItemName(Items.PURPLE_DYE)+"_smelting_from_"+
+                                GravelmonItems.PURPLE_APRICORN.get().getDescriptionId());
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, GravelmonItems.VARIA_STONE.get(),9)
                 .requires(GravelmonItems.AIR_STONE.get())
                 .requires(CobblemonItems.FIRE_STONE)

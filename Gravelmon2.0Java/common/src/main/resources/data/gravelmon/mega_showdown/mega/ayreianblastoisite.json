@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianblastoisite",
+  "showdown_id": "ayreianblastoisite",
+  "item_id": "gravelmon:ayreian_blastoisite",
+  "item_name": "Ayreian Blastoisite",
+  "pokemon": "blastoise",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Blastoise to Mega Evolve into Mega Ayreian Blastoise"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

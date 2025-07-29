@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtsareenanite",
+  "showdown_id": "epochtsareenanite",
+  "item_id": "gravelmon:epoch_tsareenanite",
+  "item_name": "Epoch Tsareenanite",
+  "pokemon": "tsareena",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Tsareena to Mega Evolve into Mega Epoch Tsareena"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

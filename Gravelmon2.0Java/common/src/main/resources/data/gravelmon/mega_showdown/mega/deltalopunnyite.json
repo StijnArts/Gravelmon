@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltalopunnyite",
+  "showdown_id": "deltalopunnyite",
+  "item_id": "gravelmon:delta_lopunnyite",
+  "item_name": "Delta Lopunnyite",
+  "pokemon": "lopunny",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Lopunny to Mega Evolve into Mega Delta Lopunny"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

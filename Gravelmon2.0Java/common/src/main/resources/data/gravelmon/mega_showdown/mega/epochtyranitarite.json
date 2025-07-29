@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtyranitarite",
+  "showdown_id": "epochtyranitarite",
+  "item_id": "gravelmon:epoch_tyranitarite",
+  "item_name": "Epoch Tyranitarite",
+  "pokemon": "tyranitar",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Tyranitar to Mega Evolve into Mega Epoch Tyranitar"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

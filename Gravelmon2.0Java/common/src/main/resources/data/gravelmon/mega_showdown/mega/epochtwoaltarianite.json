@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwoaltarianite",
+  "showdown_id": "epochtwoaltarianite",
+  "item_id": "gravelmon:epochtwo_altarianite",
+  "item_name": "Epochtwo Altarianite",
+  "pokemon": "altaria",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Altaria to Mega Evolve into Mega Epochtwo Altaria"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

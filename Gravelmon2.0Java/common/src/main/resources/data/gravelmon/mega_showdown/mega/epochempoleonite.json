@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochempoleonite",
+  "showdown_id": "epochempoleonite",
+  "item_id": "gravelmon:epoch_empoleonite",
+  "item_name": "Epoch Empoleonite",
+  "pokemon": "empoleon",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Empoleon to Mega Evolve into Mega Epoch Empoleon"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

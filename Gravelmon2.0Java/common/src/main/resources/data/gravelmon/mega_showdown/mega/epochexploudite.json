@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochexploudite",
+  "showdown_id": "epochexploudite",
+  "item_id": "gravelmon:epoch_exploudite",
+  "item_name": "Epoch Exploudite",
+  "pokemon": "exploud",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Exploud to Mega Evolve into Mega Epoch Exploud"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

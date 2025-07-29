@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtentacruelite",
+  "showdown_id": "epochtentacruelite",
+  "item_id": "gravelmon:epoch_tentacruelite",
+  "item_name": "Epoch Tentacruelite",
+  "pokemon": "tentacruel",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Tentacruel to Mega Evolve into Mega Epoch Tentacruel"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

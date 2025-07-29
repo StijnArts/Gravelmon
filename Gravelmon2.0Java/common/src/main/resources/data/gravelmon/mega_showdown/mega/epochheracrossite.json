@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochheracrossite",
+  "showdown_id": "epochheracrossite",
+  "item_id": "gravelmon:epoch_heracrossite",
+  "item_name": "Epoch Heracrossite",
+  "pokemon": "heracross",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Heracross to Mega Evolve into Mega Epoch Heracross"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

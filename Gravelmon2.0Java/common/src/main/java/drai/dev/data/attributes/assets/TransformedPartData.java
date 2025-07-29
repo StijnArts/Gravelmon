@@ -15,12 +15,17 @@ public class TransformedPartData {
         this.isVisible = isVisible;
     }
 
+    public TransformedPartData(String part, Vector3 position) {
+        this.part = part;
+        this.position = position;
+    }
+
     public JsonObject toJsonObjet(){
         JsonObject jsonObject = new JsonObject();
         jsonObject.addProperty("part", part);
-        jsonObject.addProperty("isVisible", part);
         jsonObject.add("position", position.getJsonArray());
-        jsonObject.add("rotation", position.getJsonArray());
+        if(rotations != null) jsonObject.add("rotation", rotations.getJsonArray());
+        jsonObject.addProperty("isVisible", isVisible);
         return jsonObject;
     }
 }

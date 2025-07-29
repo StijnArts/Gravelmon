@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltagardevoirite",
+  "showdown_id": "deltagardevoirite",
+  "item_id": "gravelmon:delta_gardevoirite",
+  "item_name": "Delta Gardevoirite",
+  "pokemon": "gardevoir",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Gardevoir to Mega Evolve into Mega Delta Gardevoir"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

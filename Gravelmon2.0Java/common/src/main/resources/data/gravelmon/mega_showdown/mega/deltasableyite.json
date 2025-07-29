@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltasableyite",
+  "showdown_id": "deltasableyite",
+  "item_id": "gravelmon:delta_sableyite",
+  "item_name": "Delta Sableyite",
+  "pokemon": "sableye",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Sableye to Mega Evolve into Mega Delta Sableye"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

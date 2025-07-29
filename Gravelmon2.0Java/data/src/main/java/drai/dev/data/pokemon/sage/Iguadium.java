@@ -143,8 +143,11 @@ public class Iguadium extends Pokemon {
         getPosingFileData().setPortraitData( 1.6f, new Vector3(-.20, 1.2, 0));
         getPosingFileData().setProfileData( .6f, new Vector3(-.10, .90, 0));
         getPosingFileData().setBasicHead();
+
+        getPosingFileData().setFaint("bedrock("+this.getCleanName()+", faint)");
         getPosingFileData().addAnimations(List.of(
-                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose()
+                AnimationData.standingAnimation().withLook().withBlink().markAsBackupPose(),
+                AnimationData.sleepingAnimation()
         ));
     }
 }

@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochsandacondanite",
+  "showdown_id": "epochsandacondanite",
+  "item_id": "gravelmon:epoch_sandacondanite",
+  "item_name": "Epoch Sandacondanite",
+  "pokemon": "sandaconda",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Sandaconda to Mega Evolve into Mega Epoch Sandaconda"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

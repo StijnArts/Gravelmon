@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltaruinmetagrossite",
+  "showdown_id": "deltaruinmetagrossite",
+  "item_id": "gravelmon:delta_ruin_metagrossite",
+  "item_name": "Delta Ruin Metagrossite",
+  "pokemon": "metagross",
+  "apply_aspect": "delta_ruin_mega",
+  "itemDescription": [
+    "Allows Delta Ruin Metagross to Mega Evolve into Mega Delta Ruin Metagross"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA_RUIN"
+    ]
+  ]
+}

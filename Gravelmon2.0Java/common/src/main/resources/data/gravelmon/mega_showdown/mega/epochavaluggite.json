@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochavaluggite",
+  "showdown_id": "epochavaluggite",
+  "item_id": "gravelmon:epoch_avaluggite",
+  "item_name": "Epoch Avaluggite",
+  "pokemon": "avalugg",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Avalugg to Mega Evolve into Mega Epoch Avalugg"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

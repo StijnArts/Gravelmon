@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianabsolite",
+  "showdown_id": "ayreianabsolite",
+  "item_id": "gravelmon:ayreian_absolite",
+  "item_name": "Ayreian Absolite",
+  "pokemon": "absol",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Absol to Mega Evolve into Mega Ayreian Absol"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

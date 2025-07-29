@@ -24,7 +24,7 @@ public class SpeciesDataJSONWriter {
         game.getNewPokemon().forEach(pokemon -> {
             if (!Pokemon.isAnAdditionalForm(pokemon)) {
                 try {
-                    var dir = resourcesDir + "\\data\\cobblemon\\species\\" + game.getName().toLowerCase() + "\\";
+                    var dir = resourcesDir + "\\data\\cobblemon\\species\\" + game.getCleanName() + "\\";
                     Files.createDirectories(new File(dir).toPath());
                     writePokemon(pokemon, dir, gson);
                 } catch (IOException e) {

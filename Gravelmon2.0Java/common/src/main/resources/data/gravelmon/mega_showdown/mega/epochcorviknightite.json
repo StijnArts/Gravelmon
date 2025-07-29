@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochcorviknightite",
+  "showdown_id": "epochcorviknightite",
+  "item_id": "gravelmon:epoch_corviknightite",
+  "item_name": "Epoch Corviknightite",
+  "pokemon": "corviknight",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Corviknight to Mega Evolve into Mega Epoch Corviknight"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

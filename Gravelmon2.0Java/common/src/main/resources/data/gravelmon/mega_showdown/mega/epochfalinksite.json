@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochfalinksite",
+  "showdown_id": "epochfalinksite",
+  "item_id": "gravelmon:epoch_falinksite",
+  "item_name": "Epoch Falinksite",
+  "pokemon": "falinks",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Falinks to Mega Evolve into Mega Epoch Falinks"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochwobbuffetite",
+  "showdown_id": "epochwobbuffetite",
+  "item_id": "gravelmon:epoch_wobbuffetite",
+  "item_name": "Epoch Wobbuffetite",
+  "pokemon": "wobbuffet",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Wobbuffet to Mega Evolve into Mega Epoch Wobbuffet"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

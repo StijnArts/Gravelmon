@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochminunite",
+  "showdown_id": "epochminunite",
+  "item_id": "gravelmon:epoch_minunite",
+  "item_name": "Epoch Minunite",
+  "pokemon": "minun",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Minun to Mega Evolve into Mega Epoch Minun"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

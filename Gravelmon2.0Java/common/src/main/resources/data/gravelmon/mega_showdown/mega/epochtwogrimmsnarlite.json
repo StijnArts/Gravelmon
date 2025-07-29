@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwogrimmsnarlite",
+  "showdown_id": "epochtwogrimmsnarlite",
+  "item_id": "gravelmon:epochtwo_grimmsnarlite",
+  "item_name": "Epochtwo Grimmsnarlite",
+  "pokemon": "grimmsnarl",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Grimmsnarl to Mega Evolve into Mega Epochtwo Grimmsnarl"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

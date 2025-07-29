@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianlucarionite",
+  "showdown_id": "ayreianlucarionite",
+  "item_id": "gravelmon:ayreian_lucarionite",
+  "item_name": "Ayreian Lucarionite",
+  "pokemon": "lucario",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Lucario to Mega Evolve into Mega Ayreian Lucario"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

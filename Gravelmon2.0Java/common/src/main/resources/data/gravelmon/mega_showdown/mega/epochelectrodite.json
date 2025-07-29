@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochelectrodite",
+  "showdown_id": "epochelectrodite",
+  "item_id": "gravelmon:epoch_electrodite",
+  "item_name": "Epoch Electrodite",
+  "pokemon": "electrode",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Electrode to Mega Evolve into Mega Epoch Electrode"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

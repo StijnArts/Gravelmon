@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochchimechonite",
+  "showdown_id": "epochchimechonite",
+  "item_id": "gravelmon:epoch_chimechonite",
+  "item_name": "Epoch Chimechonite",
+  "pokemon": "chimecho",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Chimecho to Mega Evolve into Mega Epoch Chimecho"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

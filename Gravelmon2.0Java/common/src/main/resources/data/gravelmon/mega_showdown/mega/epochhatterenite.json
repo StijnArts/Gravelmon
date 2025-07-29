@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochhatterenite",
+  "showdown_id": "epochhatterenite",
+  "item_id": "gravelmon:epoch_hatterenite",
+  "item_name": "Epoch Hatterenite",
+  "pokemon": "hatterene",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Hatterene to Mega Evolve into Mega Epoch Hatterene"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

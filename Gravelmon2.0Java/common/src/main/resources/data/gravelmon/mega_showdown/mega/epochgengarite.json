@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgengarite",
+  "showdown_id": "epochgengarite",
+  "item_id": "gravelmon:epoch_gengarite",
+  "item_name": "Epoch Gengarite",
+  "pokemon": "gengar",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Gengar to Mega Evolve into Mega Epoch Gengar"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

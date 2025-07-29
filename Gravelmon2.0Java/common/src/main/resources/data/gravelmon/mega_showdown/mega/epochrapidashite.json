@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochrapidashite",
+  "showdown_id": "epochrapidashite",
+  "item_id": "gravelmon:epoch_rapidashite",
+  "item_name": "Epoch Rapidashite",
+  "pokemon": "rapidash",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Rapidash to Mega Evolve into Mega Epoch Rapidash"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

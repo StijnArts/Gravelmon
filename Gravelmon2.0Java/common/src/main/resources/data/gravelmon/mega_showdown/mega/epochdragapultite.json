@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochdragapultite",
+  "showdown_id": "epochdragapultite",
+  "item_id": "gravelmon:epoch_dragapultite",
+  "item_name": "Epoch Dragapultite",
+  "pokemon": "dragapult",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Dragapult to Mega Evolve into Mega Epoch Dragapult"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

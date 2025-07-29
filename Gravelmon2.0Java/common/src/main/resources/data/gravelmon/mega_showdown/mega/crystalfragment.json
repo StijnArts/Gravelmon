@@ -1,0 +1,16 @@
+{
+  "msd_id": "crystalfragment",
+  "showdown_id": "crystalfragment",
+  "item_id": "gravelmon:crystal_fragment",
+  "item_name": "Crystal Fragment",
+  "pokemon": "metagross",
+  "apply_aspect": "delta_crystal_mega",
+  "itemDescription": [
+    "Allows Delta Crystal Metagross to Mega Evolve into Mega Delta Crystal Metagross"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA_CRYSTAL"
+    ]
+  ]
+}

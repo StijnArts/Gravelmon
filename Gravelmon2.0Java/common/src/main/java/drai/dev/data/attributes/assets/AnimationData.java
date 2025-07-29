@@ -14,6 +14,10 @@ public class AnimationData extends BasicAnimationData {
     Optional<Boolean> isTouchingWater = Optional.empty();
     private Optional<Boolean> allPoseTypes = Optional.empty();
     private boolean isBackup;
+    private final Map<String, String> namedAnimations = new HashMap<>();
+    private String condition;
+    private List<ConditionalAnimation> conditionalAnimations;
+    private Optional<Boolean> isUnderwater = Optional.empty();
 
     public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks, String... animator) {
         super(animationName, animations, animator);
@@ -28,7 +32,12 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public static AnimationData battleIdleAnimation(String... animator){
-        return new AnimationData("battle-idle", List.of(PoseType.STAND), List.of("battle_idle"),
+        return new AnimationData("battle-standing", List.of(PoseType.STAND), List.of("battle_idle"),
+                List.of(), 10, animator).setIsBattle(true);
+    }
+
+    public static AnimationData battleFlyingAnimation(String... animator){
+        return new AnimationData("battle-flying", List.of(PoseType.HOVER), List.of("air_idle"),
                 List.of(), 10, animator).setIsBattle(true);
     }
 
@@ -48,6 +57,10 @@ public class AnimationData extends BasicAnimationData {
         return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10, animator);
     }
 
+    public static AnimationData glidingAnimation(String... animator){
+        return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10, animator);
+    }
+
     public static AnimationData floatingAnimation(String... animator){
         return new AnimationData("floating", List.of(PoseType.FLOAT), List.of("water_idle"), List.of(), 10, animator);
     }
@@ -62,21 +75,16 @@ public class AnimationData extends BasicAnimationData {
 
     public static AnimationData surfaceFloatingAnimation(String... animator){
         return new AnimationData("on_floating", List.of(PoseType.FLOAT), List.of("surface_idle"), List.of(), 10, animator)
-                .notInWater().setPoseName("floating");
+                .setIsTouchingWater(true).setIsUnderwater(false).setPoseName("surface_idle");
     }
 
     public static AnimationData surfaceSwimmingAnimation(String... animator){
         return new AnimationData("on_swimming", List.of(PoseType.FLOAT), List.of("surface_swim"), List.of(), 10, animator)
-                .notInWater().setPoseName("swimming");
+                .setIsTouchingWater(true).setIsUnderwater(false).setPoseName("surface_swim");
     }
 
     public static AnimationData waterSleepingAnimation(String... animator){
         return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10, animator).inWater();
-    }
-
-    private AnimationData setPoseName(String s) {
-        this.poseName = s;
-        return this;
     }
 
     public AnimationData notBattle() {
@@ -94,7 +102,7 @@ public class AnimationData extends BasicAnimationData {
             int blinkIndex = i + 1;
             blinkList.add("blink" + blinkIndex);
         }
-        var quirk = new Quirk("blink", blinkList);
+        var quirk = new Quirk(blinkList);
         quirks.add(quirk);
         return this;
     }
@@ -110,12 +118,17 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public AnimationData withLook() {
-        animations.add(0, "look");
+        animations.add(0, "q.look('head_ai')");
         return this;
     }
 
     public AnimationData setStatic(){
         isStatic = true;
+        return this;
+    }
+
+    private AnimationData setIsUnderwater(boolean isUnderwater) {
+        this.isUnderwater = Optional.of(isUnderwater);
         return this;
     }
 
@@ -126,6 +139,10 @@ public class AnimationData extends BasicAnimationData {
 
     public JsonObject getAnimationJson(String animationFileName) {
         var json = super.getAnimationJson(animationFileName);
+        if(!conditionalAnimations.isEmpty()){
+            var animationsJson = json.get("animations").getAsJsonArray();
+            conditionalAnimations.forEach(animation -> animationsJson.add(animation.getAsJson(animationFileName)));
+        }
 
         if (isBackup && posingFileData != null){
             poseTypes.addAll(posingFileData.getUnusedPoseTypes());
@@ -141,28 +158,26 @@ public class AnimationData extends BasicAnimationData {
             json.add("poseTypes", poseTypesJson);
         }
 
-        json.addProperty("transformTicks", transformTicks);
+//        json.addProperty("transformTicks", transformTicks);
         isBattle.ifPresent(aBoolean -> json.addProperty("isBattle", aBoolean));
         isTouchingWater.ifPresent(aBoolean -> json.addProperty("isTouchingWater", aBoolean));
+        isUnderwater.ifPresent(aBoolean -> json.addProperty("isUnderWater", aBoolean));
         allPoseTypes.ifPresent(aBoolean -> json.addProperty("allPoseTypes", aBoolean));
+        if(condition!=null)  json.addProperty("condition", condition);
         var quirksJson = new JsonArray();
         var transformedParts = new JsonArray();
+        var namedAnimations = new JsonArray();
         transformedPartDataList.forEach(transformedPart -> transformedParts.add(transformedPart.toJsonObjet()));
-        quirks.forEach(quirk -> quirksJson.add(quirk.getAnimationJson(animationFileName)));
+        quirks.forEach(quirk -> quirksJson.add(quirk.getAnimationFunction(animationFileName)));
+        this.namedAnimations.forEach((key, value) -> namedAnimations.getAsJsonObject().addProperty(key, value));
         json.add("quirks", quirksJson);
+        json.add("namedAnimations", namedAnimations);
+        json.add("transformedParts", transformedParts);
         return json;
-    }
-
-    public String getAnimationName() {
-        return animationName;
     }
 
     public List<PoseType> getPoseTypes() {
         return poseTypes;
-    }
-
-    public int getTransformTicks() {
-        return transformTicks;
     }
 
     public List<String> getAnimations() {
@@ -225,7 +240,12 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
-    public AnimationData notInWater() {
+    public AnimationData addQuirk(String quirk) {
+        quirks.add(Quirk.simpleQuirk(quirk));
+        return this;
+    }
+
+    public AnimationData notTouchingWater() {
         this.isTouchingWater = Optional.of(false);
         return this;
     }
@@ -235,9 +255,8 @@ public class AnimationData extends BasicAnimationData {
         return this;
     }
 
-    public AnimationData setAnimationName(String waterSleep) {
-        animationName = waterSleep;
-        poseName = waterSleep;
+    public AnimationData setPoseName(String poseName) {
+        this.poseName = poseName;
         return this;
     }
 
@@ -247,5 +266,32 @@ public class AnimationData extends BasicAnimationData {
 
     public List<Quirk> getQuirks() {
         return quirks;
+    }
+
+    public AnimationData addAnimations(String... s) {
+        animations.addAll(Arrays.asList(s));
+        return this;
+    }
+
+    public AnimationData addNamedAnimation(String name, String method) {
+        this.namedAnimations.put(name, method);
+        return this;
+    }
+
+    public AnimationData setCondition(String s) {
+        this.condition = s;
+        return this;
+    }
+
+    public AnimationData addConditionalAnimation(ConditionalAnimation conditionalAnimation) {
+        this.conditionalAnimations.add(conditionalAnimation);
+        return this;
+    }
+
+    public AnimationData removePoseTypes(PoseType... poseTypes) {
+        for (PoseType poseType : poseTypes) {
+            this.poseTypes.remove(poseType);
+        }
+        return this;
     }
 }

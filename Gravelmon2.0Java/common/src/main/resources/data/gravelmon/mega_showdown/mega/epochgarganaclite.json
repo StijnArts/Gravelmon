@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgarganaclite",
+  "showdown_id": "epochgarganaclite",
+  "item_id": "gravelmon:epoch_garganaclite",
+  "item_name": "Epoch Garganaclite",
+  "pokemon": "garganacl",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Garganacl to Mega Evolve into Mega Epoch Garganacl"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

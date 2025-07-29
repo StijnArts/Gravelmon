@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwocharizardite",
+  "showdown_id": "epochtwocharizardite",
+  "item_id": "gravelmon:epochtwo_charizardite",
+  "item_name": "Epochtwo Charizardite",
+  "pokemon": "charizard",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Charizard to Mega Evolve into Mega Epochtwo Charizard"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

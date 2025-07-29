@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianaerodactylite",
+  "showdown_id": "ayreianaerodactylite",
+  "item_id": "gravelmon:ayreian_aerodactylite",
+  "item_name": "Ayreian Aerodactylite",
+  "pokemon": "aerodactyl",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Aerodactyl to Mega Evolve into Mega Ayreian Aerodactyl"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "msd_id": "shadowmewtwonite",
+  "showdown_id": "shadowmewtwonite",
+  "item_id": "gravelmon:shadow_mewtwonite",
+  "item_name": "Shadow Mewtwonite",
+  "pokemon": "mewtwo",
+  "apply_aspect": "shadow_mega",
+  "itemDescription": [
+    "Allows Shadow Mewtwo to Mega Evolve into Mega Shadow Mewtwo"
+  ],
+  "requiredAspects": [
+    [
+      "SHADOW"
+    ]
+  ]
+}

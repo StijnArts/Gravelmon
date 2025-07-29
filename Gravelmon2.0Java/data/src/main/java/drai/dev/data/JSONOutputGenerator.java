@@ -24,6 +24,7 @@ public class JSONOutputGenerator {
                 MegaStoneGenerator.createMegaStoneTexture(resourcesDir, baseStoneName, megaEvolution);
             });
         });
+        MegaShowdownMegaDataJSONWriter.writeMegaEntries(resourcesDir);
         ArmoredForm.ARMORED_FORMS.forEach((name, form) -> {
            form.processPokemonAssets(resourcesDir);
         });
@@ -48,6 +49,7 @@ public class JSONOutputGenerator {
         //Additional Forms
         LangJSONWriter.finalizeLang(resourcesDir);
         PokeDexWriter.finalizeDexes(resourcesDir);
+        SoundsJsonWriter.finalizeSounds(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 
         if(true){
@@ -64,5 +66,6 @@ public class JSONOutputGenerator {
         PoserJSONWriter.writeSpecies(game,resourcesDir);
         LangJSONWriter.writeLang(game,resourcesDir);
         PokeDexEntryWriter.write(game, resourcesDir);
+        SoundsJsonWriter.writeCries(game, resourcesDir);
     }
 }

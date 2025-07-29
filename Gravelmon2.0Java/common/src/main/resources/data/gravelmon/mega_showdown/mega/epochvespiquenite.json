@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochvespiquenite",
+  "showdown_id": "epochvespiquenite",
+  "item_id": "gravelmon:epoch_vespiquenite",
+  "item_name": "Epoch Vespiquenite",
+  "pokemon": "vespiquen",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Vespiquen to Mega Evolve into Mega Epoch Vespiquen"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

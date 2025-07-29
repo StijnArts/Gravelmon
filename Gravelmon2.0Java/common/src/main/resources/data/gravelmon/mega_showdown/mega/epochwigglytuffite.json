@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochwigglytuffite",
+  "showdown_id": "epochwigglytuffite",
+  "item_id": "gravelmon:epoch_wigglytuffite",
+  "item_name": "Epoch Wigglytuffite",
+  "pokemon": "wigglytuff",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Wigglytuff to Mega Evolve into Mega Epoch Wigglytuff"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

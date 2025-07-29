@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochninetalesite",
+  "showdown_id": "epochninetalesite",
+  "item_id": "gravelmon:epoch_ninetalesite",
+  "item_name": "Epoch Ninetalesite",
+  "pokemon": "ninetales",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Ninetales to Mega Evolve into Mega Epoch Ninetales"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

@@ -35,6 +35,11 @@ public class Xenoverse extends Game {
         addNewPokemon(new Kungfur());
         addNewPokemon(new Masgot());
         addNewPokemon(new Bremand());
+        addNewPokemon(new BassistBremand(Aspect.BASSIST));
+        addNewPokemon(new DrummerBremand(Aspect.DRUMMER));
+        addNewPokemon(new GuitaristBremand(Aspect.GUITARIST));
+        addNewPokemon(new Bremand());
+        addNewPokemon(new Bremand());
         addNewPokemon(new Puppillon());
         addNewPokemon(new Hangead());
         addNewPokemon(new Nunvil());

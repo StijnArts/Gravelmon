@@ -113,7 +113,7 @@ public class SeviianWishiwashi extends Pokemon {
                 AnimationData.floatingAnimation().withBlink(),
                 AnimationData.hoveringAnimation().withBlink(),
                 AnimationData.flyingAnimation().withBlink(),
-                AnimationData.sleepingAnimation().clearAnimations().addAnimation("ground_sleep").notInWater(),
+                AnimationData.sleepingAnimation().clearAnimations().addAnimation("ground_sleep").notTouchingWater(),
                 AnimationData.waterSleepingAnimation()
         ));
         markReady();

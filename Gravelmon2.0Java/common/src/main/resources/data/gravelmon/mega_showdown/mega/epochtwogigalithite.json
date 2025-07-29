@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwogigalithite",
+  "showdown_id": "epochtwogigalithite",
+  "item_id": "gravelmon:epochtwo_gigalithite",
+  "item_name": "Epochtwo Gigalithite",
+  "pokemon": "gigalith",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Gigalith to Mega Evolve into Mega Epochtwo Gigalith"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

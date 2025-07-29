@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwoursalunanite",
+  "showdown_id": "epochtwoursalunanite",
+  "item_id": "gravelmon:epochtwo_ursalunanite",
+  "item_name": "Epochtwo Ursalunanite",
+  "pokemon": "ursaluna",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Ursaluna to Mega Evolve into Mega Epochtwo Ursaluna"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

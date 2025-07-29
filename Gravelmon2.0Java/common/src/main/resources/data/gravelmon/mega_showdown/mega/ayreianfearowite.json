@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianfearowite",
+  "showdown_id": "ayreianfearowite",
+  "item_id": "gravelmon:ayreian_fearowite",
+  "item_name": "Ayreian Fearowite",
+  "pokemon": "fearow",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Fearow to Mega Evolve into Mega Ayreian Fearow"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

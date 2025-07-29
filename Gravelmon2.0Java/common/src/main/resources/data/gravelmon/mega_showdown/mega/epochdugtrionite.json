@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochdugtrionite",
+  "showdown_id": "epochdugtrionite",
+  "item_id": "gravelmon:epoch_dugtrionite",
+  "item_name": "Epoch Dugtrionite",
+  "pokemon": "dugtrio",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Dugtrio to Mega Evolve into Mega Epoch Dugtrio"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

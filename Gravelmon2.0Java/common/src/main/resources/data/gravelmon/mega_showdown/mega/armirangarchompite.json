@@ -1,0 +1,16 @@
+{
+  "msd_id": "armirangarchompite",
+  "showdown_id": "armirangarchompite",
+  "item_id": "gravelmon:armiran_garchompite",
+  "item_name": "Armiran Garchompite",
+  "pokemon": "garchomp",
+  "apply_aspect": "armiran_mega",
+  "itemDescription": [
+    "Allows Armiran Garchomp to Mega Evolve into Mega Armiran Garchomp"
+  ],
+  "requiredAspects": [
+    [
+      "ARMIRAN"
+    ]
+  ]
+}

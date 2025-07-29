@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtorterranite",
+  "showdown_id": "epochtorterranite",
+  "item_id": "gravelmon:epoch_torterranite",
+  "item_name": "Epoch Torterranite",
+  "pokemon": "torterra",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Torterra to Mega Evolve into Mega Epoch Torterra"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

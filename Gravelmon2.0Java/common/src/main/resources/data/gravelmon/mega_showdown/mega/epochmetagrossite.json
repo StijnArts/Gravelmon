@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochmetagrossite",
+  "showdown_id": "epochmetagrossite",
+  "item_id": "gravelmon:epoch_metagrossite",
+  "item_name": "Epoch Metagrossite",
+  "pokemon": "metagross",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Metagross to Mega Evolve into Mega Epoch Metagross"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

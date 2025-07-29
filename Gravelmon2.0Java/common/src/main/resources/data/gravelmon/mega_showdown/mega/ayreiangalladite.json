@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreiangalladite",
+  "showdown_id": "ayreiangalladite",
+  "item_id": "gravelmon:ayreian_galladite",
+  "item_name": "Ayreian Galladite",
+  "pokemon": "gallade",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Gallade to Mega Evolve into Mega Ayreian Gallade"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

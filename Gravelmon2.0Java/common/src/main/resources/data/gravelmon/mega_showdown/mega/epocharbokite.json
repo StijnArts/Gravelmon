@@ -1,0 +1,16 @@
+{
+  "msd_id": "epocharbokite",
+  "showdown_id": "epocharbokite",
+  "item_id": "gravelmon:epoch_arbokite",
+  "item_name": "Epoch Arbokite",
+  "pokemon": "arbok",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Arbok to Mega Evolve into Mega Epoch Arbok"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

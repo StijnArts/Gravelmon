@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwowyrdeerite",
+  "showdown_id": "epochtwowyrdeerite",
+  "item_id": "gravelmon:epochtwo_wyrdeerite",
+  "item_name": "Epochtwo Wyrdeerite",
+  "pokemon": "wyrdeer",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Wyrdeer to Mega Evolve into Mega Epochtwo Wyrdeer"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

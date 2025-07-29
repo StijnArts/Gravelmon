@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltacharizardite",
+  "showdown_id": "deltacharizardite",
+  "item_id": "gravelmon:delta_charizardite",
+  "item_name": "Delta Charizardite",
+  "pokemon": "charizard",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Charizard to Mega Evolve into Mega Delta Charizard"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

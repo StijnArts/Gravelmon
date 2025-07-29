@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochblisseyite",
+  "showdown_id": "epochblisseyite",
+  "item_id": "gravelmon:epoch_blisseyite",
+  "item_name": "Epoch Blisseyite",
+  "pokemon": "blissey",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Blissey to Mega Evolve into Mega Epoch Blissey"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

@@ -2,7 +2,6 @@ package drai.dev.data.pokemon;
 
 import com.google.gson.*;
 import drai.dev.data.attributes.*;
-import drai.dev.data.jsonwriters.assets.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
@@ -270,24 +269,28 @@ public class MegaEvolution extends WorldRepresentablePokemon {
 
     }
 
-    public String getMegaStoneName(String megaStoneName) {
+    public String getMegaStoneName(@Nullable String megaStoneName) {
         if(this.megaStoneName!=null && !this.megaStoneName.isEmpty()) {
             return this.megaStoneName.replaceAll(" ","_");
         }
+        if(megaStoneName==null || megaStoneName.isEmpty()) throw new IllegalArgumentException("megaStoneName cannot be null or empty if MegaEvolution.megaStoneName is null or empty");
 
-        var megaId = getMegaName();
-        var megaStoneNameForId = megaStoneName;
-        if (!megaId.equalsIgnoreCase("mega")) {
-            var suffix = megaId.split("_");
-            megaStoneNameForId += "_" + suffix[1];
-        }
+        var megaStoneNameForId = megaStoneName + getMegaSuffix();
 
         var aspect = getAspect();
         if (aspect != null) {
             megaStoneNameForId = aspect + "_" + megaStoneNameForId;
         }
-
+        this.megaStoneName = megaStoneNameForId;
         return megaStoneNameForId.toLowerCase();
+    }
+
+    public String getMegaSuffix() {
+        if (!getMegaName().equalsIgnoreCase("mega")) {
+            var suffix = getMegaName().split("_");
+            return "_" + suffix[1];
+        }
+        return "";
     }
 
     public MegaStonePalette getMegaStonePalette() {

@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochsawsbuckite",
+  "showdown_id": "epochsawsbuckite",
+  "item_id": "gravelmon:epoch_sawsbuckite",
+  "item_name": "Epoch Sawsbuckite",
+  "pokemon": "sawsbuck",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Sawsbuck to Mega Evolve into Mega Epoch Sawsbuck"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

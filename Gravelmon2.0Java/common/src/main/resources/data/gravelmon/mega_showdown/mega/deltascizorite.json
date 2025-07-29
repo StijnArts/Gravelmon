@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltascizorite",
+  "showdown_id": "deltascizorite",
+  "item_id": "gravelmon:delta_scizorite",
+  "item_name": "Delta Scizorite",
+  "pokemon": "scizor",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Scizor to Mega Evolve into Mega Delta Scizor"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

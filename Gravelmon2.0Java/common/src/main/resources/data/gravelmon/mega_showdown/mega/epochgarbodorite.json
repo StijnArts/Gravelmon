@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgarbodorite",
+  "showdown_id": "epochgarbodorite",
+  "item_id": "gravelmon:epoch_garbodorite",
+  "item_name": "Epoch Garbodorite",
+  "pokemon": "garbodor",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Garbodor to Mega Evolve into Mega Epoch Garbodor"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

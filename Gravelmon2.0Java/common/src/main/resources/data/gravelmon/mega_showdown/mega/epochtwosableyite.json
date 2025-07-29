@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwosableyite",
+  "showdown_id": "epochtwosableyite",
+  "item_id": "gravelmon:epochtwo_sableyite",
+  "item_name": "Epochtwo Sableyite",
+  "pokemon": "sableye",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Sableye to Mega Evolve into Mega Epochtwo Sableye"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

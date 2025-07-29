@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianaltarianite",
+  "showdown_id": "ayreianaltarianite",
+  "item_id": "gravelmon:ayreian_altarianite",
+  "item_name": "Ayreian Altarianite",
+  "pokemon": "altaria",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Altaria to Mega Evolve into Mega Ayreian Altaria"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

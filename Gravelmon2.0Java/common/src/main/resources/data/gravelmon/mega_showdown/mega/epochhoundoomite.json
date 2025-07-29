@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochhoundoomite",
+  "showdown_id": "epochhoundoomite",
+  "item_id": "gravelmon:epoch_houndoomite",
+  "item_name": "Epoch Houndoomite",
+  "pokemon": "houndoom",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Houndoom to Mega Evolve into Mega Epoch Houndoom"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

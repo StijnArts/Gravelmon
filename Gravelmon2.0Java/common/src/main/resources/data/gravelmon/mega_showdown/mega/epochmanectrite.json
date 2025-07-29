@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochmanectrite",
+  "showdown_id": "epochmanectrite",
+  "item_id": "gravelmon:epoch_manectrite",
+  "item_name": "Epoch Manectrite",
+  "pokemon": "manectric",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Manectric to Mega Evolve into Mega Epoch Manectric"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

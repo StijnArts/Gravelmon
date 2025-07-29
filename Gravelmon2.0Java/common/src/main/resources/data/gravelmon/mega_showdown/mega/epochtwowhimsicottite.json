@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwowhimsicottite",
+  "showdown_id": "epochtwowhimsicottite",
+  "item_id": "gravelmon:epochtwo_whimsicottite",
+  "item_name": "Epochtwo Whimsicottite",
+  "pokemon": "whimsicott",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Whimsicott to Mega Evolve into Mega Epochtwo Whimsicott"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

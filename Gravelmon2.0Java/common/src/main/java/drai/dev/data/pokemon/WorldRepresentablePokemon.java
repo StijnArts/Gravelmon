@@ -18,7 +18,6 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 import java.util.List;
-import java.util.function.*;
 
 public abstract class WorldRepresentablePokemon {
     protected Stats stats;
@@ -183,13 +182,13 @@ public abstract class WorldRepresentablePokemon {
         });
         var quirks = new ArrayList<>(animationData.getQuirks());
         quirks.forEach(quirk -> {
-            var quirkAnimations = new ArrayList<>(quirk.animations);
+            var quirkAnimations = new ArrayList<>(quirk.getAnimations());
             quirkAnimations.forEach(quirkAnimation -> {
                 if(!checkAnimationExists(animationMap, animationFileName, quirkAnimation)){
-                    quirk.animations.remove(quirkAnimation);
+                    quirk.getAnimations().remove(quirkAnimation);
                 }
             });
-            if(quirk.animations.isEmpty()) animationData.getQuirks().remove(quirk);
+            if(quirk.getAnimations().isEmpty()) animationData.getQuirks().remove(quirk);
         });
     }
 

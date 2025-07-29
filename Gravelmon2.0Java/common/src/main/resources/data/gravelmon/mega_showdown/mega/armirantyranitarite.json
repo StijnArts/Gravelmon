@@ -1,0 +1,16 @@
+{
+  "msd_id": "armirantyranitarite",
+  "showdown_id": "armirantyranitarite",
+  "item_id": "gravelmon:armiran_tyranitarite",
+  "item_name": "Armiran Tyranitarite",
+  "pokemon": "tyranitar",
+  "apply_aspect": "armiran_mega",
+  "itemDescription": [
+    "Allows Armiran Tyranitar to Mega Evolve into Mega Armiran Tyranitar"
+  ],
+  "requiredAspects": [
+    [
+      "ARMIRAN"
+    ]
+  ]
+}

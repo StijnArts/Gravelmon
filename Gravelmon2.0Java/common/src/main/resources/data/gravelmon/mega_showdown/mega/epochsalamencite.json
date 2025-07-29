@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochsalamencite",
+  "showdown_id": "epochsalamencite",
+  "item_id": "gravelmon:epoch_salamencite",
+  "item_name": "Epoch Salamencite",
+  "pokemon": "salamence",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Salamence to Mega Evolve into Mega Epoch Salamence"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

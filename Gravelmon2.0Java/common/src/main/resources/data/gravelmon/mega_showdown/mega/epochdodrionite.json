@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochdodrionite",
+  "showdown_id": "epochdodrionite",
+  "item_id": "gravelmon:epoch_dodrionite",
+  "item_name": "Epoch Dodrionite",
+  "pokemon": "dodrio",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Dodrio to Mega Evolve into Mega Epoch Dodrio"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

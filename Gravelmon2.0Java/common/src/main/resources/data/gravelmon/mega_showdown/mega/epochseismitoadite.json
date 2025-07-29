@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochseismitoadite",
+  "showdown_id": "epochseismitoadite",
+  "item_id": "gravelmon:epoch_seismitoadite",
+  "item_name": "Epoch Seismitoadite",
+  "pokemon": "seismitoad",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Seismitoad to Mega Evolve into Mega Epoch Seismitoad"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

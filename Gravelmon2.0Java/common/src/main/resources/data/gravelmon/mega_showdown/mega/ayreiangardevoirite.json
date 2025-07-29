@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreiangardevoirite",
+  "showdown_id": "ayreiangardevoirite",
+  "item_id": "gravelmon:ayreian_gardevoirite",
+  "item_name": "Ayreian Gardevoirite",
+  "pokemon": "gardevoir",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Gardevoir to Mega Evolve into Mega Ayreian Gardevoir"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

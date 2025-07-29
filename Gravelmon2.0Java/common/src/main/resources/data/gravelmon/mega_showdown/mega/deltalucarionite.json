@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltalucarionite",
+  "showdown_id": "deltalucarionite",
+  "item_id": "gravelmon:delta_lucarionite",
+  "item_name": "Delta Lucarionite",
+  "pokemon": "lucario",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Lucario to Mega Evolve into Mega Delta Lucario"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

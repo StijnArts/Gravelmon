@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochbeartite",
+  "showdown_id": "epochbeartite",
+  "item_id": "gravelmon:epoch_beartite",
+  "item_name": "Epoch Beartite",
+  "pokemon": "beartic",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Beartic to Mega Evolve into Mega Epoch Beartic"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

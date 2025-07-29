@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianvenusaurite",
+  "showdown_id": "ayreianvenusaurite",
+  "item_id": "gravelmon:ayreian_venusaurite",
+  "item_name": "Ayreian Venusaurite",
+  "pokemon": "venusaur",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Venusaur to Mega Evolve into Mega Ayreian Venusaur"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

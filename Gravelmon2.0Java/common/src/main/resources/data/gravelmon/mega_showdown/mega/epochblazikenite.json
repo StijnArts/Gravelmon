@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochblazikenite",
+  "showdown_id": "epochblazikenite",
+  "item_id": "gravelmon:epoch_blazikenite",
+  "item_name": "Epoch Blazikenite",
+  "pokemon": "blaziken",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Blaziken to Mega Evolve into Mega Epoch Blaziken"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

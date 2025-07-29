@@ -1,0 +1,16 @@
+{
+  "msd_id": "armiransceptilite",
+  "showdown_id": "armiransceptilite",
+  "item_id": "gravelmon:armiran_sceptilite",
+  "item_name": "Armiran Sceptilite",
+  "pokemon": "sceptile",
+  "apply_aspect": "armiran_mega",
+  "itemDescription": [
+    "Allows Armiran Sceptile to Mega Evolve into Mega Armiran Sceptile"
+  ],
+  "requiredAspects": [
+    [
+      "ARMIRAN"
+    ]
+  ]
+}

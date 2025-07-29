@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochmachampite",
+  "showdown_id": "epochmachampite",
+  "item_id": "gravelmon:epoch_machampite",
+  "item_name": "Epoch Machampite",
+  "pokemon": "machamp",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Machamp to Mega Evolve into Mega Epoch Machamp"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

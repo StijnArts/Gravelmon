@@ -1,0 +1,16 @@
+{
+  "msd_id": "avalossiansceptilite",
+  "showdown_id": "avalossiansceptilite",
+  "item_id": "gravelmon:avalossian_sceptilite",
+  "item_name": "Avalossian Sceptilite",
+  "pokemon": "sceptile",
+  "apply_aspect": "avalossian_mega",
+  "itemDescription": [
+    "Allows Avalossian Sceptile to Mega Evolve into Mega Avalossian Sceptile"
+  ],
+  "requiredAspects": [
+    [
+      "AVALOSSIAN"
+    ]
+  ]
+}

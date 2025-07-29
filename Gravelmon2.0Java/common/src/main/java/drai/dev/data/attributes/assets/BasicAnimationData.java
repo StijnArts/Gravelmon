@@ -5,7 +5,6 @@ import com.google.gson.*;
 import java.util.*;
 
 public abstract class BasicAnimationData {
-    public String animationName;
     public String poseName;
     public List<String> animations = new ArrayList<>();
     protected PosingFileData posingFileData;
@@ -13,7 +12,6 @@ public abstract class BasicAnimationData {
     protected boolean isStatic;
 
     public BasicAnimationData(String animationName, List<String> animations, String... animator) {
-        this.animationName = animationName;
         this.poseName = animationName;
         this.animations.addAll(animations);
         if(animator.length > 0) {
@@ -26,9 +24,9 @@ public abstract class BasicAnimationData {
         jsonObject.addProperty("poseName", poseName);
         var animationsJson = new JsonArray();
         animations.forEach(animation -> {
-            if(animation.equalsIgnoreCase("look") || animation.contains("q."))
-                animationsJson.add(animation);
-            else animationsJson.add("bedrock("+animationFileName+", "+animation+")");
+            if(animation.equalsIgnoreCase("look"))
+                animationsJson.add("q.look('"+ getPosingFileData().head+ "')");
+            else animationsJson.add("q.bedrock("+animationFileName+", "+animation+")");
         });
         jsonObject.add("animations", animationsJson);
         return jsonObject;
@@ -47,11 +45,7 @@ public abstract class BasicAnimationData {
         }
         var pokemon = this.posingFileData.getPokemon();
         var metaData = pokemon.getModelMetaData();
-        animations.forEach(animation -> {
-//            if(metaData.getAnimatorsPerOptionalAnimation().containsKey(animation)) {
-//                metaData.getAnimatorsPerOptionalAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator).setStatic(isStatic);
-//            }
-            metaData.getAnimatorsPerAnimation().computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator).setStatic(isStatic);
-        });
+        animations.forEach(animation -> metaData.getAnimatorsPerAnimation()
+                .computeIfAbsent(animation, k -> new AnimationMetadata()).addAnimator(animator).setStatic(isStatic));
     }
 }

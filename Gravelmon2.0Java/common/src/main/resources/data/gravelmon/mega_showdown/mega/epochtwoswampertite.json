@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwoswampertite",
+  "showdown_id": "epochtwoswampertite",
+  "item_id": "gravelmon:epochtwo_swampertite",
+  "item_name": "Epochtwo Swampertite",
+  "pokemon": "swampert",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Swampert to Mega Evolve into Mega Epochtwo Swampert"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

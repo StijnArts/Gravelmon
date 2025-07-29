@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochlopunnyite",
+  "showdown_id": "epochlopunnyite",
+  "item_id": "gravelmon:epoch_lopunnyite",
+  "item_name": "Epoch Lopunnyite",
+  "pokemon": "lopunny",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Lopunny to Mega Evolve into Mega Epoch Lopunny"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

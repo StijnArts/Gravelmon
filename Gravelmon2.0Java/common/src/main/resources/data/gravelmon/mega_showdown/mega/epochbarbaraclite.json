@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochbarbaraclite",
+  "showdown_id": "epochbarbaraclite",
+  "item_id": "gravelmon:epoch_barbaraclite",
+  "item_name": "Epoch Barbaraclite",
+  "pokemon": "barbaracle",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Barbaracle to Mega Evolve into Mega Epoch Barbaracle"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

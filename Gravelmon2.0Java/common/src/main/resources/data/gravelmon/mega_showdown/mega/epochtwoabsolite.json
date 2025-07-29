@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochtwoabsolite",
+  "showdown_id": "epochtwoabsolite",
+  "item_id": "gravelmon:epochtwo_absolite",
+  "item_name": "Epochtwo Absolite",
+  "pokemon": "absol",
+  "apply_aspect": "epochtwo_mega",
+  "itemDescription": [
+    "Allows Epochtwo Absol to Mega Evolve into Mega Epochtwo Absol"
+  ],
+  "requiredAspects": [
+    [
+      "epochtwo"
+    ]
+  ]
+}

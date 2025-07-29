@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltavenusaurite",
+  "showdown_id": "deltavenusaurite",
+  "item_id": "gravelmon:delta_venusaurite",
+  "item_name": "Delta Venusaurite",
+  "pokemon": "venusaur",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Venusaur to Mega Evolve into Mega Delta Venusaur"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

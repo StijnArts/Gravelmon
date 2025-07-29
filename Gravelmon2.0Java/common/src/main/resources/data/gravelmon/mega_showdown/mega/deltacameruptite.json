@@ -1,0 +1,16 @@
+{
+  "msd_id": "deltacameruptite",
+  "showdown_id": "deltacameruptite",
+  "item_id": "gravelmon:delta_cameruptite",
+  "item_name": "Delta Cameruptite",
+  "pokemon": "camerupt",
+  "apply_aspect": "delta_mega",
+  "itemDescription": [
+    "Allows Delta Camerupt to Mega Evolve into Mega Delta Camerupt"
+  ],
+  "requiredAspects": [
+    [
+      "DELTA"
+    ]
+  ]
+}

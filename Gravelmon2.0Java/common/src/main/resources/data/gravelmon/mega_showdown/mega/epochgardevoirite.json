@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgardevoirite",
+  "showdown_id": "epochgardevoirite",
+  "item_id": "gravelmon:epoch_gardevoirite",
+  "item_name": "Epoch Gardevoirite",
+  "pokemon": "gardevoir",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Gardevoir to Mega Evolve into Mega Epoch Gardevoir"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

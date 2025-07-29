@@ -27,6 +27,7 @@ public class Pokemon extends AbstractPokemon {
     private Aspect formAdditionAspect;
     private String additionalFormKey;
     private final List<EvolutionEntry> additionalEvolutions = new ArrayList<>();
+    private boolean useDefaultCry;
 
     //additional form constructors
     public Pokemon(String originalPokemon, Aspect aspect, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight, Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship, int eggCycles, List<EggGroup> eggGroups, List<String> dexEntries, List<EvolutionEntry> evolutions, List<MoveLearnSetEntry> learnSet, List<Label> labels, int dropAmount, List<ItemDrop> drops, SpawnContext spawnContext, SpawnPool spawnPool, int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions, List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets, List<PokemonForm> forms) {
@@ -488,6 +489,15 @@ public class Pokemon extends AbstractPokemon {
         this.canSwimInWater = true;
         this.canBreatheUnderwater = true;
         return this;
+    }
+
+    public Pokemon useDefaultCry(){
+        useDefaultCry = true;
+        return this;
+    }
+
+    public boolean usesDefaultCry() {
+        return useDefaultCry;
     }
 
     public void setPokedexNumber(int dexCounter) {

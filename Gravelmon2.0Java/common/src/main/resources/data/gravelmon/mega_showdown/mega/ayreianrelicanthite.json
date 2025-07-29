@@ -1,0 +1,16 @@
+{
+  "msd_id": "ayreianrelicanthite",
+  "showdown_id": "ayreianrelicanthite",
+  "item_id": "gravelmon:ayreian_relicanthite",
+  "item_name": "Ayreian Relicanthite",
+  "pokemon": "relicanth",
+  "apply_aspect": "ayreian_mega",
+  "itemDescription": [
+    "Allows Ayreian Relicanth to Mega Evolve into Mega Ayreian Relicanth"
+  ],
+  "requiredAspects": [
+    [
+      "AYREIAN"
+    ]
+  ]
+}

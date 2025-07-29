@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochgliscorite",
+  "showdown_id": "epochgliscorite",
+  "item_id": "gravelmon:epoch_gliscorite",
+  "item_name": "Epoch Gliscorite",
+  "pokemon": "gliscor",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Gliscor to Mega Evolve into Mega Epoch Gliscor"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

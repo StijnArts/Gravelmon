@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochpluslite",
+  "showdown_id": "epochpluslite",
+  "item_id": "gravelmon:epoch_pluslite",
+  "item_name": "Epoch Pluslite",
+  "pokemon": "plusle",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Plusle to Mega Evolve into Mega Epoch Plusle"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

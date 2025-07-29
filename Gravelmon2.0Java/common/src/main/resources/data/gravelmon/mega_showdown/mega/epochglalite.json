@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochglalite",
+  "showdown_id": "epochglalite",
+  "item_id": "gravelmon:epoch_glalite",
+  "item_name": "Epoch Glalite",
+  "pokemon": "glalie",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Glalie to Mega Evolve into Mega Epoch Glalie"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

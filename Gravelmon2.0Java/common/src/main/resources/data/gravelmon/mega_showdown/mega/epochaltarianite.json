@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochaltarianite",
+  "showdown_id": "epochaltarianite",
+  "item_id": "gravelmon:epoch_altarianite",
+  "item_name": "Epoch Altarianite",
+  "pokemon": "altaria",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Altaria to Mega Evolve into Mega Epoch Altaria"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

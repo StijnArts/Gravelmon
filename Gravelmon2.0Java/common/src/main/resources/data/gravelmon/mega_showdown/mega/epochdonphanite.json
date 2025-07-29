@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochdonphanite",
+  "showdown_id": "epochdonphanite",
+  "item_id": "gravelmon:epoch_donphanite",
+  "item_name": "Epoch Donphanite",
+  "pokemon": "donphan",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Donphan to Mega Evolve into Mega Epoch Donphan"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochcofagrigusite",
+  "showdown_id": "epochcofagrigusite",
+  "item_id": "gravelmon:epoch_cofagrigusite",
+  "item_name": "Epoch Cofagrigusite",
+  "pokemon": "cofagrigus",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Cofagrigus to Mega Evolve into Mega Epoch Cofagrigus"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

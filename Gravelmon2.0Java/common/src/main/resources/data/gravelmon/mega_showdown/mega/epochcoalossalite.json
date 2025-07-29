@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochcoalossalite",
+  "showdown_id": "epochcoalossalite",
+  "item_id": "gravelmon:epoch_coalossalite",
+  "item_name": "Epoch Coalossalite",
+  "pokemon": "coalossal",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Coalossal to Mega Evolve into Mega Epoch Coalossal"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}

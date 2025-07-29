@@ -1,0 +1,16 @@
+{
+  "msd_id": "epochmamoswinite",
+  "showdown_id": "epochmamoswinite",
+  "item_id": "gravelmon:epoch_mamoswinite",
+  "item_name": "Epoch Mamoswinite",
+  "pokemon": "mamoswine",
+  "apply_aspect": "epoch_mega",
+  "itemDescription": [
+    "Allows Epoch Mamoswine to Mega Evolve into Mega Epoch Mamoswine"
+  ],
+  "requiredAspects": [
+    [
+      "epoch"
+    ]
+  ]
+}
