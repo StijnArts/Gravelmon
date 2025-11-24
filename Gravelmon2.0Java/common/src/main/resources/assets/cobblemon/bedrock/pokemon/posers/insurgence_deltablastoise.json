@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7999999523162842,
   "portraitTranslation": [
     -0.6,
@@ -19,14 +18,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltablastoise, ground_idle)"
+        "q.bedrock('deltablastoise', 'q.look('head_ai')')",
+        "q.bedrock('deltablastoise', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -34,72 +34,56 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltablastoise, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltablastoise', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(deltablastoise, ground_walk)"
+        "q.bedrock('deltablastoise', 'q.look('head_ai')')",
+        "q.bedrock('deltablastoise', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltablastoise, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltablastoise', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "look",
-        "bedrock(deltablastoise, water_idle)"
+        "q.bedrock('deltablastoise', 'q.look('head_ai')')",
+        "q.bedrock('deltablastoise', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltablastoise, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltablastoise', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "look",
-        "bedrock(deltablastoise, water_swim)"
+        "q.bedrock('deltablastoise', 'q.look('head_ai')')",
+        "q.bedrock('deltablastoise', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltablastoise, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltablastoise', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

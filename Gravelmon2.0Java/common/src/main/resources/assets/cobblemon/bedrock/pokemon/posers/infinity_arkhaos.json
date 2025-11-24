@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.30000001192092896,
   "portraitTranslation": [
     -0.6,
@@ -13,14 +12,14 @@
     0.0
   ],
   "animations": {
-    "faint": "q.bedrock_primary('arkhaos', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('arkhaos', 'cry')"
+    "cry": "q.bedrock_stateful('arkhaos', 'cry')",
+    "faint": "q.bedrock_primary('arkhaos', 'faint', q.curve('one'))"
   },
   "poses": {
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(arkhaos, ground_idle)"
+        "q.bedrock('arkhaos', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,71 +27,55 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(arkhaos, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(arkhaos, ground_walk)"
+        "q.bedrock('arkhaos', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(arkhaos, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(arkhaos, air_idle)"
+        "q.bedrock('arkhaos', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(arkhaos, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(arkhaos, air_fly)"
+        "q.bedrock('arkhaos', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(arkhaos, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('arkhaos', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

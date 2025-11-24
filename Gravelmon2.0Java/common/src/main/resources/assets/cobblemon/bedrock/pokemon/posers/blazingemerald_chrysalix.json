@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.699999988079071,
   "portraitTranslation": [
     -0.7,
@@ -16,40 +15,37 @@
     "cry": "q.bedrock_stateful('steelix', 'cry')"
   },
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(steelix, battle_idle)"
+        "q.bedrock('steelix', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(steelix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('steelix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(steelix, sleep)"
+        "q.bedrock('steelix', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(steelix, ground_idle)"
+        "q.bedrock('steelix', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -57,35 +53,27 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(steelix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('steelix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(steelix, ground_walk)"
+        "q.bedrock('steelix', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(steelix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('steelix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

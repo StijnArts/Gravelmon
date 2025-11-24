@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7999999523162842,
   "portraitTranslation": [
     -0.0,
@@ -19,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(eghooddish, ground_idle)"
+        "q.bedrock('eghooddish', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -27,6 +26,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -34,44 +34,37 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(eghooddish, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('eghooddish', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(eghooddish, ground_walk)"
+        "q.bedrock('eghooddish', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(eghooddish, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('eghooddish', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(eghooddish, sleep)"
+        "q.bedrock('eghooddish', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

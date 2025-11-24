@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7000000476837158,
   "portraitTranslation": [
     0.0,
@@ -16,14 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltameloetta, ground_idle)"
+        "q.bedrock('deltameloetta', 'q.look('head_ai')')",
+        "q.bedrock('deltameloetta', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,22 +31,24 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
-        "bedrock(deltameloetta, air_fly)"
+        "q.bedrock('deltameloetta', 'q.look('head_ai')')",
+        "q.bedrock('deltameloetta', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "HOVER",
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

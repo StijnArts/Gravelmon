@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7999999523162842,
   "portraitTranslation": [
     -0.2,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltagrimer, ground_idle)"
+        "q.bedrock('deltagrimer', 'q.look('head_ai')')",
+        "q.bedrock('deltagrimer', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

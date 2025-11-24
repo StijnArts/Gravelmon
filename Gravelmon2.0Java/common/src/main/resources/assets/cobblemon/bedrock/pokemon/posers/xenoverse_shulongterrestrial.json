@@ -1,5 +1,4 @@
 {
-  "head": "head_2",
   "portraitScale": 3.0,
   "portraitTranslation": [
     0.0,
@@ -16,13 +15,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(shulong_terrestrial, ground_idle)"
+        "q.bedrock('shulong_terrestrial', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -30,69 +30,53 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(shulong_terrestrial, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('shulong_terrestrial', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(shulong_terrestrial, ground_walk)"
+        "q.bedrock('shulong_terrestrial', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(shulong_terrestrial, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('shulong_terrestrial', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(shulong_terrestrial, water_swim)"
+        "q.bedrock('shulong_terrestrial', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(shulong_terrestrial, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('shulong_terrestrial', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(shulong_terrestrial, water_idle)"
+        "q.bedrock('shulong_terrestrial', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(shulong_terrestrial, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('shulong_terrestrial', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

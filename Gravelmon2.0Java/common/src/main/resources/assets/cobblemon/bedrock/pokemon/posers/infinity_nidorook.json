@@ -1,5 +1,4 @@
 {
-  "head": "other_head_bone",
   "portraitScale": 1.2000000476837158,
   "portraitTranslation": [
     -0.7,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(nidorook, ground_idle)"
+        "q.bedrock('nidorook', 'q.look('head_ai')')",
+        "q.bedrock('nidorook', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,6 +27,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -35,45 +35,38 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(nidorook, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('nidorook', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(nidorook, ground_walk)"
+        "q.bedrock('nidorook', 'q.look('head_ai')')",
+        "q.bedrock('nidorook', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(nidorook, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('nidorook', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(nidorook, sleep)"
+        "q.bedrock('nidorook', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

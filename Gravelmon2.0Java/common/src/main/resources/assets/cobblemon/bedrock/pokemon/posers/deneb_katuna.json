@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.299999952316284,
   "portraitTranslation": [
     0.0,
@@ -16,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(katuna, ground_idle)"
+        "q.bedrock('katuna', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +23,7 @@
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,30 +31,33 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(katuna, water_swim)"
+        "q.bedrock('katuna', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(katuna, water_idle)"
+        "q.bedrock('katuna', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.4000000059604645,
   "portraitTranslation": [
     0.0,
@@ -19,29 +18,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(oculeus, ground_idle)"
+        "q.bedrock('oculeus', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(oculeus, blink1)",
-            "bedrock(oculeus, blink2)",
-            "bedrock(oculeus, blink3)",
-            "bedrock(oculeus, blink4)",
-            "bedrock(oculeus, blink5)",
-            "bedrock(oculeus, blink6)",
-            "bedrock(oculeus, blink7)",
-            "bedrock(oculeus, blink8)",
-            "bedrock(oculeus, blink9)",
-            "bedrock(oculeus, blink10)",
-            "bedrock(oculeus, blink11)",
-            "bedrock(oculeus, blink12)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('oculeus', 'q.array(blink1, blink2, blink3, blink4, blink5, blink6, blink7, blink8, blink9, blink10, blink11, blink12)')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

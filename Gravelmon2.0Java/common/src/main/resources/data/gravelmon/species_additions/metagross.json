@@ -668,7 +668,7 @@
       }
     },
     {
-      "name": "delta_spider_mega",
+      "name": "deltaspider_mega",
       "primaryType": "ground",
       "secondaryType": "bug",
       "baseScale": 0.26526315789473687,
@@ -692,11 +692,11 @@
       ],
       "height": 21,
       "aspects": [
-        "delta_spider_mega"
+        "deltaspider_mega"
       ]
     },
     {
-      "name": "delta_ruin_mega",
+      "name": "deltaruin_mega",
       "primaryType": "grass",
       "secondaryType": "rock",
       "baseScale": 0.28695652173913044,
@@ -720,11 +720,11 @@
       ],
       "height": 22,
       "aspects": [
-        "delta_ruin_mega"
+        "deltaruin_mega"
       ]
     },
     {
-      "name": "delta_crystal_mega",
+      "name": "deltacrystal_mega",
       "primaryType": "grass",
       "secondaryType": "crystal",
       "baseScale": 0.21621621621621623,
@@ -748,7 +748,7 @@
       ],
       "height": 20,
       "aspects": [
-        "delta_crystal_mega"
+        "deltacrystal_mega"
       ]
     },
     {
@@ -785,9 +785,9 @@
     "deltaruin",
     "epoch",
     "fabelian",
-    "delta_spider_mega",
-    "delta_ruin_mega",
-    "delta_crystal_mega",
+    "deltaspider_mega",
+    "deltaruin_mega",
+    "deltacrystal_mega",
     "epoch_mega"
   ]
 }

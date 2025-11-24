@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 3.0,
   "portraitTranslation": [
     -0.02,
@@ -16,11 +15,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(spacemew, ground_idle)"
+        "q.bedrock('spacemew', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

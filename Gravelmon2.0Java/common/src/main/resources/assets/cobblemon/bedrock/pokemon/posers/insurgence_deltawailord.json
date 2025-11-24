@@ -15,13 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltawailord, ground_idle)"
+        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -29,31 +31,36 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(deltawailord, ground_walk)"
+        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(deltawailord, air_fly)"
+        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "HOVER"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

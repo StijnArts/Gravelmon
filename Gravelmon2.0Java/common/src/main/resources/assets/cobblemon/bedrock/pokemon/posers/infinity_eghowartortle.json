@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.299999952316284,
   "portraitTranslation": [
     -0.35,
@@ -16,20 +15,16 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "look",
-        "bedrock(wartortle_egho, ground_idle)"
+        "q.bedrock('wartortle_egho', 'q.look('head_ai')')",
+        "q.bedrock('wartortle_egho', 'q.look('head_ai')')",
+        "q.bedrock('wartortle_egho', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(wartortle_egho, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('wartortle_egho', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

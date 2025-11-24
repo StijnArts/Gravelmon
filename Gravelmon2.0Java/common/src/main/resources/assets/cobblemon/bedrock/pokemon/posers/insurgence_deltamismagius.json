@@ -15,13 +15,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltamismagius, ground_idle)"
+        "q.bedrock('deltamismagius', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -29,69 +30,53 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltamismagius, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltamismagius', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(deltamismagius, ground_walk)"
+        "q.bedrock('deltamismagius', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltamismagius, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltamismagius', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(deltamismagius, air_fly)"
+        "q.bedrock('deltamismagius', 'air_fly')"
       ],
       "poseTypes": [
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltamismagius, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltamismagius', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(deltamismagius, air_idle)"
+        "q.bedrock('deltamismagius', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltamismagius, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltamismagius', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

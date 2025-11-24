@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.0999999046325684,
   "portraitTranslation": [
     -0.2,
@@ -16,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(teddiursa_hoennian, ground_idle)"
+        "q.bedrock('teddiursa_hoennian', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -27,46 +26,39 @@
         "FLOAT",
         "HOVER"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(teddiursa_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('teddiursa_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(teddiursa_hoennian, ground_walk)"
+        "q.bedrock('teddiursa_hoennian', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(teddiursa_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('teddiursa_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(teddiursa_hoennian, sleep)"
+        "q.bedrock('teddiursa_hoennian', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(lanturn_delta, ground_idle)"
+        "q.bedrock('lanturn_delta', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +24,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,33 +32,25 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lanturn_delta, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('lanturn_delta', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(lanturn_delta, air_idle)"
+        "q.bedrock('lanturn_delta', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lanturn_delta, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('lanturn_delta', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

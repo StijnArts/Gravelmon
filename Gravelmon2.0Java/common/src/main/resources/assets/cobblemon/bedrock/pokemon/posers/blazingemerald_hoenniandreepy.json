@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.1500000953674316,
   "portraitTranslation": [
     -0.46,
@@ -19,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(hoenniandreepy, ground_idle)"
+        "q.bedrock('hoenniandreepy', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,36 +28,28 @@
         "FLOAT",
         "HOVER"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandreepy, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoenniandreepy', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(hoenniandreepy, ground_walk)"
+        "q.bedrock('hoenniandreepy', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandreepy, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoenniandreepy', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

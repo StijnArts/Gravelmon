@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.600000023841858,
   "portraitTranslation": [
     0.0,
@@ -19,13 +18,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(aguade, ground_idle)"
+        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -33,83 +33,68 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(aguade, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('aguade', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(aguade, ground_walk)"
+        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(aguade, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('aguade', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "look",
-        "bedrock(aguade, water_idle)"
+        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(aguade, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('aguade', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "look",
-        "bedrock(aguade, water_swim)"
+        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(aguade, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('aguade', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(aguade, sleep)"
+        "q.bedrock('aguade', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.899999976158142,
   "portraitTranslation": [
     -0.4,
@@ -16,13 +15,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(nimbeon, ground_idle)"
+        "q.bedrock('nimbeon', 'q.look('head_ai')')",
+        "q.bedrock('nimbeon', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -30,54 +30,42 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(nimbeon, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('nimbeon', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(nimbeon, ground_walk)"
+        "q.bedrock('nimbeon', 'q.look('head_ai')')",
+        "q.bedrock('nimbeon', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(nimbeon, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('nimbeon', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(nimbeon, air_idle)"
+        "q.bedrock('nimbeon', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(nimbeon, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('nimbeon', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

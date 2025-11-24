@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.5,
   "portraitTranslation": [
     0.0,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(seviiancarnivine, ground_idle)"
+        "q.bedrock('seviiancarnivine', 'q.look('head_ai')')",
+        "q.bedrock('seviiancarnivine', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,6 +28,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -36,34 +36,26 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(seviiancarnivine, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('seviiancarnivine', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(seviiancarnivine, ground_walk)"
+        "q.bedrock('seviiancarnivine', 'q.look('head_ai')')",
+        "q.bedrock('seviiancarnivine', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(seviiancarnivine, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('seviiancarnivine', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

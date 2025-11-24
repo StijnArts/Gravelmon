@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.6100000143051147,
   "portraitTranslation": [
     -0.4,
@@ -16,40 +15,37 @@
     "cry": "q.bedrock_stateful('mega_steelix_fire', 'cry')"
   },
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(mega_steelix_fire, battle_idle)"
+        "q.bedrock('mega_steelix_fire', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mega_steelix_fire, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mega_steelix_fire', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(mega_steelix_fire, sleep)"
+        "q.bedrock('mega_steelix_fire', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(mega_steelix_fire, ground_idle)"
+        "q.bedrock('mega_steelix_fire', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -57,35 +53,27 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mega_steelix_fire, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mega_steelix_fire', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(mega_steelix_fire, ground_walk)"
+        "q.bedrock('mega_steelix_fire', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mega_steelix_fire, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mega_steelix_fire', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

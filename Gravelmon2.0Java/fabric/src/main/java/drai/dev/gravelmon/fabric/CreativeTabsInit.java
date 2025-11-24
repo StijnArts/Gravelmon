@@ -239,11 +239,5 @@ public class CreativeTabsInit {
                 fossilConsumer.accept(FOSSIL_ITEM_MAP.get(key).get().getDefaultInstance());
             });
         });
-
-        if(Platform.isModLoaded("mega_showdown")){
-            ItemGroupEvents.modifyEntriesEvent(GravelmonMegaStonesTab.GRAVELMON_MEGA_STONES_TAB.getKey()).register(entries -> {
-                GravelmonMegas.getLegalMegaStones().forEach(entry -> entries.accept(entry.getKey().get()));
-            });
-        }
     }
 }

@@ -27,33 +27,22 @@ public class MegaShowdownMegaDataJSONWriter {
             entry.getValue().forEach(megaEvolution -> {
                 String megaStoneName = megaEvolution.getMegaStoneName(null).toLowerCase();
                 var showdownName = getShowdownItemId(megaStoneName);
-                var megaSource = (megaEvolution.getAspect() != null ? megaEvolution.getAspect().toLowerCase() + " " : "") + megaPokemon;
-                megaSource = capitalizeWords(megaSource.replaceAll("_", " ").toLowerCase().trim());
-                String megaSuffix = megaEvolution.getMegaSuffix();
-                var tooltip = "Allows "+megaSource+" to Mega Evolve into Mega "+megaSource + (megaSuffix.isEmpty()?"":" "+capitalizeWords(megaSuffix));
-                contents.addProperty("msd_id", showdownName);
+                var aspectObject = new JsonObject();
+                var pokemons = new JsonArray();
+                pokemons.add(megaPokemon);
                 contents.addProperty("showdown_id", showdownName);
-                contents.addProperty("item_id", "gravelmon:"+ megaStoneName);
-                contents.addProperty("item_name", capitalizeWords(megaStoneName.replaceAll("_", " ")));
-                contents.addProperty("pokemon", megaPokemon);
-                contents.addProperty("apply_aspect", megaEvolution.getMegaAspect());
-                var tooltips = new JsonArray();
-                tooltips.add(tooltip);
-                contents.add("itemDescription", tooltips);
-                if(megaEvolution.getAspect() != null) {
-                    var requiredAspects = new JsonArray();
-                    var megaEvolutionAspects = new JsonArray();
-                    megaEvolutionAspects.add(megaEvolution.getAspect());
-                    requiredAspects.add(megaEvolutionAspects);
-                    contents.add("requiredAspects", requiredAspects);
-                } else {
-                    var blacklistAspects = new JsonArray();
-                    blacklistAspects.add(blackListMegaEvolutionAspects);
-                    contents.add("blacklist_aspects", blacklistAspects);
-                }
+                contents.add("pokemons", pokemons);
+//                contents.addProperty("item_id", "gravelmon:" + megaStoneName);
+//                contents.addProperty("item_name", capitalizeWords(megaStoneName.replaceAll("_", " ")));
+                contents.add("aspect", aspectObject);
+                aspectObject.addProperty("apply_aspect", "mega_evolution=" + megaEvolution.getMegaAspect());
+                aspectObject.addProperty("revert_aspect", "mega_evolution=" + (megaEvolution.getAspect()==null?"none":megaEvolution.getAspect()));
+                var blacklistAspects = new JsonArray();
+                blacklistAspects.add(blackListMegaEvolutionAspects);
+                aspectObject.add("blacklist_aspects", blacklistAspects);
                 try {
                     Files.createDirectories(new File(dir).toPath());
-                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir +"\\"+ GravelmonUtils.getCleanName(showdownName) + ".json"));
+                    BufferedWriter writer = new BufferedWriter(new FileWriter(dir + "\\" + GravelmonUtils.getCleanName(showdownName) + ".json"));
                     writer.write(gson.toJson(contents));
                     writer.close();
                 } catch (IOException e) {
@@ -64,6 +53,6 @@ public class MegaShowdownMegaDataJSONWriter {
     }
 
     public static String getShowdownItemId(String megaStoneName) {
-        return megaStoneName.toLowerCase().replaceAll("_","").replaceAll(" ","");
+        return megaStoneName.toLowerCase().replaceAll("_", "").replaceAll(" ", "");
     }
 }

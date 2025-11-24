@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.649999976158142,
   "portraitTranslation": [
     0.0,
@@ -19,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltadiglett, ground_idle)"
+        "q.bedrock('deltadiglett', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,6 +27,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -35,19 +35,21 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(deltadiglett, ground_walk)"
+        "q.bedrock('deltadiglett', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

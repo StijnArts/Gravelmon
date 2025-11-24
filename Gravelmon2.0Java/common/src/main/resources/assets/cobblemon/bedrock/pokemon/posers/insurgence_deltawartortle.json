@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.0,
   "portraitTranslation": [
     -0.3,
@@ -19,14 +18,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltawartortle, ground_idle)"
+        "q.bedrock('deltawartortle', 'q.look('head_ai')')",
+        "q.bedrock('deltawartortle', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -34,44 +34,48 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(deltawartortle, ground_walk)"
+        "q.bedrock('deltawartortle', 'q.look('head_ai')')",
+        "q.bedrock('deltawartortle', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "look",
-        "bedrock(deltawartortle, water_idle)"
+        "q.bedrock('deltawartortle', 'q.look('head_ai')')",
+        "q.bedrock('deltawartortle', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "look",
-        "bedrock(deltawartortle, water_swim)"
+        "q.bedrock('deltawartortle', 'q.look('head_ai')')",
+        "q.bedrock('deltawartortle', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

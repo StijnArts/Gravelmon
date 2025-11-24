@@ -1,7 +1,7 @@
 import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
-    id 'org.jetbrains.kotlin.jvm' version "1.9.23"
+    id 'org.jetbrains.kotlin.jvm' version "2.1.10"
 }
 
 architectury {
@@ -9,16 +9,18 @@ architectury {
 }
 
 dependencies {
-    modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
+    modImplementation "net.fabricmc:fabric-loader:$fabric_loader_version"
 
-    modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
+    modImplementation "dev.architectury:architectury:$architectury_api_version"
     modImplementation "com.cobblemon:mod:${cobblemon_file}"
-//    modImplementation "maven.modrinth:gravels-extended-battles:K5fBWJ33"
     modImplementation files("libs/gravels_extended_battles-fabric-${gravelmon_file}.jar")
+    modImplementation "maven.modrinth:midnightlib:gDxRS3a2"
 
     //Mega showdown compat
-    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-fabric")
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown_fabric}")
     modImplementation("maven.modrinth:cobblemon-paleontology:0.1.0-Beta")
+    modImplementation include("io.wispforest:accessories-common:${accessories_version}")
+    modImplementation "curse.maven:supermartijn642s-config-lib-438332:5546988"
 }
 loom {
     accessWidenerPath = file "src/main/resources/gravelmon.accesswidener"

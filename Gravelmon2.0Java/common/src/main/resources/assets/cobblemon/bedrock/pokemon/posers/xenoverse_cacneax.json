@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(cacnea_x, ground_idle)"
+        "q.bedrock('cacnea_x', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +24,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,19 +32,21 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(cacnea_x, ground_walk)"
+        "q.bedrock('cacnea_x', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -15,25 +15,16 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(darumaka_delta, ground_idle)"
+        "q.bedrock('darumaka_delta', 'q.look('head_ai')')",
+        "q.bedrock('darumaka_delta', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(darumaka_delta, blink)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
-            "bedrock(darumaka_delta, cry)"
-          ],
-          "name": "face",
-          "minSecondsBetweenOccurrences": 30
-        }
-      ]
+        "q.bedrock_quirk('darumaka_delta', 'blink')",
+        "q.bedrock_quirk('darumaka_delta', 'cry, 30, 0, 0')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

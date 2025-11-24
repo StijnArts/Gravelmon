@@ -31,7 +31,7 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         this.abilities.add(ability);
         this.gameName = game;
         this.name = name;
-        if(aspect != null) this.aspect = aspect.name();
+        if(aspect != null) this.aspect = aspect.getName();
         this.labels = labels;
         this.primaryType = primaryType;
     }

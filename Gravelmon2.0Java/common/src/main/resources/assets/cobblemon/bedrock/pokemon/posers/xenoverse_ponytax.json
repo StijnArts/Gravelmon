@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.4000000953674316,
   "portraitTranslation": [
     -0.4,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(ponyta_x, ground_idle)"
+        "q.bedrock('ponyta_x', 'q.look('head_ai')')",
+        "q.bedrock('ponyta_x', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

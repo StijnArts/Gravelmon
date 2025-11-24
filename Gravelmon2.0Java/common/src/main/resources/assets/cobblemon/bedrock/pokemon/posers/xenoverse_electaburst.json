@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.899999976158142,
   "portraitTranslation": [
     -0.3,
@@ -16,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look"
+        "q.bedrock('electaburst', 'q.look('head_ai')')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,8 +23,9 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.700000047683716,
   "portraitTranslation": [
     0.1,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltaralts, ground_idle)"
+        "q.bedrock('deltaralts', 'q.look('head_ai')')",
+        "q.bedrock('deltaralts', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,6 +27,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -35,31 +35,34 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(deltaralts, ground_walk)"
+        "q.bedrock('deltaralts', 'q.look('head_ai')')",
+        "q.bedrock('deltaralts', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(deltaralts, sleep)"
+        "q.bedrock('deltaralts', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

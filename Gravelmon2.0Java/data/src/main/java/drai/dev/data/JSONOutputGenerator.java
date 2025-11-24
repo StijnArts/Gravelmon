@@ -52,7 +52,7 @@ public class JSONOutputGenerator {
         SoundsJsonWriter.finalizeSounds(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 
-        if(true){
+        if(false){
             ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
 //            ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
         }

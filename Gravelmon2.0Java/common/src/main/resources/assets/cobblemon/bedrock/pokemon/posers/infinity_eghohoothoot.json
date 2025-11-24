@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(eghohoothoot, ground_idle)"
+        "q.bedrock('eghohoothoot', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -26,6 +26,7 @@
         "HOVER",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -33,44 +34,37 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(eghohoothoot, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('eghohoothoot', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')"
+        "q.bedrock('eghohoothoot', 'q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')')"
       ],
       "poseTypes": [
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(eghohoothoot, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('eghohoothoot', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(eghohoothoot, sleep)"
+        "q.bedrock('eghohoothoot', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

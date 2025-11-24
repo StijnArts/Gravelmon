@@ -1,5 +1,6 @@
 package drai.dev.gravelmon.mixin;
 
+import dev.architectury.platform.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelsextendedbattles.*;
 import org.spongepowered.asm.mixin.*;

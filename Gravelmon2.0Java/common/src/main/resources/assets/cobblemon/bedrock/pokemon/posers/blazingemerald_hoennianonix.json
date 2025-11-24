@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.8299999833106995,
   "portraitTranslation": [
     -1.2,
@@ -13,46 +12,43 @@
     0.0
   ],
   "animations": {
-    "faint": "q.bedrock_primary('hoennian_onix', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('hoennian_onix', 'cry')"
+    "cry": "q.bedrock_stateful('hoennian_onix', 'cry')",
+    "faint": "q.bedrock_primary('hoennian_onix', 'faint', q.curve('one'))"
   },
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(hoennian_onix, battle_idle)",
-        "bedrock(hoennian_onix, boulder_rotation)"
+        "q.bedrock('hoennian_onix', 'battle_idle')",
+        "q.bedrock('hoennian_onix', 'boulder_rotation')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennian_onix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoennian_onix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(hoennian_onix, sleep)"
+        "q.bedrock('hoennian_onix', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(hoennian_onix, ground_idle)",
-        "bedrock(hoennian_onix, boulder_rotation)"
+        "q.bedrock('hoennian_onix', 'ground_idle')",
+        "q.bedrock('hoennian_onix', 'boulder_rotation')"
       ],
       "poseTypes": [
         "STAND",
@@ -60,35 +56,27 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennian_onix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoennian_onix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(hoennian_onix, ground_walk)"
+        "q.bedrock('hoennian_onix', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennian_onix, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoennian_onix', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

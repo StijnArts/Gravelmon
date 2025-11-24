@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7999999523162842,
   "portraitTranslation": [
     0.0,
@@ -16,30 +15,26 @@
     "cry": "bedrock(gorochu, cry)"
   },
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(gorochu, battle_idle)"
+        "q.bedrock('gorochu', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(gorochu, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('gorochu', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(gorochu, ground_idle)"
+        "q.bedrock('gorochu', 'q.look('head_ai')')",
+        "q.bedrock('gorochu', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -49,37 +44,29 @@
         "FLOAT",
         "HOVER"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(gorochu, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('gorochu', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(gorochu, ground_walk)"
+        "q.bedrock('gorochu', 'q.look('head_ai')')",
+        "q.bedrock('gorochu', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(gorochu, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('gorochu', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

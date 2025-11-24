@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.090000033378601,
   "portraitTranslation": [
     -0.45,
@@ -16,11 +15,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(orcabyss, ground_idle)"
+        "q.bedrock('orcabyss', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

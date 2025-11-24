@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.0,
   "portraitTranslation": [
     0.0,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(birigiri, ground_idle)"
+        "q.bedrock('birigiri', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -29,65 +29,71 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(birigiri, ground_walk)"
+        "q.bedrock('birigiri', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(birigiri, water_swim)"
+        "q.bedrock('birigiri', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(birigiri, water_idle)"
+        "q.bedrock('birigiri', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(birigiri, ground_sleep)"
+        "q.bedrock('birigiri', 'ground_sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
       "isTouchingWater": false,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "water_sleeping": {
       "poseName": "water_sleeping",
       "animations": [
-        "bedrock(birigiri, water_sleep)"
+        "q.bedrock('birigiri', 'water_sleep')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
       "isTouchingWater": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

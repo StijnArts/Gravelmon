@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 3.5,
   "portraitTranslation": [
     -0.1,
@@ -16,14 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltapidgey, ground_idle)"
+        "q.bedrock('deltapidgey', 'q.look('head_ai')')",
+        "q.bedrock('deltapidgey', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "WALK",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,39 +31,37 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
-        "bedrock(deltapidgey, air_fly)"
+        "q.bedrock('deltapidgey', 'q.look('head_ai')')",
+        "q.bedrock('deltapidgey', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltapidgey, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltapidgey', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(deltapidgey, sleep)"
+        "q.bedrock('deltapidgey', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 3.4000000953674316,
   "portraitTranslation": [
     -0.1,
@@ -16,19 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(spearow_egho, ground_idle)"
+        "q.bedrock('spearow_egho', 'q.look('head_ai')')",
+        "q.bedrock('spearow_egho', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(spearow_egho, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('spearow_egho', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

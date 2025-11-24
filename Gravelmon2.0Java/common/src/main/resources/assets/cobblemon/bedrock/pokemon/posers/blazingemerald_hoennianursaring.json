@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.0999999046325684,
   "portraitTranslation": [
     -0.1,
@@ -16,19 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(ursaring_hoennian, ground_idle)"
+        "q.bedrock('ursaring_hoennian', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(ursaring_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('ursaring_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

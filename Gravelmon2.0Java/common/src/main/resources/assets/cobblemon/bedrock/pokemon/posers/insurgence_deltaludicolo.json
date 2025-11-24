@@ -15,11 +15,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltaludicolo, ground_idle)"
+        "q.bedrock('deltaludicolo', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

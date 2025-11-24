@@ -10,9 +10,7 @@ import java.util.*;
 
 @Mixin(PokeBalls.class)
 public interface PokeBallsAccessor {
-
     @Mutable
     @Accessor("defaults")
     public HashMap<ResourceLocation, PokeBall> getDefaults();
-
 }

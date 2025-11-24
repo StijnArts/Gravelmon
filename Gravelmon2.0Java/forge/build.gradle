@@ -2,7 +2,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     id 'com.github.johnrengelman.shadow'
-    id 'org.jetbrains.kotlin.jvm' version "1.9.23"
+    id 'org.jetbrains.kotlin.jvm' version "2.1.10"
 }
 
 architectury {
@@ -39,22 +39,23 @@ repositories {
 }
 
 dependencies {
-    neoForge "net.neoforged:neoforge:$rootProject.neoforge_version"
+    neoForge "net.neoforged:neoforge:$neoforge_version"
 
-    modImplementation "dev.architectury:architectury-neoforge:$rootProject.architectury_api_version"
+    modImplementation "dev.architectury:architectury-neoforge:$architectury_api_version"
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionNeoForge')
 
     modImplementation "com.cobblemon:neoforge:${cobblemon_file}"
-    modImplementation "maven.modrinth:midnightlib:YeePowOJ"
+    modImplementation "curse.maven:supermartijn642s-config-lib-438332:5546996"
     forgeRuntimeLibrary("thedarkcolour:kotlinforforge-neoforge:5.5.0") {
         exclude group: "net.neoforged.fancymodloader", module: "loader"
     }
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_neoforge_file}"
     modImplementation files("libs/gravels_extended_battles-neoforge-${gravelmon_file}.jar")
     modImplementation("maven.modrinth:cobblemon-paleontology:0.0.3-Beta")
-    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-neoforge")
+    modImplementation "maven.modrinth:midnightlib:uGySRC8x"
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown_neoforge}")
 
     // Compile against only the API artifact
     compileOnly("top.theillusivec4.curios:curios-neoforge:9.2.2+1.21.1:api")

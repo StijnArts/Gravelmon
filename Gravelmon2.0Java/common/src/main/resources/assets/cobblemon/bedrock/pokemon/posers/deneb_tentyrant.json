@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(tentyrant, ground_idle)"
+        "q.bedrock('tentyrant', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -23,6 +23,7 @@
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -30,30 +31,33 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(tentyrant, water_swim)"
+        "q.bedrock('tentyrant', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(tentyrant, water_idle)"
+        "q.bedrock('tentyrant', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

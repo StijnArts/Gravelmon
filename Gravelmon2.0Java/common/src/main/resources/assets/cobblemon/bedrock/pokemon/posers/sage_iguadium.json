@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.600000023841858,
   "portraitTranslation": [
     -0.2,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(iguadium, ground_idle)"
+        "q.bedrock('iguadium', 'q.look('head_ai')')",
+        "q.bedrock('iguadium', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,6 +28,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -36,26 +36,23 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(iguadium, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('iguadium', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(iguadium, sleep)"
+        "q.bedrock('iguadium', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

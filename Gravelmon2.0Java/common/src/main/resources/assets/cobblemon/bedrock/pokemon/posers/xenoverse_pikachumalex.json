@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.200000047683716,
   "portraitTranslation": [
     -0.1,
@@ -16,8 +15,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(pikachu_x_male, ground_idle)"
+        "q.bedrock('pikachu_x_male', 'q.look('head_ai')')",
+        "q.bedrock('pikachu_x_male', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -26,6 +25,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -33,34 +33,26 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(pikachu_x_male, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('pikachu_x_male', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(pikachu_x_male, ground_walk)"
+        "q.bedrock('pikachu_x_male', 'q.look('head_ai')')",
+        "q.bedrock('pikachu_x_male', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(pikachu_x_male, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('pikachu_x_male', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

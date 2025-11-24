@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.800000011920929,
   "portraitTranslation": [
     0.0,
@@ -13,14 +12,14 @@
     0.0
   ],
   "animations": {
-    "faint": "q.bedrock_primary('mewthree', 'faint', q.curve('one'))",
-    "cry": "q.bedrock_stateful('mewthree', 'cry')"
+    "cry": "q.bedrock_stateful('mewthree', 'cry')",
+    "faint": "q.bedrock_primary('mewthree', 'faint', q.curve('one'))"
   },
   "poses": {
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(mewthree, ground_idle)"
+        "q.bedrock('mewthree', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,71 +27,55 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mewthree, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mewthree', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(mewthree, ground_walk)"
+        "q.bedrock('mewthree', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mewthree, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mewthree', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(mewthree, air_idle)"
+        "q.bedrock('mewthree', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mewthree, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mewthree', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(mewthree, air_fly)"
+        "q.bedrock('mewthree', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(mewthree, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('mewthree', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

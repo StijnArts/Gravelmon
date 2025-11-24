@@ -1,17 +1,12 @@
 package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.api.tags.*;
-import com.cobblemon.yajatkaul.mega_showdown.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.core.*;
-import net.minecraft.core.registries.*;
-import net.minecraft.resources.*;
-import net.minecraft.tags.*;
-import net.minecraft.world.item.*;
 
 import java.util.concurrent.*;
 

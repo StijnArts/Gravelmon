@@ -1,88 +1,230 @@
 {
-  "head": "head",
-  "portraitScale": 2.0,
+  "rootBone": "charizard",
+  "portraitScale": 2.0999999046325684,
   "portraitTranslation": [
-    -0.4,
-    1.4,
+    -1.11,
+    2.43,
     0.0
   ],
-  "profileScale": 0.550000011920929,
+  "profileScale": 0.5099999904632568,
   "profileTranslation": [
-    0.0,
-    0.95,
-    0.0
+    0.05,
+    0.99,
+    -10.0
   ],
+  "animations": {
+    "cry": "q.bedrock_stateful('null', 'cry')",
+    "recoil": "q.bedrock_stateful('null', 'recoil')",
+    "physical": "q.bedrock_primary('deltacharizard', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('deltacharizard', 'special', q.curve('symmetrical_wide'))",
+    "air_physical": "q.bedrock_primary('deltacharizard', 'air_physical', q.curve('symmetrical_wide'))",
+    "air_special": "q.bedrock_primary('deltacharizard', 'air_special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('deltacharizard', 'status', q.curve('symmetrical_wide'))"
+  },
   "poses": {
-    "standing": {
-      "poseName": "standing",
+    "portrait": {
+      "poseName": "portrait",
       "animations": [
-        "look",
-        "bedrock(deltacharizard, ground_idle)"
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'q.bedrock('deltacharizard', 'ground_idle')')"
       ],
       "poseTypes": [
-        "STAND",
         "PORTRAIT",
         "PROFILE",
-        "NONE",
-        "FLOAT",
-        "SWIM",
-        "WALK"
+        "GLIDE",
+        "SHOULDER_LEFT",
+        "SHOULDER_RIGHT",
+        "OPEN"
       ],
-      "transformTicks": 10,
+      "isBattle": false,
+      "isTouchingWater": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltacharizard, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
-    "walking": {
-      "poseName": "walking",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "look",
-        "bedrock(deltacharizard, ground_walk)"
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'battle_idle')",
+        "q.bedrock('deltacharizard', 'q.bedrock('deltacharizard', 'battle_idle')')"
       ],
       "poseTypes": [
-        "WALK"
+        "STAND"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')",
+        "q.bedrock_quirk('deltacharizard', 'battle_quirk')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('deltacharizard', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "transformedParts": []
     },
-    "flying": {
-      "poseName": "flying",
+    "battle-flying": {
+      "poseName": "battle-flying",
       "animations": [
-        "look",
-        "bedrock(deltacharizard, air_fly)"
-      ],
-      "poseTypes": [
-        "FLY"
-      ],
-      "transformTicks": 10,
-      "quirks": []
-    },
-    "hovering": {
-      "poseName": "hovering",
-      "animations": [
-        "bedrock(deltacharizard, air_idle)"
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "isBattle": true,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {
+        "special": "q.bedrock_primary('deltacharizard', 'air_special', q.curve('symmetrical_wide'))",
+        "recoil": "q.bedrock_stateful('deltacharizard', 'air_recoil')",
+        "cry": "q.bedrock_primary('deltacharizard', 'air_battle_cry', q.curve('symmetrical_wide'))",
+        "physical": "q.bedrock_primary('deltacharizard', 'air_physical', q.curve('symmetrical'))",
+        "status": "q.bedrock_primary('deltacharizard', 'air_status', q.curve('symmetrical_wide'))"
+      },
+      "transformedParts": []
+    },
+    "standing": {
+      "poseName": "standing",
+      "animations": [
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'ground_idle')"
+      ],
+      "poseTypes": [
+        "STAND",
+        "NONE"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')",
+        "q.bedrock_quirk('deltacharizard', 'ground_quirk')",
+        "q.bedrock_primary_quirk('deltacharizard', 'idle_quirk, 20, 40, 1, q.curve('symmetrical')')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "walking": {
+      "poseName": "walking",
+      "animations": [
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'ground_walk')"
+      ],
+      "poseTypes": [
+        "WALK",
+        "SWIM"
+      ],
+      "isTouchingWater": false,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(deltacharizard, sleep)"
+        "q.bedrock('deltacharizard', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'sleep_quirk')"
+      ],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "transformedParts": []
+    },
+    "hovering": {
+      "poseName": "hovering",
+      "animations": [
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'air_idle')"
+      ],
+      "poseTypes": [
+        "HOVER"
+      ],
+      "isBattle": false,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "flying": {
+      "poseName": "flying",
+      "animations": [
+        "q.bedrock('deltacharizard', 'q.look('head_ai')')",
+        "q.bedrock('deltacharizard', 'air_fly')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "ride_air_look"
+        }
+      ],
+      "poseTypes": [
+        "FLY"
+      ],
+      "condition": "!q.is_gliding",
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')",
+        "q.bedrock_quirk('deltacharizard', 'air_fly_quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "surface_idle": {
+      "poseName": "surface_idle",
+      "animations": [
+        "q.bedrock('deltacharizard', 'surfacewater_idle')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0.0,
+            22.0,
+            0.0
+          ],
+          "isVisible": true
+        }
+      ]
+    },
+    "surface_swim": {
+      "poseName": "surface_swim",
+      "animations": [
+        "q.bedrock('deltacharizard', 'surfacewater_swim')"
+      ],
+      "poseTypes": [
+        "FLOAT"
+      ],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "quirks": [
+        "q.bedrock_quirk('deltacharizard', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": [
+        {
+          "part": "body",
+          "position": [
+            0.0,
+            22.0,
+            0.0
+          ],
+          "isVisible": true
+        }
+      ]
     }
   }
 }

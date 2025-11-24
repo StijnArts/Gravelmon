@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.0,
   "portraitTranslation": [
     0.0,
@@ -16,31 +15,28 @@
     "cry": "q.bedrock_stateful('beldum', 'cry')"
   },
   "poses": {
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(beldum, battle_idle)"
+        "q.bedrock('beldum', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(beldum, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('beldum', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(beldum, ground_idle)"
+        "q.bedrock('beldum', 'ground_idle')"
       ],
       "poseTypes": [
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -48,83 +44,68 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(beldum, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('beldum', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(beldum, ground_walk)"
+        "q.bedrock('beldum', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(beldum, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('beldum', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(beldum, air_idle)"
+        "q.bedrock('beldum', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLOAT"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(beldum, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('beldum', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(beldum, air_fly)"
+        "q.bedrock('beldum', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(beldum, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('beldum', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(beldum, sleep)"
+        "q.bedrock('beldum', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

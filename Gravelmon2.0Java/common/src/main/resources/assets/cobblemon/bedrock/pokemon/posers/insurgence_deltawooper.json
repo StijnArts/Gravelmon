@@ -15,11 +15,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(wooper, ground_idle)"
+        "q.bedrock('wooper', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

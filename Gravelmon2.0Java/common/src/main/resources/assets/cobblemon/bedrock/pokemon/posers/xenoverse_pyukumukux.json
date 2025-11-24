@@ -15,9 +15,10 @@
     "standing": {
       "poseName": "standing",
       "animations": [],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

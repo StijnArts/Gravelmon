@@ -1,11 +1,11 @@
 package drai.dev.gravelmon.fabric;
 
-import com.cobblemon.yajatkaul.mega_showdown.item.*;
+import com.github.yajatkaul.mega_showdown.*;
+import com.github.yajatkaul.mega_showdown.item.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokeballs.*;
 import drai.dev.gravelmon.registries.*;
-import drai.dev.gravelsextendedbattles.*;
 import net.fabricmc.fabric.api.event.lifecycle.v1.*;
 import net.fabricmc.fabric.impl.content.registry.*;
 import net.fabricmc.loader.api.*;
@@ -22,8 +22,6 @@ import static drai.dev.gravelmon.fabric.CreativeTabsInit.initCreativeTabs;
 
 public class GravelmonImpl {
     public static void platformInit() {
-//        boolean isNotDataGen = System.getProperty("fabric-api.datagen") == null;
-//        Gravelmon.init(isNotDataGen);
         GravelmonFeatures.registerFeatures();
         initCreativeTabs();
         var orangeApp = GravelmonItems.ORANGE_APRICORN.get();
@@ -50,7 +48,7 @@ public class GravelmonImpl {
         RecipeManager recipeManager = server.getRecipeManager();
 
         var newRecipes = new ArrayList<>(recipeManager.getRecipes());
-        Ingredient input = Ingredient.of(MegaStones.MEGA_STONE);
+        Ingredient input = Ingredient.of(MegaShowdownItems.MEGA_STONE.get());
         GravelmonMegas.getLegalMegaStones().forEach((entry) -> {
             var stringStringPair = entry.getValue();
             var item = entry.getKey();

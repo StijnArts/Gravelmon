@@ -20,7 +20,7 @@ import java.util.function.*;
 import static drai.dev.gravelmon.Gravelmon.*;
 
 public class GravelmonItems {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
     public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList<>();
     private static final List<Runnable> LATE_HELD_ITEM_REGISTRATIONS = new ArrayList<>();
     private static final List<Runnable> executables = new ArrayList<>();
@@ -216,16 +216,5 @@ public class GravelmonItems {
 
     public static void lateInit() {
         LATE_HELD_ITEM_REGISTRATIONS.forEach(Runnable::run);
-    }
-
-    public static RegistrySupplier<Item> megaItem(String megaStoneName) {
-        Supplier<Item> item = ()->new Item(new Item.Properties()) {
-            @Override
-            public void appendHoverText(ItemStack itemStack, TooltipContext tooltipContext, List<Component> list, TooltipFlag tooltipFlag) {
-                list.add(Component.translatable("tooltip.gravelmon."+megaStoneName+".tooltip"));
-                super.appendHoverText(itemStack, tooltipContext, list, tooltipFlag);
-            }
-        };
-        return ITEMS.register(megaStoneName, item);
     }
 }

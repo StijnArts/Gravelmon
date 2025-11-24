@@ -2,21 +2,16 @@ package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.api.tags.*;
-import com.cobblemon.yajatkaul.mega_showdown.item.*;
-import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.core.*;
-import net.minecraft.core.registries.*;
-import net.minecraft.data.models.model.*;
 import net.minecraft.data.recipes.*;
 import net.minecraft.tags.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.*;
 
 import java.util.concurrent.*;
-import java.util.function.*;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
 

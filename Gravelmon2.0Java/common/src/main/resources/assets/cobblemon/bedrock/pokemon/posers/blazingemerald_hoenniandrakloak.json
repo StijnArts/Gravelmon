@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 0.6000000238418579,
   "portraitTranslation": [
     0.0,
@@ -19,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(hoenniandrakloak, ground_idle)"
+        "q.bedrock('hoenniandrakloak', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,38 +28,28 @@
         "FLOAT",
         "HOVER"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandrakloak, blink1)",
-            "bedrock(hoenniandrakloak, blink2)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoenniandrakloak', 'q.array(blink1, blink2)')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(hoenniandrakloak, ground_walk)"
+        "q.bedrock('hoenniandrakloak', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoenniandrakloak, blink1)",
-            "bedrock(hoenniandrakloak, blink2)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('hoenniandrakloak', 'q.array(blink1, blink2)')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

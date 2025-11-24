@@ -356,7 +356,7 @@ public class GravelmonPokeballs {
                     var party = Cobblemon.INSTANCE.getStorage().getParty(Objects.requireNonNull(ownerPlayer));
                     party.remove(pokemon);
                     var language = Language.getInstance();
-                    var name = pokemon.getDisplayName();
+                    var name = pokemon.getDisplayName(true);
                     var translatedName = language.getOrDefault(name.toString(),pokemon.getSpecies().getName());
                     ownerPlayer.sendSystemMessage(Component.translatable(translatedName +" has died and was removed from your party. Rest in Peace " + translatedName));
                 }

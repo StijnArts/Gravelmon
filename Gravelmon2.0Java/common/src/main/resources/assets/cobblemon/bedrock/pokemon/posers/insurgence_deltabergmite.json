@@ -15,7 +15,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltabergmite, ground_idle)"
+        "q.bedrock('deltabergmite', 'q.look('head_ai')')",
+        "q.bedrock('deltabergmite', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +25,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,33 +33,26 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltabergmite, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltabergmite', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(deltabergmite, ground_walk)"
+        "q.bedrock('deltabergmite', 'q.look('head_ai')')",
+        "q.bedrock('deltabergmite', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltabergmite, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltabergmite', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7000000476837158,
   "portraitTranslation": [
     -0.2,
@@ -19,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(viledoom, ground_idle)"
+        "q.bedrock('viledoom', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,46 +28,39 @@
         "FLOAT",
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(viledoom, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('viledoom', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(viledoom, ground_walk)"
+        "q.bedrock('viledoom', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(viledoom, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('viledoom', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(viledoom, sleep)"
+        "q.bedrock('viledoom', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

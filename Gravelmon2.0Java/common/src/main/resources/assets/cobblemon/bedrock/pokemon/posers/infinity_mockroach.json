@@ -15,11 +15,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(mockroach, ground_idle)"
+        "q.bedrock('mockroach', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

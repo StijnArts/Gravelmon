@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.0,
   "portraitTranslation": [
     0.0,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(burrmudail, ground_idle)"
+        "q.bedrock('burrmudail', 'q.look('head_ai')')",
+        "q.bedrock('burrmudail', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

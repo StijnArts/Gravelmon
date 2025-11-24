@@ -18,11 +18,12 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(hoennianvenonat, ground_idle)"
+        "q.bedrock('hoennianvenonat', 'ground_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLOAT",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -30,120 +31,64 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, blink)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, cry)"
-          ],
-          "name": "cry"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk1)"
-          ],
-          "name": "quirk1"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk2)"
-          ],
-          "name": "quirk2"
-        }
-      ]
+        "q.bedrock_quirk('hoennianvenonat', 'blink')",
+        "q.bedrock_quirk('hoennianvenonat', 'cry')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk1')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk2')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(hoennianvenonat, ground_walk)"
+        "q.bedrock('hoennianvenonat', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, blink)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, cry)"
-          ],
-          "name": "cry"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk1)"
-          ],
-          "name": "quirk1"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk2)"
-          ],
-          "name": "quirk2"
-        }
-      ]
+        "q.bedrock_quirk('hoennianvenonat', 'blink')",
+        "q.bedrock_quirk('hoennianvenonat', 'cry')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk1')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk2')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(hoennianvenonat, battle_idle)"
+        "q.bedrock('hoennianvenonat', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, blink)"
-          ],
-          "name": "blink"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, cry)"
-          ],
-          "name": "cry"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk1)"
-          ],
-          "name": "quirk1"
-        },
-        {
-          "animations": [
-            "bedrock(hoennianvenonat, quirk2)"
-          ],
-          "name": "quirk2"
-        }
-      ]
+        "q.bedrock_quirk('hoennianvenonat', 'blink')",
+        "q.bedrock_quirk('hoennianvenonat', 'cry')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk1')",
+        "q.bedrock_quirk('hoennianvenonat', 'quirk2')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(hoennianvenonat, sleep)"
+        "q.bedrock('hoennianvenonat', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.0,
   "portraitTranslation": [
     0.0,
@@ -19,14 +18,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(warquila, ground_idle)"
+        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -34,54 +34,42 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(warquila, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('warquila', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
-        "bedrock(warquila, air_fly)"
+        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(warquila, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('warquila', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "look",
-        "bedrock(warquila, air_idle)"
+        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(warquila, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('warquila', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

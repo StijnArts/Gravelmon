@@ -15,13 +15,14 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(deltawailmer, ground_idle)"
+        "q.bedrock('deltawailmer', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -29,31 +30,34 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(deltawailmer, ground_walk)"
+        "q.bedrock('deltawailmer', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(deltawailmer, air_fly)"
+        "q.bedrock('deltawailmer', 'air_fly')"
       ],
       "poseTypes": [
         "FLY",
         "HOVER"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

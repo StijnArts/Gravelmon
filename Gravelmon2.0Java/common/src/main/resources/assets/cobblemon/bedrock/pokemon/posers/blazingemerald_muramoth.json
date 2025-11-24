@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.25,
   "portraitTranslation": [
     0.14,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(muramoth, ground_idle)"
+        "q.bedrock('muramoth', 'q.look('head_ai')')",
+        "q.bedrock('muramoth', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

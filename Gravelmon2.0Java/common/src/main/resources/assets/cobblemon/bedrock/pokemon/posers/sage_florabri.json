@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.5999999046325684,
   "portraitTranslation": [
     -0.2,
@@ -16,14 +15,15 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(florabri, ground_idle)"
+        "q.bedrock('florabri', 'q.look('head_ai')')",
+        "q.bedrock('florabri', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
         "WALK",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,64 +31,53 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(florabri, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('florabri', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "look",
-        "bedrock(florabri, air_idle)"
+        "q.bedrock('florabri', 'q.look('head_ai')')",
+        "q.bedrock('florabri', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(florabri, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('florabri', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
-        "bedrock(florabri, air_fly)"
+        "q.bedrock('florabri', 'q.look('head_ai')')",
+        "q.bedrock('florabri', 'air_fly')"
       ],
       "poseTypes": [
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(florabri, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('florabri', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(florabri, sleep)"
+        "q.bedrock('florabri', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

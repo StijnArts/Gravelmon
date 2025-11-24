@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 3.049999952316284,
   "portraitTranslation": [
     -0.67,
@@ -16,12 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(arbird, ground_idle)"
+        "q.bedrock('arbird', 'q.look('head_ai')')",
+        "q.bedrock('arbird', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

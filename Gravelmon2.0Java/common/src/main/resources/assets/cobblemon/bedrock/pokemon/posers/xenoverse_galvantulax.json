@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(galvantula_x, ground_idle)"
+        "q.bedrock('galvantula_x', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +24,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,35 +32,25 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(galvantula_x, blink1)",
-            "bedrock(galvantula_x, blink2)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('galvantula_x', 'q.array(blink1, blink2)')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(galvantula_x, ground_walk)"
+        "q.bedrock('galvantula_x', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(galvantula_x, blink1)",
-            "bedrock(galvantula_x, blink2)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('galvantula_x', 'q.array(blink1, blink2)')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.200000047683716,
   "portraitTranslation": [
     -0.2,
@@ -16,8 +15,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(emolga_hoennian, ground_idle)"
+        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -26,53 +25,41 @@
         "NONE",
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(emolga_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('emolga_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "look",
-        "bedrock(emolga_hoennian, air_fly)"
+        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', 'air_fly')"
       ],
       "poseTypes": [
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(emolga_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('emolga_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "look",
-        "bedrock(emolga_hoennian, air_idle)"
+        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(emolga_hoennian, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('emolga_hoennian', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

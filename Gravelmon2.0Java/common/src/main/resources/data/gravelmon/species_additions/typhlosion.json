@@ -1084,7 +1084,7 @@
       ]
     },
     {
-      "name": "delta_active_mega",
+      "name": "deltaactive_mega",
       "primaryType": "electric",
       "secondaryType": "steel",
       "baseScale": 0.2805194805194805,
@@ -1108,7 +1108,7 @@
       ],
       "height": 18,
       "aspects": [
-        "delta_active_mega"
+        "deltaactive_mega"
       ]
     }
   ],
@@ -1121,6 +1121,6 @@
     "ionosian",
     "mega",
     "delta_mega",
-    "delta_active_mega"
+    "deltaactive_mega"
   ]
 }

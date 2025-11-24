@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(gengar_x, ground_idle)"
+        "q.bedrock('gengar_x', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -24,6 +24,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -31,33 +32,25 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(gengar_x, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('gengar_x', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(gengar_x, ground_walk)"
+        "q.bedrock('gengar_x', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(gengar_x, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('gengar_x', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

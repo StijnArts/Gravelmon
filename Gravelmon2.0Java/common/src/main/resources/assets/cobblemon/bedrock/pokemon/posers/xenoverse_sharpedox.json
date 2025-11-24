@@ -15,11 +15,12 @@
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(sharpedo_x, water_idle)"
+        "q.bedrock('sharpedo_x', 'water_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

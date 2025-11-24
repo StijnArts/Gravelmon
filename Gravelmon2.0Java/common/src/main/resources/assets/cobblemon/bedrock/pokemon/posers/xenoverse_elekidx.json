@@ -15,35 +15,27 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(elekid_x, ground_idle)"
+        "q.bedrock('elekid_x', 'ground_idle')"
       ],
-      "transformTicks": 10,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(elekid_x, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
-    },
-    "battle-idle": {
-      "poseName": "battle-idle",
-      "animations": [
-        "bedrock(elekid_x, battle_idle)"
+        "q.bedrock_quirk('elekid_x', 'blink')"
       ],
-      "transformTicks": 10,
+      "namedAnimations": {},
+      "transformedParts": []
+    },
+    "battle-standing": {
+      "poseName": "battle-standing",
+      "animations": [
+        "q.bedrock('elekid_x', 'battle_idle')"
+      ],
       "isBattle": true,
       "allPoseTypes": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(elekid_x, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('elekid_x', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

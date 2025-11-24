@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7000000476837158,
   "portraitTranslation": [
     0.0,
@@ -22,8 +21,9 @@
         "PROFILE",
         "NONE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

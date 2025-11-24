@@ -14,9 +14,7 @@ import kotlin.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import org.apache.logging.log4j.*;
-import org.spongepowered.asm.mixin.*;
 
-import java.io.*;
 import java.util.*;
 import java.util.function.*;
 import java.util.stream.*;

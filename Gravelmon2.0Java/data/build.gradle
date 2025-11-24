@@ -2,7 +2,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 
 plugins {
     id 'com.github.johnrengelman.shadow'
-    id 'org.jetbrains.kotlin.jvm' version "1.9.23"
+    id 'org.jetbrains.kotlin.jvm' version "2.1.10"
 }
 
 repositories {
@@ -56,25 +56,21 @@ dependencies {
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
 
     modImplementation "com.cobblemon:fabric:${cobblemon_file}"
-    modImplementation "maven.modrinth:midnightlib:Ct1rAic5"
     modImplementation "maven.modrinth:packet-fixer:${packet_fixer_fabric_file}"
+    modImplementation "maven.modrinth:midnightlib:gDxRS3a2"
     modImplementation files("libs/gravels_extended_battles-fabric-${gravelmon_file}.jar")
     modImplementation("net.fabricmc:fabric-language-kotlin:${fabric_kotlin}")
 
-    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
-//    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '3.9'
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
 
-        implementation 'org.apache.poi:poi-ooxml:5.2.3'
-
-
-
-    //Mega showdown compat
-    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown}-fabric")
+    modImplementation("maven.modrinth:cobblemon-mega-showdown:${megashowdown_fabric}")
+    modImplementation include("io.wispforest:accessories-fabric:${accessories_version}")
 
     modImplementation("maven.modrinth:supermartijn642s-config-lib:1.1.8-fabric-mc1.21")
 
     modImplementation("dev.emi:trinkets:3.10.0")
 }
+
 
 def replaceProperties = [mod_id          : mod_id,
                          mod_name        : mod_name,

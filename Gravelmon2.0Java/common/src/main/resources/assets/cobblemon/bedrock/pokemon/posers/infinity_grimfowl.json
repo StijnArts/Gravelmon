@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.7000000476837158,
   "portraitTranslation": [
     -0.6,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(grimfowl, ground_idle)"
+        "q.bedrock('grimfowl', 'q.look('head_ai')')",
+        "q.bedrock('grimfowl', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -28,6 +27,7 @@
         "SLEEP",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -35,36 +35,28 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(grimfowl, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('grimfowl', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "look",
-        "q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')",
-        "bedrock(grimfowl, air_idle)"
+        "q.bedrock('grimfowl', 'q.look('head_ai')')",
+        "q.bedrock('grimfowl', 'q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')')",
+        "q.bedrock('grimfowl', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER",
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(grimfowl, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('grimfowl', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

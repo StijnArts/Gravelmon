@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 1.809999942779541,
   "portraitTranslation": [
     -0.3,
@@ -19,10 +18,11 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "bedrock(lucemoth, ground_idle)"
+        "q.bedrock('lucemoth', 'ground_idle')"
       ],
       "poseTypes": [
         "FLOAT",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -30,101 +30,82 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "isBattle": false,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lucemoth, quirk)"
-          ],
-          "name": "quirk"
-        }
-      ]
+        "q.bedrock_quirk('lucemoth', 'quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "bedrock(lucemoth, ground_walk)"
+        "q.bedrock('lucemoth', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK",
         "SWIM"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lucemoth, quirk)"
-          ],
-          "name": "quirk"
-        }
-      ]
+        "q.bedrock_quirk('lucemoth', 'quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
-    "battle-idle": {
-      "poseName": "battle-idle",
+    "battle-standing": {
+      "poseName": "battle-standing",
       "animations": [
-        "bedrock(lucemoth, battle_idle)"
+        "q.bedrock('lucemoth', 'battle_idle')"
       ],
       "poseTypes": [
         "STAND"
       ],
-      "transformTicks": 10,
       "isBattle": true,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lucemoth, quirk)"
-          ],
-          "name": "quirk"
-        }
-      ]
+        "q.bedrock_quirk('lucemoth', 'quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "flying": {
       "poseName": "flying",
       "animations": [
-        "bedrock(lucemoth, air_fly)"
+        "q.bedrock('lucemoth', 'air_fly')"
       ],
       "poseTypes": [
         "FLY"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lucemoth, quirk)"
-          ],
-          "name": "quirk"
-        }
-      ]
+        "q.bedrock_quirk('lucemoth', 'quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "bedrock(lucemoth, air_idle)"
+        "q.bedrock('lucemoth', 'air_idle')"
       ],
       "poseTypes": [
         "HOVER"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(lucemoth, quirk)"
-          ],
-          "name": "quirk"
-        }
-      ]
+        "q.bedrock_quirk('lucemoth', 'quirk')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "sleeping": {
       "poseName": "sleeping",
       "animations": [
-        "bedrock(lucemoth, sleep)"
+        "q.bedrock('lucemoth', 'sleep')"
       ],
       "poseTypes": [
         "SLEEP"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

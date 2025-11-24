@@ -22,6 +22,7 @@
         "SLEEP",
         "HOVER",
         "FLY",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -29,53 +30,41 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(fortifry, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "bedrock(fortifry, water_swim)"
+        "q.bedrock('fortifry', 'water_swim')"
       ],
       "poseTypes": [
         "SWIM",
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(fortifry, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "floating": {
       "poseName": "floating",
       "animations": [
-        "bedrock(fortifry, water_idle)"
+        "q.bedrock('fortifry', 'water_idle')"
       ],
       "poseTypes": [
         "FLOAT",
         "STAND"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(fortifry, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('fortifry', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }

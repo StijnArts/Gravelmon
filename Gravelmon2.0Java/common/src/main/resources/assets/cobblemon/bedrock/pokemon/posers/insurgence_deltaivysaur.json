@@ -1,5 +1,4 @@
 {
-  "head": "head",
   "portraitScale": 2.0999999046325684,
   "portraitTranslation": [
     -0.45,
@@ -19,8 +18,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "look",
-        "bedrock(deltaivysaur, ground_idle)"
+        "q.bedrock('deltaivysaur', 'q.look('head_ai')')",
+        "q.bedrock('deltaivysaur', 'ground_idle')"
       ],
       "poseTypes": [
         "STAND",
@@ -29,6 +28,7 @@
         "FLY",
         "FLOAT",
         "SWIM",
+        "GLIDE",
         "SHOULDER_LEFT",
         "SHOULDER_RIGHT",
         "PROFILE",
@@ -36,34 +36,26 @@
         "OPEN",
         "NONE"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltaivysaur, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltaivysaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     },
     "walking": {
       "poseName": "walking",
       "animations": [
-        "look",
-        "bedrock(deltaivysaur, ground_walk)"
+        "q.bedrock('deltaivysaur', 'q.look('head_ai')')",
+        "q.bedrock('deltaivysaur', 'ground_walk')"
       ],
       "poseTypes": [
         "WALK"
       ],
-      "transformTicks": 10,
       "quirks": [
-        {
-          "animations": [
-            "bedrock(deltaivysaur, blink)"
-          ],
-          "name": "blink"
-        }
-      ]
+        "q.bedrock_quirk('deltaivysaur', 'blink')"
+      ],
+      "namedAnimations": {},
+      "transformedParts": []
     }
   }
 }
