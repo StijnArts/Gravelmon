@@ -14,7 +14,7 @@ public class ModelJsonWriter {
 
             String dir = resourcesDir + "\\assets\\cobblemon\\bedrock\\pokemon\\models\\";
             var modelLocation = dir + abstractPokemon.getPlaceholderModelName(isFemaleModel) + ".geo.json";
-            if(generatedModels.contains(modelLocation)) return;
+            if(generatedModels.contains(modelLocation) || new File(modelLocation).exists()) return;
             generatedModels.add(modelLocation);
             Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
             Files.createDirectories(new File(modelLocation).getParentFile().toPath());

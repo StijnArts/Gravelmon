@@ -6,9 +6,9 @@ import java.util.*;
 
 public class Quirk {
     final List<String> animations = new ArrayList<>();
-    Optional<Integer> loopTimes;
-    Optional<Integer> minSecondsBetweenOccurrences;
-    Optional<Integer> maxSecondsBetweenOccurrences;
+    Optional<Integer> loopTimes = Optional.empty();
+    Optional<Integer> minSecondsBetweenOccurrences = Optional.empty();
+    Optional<Integer> maxSecondsBetweenOccurrences = Optional.empty();
     @Nullable String curve;
 
     public Quirk(String... animation) {

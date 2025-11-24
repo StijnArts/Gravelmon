@@ -15,25 +15,27 @@
     "profile": {
       "poseName": "profile",
       "animations": [
-        "bedrock(cutout, pc_fix)"
+        "q.bedrock(cutout, pc_fix)"
       ],
       "poseTypes": [
         "PROFILE"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": [],
+      "transformedParts": []
     },
     "portrait": {
       "poseName": "portrait",
       "animations": [
-        "bedrock(cutout, summary_fix)"
+        "q.bedrock(cutout, summary_fix)"
       ],
       "poseTypes": [
         "NONE",
         "PORTRAIT"
       ],
-      "transformTicks": 10,
-      "quirks": []
+      "quirks": [],
+      "namedAnimations": [],
+      "transformedParts": []
     }
   }
 }

@@ -121,7 +121,6 @@ public class EghoCharmeleon extends Pokemon {
         
         this.setBaseScale(0.8);
         this.setHitbox(1.3,2.0);
-        this.setNeedsRemodel("Updated model in cobblemon model repo");
         getSpeciesFileData().addBasicVariation("Drai").addLayer(
                 new AnimatedLayerData("flame",
                         List.of("flame/tail1", "flame/tail2", "flame/tail3", "flame/tail4"),

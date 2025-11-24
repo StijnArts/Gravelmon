@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "volcarona_delta",
+					"name": "deltavolcarona",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "volcarona_delta",
+					"parent": "deltavolcarona",
 					"pivot": [0, 21.5, 2],
 					"rotation": [-7.5, 0, 0],
 					"cubes": [

@@ -16,7 +16,7 @@ public class AnimationData extends BasicAnimationData {
     private boolean isBackup;
     private final Map<String, String> namedAnimations = new HashMap<>();
     private String condition;
-    private List<ConditionalAnimation> conditionalAnimations;
+    private final List<ConditionalAnimation> conditionalAnimations = new ArrayList<>();
     private Optional<Boolean> isUnderwater = Optional.empty();
 
     public AnimationData(String animationName, List<PoseType> poseTypes, List<String> animations, List<Quirk> quirks, int transformTicks, String... animator) {
@@ -166,7 +166,7 @@ public class AnimationData extends BasicAnimationData {
         if(condition!=null)  json.addProperty("condition", condition);
         var quirksJson = new JsonArray();
         var transformedParts = new JsonArray();
-        var namedAnimations = new JsonArray();
+        var namedAnimations = new JsonObject();
         transformedPartDataList.forEach(transformedPart -> transformedParts.add(transformedPart.toJsonObjet()));
         quirks.forEach(quirk -> quirksJson.add(quirk.getAnimationFunction(animationFileName)));
         this.namedAnimations.forEach((key, value) -> namedAnimations.getAsJsonObject().addProperty(key, value));
@@ -185,7 +185,7 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public AnimationData setPoseTypes(List<PoseType> poseTypes) {
-        this.poseTypes = poseTypes;
+        this.poseTypes = new ArrayList<>(poseTypes);
         return this;
     }
 

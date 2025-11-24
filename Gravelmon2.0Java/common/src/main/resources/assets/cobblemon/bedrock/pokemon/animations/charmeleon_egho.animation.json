@@ -3,6 +3,7 @@
 	"animations": {
 		"animation.charmeleon_egho.ground_idle": {
 			"loop": true,
+			"animation_length": 1.4167,
 			"bones": {
 				"arm_left": {
 					"rotation": [-6.12673, -7.9185, 37.92445]
@@ -28,7 +29,11 @@
 					"position": [0, -1.2, -0.4]
 				},
 				"bone10": {
-					"rotation": [30, 0, 0]
+					"rotation": [30, 0, 0],
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.4167": [0, 0, 0.75]
+					}
 				},
 				"bone12": {
 					"rotation": [-42.5, 0, 0],
