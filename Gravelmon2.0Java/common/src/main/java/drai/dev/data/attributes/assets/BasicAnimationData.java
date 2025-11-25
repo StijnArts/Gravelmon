@@ -26,7 +26,7 @@ public abstract class BasicAnimationData {
         animations.forEach(animation -> {
             if(animation.equalsIgnoreCase("look"))
                 animationsJson.add("q.look('"+ getPosingFileData().head+ "')");
-            else animationsJson.add("q.bedrock("+animationFileName+", "+animation+")");
+            else animationsJson.add("q.bedrock('"+animationFileName+"', '"+animation+"')");
         });
         jsonObject.add("animations", animationsJson);
         return jsonObject;
