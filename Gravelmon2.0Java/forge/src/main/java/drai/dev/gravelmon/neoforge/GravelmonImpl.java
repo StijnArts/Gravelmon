@@ -2,7 +2,7 @@ package drai.dev.gravelmon.neoforge;
 
 import com.cobblemon.mod.common.api.*;
 import com.cobblemon.mod.common.api.events.*;
-import com.cobblemon.yajatkaul.mega_showdown.item.*;
+import com.github.yajatkaul.mega_showdown.item.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.mega.*;
 import drai.dev.gravelmon.pokeballs.*;
@@ -75,7 +75,7 @@ public class GravelmonImpl {
         RecipeManager recipeManager = server.getRecipeManager();
 
         var newRecipes = new ArrayList<>(recipeManager.getRecipes());
-        Ingredient input = Ingredient.of(MegaStones.MEGA_STONE);
+        Ingredient input = Ingredient.of(MegaShowdownItems.MEGA_STONE.get());
         GravelmonMegas.getLegalMegaStones().forEach((entry) -> {
             var stringStringPair = entry.getValue();
             var item = entry.getKey();
