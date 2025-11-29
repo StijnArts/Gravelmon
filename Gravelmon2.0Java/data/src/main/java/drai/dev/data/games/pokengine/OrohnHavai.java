@@ -30,7 +30,7 @@ import java.util.*;
 public class OrohnHavai extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new OrohnHavai();
     private OrohnHavai() {
-        super("Orohn-Havai");
+        super("Orohn-Havai", "https://pokengine.org/collections/10h7u8vx/Orohn-Havai");
     }
 
     @Override

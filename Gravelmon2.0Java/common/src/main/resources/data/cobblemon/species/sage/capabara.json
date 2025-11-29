@@ -64,11 +64,6 @@
     "amount": 4,
     "entries": [
       {
-        "item": "cobblemon:quick_claw",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
         "item": "minecraft:wool",
         "quantityRange": "1-2",
         "percentage": 45
@@ -77,6 +72,11 @@
         "item": "minecraft:string",
         "quantityRange": "1-2",
         "percentage": 45
+      },
+      {
+        "item": "cobblemon:quick_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
       }
     ]
   },

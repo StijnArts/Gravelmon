@@ -7,11 +7,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-//https://pokengine.org/collections/10t91ck9/Crozoic
+//
 public class Crozoic extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Crozoic();
     private Crozoic() {
-        super("Crozoic");
+        super("Crozoic", "https://pokengine.org/collections/10t91ck9/Crozoic");
     }
 
     @Override

@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Borazul extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Borazul();
     private Borazul() {
-        super("borazul");
+        super("borazul", "https://www.instagram.com/_fra.2.0/?hl=en");
     }
 
     @Override

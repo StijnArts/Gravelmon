@@ -10,7 +10,7 @@ import java.util.*;
 public class Tochi extends drai.dev.data.games.registry.Game {
 	public static final Game INSTANCE = new Tochi();
 	private Tochi() {
-        super("Tochi");
+        super("Tochi", "https://pokengine.org/collections/10g5riwq/Tochi");
     }
 
     @Override

@@ -9,7 +9,7 @@ import java.util.*;
 public class Otopo extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Otopo();
     private Otopo() {
-        super("Otopo");
+        super("Otopo", "https://pokengine.org/collections/109v2lil/Otopo");
     }
 
     @Override

@@ -10,11 +10,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import java.util.*;
 
 import static drai.dev.data.attributes.StatType.*;
-//todo update https://pokengine.org/collections/10t6rlxi/Goetia?changes
+//todo update
 public class Goetia extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Goetia();
     private Goetia() {
-        super("Goetia");
+        super("Goetia", "https://pokengine.org/collections/10t6rlxi/Goetia?changes");
     }
 
     @Override

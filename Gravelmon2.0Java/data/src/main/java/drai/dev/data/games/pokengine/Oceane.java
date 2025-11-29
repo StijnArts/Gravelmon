@@ -9,7 +9,7 @@ import java.util.*;
 public class Oceane extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Oceane();
     private Oceane() {
-        super("Oceane");
+        super("Oceane", "https://pokengine.org/collections/10s2nypf/Oceane");
     }
 
     @Override

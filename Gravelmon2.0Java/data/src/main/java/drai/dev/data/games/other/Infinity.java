@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Infinity extends Game {
     public static final Game INSTANCE = new Infinity();
     private Infinity() {
-        super("Infinity");
+        super("Infinity", "https://p-infinity.fandom.com/wiki/Pokemon_Infinity_Wiki");
     }
 
     @Override

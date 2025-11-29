@@ -64,12 +64,12 @@
     "amount": 2,
     "entries": [
       {
-        "item": "minecraft:dirt",
+        "item": "minecraft:ice",
         "quantityRange": "1-2",
         "percentage": 50
       },
       {
-        "item": "minecraft:ice",
+        "item": "minecraft:dirt",
         "quantityRange": "1-2",
         "percentage": 50
       }

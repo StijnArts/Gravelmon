@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Lockemon extends Game {
     public static final Game INSTANCE = new Lockemon();
-    private Lockemon() {super("Lockemon");}
+    private Lockemon() {super("Lockemon", "https://tofrugs-swamp.fandom.com/wiki/Lock%C3%A9mon");}
 
     @Override
     public void registerPokemon() {

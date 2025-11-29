@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class BlazingEmerald extends Game {
     public static final Game INSTANCE = new BlazingEmerald();
     private BlazingEmerald() {
-        super("BlazingEmerald");
+        super("BlazingEmerald", "https://drive.google.com/drive/folders/1FkW2SeoMJ7xAyFwjlKNvQZnCQ-G7GJki");
     }
 
     @Override

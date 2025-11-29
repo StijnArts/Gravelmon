@@ -470,4 +470,8 @@ public abstract class AbstractPokemon extends WorldRepresentablePokemon {
     public void setPreEvolutionSpawnPool(SpawnPool spawnPool) {
         this.preEvolutionSpawnPool = spawnPool;
     }
+
+    public boolean canSwimInWater() {
+        return canSwimInWater;
+    }
 }

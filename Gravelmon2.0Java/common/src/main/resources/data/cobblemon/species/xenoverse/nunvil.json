@@ -67,11 +67,6 @@
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
         "percentage": 20
-      },
-      {
-        "item": "gravelmon:dread_pendant",
-        "quantityRange": "1-1",
-        "percentage": 10
       }
     ]
   },

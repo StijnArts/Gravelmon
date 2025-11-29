@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 //done
 public class Enriko extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Enriko();
-    private Enriko() {        super("Enriko");    }
+    private Enriko() {        super("Enriko", "https://pokengine.org/collections/10hj5etm/Enriko");    }
 
     @Override
     public void registerPokemon() {

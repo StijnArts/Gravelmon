@@ -11,7 +11,7 @@ import java.util.*;
 public class Nodorro extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Nodorro();
     private Nodorro() {
-        super("Nodorro");
+        super("Nodorro", "https://pokengine.org/collections/105q17p6/Nodorro");
     }
 
     @Override

@@ -10,7 +10,7 @@ import java.util.*;
 public class Ruskow extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ruskow();
     private Ruskow() {
-        super("Ruskow");
+        super("Ruskow", "https://pokengine.org/collections/10bjfsp1/Ruskow");
     }
 
     @Override

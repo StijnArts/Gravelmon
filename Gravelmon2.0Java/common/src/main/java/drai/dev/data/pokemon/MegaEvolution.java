@@ -188,6 +188,11 @@ public class MegaEvolution extends WorldRepresentablePokemon {
         return secondaryType;
     }
 
+    @Override
+    public String getBasePokemon() {
+        return name;
+    }
+
     public int getHeight() {
         return height;
     }

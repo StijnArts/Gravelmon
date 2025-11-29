@@ -12,7 +12,7 @@ import java.util.*;
 public class Trizor extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Trizor();
     private Trizor() {
-        super("Trizor");
+        super("Trizor", "https://www.instagram.com/el_dark_core/?hl=en");
     }
 
     @Override

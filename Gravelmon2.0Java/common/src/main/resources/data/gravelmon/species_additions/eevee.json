@@ -66,17 +66,12 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:air_stone",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
             "item": "gravelmon:solid_stone",
             "quantityRange": "1-1",
             "percentage": 10
           },
           {
-            "item": "gravelmon:astral_stone",
+            "item": "gravelmon:air_stone",
             "quantityRange": "1-1",
             "percentage": 10
           },
@@ -1132,147 +1127,7 @@
     "amount": 3,
     "entries": [
       {
-        "item": "cobblemon:dusk_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:expert_belt",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:silver_powder",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:metal_coat",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:hard_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:poison_barb",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:soft_sand",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dragon_scale",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
         "item": "gravelmon:varia_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:red_mushroom",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:air_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:shiny_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:poison_barb",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:shiny_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:sun_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:note_block",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:moon_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dawn_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:ocarina",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:cookie",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:upgrade",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dusk_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:expert_belt",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:sharp_beak",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -1282,37 +1137,12 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:soft_sand",
+        "item": "cobblemon:expert_belt",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "cobblemon:black_sludge",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:air_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dusk_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:throat_spray",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:shiny_stone",
+        "item": "cobblemon:moon_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -1322,7 +1152,22 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:poison_barb",
+        "item": "cobblemon:sharp_beak",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:end_crystal",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:hard_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -1332,17 +1177,67 @@
         "percentage": 10
       },
       {
+        "item": "cobblemon:silver_powder",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:astral_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:note_block",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:poison_barb",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:ocarina",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:black_sludge",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:upgrade",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "minecraft:elytra",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "minecraft:mushroom_stew",
+        "item": "cobblemon:shiny_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "cobblemon:dusk_stone",
+        "item": "cobblemon:throat_spray",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -1352,7 +1247,22 @@
         "percentage": 10
       },
       {
-        "item": "minecraft:elytra",
+        "item": "minecraft:mushroom_stew",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dusk_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -1362,7 +1272,22 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:soft_sand",
+        "item": "cobblemon:air_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:metal_coat",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:cookie",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:dawn_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }

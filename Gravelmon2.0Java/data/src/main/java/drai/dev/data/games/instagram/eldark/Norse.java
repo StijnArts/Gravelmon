@@ -11,7 +11,7 @@ import java.util.*;
 public class Norse extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Norse();
     private Norse() {
-        super("Norse");
+        super("Norse", "https://www.instagram.com/el_dark_core/?hl=en");
     }
 
     @Override

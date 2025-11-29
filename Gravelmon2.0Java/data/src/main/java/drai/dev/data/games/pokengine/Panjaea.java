@@ -10,7 +10,7 @@ import java.util.*;
 public class Panjaea extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Panjaea();
     private Panjaea() {
-        super("Panjaea");
+        super("Panjaea", "https://pokengine.org/collections/10xg1ni8/Panjaea");
     }
 
     @Override

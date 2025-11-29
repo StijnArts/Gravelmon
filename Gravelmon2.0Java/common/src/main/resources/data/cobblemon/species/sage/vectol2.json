@@ -68,11 +68,6 @@
         "item": "gravelmon:corrupted_disc",
         "quantityRange": "1-1",
         "percentage": 40
-      },
-      {
-        "item": "gravelmon:corrupted_disc",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

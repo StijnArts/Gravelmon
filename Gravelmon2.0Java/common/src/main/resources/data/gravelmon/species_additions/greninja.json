@@ -175,7 +175,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fire",
       "secondaryType": "dark",
       "catchRate": 45,
@@ -184,7 +184,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.4390243902439024,
+      "baseScale": 18.0,
       "cannotDynamax": false,
       "abilities": [
         "sniper",
@@ -325,13 +325,13 @@
       "height": 15,
       "weight": 400,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.125,
-        "height": 5.125,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -738,7 +738,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "epoch",
     "armiran",
     "vesitan"

@@ -2,7 +2,7 @@
   "target": "cobblemon:galvantula",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "bug",
       "secondaryType": "ice",
       "catchRate": 45,
@@ -135,7 +135,7 @@
       "height": 8,
       "weight": 186,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -299,7 +299,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "epoch"
   ]
 }

@@ -10,7 +10,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Arom extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Arom();
     private Arom() {
-        super("Arom");
+        super("Arom", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

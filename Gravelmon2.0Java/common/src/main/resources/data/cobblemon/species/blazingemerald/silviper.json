@@ -68,11 +68,6 @@
         "item": "gravelmon:silver_scale",
         "quantityRange": "1-1",
         "percentage": 50
-      },
-      {
-        "item": "gravelmon:silver_scale",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

@@ -1,5 +1,8 @@
 package drai.dev.gravelmon.items.apricorn;
 
+import com.cobblemon.mod.common.api.apricorn.*;
+import com.cobblemon.mod.common.api.events.*;
+import com.cobblemon.mod.common.api.events.farming.*;
 import com.cobblemon.mod.common.api.tags.*;
 import com.cobblemon.mod.common.block.*;
 import com.mojang.serialization.*;
@@ -22,6 +25,7 @@ import net.minecraft.world.level.gameevent.*;
 import net.minecraft.world.level.pathfinder.*;
 import net.minecraft.world.phys.*;
 import net.minecraft.world.phys.shapes.*;
+import org.apache.logging.log4j.core.jmx.*;
 import org.jetbrains.annotations.*;
 
 public class GravelmonApricornBlock extends HorizontalDirectionalBlock implements BonemealableBlock, ShearableBlock {
@@ -50,6 +54,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
     public boolean isRandomlyTicking(BlockState state) {
         return state.getValue(AGE) < MAX_AGE;
     }
+
     @Override
     public void randomTick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
         if (level.random.nextInt(5) == 0) {
@@ -84,22 +89,25 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
          return null;
     }
     @Override
-    public VoxelShape getOcclusionShape(BlockState state, BlockGetter level, BlockPos pos) {
+    public @NotNull VoxelShape getOcclusionShape(BlockState state, BlockGetter level, BlockPos pos) {
         return EAST_AABB[3];
     }
+
     @Override
-    public RenderShape getRenderShape(BlockState state) {
+    public @NotNull RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
     }
 
     @Override
-    public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
+    public @NotNull VoxelShape getShape(@NotNull BlockState state, @NotNull BlockGetter level, @NotNull BlockPos pos, @NotNull CollisionContext context) {
         return getVoxelShape(state);
     }
+
     @Override
-    public boolean isPathfindable(BlockState state,  PathComputationType type) {
+    public boolean isPathfindable(@NotNull BlockState state, @NotNull PathComputationType type) {
         return false;
     }
+
     private VoxelShape getVoxelShape(BlockState state) {
         var age = state.getValue(AGE);
         VoxelShape shape;
@@ -111,6 +119,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         }
         return shape;
     }
+
     @Override
     protected MapCodec<? extends HorizontalDirectionalBlock> codec() {
         return CODEC;
@@ -129,6 +138,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
     public BlockState mirror(BlockState state, Mirror mirror) {
         return state.rotate(mirror.getRotation(state.getValue(FACING)));
     }
+
     @Override
     public @NotNull BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos pos, BlockPos neighborPos) {
         return (direction == state.getValue(FACING) && !state.canSurvive(level, pos)) ? Blocks.AIR.defaultBlockState() :
@@ -201,9 +211,7 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         world.gameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Context.of(player, resetState));
 
         if (!world.isClientSide) {
-            if(world instanceof ServerLevel serverLevel){
-                serverLevel.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.7F, 1.4F);
-            }
+            world.playSound(null, pos, SoundEvents.ITEM_PICKUP, SoundSource.BLOCKS, 0.7F, 1.4F);
         }
     }
 

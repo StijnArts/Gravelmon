@@ -191,7 +191,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fire",
       "secondaryType": "steel",
       "catchRate": 45,
@@ -200,7 +200,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.55,
+      "baseScale": 26.400000000000002,
       "cannotDynamax": false,
       "abilities": [
         "sturdy",
@@ -314,13 +314,13 @@
       "height": 22,
       "weight": 1400,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -776,7 +776,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "palmian",
     "epoch",
     "hoennian",

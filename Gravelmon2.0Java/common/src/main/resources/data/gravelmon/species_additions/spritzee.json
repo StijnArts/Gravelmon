@@ -891,12 +891,12 @@
     "amount": 3,
     "entries": [
       {
-        "item": "gravelmon:aromatic_herb",
+        "item": "cobblemon:reaper_cloth",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "cobblemon:reaper_cloth",
+        "item": "gravelmon:aromatic_herb",
         "quantityRange": "1-1",
         "percentage": 10
       }

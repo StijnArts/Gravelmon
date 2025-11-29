@@ -188,7 +188,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fire",
       "catchRate": 200,
       "maleRatio": 0.5,
@@ -307,7 +307,7 @@
       "height": 6,
       "weight": 235,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -686,7 +686,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "epoch",
     "ishirian"
   ]

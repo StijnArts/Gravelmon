@@ -214,12 +214,12 @@
     "amount": 3,
     "entries": [
       {
-        "item": "gravelmon:silver_scale",
+        "item": "cobblemon:dusk_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "cobblemon:dusk_stone",
+        "item": "gravelmon:silver_scale",
         "quantityRange": "1-1",
         "percentage": 10
       }

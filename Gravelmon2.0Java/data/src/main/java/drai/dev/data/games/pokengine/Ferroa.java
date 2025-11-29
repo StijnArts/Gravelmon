@@ -4,11 +4,11 @@ import drai.dev.data.pokemon.crozoic.*;
 import drai.dev.data.pokemon.ferroa.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done https://pokengine.org/collections/107pw39l/Ferroa
+//done
 public class Ferroa extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ferroa();
     private Ferroa() {
-        super("Ferroa");
+        super("Ferroa", "https://pokengine.org/collections/107pw39l/Ferroa");
     }
 
     @Override

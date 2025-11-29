@@ -8,11 +8,11 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
 
-//Done https://pokengine.org/collections/10584gw0/Avoris
+//Done
 public class Avoris extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Avoris();
     private Avoris() {
-        super("Avoris");
+        super("Avoris", "https://pokengine.org/collections/10584gw0/Avoris");
     }
 
     //todo instagram/artwork

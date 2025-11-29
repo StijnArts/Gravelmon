@@ -22,11 +22,11 @@ import drai.dev.data.pokemon.atlas.Withereen;
 import drai.dev.data.pokemon.junnin.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done https://pokengine.org/collections/10ryf7r0/Junnin
+//done
 public class Junnin extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Junnin();
     private Junnin() {
-        super("Junnin");
+        super("Junnin", "https://pokengine.org/collections/10ryf7r0/Junnin");
     }
 
     @Override

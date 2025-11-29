@@ -11,7 +11,7 @@ import java.util.*;
 public class Mastenia extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mastenia();
     private Mastenia() {
-        super("Mastenia");
+        super("Mastenia", "https://pokengine.org/search?query=mons+region:03pn6qn4");
     }
 
     @Override

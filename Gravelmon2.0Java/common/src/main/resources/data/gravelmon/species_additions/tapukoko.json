@@ -2,7 +2,7 @@
   "target": "cobblemon:tapukoko",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "flying",
       "secondaryType": "dark",
       "catchRate": 3,
@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "baseScale": 0.4645161290322581,
+      "baseScale": 21.6,
       "cannotDynamax": false,
       "abilities": [
         "fullmetalbody",
@@ -134,18 +134,18 @@
       "height": 18,
       "weight": 705,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.8125,
-        "height": 5.8125,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "x"
+    "xform"
   ]
 }

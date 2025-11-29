@@ -4,11 +4,11 @@ package drai.dev.data.games.pokengine;
 import drai.dev.data.pokemon.kuulkid.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done https://pokengine.org/collections/10pt9pyv/Kuulkid
+//done
 public class Kuulkid extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Kuulkid();
     private Kuulkid() {
-        super("Kuulkid");
+        super("Kuulkid", "https://pokengine.org/collections/10pt9pyv/Kuulkid");
     }
 
     @Override

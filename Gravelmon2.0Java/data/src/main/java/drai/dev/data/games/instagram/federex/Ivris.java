@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Ivris extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ivris();
     private Ivris() {
-        super("ivris");
+        super("ivris", "https://www.instagram.com/_trainer_rex/?hl=en");
     }
 
     @Override

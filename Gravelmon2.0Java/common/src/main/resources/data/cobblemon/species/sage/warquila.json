@@ -65,17 +65,17 @@
     "amount": 9,
     "entries": [
       {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
         "item": "cobblemon:sharp_beak",
         "quantityRange": "1-1",
         "percentage": 40
       },
       {
         "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:egg",
         "quantityRange": "1-2",
         "percentage": 40
       }

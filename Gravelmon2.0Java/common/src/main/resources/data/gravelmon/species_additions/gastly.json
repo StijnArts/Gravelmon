@@ -2,7 +2,7 @@
   "target": "cobblemon:gastly",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "dragon",
       "catchRate": 45,
       "maleRatio": 1.0,
@@ -112,7 +112,7 @@
       "height": 13,
       "weight": 210,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -1163,7 +1163,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "palmian",
     "havaiian",
     "epoch",

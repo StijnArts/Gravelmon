@@ -2,7 +2,7 @@
   "target": "cobblemon:haunter",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "dragon",
       "catchRate": 45,
       "maleRatio": 1.0,
@@ -70,11 +70,6 @@
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
             "percentage": 10
-          },
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 10
           }
         ]
       },
@@ -131,7 +126,7 @@
       "height": 16,
       "weight": 340,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -1068,7 +1063,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "havaiian",
     "epoch",
     "kaskadian",

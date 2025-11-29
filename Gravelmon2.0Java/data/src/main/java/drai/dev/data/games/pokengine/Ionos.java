@@ -7,11 +7,11 @@ import drai.dev.data.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done https://pokengine.org/collections/10vxw2l3/Ionos
+//done
 public class Ionos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ionos();
     private Ionos() {
-        super("Ionos");
+        super("Ionos", "https://pokengine.org/collections/10vxw2l3/Ionos");
     }
 
     @Override

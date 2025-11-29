@@ -65,9 +65,9 @@
     "amount": 9,
     "entries": [
       {
-        "item": "minecraft:sweet_berry",
-        "quantityRange": "1-3",
-        "percentage": 40
+        "item": "cobblemon:berry_sweet",
+        "quantityRange": "1-2",
+        "percentage": 20
       },
       {
         "item": "minecraft:glow_berry",
@@ -75,9 +75,9 @@
         "percentage": 40
       },
       {
-        "item": "cobblemon:berry_sweet",
-        "quantityRange": "1-2",
-        "percentage": 20
+        "item": "minecraft:sweet_berry",
+        "quantityRange": "1-3",
+        "percentage": 40
       }
     ]
   },

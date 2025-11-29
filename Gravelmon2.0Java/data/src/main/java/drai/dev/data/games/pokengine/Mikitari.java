@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Mikitari extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mikitari();
     private Mikitari() {
-        super("Mikitari");
+        super("Mikitari", "https://pokengine.org/collections/10o0ctrn/Mikitari");
     }
 
     @Override

@@ -68,11 +68,6 @@
         "item": "gravelmon:long_club",
         "quantityRange": "1-1",
         "percentage": 50
-      },
-      {
-        "item": "gravelmon:long_club",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

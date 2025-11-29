@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Realidea extends Game {
     public static final Game INSTANCE = new Realidea();
     private Realidea() {
-        super("RealideaSystem");
+        super("RealideaSystem", "https://discord.com/invite/gNmjGNDST9");
     }
 
     @Override

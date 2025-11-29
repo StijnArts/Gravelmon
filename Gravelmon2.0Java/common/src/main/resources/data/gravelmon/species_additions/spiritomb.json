@@ -2,7 +2,7 @@
   "target": "cobblemon:spiritomb",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "ghost",
       "secondaryType": "grass",
       "catchRate": 100,
@@ -136,7 +136,7 @@
       "height": 10,
       "weight": 1000,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -568,7 +568,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "epoch",
     "epochtwo",
     "mahalian",

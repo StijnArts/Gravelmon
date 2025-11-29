@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Aldao extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Aldao();
     private Aldao() {
-        super("aldao");
+        super("aldao", "https://www.instagram.com/_fra.2.0/?hl=en");
     }
 
     @Override

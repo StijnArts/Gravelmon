@@ -11,7 +11,7 @@ import java.util.*;
 public class Norheim extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Norheim();
     private Norheim() {
-        super("Norheim");
+        super("Norheim", "https://pokengine.org/search?query=mons+region:03mnu33c");
     }
 
     @Override

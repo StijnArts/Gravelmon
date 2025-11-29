@@ -10,7 +10,7 @@ import java.util.*;
 public class Orbis extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Orbis();
     private Orbis() {
-        super("Orbis");
+        super("Orbis", "https://pokengine.org/collections/105amwep/Orbis");
     }
 
     @Override

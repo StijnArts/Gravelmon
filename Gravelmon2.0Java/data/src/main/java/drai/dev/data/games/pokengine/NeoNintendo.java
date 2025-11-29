@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class NeoNintendo extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new NeoNintendo();
     private NeoNintendo() {
-        super("NeoNintendo");
+        super("NeoNintendo", "https://pokengine.org/collections/102zn7ij/Neo+Nintendo");
     } //DONE
 
     @Override

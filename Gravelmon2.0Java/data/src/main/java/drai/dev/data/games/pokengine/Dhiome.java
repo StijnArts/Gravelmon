@@ -18,11 +18,11 @@ import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done https://pokengine.org/collections/10l0j1ih/Dhiome
+//done
 public class Dhiome extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Dhiome();
     private Dhiome() {
-        super("Dhiome");
+        super("Dhiome", "https://pokengine.org/collections/10l0j1ih/Dhiome");
     }
     //TODO get art from deviant art
     @Override

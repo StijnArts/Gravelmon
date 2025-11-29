@@ -5,12 +5,12 @@ import drai.dev.data.pokemon.aristos.*;
 import drai.dev.data.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//Done https://pokengine.org/collections/1042gh42/Aristos
+//Done
 public class Aristos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Aristos();
     //todo instagram/artwork
     private Aristos() {
-        super("Aristos");
+        super("Aristos", "https://pokengine.org/collections/1042gh42/Aristos");
     }
 
     @Override

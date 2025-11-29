@@ -13,7 +13,7 @@ public class Olysos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Olysos();
 
     private Olysos() {
-        super("Olysos");
+        super("Olysos", "https://pokengine.org/collections/103bhnos/Olysos");
     }
 
     @Override

@@ -65,14 +65,14 @@
     "amount": 1,
     "entries": [
       {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
         "item": "cobblemon:fire_stone",
         "quantityRange": "1-1",
         "percentage": 40
+      },
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
       }
     ]
   },

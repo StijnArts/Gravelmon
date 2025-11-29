@@ -83,6 +83,11 @@ public class ArmoredForm extends WorldRepresentablePokemon {
     }
 
     @Override
+    public String getBasePokemon() {
+        return name;
+    }
+
+    @Override
     protected @NotNull File findTextureDirectory(String resourcesDir){
         var expectedDir = resourcesDir + "\\assets\\cobblemon\\textures\\pokemon\\" + GravelmonUtils.getCleanName(getGameName()) + "\\" + getCleanName()+"_"+getAspectName();
         return new File(expectedDir);

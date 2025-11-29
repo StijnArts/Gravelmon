@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Bago extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Bago();
     private Bago() {
-        super("bago");
+        super("bago", "https://www.instagram.com/_fra.2.0/?hl=en");
     }
 
     @Override

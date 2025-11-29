@@ -11,7 +11,7 @@ import java.util.*;
 public class Beginnings extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Beginnings();
     private Beginnings() {
-        super("Beginnings");
+        super("Beginnings", "https://pokengine.org/collections/10un8u46/Beginnings");
     }
 
     @Override

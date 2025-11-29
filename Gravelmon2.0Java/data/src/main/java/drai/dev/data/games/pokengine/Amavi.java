@@ -10,9 +10,9 @@ import java.util.*;
 public class Amavi extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Amavi();
     private Amavi() {
-        super("Amavi");
+        super("Amavi", "https://pokengine.org/collections/10l89w8e/Amavi");
     }
-    //https://pokengine.org/collections/10l89w8e/Amavi
+    //
     @Override
     public void registerPokemon() {
         addNewPokemon(new Ankleaf().addLabels(Label.STARTER));

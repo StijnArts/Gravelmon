@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Novrai extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Novrai();
     private Novrai() {
-        super("Novrai");
+        super("Novrai", "https://pokengine.org/collections/10fh4y55/Novrai");
     }
 
     @Override

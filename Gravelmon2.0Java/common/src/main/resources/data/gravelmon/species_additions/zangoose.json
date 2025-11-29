@@ -55,12 +55,12 @@
     "amount": 3,
     "entries": [
       {
-        "item": "gravelmon:murky_claw",
+        "item": "cobblemon:dusk_stone",
         "quantityRange": "1-1",
         "percentage": 10
       },
       {
-        "item": "cobblemon:dusk_stone",
+        "item": "gravelmon:murky_claw",
         "quantityRange": "1-1",
         "percentage": 10
       }

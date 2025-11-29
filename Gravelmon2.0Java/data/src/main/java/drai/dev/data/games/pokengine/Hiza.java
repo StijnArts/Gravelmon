@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 //done
 public class Hiza extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Hiza();
-    private Hiza() {        super("Hiza");}
+    private Hiza() {        super("Hiza", "https://pokengine.org/collections/10c0tzci/Hiza");}
 
     @Override
     public void registerPokemon() {

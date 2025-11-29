@@ -359,7 +359,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "sound",
       "secondaryType": "poison",
       "catchRate": 45,
@@ -369,7 +369,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "roselia form=x",
-      "baseScale": 0.26666666666666666,
+      "baseScale": 10.8,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -427,11 +427,6 @@
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
             "percentage": 50
-          },
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -494,13 +489,13 @@
       "height": 9,
       "weight": 145,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.0625,
-        "height": 5.0625,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -1103,7 +1098,7 @@
   "features": [
     "relic",
     "delta",
-    "x",
+    "xform",
     "epoch",
     "epochtwo",
     "ayreian",

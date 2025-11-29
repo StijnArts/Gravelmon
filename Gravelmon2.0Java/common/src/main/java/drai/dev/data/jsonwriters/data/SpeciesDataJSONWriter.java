@@ -12,12 +12,14 @@ import org.apache.commons.lang3.*;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
+import java.util.stream.*;
 
 import static drai.dev.data.jsonwriters.data.SpeciesAdditionsWriter.addOrCreateJsonArray;
 import static drai.dev.gravelmon.pokemon.attributes.Label.*;
 
 public class SpeciesDataJSONWriter {
     private static String RESOURCES_DIR;
+
     public static void writeSpecies(Game game, String resourcesDir) {
         RESOURCES_DIR = resourcesDir;
         Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
@@ -60,10 +62,10 @@ public class SpeciesDataJSONWriter {
     private static JsonObject pokemonJsonObject(AbstractPokemon abstractPokemon) {
         var fileContents = new JsonObject();
         String aspect = null;
-        if(abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)){
+        if (abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)) {
             aspect = getAccurateAspect(RESOURCES_DIR, pokemon);
         }
-        var name = (aspect == null ? StringUtils.capitalize(abstractPokemon.getCleanName()): StringUtils.capitalize(aspect));
+        var name = (aspect == null ? StringUtils.capitalize(abstractPokemon.getCleanName()) : StringUtils.capitalize(aspect));
         fileContents.addProperty("name", name);
         fileContents.addProperty("primaryType", abstractPokemon.getPrimaryType().getName());
         if (abstractPokemon.getSecondaryType() != null) {
@@ -86,9 +88,9 @@ public class SpeciesDataJSONWriter {
         fileContents.add("evYield", abstractPokemon.getEvYield().getJsonRepresentation());
         fileContents.add("eggGroups", getEggGroups(abstractPokemon));
         fileContents.add("drops", getDrops(abstractPokemon.getDropAmount(), abstractPokemon.getDrops()));
-        if(!abstractPokemon.skipMoves) fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
+        if (!abstractPokemon.skipMoves) fileContents.add("moves", getMoves(abstractPokemon.getLearnSet()));
         var instagramLabels = new ArrayList<>(List.of(FORM, NORSE, PALMIA, RAIAN, TRIZOR, AROMA, ELB, FABEL, MAHAL, SAHL, IVRIS, ALDAO, BAGO, BORAZUL, FRA, FERRAN));
-        if(!Collections.disjoint(abstractPokemon.getLabels(), instagramLabels)){
+        if (!Collections.disjoint(abstractPokemon.getLabels(), instagramLabels)) {
             abstractPokemon.getLabels().add(INSTAGRAM);
         }
         fileContents.add("labels", getLabels(abstractPokemon.getLabels()));
@@ -97,9 +99,9 @@ public class SpeciesDataJSONWriter {
         fileContents.addProperty("weight", abstractPokemon.getWeight());
         fileContents.add("aspects", getAspects(abstractPokemon.getAspects(), aspect));
         fileContents.add("evolutions", getEvolutions(abstractPokemon.getEvolutions(), abstractPokemon.getCleanName()));
-        if(abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)){
+        if (abstractPokemon instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)) {
             var key = pokemon.getCleanName();
-            if(AbstractPokemon.ADDITIONAL_EVOLUTIONS.containsKey(key)){
+            if (AbstractPokemon.ADDITIONAL_EVOLUTIONS.containsKey(key)) {
                 fileContents.addProperty("preEvolution", AbstractPokemon.ADDITIONAL_PRE_EVOLUTIONS.get(key));
             }
         }
@@ -109,7 +111,7 @@ public class SpeciesDataJSONWriter {
     public static <T extends AbstractPokemon> JsonArray getFeatures(List<T> forms) {
         var features = new JsonArray();
         for (var form : forms) {
-            if(form instanceof Pokemon pokemon&& AbstractPokemon.isAnAdditionalForm(pokemon)){
+            if (form instanceof Pokemon pokemon && AbstractPokemon.isAnAdditionalForm(pokemon)) {
                 var aspect = getAccurateAspect(RESOURCES_DIR, pokemon);
                 features.add(aspect);
                 continue;
@@ -121,7 +123,7 @@ public class SpeciesDataJSONWriter {
 
     private static JsonElement getAspects(List<Aspect> aspectList, String additionalSpeciesAspect) {
         var aspects = new JsonArray();
-        if(additionalSpeciesAspect != null) {
+        if (additionalSpeciesAspect != null) {
             aspects.add(additionalSpeciesAspect);
             return aspects;
         }
@@ -144,7 +146,7 @@ public class SpeciesDataJSONWriter {
         var pokedex = new JsonArray();
         for (int i = 0; i < entries.size(); i++) {
 
-            pokedex.add("cobblemon.species." + cleanName + ".desc" + (i>0?i:""));
+            pokedex.add("cobblemon.species." + cleanName + ".desc" + (i > 0 ? i : ""));
         }
         return pokedex;
     }
@@ -162,7 +164,23 @@ public class SpeciesDataJSONWriter {
         if (!dropList.isEmpty()) {
             drops.addProperty("amount", dropAmount);
             var entries = new JsonArray();
-            for (ItemDrop itemDrop : dropList) {
+            var filteredDropList = dropList.stream()
+                    .collect(Collectors.toMap(
+                            ItemDrop::getItemId,
+                            drop -> drop,
+                            (d1, d2) -> {
+                                int range1 = d1.getQuantityMax() - d1.getQuantityMin();
+                                int range2 = d2.getQuantityMax() - d2.getQuantityMin();
+
+                                if (range1 != range2) {
+                                    return range1 > range2 ? d1 : d2;
+                                }
+
+                                return d1.getChance() >= d2.getChance() ? d1 : d2;
+                            }
+                    ))
+                    .values();
+            for (ItemDrop itemDrop : filteredDropList) {
                 var entry = new JsonObject();
                 entries.add(entry);
                 entry.addProperty("item", itemDrop.getItemId());
@@ -204,8 +222,8 @@ public class SpeciesDataJSONWriter {
         var pokemonName = pokemon.getName();
         for (int i = 0; i < 20; i++) {
             String numberAsWord = EnglishNumberToWords.convert(i);
-            if(pokemonName.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))){
-                aspect += EnglishNumberToWords.convert(i+1);
+            if (pokemonName.endsWith(StringUtils.capitalize(numberAsWord.toLowerCase()))) {
+                aspect += EnglishNumberToWords.convert(i + 1);
                 try {
                     SpeciesFeaturesJSONWriter.writeFeature(aspect, resourcesDir);
                 } catch (IOException e) {
@@ -289,11 +307,11 @@ public class SpeciesDataJSONWriter {
         return evolutions;
     }
 
-    private static JsonObject generateForm (AbstractPokemon form){
+    private static JsonObject generateForm(AbstractPokemon form) {
         var fileContents = pokemonJsonObject(form);
-        if(form instanceof PokemonForm pokemonForm) {
+        if (form instanceof PokemonForm pokemonForm) {
             fileContents.addProperty("battleOnly", pokemonForm.isBattleOnly());
-        } else if(form instanceof Pokemon pokemon){
+        } else if (form instanceof Pokemon pokemon) {
             fileContents.addProperty("shoulderMountable", pokemon.isShoulderMountable());
             if (pokemon.getShoulderMountEffect() != null) {
                 var shoulderMountEffects = new JsonArray();

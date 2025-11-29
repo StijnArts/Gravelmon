@@ -5007,18 +5007,18 @@
       }
     ]
   },
-  "pokemon.elekid_x.cry": {
+  "pokemon.elekid_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/elekid_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/elekid_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.electabuzz_x.cry": {
+  "pokemon.electabuzz_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/electabuzz_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/electabuzz_x_form_cry",
         "volume": 0.8
       }
     ]
@@ -5031,34 +5031,34 @@
       }
     ]
   },
-  "pokemon.spiritomb_x.cry": {
+  "pokemon.spiritomb_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/spiritomb_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/spiritomb_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.carvanha_x.cry": {
+  "pokemon.carvanha_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/carvanha_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/carvanha_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.sharpedo_x.cry": {
+  "pokemon.sharpedo_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/sharpedo_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/sharpedo_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.pyukumuku_x.cry": {
+  "pokemon.pyukumuku_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/pyukumuku_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/pyukumuku_x_form_cry",
         "volume": 0.8
       }
     ]
@@ -5079,26 +5079,18 @@
       }
     ]
   },
-  "pokemon.joltik_x.cry": {
+  "pokemon.joltik_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/joltik_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/joltik_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.galvantula_x.cry": {
+  "pokemon.galvantula_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/galvantula_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.smeargle_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/smeargle_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/galvantula_x_form_cry",
         "volume": 0.8
       }
     ]
@@ -5111,58 +5103,42 @@
       }
     ]
   },
-  "pokemon.gastly_x.cry": {
+  "pokemon.gastly_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/gastly_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/gastly_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.haunter_x.cry": {
+  "pokemon.haunter_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/haunter_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/haunter_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.gengar_x.cry": {
+  "pokemon.gengar_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/gengar_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/gengar_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.yamask_x.cry": {
+  "pokemon.ponyta_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/yamask_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/ponyta_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.cofagrigus_x.cry": {
+  "pokemon.rapidash_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/cofagrigus_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.ponyta_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/ponyta_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.rapidash_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/rapidash_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/rapidash_x_form_cry",
         "volume": 0.8
       }
     ]
@@ -5175,202 +5151,42 @@
       }
     ]
   },
-  "pokemon.cacnea_x.cry": {
+  "pokemon.cacnea_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/cacnea_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/cacnea_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.cacturne_x.cry": {
+  "pokemon.cacturne_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/cacturne_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/cacturne_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.swirlix_x.cry": {
+  "pokemon.raichu_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/swirlix_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/raichu_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.slurpuff_x.cry": {
+  "pokemon.ditto_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/slurpuff_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/ditto_x_form_cry",
         "volume": 0.8
       }
     ]
   },
-  "pokemon.budew_x.cry": {
+  "pokemon.aegislash_x_form.cry": {
     "sounds": [
       {
-        "name": "gravelmon:pokemon/xenoverse/budew_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.roselia_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/roselia_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.roserade_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/roserade_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.mareanie_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/mareanie_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.toxapex_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/toxapex_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.greninja_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/greninja_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.mewtwo_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/mewtwo_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.raichu_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/raichu_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.bisharp_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/bisharp_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.scovile_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/scovile_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.tyranitar_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/tyranitar_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.ditto_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/ditto_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.aegislash_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/aegislash_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.tapufini_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/tapufini_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.tapulele_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/tapulele_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.tapukoko_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/tapukoko_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.tapubulu_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/tapubulu_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.dragalisk_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/dragalisk_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.shyleon_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/shyleon_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.trishout_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/trishout_x_cry",
-        "volume": 0.8
-      }
-    ]
-  },
-  "pokemon.shulong_x.cry": {
-    "sounds": [
-      {
-        "name": "gravelmon:pokemon/xenoverse/shulong_x_cry",
+        "name": "gravelmon:pokemon/xenoverse/aegislash_x_form_cry",
         "volume": 0.8
       }
     ]

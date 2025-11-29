@@ -174,7 +174,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "water",
       "secondaryType": "rock",
       "catchRate": 45,
@@ -184,7 +184,7 @@
       "eggCycles": 50,
       "baseFriendship": 70,
       "preEvolution": "yamask form=x",
-      "baseScale": 0.375,
+      "baseScale": 18.0,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -304,13 +304,13 @@
       "height": 15,
       "weight": 660,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0,
-        "height": 6.0,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -529,7 +529,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "epoch",
     "epoch_mega",
     "mega"

@@ -11,7 +11,7 @@ public class Xenoverse extends Game {
     public static final Game INSTANCE = new Xenoverse();
 
     private Xenoverse() {
-        super("Xenoverse");
+        super("Xenoverse", "https://pokemon-xenoverse.fandom.com/wiki/Pok%C3%A9mon_Xenoverse_Wiki");
     }
 
     @Override

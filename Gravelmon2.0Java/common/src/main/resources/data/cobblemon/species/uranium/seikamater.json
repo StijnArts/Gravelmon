@@ -66,16 +66,6 @@
         "item": "gravelmon:royal_jelly",
         "quantityRange": "1-1",
         "percentage": 40
-      },
-      {
-        "item": "gravelmon:royal_jelly",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "gravelmon:royal_jelly",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

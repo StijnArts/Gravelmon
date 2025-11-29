@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Elb extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Elb();
     private Elb() {
-        super("Elb");
+        super("Elb", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

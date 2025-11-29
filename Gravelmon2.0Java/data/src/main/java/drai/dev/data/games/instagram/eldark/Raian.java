@@ -15,7 +15,7 @@ import static drai.dev.data.attributes.StatType.*;
 public class Raian extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Raian();
     private Raian() {
-        super("Raian");
+        super("Raian", "https://www.instagram.com/el_dark_core/?hl=en");
     }
 
     @Override

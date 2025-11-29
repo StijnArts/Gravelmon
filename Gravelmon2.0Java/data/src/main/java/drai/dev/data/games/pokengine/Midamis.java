@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Midamis extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Midamis();
     private Midamis() {
-        super("Midamis");
+        super("Midamis", "https://pokengine.org/collections/10byuotj/Midamis");
     }
 
     @Override

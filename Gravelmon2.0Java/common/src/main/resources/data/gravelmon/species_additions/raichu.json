@@ -181,7 +181,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "steel",
       "catchRate": 75,
       "maleRatio": 0.875,
@@ -302,7 +302,7 @@
       "height": 8,
       "weight": 260,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -1082,7 +1082,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "norse",
     "epoch",
     "epochtwo",

@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Ishiria extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ishiria();
     private Ishiria() {
-        super("Ishiria");
+        super("Ishiria", "https://pokengine.org/collections/10zpv4m9/Ishiria");
     }
 
     @Override

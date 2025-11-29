@@ -21,7 +21,7 @@ import java.util.*;
 public class Mongratis extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mongratis();
     private Mongratis() {
-        super("Mongratis");
+        super("Mongratis", "https://pokengine.org/collections/107s7x9x/Mongratis");
     }
 
     @Override

@@ -12,7 +12,7 @@ import java.util.*;
 public class Varitas extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Varitas();
     private Varitas() {
-        super("Varitas");
+        super("Varitas", "https://pokengine.org/collections/10piq9nx/Varitas");
     }
 
     @Override

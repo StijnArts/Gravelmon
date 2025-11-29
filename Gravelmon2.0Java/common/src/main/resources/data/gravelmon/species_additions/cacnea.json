@@ -202,7 +202,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "grass",
       "secondaryType": "ghost",
       "catchRate": 190,
@@ -328,7 +328,7 @@
       "height": 4,
       "weight": 315,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -701,7 +701,7 @@
   ],
   "features": [
     "neo",
-    "x",
+    "xform",
     "epoch",
     "epochtwo"
   ]

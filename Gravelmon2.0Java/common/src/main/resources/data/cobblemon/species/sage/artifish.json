@@ -65,9 +65,9 @@
     "amount": 2,
     "entries": [
       {
-        "item": "cobblemon:poke_ball",
+        "item": "cobblemon:ultra_ball",
         "quantityRange": "1-2",
-        "percentage": 40
+        "percentage": 10
       },
       {
         "item": "cobblemon:great_ball",
@@ -75,9 +75,9 @@
         "percentage": 30
       },
       {
-        "item": "cobblemon:ultra_ball",
+        "item": "cobblemon:poke_ball",
         "quantityRange": "1-2",
-        "percentage": 10
+        "percentage": 40
       }
     ]
   },

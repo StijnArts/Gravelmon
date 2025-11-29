@@ -326,7 +326,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "sound",
       "secondaryType": "poison",
       "catchRate": 45,
@@ -335,7 +335,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.192,
+      "baseScale": 4.800000000000001,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -429,7 +429,7 @@
       "height": 2,
       "weight": 12,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -449,8 +449,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.125,
-        "height": 3.125,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -1092,7 +1092,7 @@
   "features": [
     "relic",
     "delta",
-    "x",
+    "xform",
     "epoch",
     "epochtwo",
     "ayreian",

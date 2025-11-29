@@ -193,7 +193,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fairy",
       "catchRate": 45,
       "maleRatio": 0.5,
@@ -201,7 +201,7 @@
       "experienceGroup": "fast",
       "eggCycles": 26,
       "baseFriendship": 70,
-      "baseScale": 0.5052631578947367,
+      "baseScale": 14.399999999999999,
       "cannotDynamax": false,
       "abilities": [
         "immunity",
@@ -310,7 +310,7 @@
       "height": 12,
       "weight": 580,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -326,8 +326,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.5625,
-        "height": 3.5625,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -1051,7 +1051,7 @@
   "features": [
     "hubian",
     "cefiran",
-    "x",
+    "xform",
     "epoch",
     "ivrisian",
     "forman",

@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Mushi extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mushi();
     private Mushi() {
-        super("Mushi");
+        super("Mushi", "https://pokengine.org/collections/10twfbmi/Mushi");
     }
 
     @Override

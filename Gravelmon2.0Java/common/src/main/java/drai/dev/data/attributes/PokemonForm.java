@@ -139,6 +139,11 @@ public class PokemonForm extends AbstractPokemon {
         return getCleanName()+"_"+getFormOf().getCleanName();
     }
 
+    @Override
+    public String getBasePokemon() {
+        return formOf.getBasePokemon();
+    }
+
     public PokemonForm setEvolutions(List<EvolutionEntry> evolutions) {
         this.evolutions.clear();
         this.evolutions.addAll(evolutions);

@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Theos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Theos();
     private Theos() {
-        super("Theos");
+        super("Theos", "https://pokengine.org/collections/10m8k0u7/Theos");
     }
 
     @Override

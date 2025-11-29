@@ -2,7 +2,7 @@
   "target": "cobblemon:gengar",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "dragon",
       "secondaryType": "psychic",
       "catchRate": 45,
@@ -71,11 +71,6 @@
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
             "percentage": 50
-          },
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -161,7 +156,7 @@
       "height": 21,
       "weight": 580,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -1053,7 +1048,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "havaiian",
     "epoch",
     "kaskadian",

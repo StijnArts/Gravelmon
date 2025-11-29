@@ -1,5 +1,6 @@
 package drai.dev.data;
 
+import drai.dev.data.games.*;
 import drai.dev.data.games.registry.*;
 import drai.dev.data.item.*;
 import drai.dev.data.jsonwriters.assets.*;
@@ -26,12 +27,12 @@ public class JSONOutputGenerator {
         });
         MegaShowdownMegaDataJSONWriter.writeMegaEntries(resourcesDir);
         ArmoredForm.ARMORED_FORMS.forEach((name, form) -> {
-           form.processPokemonAssets(resourcesDir);
+            form.processPokemonAssets(resourcesDir);
         });
         LangJSONWriter.writeStarterCategories();
         generateLangFile();
-        for(Game game : GameRegistry.games){
-            generateJsonFiles(game,resourcesDir);
+        for (Game game : GameRegistry.games) {
+            generateJsonFiles(game, resourcesDir);
             PokeDexWriter.write(game, resourcesDir);
         }
         SpeciesAdditionsWriter.writeAdditions(resourcesDir);
@@ -52,19 +53,18 @@ public class JSONOutputGenerator {
         SoundsJsonWriter.finalizeSounds(resourcesDir);
         SpeciesFeaturesJSONWriter.writeFeatures(resourcesDir);
 
-        if(false){
-            ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
-//            ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
-        }
+        ExcelExporter.exportPokemonAssetData(GameRegistry.games);
+//          ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Fakemon Data",true);
+//          ExcelExporter.exportPokemonData(GameRegistry.games, "Gravelmon Password Fakemon Data",false);
 
     }
 
-    private static void generateJsonFiles(Game game,String resourcesDir) {
-        SpeciesDataJSONWriter.writeSpecies(game,resourcesDir);
-        SpeciesAssetsJSONWriter.writeSpecies(game,resourcesDir);
-        SpawnPoolWorldJSONWriter.writeSpawns(game,resourcesDir);
-        PoserJSONWriter.writeSpecies(game,resourcesDir);
-        LangJSONWriter.writeLang(game,resourcesDir);
+    private static void generateJsonFiles(Game game, String resourcesDir) {
+        SpeciesDataJSONWriter.writeSpecies(game, resourcesDir);
+        SpeciesAssetsJSONWriter.writeSpecies(game, resourcesDir);
+        SpawnPoolWorldJSONWriter.writeSpawns(game, resourcesDir);
+        PoserJSONWriter.writeSpecies(game, resourcesDir);
+        LangJSONWriter.writeLang(game, resourcesDir);
         PokeDexEntryWriter.write(game, resourcesDir);
         SoundsJsonWriter.writeCries(game, resourcesDir);
     }

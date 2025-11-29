@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class HUB extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new HUB();
     private HUB() {
-        super("HUB");
+        super("HUB", "https://pokengine.org/collections/10f6gxci/HUB");
     }
 
     @Override

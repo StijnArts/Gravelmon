@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Form extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Form();
     private Form() {
-        super("form");
+        super("form", "https://www.instagram.com/el_dark_core/?hl=en");
     }
 //https://www.instagram.com/pformedition/
     @Override

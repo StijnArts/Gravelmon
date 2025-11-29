@@ -9,7 +9,7 @@ public class SolarLightLunarDark extends drai.dev.data.games.registry.Game {
     public static final Game INSTANCE = new SolarLightLunarDark();
 
     private SolarLightLunarDark() {
-        super("SolarLightLunarDark");
+        super("SolarLightLunarDark", "https://pokemonsolarlightlunardark.fandom.com/wiki/Pok%C3%A9mon_Solar_Light_%26_Lunar_Dark_Wiki");
     }
 
     @Override

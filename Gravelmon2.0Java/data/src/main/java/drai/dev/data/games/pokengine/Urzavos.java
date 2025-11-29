@@ -9,7 +9,7 @@ import java.util.*;
 public class Urzavos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Urzavos();
     private Urzavos() {
-        super("Urzavos");
+        super("Urzavos", "https://pokengine.org/collections/10rfercc/Urzavos");
     }
 
     @Override

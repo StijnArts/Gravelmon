@@ -11,7 +11,7 @@ import java.util.*;
 public class Interregional extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Interregional();
     private Interregional() {
-        super("Interregional");
+        super("Interregional", "https://pokengine.org/collections/10nk64pi/Interregional");
     }
 
     @Override

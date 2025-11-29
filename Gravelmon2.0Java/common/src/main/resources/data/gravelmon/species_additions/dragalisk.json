@@ -2,7 +2,7 @@
   "target": "cobblemon:dragalisk",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "ground",
       "secondaryType": "ice",
       "catchRate": 30,
@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 26,
       "baseFriendship": 40,
-      "baseScale": 0.6185567010309279,
+      "baseScale": 30.0,
       "cannotDynamax": false,
       "abilities": [
         "keeneye"
@@ -106,18 +106,18 @@
       "height": 25,
       "weight": 2000,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.0625,
-        "height": 6.0625,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "x"
+    "xform"
   ]
 }

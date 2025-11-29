@@ -2,7 +2,7 @@
   "target": "cobblemon:scovile",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "grass",
       "secondaryType": "electric",
       "catchRate": 70,
@@ -12,7 +12,7 @@
       "eggCycles": 26,
       "baseFriendship": 40,
       "preEvolution": "scovile",
-      "baseScale": 0.35368421052631577,
+      "baseScale": 16.799999999999997,
       "cannotDynamax": false,
       "abilities": [
         "effectspore",
@@ -68,14 +68,14 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 20
-          },
-          {
             "item": "gravelmon:inductive_ring",
             "quantityRange": "1-1",
             "percentage": 40
+          },
+          {
+            "item": "gravelmon:xenolith",
+            "quantityRange": "1-1",
+            "percentage": 20
           }
         ]
       },
@@ -143,18 +143,18 @@
       "height": 14,
       "weight": 414,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 5.9375,
-        "height": 5.9375,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "x"
+    "xform"
   ]
 }

@@ -10,7 +10,7 @@ import java.util.*;
 public class Qamor extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Qamor();
     private Qamor() {
-        super("Qamor");
+        super("Qamor", "https://pokengine.org/collections/10br1vot/Qamor");
     }
 
     @Override

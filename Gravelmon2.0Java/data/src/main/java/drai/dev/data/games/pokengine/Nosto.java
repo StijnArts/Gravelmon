@@ -11,7 +11,7 @@ import java.util.*;
 public class Nosto extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Nosto();
     private Nosto() {
-        super("Nosto");
+        super("Nosto", "https://pokengine.org/collections/10lpg6a0/Nosto");
     }
 
     @Override

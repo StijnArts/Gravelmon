@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class ChaosInVesita extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new ChaosInVesita();
     private ChaosInVesita() {
-        super("ChaosInVesita");
+        super("ChaosInVesita", "https://www.pokecommunity.com/threads/pok%C3%A9mon-chaos-in-vesita-new-version-out-now-eng-ger.491767/");
     }
 
     @Override

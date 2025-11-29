@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Mythire extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mythire();
     private Mythire() {
-        super("Mythire");
+        super("Mythire", "https://pokengine.org/collections/102ve5ou/Mythire");
     }
 
     @Override

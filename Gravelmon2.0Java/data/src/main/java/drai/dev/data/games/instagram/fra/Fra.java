@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Fra extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Fra();
     private Fra() {
-        super("fra");
+        super("fra", "https://www.instagram.com/_fra.2.0/?hl=en");
     }
 
     @Override

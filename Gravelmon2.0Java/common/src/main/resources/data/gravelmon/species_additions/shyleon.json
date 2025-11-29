@@ -67,34 +67,14 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
             "item": "gravelmon:terrestrial_ring",
             "quantityRange": "1-1",
-            "percentage": 10
+            "percentage": 40
           },
           {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 10
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -309,27 +289,7 @@
         "amount": 1,
         "entries": [
           {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
             "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 10
           },
@@ -561,36 +521,6 @@
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 40
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -713,7 +643,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "grass",
       "secondaryType": "fairy",
       "catchRate": 45,
@@ -722,7 +652,7 @@
       "experienceGroup": "slow",
       "eggCycles": 41,
       "baseFriendship": 70,
-      "baseScale": 0.2823529411764706,
+      "baseScale": 7.199999999999999,
       "cannotDynamax": false,
       "abilities": [
         "rattled"
@@ -801,13 +731,13 @@
       "height": 6,
       "weight": 50,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }
@@ -816,6 +746,6 @@
     "terrestrial",
     "xenoversal",
     "astral",
-    "x"
+    "xform"
   ]
 }

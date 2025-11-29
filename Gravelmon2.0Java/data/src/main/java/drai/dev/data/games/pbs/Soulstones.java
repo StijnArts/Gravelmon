@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Soulstones extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Soulstones();
     private Soulstones() {
-        super("Soulstones");
+        super("Soulstones", "https://pokemon-soulstones.fandom.com/wiki/Pokemon_Soulstones_Wiki");
     }
 
     @Override

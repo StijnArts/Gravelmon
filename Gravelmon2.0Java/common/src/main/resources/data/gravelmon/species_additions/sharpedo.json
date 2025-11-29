@@ -2,7 +2,7 @@
   "target": "cobblemon:sharpedo",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "water",
       "secondaryType": "ghost",
       "catchRate": 150,
@@ -71,11 +71,6 @@
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
             "percentage": 50
-          },
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -147,7 +142,7 @@
       "height": 18,
       "weight": 678,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -337,7 +332,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "epoch",
     "epoch_mega"
   ]

@@ -63,12 +63,12 @@
     "amount": 2,
     "entries": [
       {
-        "item": "minecraft:brown_mushroom",
+        "item": "minecraft:red_mushroom",
         "quantityRange": "1-2",
         "percentage": 50
       },
       {
-        "item": "minecraft:red_mushroom",
+        "item": "minecraft:brown_mushroom",
         "quantityRange": "1-2",
         "percentage": 50
       }

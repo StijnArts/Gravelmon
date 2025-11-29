@@ -65,12 +65,12 @@
     "amount": 2,
     "entries": [
       {
-        "item": "minecraft:brown_mushroom",
+        "item": "minecraft:redstone",
         "quantityRange": "1-2",
         "percentage": 50
       },
       {
-        "item": "minecraft:redstone",
+        "item": "minecraft:brown_mushroom",
         "quantityRange": "1-2",
         "percentage": 50
       }

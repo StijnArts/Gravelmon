@@ -5,11 +5,11 @@ import drai.dev.data.pokemon.lagoone.*;
 import drai.dev.data.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done https://pokengine.org/collections/10uvah5o/Lagoone
+//done
 public class Lagoone extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Lagoone();
     private Lagoone() {
-        super("Lagoone");
+        super("Lagoone", "https://pokengine.org/collections/10uvah5o/Lagoone");
     }
 //TODO update
     @Override

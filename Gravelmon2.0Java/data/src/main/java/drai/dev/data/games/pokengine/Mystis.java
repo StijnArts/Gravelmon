@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Mystis extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mystis();
     private Mystis() {
-        super("Mystis");
+        super("Mystis", "https://pokengine.org/collections/109dm87l/Mystis");
     }
     //TODO dex integration
     @Override

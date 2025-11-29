@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Sevii extends Game {
     public static final Game INSTANCE = new Sevii();
     private Sevii() {
-        super("Sevii");
+        super("Sevii", "https://dex.radicalred.net/");
     }
 
     @Override

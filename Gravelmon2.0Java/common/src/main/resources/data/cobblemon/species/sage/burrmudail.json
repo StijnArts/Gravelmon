@@ -65,12 +65,12 @@
     "amount": 2,
     "entries": [
       {
-        "item": "minecraft:feather",
+        "item": "minecraft:ice",
         "quantityRange": "1-2",
         "percentage": 50
       },
       {
-        "item": "minecraft:ice",
+        "item": "minecraft:feather",
         "quantityRange": "1-2",
         "percentage": 50
       }

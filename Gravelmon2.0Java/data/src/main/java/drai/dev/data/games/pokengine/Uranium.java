@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Uranium extends Game {
     public static final Game INSTANCE = new Uranium();
-    private Uranium() { super("Uranium"); }
+    private Uranium() { super("Uranium", "https://pokengine.org/collections/10bo38vl/Uranium"); }
     @Override
     public void registerPokemon() {
         addNewPokemon(new Orchynx().addLabels(Label.STARTER));

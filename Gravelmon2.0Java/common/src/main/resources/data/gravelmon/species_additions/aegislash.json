@@ -2,7 +2,7 @@
   "target": "cobblemon:aegislash",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fairy",
       "secondaryType": "ghost",
       "catchRate": 45,
@@ -137,7 +137,7 @@
       "height": 19,
       "weight": 530,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -820,7 +820,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "africanusan",
     "epoch",
     "epochtwo",

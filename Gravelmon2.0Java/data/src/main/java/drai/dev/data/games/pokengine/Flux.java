@@ -4,10 +4,10 @@ import drai.dev.data.games.registry.*;
 import drai.dev.data.pokemon.flux.*;
 import drai.dev.data.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-//TODO update https://pokengine.org/collections/10lj54e1/Flux
+//TODO update
 public class Flux extends Game {
     public static final Game INSTANCE = new Flux();
-    private Flux() {super("Flux");}
+    private Flux() {super("Flux", "https://pokengine.org/collections/10lj54e1/Flux");}
 
     @Override
     public void registerPokemon() {

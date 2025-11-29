@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Okeno extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Okeno();
     private Okeno() {
-        super("Okeno");
+        super("Okeno", "https://pokengine.org/collections/10h1yde3/Okeno");
     }
 
     @Override

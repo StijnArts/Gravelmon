@@ -807,17 +807,12 @@
     "amount": 3,
     "entries": [
       {
-        "item": "minecraft:end_crystal",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "cobblemon:dawn_stone",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
         "item": "cobblemon:dusk_stone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:end_crystal",
         "quantityRange": "1-1",
         "percentage": 10
       },
@@ -827,7 +822,7 @@
         "percentage": 10
       },
       {
-        "item": "cobblemon:dusk_stone",
+        "item": "cobblemon:dawn_stone",
         "quantityRange": "1-1",
         "percentage": 10
       }

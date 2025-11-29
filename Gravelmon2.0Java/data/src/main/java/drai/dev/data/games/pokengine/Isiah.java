@@ -21,11 +21,11 @@ import drai.dev.data.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done https://pokengine.org/collections/10qucv38/Garnet
+//done
 public class Isiah extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Isiah();
     private Isiah() {
-        super("Isiah");
+        super("Isiah", "https://pokengine.org/collections/10qucv38/Garnet");
     }
 
     @Override

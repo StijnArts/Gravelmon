@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Vanguard extends Game {
     public static final Game INSTANCE = new Vanguard();
     private Vanguard() {
-        super("Vanguard");
+        super("Vanguard", "https://sexyrexy-dev.github.io/ROVER_SITE/viewer.html?game=vanguard");
     }
 
     @Override

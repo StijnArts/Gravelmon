@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class EternalForest extends Game {
     public static final Game INSTANCE = new EternalForest();
     private EternalForest() {
-        super("EternalForest");
+        super("EternalForest", "https://www.pokemonforeteternelle.com/home/");
     }
 
     @Override

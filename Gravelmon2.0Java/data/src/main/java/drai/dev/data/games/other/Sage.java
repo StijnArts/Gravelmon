@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Sage extends Game {
     public static final Game INSTANCE = new Sage();
     private Sage() {
-        super("Sage");
+        super("Sage", "https://capx.fandom.com/wiki/CAPX_Wiki");
 
     }
 

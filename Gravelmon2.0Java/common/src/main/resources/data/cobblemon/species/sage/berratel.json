@@ -62,12 +62,12 @@
     "amount": 4,
     "entries": [
       {
-        "item": "minecraft:sweet_berry",
+        "item": "minecraft:apple",
         "quantityRange": "1-2",
         "percentage": 50
       },
       {
-        "item": "minecraft:apple",
+        "item": "minecraft:sweet_berry",
         "quantityRange": "1-2",
         "percentage": 50
       }

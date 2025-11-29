@@ -94,7 +94,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "dark",
       "catchRate": 35,
       "maleRatio": 0.875,
@@ -168,7 +168,7 @@
       "height": 3,
       "weight": 40,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -469,7 +469,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "norheiman",
     "epoch",
     "forman"

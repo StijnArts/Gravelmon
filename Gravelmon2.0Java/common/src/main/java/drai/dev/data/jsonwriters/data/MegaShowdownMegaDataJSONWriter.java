@@ -17,10 +17,6 @@ public class MegaShowdownMegaDataJSONWriter {
     public static void writeMegaEntries(String resourcesDir) {
         Gson gson = new GsonBuilder().disableHtmlEscaping().setPrettyPrinting().create();
         String dir = resourcesDir + "\\data\\gravelmon\\mega_showdown\\mega\\";
-        var blackListMegaEvolutionAspects = new JsonArray();
-        new HashSet<>(Pokemon.ADDITIONAL_SPECIES_ASPECTS).forEach(aspect -> {
-            blackListMegaEvolutionAspects.add(aspect.getName());
-        });
         GravelmonMegas.MEGA_EVOLUTIONS.entrySet().forEach(entry -> {
             JsonObject contents = new JsonObject();
             var megaPokemon = entry.getKey();
@@ -32,11 +28,16 @@ public class MegaShowdownMegaDataJSONWriter {
                 pokemons.add(megaPokemon);
                 contents.addProperty("showdown_id", showdownName);
                 contents.add("pokemons", pokemons);
-//                contents.addProperty("item_id", "gravelmon:" + megaStoneName);
-//                contents.addProperty("item_name", capitalizeWords(megaStoneName.replaceAll("_", " ")));
                 contents.add("aspect", aspectObject);
                 aspectObject.addProperty("apply_aspect", "mega_evolution=" + megaEvolution.getMegaAspect());
                 aspectObject.addProperty("revert_aspect", "mega_evolution=" + (megaEvolution.getAspect()==null?"none":megaEvolution.getAspect()));
+                var blackListMegaEvolutionAspects = new JsonArray();
+                new HashSet<>(Pokemon.ADDITIONAL_SPECIES_ASPECTS).stream()
+                        .filter(aspect -> !aspect.getName().equalsIgnoreCase(megaEvolution.getAspect()))
+                        .sorted()
+                        .forEach(aspect -> {
+                    blackListMegaEvolutionAspects.add(aspect.getName());
+                });
                 var blacklistAspects = new JsonArray();
                 blacklistAspects.add(blackListMegaEvolutionAspects);
                 aspectObject.add("blacklist_aspects", blacklistAspects);

@@ -10,7 +10,7 @@ import java.util.*;
 public class Tokas extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Tokas();
     private Tokas() {
-        super("Tokas");
+        super("Tokas", "https://pokengine.org/collections/10lc2j53/Tokas");
     }
 
     @Override

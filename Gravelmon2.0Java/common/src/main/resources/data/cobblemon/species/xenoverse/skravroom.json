@@ -68,11 +68,6 @@
         "item": "gravelmon:spare_parts",
         "quantityRange": "1-1",
         "percentage": 50
-      },
-      {
-        "item": "gravelmon:spare_parts",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

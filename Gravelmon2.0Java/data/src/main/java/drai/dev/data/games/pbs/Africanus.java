@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Africanus extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Africanus();
     private Africanus() {
-        super("Africanus");
+        super("Africanus", "https://discord.com/invite/avnybAs");
     }
 
     @Override

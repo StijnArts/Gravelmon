@@ -66,19 +66,14 @@
         "amount": 1,
         "entries": [
           {
+            "item": "gravelmon:terrestrial_ring",
+            "quantityRange": "1-1",
+            "percentage": 40
+          },
+          {
             "item": "gravelmon:xenoversal_ring",
             "quantityRange": "1-1",
             "percentage": 10
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
-          {
-            "item": "gravelmon:terrestrial_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
           }
         ]
       },
@@ -250,11 +245,6 @@
       "drops": {
         "amount": 1,
         "entries": [
-          {
-            "item": "gravelmon:xenoversal_ring",
-            "quantityRange": "1-1",
-            "percentage": 40
-          },
           {
             "item": "gravelmon:terrestrial_ring",
             "quantityRange": "1-1",

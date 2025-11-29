@@ -7,7 +7,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Sahl extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Sahl();
     private Sahl() {
-        super("Sahl");
+        super("Sahl", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

@@ -11,7 +11,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Ferran extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ferran();
     private Ferran() {
-        super("Ferran");
+        super("Ferran", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

@@ -9,7 +9,7 @@ import java.util.*;
 public class Ultraspace extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Ultraspace();
     private Ultraspace() {
-        super("Ultraspace");
+        super("Ultraspace", "https://pokengine.org/search?query=mons+region:03wglvg1");
     }
 
     @Override

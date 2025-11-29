@@ -234,6 +234,10 @@ public class Pokemon extends AbstractPokemon {
         ADDITIONAL_SPECIES_ASPECTS.add(pokemon.getAdditionalAspect());
     }
 
+    public String getBasePokemon() {
+        return getAdditionalFormKey();
+    }
+
     public void processAssets(String resourcesDir) {
         spawnData.forEach(pokemonSpawnData -> pokemonSpawnData.setPokemon(this));
         processPokemonAssets(resourcesDir, hasGenderDifferences);

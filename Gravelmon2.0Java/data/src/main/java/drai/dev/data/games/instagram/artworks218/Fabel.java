@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Fabel extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Fabel();
     private Fabel() {
-        super("Fabel");
+        super("Fabel", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

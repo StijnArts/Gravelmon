@@ -14,7 +14,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Rica extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Rica();
     private Rica() {
-        super("Rica");
+        super("Rica", "https://pokengine.org/collections/10hvquu7/Rica");
     }
     //tODO get missing art from https://www.deviantart.com/fuzzball288
     @Override

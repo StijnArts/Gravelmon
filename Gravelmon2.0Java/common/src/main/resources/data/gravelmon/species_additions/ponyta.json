@@ -2,7 +2,7 @@
   "target": "cobblemon:ponyta",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "flying",
       "catchRate": 100,
       "maleRatio": 0.5,
@@ -114,7 +114,7 @@
       "height": 10,
       "weight": 260,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -710,7 +710,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "africanusan",
     "epoch",
     "epochtwo",

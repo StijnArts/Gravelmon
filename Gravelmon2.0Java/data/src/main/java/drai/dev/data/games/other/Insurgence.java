@@ -12,7 +12,7 @@ import java.util.*;
 public class Insurgence extends Game {
     public static final Game INSTANCE = new Insurgence();
     private Insurgence() {
-        super("insurgence");
+        super("insurgence", "https://wiki.p-insurgence.com/Main_Page");
     }
 
     @Override

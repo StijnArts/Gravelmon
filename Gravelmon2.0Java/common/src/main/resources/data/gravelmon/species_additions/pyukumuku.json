@@ -2,7 +2,7 @@
   "target": "cobblemon:pyukumuku",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fighting",
       "catchRate": 45,
       "maleRatio": 0.5,
@@ -131,7 +131,7 @@
       "height": 7,
       "weight": 101,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
@@ -240,7 +240,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "fabelian"
   ]
 }

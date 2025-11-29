@@ -373,7 +373,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "sound",
       "secondaryType": "poison",
       "catchRate": 45,
@@ -383,7 +383,7 @@
       "eggCycles": 26,
       "baseFriendship": 70,
       "preEvolution": "budew form=x",
-      "baseScale": 0.12151898734177216,
+      "baseScale": 4.800000000000001,
       "cannotDynamax": false,
       "abilities": [
         "serenegrace",
@@ -441,11 +441,6 @@
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
             "percentage": 20
-          },
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 10
           }
         ]
       },
@@ -504,7 +499,7 @@
       "height": 3,
       "weight": 20,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -520,8 +515,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 4.9375,
-        "height": 4.9375,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -1334,7 +1329,7 @@
   "features": [
     "relic",
     "delta",
-    "x",
+    "xform",
     "avorian",
     "epoch",
     "epochtwo",

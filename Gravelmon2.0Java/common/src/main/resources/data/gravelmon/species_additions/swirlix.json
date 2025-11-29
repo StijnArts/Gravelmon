@@ -2,7 +2,7 @@
   "target": "cobblemon:swirlix",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "poison",
       "catchRate": 200,
       "maleRatio": 0.5,
@@ -10,7 +10,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.42,
+      "baseScale": 8.399999999999999,
       "cannotDynamax": false,
       "abilities": [
         "poisontouch",
@@ -122,7 +122,7 @@
       "height": 7,
       "weight": 40,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -138,8 +138,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 2.5,
-        "height": 2.5,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -430,7 +430,7 @@
     }
   ],
   "features": [
-    "x",
+    "xform",
     "epoch",
     "vesitan"
   ]

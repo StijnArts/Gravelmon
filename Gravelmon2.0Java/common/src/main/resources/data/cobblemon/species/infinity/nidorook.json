@@ -69,11 +69,6 @@
         "item": "gravelmon:astral_stone",
         "quantityRange": "1-1",
         "percentage": 40
-      },
-      {
-        "item": "gravelmon:astral_stone",
-        "quantityRange": "1-1",
-        "percentage": 40
       }
     ]
   },

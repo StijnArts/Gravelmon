@@ -8,7 +8,7 @@ public class Azure extends Game {
     public static final Game INSTANCE = new Azure();
 
     private Azure() {
-        super("Azure");
+        super("Azure", "https://docs.google.com/spreadsheets/d/1V4GtV-2NlbROtyULYroeGRaP9g6_6rhN454JQ6JzcN4/edit?gid=1916559317#gid=1916559317");
     }
 
     @Override

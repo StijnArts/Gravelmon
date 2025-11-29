@@ -7,11 +7,11 @@ import drai.dev.data.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done https://pokengine.org/collections/10o85alw/Enjin
+//done
 public class Enjin extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Enjin();
     private Enjin() {
-        super("Enjin");
+        super("Enjin", "https://pokengine.org/collections/10o85alw/Enjin");
     }
 
     @Override

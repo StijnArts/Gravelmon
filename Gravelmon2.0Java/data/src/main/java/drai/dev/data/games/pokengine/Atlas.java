@@ -5,10 +5,10 @@ import drai.dev.data.pokemon.dhiome.*;
 import drai.dev.data.pokemon.okeno.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//Done https://pokengine.org/collections/10vvpsw8/Atlas
+//Done
 public class Atlas extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Atlas();
-    private Atlas() {        super("Atlas");
+    private Atlas() {        super("Atlas", "https://pokengine.org/collections/10vvpsw8/Atlas");
     }
 
     @Override

@@ -13,7 +13,7 @@ import static drai.dev.data.attributes.StatArchetype.FAST_PHYSICAL_ATTACKER;
 public class Opal extends Game {
     public static final Game INSTANCE = new Opal();
     private Opal() {
-        super("Opal");
+        super("Opal", "https://drive.google.com/drive/folders/1NbGZ32Izkj7WSBzkW72-1zCmO9bh7p-4");
     }
 
     @Override

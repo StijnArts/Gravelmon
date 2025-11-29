@@ -31,11 +31,11 @@ import drai.dev.data.pokemon.rica.Snoosect;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
 import java.util.*;
-//done https://pokengine.org/collections/107s9ir4/Cyare
+//done
 public class Cyare extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Cyare();
     private Cyare() {
-        super("Cyare");
+        super("Cyare", "https://pokengine.org/collections/107s9ir4/Cyare");
     }
 
     @Override

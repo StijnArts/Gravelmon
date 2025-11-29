@@ -8,7 +8,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Daybreak extends Game {
     public static final Game INSTANCE = new Daybreak();
     private Daybreak() {
-        super("Daybreak");
+        super("Daybreak", "https://pokemon-daybreak.fandom.com/wiki/Pok%C3%A9mon_Daybreak_Wiki");
     }
 
     @Override

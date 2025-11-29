@@ -9,7 +9,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Avalos extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Avalos();
     private Avalos() {
-        super("Fliga");
+        super("Fliga", "https://pokengine.org/collections/10u04ove/Avalos");
     }
     //todo instagram/artwork
     @Override

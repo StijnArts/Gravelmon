@@ -10,10 +10,20 @@ public abstract class Game {
     protected List<Pokemon> newPokemon = new ArrayList<>();
     protected List<String> pokedex = new ArrayList<>();
     protected List<String> additionalPokedexPokemon = new ArrayList<>();
-    public Game(String name){
+    public int priority = 99;
+    public String wikiUrl;
+
+    public Game(String name, String wikiUrl){
         this.name = name;
+        this.wikiUrl = wikiUrl;
         registerPokemon();
     }
+
+    public Game setPriority(int priority){
+        this.priority = priority;
+        return this;
+    }
+
     public abstract void registerPokemon();
     public String getName(){
         return name;

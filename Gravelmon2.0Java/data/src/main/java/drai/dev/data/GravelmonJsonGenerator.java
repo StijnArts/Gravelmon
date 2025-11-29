@@ -1,9 +1,7 @@
 package drai.dev.data;
 
-import dev.architectury.platform.*;
-import drai.dev.data.games.registry.*;
+import drai.dev.data.games.*;
 import drai.dev.data.pokemon.*;
-import drai.dev.gravelmon.*;
 import net.fabricmc.api.*;
 
 public class GravelmonJsonGenerator implements ModInitializer {

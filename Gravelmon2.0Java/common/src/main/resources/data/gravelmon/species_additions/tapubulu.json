@@ -2,7 +2,7 @@
   "target": "cobblemon:tapubulu",
   "forms": [
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "dragon",
       "secondaryType": "dark",
       "catchRate": 3,
@@ -11,7 +11,7 @@
       "experienceGroup": "slow",
       "eggCycles": 39,
       "baseFriendship": 70,
-      "baseScale": 0.43018867924528303,
+      "baseScale": 22.799999999999997,
       "cannotDynamax": false,
       "abilities": [
         "fullmetalbody",
@@ -132,18 +132,18 @@
       "height": 19,
       "weight": 1055,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 6.625,
-        "height": 6.625,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     }
   ],
   "features": [
-    "x"
+    "xform"
   ]
 }

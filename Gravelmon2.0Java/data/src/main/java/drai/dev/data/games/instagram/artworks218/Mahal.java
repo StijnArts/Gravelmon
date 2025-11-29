@@ -11,7 +11,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 public class Mahal extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Mahal();
     private Mahal() {
-        super("Mahal");
+        super("Mahal", "https://www.instagram.com/artworks218_/?hl=en");
     }
 
     @Override

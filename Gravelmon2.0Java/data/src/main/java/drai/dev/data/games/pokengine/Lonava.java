@@ -4,11 +4,11 @@ import drai.dev.data.pokemon.lonava.*;
 import drai.dev.data.pokemon.lonava.Dimwraith;
 import drai.dev.data.pokemon.mystis.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
-//done https://pokengine.org/collections/101p1q1f/Lonava
+//done
 public class Lonava extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Lonava();
     private Lonava() {
-        super("Lonava");
+        super("Lonava", "https://pokengine.org/collections/101p1q1f/Lonava");
     }
     //TODO update
     @Override

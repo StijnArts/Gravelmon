@@ -11,7 +11,7 @@ import java.util.*;
 public class PastelIsland extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new PastelIsland();
     private PastelIsland() {
-        super("Pastel Island");
+        super("Pastel Island", "https://pokengine.org/collections/10bli91l/Pastel+Island");
     }
 
     @Override

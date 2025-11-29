@@ -177,7 +177,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "water",
       "secondaryType": "rock",
       "catchRate": 190,
@@ -186,7 +186,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "baseFriendship": 70,
-      "baseScale": 0.32941176470588235,
+      "baseScale": 8.399999999999999,
       "cannotDynamax": false,
       "abilities": [
         "stormdrain",
@@ -291,7 +291,7 @@
       "height": 7,
       "weight": 40,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -311,8 +311,8 @@
       ],
       "shoulderMountable": false,
       "hitbox": {
-        "width": 3.1875,
-        "height": 3.1875,
+        "width": 0.125,
+        "height": 0.125,
         "fixed": false
       }
     },
@@ -1061,7 +1061,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "varitasian",
     "epoch",
     "ferranian",

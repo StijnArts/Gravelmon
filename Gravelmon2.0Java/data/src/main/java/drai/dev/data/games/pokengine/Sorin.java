@@ -9,7 +9,7 @@ import java.util.*;
 public class Sorin extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Sorin();
     private Sorin() {
-        super("Sorin");
+        super("Sorin", "https://pokengine.org/search?query=mons+region:03yqa2hk");
     }
 
     @Override

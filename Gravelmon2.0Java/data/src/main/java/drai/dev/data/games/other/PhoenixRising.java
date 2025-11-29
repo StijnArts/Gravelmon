@@ -10,7 +10,7 @@ import java.util.*;
 public class PhoenixRising extends Game {
     public static final Game INSTANCE = new PhoenixRising();
     private PhoenixRising() {
-        super("PhoenixRising");
+        super("PhoenixRising", "https://pokengine.org/collections/10p4xzsg/Hawthorne");
     }
 
     @Override

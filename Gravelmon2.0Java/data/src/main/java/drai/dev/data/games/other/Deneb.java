@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Deneb extends Game {
     public static final Game INSTANCE = new Deneb();
-    private Deneb() {super("Deneb");}
+    private Deneb() {super("Deneb", "https://pokemon-procyondeneb.fandom.com/wiki/Pok%C3%A9dex");}
 
     @Override
     public void registerPokemon() {

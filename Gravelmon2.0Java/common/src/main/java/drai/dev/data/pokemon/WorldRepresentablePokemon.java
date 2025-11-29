@@ -430,4 +430,6 @@ public abstract class WorldRepresentablePokemon {
     protected void setNeedsRemodel(String reason) {
         this.modelMetaData.setNeedsRemodel(reason);
     }
+
+    public abstract String getBasePokemon();
 }

@@ -4,11 +4,11 @@ package drai.dev.data.games.pokengine;
 import drai.dev.data.pokemon.kuria.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 
-//done https://pokengine.org/collections/102c91de/Azurite
+//done
 public class Kuria extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Kuria();
     private Kuria() {
-        super("Kuria");
+        super("Kuria", "https://pokengine.org/collections/102c91de/Azurite");
     }
 
     @Override

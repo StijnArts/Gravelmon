@@ -6,7 +6,9 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 
 public class Umbra extends Game {
     public static final Game INSTANCE = new Umbra();
-    private Umbra() {        super("Umbra");    }
+    private Umbra() {
+        super("Umbra", "https://pokemon-umbra.fandom.com/wiki/Pok%C3%A9mon_Umbra_Wiki");
+    }
 
     @Override
     public void registerPokemon() {

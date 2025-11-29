@@ -11,7 +11,7 @@ import java.util.*;
 public class Palmia  extends drai.dev.data.games.registry.Game {
     public static final drai.dev.data.games.registry.Game INSTANCE = new Palmia();
     private Palmia() {
-        super("Palmia");
+        super("Palmia", "https://www.instagram.com/el_dark_core/?hl=en");
     }
 
     @Override

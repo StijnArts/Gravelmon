@@ -204,7 +204,7 @@
       }
     },
     {
-      "name": "X",
+      "name": "Xform",
       "primaryType": "fire",
       "catchRate": 45,
       "maleRatio": 0.5,
@@ -267,11 +267,6 @@
       "drops": {
         "amount": 1,
         "entries": [
-          {
-            "item": "gravelmon:xenolith",
-            "quantityRange": "1-1",
-            "percentage": 10
-          },
           {
             "item": "gravelmon:xenolith",
             "quantityRange": "1-1",
@@ -341,7 +336,7 @@
       "height": 11,
       "weight": 300,
       "aspects": [
-        "x"
+        "xform"
       ],
       "evolutions": [
         {
@@ -716,7 +711,7 @@
   ],
   "features": [
     "delta",
-    "x",
+    "xform",
     "epoch",
     "ishirian"
   ]
