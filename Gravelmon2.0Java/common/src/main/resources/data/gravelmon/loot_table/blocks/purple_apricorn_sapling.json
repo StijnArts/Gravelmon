@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:purple_apricorn_seed"
+          "name": "gravelmon:purple_apricorn_seed"
         }
       ],
       "conditions": [

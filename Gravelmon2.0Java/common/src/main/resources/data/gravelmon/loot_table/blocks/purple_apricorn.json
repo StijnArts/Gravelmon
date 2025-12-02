@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:purple_apricorn",
+          "name": "gravelmon:purple_apricorn",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "cobblemon:purple_apricorn",
+              "block": "gravelmon:purple_apricorn",
               "properties": {
                 "age": "3"
               }
@@ -24,11 +24,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:purple_apricorn_seed",
+          "name": "gravelmon:purple_apricorn_seed",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "cobblemon:purple_apricorn",
+              "block": "gravelmon:purple_apricorn",
               "properties": {
                 "age": "3"
               }

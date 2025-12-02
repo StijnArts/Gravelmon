@@ -6,11 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:orange_apricorn",
+          "name": "gravelmon:orange_apricorn",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "cobblemon:orange_apricorn",
+              "block": "gravelmon:orange_apricorn",
               "properties": {
                 "age": "3"
               }
@@ -24,11 +24,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "cobblemon:orange_apricorn_seed",
+          "name": "gravelmon:orange_apricorn_seed",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
-              "block": "cobblemon:orange_apricorn",
+              "block": "gravelmon:orange_apricorn",
               "properties": {
                 "age": "3"
               }
