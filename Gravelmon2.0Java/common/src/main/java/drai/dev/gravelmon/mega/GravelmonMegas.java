@@ -13,6 +13,7 @@ import com.github.yajatkaul.mega_showdown.item.custom.mega.*;
 import com.github.yajatkaul.mega_showdown.utils.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.data.pokemon.*;
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.registries.*;
 import drai.dev.gravelsextendedbattles.*;
@@ -127,7 +128,7 @@ public class GravelmonMegas {
         Supplier<Item> item = ()->new MegaStone(
                 new Item.Properties()
                         .component(MegaShowdownDataComponents.REGISTRY_TYPE_COMPONENT.get(), RegistryLocator.MEGA)
-                        .component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(), ResourceLocation.fromNamespaceAndPath(MegaShowdown.MOD_ID, megaStoneName))
+                        .component(MegaShowdownDataComponents.RESOURCE_LOCATION_COMPONENT.get(), ResourceLocation.fromNamespaceAndPath(Gravelmon.MOD_ID, megaStoneName))
                         .arch$tab(MegaShowdownTabs.MEGA_TAB)
         ) {
             @Override

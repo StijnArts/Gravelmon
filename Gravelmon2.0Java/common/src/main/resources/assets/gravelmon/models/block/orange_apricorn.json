@@ -1,8 +1,6 @@
 {
-	"parent": "cobblemon:block/black_apricorn",
+	"parent": "cobblemon:block/apricorn_stage_3",
 	"textures": {
-		"0": "gravelmon:block/orange_apricorn",
-		"particle": "gravelmon:block/orange_apricorn"
-	},
-	"render_type": "cutout"
+		"apricorn": "gravelmon:block/orange_apricorn"
+	}
 }

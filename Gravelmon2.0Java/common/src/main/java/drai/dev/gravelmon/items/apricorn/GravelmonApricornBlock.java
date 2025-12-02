@@ -25,7 +25,6 @@ import net.minecraft.world.level.gameevent.*;
 import net.minecraft.world.level.pathfinder.*;
 import net.minecraft.world.phys.*;
 import net.minecraft.world.phys.shapes.*;
-import org.apache.logging.log4j.core.jmx.*;
 import org.jetbrains.annotations.*;
 
 public class GravelmonApricornBlock extends HorizontalDirectionalBlock implements BonemealableBlock, ShearableBlock {
@@ -35,11 +34,9 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
                     .apply(instance, GravelmonApricornBlock::new)
     );
     public static IntegerProperty AGE;
-    public static final DirectionProperty FACING;
     public static int MAX_AGE;
     public static int MIN_AGE;
     public GravelmonApricorns apricorn;
-
 
     public GravelmonApricornBlock(Properties properties, GravelmonApricorns apricorn) {
         super(properties);
@@ -223,117 +220,90 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         AGE = BlockStateProperties.AGE_3;
         MAX_AGE = BlockStateProperties.MAX_AGE_3;
         MIN_AGE = 0;
-        FACING = BlockStateProperties.HORIZONTAL_FACING;
+
         // North
+        // Stage 0
+        VoxelShape NORTH_STAGE_0 = Shapes.box(0.40625, 0.5, 0.0, 0.59375, 0.6875, 0.1875);
+        VoxelShape NORTH_CAP_STAGE_0 = Shapes.box(0.4375, 0.65625, 0.03125, 0.5625, 0.71875, 0.15625);
         // Stage 1
-         VoxelShape NORTH_TOP_STAGE_1 = Block.box(7.0, 11.0, 0.5, 9.0, 11.5, 2.5);
-         VoxelShape NORTH_BODY_STAGE_1 = Block.box(6.5, 9.0, 0.0, 9.5, 11.0, 3.0);
-         VoxelShape NORTH_BOTTOM_STAGE_1 = Block.box(7.0, 8.5, 0.5, 9.0, 9.0, 2.5);
-
+        VoxelShape NORTH_STAGE_1 = Shapes.box(0.375, 0.40625, 0.0, 0.625, 0.65625, 0.25);
+        VoxelShape NORTH_CAP_STAGE_1 = Shapes.box(0.40625, 0.625, 0.03125, 0.59375, 0.6875, 0.21875);
         // Stage 2
-         VoxelShape NORTH_TOP_STAGE_2 = Block.box(6.5, 10.5, 0.5, 9.5, 11.0, 3.5);
-         VoxelShape NORTH_BODY_STAGE_2 = Block.box(6.0, 7.5, 0.0, 10.0, 10.5, 4.0);
-         VoxelShape NORTH_BOTTOM_STAGE_2 = Block.box(6.5, 7.0, 0.5, 9.5, 7.5, 3.5);
-
-        // Stage 3
-         VoxelShape NORTH_TOP_STAGE_3 = Block.box(6.0, 9.75, 0.5, 10.0, 10.5, 4.5);
-         VoxelShape NORTH_BODY_STAGE_3 = Block.box(5.5, 5.75, 0.0, 10.5, 9.75, 5.0);
-         VoxelShape NORTH_BOTTOM_STAGE_3 = Block.box(6.0, 5.0, 0.5, 10.0, 5.75, 4.5);
-
-        // Full fruit
-         VoxelShape NORTH_TOP_FRUIT = Block.box(6.0, 9.0, 1.0, 10.0, 10.0, 5.0);
-         VoxelShape NORTH_BODY_FRUIT = Block.box(5.0, 4.0, 0.0, 11.0, 9.0, 6.0);
-         VoxelShape NORTH_BOTTOM_FRUIT = Block.box(5.5, 3.0, 0.5, 10.5, 4.0, 5.5);
-
+        VoxelShape NORTH_STAGE_2 = Shapes.box(0.34375, 0.296875, 0.0, 0.65625, 0.609375, 0.3125);
+        VoxelShape NORTH_CAP_STAGE_2 = Shapes.box(0.375, 0.59375, 0.03125, 0.625, 0.65625, 0.28125);
+        // Stage 3 - Full Fruit
+        VoxelShape NORTH_STAGE_3 = Shapes.box(0.3125, 0.1875, 0.0, 0.6875, 0.5625, 0.375);
+        VoxelShape NORTH_CAP_STAGE_3 = Shapes.box(0.375, 0.5625, 0.0625, 0.625, 0.625, 0.3125);
         NORTH_AABB = new VoxelShape[]{
-                Shapes.or(NORTH_BODY_STAGE_1, NORTH_TOP_STAGE_1, NORTH_BOTTOM_STAGE_1),
-                Shapes.or(NORTH_BODY_STAGE_2, NORTH_TOP_STAGE_2, NORTH_BOTTOM_STAGE_2),
-                Shapes.or(NORTH_BODY_STAGE_3, NORTH_TOP_STAGE_3, NORTH_BOTTOM_STAGE_3),
-                Shapes.or(NORTH_BODY_FRUIT, NORTH_TOP_FRUIT, NORTH_BOTTOM_FRUIT)
+                Shapes.or(NORTH_STAGE_0, NORTH_CAP_STAGE_0),
+                Shapes.or(NORTH_STAGE_1, NORTH_CAP_STAGE_1),
+                Shapes.or(NORTH_STAGE_2, NORTH_CAP_STAGE_2),
+                Shapes.or(NORTH_STAGE_3, NORTH_CAP_STAGE_3)
         };
 
         // South
+        // Stage 0
+        VoxelShape SOUTH_STAGE_0 = Shapes.box(0.40625, 0.5, 0.8125, 0.59375, 0.6875, 1.0);
+        VoxelShape SOUTH_CAP_STAGE_0 = Shapes.box(0.4375, 0.65625, 0.84375, 0.5625, 0.71875, 0.96875);
         // Stage 1
-         VoxelShape SOUTH_TOP_STAGE_1 = Block.box(7.0, 11.0, 13.5, 9.0, 11.5, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_1 = Block.box(6.5, 9.0, 13.0, 9.5, 11.0, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_1 = Block.box(7.0, 8.5, 13.5, 9.0, 9.0, 15.5);
-
+        VoxelShape SOUTH_STAGE_1 = Shapes.box(0.375, 0.40625, 0.75, 0.625, 0.65625, 1.0);
+        VoxelShape SOUTH_CAP_STAGE_1 = Shapes.box(0.40625, 0.625, 0.78125, 0.59375, 0.6875, 0.96875);
         // Stage 2
-         VoxelShape SOUTH_TOP_STAGE_2 = Block.box(6.5, 10.5, 12.5, 9.5, 11.0, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_2 = Block.box(6.0, 7.5, 12.0, 10.0, 10.5, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_2 = Block.box(6.5, 7.0, 12.5, 9.5, 7.5, 15.5);
-
-        // Stage 3
-         VoxelShape SOUTH_TOP_STAGE_3 = Block.box(6.0, 9.75, 11.5, 10.0, 10.5, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_3 = Block.box(5.5, 5.75, 11.0, 10.5, 9.75, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_3 = Block.box(6.0, 5.0, 11.5, 10.0, 5.75, 15.5);
-
-        // Full fruit
-         VoxelShape SOUTH_TOP_FRUIT = Block.box(6.0, 9.0, 11.0, 10.0, 10.0, 15.0);
-         VoxelShape SOUTH_BODY_FRUIT = Block.box(5.0, 4.0, 10.0, 11.0, 9.0, 16.0);
-         VoxelShape SOUTH_BOTTOM_FRUIT = Block.box(5.5, 3.0, 10.5, 10.5, 4.0, 15.5);
-
+        VoxelShape SOUTH_STAGE_2 = Shapes.box(0.34375, 0.296875, 0.6875, 0.65625, 0.609375, 1.0);
+        VoxelShape SOUTH_CAP_STAGE_2 = Shapes.box(0.375, 0.59375, 0.71875, 0.625, 0.65625, 0.96875);
+        // Stage 3 - Full Fruit
+        VoxelShape SOUTH_STAGE_3 = Shapes.box(0.3125, 0.1875, 0.625, 0.6875, 0.5625, 1.0);
+        VoxelShape SOUTH_CAP_STAGE_3 = Shapes.box(0.375, 0.5625, 0.6875, 0.625, 0.625, 0.9375);
         SOUTH_AABB = new VoxelShape[]{
-                Shapes.or(SOUTH_BODY_STAGE_1, SOUTH_TOP_STAGE_1, SOUTH_BOTTOM_STAGE_1),
-                Shapes.or(SOUTH_BODY_STAGE_2, SOUTH_TOP_STAGE_2, SOUTH_BOTTOM_STAGE_2),
-                Shapes.or(SOUTH_BODY_STAGE_3, SOUTH_TOP_STAGE_3, SOUTH_BOTTOM_STAGE_3),
-                Shapes.or(SOUTH_BODY_FRUIT, SOUTH_TOP_FRUIT, SOUTH_BOTTOM_FRUIT)
+                Shapes.or(SOUTH_STAGE_0, SOUTH_CAP_STAGE_0),
+                Shapes.or(SOUTH_STAGE_1, SOUTH_CAP_STAGE_1),
+                Shapes.or(SOUTH_STAGE_2, SOUTH_CAP_STAGE_2),
+                Shapes.or(SOUTH_STAGE_3, SOUTH_CAP_STAGE_3)
         };
 
         // East
+        // Stage 0
+        VoxelShape EAST_STAGE_0 = Shapes.box(0.8125, 0.5, 0.40625, 1.0, 0.6875, 0.59375);
+        VoxelShape EAST_CAP_STAGE_0 = Shapes.box(0.84375, 0.65625, 0.4375, 0.96875, 0.71875, 0.5625);
+
         // Stage 1
-         VoxelShape EAST_TOP_STAGE_1 = Block.box(13.5, 11.0, 7.0, 15.5, 11.5, 9.0);
-         VoxelShape EAST_BODY_STAGE_1 = Block.box(13.0, 9.0, 6.5, 16.0, 11.0, 9.5);
-         VoxelShape EAST_BOTTOM_STAGE_1 = Block.box(13.5, 8.5, 7.0, 15.5, 9.0, 9.0);
+        VoxelShape EAST_STAGE_1 = Shapes.box(0.75, 0.40625, 0.375, 1.0, 0.65625, 0.625);
+        VoxelShape EAST_CAP_STAGE_1 = Shapes.box(0.78125, 0.625, 0.40625, 0.96875, 0.6875, 0.59375);
 
         // Stage 2
-         VoxelShape EAST_TOP_STAGE_2 = Block.box(12.5, 10.5, 6.5, 15.5, 11.0, 9.5);
-         VoxelShape EAST_BODY_STAGE_2 = Block.box(12.0, 7.5, 6.0, 16.0, 10.5, 10.0);
-         VoxelShape EAST_BOTTOM_STAGE_2 = Block.box(12.5, 7.0, 6.5, 15.5, 7.5, 9.5);
+        VoxelShape EAST_STAGE_2 = Shapes.box(0.6875, 0.296875, 0.34375, 1.0, 0.609375, 0.65625);
+        VoxelShape EAST_CAP_STAGE_2 = Shapes.box(0.71875, 0.59375, 0.375, 0.96875, 0.65625, 0.625);
 
-        // Stage 3
-         VoxelShape EAST_TOP_STAGE_3 = Block.box(11.5, 9.75, 6.0, 15.5, 10.5, 10.0);
-         VoxelShape EAST_BODY_STAGE_3 = Block.box(11.0, 5.75, 5.5, 16.0, 9.75, 10.5);
-         VoxelShape EAST_BOTTOM_STAGE_3 = Block.box(11.5, 5.0, 6.0, 15.5, 5.75, 10.0);
-
-        // Full fruit
-         VoxelShape EAST_TOP_FRUIT = Block.box(11.0, 9.0, 6.0, 15.0, 10.0, 10.0);
-         VoxelShape EAST_BODY_FRUIT = Block.box(10.0, 4.0, 5.0, 16.0, 9.0, 11.0);
-         VoxelShape EAST_BOTTOM_FRUIT = Block.box(10.5, 3.0, 5.5, 15.5, 4.0, 10.5);
+        // Stage 3 - Full Fruit
+        VoxelShape EAST_STAGE_3 = Shapes.box(0.625, 0.1875, 0.3125, 1.0, 0.5625, 0.6875);
+        VoxelShape EAST_CAP_STAGE_3 = Shapes.box(0.6875, 0.5625, 0.375, 0.9375, 0.625, 0.625);
 
         EAST_AABB = new VoxelShape[]{
-                Shapes.or(EAST_BODY_STAGE_1, EAST_TOP_STAGE_1, EAST_BOTTOM_STAGE_1),
-                Shapes.or(EAST_BODY_STAGE_2, EAST_TOP_STAGE_2, EAST_BOTTOM_STAGE_2),
-                Shapes.or(EAST_BODY_STAGE_3, EAST_TOP_STAGE_3, EAST_BOTTOM_STAGE_3),
-                Shapes.or(EAST_BODY_FRUIT, EAST_TOP_FRUIT, EAST_BOTTOM_FRUIT)
+                Shapes.or(EAST_STAGE_0, EAST_CAP_STAGE_0),
+                Shapes.or(EAST_STAGE_1, EAST_CAP_STAGE_1),
+                Shapes.or(EAST_STAGE_2, EAST_CAP_STAGE_2),
+                Shapes.or(EAST_STAGE_3, EAST_CAP_STAGE_3)
         };
 
         // West
+        // Stage 0
+        VoxelShape WEST_STAGE_0 = Shapes.box(0.0, 0.5, 0.40625, 0.1875, 0.6875, 0.59375);
+        VoxelShape WEST_CAP_STAGE_0 = Shapes.box(0.03125, 0.65625, 0.4375, 0.15625, 0.71875, 0.5625);
         // Stage 1
-         VoxelShape WEST_TOP_STAGE_1 = Block.box(0.5, 11.0, 7.0, 2.5, 11.5, 9.0);
-         VoxelShape WEST_BODY_STAGE_1 = Block.box(0.0, 9.0, 6.5, 3.0, 11.0, 9.5);
-         VoxelShape WEST_BOTTOM_STAGE_1 = Block.box(0.5, 8.5, 7.0, 2.5, 9.0, 9.0);
-
+        VoxelShape WEST_STAGE_1 = Shapes.box(0.0, 0.40625, 0.375, 0.25, 0.65625, 0.625);
+        VoxelShape WEST_CAP_STAGE_1 = Shapes.box(0.03125, 0.625, 0.40625, 0.21875, 0.6875, 0.59375);
         // Stage 2
-         VoxelShape WEST_TOP_STAGE_2 = Block.box(0.5, 10.5, 6.5, 3.5, 11.0, 9.5);
-         VoxelShape WEST_BODY_STAGE_2 = Block.box(0.0, 7.5, 6.0, 4.0, 10.5, 10.0);
-         VoxelShape WEST_BOTTOM_STAGE_2 = Block.box(0.5, 7.0, 6.5, 3.5, 7.5, 9.5);
+        VoxelShape WEST_STAGE_2 = Shapes.box(0.0, 0.296875, 0.34375, 0.3125, 0.609375, 0.65625);
+        VoxelShape WEST_CAP_STAGE_2 = Shapes.box(0.03125, 0.59375, 0.375, 0.28125, 0.65625, 0.625);
+        // Stage 3 - Full Fruit
+        VoxelShape WEST_STAGE_3 = Shapes.box(0.0, 0.1875, 0.3125, 0.375, 0.5625, 0.6875);
+        VoxelShape WEST_CAP_STAGE_3 = Shapes.box(0.0625, 0.5625, 0.375, 0.3125, 0.625, 0.625);
 
-        // Stage 3
-         VoxelShape WEST_TOP_STAGE_3 = Block.box(0.5, 9.75, 6.0, 4.5, 10.5, 10.0);
-         VoxelShape WEST_BODY_STAGE_3 = Block.box(0.0, 5.75, 5.5, 5.0, 9.75, 10.5);
-         VoxelShape WEST_BOTTOM_STAGE_3 = Block.box(0.5, 5.0, 6.0, 4.5, 5.75, 10.0);
-
-        // Full fruit
-         VoxelShape WEST_TOP_FRUIT = Block.box(1.0, 9.0, 6.0, 5.0, 10.0, 10.0);
-         VoxelShape WEST_BODY_FRUIT = Block.box(0.0, 4.0, 5.0, 6.0, 9.0, 11.0);
-         VoxelShape WEST_BOTTOM_FRUIT = Block.box(0.5, 3.0, 5.5, 5.5, 4.0, 10.5);
-        
         WEST_AABB = new VoxelShape[]{
-                Shapes.or(WEST_BODY_STAGE_1, WEST_TOP_STAGE_1, WEST_BOTTOM_STAGE_1),
-                Shapes.or(WEST_BODY_STAGE_2, WEST_TOP_STAGE_2, WEST_BOTTOM_STAGE_2),
-                Shapes.or(WEST_BODY_STAGE_3, WEST_TOP_STAGE_3, WEST_BOTTOM_STAGE_3),
-                Shapes.or(WEST_BODY_FRUIT, WEST_TOP_FRUIT, WEST_BOTTOM_FRUIT)
-        };
+                Shapes.or(WEST_STAGE_0, WEST_CAP_STAGE_0),
+                Shapes.or(WEST_STAGE_1, WEST_CAP_STAGE_1),
+                Shapes.or(WEST_STAGE_2, WEST_CAP_STAGE_2),
+                Shapes.or(WEST_STAGE_3, WEST_CAP_STAGE_3)
+    };
     }
 }
