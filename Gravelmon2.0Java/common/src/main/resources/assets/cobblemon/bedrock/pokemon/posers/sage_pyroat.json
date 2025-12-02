@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('pyroat', 'q.look('head_ai')')",
+        "q.bedrock('pyroat', q.look('head_ai'))",
         "q.bedrock('pyroat', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('pyroat', 'q.look('head_ai')')",
+        "q.bedrock('pyroat', q.look('head_ai'))",
         "q.bedrock('pyroat', 'ground_walk')"
       ],
       "poseTypes": [

@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('fearow_egho', 'q.look('head_ai')')",
+        "q.bedrock('fearow_egho', q.look('head_ai'))",
         "q.bedrock('fearow_egho', 'ground_idle')"
       ],
       "poseTypes": [

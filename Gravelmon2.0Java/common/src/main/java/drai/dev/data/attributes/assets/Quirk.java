@@ -44,11 +44,11 @@ public class Quirk {
     }
 
     public String getAnimationFunction(String animationFileName) {
-        return "q.bedrock_quirk('" + animationFileName + getVariables() + "')";
+        return "q.bedrock_quirk('" + animationFileName + "', " + getVariables() + ")";
     }
 
     @NotNull protected String getVariables() {
-        String variables = "', '" + getAnimationsForJson();
+        String variables = BasicAnimationData.getAnimationReference(getAnimationsForJson());
         if(minSecondsBetweenOccurrences.isPresent()) variables += ", " + minSecondsBetweenOccurrences.get();
         if(maxSecondsBetweenOccurrences.isPresent()) variables += ", " + maxSecondsBetweenOccurrences.get();
         if(loopTimes.isPresent()) variables += ", " + loopTimes.get();
@@ -58,7 +58,7 @@ public class Quirk {
 
     public String getAnimationsForJson() {
         if(animations.size()==1) return animations.getFirst();
-        else return "q.array(" + String.join(", ", animations) + ")";
+        else return "q.array(" + String.join(", ", animations.stream().map(BasicAnimationData::getAnimationReference).toList()) + ")";
     }
 
     public List<String> getAnimations() {

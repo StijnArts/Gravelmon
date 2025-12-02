@@ -35,7 +35,7 @@
       ],
       "isBattle": false,
       "quirks": [
-        "q.bedrock_quirk('hoenniandragapult', 'q.array(blink1, blink2, blink3)')"
+        "q.bedrock_quirk('hoenniandragapult', q.array('blink1', 'blink2', 'blink3'))"
       ],
       "namedAnimations": {},
       "transformedParts": []
@@ -51,7 +51,7 @@
         "FLY"
       ],
       "quirks": [
-        "q.bedrock_quirk('hoenniandragapult', 'q.array(blink1, blink2, blink3)')"
+        "q.bedrock_quirk('hoenniandragapult', q.array('blink1', 'blink2', 'blink3'))"
       ],
       "namedAnimations": {},
       "transformedParts": []

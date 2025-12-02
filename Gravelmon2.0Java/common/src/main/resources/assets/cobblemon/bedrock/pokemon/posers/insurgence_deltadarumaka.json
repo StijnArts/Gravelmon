@@ -15,13 +15,13 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('darumaka_delta', 'q.look('head_ai')')",
+        "q.bedrock('darumaka_delta', q.look('head_ai'))",
         "q.bedrock('darumaka_delta', 'ground_idle')"
       ],
       "allPoseTypes": true,
       "quirks": [
         "q.bedrock_quirk('darumaka_delta', 'blink')",
-        "q.bedrock_quirk('darumaka_delta', 'cry, 30, 0, 0')"
+        "q.bedrock_quirk('darumaka_delta', 'cry', 30, 0, 0)"
       ],
       "namedAnimations": {},
       "transformedParts": []

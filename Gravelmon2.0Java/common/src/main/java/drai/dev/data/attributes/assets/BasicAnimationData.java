@@ -26,10 +26,15 @@ public abstract class BasicAnimationData {
         animations.forEach(animation -> {
             if(animation.equalsIgnoreCase("look"))
                 animationsJson.add("q.look('"+ getPosingFileData().head+ "')");
-            else animationsJson.add("q.bedrock('"+animationFileName+"', '"+animation+"')");
+            else animationsJson.add("q.bedrock('"+animationFileName+"', "+getAnimationReference(animation)+")");
         });
         jsonObject.add("animations", animationsJson);
         return jsonObject;
+    }
+
+    public static String getAnimationReference(String animation) {
+        if(animation.startsWith("q.")) return animation;
+        return "'" + animation + "'";
     }
 
     public PosingFileData getPosingFileData() {

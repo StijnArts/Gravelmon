@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('floressum', 'q.look('head_ai')')",
+        "q.bedrock('floressum', q.look('head_ai'))",
         "q.bedrock('floressum', 'ground_idle')"
       ],
       "poseTypes": [
@@ -40,7 +40,7 @@
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('floressum', 'q.look('head_ai')')",
+        "q.bedrock('floressum', q.look('head_ai'))",
         "q.bedrock('floressum', 'air_idle')"
       ],
       "poseTypes": [
@@ -55,7 +55,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('floressum', 'q.look('head_ai')')",
+        "q.bedrock('floressum', q.look('head_ai'))",
         "q.bedrock('floressum', 'air_fly')"
       ],
       "poseTypes": [

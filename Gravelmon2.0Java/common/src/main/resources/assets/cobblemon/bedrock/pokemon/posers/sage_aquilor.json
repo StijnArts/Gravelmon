@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('aquilor', 'q.look('head_ai')')",
+        "q.bedrock('aquilor', q.look('head_ai'))",
         "q.bedrock('aquilor', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "battle-standing": {
       "poseName": "battle-standing",
       "animations": [
-        "q.bedrock('aquilor', 'q.look('head_ai')')",
+        "q.bedrock('aquilor', q.look('head_ai'))",
         "q.bedrock('aquilor', 'battle_idle')"
       ],
       "poseTypes": [
@@ -58,7 +58,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('aquilor', 'q.look('head_ai')')",
+        "q.bedrock('aquilor', q.look('head_ai'))",
         "q.bedrock('aquilor', 'ground_walk')"
       ],
       "poseTypes": [
@@ -73,7 +73,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('aquilor', 'q.look('head_ai')')",
+        "q.bedrock('aquilor', q.look('head_ai'))",
         "q.bedrock('aquilor', 'air_fly')"
       ],
       "poseTypes": [
@@ -88,7 +88,7 @@
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('aquilor', 'q.look('head_ai')')",
+        "q.bedrock('aquilor', q.look('head_ai'))",
         "q.bedrock('aquilor', 'air_idle')"
       ],
       "poseTypes": [

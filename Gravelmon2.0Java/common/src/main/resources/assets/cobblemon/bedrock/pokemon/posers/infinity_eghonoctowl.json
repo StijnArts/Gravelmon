@@ -43,8 +43,8 @@
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('eghonoctowl', 'q.look('head_ai')')",
-        "q.bedrock('eghonoctowl', 'q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right')')",
+        "q.bedrock('eghonoctowl', q.look('head_ai'))",
+        "q.bedrock('eghonoctowl', q.sine_wing_flap(0.9, 0.9, 0, 'z', 'wing_left', 'wing_right'))",
         "q.bedrock('eghonoctowl', 'air_idle')"
       ],
       "poseTypes": [

@@ -4,6 +4,7 @@ import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
 import drai.dev.data.pokemon.*;
 import kotlin.*;
+import org.jetbrains.annotations.*;
 
 import java.util.*;
 import java.util.stream.*;
@@ -39,6 +40,15 @@ public class PosingFileData {
         poserJson.add("portraitTranslation", portraitCoords.getJsonArray());
         poserJson.addProperty("profileScale", profileScale);
         poserJson.add("profileTranslation", profileCoords.getJsonArray());
+        if(!firstPersonCameraOffsets.isEmpty()) {
+            var firstPersonCameraOffsetsJson = getCameraOffsetsJson(firstPersonCameraOffsets);
+            poserJson.add("firstPersonCameraOffset", firstPersonCameraOffsetsJson);
+        }
+        if(!thirdPersonCameraOffsets.isEmpty()) {
+            var firstPersonCameraOffsetsJson = getCameraOffsetsJson(thirdPersonCameraOffsets);
+            poserJson.add("thirdPersonCameraOffset", firstPersonCameraOffsetsJson);
+            poserJson.add("thirdPersonCameraOffsetNoViewBobbing", firstPersonCameraOffsetsJson);
+        }
         if(!miscAnimations.isEmpty()) {
             var animationsJson = new JsonObject();
             poserJson.add("animations", animationsJson);
@@ -48,6 +58,21 @@ public class PosingFileData {
         animations.forEach(animation->poses.add(animation.poseName, animation.getAnimationJson(animationFileName)));
         poserJson.add("poses", poses);
         return poserJson;
+    }
+
+    private @NotNull JsonObject getCameraOffsetsJson(Map<String, Vector3> offsets) {
+        var firstPersonCameraOffsetsJson = new JsonObject();
+        offsets.entrySet().stream().forEach(entry ->
+            firstPersonCameraOffsetsJson.add(entry.getKey(), vectorToJsonArray(entry.getValue())));
+        return firstPersonCameraOffsetsJson;
+    }
+
+    private static JsonElement vectorToJsonArray(Vector3 value) {
+        JsonArray jsonElements = new JsonArray();
+        jsonElements.add(value.x);
+        jsonElements.add(value.y);
+        jsonElements.add(value.z);
+        return jsonElements;
     }
 
     public void addMiscAnimations(String... types) {

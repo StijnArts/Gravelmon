@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('charizard_egho', 'q.look('head_ai')')",
+        "q.bedrock('charizard_egho', q.look('head_ai'))",
         "q.bedrock('charizard_egho', 'ground_idle')"
       ],
       "allPoseTypes": true,

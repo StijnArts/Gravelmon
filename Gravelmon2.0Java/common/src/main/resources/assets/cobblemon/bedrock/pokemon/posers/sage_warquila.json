@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', q.look('head_ai'))",
         "q.bedrock('warquila', 'ground_idle')"
       ],
       "poseTypes": [
@@ -43,7 +43,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', q.look('head_ai'))",
         "q.bedrock('warquila', 'air_fly')"
       ],
       "poseTypes": [
@@ -59,7 +59,7 @@
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('warquila', 'q.look('head_ai')')",
+        "q.bedrock('warquila', q.look('head_ai'))",
         "q.bedrock('warquila', 'air_idle')"
       ],
       "poseTypes": [

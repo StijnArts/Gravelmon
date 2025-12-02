@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('eghogloom', 'q.look('head_ai')')",
+        "q.bedrock('eghogloom', q.look('head_ai'))",
         "q.bedrock('eghogloom', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('eghogloom', 'q.look('head_ai')')",
+        "q.bedrock('eghogloom', q.look('head_ai'))",
         "q.bedrock('eghogloom', 'ground_walk')"
       ],
       "poseTypes": [

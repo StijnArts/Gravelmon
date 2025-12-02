@@ -33,7 +33,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('gorochu', 'q.look('head_ai')')",
+        "q.bedrock('gorochu', q.look('head_ai'))",
         "q.bedrock('gorochu', 'ground_idle')"
       ],
       "poseTypes": [
@@ -54,7 +54,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('gorochu', 'q.look('head_ai')')",
+        "q.bedrock('gorochu', q.look('head_ai'))",
         "q.bedrock('gorochu', 'ground_walk')"
       ],
       "poseTypes": [

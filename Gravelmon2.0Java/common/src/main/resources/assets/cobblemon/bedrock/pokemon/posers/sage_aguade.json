@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', q.look('head_ai'))",
         "q.bedrock('aguade', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', q.look('head_ai'))",
         "q.bedrock('aguade', 'ground_walk')"
       ],
       "poseTypes": [
@@ -57,7 +57,7 @@
     "floating": {
       "poseName": "floating",
       "animations": [
-        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', q.look('head_ai'))",
         "q.bedrock('aguade', 'water_idle')"
       ],
       "poseTypes": [
@@ -72,7 +72,7 @@
     "swimming": {
       "poseName": "swimming",
       "animations": [
-        "q.bedrock('aguade', 'q.look('head_ai')')",
+        "q.bedrock('aguade', q.look('head_ai'))",
         "q.bedrock('aguade', 'water_swim')"
       ],
       "poseTypes": [

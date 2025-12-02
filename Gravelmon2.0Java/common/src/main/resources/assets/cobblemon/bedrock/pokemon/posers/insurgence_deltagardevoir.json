@@ -18,7 +18,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('deltagardevoir', 'q.look('head_ai')')",
+        "q.bedrock('deltagardevoir', q.look('head_ai'))",
         "q.bedrock('deltagardevoir', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('deltagardevoir', 'q.look('head_ai')')",
+        "q.bedrock('deltagardevoir', q.look('head_ai'))",
         "q.bedrock('deltagardevoir', 'ground_walk')"
       ],
       "poseTypes": [

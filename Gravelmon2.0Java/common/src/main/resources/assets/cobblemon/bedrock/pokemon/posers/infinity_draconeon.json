@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('draconeon', 'q.look('head_ai')')",
+        "q.bedrock('draconeon', q.look('head_ai'))",
         "q.bedrock('draconeon', 'ground_idle')"
       ],
       "poseTypes": [
@@ -33,7 +33,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('draconeon', 'q.look('head_ai')')",
+        "q.bedrock('draconeon', q.look('head_ai'))",
         "q.bedrock('draconeon', 'ground_walk')"
       ],
       "poseTypes": [

@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', q.look('head_ai'))",
         "q.bedrock('emolga_hoennian', 'ground_idle')"
       ],
       "poseTypes": [
@@ -34,7 +34,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', q.look('head_ai'))",
         "q.bedrock('emolga_hoennian', 'air_fly')"
       ],
       "poseTypes": [
@@ -49,7 +49,7 @@
     "hovering": {
       "poseName": "hovering",
       "animations": [
-        "q.bedrock('emolga_hoennian', 'q.look('head_ai')')",
+        "q.bedrock('emolga_hoennian', q.look('head_ai'))",
         "q.bedrock('emolga_hoennian', 'air_idle')"
       ],
       "poseTypes": [

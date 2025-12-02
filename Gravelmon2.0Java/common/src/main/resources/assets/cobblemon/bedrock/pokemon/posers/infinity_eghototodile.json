@@ -19,7 +19,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('totodile_egho', 'q.look('head_ai')')",
+        "q.bedrock('totodile_egho', q.look('head_ai'))",
         "q.bedrock('totodile_egho', 'ground_idle')"
       ],
       "poseTypes": [

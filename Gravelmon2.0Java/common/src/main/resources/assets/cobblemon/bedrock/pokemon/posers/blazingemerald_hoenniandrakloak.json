@@ -30,7 +30,7 @@
       ],
       "isBattle": false,
       "quirks": [
-        "q.bedrock_quirk('hoenniandrakloak', 'q.array(blink1, blink2)')"
+        "q.bedrock_quirk('hoenniandrakloak', q.array('blink1', 'blink2'))"
       ],
       "namedAnimations": {},
       "transformedParts": []
@@ -46,7 +46,7 @@
         "FLY"
       ],
       "quirks": [
-        "q.bedrock_quirk('hoenniandrakloak', 'q.array(blink1, blink2)')"
+        "q.bedrock_quirk('hoenniandrakloak', q.array('blink1', 'blink2'))"
       ],
       "namedAnimations": {},
       "transformedParts": []

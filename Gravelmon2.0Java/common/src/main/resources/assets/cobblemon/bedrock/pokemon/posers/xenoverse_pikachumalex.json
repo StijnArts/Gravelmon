@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('pikachu_x_male', 'q.look('head_ai')')",
+        "q.bedrock('pikachu_x_male', q.look('head_ai'))",
         "q.bedrock('pikachu_x_male', 'ground_idle')"
       ],
       "poseTypes": [
@@ -42,7 +42,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('pikachu_x_male', 'q.look('head_ai')')",
+        "q.bedrock('pikachu_x_male', q.look('head_ai'))",
         "q.bedrock('pikachu_x_male', 'ground_walk')"
       ],
       "poseTypes": [

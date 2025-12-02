@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('burrmudail', 'q.look('head_ai')')",
+        "q.bedrock('burrmudail', q.look('head_ai'))",
         "q.bedrock('burrmudail', 'ground_idle')"
       ],
       "allPoseTypes": true,

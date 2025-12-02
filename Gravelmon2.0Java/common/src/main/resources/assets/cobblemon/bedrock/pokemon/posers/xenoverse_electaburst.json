@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('electaburst', 'q.look('head_ai')')"
+        "q.bedrock('electaburst', q.look('head_ai'))"
       ],
       "poseTypes": [
         "STAND",

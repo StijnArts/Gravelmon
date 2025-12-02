@@ -33,7 +33,7 @@
         "NONE"
       ],
       "quirks": [
-        "q.bedrock_quirk('joltik_x', 'q.array(blink1, blink2)')"
+        "q.bedrock_quirk('joltik_x', q.array('blink1', 'blink2'))"
       ],
       "namedAnimations": {},
       "transformedParts": []
@@ -47,7 +47,7 @@
         "WALK"
       ],
       "quirks": [
-        "q.bedrock_quirk('joltik_x', 'q.array(blink1, blink2)')"
+        "q.bedrock_quirk('joltik_x', q.array('blink1', 'blink2'))"
       ],
       "namedAnimations": {},
       "transformedParts": []

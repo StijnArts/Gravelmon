@@ -36,6 +36,6 @@ public class PrimaryQuirk extends Quirk {
 
     @Override
     public String getAnimationFunction(String animationFileName) {
-        return "q.bedrock_primary_quirk('" + animationFileName + getVariables() + "')";
+        return "q.bedrock_primary_quirk('" + animationFileName + "', " + getVariables() + ")";
     }
 }

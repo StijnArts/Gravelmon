@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('spiritomb_x', 'q.look('head_ai')')",
+        "q.bedrock('spiritomb_x', q.look('head_ai'))",
         "q.bedrock('spiritomb_x', 'ground_idle')",
         "q.bedrock('spiritomb_x', 'orbs')"
       ],
@@ -41,7 +41,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('spiritomb_x', 'q.look('head_ai')')",
+        "q.bedrock('spiritomb_x', q.look('head_ai'))",
         "q.bedrock('spiritomb_x', 'ground_walk')",
         "q.bedrock('spiritomb_x', 'orbs')"
       ],

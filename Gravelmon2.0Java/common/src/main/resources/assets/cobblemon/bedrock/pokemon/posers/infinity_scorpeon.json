@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('scorpeon', 'q.look('head_ai')')",
+        "q.bedrock('scorpeon', q.look('head_ai'))",
         "q.bedrock('scorpeon', 'ground_idle')"
       ],
       "poseTypes": [
@@ -35,7 +35,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('scorpeon', 'q.look('head_ai')')",
+        "q.bedrock('scorpeon', q.look('head_ai'))",
         "q.bedrock('scorpeon', 'ground_walk')"
       ],
       "poseTypes": [

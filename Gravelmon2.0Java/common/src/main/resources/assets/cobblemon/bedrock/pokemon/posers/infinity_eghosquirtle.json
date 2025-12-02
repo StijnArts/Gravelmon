@@ -15,8 +15,8 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('squirtle_egho', 'q.look('head_ai')')",
-        "q.bedrock('squirtle_egho', 'q.look('head_ai')')",
+        "q.bedrock('squirtle_egho', q.look('head_ai'))",
+        "q.bedrock('squirtle_egho', q.look('head_ai'))",
         "q.bedrock('squirtle_egho', 'ground_idle')"
       ],
       "allPoseTypes": true,

@@ -2,6 +2,7 @@ package drai.dev.data.attributes.assets;
 
 import com.cobblemon.mod.common.entity.*;
 import com.google.gson.*;
+import org.jetbrains.annotations.*;
 
 import java.util.*;
 
@@ -49,6 +50,10 @@ public class AnimationData extends BasicAnimationData {
         return new AnimationData("walking", List.of(PoseType.WALK), List.of("ground_walk"), List.of(), 10, animator);
     }
 
+    public static AnimationData runningAnimation(String... animator){
+        return new AnimationData("running", List.of(PoseType.WALK), List.of("ground_run"), List.of(), 10, animator).setCondition("!q.in_air && q.is_sprinting");
+    }
+
     public static AnimationData hoveringAnimation(String... animator){
         return new AnimationData("hovering", List.of(PoseType.HOVER), List.of("air_idle"), List.of(), 10, animator);
     }
@@ -58,7 +63,7 @@ public class AnimationData extends BasicAnimationData {
     }
 
     public static AnimationData glidingAnimation(String... animator){
-        return new AnimationData("flying", List.of(PoseType.FLY), List.of("air_fly"), List.of(), 10, animator);
+        return new AnimationData("gliding", List.of(PoseType.FLY), List.of("air_glide"), List.of(), 10, animator);
     }
 
     public static AnimationData floatingAnimation(String... animator){
@@ -87,8 +92,17 @@ public class AnimationData extends BasicAnimationData {
         return new AnimationData("water_sleeping", List.of(PoseType.FLOAT), List.of("water_sleep"), List.of(), 10, animator).inWater();
     }
 
+    public static @NotNull AnimationData jumpAnimation(String... animator) {
+        return new AnimationData("jump", List.of(PoseType.STAND, PoseType.WALK), List.of("ride_jump"), List.of(), 5, animator).setCondition("q.in_air");
+    }
+
     public AnimationData notBattle() {
         setIsBattle(false);
+        return this;
+    }
+
+    public AnimationData notUnderWater() {
+        setIsUnderwater(false);
         return this;
     }
 
@@ -158,11 +172,14 @@ public class AnimationData extends BasicAnimationData {
             json.add("poseTypes", poseTypesJson);
         }
 
-//        json.addProperty("transformTicks", transformTicks);
         isBattle.ifPresent(aBoolean -> json.addProperty("isBattle", aBoolean));
         isTouchingWater.ifPresent(aBoolean -> json.addProperty("isTouchingWater", aBoolean));
         isUnderwater.ifPresent(aBoolean -> json.addProperty("isUnderWater", aBoolean));
         allPoseTypes.ifPresent(aBoolean -> json.addProperty("allPoseTypes", aBoolean));
+        if(transformTicks!=10) {
+            json.addProperty("transformTicks", transformTicks);
+            json.addProperty("transformToTicks", transformTicks);
+        }
         if(condition!=null)  json.addProperty("condition", condition);
         var quirksJson = new JsonArray();
         var transformedParts = new JsonArray();
@@ -227,6 +244,11 @@ public class AnimationData extends BasicAnimationData {
     public AnimationData markAsBackupPose() {
         isBackup = true;
         poseTypes.clear();
+        return this;
+    }
+
+    public AnimationData unmarkAsBackupPose() {
+        isBackup = false;
         return this;
     }
 

@@ -161,41 +161,117 @@ public class DeltaCharizard extends Pokemon {
                 .addLayer(new SimpleTextureLayerData("glow", "deltacharizard_emissive",
                         Optional.of(true), Optional.of(true), false, true));
         getPosingFileData().setPortraitData(2.1f, new Vector3(-1.11, 2.43, 0));
-        getPosingFileData().setProfileData(.51f, new Vector3(0.05, 0.99, -10));
+        getPosingFileData().setProfileData(.54f, new Vector3(0.05, 0.96, -10));
+
         getPosingFileData().head = "head_ai";
         getPosingFileData().setRootBone("charizard");
+
         getPosingFileData().addFirstPersonCameraOffset("seat_1", new Vector3(0, 0.25, 0));
         getPosingFileData().setThirdPersonCameraOffset("seat_1", new Vector3(0, 3, 6), new Vector3(0, 3, 6));
-        getPosingFileData().addMiscAnimations("cry", "recoil");
+
+        String[] lookAnimations = new ArrayList<>(List.of("q.look('neck', 0.5, 0.5, 15, -15, 30, -30)",
+                "q.look('neck2', 0.5, 0.5, 10, -10, 25, -25)",
+                "q.look('neck3', 0.45, 0.45, 10, -10, 20, -20)",
+                "q.look('neck4', 0.35, 0.35, 5, -5, 15, -15)",
+                "q.look('head', 0.4, 0.25, 5, -5, 10, -10)")).toArray(new String[5]);
+
+        getPosingFileData().addMiscAnimations(
+                "cry",
+                "recoil"
+        );
         getPosingFileData().addMiscAnimation("physical", "q.bedrock_primary('deltacharizard', 'physical', q.curve('symmetrical_wide'))");
         getPosingFileData().addMiscAnimation("special", "q.bedrock_primary('deltacharizard', 'special', q.curve('symmetrical_wide'))");
         getPosingFileData().addMiscAnimation("air_physical", "q.bedrock_primary('deltacharizard', 'air_physical', q.curve('symmetrical_wide'))");
         getPosingFileData().addMiscAnimation("air_special", "q.bedrock_primary('deltacharizard', 'air_special', q.curve('symmetrical_wide'))");
         getPosingFileData().addMiscAnimation("status", "q.bedrock_primary('deltacharizard', 'status', q.curve('symmetrical_wide'))");
+
+        ConditionalAnimation holdItemConditional = new ConditionalAnimation("hold_item", "q.is_holding_item");
         getPosingFileData().addAnimations(List.of(
-                AnimationData.emptyAnimation().setPoseName("portrait").setPoseTypes(List.of(PoseType.PORTRAIT, PoseType.PROFILE)).notBattle().notTouchingWater()
-                        .addAnimations("q.look('head_ai')", "q.bedrock('deltacharizard', 'ground_idle')").withBlink(),
-                AnimationData.battleIdleAnimation().withLook().addAnimations("q.bedrock('deltacharizard', 'battle_idle')")
-                        .withBlink().addQuirk(Quirk.simpleQuirk("battle_quirk")).addNamedAnimation("cry", "q.bedrock_primary('deltacharizard', 'battle_cry', q.curve('symmetrical_wide'))"),
-                AnimationData.battleFlyingAnimation().withLook().withBlink()
+
+                AnimationData.emptyAnimation().setPoseName("portrait").setPoseTypes(List.of(PoseType.PORTRAIT, PoseType.PROFILE)).notBattle().notTouchingWater().unmarkAsBackupPose()
+                        .addAnimations(lookAnimations)
+                        .addAnimations( "q.bedrock('deltacharizard', 'ground_idle')")
+                        .withBlink()
+                        .addConditionalAnimation(holdItemConditional),
+
+                AnimationData.battleIdleAnimation().addAnimations(lookAnimations).notTouchingWater()
+                        .withBlink()
+                        .addQuirk(Quirk.simpleQuirk("battle_quirk"))
+                        .addNamedAnimation("cry", "q.bedrock_primary('deltacharizard', 'battle_cry', q.curve('symmetrical_wide'))")
+                        .addConditionalAnimation(holdItemConditional),
+
+                AnimationData.battleFlyingAnimation()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addConditionalAnimation(holdItemConditional)
                         .addNamedAnimation("cry", "q.bedrock_primary('deltacharizard', 'air_battle_cry', q.curve('symmetrical_wide'))")
                         .addNamedAnimation("recoil", "q.bedrock_stateful('deltacharizard', 'air_recoil')")
                         .addNamedAnimation("physical", "q.bedrock_primary('deltacharizard', 'air_physical', q.curve('symmetrical'))")
                         .addNamedAnimation("special", "q.bedrock_primary('deltacharizard', 'air_special', q.curve('symmetrical_wide'))")
                         .addNamedAnimation("status", "q.bedrock_primary('deltacharizard', 'air_status', q.curve('symmetrical_wide'))"),
-                AnimationData.standingAnimation().removePoseTypes(PoseType.PORTRAIT, PoseType.PROFILE).withLook().withBlink().addQuirk("ground_quirk")
+
+                AnimationData.jumpAnimation().addAnimations(lookAnimations)
+                        .addConditionalAnimation(holdItemConditional).withBlink(),
+
+                AnimationData.runningAnimation().addPoseType(PoseType.SWIM).notTouchingWater()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addConditionalAnimation(holdItemConditional)
+                        .addConditionalAnimation(new ConditionalAnimation("ride_ground_run", "q.is_ridden")).withBlink(),
+
+                AnimationData.standingAnimation().removePoseTypes(PoseType.PORTRAIT, PoseType.PROFILE).setCondition("!q.in_air").notTouchingWater()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addConditionalAnimation(holdItemConditional)
+                        .addQuirk("ground_quirk")
                         .addQuirk(
                                 new PrimaryQuirk("idle_quirk", 1, 20, 40, "q.curve('symmetrical')")
                         ),
-                AnimationData.walkingAnimation().withLook().withBlink().addPoseType(PoseType.SWIM).notTouchingWater(),
-                AnimationData.sleepingAnimation().addQuirk("sleep_quirk").addNamedAnimation("cry", "q.bedrock_stateful('dummy', 'cry')"),
-                AnimationData.hoveringAnimation().notBattle().withLook().withBlink(),
-                AnimationData.flyingAnimation().setCondition("!q.is_gliding").withLook().withBlink().addQuirk("air_fly_quirk")
-                        .addConditionalAnimation(new ConditionalAnimation("ride_air_look", "q.is_ridden")),
-                AnimationData.surfaceFloatingAnimation().withLook().withBlink().clearAnimations().addAnimation("surfacewater_idle")
-                        .setTransformedPartDataList(List.of(new TransformedPartData("body", new Vector3(0,22,0)))),
-                AnimationData.surfaceSwimmingAnimation().withLook().withBlink().clearAnimations().addAnimation("surfacewater_swim")
+
+                AnimationData.walkingAnimation().addPoseType(PoseType.SWIM).notTouchingWater().setCondition("!q.in_air && !q.is_sprinting")
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addConditionalAnimation(holdItemConditional)
+                        .addConditionalAnimation(new ConditionalAnimation("ride_ground_run", "q.is_ridden")),
+
+                AnimationData.hoveringAnimation().notBattle()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addQuirk("air_fly_quirk")
+                        .addConditionalAnimation(holdItemConditional),
+
+                AnimationData.flyingAnimation().setCondition("!q.is_gliding").notBattle()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addQuirk("air_fly_quirk")
+                        .addConditionalAnimation(holdItemConditional)
+                        .addConditionalAnimation(new ConditionalAnimation("ride_air_fly", "q.is_ridden")),
+
+                AnimationData.glidingAnimation().setCondition("q.is_gliding").notBattle()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addAnimation("ride_air_dive")
+                        .addQuirk("air_fly_quirk")
+                        .addConditionalAnimation(holdItemConditional)
+                        .addConditionalAnimation(new ConditionalAnimation("ride_air_fly", "q.is_ridden")),
+
+                AnimationData.surfaceFloatingAnimation().clearAnimations().notUnderWater()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addAnimation("surfacewater_idle")
                         .setTransformedPartDataList(List.of(new TransformedPartData("body", new Vector3(0,22,0))))
+                        .addConditionalAnimation(holdItemConditional),
+                AnimationData.surfaceSwimmingAnimation().notUnderWater()
+                        .clearAnimations()
+                        .addAnimations(lookAnimations)
+                        .withBlink()
+                        .addAnimation("surfacewater_swim")
+                        .setTransformedPartDataList(List.of(new TransformedPartData("body", new Vector3(0,22,0))))
+                        .addConditionalAnimation(holdItemConditional),
+                AnimationData.sleepingAnimation()
+                        .addQuirk("sleep_quirk")
+                        .addNamedAnimation("cry", "q.bedrock_stateful('dummy', 'cry')")
+                        .addConditionalAnimation(holdItemConditional)
         ));
     }
 }

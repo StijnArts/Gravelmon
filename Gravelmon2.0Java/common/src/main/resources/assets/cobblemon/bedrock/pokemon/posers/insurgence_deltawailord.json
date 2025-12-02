@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', q.look('head_ai'))",
         "q.bedrock('deltawailord', 'ground_idle')"
       ],
       "poseTypes": [
@@ -38,7 +38,7 @@
     "walking": {
       "poseName": "walking",
       "animations": [
-        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', q.look('head_ai'))",
         "q.bedrock('deltawailord', 'ground_walk')"
       ],
       "poseTypes": [
@@ -51,7 +51,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('deltawailord', 'q.look('head_ai')')",
+        "q.bedrock('deltawailord', q.look('head_ai'))",
         "q.bedrock('deltawailord', 'air_fly')"
       ],
       "poseTypes": [

@@ -15,7 +15,7 @@
     "standing": {
       "poseName": "standing",
       "animations": [
-        "q.bedrock('deltapidgeot', 'q.look('head_ai')')",
+        "q.bedrock('deltapidgeot', q.look('head_ai'))",
         "q.bedrock('deltapidgeot', 'ground_idle')"
       ],
       "poseTypes": [
@@ -38,7 +38,7 @@
     "flying": {
       "poseName": "flying",
       "animations": [
-        "q.bedrock('deltapidgeot', 'q.look('head_ai')')",
+        "q.bedrock('deltapidgeot', q.look('head_ai'))",
         "q.bedrock('deltapidgeot', 'air_fly')"
       ],
       "poseTypes": [

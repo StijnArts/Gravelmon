@@ -22,7 +22,7 @@
       ],
       "allPoseTypes": true,
       "quirks": [
-        "q.bedrock_quirk('oculeus', 'q.array(blink1, blink2, blink3, blink4, blink5, blink6, blink7, blink8, blink9, blink10, blink11, blink12)')"
+        "q.bedrock_quirk('oculeus', q.array('blink1', 'blink2', 'blink3', 'blink4', 'blink5', 'blink6', 'blink7', 'blink8', 'blink9', 'blink10', 'blink11', 'blink12'))"
       ],
       "namedAnimations": {},
       "transformedParts": []
