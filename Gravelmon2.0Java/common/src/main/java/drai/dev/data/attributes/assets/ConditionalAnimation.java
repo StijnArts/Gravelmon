@@ -14,7 +14,7 @@ public class ConditionalAnimation {
     public JsonObject getAsJson(String animationFileName){
         var json = new JsonObject();
         json.addProperty("condition", condition);
-        json.addProperty("animation", animation);
+        json.addProperty("animation", "q.bedrock('"+animationFileName+"', '"+animation+"')");
         return json;
     }
 }
